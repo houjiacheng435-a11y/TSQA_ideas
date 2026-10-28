@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\HJC\\Desktop\\RA\\时序\\realtime-tslm-handoff-lean\\realtime-tslm\\data\\prepared\\tsrbench-selected.jsonl",
+  "output": "C:\\Users\\HJC\\Desktop\\RA\\时序\\realtime-tslm-handoff-lean\\counterfactual-ts-reasoning\\data\\source\\seed100.jsonl",
+  "rows": 100,
+  "family_counts": {
+    "paired_max_flow": 50,
+    "wind_capacity_factor": 50
+  },
+  "source_sha256": "c6f5045f012647602919ed499bb1a72d973fb0c0fa5083ece735ba0fb5a22a31",
+  "output_sha256": "51f411055550aa24d308760b16542fafb63797d74c26e51de12b117cee976f12",
+  "non_supported_numeric_rows_skipped": 300
+}

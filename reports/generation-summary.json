@@ -1,0 +1,37 @@
+{
+  "seed": "C:\\Users\\HJC\\Desktop\\RA\\时序\\realtime-tslm-handoff-lean\\counterfactual-ts-reasoning\\data\\source\\seed100.jsonl",
+  "output": "C:\\Users\\HJC\\Desktop\\RA\\时序\\realtime-tslm-handoff-lean\\counterfactual-ts-reasoning\\data\\generated\\counterfactuals.jsonl",
+  "seed_rows": 100,
+  "generated_rows": 195,
+  "generated_by_kind": {
+    "answer_preserving": 100,
+    "answer_changing": 95
+  },
+  "skipped": [
+    {
+      "parent_id": "tsr-numerical_reasoning-206",
+      "kind": "answer_changing",
+      "reason": "No bounded existing traffic option can become the new unique maximum"
+    },
+    {
+      "parent_id": "tsr-numerical_reasoning-211",
+      "kind": "answer_changing",
+      "reason": "No bounded existing traffic option can become the new unique maximum"
+    },
+    {
+      "parent_id": "tsr-numerical_reasoning-216",
+      "kind": "answer_changing",
+      "reason": "No bounded existing traffic option can become the new unique maximum"
+    },
+    {
+      "parent_id": "tsr-numerical_reasoning-232",
+      "kind": "answer_changing",
+      "reason": "No bounded existing traffic option can become the new unique maximum"
+    },
+    {
+      "parent_id": "tsr-numerical_reasoning-234",
+      "kind": "answer_changing",
+      "reason": "No bounded existing traffic option can become the new unique maximum"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "counterfactual_ts_reasoning_input_manifest_v1",
+  "seed": {
+    "path": "C:\\Users\\HJC\\Desktop\\RA\\时序\\realtime-tslm-handoff-lean\\counterfactual-ts-reasoning\\data\\source\\seed100.jsonl",
+    "sha256": "51f411055550aa24d308760b16542fafb63797d74c26e51de12b117cee976f12",
+    "rows": 100,
+    "family_counts": {
+      "paired_max_flow": 50,
+      "wind_capacity_factor": 50
+    }
+  },
+  "variants": {
+    "path": "C:\\Users\\HJC\\Desktop\\RA\\时序\\realtime-tslm-handoff-lean\\counterfactual-ts-reasoning\\data\\generated\\counterfactuals.jsonl",
+    "sha256": "6ffe8eb9069a5430607e186f7e45a659987c515d486f1aba596f54d81f95432e",
+    "rows": 195,
+    "family_kind_counts": {
+      "paired_max_flow/answer_changing": 45,
+      "paired_max_flow/answer_preserving": 50,
+      "wind_capacity_factor/answer_changing": 50,
+      "wind_capacity_factor/answer_preserving": 50
+    }
+  },
+  "inference_input": {
+    "path": "C:\\Users\\HJC\\Desktop\\RA\\时序\\realtime-tslm-handoff-lean\\counterfactual-ts-reasoning\\data\\generated\\inference_input.jsonl",
+    "sha256": "fbe85fbf8ec2492324d27f50500f877c987f728a30571f4370ff8fd0127abb38",
+    "rows": 295,
+    "first_id": "tsr-numerical_reasoning-200",
+    "last_id": "cf-answer_changing--tsr-numerical_reasoning-349"
+  }
+}

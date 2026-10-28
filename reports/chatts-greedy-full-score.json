@@ -1,0 +1,34 @@
+{
+  "source_accuracy": {
+    "scored": 100,
+    "correct": 40,
+    "accuracy": 0.4
+  },
+  "counterfactual_accuracy": {
+    "answer_preserving": {
+      "scored": 100,
+      "correct": 40,
+      "accuracy": 0.4
+    },
+    "answer_changing": {
+      "scored": 95,
+      "correct": 26,
+      "accuracy": 0.2736842105263158
+    }
+  },
+  "transition_metrics": {
+    "answer_preserving": {
+      "conditioned_on_correct_parent": 40,
+      "successful": 40,
+      "rate": 1.0
+    },
+    "answer_changing": {
+      "conditioned_on_correct_parent": 38,
+      "successful": 1,
+      "rate": 0.02631578947368421
+    }
+  },
+  "prediction_rows": 295,
+  "unparsed_prediction_ids": [],
+  "unparsed_prediction_count": 0
+}

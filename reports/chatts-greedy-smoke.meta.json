@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "records": 24,
+  "started_unix": 1793105748.940977,
+  "elapsed_seconds": 48.13550424575806,
+  "input": "data/generated/smoke_input.jsonl",
+  "input_sha256": "ad561737ddb94292d96ad015271a8dd2add9808a6f12b124faee573059c01aeb",
+  "output": "reports/chatts-greedy-smoke.jsonl",
+  "output_sha256": "cac204bcf7a4410e6079d748a4241e1b377d8fa0295c41cb5232e2149718242c",
+  "script_sha256": "9752238aab2e6a21f5c59032f202785bcb9b9a5b3e809efc3e9ef424bdab9abb",
+  "runtime_sha256": "18824686ff80fc3b218f9830fbc6a23e246f9225426b7839066d0d0c3f0ab813",
+  "model": "../models/chatts-8b",
+  "device": "cuda:0",
+  "max_new_tokens": 128,
+  "limit": null,
+  "note": "单卡逐题贪心推理记录；跨机器、跨环境的耗时不可直接比较。"
+}

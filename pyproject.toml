@@ -1,0 +1,8 @@
+[project]
+name = "counterfactual-ts-reasoning"
+version = "0.1.0"
+description = "Programmatic counterfactual evaluation for time-series reasoning"
+requires-python = ">=3.10"
+
+[tool.unittest]
+start-directory = "tests"

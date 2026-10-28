@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Preserve experiment inputs, predictions, metadata and reports in Git.
+# Exclude local secrets, environments, caches and model weights.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.cache/
+models/
+checkpoints/
+*.safetensors
+pytorch_model*.bin
+*.pt
+*.pth
+*.zip
+*.tar
+*.tar.gz
