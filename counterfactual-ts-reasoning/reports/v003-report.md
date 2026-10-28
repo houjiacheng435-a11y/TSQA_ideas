@@ -126,16 +126,18 @@
 
 ## 4. 本次核对的论文：哪些已经有先例
 
-以下列出本次实际核对的工作，作为针对性阅读记录，不代表已经完成系统综述。“思维链”指模型先输出中间推理步骤，再给最终答案。
+以下列出本次实际核对的工作，作为针对性阅读记录，不代表已经完成系统综述。论文标题和作者姓氏保留英文原名；中文仅用于内容解释。英文原文引述和实验回复保持原样。“思维链”指模型先输出中间推理步骤，再给最终答案。
 
 | 论文 | 已有发现或设计 | 对当前项目的约束 |
 |---|---|---|
-| Wei 等，2022，Chain-of-Thought Prompting Elicits Reasoning in Large Language Models | §3.3 直接比较推理在答案前后；答案后的推理没有取得前置推理的相同收益 | “先算后选有效”已有直接先例。我们的结果是当前设置下的控制发现。[原文](https://arxiv.org/html/2201.11903v6) |
-| Zheng 等，ICLR 2024，Large Language Models Are Not Robust Multiple Choice Selectors | 研究选项位置变化、选项字母偏好，并提出 PriDe 去偏方法 | 选项偏好本身不是新发现；排列应作为必要控制。[论文](https://arxiv.org/abs/2309.03882) |
-| Turpin 等，NeurIPS 2023，Language Models Don't Always Say What They Think | 解释可能替受到偏置影响的错误答案寻找理由，而不报告真正影响回答的偏置信息 | 不能把合理解释当作内部推理的直接证明。[论文](https://arxiv.org/abs/2305.04388) |
-| ReasonCast，2026-08 预印本，Towards Explainable Time Series Forecasting with Reasoning | §5.2 检查推理与预测的输出顺序；还通过改变生成参数检验敏感性和稳定性 | 时序领域也有输出顺序及反事实响应研究。它涉及训练和预测，与本项目的选择题提示对照不完全相同。[原文](https://arxiv.org/html/2608.01875v1) |
+| Wei et al.，2022，`Chain-of-Thought Prompting Elicits Reasoning in Large Language Models` | §3.3 直接比较推理在答案前后；答案后的推理没有取得前置推理的相同收益 | “先算后选有效”已有直接先例。我们的结果是当前设置下的控制发现。[原文](https://arxiv.org/html/2201.11903v6) |
+| Zheng et al.，ICLR 2024，`Large Language Models Are Not Robust Multiple Choice Selectors` | 研究选项位置变化、选项字母偏好，并提出 PriDe 去偏方法 | 选项偏好本身不是新发现；排列应作为必要控制。[论文](https://arxiv.org/abs/2309.03882) |
+| Turpin et al.，NeurIPS 2023，`Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting` | 解释可能替受到偏置影响的错误答案寻找理由，而不报告真正影响回答的偏置信息 | 不能把合理解释当作内部推理的直接证明。[论文](https://arxiv.org/abs/2305.04388) |
+| 2026-08 预印本，`ReasonCast: Towards Explainable Time Series Forecasting with Reasoning` | §5.2 检查推理与预测的输出顺序；还通过改变生成参数检验敏感性和稳定性 | 时序领域也有输出顺序及反事实响应研究。它涉及训练和预测，与本项目的选择题提示对照不完全相同。[原文](https://arxiv.org/html/2608.01875v1) |
 
 ### TimeLitmus：核心诊断思路重合，但不能据此否定全部改进研究
+
+完整英文标题为 `TimeLitmus: A Diagnostic Benchmark for Cross-Modal Understanding and Explanation Faithfulness in Event-Conditioned Time-Series Prediction`。
 
 TimeLitmus（2026-09 预印本）针对事件与时序的联合预测，已有答案改变配对、答案保持配对、独立提问、选项位置控制和解释—行为一致性检查。其输入以文本数值序列呈现，答案是响应类别；我们的任务是精确计算、使用原生时序编码。[正文 §3–5、附录 B](https://arxiv.org/html/2609.24677v1)
 

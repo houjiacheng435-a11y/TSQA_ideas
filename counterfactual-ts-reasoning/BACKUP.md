@@ -1,8 +1,12 @@
 # 当前实验备份说明
 
-本仓库保存 `counterfactual-ts-reasoning` 项目的代码、当前实验输入、原始模型
-回复、评分结果、运行元数据和输入哈希清单。GitHub 仓库名称为 `TSQA_ideas`；
-仓库根目录对应服务器上的 `counterfactual-ts-reasoning/`。
+本目录保存 `counterfactual-ts-reasoning` 项目的代码、当前实验输入、原始模型
+回复、评分结果、运行元数据和输入哈希清单。GitHub 仓库名称为 `TSQA_ideas`，
+用于存放多个研究方向；当前项目位于其中的 `counterfactual-ts-reasoning/` 子目录。
+
+服务器上的原实验目录仍为 `/root/autodl-tmp/cf-run/counterfactual-ts-reasoning/`。
+新的总仓库工作副本为 `/root/autodl-tmp/cf-run/TSQA_ideas/`；后续 Git 提交和上传
+使用该总仓库。原实验目录的文件、未纳入 Git 的结果和推理依赖均保留。
 
 本次备份不重新生成数据或运行模型，原有 `data/` 和 `reports/` 文件按原字节
 保存。当前完整运行包含 295 条输出，其原始记录为
