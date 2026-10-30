@@ -1,0 +1,13 @@
+Repair this bounded retrieval program using only broker functions, no imports,
+files or network. Previous successful fetches remain in initial; the total
+budget is not reset between attempts. Only remaining_budget more fetches allowed.
+Set result to a dict with sufficient (bool) and answer (YES/NO/UNKNOWN).
+Current state/schema: {schema}
+Question: {question}
+Plan: {plan}
+Rules: {experiences}
+Metric: {eval_metric}
+Previous code: {previous_code}
+Error status: {error_status}
+Error: {error_message}
+Return only a Python code block, <=40 lines.

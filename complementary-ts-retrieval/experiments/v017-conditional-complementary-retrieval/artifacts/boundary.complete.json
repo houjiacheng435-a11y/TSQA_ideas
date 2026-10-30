@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "imports_files_introspection_blocked": true,
+  "content_matching_program_succeeds": true,
+  "budget_exhaustion_enforced": true,
+  "child_inputs": "public state and pipe only, no private pool or labels",
+  "scope": "Restricted diagnostic DSL, not a general security sandbox."
+}

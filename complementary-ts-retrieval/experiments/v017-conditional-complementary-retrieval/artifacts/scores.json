@@ -1,0 +1,174 @@
+{
+  "cpu_counterfactual": [
+    {
+      "method": "independent_topk",
+      "budget": 1,
+      "n_pairs": 512,
+      "both_correct_and_flip": 256,
+      "rate": 0.5
+    },
+    {
+      "method": "independent_topk",
+      "budget": 2,
+      "n_pairs": 512,
+      "both_correct_and_flip": 512,
+      "rate": 1.0
+    },
+    {
+      "method": "coverage",
+      "budget": 1,
+      "n_pairs": 512,
+      "both_correct_and_flip": 512,
+      "rate": 1.0
+    },
+    {
+      "method": "coverage",
+      "budget": 2,
+      "n_pairs": 512,
+      "both_correct_and_flip": 512,
+      "rate": 1.0
+    },
+    {
+      "method": "state_rule",
+      "budget": 1,
+      "n_pairs": 512,
+      "both_correct_and_flip": 512,
+      "rate": 1.0
+    },
+    {
+      "method": "state_rule",
+      "budget": 2,
+      "n_pairs": 512,
+      "both_correct_and_flip": 512,
+      "rate": 1.0
+    },
+    {
+      "method": "oracle",
+      "budget": 1,
+      "n_pairs": 512,
+      "both_correct_and_flip": 512,
+      "rate": 1.0
+    },
+    {
+      "method": "oracle",
+      "budget": 2,
+      "n_pairs": 512,
+      "both_correct_and_flip": 512,
+      "rate": 1.0
+    }
+  ],
+  "pilot_retrieval": [
+    {
+      "method": "independent_topk",
+      "budget": 2,
+      "n": 20,
+      "complement_success_count": 16,
+      "complement_denominator": 16,
+      "numeric_answer_accuracy": 1.0,
+      "mean_fetches": 1.2,
+      "mean_fetches_to_sufficiency_among_successes": 1.2,
+      "sufficiency_reached_n": 20,
+      "counterfactual": {
+        "n_pairs": 16,
+        "both_correct_and_flip": 16,
+        "rate": 1.0
+      }
+    },
+    {
+      "method": "coverage",
+      "budget": 2,
+      "n": 20,
+      "complement_success_count": 16,
+      "complement_denominator": 16,
+      "numeric_answer_accuracy": 1.0,
+      "mean_fetches": 0.8,
+      "mean_fetches_to_sufficiency_among_successes": 0.8,
+      "sufficiency_reached_n": 20,
+      "counterfactual": {
+        "n_pairs": 16,
+        "both_correct_and_flip": 16,
+        "rate": 1.0
+      }
+    },
+    {
+      "method": "state_rule",
+      "budget": 2,
+      "n": 20,
+      "complement_success_count": 16,
+      "complement_denominator": 16,
+      "numeric_answer_accuracy": 1.0,
+      "mean_fetches": 0.8,
+      "mean_fetches_to_sufficiency_among_successes": 0.8,
+      "sufficiency_reached_n": 20,
+      "counterfactual": {
+        "n_pairs": 16,
+        "both_correct_and_flip": 16,
+        "rate": 1.0
+      }
+    },
+    {
+      "method": "oracle",
+      "budget": 2,
+      "n": 20,
+      "complement_success_count": 16,
+      "complement_denominator": 16,
+      "numeric_answer_accuracy": 1.0,
+      "mean_fetches": 0.8,
+      "mean_fetches_to_sufficiency_among_successes": 0.8,
+      "sufficiency_reached_n": 20,
+      "counterfactual": {
+        "n_pairs": 16,
+        "both_correct_and_flip": 16,
+        "rate": 1.0
+      }
+    }
+  ],
+  "qwen_judgments": {
+    "all_states": {
+      "n": 40,
+      "valid": 40,
+      "sufficiency_accuracy": 0.6,
+      "sufficiency_accuracy_macro": 0.5,
+      "false_sufficiency_count": 16,
+      "false_sufficiency_denominator": 16,
+      "false_sufficiency_rate": 1.0,
+      "answer_accuracy_when_evidence_sufficient": 0.6666666666666666
+    },
+    "initial": {
+      "n": 20,
+      "valid": 20,
+      "sufficiency_accuracy": 0.2,
+      "sufficiency_accuracy_macro": 0.5,
+      "false_sufficiency_count": 16,
+      "false_sufficiency_denominator": 16,
+      "false_sufficiency_rate": 1.0,
+      "answer_accuracy_when_evidence_sufficient": 1.0
+    },
+    "retrieved": {
+      "n": 20,
+      "valid": 20,
+      "sufficiency_accuracy": 1.0,
+      "sufficiency_accuracy_macro": null,
+      "false_sufficiency_count": 0,
+      "false_sufficiency_denominator": 0,
+      "false_sufficiency_rate": null,
+      "answer_accuracy_when_evidence_sufficient": 0.6
+    },
+    "counterfactual_final_answer": {
+      "n_pairs": 16,
+      "both_correct_and_flip": 0,
+      "rate": 0.0
+    }
+  },
+  "adapter_status": "Excluded as an unfair/incomplete Sonar-TS adaptation; diagnostics only, not a valid method-performance row.",
+  "adapter_precheck_complete_episodes": 4,
+  "adapter_precheck_regenerations": 7,
+  "adapter_precheck_completed_calls": 24,
+  "adapter_precheck_interrupted_calls": 1,
+  "llm_calls": 36,
+  "input_tokens": 35168,
+  "output_tokens": 756,
+  "llm_seconds": 18.45946115255356,
+  "truncations": 0,
+  "claim_limit": "CPU stopping uses supplied exact rules; adapter is not original Sonar-TS; no result proves a novel irreducible complementary-retrieval defect."
+}

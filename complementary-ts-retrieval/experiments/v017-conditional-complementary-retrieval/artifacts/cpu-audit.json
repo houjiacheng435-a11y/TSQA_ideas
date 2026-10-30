@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "episodes": 640,
+  "initial_sufficient": 128,
+  "initial_insufficient": 512,
+  "identical_public_views_with_opposite_answers": 256,
+  "joint_numeric_correct": 640,
+  "unique_useful_candidate_in_each_insufficient_case": true,
+  "three_missing_channel_candidates_identical_name_time_metadata": true,
+  "necessary_candidate_positions_by_label": {
+    "('YES', 0)": 32,
+    "('YES', 7)": 32,
+    "('YES', 6)": 32,
+    "('YES', 5)": 32,
+    "('YES', 4)": 32,
+    "('YES', 3)": 32,
+    "('YES', 2)": 32,
+    "('YES', 1)": 32,
+    "('NO', 0)": 32,
+    "('NO', 7)": 32,
+    "('NO', 6)": 32,
+    "('NO', 5)": 32,
+    "('NO', 4)": 32,
+    "('NO', 3)": 32,
+    "('NO', 2)": 32,
+    "('NO', 1)": 32
+  },
+  "all_sufficient_states_match_labels": true,
+  "public_previews_contain_context_only_not_pulse_times": true,
+  "limitations": [
+    "Controlled exact context matching, not natural episode ambiguity.",
+    "Role coverage plus ordinary numerical context matching is expected to solve this task.",
+    "640 includes eight order rotations of 80 independent world/initial states, not 640 independent tasks."
+  ]
+}

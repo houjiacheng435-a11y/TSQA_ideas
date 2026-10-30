@@ -1,0 +1,32 @@
+{
+  "version": "v017",
+  "date_beijing": "2026-10-31",
+  "gpu": "RTX 4090D 24GB",
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "official_sonar_commit": "99866c43cd7ceb91a929de745e9f49cea92962e5",
+  "environment_reused_from": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/experiments/v016-sonarts-qwen-local/artifacts/environment-verified.json",
+  "environment_record_sha256": "f65bcff357253baa5fceb6f86ca2ca788101a13a4aafcc4194664fe58263e4d6",
+  "server": "vLLM 0.8.5.post1, BF16, max context 16384, max concurrent sequences 1, localhost:8016",
+  "decoding": "temperature=0, max_tokens=4096, chat_template_kwargs.enable_thinking=False",
+  "cpu_then_gpu_gate": true,
+  "training": false,
+  "paid_api": false,
+  "access_contract": "Only initial evidence and numeric context index are visible. Raw trace access is brokered, at most 2 fetches; code retries share the same budget. Evaluation-only files are not passed to child processes or model prompts.",
+  "sonar_precheck_outcome": "Stopped and excluded. Adapted runtime/prompt is not equivalent to original Sonar-TS; placeholder outputs and missing builtin occurred. No Sonar performance or complementarity-defect claim.",
+  "source_sha256": {
+    "bounded_exec.py": "22e8be7447ad8d557b173f729f28e3a809d90be87c907673baaa4bde7077c176",
+    "build_and_audit.py": "481e8c16d4712c7a2b95a6d8c4b85163fbb5d27a998ee4dc2ade2884ed0fe785",
+    "check_boundary.py": "de6bcb5e143935aed5663cf8eb709cbf6a0955213c512ab333c0f15b26f18b4a",
+    "controls.py": "970f2329cf257a04f197d86cf031728d12f420595d4ef79380dda81686a1422b",
+    "fix.txt": "c0705cffb2c59fae59a1ff0edab346aa8a097593e8538107cf1e76359c10f571",
+    "fixed_v016.py": "858705a095dbd4df6c551886204fe7c57b565afe3198738b756e864a1feb7675",
+    "generator.txt": "8181cbd6021c19d3fe5deef40ff8b30667c14b41a91f1cceffac262b96459e8d",
+    "pilot.py": "375ce83555002c603f9af08076b22016d59df8ed51706939f61fee7ebc975881",
+    "planner.txt": "4ed2ae9c937808b6a84b993e5249846eda6705f9b951c9504918f9e182c2f7eb",
+    "publish.py": "74cff01845509a7df48c00a933740016b4f76aa1fc48f0e066e514c2e671a6eb",
+    "reproduce.md": "3b44d61d2452b5e5d4b2a48ea782033f8683f7f9cf2f27bfe40f6f1bf8aa479d",
+    "score.py": "77f0c10edddf94b71e7a97c53a881e0711f23ec099481df897f4259928e3b7a9",
+    "task.py": "469b303414a9e69504be9a04f0a8fa3e8720e4f29725fa288f4e19ae5b8c7c44"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "pilot_episodes": 20,
+  "llm_calls": 36,
+  "boundary_and_numeric_state_checks": true,
+  "sonar_comparison_completed": false,
+  "reason": "Precheck revealed non-equivalent runtime and placeholder generated programs; no comparative failure claim."
+}

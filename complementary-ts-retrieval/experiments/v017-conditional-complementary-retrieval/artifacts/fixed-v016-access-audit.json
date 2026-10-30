@@ -1,0 +1,74 @@
+[
+  {
+    "id": "L3_T3_Causal_Anomaly_00386",
+    "old_status": "exception",
+    "old_score": 0.0,
+    "fixed_score": 0.9215017064846417,
+    "prediction": "[2022-02-18 00:00:00, 2022-02-20 19:30:00]",
+    "breakdown": null,
+    "stdout": "{\"_result\": [\"2022-02-18 00:00:00\", \"2022-02-20 19:30:00\"]}\n",
+    "stderr": "",
+    "source_skill": "/root/autodl-tmp/cf-run/vendor/Sonar-TS-v016-minimal/sonar_ts/skills/library/causal-anomaly-correlation.md",
+    "source_sha256": "00959da9e25322a68d182a6c722ee685f349786e89f9578bb32eb98182728d5e",
+    "note": "No LLM. Correct substitution into existing upstream numerical recipe; low scores remain possible if its heuristic differs from reference labels.",
+    "query_row_counts": [
+      35040
+    ]
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00014",
+    "old_status": "ok",
+    "old_score": 0.20000000000000004,
+    "fixed_score": 0.6,
+    "prediction": "['2021-07-11', '2021-10-22', '2021-02-06', '2021-12-10', '2021-02-25']",
+    "breakdown": null,
+    "stdout": "{\"_result\": [\"2021-07-11\", \"2021-10-22\", \"2021-02-06\", \"2021-12-10\", \"2021-02-25\"]}\n",
+    "stderr": "",
+    "source_skill": "/root/autodl-tmp/cf-run/vendor/Sonar-TS-v016-minimal/sonar_ts/skills/library/composite-trend-topk.md",
+    "source_sha256": "d526e7f374450eea45a4fd08b02d71ce11574a22be5f365b131f991b4cef341c",
+    "note": "No LLM. Correct substitution into existing upstream numerical recipe; low scores remain possible if its heuristic differs from reference labels.",
+    "query_row_counts": [
+      0,
+      365,
+      35040
+    ],
+    "reference_dates_fetched": 5
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00025",
+    "old_status": "ok",
+    "old_score": 0.0,
+    "fixed_score": 0.0,
+    "prediction": "['2021-02-04', '2021-03-12', '2021-04-13', '2021-06-16', '2021-04-07']",
+    "breakdown": null,
+    "stdout": "{\"_result\": [\"2021-02-04\", \"2021-03-12\", \"2021-04-13\", \"2021-06-16\", \"2021-04-07\"]}\n",
+    "stderr": "",
+    "source_skill": "/root/autodl-tmp/cf-run/vendor/Sonar-TS-v016-minimal/sonar_ts/skills/library/composite-trend-topk.md",
+    "source_sha256": "d526e7f374450eea45a4fd08b02d71ce11574a22be5f365b131f991b4cef341c",
+    "note": "No LLM. Correct substitution into existing upstream numerical recipe; low scores remain possible if its heuristic differs from reference labels.",
+    "query_row_counts": [
+      20,
+      1920
+    ],
+    "reference_dates_fetched": 0
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00034",
+    "old_status": "ok",
+    "old_score": 0.0,
+    "fixed_score": 0.0,
+    "prediction": "['2023-05-05', '2023-11-23', '2023-01-04', '2023-05-08', '2023-01-15']",
+    "breakdown": null,
+    "stdout": "{\"_result\": [\"2023-05-05\", \"2023-11-23\", \"2023-01-04\", \"2023-05-08\", \"2023-01-15\"]}\n",
+    "stderr": "",
+    "source_skill": "/root/autodl-tmp/cf-run/vendor/Sonar-TS-v016-minimal/sonar_ts/skills/library/composite-trend-topk.md",
+    "source_sha256": "d526e7f374450eea45a4fd08b02d71ce11574a22be5f365b131f991b4cef341c",
+    "note": "No LLM. Correct substitution into existing upstream numerical recipe; low scores remain possible if its heuristic differs from reference labels.",
+    "query_row_counts": [
+      2,
+      365,
+      35040
+    ],
+    "reference_dates_fetched": 5
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "method": "independent_topk",
+    "budget": 1,
+    "n": 640,
+    "answer_accuracy": 0.6,
+    "complement_retrieval_success": 0.5,
+    "mean_fetches": 0.8,
+    "false_sufficiency_rate": 0.0,
+    "sufficiency_accuracy": 1.0,
+    "stopping_note": "These four CPU methods use the same exact verifier to control stopping; perfect sufficiency judgments are supplied, not learned capabilities."
+  },
+  {
+    "method": "coverage",
+    "budget": 1,
+    "n": 640,
+    "answer_accuracy": 1.0,
+    "complement_retrieval_success": 1.0,
+    "mean_fetches": 0.8,
+    "false_sufficiency_rate": 0.0,
+    "sufficiency_accuracy": 1.0,
+    "stopping_note": "These four CPU methods use the same exact verifier to control stopping; perfect sufficiency judgments are supplied, not learned capabilities."
+  },
+  {
+    "method": "state_rule",
+    "budget": 1,
+    "n": 640,
+    "answer_accuracy": 1.0,
+    "complement_retrieval_success": 1.0,
+    "mean_fetches": 0.8,
+    "false_sufficiency_rate": 0.0,
+    "sufficiency_accuracy": 1.0,
+    "stopping_note": "These four CPU methods use the same exact verifier to control stopping; perfect sufficiency judgments are supplied, not learned capabilities."
+  },
+  {
+    "method": "oracle",
+    "budget": 1,
+    "n": 640,
+    "answer_accuracy": 1.0,
+    "complement_retrieval_success": 1.0,
+    "mean_fetches": 0.8,
+    "false_sufficiency_rate": 0.0,
+    "sufficiency_accuracy": 1.0,
+    "stopping_note": "These four CPU methods use the same exact verifier to control stopping; perfect sufficiency judgments are supplied, not learned capabilities."
+  },
+  {
+    "method": "independent_topk",
+    "budget": 2,
+    "n": 640,
+    "answer_accuracy": 1.0,
+    "complement_retrieval_success": 1.0,
+    "mean_fetches": 1.2,
+    "false_sufficiency_rate": 0.0,
+    "sufficiency_accuracy": 1.0,
+    "stopping_note": "These four CPU methods use the same exact verifier to control stopping; perfect sufficiency judgments are supplied, not learned capabilities."
+  },
+  {
+    "method": "coverage",
+    "budget": 2,
+    "n": 640,
+    "answer_accuracy": 1.0,
+    "complement_retrieval_success": 1.0,
+    "mean_fetches": 0.8,
+    "false_sufficiency_rate": 0.0,
+    "sufficiency_accuracy": 1.0,
+    "stopping_note": "These four CPU methods use the same exact verifier to control stopping; perfect sufficiency judgments are supplied, not learned capabilities."
+  },
+  {
+    "method": "state_rule",
+    "budget": 2,
+    "n": 640,
+    "answer_accuracy": 1.0,
+    "complement_retrieval_success": 1.0,
+    "mean_fetches": 0.8,
+    "false_sufficiency_rate": 0.0,
+    "sufficiency_accuracy": 1.0,
+    "stopping_note": "These four CPU methods use the same exact verifier to control stopping; perfect sufficiency judgments are supplied, not learned capabilities."
+  },
+  {
+    "method": "oracle",
+    "budget": 2,
+    "n": 640,
+    "answer_accuracy": 1.0,
+    "complement_retrieval_success": 1.0,
+    "mean_fetches": 0.8,
+    "false_sufficiency_rate": 0.0,
+    "sufficiency_accuracy": 1.0,
+    "stopping_note": "These four CPU methods use the same exact verifier to control stopping; perfect sufficiency judgments are supplied, not learned capabilities."
+  }
+]

@@ -1,0 +1,19 @@
+Implement the bounded Search-Then-Verify plan as a short Python program.
+This is an adapted Sonar-TS diagnostic protocol, not original SQL Sonar-TS.
+No imports, files, network, databases, attributes starting with underscores,
+or hidden data access are allowed. Use only the listed broker functions and
+ordinary list/dict arithmetic. Allowed methods: get, append, items, keys,
+values, copy, sort, index, pop. Use <= 40 lines. Return a ```python code block.
+The last assignment must be result = a dict with sufficient (bool) and
+answer (YES/NO/UNKNOWN). Do not print or import json. You can set result=verify().
+The shared exact numeric verifier can settle no-pulse cases without any fetch.
+Before fetching, use verify(). A target already present in the same episode
+is redundant. Among the missing target's candidates, use the context sketch
+closest to episode_context[:4]. All methods have the same public index.
+Context matching and target coverage are intentionally simple baselines;
+do not assume a new learned model is needed to solve this diagnostic.
+Schema and current state: {schema}
+Task: {question}
+Plan: {plan}
+Rules: {experiences}
+Output metric (for provenance): {eval_metric}

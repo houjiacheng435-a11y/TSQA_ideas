@@ -1,0 +1,13 @@
+{
+  "families": 8,
+  "episodes": 640,
+  "rotation_replicas": 8,
+  "independent_world_initial_states": 80,
+  "pilot_families": [
+    1,
+    6
+  ],
+  "pilot_episodes": 20,
+  "selection": "Fixed families 1,6 and rotation 0 before model inference; every 2x2 counterfactual cell and both initial channels, plus two no-pulse controls.",
+  "script_sha256": "481e8c16d4712c7a2b95a6d8c4b85163fbb5d27a998ee4dc2ade2884ed0fe785"
+}
