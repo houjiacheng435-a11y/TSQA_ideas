@@ -1,0 +1,108 @@
+[
+  {
+    "task_id": "L2_T3_Subsequence_Matching_00332",
+    "observed_primary_category": "success",
+    "evidence": "Reference/context raw slices retrieved; normalized subsequence match returned the exact reference interval.",
+    "identical_code_repeats": 0,
+    "code_attempt_sha256": [
+      "cbe4ef4e3415063d9f72ba0b5a6ba5e61b2823dad2b87cbf25a34b49f8cbd192"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L2_T3_Subsequence_Matching_00339",
+    "observed_primary_category": "success",
+    "evidence": "Reference/context raw slices retrieved; exact reference interval returned.",
+    "identical_code_repeats": 0,
+    "code_attempt_sha256": [
+      "736c76075473d8dc42f3437a1bfb7a69a03aab9a3eeda73f2090ef863c3b4b88"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L3_T3_Causal_Anomaly_00386",
+    "observed_primary_category": "execution_error",
+    "evidence": "Both raw channels fetched, including the reference interval. All four attempts fail on str.strftime; no final answer. Not an evidence omission diagnosis.",
+    "identical_code_repeats": 1,
+    "code_attempt_sha256": [
+      "8d09ee35ed63148b4c4acc3551966e7e21b1650ddb9e105066bbb90c94cc9fe1",
+      "a14d61c26225cfe7e09bf4044d1c1b84902337fcc199a76bd946c845eab0d243",
+      "43667dd71704562b717eb3d0849c6e7e3ba481a19260fb4ec4198e4e523db95a",
+      "43667dd71704562b717eb3d0849c6e7e3ba481a19260fb4ec4198e4e523db95a"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L3_T3_Causal_Anomaly_00387",
+    "observed_primary_category": "execution_error",
+    "evidence": "Both raw channels fetched across attempts. Initial None indexing, then int.strftime errors. Three regenerations exhausted; no final answer.",
+    "identical_code_repeats": 2,
+    "code_attempt_sha256": [
+      "54609b331d6801b22068c0722f8863dd3aa21f281b95b375f89601e28cb6b512",
+      "31f59817d73be912e812b173c3c121b60fe37f6f9bf36b57a220d4b88c7e29bd",
+      "31f59817d73be912e812b173c3c121b60fe37f6f9bf36b57a220d4b88c7e29bd",
+      "31f59817d73be912e812b173c3c121b60fe37f6f9bf36b57a220d4b88c7e29bd"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L3_T3_Causal_Anomaly_00388",
+    "observed_primary_category": "query_and_fallback_error",
+    "evidence": "Yearly std < yearly AVG(std) has no candidates with one annual row per channel. No raw rows fetched. Generated fallback emits the entire year; shape validation accepts it. Query translation and unsupported stopping, not proven complementarity failure.",
+    "identical_code_repeats": 0,
+    "code_attempt_sha256": [
+      "d13f4530e20036af9752242ba4d871396be06cad6aa2e24535ccf421f5b10b34"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L3_T1_Composite_Trend_00014",
+    "observed_primary_category": "semantic_verification_error",
+    "evidence": "All five reference dates retrieved among 241 days, but target_kind=\"slow rise\" falls into the stable branch (only \"rise\"/\"fall\" recognized). Pattern list is also malformed. One of five final dates matches.",
+    "identical_code_repeats": 0,
+    "code_attempt_sha256": [
+      "c6f4c1530dac7bf112b3fc365b9c9343d53bc70eb60a065831152e6c13ccb87a"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L3_T1_Composite_Trend_00025",
+    "observed_primary_category": "query_translation_error",
+    "evidence": "Question asks rise then rise, but generated kinds=[\"fall\",\"rise\"]. 45 candidates contain none of the five reference dates. This is observed candidate omission with a concrete query translation defect, not a demonstrated joint evidence selection gap.",
+    "identical_code_repeats": 0,
+    "code_attempt_sha256": [
+      "2d59f5c27b1c8130015b870083a17c6d3471fd9eabc757d585bc9e0ac47a3540"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L3_T1_Composite_Trend_00034",
+    "observed_primary_category": "verification_or_rule_label_mismatch",
+    "evidence": "SAX returns two days, fewer than five; official-style fallback reads all 365 days, including all reference dates. Numerical scoring/ranking returns none of the reference dates. Upstream recipe is substantially copied; retrieval omission is excluded, semantic correctness of the heuristic is not certified.",
+    "identical_code_repeats": 0,
+    "code_attempt_sha256": [
+      "2bfcd3838205400502178d4a8e26b3533ffeca045e9dd2238a149b039dd5cad4"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L4_T1_Insight_Synthesis_00001",
+    "observed_primary_category": "mostly_success",
+    "evidence": "Entire target month fetched; trend and adjective scores 1, interval score 0.93546, outlier score 1. Boundary approximately 20h15m early.",
+    "identical_code_repeats": 0,
+    "code_attempt_sha256": [
+      "bf335b5eac4e23e21ce77abce491f6756ab418471c8078e20fe3b90a89b48038"
+    ],
+    "complementarity_defect_established": false
+  },
+  {
+    "task_id": "L4_T1_Insight_Synthesis_00002",
+    "observed_primary_category": "segmentation_error",
+    "evidence": "Entire target month fetched; middle gradual-rise stage is labeled fluctuating stable and boundaries shift. Outlier score remains 1. No evidence access omission observed.",
+    "identical_code_repeats": 0,
+    "code_attempt_sha256": [
+      "bedd25847dc189ba436b23740bf9e6e882d664a1b41bbdd37bd3fdc9463ce80c"
+    ],
+    "complementarity_defect_established": false
+  }
+]

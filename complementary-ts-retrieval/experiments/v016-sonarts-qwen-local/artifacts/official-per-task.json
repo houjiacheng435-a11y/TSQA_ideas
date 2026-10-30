@@ -1,0 +1,134 @@
+[
+  {
+    "id": 0,
+    "task_id": "L2_T3_Subsequence_Matching_00332",
+    "level": 2,
+    "category": "Subsequence Matching",
+    "subtask": "Subsequence Matching",
+    "eval_metric": "iou",
+    "prediction": "[2023-09-15 03:45:00, 2023-09-15 16:00:00]",
+    "ground_truth": "['2023-09-15 03:45:00', '2023-09-15 16:00:00']",
+    "score": 1.0,
+    "breakdown": null
+  },
+  {
+    "id": 1,
+    "task_id": "L2_T3_Subsequence_Matching_00339",
+    "level": 2,
+    "category": "Subsequence Matching",
+    "subtask": "Subsequence Matching",
+    "eval_metric": "iou",
+    "prediction": "[2020-12-13 19:00:00, 2020-12-14 06:00:00]",
+    "ground_truth": "['2020-12-13 19:00:00', '2020-12-14 06:00:00']",
+    "score": 1.0,
+    "breakdown": null
+  },
+  {
+    "id": 2,
+    "task_id": "L3_T3_Causal_Anomaly_00386",
+    "level": 3,
+    "category": "Causal Anomaly",
+    "subtask": "Causal Anomaly",
+    "eval_metric": "iou",
+    "prediction": "",
+    "ground_truth": "[2022-02-17 21:00:00, 2022-02-20 22:15:00]",
+    "score": 0.0,
+    "breakdown": null
+  },
+  {
+    "id": 3,
+    "task_id": "L3_T3_Causal_Anomaly_00387",
+    "level": 3,
+    "category": "Causal Anomaly",
+    "subtask": "Causal Anomaly",
+    "eval_metric": "iou",
+    "prediction": "",
+    "ground_truth": "[2019-04-13 05:30:00, 2019-04-22 18:45:00]",
+    "score": 0.0,
+    "breakdown": null
+  },
+  {
+    "id": 4,
+    "task_id": "L3_T3_Causal_Anomaly_00388",
+    "level": 3,
+    "category": "Causal Anomaly",
+    "subtask": "Causal Anomaly",
+    "eval_metric": "iou",
+    "prediction": "[2022-01-01 00:00:00, 2023-01-01 00:00:00]",
+    "ground_truth": "[2022-04-06 07:45:00, 2022-04-12 13:15:00]",
+    "score": 0.0170662100456621,
+    "breakdown": null
+  },
+  {
+    "id": 5,
+    "task_id": "L3_T1_Composite_Trend_00014",
+    "level": 3,
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "eval_metric": "set_f1",
+    "prediction": "['2021-01-23', '2021-10-02', '2021-02-04', '2021-11-11', '2021-02-25']",
+    "ground_truth": "['2021-10-22', '2021-12-10', '2021-02-25', '2021-07-10', '2021-09-11']",
+    "score": 0.20000000000000004,
+    "breakdown": null
+  },
+  {
+    "id": 6,
+    "task_id": "L3_T1_Composite_Trend_00025",
+    "level": 3,
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "eval_metric": "set_f1",
+    "prediction": "['2021-06-19', '2021-09-03', '2021-02-15', '2021-02-13', '2021-02-01']",
+    "ground_truth": "['2021-12-18', '2021-05-12', '2021-04-24', '2021-10-13', '2021-08-08']",
+    "score": 0.0,
+    "breakdown": null
+  },
+  {
+    "id": 7,
+    "task_id": "L3_T1_Composite_Trend_00034",
+    "level": 3,
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "eval_metric": "set_f1",
+    "prediction": "['2023-05-05', '2023-11-23', '2023-01-04', '2023-05-08', '2023-01-15']",
+    "ground_truth": "['2023-10-31', '2023-07-08', '2023-12-15', '2023-11-22', '2023-11-26']",
+    "score": 0.0,
+    "breakdown": null
+  },
+  {
+    "id": 8,
+    "task_id": "L4_T1_Insight_Synthesis_00001",
+    "level": 4,
+    "category": "Insight Synthesis",
+    "subtask": "Insight Synthesis",
+    "eval_metric": "report",
+    "prediction": "1. Trend Segmentation: from 2021-11-01 00:00:00 to 2021-11-21 14:00:00, the trend showed a gradual rise; from 2021-11-21 14:00:00 to 2021-11-30 23:45:00, the trend showed a rapid rise.\n2. Outlier Audit: A significant spike was detected at 2021-11-21 05:45:00 (value: 0.90).",
+    "ground_truth": "1. Trend Segmentation: from 2021-11-01 00:00:00 to 2021-11-22 10:15:00, the trend showed a gradual rise; from 2021-11-22 10:15:00 to 2021-11-30 23:45:00, the trend showed a rapid rise.\n2. Outlier Audit: A significant spike was detected at 2021-11-21 05:45:00 (value: 0.90).",
+    "score": 0.9806381903136038,
+    "breakdown": {
+      "overall": 0.9806381903136038,
+      "trend": 1.0,
+      "interval": 0.9354606343786793,
+      "adjective": 1.0,
+      "outlier": 1.0
+    }
+  },
+  {
+    "id": 9,
+    "task_id": "L4_T1_Insight_Synthesis_00002",
+    "level": 4,
+    "category": "Insight Synthesis",
+    "subtask": "Insight Synthesis",
+    "eval_metric": "report",
+    "prediction": "1. Trend Segmentation: from 2021-02-01 00:00:00 to 2021-02-10 20:45:00, the trend showed a rapid fall; from 2021-02-10 20:45:00 to 2021-02-21 20:15:00, the trend showed a fluctuating stable; from 2021-02-21 20:15:00 to 2021-02-28 23:45:00, the trend showed a rapid fall.\n2. Outlier Audit: A significant spike was detected at 2021-02-21 22:15:00 (value: -8.13).",
+    "ground_truth": "1. Trend Segmentation: from 2021-02-01 00:00:00 to 2021-02-05 16:00:00, the trend showed a rapid fall; from 2021-02-05 16:00:00 to 2021-02-17 08:00:00, the trend showed a gradual rise; from 2021-02-17 08:00:00 to 2021-02-28 23:45:00, the trend showed a rapid fall.\n2. Outlier Audit: A significant drop was detected at 2021-02-21 22:15:00 (value: -8.13).",
+    "score": 0.7295847004745714,
+    "breakdown": {
+      "overall": 0.7295847004745714,
+      "trend": 0.6666666666666666,
+      "interval": 0.5430601126930158,
+      "adjective": 1.0,
+      "outlier": 1.0
+    }
+  }
+]

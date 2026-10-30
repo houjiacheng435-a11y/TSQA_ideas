@@ -1,0 +1,83 @@
+{
+  "n": 10,
+  "all_execution_ok": false,
+  "mean_official_score_descriptive_only": 0.39272891008338373,
+  "by_subtask": {
+    "Subsequence Matching": {
+      "n": 2,
+      "mean": 1.0
+    },
+    "Causal Anomaly": {
+      "n": 3,
+      "mean": 0.005688736681887367
+    },
+    "Composite Trend": {
+      "n": 3,
+      "mean": 0.06666666666666668
+    },
+    "Insight Synthesis": {
+      "n": 2,
+      "mean": 0.8551114453940876
+    }
+  },
+  "efficiency": {
+    "wall_seconds": {
+      "total": 429.8639372251928,
+      "mean": 42.98639372251928,
+      "min": 16.406274687498808,
+      "max": 114.75216299295425
+    },
+    "llm_seconds": {
+      "total": 403.9444531276822,
+      "mean": 40.39444531276822,
+      "min": 15.846646632999182,
+      "max": 106.78346159309149
+    },
+    "input_tokens": {
+      "total": 65994,
+      "mean": 6599.4,
+      "min": 3838,
+      "max": 16051
+    },
+    "output_tokens": {
+      "total": 19730,
+      "mean": 1973,
+      "min": 780,
+      "max": 5208
+    },
+    "llm_calls": {
+      "total": 26,
+      "mean": 2.6,
+      "min": 2,
+      "max": 5
+    },
+    "code_failures": {
+      "total": 8,
+      "mean": 0.8,
+      "min": 0,
+      "max": 4
+    },
+    "code_regenerations": {
+      "total": 6,
+      "mean": 0.6,
+      "min": 0,
+      "max": 3
+    }
+  },
+  "peak_resident_gpu_mib": 21481,
+  "sequential_linear_extrapolation": {
+    "100": {
+      "hours": 1.1940664922922022,
+      "cost_rmb_if_1_per_hour": 1.1940664922922022,
+      "cost_rmb_if_2_per_hour": 2.3881329845844044,
+      "cost_note": "Illustrative rates, not the actual AutoDL invoice. Excludes setup/offline indexing/other task mixes."
+    },
+    "1153": {
+      "hours": 13.767586656129092,
+      "cost_rmb_if_1_per_hour": 13.767586656129092,
+      "cost_rmb_if_2_per_hour": 27.535173312258184,
+      "cost_note": "Illustrative rates, not the actual AutoDL invoice. Excludes setup/offline indexing/other task mixes."
+    }
+  },
+  "records_sha256": "ee9bfd2466edf601ab504bac5639381d32cc74c68f9501048107298755ea3729"
+}

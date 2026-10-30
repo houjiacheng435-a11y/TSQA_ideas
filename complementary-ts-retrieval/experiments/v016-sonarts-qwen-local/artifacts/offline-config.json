@@ -1,0 +1,28 @@
+{
+  "sax": {
+    "alphabet": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ]
+  },
+  "views": {
+    "yearly": {
+      "freq": "YS",
+      "resample_rule": "MS"
+    },
+    "monthly": {
+      "freq": "MS",
+      "resample_rule": "1D"
+    },
+    "daily": {
+      "freq": "1D",
+      "resample_rule": "1h"
+    }
+  },
+  "parallel": {
+    "workers": 8
+  }
+}

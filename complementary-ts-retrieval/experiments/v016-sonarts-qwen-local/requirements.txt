@@ -1,0 +1,16 @@
+# Use a separate --system-site-packages venv on the existing torch 2.6.0+cu124,
+# torchvision 0.21.0+cu124, transformers 4.52.4 environment. No model download.
+vllm==0.8.5.post1
+openai==1.78.1
+fastapi==0.115.12
+pydantic==2.11.4
+ray==2.46.0
+mistral_common==1.5.4
+opencv-python-headless==4.11.0.86
+numpy==1.26.4
+prometheus-fastapi-instrumentator==7.1.0
+cupy-cuda12x==13.4.1
+grpcio==1.62.3
+grpcio-status==1.62.3
+pandas==2.2.3
+scipy==1.14.1

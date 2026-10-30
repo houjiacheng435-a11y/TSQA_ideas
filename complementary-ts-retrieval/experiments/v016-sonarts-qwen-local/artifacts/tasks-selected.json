@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "L2_T3_Subsequence_Matching_00332",
+    "level": 2,
+    "level_name": "Pattern Recognition",
+    "category": "Subsequence Matching",
+    "subtask": "Subsequence Matching",
+    "question": "Analyze the reference pattern in [2023-09-07 15:00:00 to 2023-09-08 03:15:00]. Find the time interval where channel 71 exhibits the most similar pattern within the search context [2023-09-09 19:45:00 to 2023-09-16 01:00:00]. (Output format: [YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM:SS])",
+    "answer": "['2023-09-15 03:45:00', '2023-09-15 16:00:00']",
+    "ground_truth": [
+      "2023-09-15 03:45:00",
+      "2023-09-15 16:00:00"
+    ],
+    "eval_metric": "iou",
+    "channel": "71",
+    "ts_data_path": "ts_data/L2_T3_Subsequence_Matching_00332.csv",
+    "meta": {
+      "prototype": "bell curve",
+      "query_window": "[2023-09-07 15:00:00 to 2023-09-08 03:15:00]",
+      "search_window": "[2023-09-09 19:45:00 to 2023-09-16 01:00:00]",
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L2_T3_Subsequence_Matching_00339",
+    "level": 2,
+    "level_name": "Pattern Recognition",
+    "category": "Subsequence Matching",
+    "subtask": "Subsequence Matching",
+    "question": "Analyze the reference pattern in [2020-12-06 00:00:00 to 2020-12-06 11:00:00]. Find the time interval where channel 154 exhibits the most similar pattern within the search context [2020-12-08 08:15:00 to 2020-12-15 09:00:00]. (Output format: [YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM:SS])",
+    "answer": "['2020-12-13 19:00:00', '2020-12-14 06:00:00']",
+    "ground_truth": [
+      "2020-12-13 19:00:00",
+      "2020-12-14 06:00:00"
+    ],
+    "eval_metric": "iou",
+    "channel": "154",
+    "ts_data_path": "ts_data/L2_T3_Subsequence_Matching_00339.csv",
+    "meta": {
+      "prototype": "double-peak pattern",
+      "query_window": "[2020-12-06 00:00:00 to 2020-12-06 11:00:00]",
+      "search_window": "[2020-12-08 08:15:00 to 2020-12-15 09:00:00]",
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L3_T3_Causal_Anomaly_00386",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Causal Anomaly",
+    "subtask": "Causal Anomaly",
+    "question": "Given that channel 67_up_2022 is the upstream source of channel 67_down_2022, identify the time period in 2022 where 67_down_2022 shows a significant causal anomaly, such as an flat line during high activity. (Output format: [YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM:SS])",
+    "answer": "[2022-02-17 21:00:00, 2022-02-20 22:15:00]",
+    "ground_truth": [
+      "2022-02-17 21:00:00",
+      "2022-02-20 22:15:00"
+    ],
+    "eval_metric": "iou",
+    "channel": "67_down_2022",
+    "ts_data_path": "ts_data/L3_T3_Causal_Anomaly_00386.csv",
+    "meta": {
+      "pair_upstream": "67_up_2022",
+      "pair_downstream": "67_down_2022",
+      "upstream_channel_raw": "67",
+      "downstream_channel_raw": "67_synth",
+      "break_kind": "flat_line",
+      "year": 2022,
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L3_T3_Causal_Anomaly_00387",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Causal Anomaly",
+    "subtask": "Causal Anomaly",
+    "question": "Given that channel 71_up_2019 is the upstream source of channel 71_down_2019, identify the time period in 2019 where 71_down_2019 shows a significant causal anomaly, such as an inverse trend against the source. (Output format: [YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM:SS])",
+    "answer": "[2019-04-13 05:30:00, 2019-04-22 18:45:00]",
+    "ground_truth": [
+      "2019-04-13 05:30:00",
+      "2019-04-22 18:45:00"
+    ],
+    "eval_metric": "iou",
+    "channel": "71_down_2019",
+    "ts_data_path": "ts_data/L3_T3_Causal_Anomaly_00387.csv",
+    "meta": {
+      "pair_upstream": "71_up_2019",
+      "pair_downstream": "71_down_2019",
+      "upstream_channel_raw": "71",
+      "downstream_channel_raw": "71_synth",
+      "break_kind": "inverse",
+      "year": 2019,
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L3_T3_Causal_Anomaly_00388",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Causal Anomaly",
+    "subtask": "Causal Anomaly",
+    "question": "Given that channel 99_up_2022 is the upstream source of channel 99_down_2022, identify the time period in 2022 where 99_down_2022 shows a significant causal anomaly, such as an flat line during high activity. (Output format: [YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM:SS])",
+    "answer": "[2022-04-06 07:45:00, 2022-04-12 13:15:00]",
+    "ground_truth": [
+      "2022-04-06 07:45:00",
+      "2022-04-12 13:15:00"
+    ],
+    "eval_metric": "iou",
+    "channel": "99_down_2022",
+    "ts_data_path": "ts_data/L3_T3_Causal_Anomaly_00388.csv",
+    "meta": {
+      "pair_upstream": "99_up_2022",
+      "pair_downstream": "99_down_2022",
+      "upstream_channel_raw": "99",
+      "downstream_channel_raw": "99_synth",
+      "break_kind": "flat_line",
+      "year": 2022,
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00014",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 172 during 2021 that exhibit the trend pattern 'fluctuating stable, then slow rise, then fall, then slow fall', identify the top-5 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-10-22', '2021-12-10', '2021-02-25', '2021-07-10', '2021-09-11']",
+    "ground_truth": [
+      "2021-10-22",
+      "2021-12-10",
+      "2021-02-25",
+      "2021-07-10",
+      "2021-09-11"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "172",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00014.csv",
+    "meta": {
+      "segments": [
+        {
+          "kind": "stable",
+          "adj": "fluctuating"
+        },
+        {
+          "kind": "rise",
+          "adj": "slow"
+        },
+        {
+          "kind": "fall",
+          "adj": "none"
+        },
+        {
+          "kind": "fall",
+          "adj": "slow"
+        }
+      ],
+      "pattern_phrase": "fluctuating stable, then slow rise, then fall, then slow fall",
+      "rank_target_idx": 1,
+      "rank_kind": "rise",
+      "rank_adj": "slow",
+      "rank_axis": "slope",
+      "rank_direction": "ASC",
+      "rank_extreme": "slowest",
+      "top_segments_meta": [
+        {
+          "adj": "fluctuating",
+          "kind": "stable",
+          "label": "fluctuating stable",
+          "start_idx": 0,
+          "end_idx": 20
+        },
+        {
+          "adj": "slow",
+          "kind": "rise",
+          "label": "slow rise",
+          "start_idx": 20,
+          "end_idx": 52
+        },
+        {
+          "adj": "none",
+          "kind": "fall",
+          "label": "none fall",
+          "start_idx": 52,
+          "end_idx": 70
+        },
+        {
+          "adj": "slow",
+          "kind": "fall",
+          "label": "slow fall",
+          "start_idx": 70,
+          "end_idx": 98
+        }
+      ],
+      "points_per_day": 96,
+      "pattern": "fluctuating stable, then slow rise, then fall, then slow fall",
+      "year": 2021,
+      "top_k": [
+        "2021-10-22",
+        "2021-12-10",
+        "2021-02-25",
+        "2021-07-10",
+        "2021-09-11"
+      ],
+      "all_injections": [
+        {
+          "rank": 1,
+          "intensity": 1.5,
+          "date": "2021-10-22"
+        },
+        {
+          "rank": 2,
+          "intensity": 1.530612244897959,
+          "date": "2021-12-10"
+        },
+        {
+          "rank": 3,
+          "intensity": 1.5612244897959184,
+          "date": "2021-02-25"
+        },
+        {
+          "rank": 4,
+          "intensity": 1.5918367346938775,
+          "date": "2021-07-10"
+        },
+        {
+          "rank": 5,
+          "intensity": 1.6224489795918366,
+          "date": "2021-09-11"
+        },
+        {
+          "rank": 6,
+          "intensity": 1.653061224489796,
+          "date": "2021-03-20"
+        },
+        {
+          "rank": 7,
+          "intensity": 1.683673469387755,
+          "date": "2021-05-23"
+        },
+        {
+          "rank": 8,
+          "intensity": 1.7142857142857142,
+          "date": "2021-05-30"
+        },
+        {
+          "rank": 9,
+          "intensity": 1.7448979591836735,
+          "date": "2021-08-23"
+        },
+        {
+          "rank": 10,
+          "intensity": 1.7755102040816326,
+          "date": "2021-12-29"
+        },
+        {
+          "rank": 11,
+          "intensity": 1.806122448979592,
+          "date": "2021-05-18"
+        },
+        {
+          "rank": 12,
+          "intensity": 1.836734693877551,
+          "date": "2021-07-31"
+        },
+        {
+          "rank": 13,
+          "intensity": 1.8673469387755102,
+          "date": "2021-12-16"
+        },
+        {
+          "rank": 14,
+          "intensity": 1.8979591836734695,
+          "date": "2021-09-26"
+        },
+        {
+          "rank": 15,
+          "intensity": 1.9285714285714286,
+          "date": "2021-11-13"
+        },
+        {
+          "rank": 16,
+          "intensity": 1.9591836734693877,
+          "date": "2021-02-18"
+        },
+        {
+          "rank": 17,
+          "intensity": 1.989795918367347,
+          "date": "2021-10-02"
+        },
+        {
+          "rank": 18,
+          "intensity": 2.020408163265306,
+          "date": "2021-11-21"
+        },
+        {
+          "rank": 19,
+          "intensity": 2.0510204081632653,
+          "date": "2021-11-11"
+        },
+        {
+          "rank": 20,
+          "intensity": 2.0816326530612246,
+          "date": "2021-03-04"
+        },
+        {
+          "rank": 21,
+          "intensity": 2.112244897959184,
+          "date": "2021-12-03"
+        },
+        {
+          "rank": 22,
+          "intensity": 2.142857142857143,
+          "date": "2021-09-16"
+        },
+        {
+          "rank": 23,
+          "intensity": 2.173469387755102,
+          "date": "2021-05-05"
+        },
+        {
+          "rank": 24,
+          "intensity": 2.204081632653061,
+          "date": "2021-01-23"
+        },
+        {
+          "rank": 25,
+          "intensity": 2.2346938775510203,
+          "date": "2021-02-04"
+        },
+        {
+          "rank": 26,
+          "intensity": 2.2653061224489797,
+          "date": "2021-12-25"
+        },
+        {
+          "rank": 27,
+          "intensity": 2.295918367346939,
+          "date": "2021-09-04"
+        },
+        {
+          "rank": 28,
+          "intensity": 2.326530612244898,
+          "date": "2021-06-29"
+        },
+        {
+          "rank": 29,
+          "intensity": 2.357142857142857,
+          "date": "2021-08-18"
+        },
+        {
+          "rank": 30,
+          "intensity": 2.387755102040816,
+          "date": "2021-12-20"
+        },
+        {
+          "rank": 31,
+          "intensity": 2.4183673469387754,
+          "date": "2021-03-25"
+        },
+        {
+          "rank": 32,
+          "intensity": 2.4489795918367347,
+          "date": "2021-11-02"
+        },
+        {
+          "rank": 33,
+          "intensity": 2.479591836734694,
+          "date": "2021-05-20"
+        },
+        {
+          "rank": 34,
+          "intensity": 2.510204081632653,
+          "date": "2021-06-19"
+        },
+        {
+          "rank": 35,
+          "intensity": 2.5408163265306123,
+          "date": "2021-10-15"
+        },
+        {
+          "rank": 36,
+          "intensity": 2.571428571428571,
+          "date": "2021-08-26"
+        },
+        {
+          "rank": 37,
+          "intensity": 2.6020408163265305,
+          "date": "2021-02-20"
+        },
+        {
+          "rank": 38,
+          "intensity": 2.63265306122449,
+          "date": "2021-01-15"
+        },
+        {
+          "rank": 39,
+          "intensity": 2.663265306122449,
+          "date": "2021-08-11"
+        },
+        {
+          "rank": 40,
+          "intensity": 2.693877551020408,
+          "date": "2021-10-05"
+        },
+        {
+          "rank": 41,
+          "intensity": 2.7244897959183674,
+          "date": "2021-09-06"
+        },
+        {
+          "rank": 42,
+          "intensity": 2.7551020408163263,
+          "date": "2021-03-13"
+        },
+        {
+          "rank": 43,
+          "intensity": 2.7857142857142856,
+          "date": "2021-11-06"
+        },
+        {
+          "rank": 44,
+          "intensity": 2.816326530612245,
+          "date": "2021-01-31"
+        },
+        {
+          "rank": 45,
+          "intensity": 2.8469387755102042,
+          "date": "2021-05-07"
+        },
+        {
+          "rank": 46,
+          "intensity": 2.877551020408163,
+          "date": "2021-04-26"
+        },
+        {
+          "rank": 47,
+          "intensity": 2.9081632653061225,
+          "date": "2021-01-26"
+        },
+        {
+          "rank": 48,
+          "intensity": 2.9387755102040813,
+          "date": "2021-04-13"
+        },
+        {
+          "rank": 49,
+          "intensity": 2.9693877551020407,
+          "date": "2021-03-31"
+        },
+        {
+          "rank": 50,
+          "intensity": 3.0,
+          "date": "2021-11-16"
+        }
+      ],
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00025",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 578 during 2021 that exhibit the trend pattern 'rapid rise, then slow rise', identify the top-5 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-12-18', '2021-05-12', '2021-04-24', '2021-10-13', '2021-08-08']",
+    "ground_truth": [
+      "2021-12-18",
+      "2021-05-12",
+      "2021-04-24",
+      "2021-10-13",
+      "2021-08-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "578",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00025.csv",
+    "meta": {
+      "segments": [
+        {
+          "kind": "rise",
+          "adj": "rapid"
+        },
+        {
+          "kind": "rise",
+          "adj": "slow"
+        }
+      ],
+      "pattern_phrase": "rapid rise, then slow rise",
+      "rank_target_idx": 0,
+      "rank_kind": "rise",
+      "rank_adj": "rapid",
+      "rank_axis": "slope",
+      "rank_direction": "DESC",
+      "rank_extreme": "fastest",
+      "top_segments_meta": [
+        {
+          "adj": "rapid",
+          "kind": "rise",
+          "label": "rapid rise",
+          "start_idx": 0,
+          "end_idx": 24
+        },
+        {
+          "adj": "slow",
+          "kind": "rise",
+          "label": "slow rise",
+          "start_idx": 24,
+          "end_idx": 98
+        }
+      ],
+      "points_per_day": 96,
+      "pattern": "rapid rise, then slow rise",
+      "year": 2021,
+      "top_k": [
+        "2021-12-18",
+        "2021-05-12",
+        "2021-04-24",
+        "2021-10-13",
+        "2021-08-08"
+      ],
+      "all_injections": [
+        {
+          "rank": 1,
+          "intensity": 3.0,
+          "date": "2021-12-18"
+        },
+        {
+          "rank": 2,
+          "intensity": 2.9693877551020407,
+          "date": "2021-05-12"
+        },
+        {
+          "rank": 3,
+          "intensity": 2.938775510204082,
+          "date": "2021-04-24"
+        },
+        {
+          "rank": 4,
+          "intensity": 2.9081632653061225,
+          "date": "2021-10-13"
+        },
+        {
+          "rank": 5,
+          "intensity": 2.877551020408163,
+          "date": "2021-08-08"
+        },
+        {
+          "rank": 6,
+          "intensity": 2.8469387755102042,
+          "date": "2021-04-21"
+        },
+        {
+          "rank": 7,
+          "intensity": 2.816326530612245,
+          "date": "2021-03-09"
+        },
+        {
+          "rank": 8,
+          "intensity": 2.7857142857142856,
+          "date": "2021-01-30"
+        },
+        {
+          "rank": 9,
+          "intensity": 2.7551020408163267,
+          "date": "2021-11-13"
+        },
+        {
+          "rank": 10,
+          "intensity": 2.7244897959183674,
+          "date": "2021-05-23"
+        },
+        {
+          "rank": 11,
+          "intensity": 2.693877551020408,
+          "date": "2021-05-31"
+        },
+        {
+          "rank": 12,
+          "intensity": 2.663265306122449,
+          "date": "2021-06-08"
+        },
+        {
+          "rank": 13,
+          "intensity": 2.63265306122449,
+          "date": "2021-10-22"
+        },
+        {
+          "rank": 14,
+          "intensity": 2.6020408163265305,
+          "date": "2021-08-05"
+        },
+        {
+          "rank": 15,
+          "intensity": 2.5714285714285716,
+          "date": "2021-01-07"
+        },
+        {
+          "rank": 16,
+          "intensity": 2.5408163265306123,
+          "date": "2021-11-06"
+        },
+        {
+          "rank": 17,
+          "intensity": 2.510204081632653,
+          "date": "2021-04-27"
+        },
+        {
+          "rank": 18,
+          "intensity": 2.479591836734694,
+          "date": "2021-03-15"
+        },
+        {
+          "rank": 19,
+          "intensity": 2.4489795918367347,
+          "date": "2021-01-25"
+        },
+        {
+          "rank": 20,
+          "intensity": 2.4183673469387754,
+          "date": "2021-07-21"
+        },
+        {
+          "rank": 21,
+          "intensity": 2.387755102040816,
+          "date": "2021-12-21"
+        },
+        {
+          "rank": 22,
+          "intensity": 2.357142857142857,
+          "date": "2021-07-10"
+        },
+        {
+          "rank": 23,
+          "intensity": 2.326530612244898,
+          "date": "2021-10-26"
+        },
+        {
+          "rank": 24,
+          "intensity": 2.295918367346939,
+          "date": "2021-07-13"
+        },
+        {
+          "rank": 25,
+          "intensity": 2.2653061224489797,
+          "date": "2021-03-02"
+        },
+        {
+          "rank": 26,
+          "intensity": 2.2346938775510203,
+          "date": "2021-08-16"
+        },
+        {
+          "rank": 27,
+          "intensity": 2.204081632653061,
+          "date": "2021-06-23"
+        },
+        {
+          "rank": 28,
+          "intensity": 2.173469387755102,
+          "date": "2021-03-19"
+        },
+        {
+          "rank": 29,
+          "intensity": 2.142857142857143,
+          "date": "2021-11-25"
+        },
+        {
+          "rank": 30,
+          "intensity": 2.112244897959184,
+          "date": "2021-08-02"
+        },
+        {
+          "rank": 31,
+          "intensity": 2.0816326530612246,
+          "date": "2021-11-02"
+        },
+        {
+          "rank": 32,
+          "intensity": 2.0510204081632653,
+          "date": "2021-09-16"
+        },
+        {
+          "rank": 33,
+          "intensity": 2.020408163265306,
+          "date": "2021-12-16"
+        },
+        {
+          "rank": 34,
+          "intensity": 1.989795918367347,
+          "date": "2021-05-28"
+        },
+        {
+          "rank": 35,
+          "intensity": 1.9591836734693877,
+          "date": "2021-06-18"
+        },
+        {
+          "rank": 36,
+          "intensity": 1.9285714285714286,
+          "date": "2021-01-04"
+        },
+        {
+          "rank": 37,
+          "intensity": 1.8979591836734695,
+          "date": "2021-02-23"
+        },
+        {
+          "rank": 38,
+          "intensity": 1.8673469387755102,
+          "date": "2021-04-19"
+        },
+        {
+          "rank": 39,
+          "intensity": 1.836734693877551,
+          "date": "2021-05-20"
+        },
+        {
+          "rank": 40,
+          "intensity": 1.806122448979592,
+          "date": "2021-05-10"
+        },
+        {
+          "rank": 41,
+          "intensity": 1.7755102040816326,
+          "date": "2021-11-19"
+        },
+        {
+          "rank": 42,
+          "intensity": 1.7448979591836735,
+          "date": "2021-09-14"
+        },
+        {
+          "rank": 43,
+          "intensity": 1.7142857142857144,
+          "date": "2021-03-07"
+        },
+        {
+          "rank": 44,
+          "intensity": 1.683673469387755,
+          "date": "2021-02-05"
+        },
+        {
+          "rank": 45,
+          "intensity": 1.653061224489796,
+          "date": "2021-08-18"
+        },
+        {
+          "rank": 46,
+          "intensity": 1.6224489795918369,
+          "date": "2021-05-26"
+        },
+        {
+          "rank": 47,
+          "intensity": 1.5918367346938775,
+          "date": "2021-12-04"
+        },
+        {
+          "rank": 48,
+          "intensity": 1.5612244897959184,
+          "date": "2021-03-29"
+        },
+        {
+          "rank": 49,
+          "intensity": 1.5306122448979593,
+          "date": "2021-09-02"
+        },
+        {
+          "rank": 50,
+          "intensity": 1.5,
+          "date": "2021-10-29"
+        }
+      ],
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00034",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 680 during 2023 that exhibit the trend pattern 'rise, then slow fall, then rapid rise, then steady stable', identify the top-5 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-10-31', '2023-07-08', '2023-12-15', '2023-11-22', '2023-11-26']",
+    "ground_truth": [
+      "2023-10-31",
+      "2023-07-08",
+      "2023-12-15",
+      "2023-11-22",
+      "2023-11-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "680",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00034.csv",
+    "meta": {
+      "segments": [
+        {
+          "kind": "rise",
+          "adj": "none"
+        },
+        {
+          "kind": "fall",
+          "adj": "slow"
+        },
+        {
+          "kind": "rise",
+          "adj": "rapid"
+        },
+        {
+          "kind": "stable",
+          "adj": "steady"
+        }
+      ],
+      "pattern_phrase": "rise, then slow fall, then rapid rise, then steady stable",
+      "rank_target_idx": 1,
+      "rank_kind": "fall",
+      "rank_adj": "slow",
+      "rank_axis": "slope",
+      "rank_direction": "ASC",
+      "rank_extreme": "slowest",
+      "top_segments_meta": [
+        {
+          "adj": "none",
+          "kind": "rise",
+          "label": "none rise",
+          "start_idx": 0,
+          "end_idx": 20
+        },
+        {
+          "adj": "slow",
+          "kind": "fall",
+          "label": "slow fall",
+          "start_idx": 20,
+          "end_idx": 51
+        },
+        {
+          "adj": "rapid",
+          "kind": "rise",
+          "label": "rapid rise",
+          "start_idx": 51,
+          "end_idx": 60
+        },
+        {
+          "adj": "steady",
+          "kind": "stable",
+          "label": "steady stable",
+          "start_idx": 60,
+          "end_idx": 98
+        }
+      ],
+      "points_per_day": 96,
+      "pattern": "rise, then slow fall, then rapid rise, then steady stable",
+      "year": 2023,
+      "top_k": [
+        "2023-10-31",
+        "2023-07-08",
+        "2023-12-15",
+        "2023-11-22",
+        "2023-11-26"
+      ],
+      "all_injections": [
+        {
+          "rank": 1,
+          "intensity": 1.5,
+          "date": "2023-10-31"
+        },
+        {
+          "rank": 2,
+          "intensity": 1.530612244897959,
+          "date": "2023-07-08"
+        },
+        {
+          "rank": 3,
+          "intensity": 1.5612244897959184,
+          "date": "2023-12-15"
+        },
+        {
+          "rank": 4,
+          "intensity": 1.5918367346938775,
+          "date": "2023-11-22"
+        },
+        {
+          "rank": 5,
+          "intensity": 1.6224489795918366,
+          "date": "2023-11-26"
+        },
+        {
+          "rank": 6,
+          "intensity": 1.653061224489796,
+          "date": "2023-08-14"
+        },
+        {
+          "rank": 7,
+          "intensity": 1.683673469387755,
+          "date": "2023-10-14"
+        },
+        {
+          "rank": 8,
+          "intensity": 1.7142857142857142,
+          "date": "2023-11-28"
+        },
+        {
+          "rank": 9,
+          "intensity": 1.7448979591836735,
+          "date": "2023-06-24"
+        },
+        {
+          "rank": 10,
+          "intensity": 1.7755102040816326,
+          "date": "2023-06-17"
+        },
+        {
+          "rank": 11,
+          "intensity": 1.806122448979592,
+          "date": "2023-06-22"
+        },
+        {
+          "rank": 12,
+          "intensity": 1.836734693877551,
+          "date": "2023-02-10"
+        },
+        {
+          "rank": 13,
+          "intensity": 1.8673469387755102,
+          "date": "2023-07-31"
+        },
+        {
+          "rank": 14,
+          "intensity": 1.8979591836734695,
+          "date": "2023-01-27"
+        },
+        {
+          "rank": 15,
+          "intensity": 1.9285714285714286,
+          "date": "2023-02-12"
+        },
+        {
+          "rank": 16,
+          "intensity": 1.9591836734693877,
+          "date": "2023-12-24"
+        },
+        {
+          "rank": 17,
+          "intensity": 1.989795918367347,
+          "date": "2023-01-03"
+        },
+        {
+          "rank": 18,
+          "intensity": 2.020408163265306,
+          "date": "2023-07-05"
+        },
+        {
+          "rank": 19,
+          "intensity": 2.0510204081632653,
+          "date": "2023-12-06"
+        },
+        {
+          "rank": 20,
+          "intensity": 2.0816326530612246,
+          "date": "2023-08-18"
+        },
+        {
+          "rank": 21,
+          "intensity": 2.112244897959184,
+          "date": "2023-04-27"
+        },
+        {
+          "rank": 22,
+          "intensity": 2.142857142857143,
+          "date": "2023-04-07"
+        },
+        {
+          "rank": 23,
+          "intensity": 2.173469387755102,
+          "date": "2023-09-04"
+        },
+        {
+          "rank": 24,
+          "intensity": 2.204081632653061,
+          "date": "2023-09-21"
+        },
+        {
+          "rank": 25,
+          "intensity": 2.2346938775510203,
+          "date": "2023-11-15"
+        },
+        {
+          "rank": 26,
+          "intensity": 2.2653061224489797,
+          "date": "2023-09-06"
+        },
+        {
+          "rank": 27,
+          "intensity": 2.295918367346939,
+          "date": "2023-12-27"
+        },
+        {
+          "rank": 28,
+          "intensity": 2.326530612244898,
+          "date": "2023-01-07"
+        },
+        {
+          "rank": 29,
+          "intensity": 2.357142857142857,
+          "date": "2023-05-28"
+        },
+        {
+          "rank": 30,
+          "intensity": 2.387755102040816,
+          "date": "2023-06-08"
+        },
+        {
+          "rank": 31,
+          "intensity": 2.4183673469387754,
+          "date": "2023-04-05"
+        },
+        {
+          "rank": 32,
+          "intensity": 2.4489795918367347,
+          "date": "2023-04-02"
+        },
+        {
+          "rank": 33,
+          "intensity": 2.479591836734694,
+          "date": "2023-02-06"
+        },
+        {
+          "rank": 34,
+          "intensity": 2.510204081632653,
+          "date": "2023-06-27"
+        },
+        {
+          "rank": 35,
+          "intensity": 2.5408163265306123,
+          "date": "2023-02-01"
+        },
+        {
+          "rank": 36,
+          "intensity": 2.571428571428571,
+          "date": "2023-08-04"
+        },
+        {
+          "rank": 37,
+          "intensity": 2.6020408163265305,
+          "date": "2023-04-20"
+        },
+        {
+          "rank": 38,
+          "intensity": 2.63265306122449,
+          "date": "2023-10-10"
+        },
+        {
+          "rank": 39,
+          "intensity": 2.663265306122449,
+          "date": "2023-01-19"
+        },
+        {
+          "rank": 40,
+          "intensity": 2.693877551020408,
+          "date": "2023-02-17"
+        },
+        {
+          "rank": 41,
+          "intensity": 2.7244897959183674,
+          "date": "2023-03-06"
+        },
+        {
+          "rank": 42,
+          "intensity": 2.7551020408163263,
+          "date": "2023-03-25"
+        },
+        {
+          "rank": 43,
+          "intensity": 2.7857142857142856,
+          "date": "2023-10-01"
+        },
+        {
+          "rank": 44,
+          "intensity": 2.816326530612245,
+          "date": "2023-03-14"
+        },
+        {
+          "rank": 45,
+          "intensity": 2.8469387755102042,
+          "date": "2023-08-23"
+        },
+        {
+          "rank": 46,
+          "intensity": 2.877551020408163,
+          "date": "2023-04-16"
+        },
+        {
+          "rank": 47,
+          "intensity": 2.9081632653061225,
+          "date": "2023-07-20"
+        },
+        {
+          "rank": 48,
+          "intensity": 2.9387755102040813,
+          "date": "2023-05-31"
+        },
+        {
+          "rank": 49,
+          "intensity": 2.9693877551020407,
+          "date": "2023-08-07"
+        },
+        {
+          "rank": 50,
+          "intensity": 3.0,
+          "date": "2023-01-01"
+        }
+      ],
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L4_T1_Insight_Synthesis_00001",
+    "level": 4,
+    "level_name": "Insight Synthesis",
+    "category": "Insight Synthesis",
+    "subtask": "Insight Synthesis",
+    "question": "Analyze the behavior of channel 67 for the period 2021-11.\nPlease use ONLY the following phrases for trend description: rapid rise, gradual rise, rapid fall, gradual fall, steady stable, fluctuating stable.\nProvide a structured report covering:\n1. Trend Segmentation: Describe each stage with precise start/end timestamps (HH:MM:SS) using the phrases above.\n2. Outlier Audit: Identify only significant outliers that deviate sharply from the local trend. Ignore minor background noise.\n(Output format: structured natural language report.)",
+    "answer": "1. Trend Segmentation: from 2021-11-01 00:00:00 to 2021-11-22 10:15:00, the trend showed a gradual rise; from 2021-11-22 10:15:00 to 2021-11-30 23:45:00, the trend showed a rapid rise.\n2. Outlier Audit: A significant spike was detected at 2021-11-21 05:45:00 (value: 0.90).",
+    "ground_truth": {
+      "trend_segments": [
+        "from 2021-11-01 00:00:00 to 2021-11-22 10:15:00, the trend showed a gradual rise",
+        "from 2021-11-22 10:15:00 to 2021-11-30 23:45:00, the trend showed a rapid rise"
+      ],
+      "segments_meta": [
+        {
+          "adj": "gradual",
+          "kind": "rise",
+          "start_idx": 0,
+          "end_idx": 2057
+        },
+        {
+          "adj": "rapid",
+          "kind": "rise",
+          "start_idx": 2057,
+          "end_idx": 2880
+        }
+      ],
+      "significant_anomaly": {
+        "timestamp": "2021-11-21 05:45:00",
+        "kind": "significant spike",
+        "value": 0.8979430069162033
+      }
+    },
+    "eval_metric": "report",
+    "channel": "67",
+    "ts_data_path": "ts_data/L4_T1_Insight_Synthesis_00001.csv",
+    "meta": {
+      "target_month": "2021-11",
+      "target_year": 2021,
+      "source": "causal_rivers"
+    }
+  },
+  {
+    "id": "L4_T1_Insight_Synthesis_00002",
+    "level": 4,
+    "level_name": "Insight Synthesis",
+    "category": "Insight Synthesis",
+    "subtask": "Insight Synthesis",
+    "question": "Analyze the behavior of channel 71 for the period 2021-02.\nPlease use ONLY the following phrases for trend description: rapid rise, gradual rise, rapid fall, gradual fall, steady stable, fluctuating stable.\nProvide a structured report covering:\n1. Trend Segmentation: Describe each stage with precise start/end timestamps (HH:MM:SS) using the phrases above.\n2. Outlier Audit: Identify only significant outliers that deviate sharply from the local trend. Ignore minor background noise.\n(Output format: structured natural language report.)",
+    "answer": "1. Trend Segmentation: from 2021-02-01 00:00:00 to 2021-02-05 16:00:00, the trend showed a rapid fall; from 2021-02-05 16:00:00 to 2021-02-17 08:00:00, the trend showed a gradual rise; from 2021-02-17 08:00:00 to 2021-02-28 23:45:00, the trend showed a rapid fall.\n2. Outlier Audit: A significant drop was detected at 2021-02-21 22:15:00 (value: -8.13).",
+    "ground_truth": {
+      "trend_segments": [
+        "from 2021-02-01 00:00:00 to 2021-02-05 16:00:00, the trend showed a rapid fall",
+        "from 2021-02-05 16:00:00 to 2021-02-17 08:00:00, the trend showed a gradual rise",
+        "from 2021-02-17 08:00:00 to 2021-02-28 23:45:00, the trend showed a rapid fall"
+      ],
+      "segments_meta": [
+        {
+          "adj": "rapid",
+          "kind": "fall",
+          "start_idx": 0,
+          "end_idx": 448
+        },
+        {
+          "adj": "gradual",
+          "kind": "rise",
+          "start_idx": 448,
+          "end_idx": 1568
+        },
+        {
+          "adj": "rapid",
+          "kind": "fall",
+          "start_idx": 1568,
+          "end_idx": 2688
+        }
+      ],
+      "significant_anomaly": {
+        "timestamp": "2021-02-21 22:15:00",
+        "kind": "significant drop",
+        "value": -8.126309872530218
+      }
+    },
+    "eval_metric": "report",
+    "channel": "71",
+    "ts_data_path": "ts_data/L4_T1_Insight_Synthesis_00002.csv",
+    "meta": {
+      "target_month": "2021-02",
+      "target_year": 2021,
+      "source": "causal_rivers"
+    }
+  }
+]

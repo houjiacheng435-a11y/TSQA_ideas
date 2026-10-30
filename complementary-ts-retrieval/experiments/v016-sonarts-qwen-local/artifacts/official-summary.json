@@ -1,0 +1,133 @@
+{
+  "overall": {
+    "n": 10,
+    "avg": 0.39272891008338373
+  },
+  "by_level": {
+    "L2": {
+      "n": 2,
+      "avg": 1.0
+    },
+    "L3": {
+      "n": 6,
+      "avg": 0.03617770167427702
+    },
+    "L4": {
+      "n": 2,
+      "avg": 0.8551114453940876
+    }
+  },
+  "by_category": {
+    "Atomic Retrieval": {
+      "code": "AR",
+      "level": "L1",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Sliding Window": {
+      "code": "SW",
+      "level": "L1",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Shape Identification": {
+      "code": "SI",
+      "level": "L2",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Periodicity Detection": {
+      "code": "PD",
+      "level": "L2",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Subsequence Matching": {
+      "code": "SM",
+      "level": "L2",
+      "n": 2,
+      "avg": 1.0
+    },
+    "Composite Trend": {
+      "code": "CT",
+      "level": "L3",
+      "n": 3,
+      "avg": 0.06666666666666668
+    },
+    "Contextual Anomaly": {
+      "code": "CxA",
+      "level": "L3",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Causal Anomaly": {
+      "code": "CsA",
+      "level": "L3",
+      "n": 3,
+      "avg": 0.005688736681887367
+    },
+    "Insight Synthesis": {
+      "code": "IS",
+      "level": "L4",
+      "n": 2,
+      "avg": 0.8551114453940876
+    }
+  },
+  "by_subtask": {
+    "Global Aggregation": {
+      "metric": "rel_acc",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Temporal Localization": {
+      "metric": "hit",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Interval Discovery": {
+      "metric": "iou",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Sliding Window": {
+      "metric": "iou",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Shape Identification": {
+      "metric": "iou",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Periodicity Detection": {
+      "metric": "rel_acc",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Subsequence Matching": {
+      "metric": "iou",
+      "n": 2,
+      "avg": 1.0
+    },
+    "Composite Trend": {
+      "metric": "set_f1",
+      "n": 3,
+      "avg": 0.06666666666666668
+    },
+    "Contextual Anomaly": {
+      "metric": "iou",
+      "n": 0,
+      "avg": 0.0
+    },
+    "Causal Anomaly": {
+      "metric": "iou",
+      "n": 3,
+      "avg": 0.005688736681887367
+    },
+    "Insight Synthesis": {
+      "metric": "report",
+      "n": 2,
+      "avg": 0.8551114453940876
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "rule": "Before model inference: lexicographically first existing local CSV tasks per predefined family; 2 subsequence, 3 causal, 3 composite, 2 insight. No scores used.",
+  "smoke_id": "L2_T3_Subsequence_Matching_00332",
+  "ids": [
+    "L2_T3_Subsequence_Matching_00332",
+    "L2_T3_Subsequence_Matching_00339",
+    "L3_T3_Causal_Anomaly_00386",
+    "L3_T3_Causal_Anomaly_00387",
+    "L3_T3_Causal_Anomaly_00388",
+    "L3_T1_Composite_Trend_00014",
+    "L3_T1_Composite_Trend_00025",
+    "L3_T1_Composite_Trend_00034",
+    "L4_T1_Insight_Synthesis_00001",
+    "L4_T1_Insight_Synthesis_00002"
+  ],
+  "sources": {
+    "L2_T3_Subsequence_Matching_00332": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/pilot30-v004/raw/ts_data/L2_T3_Subsequence_Matching_00332.csv",
+      "sha256": "4468669dca78ce6b52a4581f2bbbff376842c9eb52d8d89479a39b8ac7c56a26",
+      "bytes": 22504
+    },
+    "L2_T3_Subsequence_Matching_00339": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/pilot30-v004/raw/ts_data/L2_T3_Subsequence_Matching_00339.csv",
+      "sha256": "bddcdc9cad3241c263d5ca64ac142266ac2e437b5270eb465f91e8d40d6b2752",
+      "bytes": 24627
+    },
+    "L3_T3_Causal_Anomaly_00386": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/broad-anomaly-v012/raw/ts_data/L3_T3_Causal_Anomaly_00386.csv",
+      "sha256": "0c72f3af62df949cb85614b08f0afa7e0f79456c20b6af391f1c33989a0cc383",
+      "bytes": 1596925
+    },
+    "L3_T3_Causal_Anomaly_00387": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/broad-anomaly-v012/raw/ts_data/L3_T3_Causal_Anomaly_00387.csv",
+      "sha256": "6ff0f63107fdb3f26bb2a9e01c235675616acc45c5b5d4a5ae91cff8dc588440",
+      "bytes": 1596700
+    },
+    "L3_T3_Causal_Anomaly_00388": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/broad-anomaly-v012/raw/ts_data/L3_T3_Causal_Anomaly_00388.csv",
+      "sha256": "ce570e9ffc4605e6b59ff45f9f85e99df9ebd3b488a3da2cf810f81869a4f56d",
+      "bytes": 1602938
+    },
+    "L3_T1_Composite_Trend_00014": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/pilot30-v004/raw/ts_data/L3_T1_Composite_Trend_00014.csv",
+      "sha256": "9c9bf760554c1d43a0bef4635b2bb47994e7bc37ede4573452b04e05fede8dc7",
+      "bytes": 1317436
+    },
+    "L3_T1_Composite_Trend_00025": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/pilot30-v004/raw/ts_data/L3_T1_Composite_Trend_00025.csv",
+      "sha256": "598446b621a95c32060bb26d85bc301295b94f862f283b99380833f8a748ea3a",
+      "bytes": 1365943
+    },
+    "L3_T1_Composite_Trend_00034": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/pilot30-v004/raw/ts_data/L3_T1_Composite_Trend_00034.csv",
+      "sha256": "23f724c8bcc37f554db69d20ba5353c05df4dee02b8487edad7d9f4ff15132bf",
+      "bytes": 1354248
+    },
+    "L4_T1_Insight_Synthesis_00001": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/insight-retrieval-v014/raw/ts_data/L4_T1_Insight_Synthesis_00001.csv",
+      "sha256": "dc8f3438aeb41bee6d9ed4b2c7b0c0fee5482ee0636ac7e37a1147ac326dd99c",
+      "bytes": 947518
+    },
+    "L4_T1_Insight_Synthesis_00002": {
+      "path": "/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/data/insight-retrieval-v014/raw/ts_data/L4_T1_Insight_Synthesis_00002.csv",
+      "sha256": "47bcac330652162df6252593ee08a60ccab50926fa4a827e93f0bb98471192c9",
+      "bytes": 943118
+    }
+  },
+  "official_commit": "99866c43cd7ceb91a929de745e9f49cea92962e5",
+  "tasks_sha256": "8a9604571854efe08d74cd6dd8ccbd686a06c6f412938d4d7e3b0e3333cc788e"
+}

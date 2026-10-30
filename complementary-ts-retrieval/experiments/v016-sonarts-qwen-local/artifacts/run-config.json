@@ -1,0 +1,48 @@
+{
+  "label": "Sonar-TS + Qwen3-8B",
+  "official": "/root/autodl-tmp/cf-run/vendor/Sonar-TS-v016-minimal",
+  "base_url": "http://127.0.0.1:8016/v1",
+  "workers": 1,
+  "max_tokens": 4096,
+  "temperature": 0.0,
+  "thinking": false,
+  "dtype": "bfloat16",
+  "context_limit": 16384,
+  "executor_config": {
+    "timeout_seconds": 60,
+    "max_regenerations": 3,
+    "shape_rules": {
+      "rel_acc": {
+        "expected": "scalar"
+      },
+      "hit": {
+        "expected": "timestamp"
+      },
+      "iou": {
+        "expected": "interval"
+      },
+      "set_f1": {
+        "expected": "date_set",
+        "max_items": 50
+      },
+      "report": {
+        "expected": "report_dict"
+      }
+    }
+  },
+  "phase": "pilot10",
+  "task_ids": [
+    "L2_T3_Subsequence_Matching_00332",
+    "L2_T3_Subsequence_Matching_00339",
+    "L3_T3_Causal_Anomaly_00386",
+    "L3_T3_Causal_Anomaly_00387",
+    "L3_T3_Causal_Anomaly_00388",
+    "L3_T1_Composite_Trend_00014",
+    "L3_T1_Composite_Trend_00025",
+    "L3_T1_Composite_Trend_00034",
+    "L4_T1_Insight_Synthesis_00001",
+    "L4_T1_Insight_Synthesis_00002"
+  ],
+  "client_http_timeout_seconds": 600,
+  "paid_api": false
+}
