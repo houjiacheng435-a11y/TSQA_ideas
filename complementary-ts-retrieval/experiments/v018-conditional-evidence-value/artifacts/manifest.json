@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "cpu-and-audit.tar.gz": {
+      "bytes": 5745466,
+      "sha256": "7aef9ccb9f82958a003dc2e35ad5883742bee11da65282904952828926b856c5"
+    },
+    "gpu-traces.tar.gz": {
+      "bytes": 2015995,
+      "sha256": "5fc8d94b6e2305a5558d25c73366d8d0610e873822b74bb4e5feeb3cb2d81358"
+    },
+    "results.json": {
+      "bytes": 503631,
+      "sha256": "b36c0b33d1ccf1a2dee832f824b2dfec5977192a1d6411b366686bda69f775f3"
+    },
+    "excluded-prototype.json": {
+      "bytes": 460,
+      "sha256": "0247a825064d1c0e0de29a0e4fe574528b281b269bdc519f147d23bc73183c51"
+    }
+  },
+  "source_sha256": {
+    "protocol.json": "ac92b894f77d4e16653e5aba2053baa5300aa87c803334725de34b2441277fee",
+    "core.py": "9239d3275d715636a7eaba1ecd7a6f4fb08204feb65bbe0e2967c9a7a426cacf",
+    "build.py": "3692335117d303de282aa1de8de622e13bec2150fbe917745091218fe8f18cac",
+    "cpu.py": "f9f7b44a4e00d86c3adaad4fb808db9f2257e2c03fc8c16c2f2529936761b481",
+    "serve.sh": "c0e0f923528fd2c58a36d1fcb6ce3bdf8f0c13d24219014ae6c82a4013541cc9",
+    "gpu.py": "8d5f8574f91092d9a43b0e0bdbee8aa1a425b1e27693523a03a13c6d89056005",
+    "native.py": "5971b44b8ecac80d77c3ad4c28e995efadb3b444478b0888c9170eca09980810",
+    "ablations.py": "4a8971c6517ee56a1602d182f3c5e80b57166ec5999faf3374ac99ceec9e1913",
+    "score_gpu.py": "a6f72dee92cca944399ed9598d548ba6cb858e516f7f26864ab994667d7c19f7",
+    "runtime_frozen.py": "18824686ff80fc3b218f9830fbc6a23e246f9225426b7839066d0d0c3f0ab813",
+    "REPRODUCE.md": "e1f4659ab4626ce61afa36e116ef7a1656b41bc834f1fdd5ab044e80c5edd36e",
+    "verify_artifacts.py": "f3f9c4e0658d5b405d15d61d9685c6ac7461b553b766d9db99fd73328272eb93",
+    "bundle.py": "0e87c80cb32b0e819b61408d015f3503e30ace50d08cb2ab215b166f8df8240e",
+    "counterfactual_metrics.py": "0602fa58e36cb86c576b83399bb6fc606678351b17600676742e25f6119b3fb8",
+    "report.py": "7b2972ca69b6ea2467cebd1505517ec4759fc03aeab5fafe09790edd5b34e3cb",
+    "plot_cpu.py": "99727f3c2bb72aebc36e44440af0ec5c62fe292f531c5211aa2a6b8726692c1c"
+  },
+  "note": "finish_gpu.sh is a server-only live PID orchestrator, deliberately not published. Historical reference/documented sources are in gpu-traces archive."
+}

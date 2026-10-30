@@ -1,0 +1,30 @@
+{
+  "version": "v018",
+  "frozen_before_results": true,
+  "seeds": [1011, 2022, 3033],
+  "families_per_seed": {"train": 8, "development": 8, "test": 16},
+  "source_frequency_pairs": {"train": [1, 5], "development": [1, 7], "test": [5, 7]},
+  "regimes": {"A": 0, "B2": 1, "B3": 2},
+  "task": "Decide whether the downstream periodic response has delay 2 rather than 6 on an 8-phase cycle, relative to the observed driving event. Unknown local clock offsets require zero, one or two calibration links.",
+  "counterfactuals": "Four downstream delay combinations for the two driving-event contexts; both initial source contexts share exactly the same candidate pool within each combination.",
+  "proxy": "Optional independent coarse phase-delay measurement: E=0 with probability 0.5, each other phase with probability 0.5/7; observed phase is (delay+E) modulo 8. Its support never excludes either answer.",
+  "cpu": {"budgets": [1, 2, 3], "visibility": ["clear", "blind"], "proxy_enabled": [true, false]},
+  "gpu": {
+    "dynamic_model": "local Qwen3-8B, non-thinking, BF16, structured tool actions",
+    "test_families": "all 48 held-out families; no substitutions",
+    "worlds": [[0, 0], [1, 1]],
+    "initial_contexts": [0, 1],
+    "clear_regimes": ["A", "B2", "B3"],
+    "blind_regimes": ["B2", "B3"],
+    "budget": 3,
+    "planned_episodes": 960,
+    "reader_control": "288 fully observed cases, all 48 test families x 3 regimes x 2 answer counterfactuals, balanced initial context by family; Qwen raw/fact and ChatTS native reading measured separately",
+    "raw_first_action_ablation": "same 288 cases, only initial raw source and public driver sketches; no full target values"
+  },
+  "baselines": ["content_topk", "dependency_topk", "coverage", "mmr", "time_only", "conditional_numeric", "answer_ig", "answer_ig_dependency_tie", "joint_state_ig", "lookahead2", "lookahead3", "clairvoyant_oracle"],
+  "anti_bias": ["No test-label tuning or task rejection by performance", "All counterfactuals remain in one family split", "Report family-level bootstrap intervals", "Distinguish hidden-result oracle from publicly achievable expected utility", "Report tie-breaking and no-proxy ablation", "No learned retriever unless stronger simple methods leave a substantive gap"],
+  "model_scope": "Qwen for dynamic tool decisions; ChatTS native encoder only for full-evidence reader control, not claimed to be a tool retriever. TimeOmni not required when it adds no comparable retrieval interface.",
+  "no_training_initially": true,
+  "no_paid_api": true,
+  "preserve_previous_versions": true
+}
