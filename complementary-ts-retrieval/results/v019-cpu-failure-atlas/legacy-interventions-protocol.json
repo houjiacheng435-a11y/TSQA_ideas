@@ -1,0 +1,10 @@
+{
+  "timing": "Defined after discovering result/template commit mismatch; applied to all 12 original cases, no reselection or parameter tuning.",
+  "reference": "f2d61852498f1e406effc9d2696c512d2b3a2180 CT template",
+  "arms": [
+    "released legacy template",
+    "remove SAX priority only: same full-year raw, same per-day metric, same global quantile floor, global numerical sort instead of SAX-first concatenation",
+    "correct monotone endpoint only: same full-year access, same legacy SAX priority and quantile rule"
+  ],
+  "caution": "Removing SAX priority also removes its shape-eligibility preference. Better label score alone does not establish better literal pattern verification."
+}

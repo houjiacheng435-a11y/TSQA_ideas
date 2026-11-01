@@ -1,0 +1,6827 @@
+[
+  {
+    "date": "2023-01-01",
+    "points": 96,
+    "official_metric": 0.0009500000000000064,
+    "endpoint_corrected_metric": 0.0009750000000000592,
+    "independent_fit": {
+      "metric": 4.037940379401765e-06,
+      "segments": [
+        [
+          0,
+          81
+        ],
+        [
+          81,
+          96
+        ]
+      ],
+      "fit_sse": 2.0664206624028208e-05,
+      "target_points": 81
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "points": 96,
+    "official_metric": 0.0012375000000001135,
+    "endpoint_corrected_metric": 0.0012750000000000261,
+    "independent_fit": {
+      "metric": 1.056538398319926e-06,
+      "segments": [
+        [
+          0,
+          78
+        ],
+        [
+          78,
+          96
+        ]
+      ],
+      "fit_sse": 2.1749111926570698e-05,
+      "target_points": 78
+    }
+  },
+  {
+    "date": "2023-01-03",
+    "points": 96,
+    "official_metric": 0.0012375000000000025,
+    "endpoint_corrected_metric": 0.0012750000000000261,
+    "independent_fit": {
+      "metric": 2.8574196047738103e-06,
+      "segments": [
+        [
+          0,
+          88
+        ],
+        [
+          88,
+          96
+        ]
+      ],
+      "fit_sse": 2.2429468148229483e-05,
+      "target_points": 88
+    }
+  },
+  {
+    "date": "2023-01-04",
+    "points": 96,
+    "official_metric": 0.001487500000000086,
+    "endpoint_corrected_metric": 0.0015125000000000277,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-01-05",
+    "points": 96,
+    "official_metric": 0.0015249999999999986,
+    "endpoint_corrected_metric": 0.0015999999999999348,
+    "independent_fit": {
+      "metric": 1.3766233766247823e-05,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 4.723157463196284e-05,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-01-06",
+    "points": 96,
+    "official_metric": 0.0014125000000000387,
+    "endpoint_corrected_metric": 0.0014500000000000624,
+    "independent_fit": {
+      "metric": 5.999999999994898e-05,
+      "segments": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          96
+        ]
+      ],
+      "fit_sse": 3.2569546067971914e-05,
+      "target_points": 5
+    }
+  },
+  {
+    "date": "2023-01-07",
+    "points": 96,
+    "official_metric": 0.001875000000000071,
+    "endpoint_corrected_metric": 0.0022500000000000853,
+    "independent_fit": {
+      "metric": 9.948405253313607e-06,
+      "segments": [
+        [
+          0,
+          40
+        ],
+        [
+          40,
+          96
+        ]
+      ],
+      "fit_sse": 5.429593105792916e-05,
+      "target_points": 40
+    }
+  },
+  {
+    "date": "2023-01-08",
+    "points": 96,
+    "official_metric": 0.03664998193909519,
+    "endpoint_corrected_metric": 0.03697171161873791,
+    "independent_fit": {
+      "metric": 0.0009024183583885632,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.0005011158435727322,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-01-09",
+    "points": 96,
+    "official_metric": 0.001375000000000015,
+    "endpoint_corrected_metric": 0.0014500000000000624,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-01-10",
+    "points": 96,
+    "official_metric": 0.0014999999999999458,
+    "endpoint_corrected_metric": 0.0015000000000000568,
+    "independent_fit": {
+      "metric": 2.8482404692058706e-05,
+      "segments": [
+        [
+          0,
+          32
+        ],
+        [
+          32,
+          96
+        ]
+      ],
+      "fit_sse": 5.823513631297512e-05,
+      "target_points": 32
+    }
+  },
+  {
+    "date": "2023-01-11",
+    "points": 96,
+    "official_metric": 0.001974999999999949,
+    "endpoint_corrected_metric": 0.0021249999999999325,
+    "independent_fit": {
+      "metric": 4.602892102335081e-05,
+      "segments": [
+        [
+          0,
+          30
+        ],
+        [
+          30,
+          96
+        ]
+      ],
+      "fit_sse": 5.3134579335725656e-05,
+      "target_points": 30
+    }
+  },
+  {
+    "date": "2023-01-12",
+    "points": 96,
+    "official_metric": 0.001387499999999986,
+    "endpoint_corrected_metric": 0.0014250000000000096,
+    "independent_fit": {
+      "metric": 0.00015098901098902607,
+      "segments": [
+        [
+          0,
+          14
+        ],
+        [
+          14,
+          96
+        ]
+      ],
+      "fit_sse": 3.6017410957348525e-05,
+      "target_points": 14
+    }
+  },
+  {
+    "date": "2023-01-13",
+    "points": 96,
+    "official_metric": 0.0014625000000000332,
+    "endpoint_corrected_metric": 0.0015000000000000568,
+    "independent_fit": {
+      "metric": 1.4408033826635068e-05,
+      "segments": [
+        [
+          0,
+          44
+        ],
+        [
+          44,
+          96
+        ]
+      ],
+      "fit_sse": 6.203880465155642e-05,
+      "target_points": 44
+    }
+  },
+  {
+    "date": "2023-01-14",
+    "points": 96,
+    "official_metric": 0.0013374999999999915,
+    "endpoint_corrected_metric": 0.0014250000000000096,
+    "independent_fit": {
+      "metric": 3.17292438264877e-08,
+      "segments": [
+        [
+          0,
+          61
+        ],
+        [
+          61,
+          96
+        ]
+      ],
+      "fit_sse": 5.199600861376172e-05,
+      "target_points": 61
+    }
+  },
+  {
+    "date": "2023-01-15",
+    "points": 96,
+    "official_metric": 0.0015499999999999403,
+    "endpoint_corrected_metric": 0.001587499999999964,
+    "independent_fit": {
+      "metric": 0.00011964285714285321,
+      "segments": [
+        [
+          0,
+          8
+        ],
+        [
+          8,
+          96
+        ]
+      ],
+      "fit_sse": 5.170215978531934e-05,
+      "target_points": 8
+    }
+  },
+  {
+    "date": "2023-01-16",
+    "points": 96,
+    "official_metric": 0.0011250000000000426,
+    "endpoint_corrected_metric": 0.0011999999999999789,
+    "independent_fit": {
+      "metric": 4.656405198819013e-06,
+      "segments": [
+        [
+          0,
+          88
+        ],
+        [
+          88,
+          96
+        ]
+      ],
+      "fit_sse": 3.5671038051599155e-05,
+      "target_points": 88
+    }
+  },
+  {
+    "date": "2023-01-17",
+    "points": 96,
+    "official_metric": 0.0014999999999999458,
+    "endpoint_corrected_metric": 0.001575000000000104,
+    "independent_fit": {
+      "metric": 6.12745098039355e-05,
+      "segments": [
+        [
+          0,
+          17
+        ],
+        [
+          17,
+          96
+        ]
+      ],
+      "fit_sse": 2.8070340482166252e-05,
+      "target_points": 17
+    }
+  },
+  {
+    "date": "2023-01-18",
+    "points": 96,
+    "official_metric": 0.0016375000000000695,
+    "endpoint_corrected_metric": 0.001674999999999982,
+    "independent_fit": {
+      "metric": 1.1880081300837353e-05,
+      "segments": [
+        [
+          0,
+          81
+        ],
+        [
+          81,
+          96
+        ]
+      ],
+      "fit_sse": 5.3353245104897576e-05,
+      "target_points": 81
+    }
+  },
+  {
+    "date": "2023-01-19",
+    "points": 96,
+    "official_metric": 0.0015125000000001387,
+    "endpoint_corrected_metric": 0.0015500000000000513,
+    "independent_fit": {
+      "metric": 3.6978810663219127e-06,
+      "segments": [
+        [
+          0,
+          76
+        ],
+        [
+          76,
+          96
+        ]
+      ],
+      "fit_sse": 3.544072811995924e-05,
+      "target_points": 76
+    }
+  },
+  {
+    "date": "2023-01-20",
+    "points": 96,
+    "official_metric": 0.0017125000000000057,
+    "endpoint_corrected_metric": 0.0018000000000000238,
+    "independent_fit": {
+      "metric": 1.895921237690237e-05,
+      "segments": [
+        [
+          0,
+          80
+        ],
+        [
+          80,
+          96
+        ]
+      ],
+      "fit_sse": 5.769691406020194e-05,
+      "target_points": 80
+    }
+  },
+  {
+    "date": "2023-01-21",
+    "points": 96,
+    "official_metric": 0.001787499999999942,
+    "endpoint_corrected_metric": 0.00187499999999996,
+    "independent_fit": {
+      "metric": 3.260552598921253e-06,
+      "segments": [
+        [
+          0,
+          87
+        ],
+        [
+          87,
+          96
+        ]
+      ],
+      "fit_sse": 3.551019291147505e-05,
+      "target_points": 87
+    }
+  },
+  {
+    "date": "2023-01-22",
+    "points": 96,
+    "official_metric": 0.001774999999999971,
+    "endpoint_corrected_metric": 0.0018250000000000766,
+    "independent_fit": {
+      "metric": 2.5833333333302734e-05,
+      "segments": [
+        [
+          0,
+          9
+        ],
+        [
+          9,
+          96
+        ]
+      ],
+      "fit_sse": 3.6303813440370225e-05,
+      "target_points": 9
+    }
+  },
+  {
+    "date": "2023-01-23",
+    "points": 96,
+    "official_metric": 0.0017625000000000002,
+    "endpoint_corrected_metric": 0.0018124999999999947,
+    "independent_fit": {
+      "metric": 1.390756302524047e-05,
+      "segments": [
+        [
+          0,
+          85
+        ],
+        [
+          85,
+          96
+        ]
+      ],
+      "fit_sse": 6.004738325262604e-05,
+      "target_points": 85
+    }
+  },
+  {
+    "date": "2023-01-24",
+    "points": 96,
+    "official_metric": 0.0014999999999999458,
+    "endpoint_corrected_metric": 0.0015374999999999694,
+    "independent_fit": {
+      "metric": 6.275974980092561e-06,
+      "segments": [
+        [
+          0,
+          83
+        ],
+        [
+          83,
+          96
+        ]
+      ],
+      "fit_sse": 3.220929319367652e-05,
+      "target_points": 83
+    }
+  },
+  {
+    "date": "2023-01-25",
+    "points": 96,
+    "official_metric": 0.0011499999999999844,
+    "endpoint_corrected_metric": 0.0012750000000000261,
+    "independent_fit": {
+      "metric": 1.1071748667389759e-05,
+      "segments": [
+        [
+          0,
+          86
+        ],
+        [
+          86,
+          96
+        ]
+      ],
+      "fit_sse": 6.380970182701347e-05,
+      "target_points": 86
+    }
+  },
+  {
+    "date": "2023-01-26",
+    "points": 96,
+    "official_metric": 0.0013750000000001261,
+    "endpoint_corrected_metric": 0.0017625000000001112,
+    "independent_fit": {
+      "metric": 3.673150131793667e-06,
+      "segments": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          96
+        ]
+      ],
+      "fit_sse": 3.5335004073676515e-05,
+      "target_points": 92
+    }
+  },
+  {
+    "date": "2023-01-27",
+    "points": 96,
+    "official_metric": 0.00044999999999995044,
+    "endpoint_corrected_metric": 0.00048749999999997407,
+    "independent_fit": {
+      "metric": 5.862103877858605e-07,
+      "segments": [
+        [
+          0,
+          84
+        ],
+        [
+          84,
+          96
+        ]
+      ],
+      "fit_sse": 3.671761826478112e-05,
+      "target_points": 84
+    }
+  },
+  {
+    "date": "2023-01-28",
+    "points": 96,
+    "official_metric": 0.02872405474894707,
+    "endpoint_corrected_metric": 0.029490629076616925,
+    "independent_fit": {
+      "metric": 0.0007173895806669004,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.0002864307293905992,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-01-29",
+    "points": 96,
+    "official_metric": 0.0015999999999999348,
+    "endpoint_corrected_metric": 0.0016374999999999584,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-01-30",
+    "points": 96,
+    "official_metric": 0.028411090958500917,
+    "endpoint_corrected_metric": 0.028858532684138072,
+    "independent_fit": {
+      "metric": 0.0008125730391208427,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.0003862444717669983,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-01-31",
+    "points": 96,
+    "official_metric": 0.0014375000000000915,
+    "endpoint_corrected_metric": 0.001475000000000115,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-02-01",
+    "points": 96,
+    "official_metric": 0.0017125000000001167,
+    "endpoint_corrected_metric": 0.0017500000000000293,
+    "independent_fit": {
+      "metric": 1.92857142856901e-05,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 5.084578306920534e-05,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-02-02",
+    "points": 96,
+    "official_metric": 0.001687499999999953,
+    "endpoint_corrected_metric": 0.0017625000000000002,
+    "independent_fit": {
+      "metric": 0.00010109890109893877,
+      "segments": [
+        [
+          0,
+          13
+        ],
+        [
+          13,
+          96
+        ]
+      ],
+      "fit_sse": 5.8228405321507266e-05,
+      "target_points": 13
+    }
+  },
+  {
+    "date": "2023-02-03",
+    "points": 96,
+    "official_metric": 0.00187499999999996,
+    "endpoint_corrected_metric": 0.0019500000000000073,
+    "independent_fit": {
+      "metric": 1.3120978120961944e-05,
+      "segments": [
+        [
+          0,
+          36
+        ],
+        [
+          36,
+          96
+        ]
+      ],
+      "fit_sse": 5.257887462369298e-05,
+      "target_points": 36
+    }
+  },
+  {
+    "date": "2023-02-04",
+    "points": 96,
+    "official_metric": 0.04423873508246484,
+    "endpoint_corrected_metric": 0.044350206648804236,
+    "independent_fit": {
+      "metric": 0.0012510917308778439,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.0007910663065116832,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-02-05",
+    "points": 96,
+    "official_metric": 0.0015249999999999986,
+    "endpoint_corrected_metric": 0.0015999999999999348,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-02-06",
+    "points": 96,
+    "official_metric": 0.029131712694827228,
+    "endpoint_corrected_metric": 0.029741766974135775,
+    "independent_fit": {
+      "metric": 0.0008881412680506416,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.00042445524907441074,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-02-07",
+    "points": 96,
+    "official_metric": 0.0014250000000000096,
+    "endpoint_corrected_metric": 0.0015677150103654558,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-02-08",
+    "points": 96,
+    "official_metric": 0.038887923555038395,
+    "endpoint_corrected_metric": 0.03918811103062991,
+    "independent_fit": {
+      "metric": 0.0009582094629213272,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.0005283521566623906,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-02-09",
+    "points": 96,
+    "official_metric": 0.0020375000000000254,
+    "endpoint_corrected_metric": 0.002262500000000056,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-02-10",
+    "points": 96,
+    "official_metric": 0.0016249999999999876,
+    "endpoint_corrected_metric": 0.0016625000000000112,
+    "independent_fit": {
+      "metric": 4.3992641161980145e-06,
+      "segments": [
+        [
+          0,
+          86
+        ],
+        [
+          86,
+          96
+        ]
+      ],
+      "fit_sse": 3.165766043917013e-05,
+      "target_points": 86
+    }
+  },
+  {
+    "date": "2023-02-11",
+    "points": 96,
+    "official_metric": 0.0010124999999999718,
+    "endpoint_corrected_metric": 0.0012125000000000608,
+    "independent_fit": {
+      "metric": 8.823529411785939e-06,
+      "segments": [
+        [
+          0,
+          16
+        ],
+        [
+          16,
+          96
+        ]
+      ],
+      "fit_sse": 3.628220124010063e-05,
+      "target_points": 16
+    }
+  },
+  {
+    "date": "2023-02-12",
+    "points": 96,
+    "official_metric": 0.0015125000000000277,
+    "endpoint_corrected_metric": 0.0015499999999999403,
+    "independent_fit": {
+      "metric": 3.087982180624503e-07,
+      "segments": [
+        [
+          0,
+          84
+        ],
+        [
+          84,
+          96
+        ]
+      ],
+      "fit_sse": 3.2223739468972464e-05,
+      "target_points": 84
+    }
+  },
+  {
+    "date": "2023-02-13",
+    "points": 96,
+    "official_metric": 0.0015250000000001096,
+    "endpoint_corrected_metric": 0.0016375000000000695,
+    "independent_fit": {
+      "metric": 4.068888795617175e-06,
+      "segments": [
+        [
+          0,
+          83
+        ],
+        [
+          83,
+          96
+        ]
+      ],
+      "fit_sse": 2.720265264398226e-05,
+      "target_points": 83
+    }
+  },
+  {
+    "date": "2023-02-14",
+    "points": 96,
+    "official_metric": 0.00108750000000013,
+    "endpoint_corrected_metric": 0.0012500000000000844,
+    "independent_fit": {
+      "metric": 6.848825331936023e-06,
+      "segments": [
+        [
+          0,
+          89
+        ],
+        [
+          89,
+          96
+        ]
+      ],
+      "fit_sse": 4.4511563560118935e-05,
+      "target_points": 89
+    }
+  },
+  {
+    "date": "2023-02-15",
+    "points": 96,
+    "official_metric": 0.0016500000000000403,
+    "endpoint_corrected_metric": 0.001687500000000064,
+    "independent_fit": {
+      "metric": 6.116561767180981e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 4.5261909806214855e-05,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-02-16",
+    "points": 96,
+    "official_metric": 0.001587499999999964,
+    "endpoint_corrected_metric": 0.0016625000000000112,
+    "independent_fit": {
+      "metric": 7.396523764483235e-06,
+      "segments": [
+        [
+          0,
+          82
+        ],
+        [
+          82,
+          96
+        ]
+      ],
+      "fit_sse": 3.7950067483476226e-05,
+      "target_points": 82
+    }
+  },
+  {
+    "date": "2023-02-17",
+    "points": 96,
+    "official_metric": 0.0015125000000000277,
+    "endpoint_corrected_metric": 0.0015500000000000513,
+    "independent_fit": {
+      "metric": 4.744079449969474e-06,
+      "segments": [
+        [
+          0,
+          34
+        ],
+        [
+          34,
+          96
+        ]
+      ],
+      "fit_sse": 4.7840000615563355e-05,
+      "target_points": 34
+    }
+  },
+  {
+    "date": "2023-02-18",
+    "points": 96,
+    "official_metric": 0.0017000000000000348,
+    "endpoint_corrected_metric": 0.0017375000000000584,
+    "independent_fit": {
+      "metric": 2.3115341927939347e-06,
+      "segments": [
+        [
+          0,
+          52
+        ],
+        [
+          52,
+          96
+        ]
+      ],
+      "fit_sse": 4.62790080645355e-05,
+      "target_points": 52
+    }
+  },
+  {
+    "date": "2023-02-19",
+    "points": 96,
+    "official_metric": 0.051586367610301276,
+    "endpoint_corrected_metric": 0.05191460891185318,
+    "independent_fit": {
+      "metric": 0.001296594954501435,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.0008154875115082382,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-02-20",
+    "points": 96,
+    "official_metric": 0.0012999999999999678,
+    "endpoint_corrected_metric": 0.0013374999999999915,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-02-21",
+    "points": 96,
+    "official_metric": 0.001574999999999882,
+    "endpoint_corrected_metric": 0.0016124999999999057,
+    "independent_fit": {
+      "metric": 1.5420950263313258e-06,
+      "segments": [
+        [
+          0,
+          60
+        ],
+        [
+          60,
+          96
+        ]
+      ],
+      "fit_sse": 4.9510902201407405e-05,
+      "target_points": 60
+    }
+  },
+  {
+    "date": "2023-02-22",
+    "points": 96,
+    "official_metric": 0.001487499999999975,
+    "endpoint_corrected_metric": 0.0015249999999999986,
+    "independent_fit": {
+      "metric": 3.411292310892174e-06,
+      "segments": [
+        [
+          0,
+          88
+        ],
+        [
+          88,
+          96
+        ]
+      ],
+      "fit_sse": 3.621213858835206e-05,
+      "target_points": 88
+    }
+  },
+  {
+    "date": "2023-02-23",
+    "points": 96,
+    "official_metric": 0.0013125000000000497,
+    "endpoint_corrected_metric": 0.001387500000000097,
+    "independent_fit": {
+      "metric": 2.2252747252783234e-05,
+      "segments": [
+        [
+          0,
+          13
+        ],
+        [
+          13,
+          96
+        ]
+      ],
+      "fit_sse": 3.016651212759875e-05,
+      "target_points": 13
+    }
+  },
+  {
+    "date": "2023-02-24",
+    "points": 96,
+    "official_metric": 0.001487500000000086,
+    "endpoint_corrected_metric": 0.0015250000000001096,
+    "independent_fit": {
+      "metric": 6.172161172246342e-06,
+      "segments": [
+        [
+          0,
+          64
+        ],
+        [
+          64,
+          96
+        ]
+      ],
+      "fit_sse": 4.881842151823617e-05,
+      "target_points": 64
+    }
+  },
+  {
+    "date": "2023-02-25",
+    "points": 96,
+    "official_metric": 0.001787500000000053,
+    "endpoint_corrected_metric": 0.0018375000000000474,
+    "independent_fit": {
+      "metric": 1.4999999999965042e-05,
+      "segments": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          96
+        ]
+      ],
+      "fit_sse": 6.218200474874897e-05,
+      "target_points": 5
+    }
+  },
+  {
+    "date": "2023-02-26",
+    "points": 96,
+    "official_metric": 0.0017125000000000057,
+    "endpoint_corrected_metric": 0.0017499999999999183,
+    "independent_fit": {
+      "metric": 6.229495142537427e-06,
+      "segments": [
+        [
+          0,
+          91
+        ],
+        [
+          91,
+          96
+        ]
+      ],
+      "fit_sse": 4.88375011428805e-05,
+      "target_points": 91
+    }
+  },
+  {
+    "date": "2023-02-27",
+    "points": 96,
+    "official_metric": 0.03370854043000765,
+    "endpoint_corrected_metric": 0.03462459277216212,
+    "independent_fit": {
+      "metric": 0.0008218555127553792,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.00035880324330054213,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-02-28",
+    "points": 96,
+    "official_metric": 0.0012500000000000844,
+    "endpoint_corrected_metric": 0.0013250000000000206,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-03-01",
+    "points": 96,
+    "official_metric": 0.0015624999999999112,
+    "endpoint_corrected_metric": 0.0016124999999999057,
+    "independent_fit": {
+      "metric": 1.0027182120194883e-05,
+      "segments": [
+        [
+          0,
+          43
+        ],
+        [
+          43,
+          96
+        ]
+      ],
+      "fit_sse": 4.928137174450319e-05,
+      "target_points": 43
+    }
+  },
+  {
+    "date": "2023-03-02",
+    "points": 96,
+    "official_metric": 0.027071906546420166,
+    "endpoint_corrected_metric": 0.027147679581776052,
+    "independent_fit": {
+      "metric": 0.000689212188331746,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.00021638955079334888,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-03-03",
+    "points": 96,
+    "official_metric": 0.0017250000000000876,
+    "endpoint_corrected_metric": 0.0017625000000000002,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-03-04",
+    "points": 96,
+    "official_metric": 0.049922876997425814,
+    "endpoint_corrected_metric": 0.050180330947609986,
+    "independent_fit": {
+      "metric": 0.00146789742542872,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 0.0009469012478354649,
+      "target_points": 24
+    }
+  },
+  {
+    "date": "2023-03-05",
+    "points": 96,
+    "official_metric": 0.0016250000000000986,
+    "endpoint_corrected_metric": 0.0016625000000000112,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-03-06",
+    "points": 96,
+    "official_metric": 0.0015000000000000568,
+    "endpoint_corrected_metric": 0.0016625000000000112,
+    "independent_fit": {
+      "metric": 6.593406593469309e-06,
+      "segments": [
+        [
+          0,
+          13
+        ],
+        [
+          13,
+          96
+        ]
+      ],
+      "fit_sse": 4.618567966807124e-05,
+      "target_points": 13
+    }
+  },
+  {
+    "date": "2023-03-07",
+    "points": 96,
+    "official_metric": 0.0012499999999999734,
+    "endpoint_corrected_metric": 0.0012999999999999678,
+    "independent_fit": {
+      "metric": 1.2911507097059444e-06,
+      "segments": [
+        [
+          0,
+          43
+        ],
+        [
+          43,
+          96
+        ]
+      ],
+      "fit_sse": 5.590315074389571e-05,
+      "target_points": 43
+    }
+  },
+  {
+    "date": "2023-03-08",
+    "points": 96,
+    "official_metric": 0.02320215068729148,
+    "endpoint_corrected_metric": 0.02373464668190778,
+    "independent_fit": {
+      "metric": 0.0006304437166584893,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.0002751598905335161,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-03-09",
+    "points": 96,
+    "official_metric": 0.0017375000000000584,
+    "endpoint_corrected_metric": 0.001787500000000053,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-03-10",
+    "points": 96,
+    "official_metric": 0.035339878912342526,
+    "endpoint_corrected_metric": 0.03562583152823229,
+    "independent_fit": {
+      "metric": 0.0009595629794345833,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.0004607674686164803,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-03-11",
+    "points": 96,
+    "official_metric": 0.0019375000000001474,
+    "endpoint_corrected_metric": 0.00197500000000006,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-03-12",
+    "points": 96,
+    "official_metric": 0.0018125000000001057,
+    "endpoint_corrected_metric": 0.0018624999999999892,
+    "independent_fit": {
+      "metric": 0.00011824561403507392,
+      "segments": [
+        [
+          0,
+          19
+        ],
+        [
+          19,
+          96
+        ]
+      ],
+      "fit_sse": 4.797867605017566e-05,
+      "target_points": 19
+    }
+  },
+  {
+    "date": "2023-03-13",
+    "points": 96,
+    "official_metric": 0.0018500000000000183,
+    "endpoint_corrected_metric": 0.001887500000000042,
+    "independent_fit": {
+      "metric": 3.993325917686733e-05,
+      "segments": [
+        [
+          0,
+          30
+        ],
+        [
+          30,
+          96
+        ]
+      ],
+      "fit_sse": 5.311332547078943e-05,
+      "target_points": 30
+    }
+  },
+  {
+    "date": "2023-03-14",
+    "points": 96,
+    "official_metric": 0.0012999999999999678,
+    "endpoint_corrected_metric": 0.0014250000000000096,
+    "independent_fit": {
+      "metric": 3.7166780587711995e-06,
+      "segments": [
+        [
+          0,
+          56
+        ],
+        [
+          56,
+          96
+        ]
+      ],
+      "fit_sse": 4.8436930143164105e-05,
+      "target_points": 56
+    }
+  },
+  {
+    "date": "2023-03-15",
+    "points": 96,
+    "official_metric": 0.001887499999999931,
+    "endpoint_corrected_metric": 0.001974999999999949,
+    "independent_fit": {
+      "metric": 5.863631459706084e-06,
+      "segments": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          96
+        ]
+      ],
+      "fit_sse": 5.766047490793761e-05,
+      "target_points": 92
+    }
+  },
+  {
+    "date": "2023-03-16",
+    "points": 96,
+    "official_metric": 0.0015125000000000277,
+    "endpoint_corrected_metric": 0.0015625000000000222,
+    "independent_fit": {
+      "metric": 4.881093660909093e-06,
+      "segments": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          96
+        ]
+      ],
+      "fit_sse": 3.968435996646348e-05,
+      "target_points": 92
+    }
+  },
+  {
+    "date": "2023-03-17",
+    "points": 96,
+    "official_metric": 0.04458221037194754,
+    "endpoint_corrected_metric": 0.04518451375192656,
+    "independent_fit": {
+      "metric": 0.0013904693884792668,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006734566999687375,
+      "target_points": 24
+    }
+  },
+  {
+    "date": "2023-03-18",
+    "points": 96,
+    "official_metric": 0.0013374999999999915,
+    "endpoint_corrected_metric": 0.001387499999999986,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-03-19",
+    "points": 96,
+    "official_metric": 0.0009249999999999536,
+    "endpoint_corrected_metric": 0.0009624999999999773,
+    "independent_fit": {
+      "metric": 7.061403508767003e-05,
+      "segments": [
+        [
+          0,
+          19
+        ],
+        [
+          19,
+          96
+        ]
+      ],
+      "fit_sse": 3.476930614330878e-05,
+      "target_points": 19
+    }
+  },
+  {
+    "date": "2023-03-20",
+    "points": 96,
+    "official_metric": 0.001587500000000075,
+    "endpoint_corrected_metric": 0.0016375000000000695,
+    "independent_fit": {
+      "metric": 0.00010305194805193627,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 2.759156069093717e-05,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-03-21",
+    "points": 96,
+    "official_metric": 0.0011375000000000135,
+    "endpoint_corrected_metric": 0.0011750000000000371,
+    "independent_fit": {
+      "metric": 2.5000000000034902e-05,
+      "segments": [
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          96
+        ]
+      ],
+      "fit_sse": 2.0575803505576306e-05,
+      "target_points": 12
+    }
+  },
+  {
+    "date": "2023-03-22",
+    "points": 96,
+    "official_metric": 0.0011124999999999607,
+    "endpoint_corrected_metric": 0.0011500000000000954,
+    "independent_fit": {
+      "metric": 7.537466940941884e-06,
+      "segments": [
+        [
+          0,
+          83
+        ],
+        [
+          83,
+          96
+        ]
+      ],
+      "fit_sse": 3.0024540136981392e-05,
+      "target_points": 83
+    }
+  },
+  {
+    "date": "2023-03-23",
+    "points": 96,
+    "official_metric": 0.0009124999999999828,
+    "endpoint_corrected_metric": 0.0010000000000000009,
+    "independent_fit": {
+      "metric": 2.499999999998403e-05,
+      "segments": [
+        [
+          0,
+          8
+        ],
+        [
+          8,
+          96
+        ]
+      ],
+      "fit_sse": 4.8978834093959426e-05,
+      "target_points": 8
+    }
+  },
+  {
+    "date": "2023-03-24",
+    "points": 96,
+    "official_metric": 0.04444819876992823,
+    "endpoint_corrected_metric": 0.04510474652989516,
+    "independent_fit": {
+      "metric": 0.0011676811759410988,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006772182179707439,
+      "target_points": 24
+    }
+  },
+  {
+    "date": "2023-03-25",
+    "points": 96,
+    "official_metric": 0.0007624999999999993,
+    "endpoint_corrected_metric": 0.0008124999999999938,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-03-26",
+    "points": 96,
+    "official_metric": 0.0013999999999999568,
+    "endpoint_corrected_metric": 0.0014374999999999805,
+    "independent_fit": {
+      "metric": 5.999999999994898e-05,
+      "segments": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          96
+        ]
+      ],
+      "fit_sse": 4.769200389998285e-05,
+      "target_points": 5
+    }
+  },
+  {
+    "date": "2023-03-27",
+    "points": 96,
+    "official_metric": 0.0013374999999999915,
+    "endpoint_corrected_metric": 0.0015625000000000222,
+    "independent_fit": {
+      "metric": 1.1033426085985044e-06,
+      "segments": [
+        [
+          0,
+          88
+        ],
+        [
+          88,
+          96
+        ]
+      ],
+      "fit_sse": 4.0437577414193817e-05,
+      "target_points": 88
+    }
+  },
+  {
+    "date": "2023-03-28",
+    "points": 96,
+    "official_metric": 0.0016125000000001277,
+    "endpoint_corrected_metric": 0.0017375000000000584,
+    "independent_fit": {
+      "metric": 6.737176097349312e-06,
+      "segments": [
+        [
+          0,
+          61
+        ],
+        [
+          61,
+          96
+        ]
+      ],
+      "fit_sse": 4.398155381709392e-05,
+      "target_points": 61
+    }
+  },
+  {
+    "date": "2023-03-29",
+    "points": 96,
+    "official_metric": 0.0014124999999999277,
+    "endpoint_corrected_metric": 0.0014499999999999513,
+    "independent_fit": {
+      "metric": 1.0607813239867616e-06,
+      "segments": [
+        [
+          0,
+          77
+        ],
+        [
+          77,
+          96
+        ]
+      ],
+      "fit_sse": 3.8481786862388e-05,
+      "target_points": 77
+    }
+  },
+  {
+    "date": "2023-03-30",
+    "points": 96,
+    "official_metric": 0.0013249999999999096,
+    "endpoint_corrected_metric": 0.001374999999999904,
+    "independent_fit": {
+      "metric": 6.177300959909301e-05,
+      "segments": [
+        [
+          0,
+          22
+        ],
+        [
+          22,
+          96
+        ]
+      ],
+      "fit_sse": 3.832839595414981e-05,
+      "target_points": 22
+    }
+  },
+  {
+    "date": "2023-03-31",
+    "points": 96,
+    "official_metric": 0.035232933911942155,
+    "endpoint_corrected_metric": 0.03544773599283979,
+    "independent_fit": {
+      "metric": 0.0010075533815965252,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.0004302574946043117,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-04-01",
+    "points": 96,
+    "official_metric": 0.0012499999999999734,
+    "endpoint_corrected_metric": 0.0013499999999999623,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-04-02",
+    "points": 96,
+    "official_metric": 0.039876089744699805,
+    "endpoint_corrected_metric": 0.04043862401986936,
+    "independent_fit": {
+      "metric": 0.0010634918794713447,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.000533714045831259,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "points": 96,
+    "official_metric": 0.0022125000000000616,
+    "endpoint_corrected_metric": 0.002387500000000098,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-04-04",
+    "points": 96,
+    "official_metric": 0.0016249999999999876,
+    "endpoint_corrected_metric": 0.0016624999999999002,
+    "independent_fit": {
+      "metric": 5.4748221127524926e-05,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 5.4253006672569544e-05,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-04-05",
+    "points": 96,
+    "official_metric": 0.001674999999999982,
+    "endpoint_corrected_metric": 0.0017125000000000057,
+    "independent_fit": {
+      "metric": 6.006837606835875e-05,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 2.6372441978813616e-05,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-04-06",
+    "points": 96,
+    "official_metric": 0.0019375000000001474,
+    "endpoint_corrected_metric": 0.0020250000000000545,
+    "independent_fit": {
+      "metric": 0.00010113636363633681,
+      "segments": [
+        [
+          0,
+          23
+        ],
+        [
+          23,
+          96
+        ]
+      ],
+      "fit_sse": 3.9173666071454786e-05,
+      "target_points": 23
+    }
+  },
+  {
+    "date": "2023-04-07",
+    "points": 96,
+    "official_metric": 0.04070412539160384,
+    "endpoint_corrected_metric": 0.04098714892727007,
+    "independent_fit": {
+      "metric": 0.001221822951725534,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.0005340603860100792,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-04-08",
+    "points": 96,
+    "official_metric": 0.0018000000000000238,
+    "endpoint_corrected_metric": 0.0018375000000000474,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-04-09",
+    "points": 96,
+    "official_metric": 0.001475000000000004,
+    "endpoint_corrected_metric": 0.0015125000000000277,
+    "independent_fit": {
+      "metric": 3.6281480677346864e-05,
+      "segments": [
+        [
+          0,
+          48
+        ],
+        [
+          48,
+          96
+        ]
+      ],
+      "fit_sse": 4.944117610842278e-05,
+      "target_points": 48
+    }
+  },
+  {
+    "date": "2023-04-10",
+    "points": 96,
+    "official_metric": 0.024630046526300298,
+    "endpoint_corrected_metric": 0.024944645634278007,
+    "independent_fit": {
+      "metric": 0.0006687099695957735,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.000245305763829607,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-04-11",
+    "points": 96,
+    "official_metric": 0.0015249999999999986,
+    "endpoint_corrected_metric": 0.0015625000000000222,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-04-12",
+    "points": 96,
+    "official_metric": 0.0009749999999999481,
+    "endpoint_corrected_metric": 0.0010124999999999718,
+    "independent_fit": {
+      "metric": 1.1828984484408543e-07,
+      "segments": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          96
+        ]
+      ],
+      "fit_sse": 2.298466271548214e-05,
+      "target_points": 92
+    }
+  },
+  {
+    "date": "2023-04-13",
+    "points": 96,
+    "official_metric": 0.0014999999999999458,
+    "endpoint_corrected_metric": 0.0016374999999999584,
+    "independent_fit": {
+      "metric": 2.429518047517388e-06,
+      "segments": [
+        [
+          0,
+          90
+        ],
+        [
+          90,
+          96
+        ]
+      ],
+      "fit_sse": 4.065990432850229e-05,
+      "target_points": 90
+    }
+  },
+  {
+    "date": "2023-04-14",
+    "points": 96,
+    "official_metric": 0.0005374999999999686,
+    "endpoint_corrected_metric": 0.0006124999999999048,
+    "independent_fit": {
+      "metric": 1.3437738731853016e-05,
+      "segments": [
+        [
+          0,
+          34
+        ],
+        [
+          34,
+          96
+        ]
+      ],
+      "fit_sse": 3.459292193898017e-05,
+      "target_points": 34
+    }
+  },
+  {
+    "date": "2023-04-15",
+    "points": 96,
+    "official_metric": 0.001387499999999986,
+    "endpoint_corrected_metric": 0.0014374999999999805,
+    "independent_fit": {
+      "metric": 5.726846785775704e-06,
+      "segments": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          96
+        ]
+      ],
+      "fit_sse": 4.24170197206169e-05,
+      "target_points": 92
+    }
+  },
+  {
+    "date": "2023-04-16",
+    "points": 96,
+    "official_metric": 0.001674999999999871,
+    "endpoint_corrected_metric": 0.0017625000000000002,
+    "independent_fit": {
+      "metric": 6.839233697570308e-07,
+      "segments": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          96
+        ]
+      ],
+      "fit_sse": 4.4500917227580845e-05,
+      "target_points": 92
+    }
+  },
+  {
+    "date": "2023-04-17",
+    "points": 96,
+    "official_metric": 0.0015374999999999694,
+    "endpoint_corrected_metric": 0.001587499999999964,
+    "independent_fit": {
+      "metric": 4.300876218678141e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 3.1912897582240144e-05,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-04-18",
+    "points": 96,
+    "official_metric": 0.0013999999999998458,
+    "endpoint_corrected_metric": 0.0014499999999999513,
+    "independent_fit": {
+      "metric": 8.609022556396824e-05,
+      "segments": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          96
+        ]
+      ],
+      "fit_sse": 2.9845471188144664e-05,
+      "target_points": 20
+    }
+  },
+  {
+    "date": "2023-04-19",
+    "points": 96,
+    "official_metric": 0.0016499999999999293,
+    "endpoint_corrected_metric": 0.0017374999999999474,
+    "independent_fit": {
+      "metric": 7.653061217928442e-08,
+      "segments": [
+        [
+          0,
+          49
+        ],
+        [
+          49,
+          96
+        ]
+      ],
+      "fit_sse": 5.054723595705346e-05,
+      "target_points": 49
+    }
+  },
+  {
+    "date": "2023-04-20",
+    "points": 96,
+    "official_metric": 0.03119069415818665,
+    "endpoint_corrected_metric": 0.03139764835833092,
+    "independent_fit": {
+      "metric": 0.000962353369394653,
+      "segments": [
+        [
+          0,
+          29
+        ],
+        [
+          29,
+          96
+        ]
+      ],
+      "fit_sse": 0.00047586003254857564,
+      "target_points": 29
+    }
+  },
+  {
+    "date": "2023-04-21",
+    "points": 96,
+    "official_metric": 0.0013374999999998805,
+    "endpoint_corrected_metric": 0.0013374999999999915,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-04-22",
+    "points": 96,
+    "official_metric": 0.0014125000000000387,
+    "endpoint_corrected_metric": 0.0014625000000000332,
+    "independent_fit": {
+      "metric": 1.0107504435878988e-05,
+      "segments": [
+        [
+          0,
+          66
+        ],
+        [
+          66,
+          96
+        ]
+      ],
+      "fit_sse": 3.457773069921548e-05,
+      "target_points": 66
+    }
+  },
+  {
+    "date": "2023-04-23",
+    "points": 96,
+    "official_metric": 0.0015500000000000513,
+    "endpoint_corrected_metric": 0.001587500000000075,
+    "independent_fit": {
+      "metric": 2.264479472139099e-05,
+      "segments": [
+        [
+          0,
+          32
+        ],
+        [
+          32,
+          96
+        ]
+      ],
+      "fit_sse": 2.7498374354667464e-05,
+      "target_points": 32
+    }
+  },
+  {
+    "date": "2023-04-24",
+    "points": 96,
+    "official_metric": 0.0012499999999999734,
+    "endpoint_corrected_metric": 0.001287499999999997,
+    "independent_fit": {
+      "metric": 9.139414802052558e-06,
+      "segments": [
+        [
+          0,
+          84
+        ],
+        [
+          84,
+          96
+        ]
+      ],
+      "fit_sse": 3.438042672911326e-05,
+      "target_points": 84
+    }
+  },
+  {
+    "date": "2023-04-25",
+    "points": 96,
+    "official_metric": 0.001387499999999986,
+    "endpoint_corrected_metric": 0.0014250000000000096,
+    "independent_fit": {
+      "metric": 3.540903540916978e-06,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 2.7117121029292424e-05,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-04-26",
+    "points": 96,
+    "official_metric": 0.0017500000000000293,
+    "endpoint_corrected_metric": 0.001787500000000053,
+    "independent_fit": {
+      "metric": 1.8875811949299216e-05,
+      "segments": [
+        [
+          0,
+          72
+        ],
+        [
+          72,
+          96
+        ]
+      ],
+      "fit_sse": 5.72335417982225e-05,
+      "target_points": 72
+    }
+  },
+  {
+    "date": "2023-04-27",
+    "points": 96,
+    "official_metric": 0.0017999999999999128,
+    "endpoint_corrected_metric": 0.0018375000000000474,
+    "independent_fit": {
+      "metric": 7.383966244737678e-08,
+      "segments": [
+        [
+          0,
+          80
+        ],
+        [
+          80,
+          96
+        ]
+      ],
+      "fit_sse": 2.89995174071557e-05,
+      "target_points": 80
+    }
+  },
+  {
+    "date": "2023-04-28",
+    "points": 96,
+    "official_metric": 0.0012124999999999497,
+    "endpoint_corrected_metric": 0.0012625000000000552,
+    "independent_fit": {
+      "metric": 1.195808443861098e-05,
+      "segments": [
+        [
+          0,
+          84
+        ],
+        [
+          84,
+          96
+        ]
+      ],
+      "fit_sse": 5.3255918807641e-05,
+      "target_points": 84
+    }
+  },
+  {
+    "date": "2023-04-29",
+    "points": 96,
+    "official_metric": 0.0017125000000000057,
+    "endpoint_corrected_metric": 0.0017500000000000293,
+    "independent_fit": {
+      "metric": 5.544354838354821e-07,
+      "segments": [
+        [
+          0,
+          63
+        ],
+        [
+          63,
+          96
+        ]
+      ],
+      "fit_sse": 5.5032197471357264e-05,
+      "target_points": 63
+    }
+  },
+  {
+    "date": "2023-04-30",
+    "points": 96,
+    "official_metric": 0.0012375000000000025,
+    "endpoint_corrected_metric": 0.0012750000000000261,
+    "independent_fit": {
+      "metric": 6.978653530337097e-07,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 4.988491232327442e-05,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "points": 96,
+    "official_metric": 0.0013499999999999623,
+    "endpoint_corrected_metric": 0.001387499999999875,
+    "independent_fit": {
+      "metric": 1.4059196617652649e-06,
+      "segments": [
+        [
+          0,
+          44
+        ],
+        [
+          44,
+          96
+        ]
+      ],
+      "fit_sse": 4.1312355112347866e-05,
+      "target_points": 44
+    }
+  },
+  {
+    "date": "2023-05-02",
+    "points": 96,
+    "official_metric": 0.0016625000000000112,
+    "endpoint_corrected_metric": 0.001687500000000064,
+    "independent_fit": {
+      "metric": 2.0401305684445652e-07,
+      "segments": [
+        [
+          0,
+          63
+        ],
+        [
+          63,
+          96
+        ]
+      ],
+      "fit_sse": 3.625350759987421e-05,
+      "target_points": 63
+    }
+  },
+  {
+    "date": "2023-05-03",
+    "points": 96,
+    "official_metric": 0.0016500000000000403,
+    "endpoint_corrected_metric": 0.001687499999999953,
+    "independent_fit": {
+      "metric": 2.4511222586595543e-06,
+      "segments": [
+        [
+          0,
+          72
+        ],
+        [
+          72,
+          96
+        ]
+      ],
+      "fit_sse": 2.4780461491192818e-05,
+      "target_points": 72
+    }
+  },
+  {
+    "date": "2023-05-04",
+    "points": 96,
+    "official_metric": 0.0016374999999999584,
+    "endpoint_corrected_metric": 0.001674999999999982,
+    "independent_fit": {
+      "metric": 6.490993184009675e-06,
+      "segments": [
+        [
+          0,
+          79
+        ],
+        [
+          79,
+          96
+        ]
+      ],
+      "fit_sse": 1.9988474350998536e-05,
+      "target_points": 79
+    }
+  },
+  {
+    "date": "2023-05-05",
+    "points": 96,
+    "official_metric": 0.0007125000000000048,
+    "endpoint_corrected_metric": 0.0009000000000000119,
+    "independent_fit": {
+      "metric": 1.6732954545452892e-05,
+      "segments": [
+        [
+          0,
+          65
+        ],
+        [
+          65,
+          96
+        ]
+      ],
+      "fit_sse": 2.906547906031642e-05,
+      "target_points": 65
+    }
+  },
+  {
+    "date": "2023-05-06",
+    "points": 96,
+    "official_metric": 0.0013374999999999915,
+    "endpoint_corrected_metric": 0.001375000000000015,
+    "independent_fit": {
+      "metric": 6.72292545708867e-06,
+      "segments": [
+        [
+          0,
+          80
+        ],
+        [
+          80,
+          96
+        ]
+      ],
+      "fit_sse": 2.3995618617656873e-05,
+      "target_points": 80
+    }
+  },
+  {
+    "date": "2023-05-07",
+    "points": 96,
+    "official_metric": 0.0014374999999999805,
+    "endpoint_corrected_metric": 0.0014375000000000915,
+    "independent_fit": {
+      "metric": 7.588932806332102e-05,
+      "segments": [
+        [
+          0,
+          22
+        ],
+        [
+          22,
+          96
+        ]
+      ],
+      "fit_sse": 2.0886537149212885e-05,
+      "target_points": 22
+    }
+  },
+  {
+    "date": "2023-05-08",
+    "points": 96,
+    "official_metric": 0.0019500000000000073,
+    "endpoint_corrected_metric": 0.0021249999999999325,
+    "independent_fit": {
+      "metric": 1.2059306141566219e-05,
+      "segments": [
+        [
+          0,
+          80
+        ],
+        [
+          80,
+          96
+        ]
+      ],
+      "fit_sse": 3.0504810614436084e-05,
+      "target_points": 80
+    }
+  },
+  {
+    "date": "2023-05-09",
+    "points": 96,
+    "official_metric": 0.0010499999999999954,
+    "endpoint_corrected_metric": 0.0011374999999999025,
+    "independent_fit": {
+      "metric": 1.4400679277296203e-05,
+      "segments": [
+        [
+          0,
+          86
+        ],
+        [
+          86,
+          96
+        ]
+      ],
+      "fit_sse": 2.9676687005653753e-05,
+      "target_points": 86
+    }
+  },
+  {
+    "date": "2023-05-10",
+    "points": 96,
+    "official_metric": 0.0010624999999999662,
+    "endpoint_corrected_metric": 0.0013800684629756699,
+    "independent_fit": {
+      "metric": 1.5167124542455609e-06,
+      "segments": [
+        [
+          0,
+          64
+        ],
+        [
+          64,
+          96
+        ]
+      ],
+      "fit_sse": 2.5259643157329176e-05,
+      "target_points": 64
+    }
+  },
+  {
+    "date": "2023-05-11",
+    "points": 96,
+    "official_metric": 0.048340912898630184,
+    "endpoint_corrected_metric": 0.048703254651325634,
+    "independent_fit": {
+      "metric": 0.0014971887980193398,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.0007554572259536445,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-05-12",
+    "points": 96,
+    "official_metric": 0.0005374999999998575,
+    "endpoint_corrected_metric": 0.0006249999999998757,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-05-13",
+    "points": 96,
+    "official_metric": 0.001287499999999997,
+    "endpoint_corrected_metric": 0.0013125000000000497,
+    "independent_fit": {
+      "metric": 3.163265306488474e-07,
+      "segments": [
+        [
+          0,
+          49
+        ],
+        [
+          49,
+          96
+        ]
+      ],
+      "fit_sse": 1.8333051197472323e-05,
+      "target_points": 49
+    }
+  },
+  {
+    "date": "2023-05-14",
+    "points": 96,
+    "official_metric": 6.249999999996536e-05,
+    "endpoint_corrected_metric": 8.74999999999071e-05,
+    "independent_fit": {
+      "metric": 4.09090909089725e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 1.0612939936801622e-05,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-05-15",
+    "points": 96,
+    "official_metric": 0.0012624999999999442,
+    "endpoint_corrected_metric": 0.0013000000000000789,
+    "independent_fit": {
+      "metric": 1.911242319503474e-05,
+      "segments": [
+        [
+          0,
+          63
+        ],
+        [
+          63,
+          96
+        ]
+      ],
+      "fit_sse": 2.4094590626060324e-05,
+      "target_points": 63
+    }
+  },
+  {
+    "date": "2023-05-16",
+    "points": 96,
+    "official_metric": 0.045982831850453154,
+    "endpoint_corrected_metric": 0.046314563347103765,
+    "independent_fit": {
+      "metric": 0.0013289801802996298,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006819696340173646,
+      "target_points": 24
+    }
+  },
+  {
+    "date": "2023-05-17",
+    "points": 96,
+    "official_metric": 0.0013875000000000415,
+    "endpoint_corrected_metric": 0.001437500000000036,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-05-18",
+    "points": 96,
+    "official_metric": 0.0012750000000000261,
+    "endpoint_corrected_metric": 0.0013000000000000234,
+    "independent_fit": {
+      "metric": 5.600728385544373e-06,
+      "segments": [
+        [
+          0,
+          78
+        ],
+        [
+          78,
+          96
+        ]
+      ],
+      "fit_sse": 9.554708055251929e-06,
+      "target_points": 78
+    }
+  },
+  {
+    "date": "2023-05-19",
+    "points": 96,
+    "official_metric": 0.0011625000000000107,
+    "endpoint_corrected_metric": 0.001187500000000008,
+    "independent_fit": {
+      "metric": 1.0818682606666492e-05,
+      "segments": [
+        [
+          0,
+          80
+        ],
+        [
+          80,
+          96
+        ]
+      ],
+      "fit_sse": 1.4692968145124054e-05,
+      "target_points": 80
+    }
+  },
+  {
+    "date": "2023-05-20",
+    "points": 96,
+    "official_metric": 0.0010874999999999635,
+    "endpoint_corrected_metric": 0.0011124999999999607,
+    "independent_fit": {
+      "metric": 4.2036910458290084e-07,
+      "segments": [
+        [
+          0,
+          56
+        ],
+        [
+          56,
+          96
+        ]
+      ],
+      "fit_sse": 1.5651515864936468e-05,
+      "target_points": 56
+    }
+  },
+  {
+    "date": "2023-05-21",
+    "points": 96,
+    "official_metric": 0.0009750000000000036,
+    "endpoint_corrected_metric": 0.0010000000000000009,
+    "independent_fit": {
+      "metric": 2.033370411565093e-05,
+      "segments": [
+        [
+          0,
+          30
+        ],
+        [
+          30,
+          96
+        ]
+      ],
+      "fit_sse": 9.142755234988556e-06,
+      "target_points": 30
+    }
+  },
+  {
+    "date": "2023-05-22",
+    "points": 96,
+    "official_metric": 0.0008500000000000174,
+    "endpoint_corrected_metric": 0.0009000000000000119,
+    "independent_fit": {
+      "metric": 1.0202839756602116e-05,
+      "segments": [
+        [
+          0,
+          86
+        ],
+        [
+          86,
+          96
+        ]
+      ],
+      "fit_sse": 1.3909161246267424e-05,
+      "target_points": 86
+    }
+  },
+  {
+    "date": "2023-05-23",
+    "points": 96,
+    "official_metric": 0.0005749999999999922,
+    "endpoint_corrected_metric": 0.0005999999999999894,
+    "independent_fit": {
+      "metric": 8.311688311687397e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 9.3127938889352e-06,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-05-24",
+    "points": 96,
+    "official_metric": 0.00030000000000002247,
+    "endpoint_corrected_metric": 0.0003250000000000197,
+    "independent_fit": {
+      "metric": 1.504010695183898e-05,
+      "segments": [
+        [
+          0,
+          33
+        ],
+        [
+          33,
+          96
+        ]
+      ],
+      "fit_sse": 9.233469404166893e-06,
+      "target_points": 33
+    }
+  },
+  {
+    "date": "2023-05-25",
+    "points": 96,
+    "official_metric": 0.0010499999999999954,
+    "endpoint_corrected_metric": 0.0010625000000000218,
+    "independent_fit": {
+      "metric": 9.929406037026868e-06,
+      "segments": [
+        [
+          0,
+          79
+        ],
+        [
+          79,
+          96
+        ]
+      ],
+      "fit_sse": 1.4193298943586153e-05,
+      "target_points": 79
+    }
+  },
+  {
+    "date": "2023-05-26",
+    "points": 96,
+    "official_metric": 0.04373517680487332,
+    "endpoint_corrected_metric": 0.044001906328679785,
+    "independent_fit": {
+      "metric": 0.0011865832804796499,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006014939003119306,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-05-27",
+    "points": 96,
+    "official_metric": 0.0010499999999999954,
+    "endpoint_corrected_metric": 0.0010749999999999371,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-05-28",
+    "points": 96,
+    "official_metric": 0.0009250000000000091,
+    "endpoint_corrected_metric": 0.0009500000000000064,
+    "independent_fit": {
+      "metric": 6.38402348893061e-06,
+      "segments": [
+        [
+          0,
+          84
+        ],
+        [
+          84,
+          96
+        ]
+      ],
+      "fit_sse": 9.665336611496714e-06,
+      "target_points": 84
+    }
+  },
+  {
+    "date": "2023-05-29",
+    "points": 96,
+    "official_metric": 7.499999999999174e-05,
+    "endpoint_corrected_metric": 9.999999999998899e-05,
+    "independent_fit": {
+      "metric": 1.8478260869128265e-06,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 6.0747461118828605e-06,
+      "target_points": 24
+    }
+  },
+  {
+    "date": "2023-05-30",
+    "points": 96,
+    "official_metric": 0.0011249999999999871,
+    "endpoint_corrected_metric": 0.0011499999999999844,
+    "independent_fit": {
+      "metric": 1.2334667429030847e-05,
+      "segments": [
+        [
+          0,
+          54
+        ],
+        [
+          54,
+          96
+        ]
+      ],
+      "fit_sse": 5.678579989766703e-06,
+      "target_points": 54
+    }
+  },
+  {
+    "date": "2023-05-31",
+    "points": 96,
+    "official_metric": 3.7499999999968114e-05,
+    "endpoint_corrected_metric": 7.499999999999174e-05,
+    "independent_fit": {
+      "metric": 7.59094554201647e-06,
+      "segments": [
+        [
+          0,
+          87
+        ],
+        [
+          87,
+          96
+        ]
+      ],
+      "fit_sse": 8.16587503613892e-06,
+      "target_points": 87
+    }
+  },
+  {
+    "date": "2023-06-01",
+    "points": 96,
+    "official_metric": 9.999999999998899e-05,
+    "endpoint_corrected_metric": 0.00014999999999998348,
+    "independent_fit": {
+      "metric": 5.8771106941909975e-06,
+      "segments": [
+        [
+          0,
+          40
+        ],
+        [
+          40,
+          96
+        ]
+      ],
+      "fit_sse": 2.300817543525346e-06,
+      "target_points": 40
+    }
+  },
+  {
+    "date": "2023-06-02",
+    "points": 96,
+    "official_metric": 7.499999999999174e-05,
+    "endpoint_corrected_metric": 9.999999999998899e-05,
+    "independent_fit": {
+      "metric": 3.553921568606107e-06,
+      "segments": [
+        [
+          0,
+          17
+        ],
+        [
+          17,
+          96
+        ]
+      ],
+      "fit_sse": 4.823359686791118e-06,
+      "target_points": 17
+    }
+  },
+  {
+    "date": "2023-06-03",
+    "points": 96,
+    "official_metric": 0.0010750000000000481,
+    "endpoint_corrected_metric": 0.001087500000000019,
+    "independent_fit": {
+      "metric": 2.1220277461653327e-05,
+      "segments": [
+        [
+          0,
+          58
+        ],
+        [
+          58,
+          96
+        ]
+      ],
+      "fit_sse": 7.698506615254942e-06,
+      "target_points": 58
+    }
+  },
+  {
+    "date": "2023-06-04",
+    "points": 96,
+    "official_metric": 0.042711018007319024,
+    "endpoint_corrected_metric": 0.04283001771548939,
+    "independent_fit": {
+      "metric": 0.0012508485985423922,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006457899843778801,
+      "target_points": 24
+    }
+  },
+  {
+    "date": "2023-06-05",
+    "points": 96,
+    "official_metric": 0.0006249999999999867,
+    "endpoint_corrected_metric": 0.0007999999999999674,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-06-06",
+    "points": 96,
+    "official_metric": 0.047427814600677465,
+    "endpoint_corrected_metric": 0.047594018444829245,
+    "independent_fit": {
+      "metric": 0.001417401090753885,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.0007106358134535981,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-06-07",
+    "points": 96,
+    "official_metric": 0.000250000000000028,
+    "endpoint_corrected_metric": 0.0003250000000000197,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-06-08",
+    "points": 96,
+    "official_metric": 0.00016250000000000986,
+    "endpoint_corrected_metric": 0.00017499999999998073,
+    "independent_fit": {
+      "metric": 8.036890645531057e-06,
+      "segments": [
+        [
+          0,
+          45
+        ],
+        [
+          45,
+          96
+        ]
+      ],
+      "fit_sse": 2.020462029240089e-06,
+      "target_points": 45
+    }
+  },
+  {
+    "date": "2023-06-09",
+    "points": 96,
+    "official_metric": 0.0001875000000000071,
+    "endpoint_corrected_metric": 0.00020000000000003348,
+    "independent_fit": {
+      "metric": 9.003239946655545e-06,
+      "segments": [
+        [
+          0,
+          54
+        ],
+        [
+          54,
+          96
+        ]
+      ],
+      "fit_sse": 3.579039808131005e-06,
+      "target_points": 54
+    }
+  },
+  {
+    "date": "2023-06-10",
+    "points": 96,
+    "official_metric": 6.249999999996536e-05,
+    "endpoint_corrected_metric": 7.499999999999174e-05,
+    "independent_fit": {
+      "metric": 1.9480519483011732e-07,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 2.2851692924276806e-06,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-06-11",
+    "points": 96,
+    "official_metric": 0.00012500000000004174,
+    "endpoint_corrected_metric": 0.00017499999999998073,
+    "independent_fit": {
+      "metric": 1.1688311688330587e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 6.340245011329758e-08,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-06-12",
+    "points": 96,
+    "official_metric": 0.0007250000000000312,
+    "endpoint_corrected_metric": 0.0007500000000000839,
+    "independent_fit": {
+      "metric": 1.0566280566247254e-05,
+      "segments": [
+        [
+          0,
+          36
+        ],
+        [
+          36,
+          96
+        ]
+      ],
+      "fit_sse": 2.766518495863448e-06,
+      "target_points": 36
+    }
+  },
+  {
+    "date": "2023-06-13",
+    "points": 96,
+    "official_metric": 4.999999999999449e-05,
+    "endpoint_corrected_metric": 6.250000000007638e-05,
+    "independent_fit": {
+      "metric": 5.25974025976722e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 5.2573176412262086e-08,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-06-14",
+    "points": 96,
+    "official_metric": 3.7499999999968114e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 1.7094017128593438e-08,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 1.4945480496514858e-06,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-06-15",
+    "points": 96,
+    "official_metric": 0.0001875000000000071,
+    "endpoint_corrected_metric": 0.00031250000000004885,
+    "independent_fit": {
+      "metric": 1.461538461521391e-06,
+      "segments": [
+        [
+          0,
+          51
+        ],
+        [
+          51,
+          96
+        ]
+      ],
+      "fit_sse": 4.671282947890537e-06,
+      "target_points": 51
+    }
+  },
+  {
+    "date": "2023-06-16",
+    "points": 96,
+    "official_metric": 0.0005625000000000768,
+    "endpoint_corrected_metric": 0.0005999999999999894,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-06-17",
+    "points": 96,
+    "official_metric": 0.0006249999999999867,
+    "endpoint_corrected_metric": 0.0006375000000000131,
+    "independent_fit": {
+      "metric": 1.6197704554362802e-07,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 3.0128681336569426e-06,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-06-18",
+    "points": 96,
+    "official_metric": 0.04818583733789483,
+    "endpoint_corrected_metric": 0.049103832717637075,
+    "independent_fit": {
+      "metric": 0.0013947178928994037,
+      "segments": [
+        [
+          0,
+          30
+        ],
+        [
+          30,
+          96
+        ]
+      ],
+      "fit_sse": 0.0009144198484450107,
+      "target_points": 30
+    }
+  },
+  {
+    "date": "2023-06-19",
+    "points": 96,
+    "official_metric": 0.0003374999999999906,
+    "endpoint_corrected_metric": 0.00036249999999998783,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-06-20",
+    "points": 96,
+    "official_metric": 0.0007499999999999729,
+    "endpoint_corrected_metric": 0.0007624999999999438,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-06-21",
+    "points": 96,
+    "official_metric": 0.04659584265746619,
+    "endpoint_corrected_metric": 0.04670066499882458,
+    "independent_fit": {
+      "metric": 0.0013154148800843262,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.0007061830041787081,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-06-22",
+    "points": 96,
+    "official_metric": 0.0005375000000000241,
+    "endpoint_corrected_metric": 0.0005499999999999949,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-06-23",
+    "points": 96,
+    "official_metric": 0.0009500000000000619,
+    "endpoint_corrected_metric": 0.0009625000000000328,
+    "independent_fit": {
+      "metric": 4.362393162390283e-05,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 3.01701760807909e-06,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-06-24",
+    "points": 96,
+    "official_metric": 0.00021250000000000435,
+    "endpoint_corrected_metric": 0.0002874999999999961,
+    "independent_fit": {
+      "metric": 3.3879164318281275e-07,
+      "segments": [
+        [
+          0,
+          22
+        ],
+        [
+          22,
+          96
+        ]
+      ],
+      "fit_sse": 2.461947708755674e-06,
+      "target_points": 22
+    }
+  },
+  {
+    "date": "2023-06-25",
+    "points": 96,
+    "official_metric": 0.00044999999999995044,
+    "endpoint_corrected_metric": 0.0004750000000000032,
+    "independent_fit": {
+      "metric": 1.2723461025343352e-05,
+      "segments": [
+        [
+          0,
+          54
+        ],
+        [
+          54,
+          96
+        ]
+      ],
+      "fit_sse": 3.947750483867075e-06,
+      "target_points": 54
+    }
+  },
+  {
+    "date": "2023-06-26",
+    "points": 96,
+    "official_metric": 0.031744654742929534,
+    "endpoint_corrected_metric": 0.03184657900687793,
+    "independent_fit": {
+      "metric": 0.0011381877980201453,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.00042804082534540246,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-06-27",
+    "points": 96,
+    "official_metric": 0.00088749999999993,
+    "endpoint_corrected_metric": 0.0009124999999999273,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-06-28",
+    "points": 96,
+    "official_metric": 0.0007624999999999993,
+    "endpoint_corrected_metric": 0.0007750000000000812,
+    "independent_fit": {
+      "metric": 1.0088631141305294e-05,
+      "segments": [
+        [
+          0,
+          38
+        ],
+        [
+          38,
+          96
+        ]
+      ],
+      "fit_sse": 8.995288927250607e-06,
+      "target_points": 38
+    }
+  },
+  {
+    "date": "2023-06-29",
+    "points": 96,
+    "official_metric": 0.0006000000000000449,
+    "endpoint_corrected_metric": 0.0006250000000000422,
+    "independent_fit": {
+      "metric": 1.3150659824038085e-05,
+      "segments": [
+        [
+          0,
+          32
+        ],
+        [
+          32,
+          96
+        ]
+      ],
+      "fit_sse": 5.351962325601561e-06,
+      "target_points": 32
+    }
+  },
+  {
+    "date": "2023-06-30",
+    "points": 96,
+    "official_metric": 0.00036249999999998783,
+    "endpoint_corrected_metric": 0.0003874999999999851,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-07-01",
+    "points": 96,
+    "official_metric": 0.04636354689284333,
+    "endpoint_corrected_metric": 0.046511601996826746,
+    "independent_fit": {
+      "metric": 0.0012666577449644454,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.0009160131420542418,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-07-02",
+    "points": 96,
+    "official_metric": 0.0006250000000000422,
+    "endpoint_corrected_metric": 0.0006500000000000394,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-07-03",
+    "points": 96,
+    "official_metric": 0.0006249999999999867,
+    "endpoint_corrected_metric": 0.0006499999999999839,
+    "independent_fit": {
+      "metric": 1.0586059743942847e-05,
+      "segments": [
+        [
+          0,
+          75
+        ],
+        [
+          75,
+          96
+        ]
+      ],
+      "fit_sse": 6.8835800091159125e-06,
+      "target_points": 75
+    }
+  },
+  {
+    "date": "2023-07-04",
+    "points": 96,
+    "official_metric": 0.0005999999999999894,
+    "endpoint_corrected_metric": 0.0006749999999999812,
+    "independent_fit": {
+      "metric": 5.256478053906797e-06,
+      "segments": [
+        [
+          0,
+          61
+        ],
+        [
+          61,
+          96
+        ]
+      ],
+      "fit_sse": 3.3454823068628517e-06,
+      "target_points": 61
+    }
+  },
+  {
+    "date": "2023-07-05",
+    "points": 96,
+    "official_metric": 0.0005875000000000186,
+    "endpoint_corrected_metric": 0.0006249999999999867,
+    "independent_fit": {
+      "metric": 2.7122690044173713e-06,
+      "segments": [
+        [
+          0,
+          90
+        ],
+        [
+          90,
+          96
+        ]
+      ],
+      "fit_sse": 3.1065822209617635e-06,
+      "target_points": 90
+    }
+  },
+  {
+    "date": "2023-07-06",
+    "points": 96,
+    "official_metric": 0.0005374999999999686,
+    "endpoint_corrected_metric": 0.000617152218691519,
+    "independent_fit": {
+      "metric": 1.8981073344955676e-06,
+      "segments": [
+        [
+          0,
+          82
+        ],
+        [
+          82,
+          96
+        ]
+      ],
+      "fit_sse": 2.1190898423701318e-06,
+      "target_points": 82
+    }
+  },
+  {
+    "date": "2023-07-07",
+    "points": 96,
+    "official_metric": 0.0284377581205153,
+    "endpoint_corrected_metric": 0.028813102899941878,
+    "independent_fit": {
+      "metric": 0.0008148520865597286,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.00031710921823034877,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-07-08",
+    "points": 96,
+    "official_metric": 8.750000000001812e-05,
+    "endpoint_corrected_metric": 9.999999999998899e-05,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-07-09",
+    "points": 96,
+    "official_metric": 0.04202692725461599,
+    "endpoint_corrected_metric": 0.04218625720862995,
+    "independent_fit": {
+      "metric": 0.0011561965560121447,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006574201630558896,
+      "target_points": 24
+    }
+  },
+  {
+    "date": "2023-07-10",
+    "points": 96,
+    "official_metric": 0.0005124999999999713,
+    "endpoint_corrected_metric": 0.0005249999999999422,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-07-11",
+    "points": 96,
+    "official_metric": 3.7499999999968114e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 1.1291779583682005e-07,
+      "segments": [
+        [
+          0,
+          81
+        ],
+        [
+          81,
+          96
+        ]
+      ],
+      "fit_sse": 2.1358040074380733e-06,
+      "target_points": 81
+    }
+  },
+  {
+    "date": "2023-07-12",
+    "points": 96,
+    "official_metric": 0.0003624999999999323,
+    "endpoint_corrected_metric": 0.00036249999999998783,
+    "independent_fit": {
+      "metric": 2.0649350649316368e-05,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 1.4351087073201058e-06,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-07-13",
+    "points": 96,
+    "official_metric": 0.00034999999999996145,
+    "endpoint_corrected_metric": 0.00039999999999995595,
+    "independent_fit": {
+      "metric": 2.256880167865325e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 2.4481146855264896e-06,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-07-14",
+    "points": 96,
+    "official_metric": 0.0002750000000000252,
+    "endpoint_corrected_metric": 0.00027500000000008074,
+    "independent_fit": {
+      "metric": 1.6129032258391574e-06,
+      "segments": [
+        [
+          0,
+          32
+        ],
+        [
+          32,
+          96
+        ]
+      ],
+      "fit_sse": 3.020958690879175e-06,
+      "target_points": 32
+    }
+  },
+  {
+    "date": "2023-07-15",
+    "points": 96,
+    "official_metric": 0.00031249999999999334,
+    "endpoint_corrected_metric": 0.0004624999999999768,
+    "independent_fit": {
+      "metric": 6.920787545768082e-06,
+      "segments": [
+        [
+          0,
+          64
+        ],
+        [
+          64,
+          96
+        ]
+      ],
+      "fit_sse": 4.1969764888200796e-06,
+      "target_points": 64
+    }
+  },
+  {
+    "date": "2023-07-16",
+    "points": 96,
+    "official_metric": 0.00017499999999998073,
+    "endpoint_corrected_metric": 0.00019999999999997797,
+    "independent_fit": {
+      "metric": 2.2294791162986003e-06,
+      "segments": [
+        [
+          0,
+          53
+        ],
+        [
+          53,
+          96
+        ]
+      ],
+      "fit_sse": 8.094973051645273e-07,
+      "target_points": 53
+    }
+  },
+  {
+    "date": "2023-07-17",
+    "points": 96,
+    "official_metric": 0.00016250000000000986,
+    "endpoint_corrected_metric": 0.00017500000000003624,
+    "independent_fit": {
+      "metric": 5.269607843138035e-06,
+      "segments": [
+        [
+          0,
+          17
+        ],
+        [
+          17,
+          96
+        ]
+      ],
+      "fit_sse": 9.539963206731738e-07,
+      "target_points": 17
+    }
+  },
+  {
+    "date": "2023-07-18",
+    "points": 96,
+    "official_metric": 0.00019999999999997797,
+    "endpoint_corrected_metric": 0.00021249999999994884,
+    "independent_fit": {
+      "metric": 9.496442255074842e-06,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 2.1294027713189146e-06,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-07-19",
+    "points": 96,
+    "official_metric": 0.00020000000000003348,
+    "endpoint_corrected_metric": 0.00021250000000005986,
+    "independent_fit": {
+      "metric": 1.3177339901474248e-05,
+      "segments": [
+        [
+          0,
+          29
+        ],
+        [
+          29,
+          96
+        ]
+      ],
+      "fit_sse": 3.2688006668548214e-06,
+      "target_points": 29
+    }
+  },
+  {
+    "date": "2023-07-20",
+    "points": 96,
+    "official_metric": 0.0004624999999999768,
+    "endpoint_corrected_metric": 0.0004875000000000296,
+    "independent_fit": {
+      "metric": 6.77823028511226e-06,
+      "segments": [
+        [
+          0,
+          74
+        ],
+        [
+          74,
+          96
+        ]
+      ],
+      "fit_sse": 1.292145876453464e-06,
+      "target_points": 74
+    }
+  },
+  {
+    "date": "2023-07-21",
+    "points": 96,
+    "official_metric": 6.249999999996536e-05,
+    "endpoint_corrected_metric": 7.499999999999174e-05,
+    "independent_fit": {
+      "metric": 7.204121930340251e-07,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 1.4653478680067582e-06,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-07-22",
+    "points": 96,
+    "official_metric": 0.0003750000000000142,
+    "endpoint_corrected_metric": 0.0005000000000000004,
+    "independent_fit": {
+      "metric": 2.6679757536887096e-07,
+      "segments": [
+        [
+          0,
+          52
+        ],
+        [
+          52,
+          96
+        ]
+      ],
+      "fit_sse": 1.7288409767598202e-06,
+      "target_points": 52
+    }
+  },
+  {
+    "date": "2023-07-23",
+    "points": 96,
+    "official_metric": 0.0005375000000000241,
+    "endpoint_corrected_metric": 0.0005499999999999949,
+    "independent_fit": {
+      "metric": 7.63182238673516e-07,
+      "segments": [
+        [
+          0,
+          47
+        ],
+        [
+          47,
+          96
+        ]
+      ],
+      "fit_sse": 1.6920236292219151e-06,
+      "target_points": 47
+    }
+  },
+  {
+    "date": "2023-07-24",
+    "points": 96,
+    "official_metric": 0.0004250000000000087,
+    "endpoint_corrected_metric": 0.00043749999999997957,
+    "independent_fit": {
+      "metric": 4.9380598437676875e-06,
+      "segments": [
+        [
+          0,
+          54
+        ],
+        [
+          54,
+          96
+        ]
+      ],
+      "fit_sse": 2.4985503370049164e-06,
+      "target_points": 54
+    }
+  },
+  {
+    "date": "2023-07-25",
+    "points": 96,
+    "official_metric": 0.04166833040325352,
+    "endpoint_corrected_metric": 0.04218434953625938,
+    "independent_fit": {
+      "metric": 0.0014925398823121396,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006059639175973021,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-07-26",
+    "points": 96,
+    "official_metric": 4.999999999993898e-05,
+    "endpoint_corrected_metric": 6.249999999996536e-05,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-07-27",
+    "points": 96,
+    "official_metric": 0.0240258053266576,
+    "endpoint_corrected_metric": 0.02433250732807385,
+    "independent_fit": {
+      "metric": 0.0007014027528383787,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.00024024190524906094,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-07-28",
+    "points": 96,
+    "official_metric": 7.500000000004725e-05,
+    "endpoint_corrected_metric": 8.750000000001812e-05,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-07-29",
+    "points": 96,
+    "official_metric": 0.0003374999999999906,
+    "endpoint_corrected_metric": 0.00034999999999996145,
+    "independent_fit": {
+      "metric": 4.504504504471144e-06,
+      "segments": [
+        [
+          0,
+          36
+        ],
+        [
+          36,
+          96
+        ]
+      ],
+      "fit_sse": 3.2232437347200326e-06,
+      "target_points": 36
+    }
+  },
+  {
+    "date": "2023-07-30",
+    "points": 96,
+    "official_metric": 0.00030000000000002247,
+    "endpoint_corrected_metric": 0.00031249999999999334,
+    "independent_fit": {
+      "metric": 7.053654023858715e-07,
+      "segments": [
+        [
+          0,
+          47
+        ],
+        [
+          47,
+          96
+        ]
+      ],
+      "fit_sse": 2.5013015454426265e-06,
+      "target_points": 47
+    }
+  },
+  {
+    "date": "2023-07-31",
+    "points": 96,
+    "official_metric": 0.04350137763943046,
+    "endpoint_corrected_metric": 0.043911161453719316,
+    "independent_fit": {
+      "metric": 0.001303098931492139,
+      "segments": [
+        [
+          0,
+          29
+        ],
+        [
+          29,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006133339607504301,
+      "target_points": 29
+    }
+  },
+  {
+    "date": "2023-08-01",
+    "points": 96,
+    "official_metric": 0.0002749999999999697,
+    "endpoint_corrected_metric": 0.0002874999999999961,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-08-02",
+    "points": 96,
+    "official_metric": 0.0002750000000000252,
+    "endpoint_corrected_metric": 0.0002875000000000516,
+    "independent_fit": {
+      "metric": 2.423076923058978e-06,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 2.5705544120812684e-06,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-08-03",
+    "points": 96,
+    "official_metric": 0.0003750000000000142,
+    "endpoint_corrected_metric": 0.0003875000000000406,
+    "independent_fit": {
+      "metric": 2.1813725490188777e-05,
+      "segments": [
+        [
+          0,
+          17
+        ],
+        [
+          17,
+          96
+        ]
+      ],
+      "fit_sse": 5.337171245311675e-07,
+      "target_points": 17
+    }
+  },
+  {
+    "date": "2023-08-04",
+    "points": 96,
+    "official_metric": 0.00021250000000000435,
+    "endpoint_corrected_metric": 0.00022499999999997522,
+    "independent_fit": {
+      "metric": 2.5943495235274902e-06,
+      "segments": [
+        [
+          0,
+          83
+        ],
+        [
+          83,
+          96
+        ]
+      ],
+      "fit_sse": 6.724293745413445e-07,
+      "target_points": 83
+    }
+  },
+  {
+    "date": "2023-08-05",
+    "points": 96,
+    "official_metric": 0.0002750000000000252,
+    "endpoint_corrected_metric": 0.0005105206914532423,
+    "independent_fit": {
+      "metric": 1.3392857142819586e-05,
+      "segments": [
+        [
+          0,
+          15
+        ],
+        [
+          15,
+          96
+        ]
+      ],
+      "fit_sse": 7.837147226786983e-06,
+      "target_points": 15
+    }
+  },
+  {
+    "date": "2023-08-06",
+    "points": 96,
+    "official_metric": 0.029189923256025097,
+    "endpoint_corrected_metric": 0.02923806720243166,
+    "independent_fit": {
+      "metric": 0.0008307899801736454,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 0.00034377382714435894,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-08-07",
+    "points": 96,
+    "official_metric": 0.00036249999999998783,
+    "endpoint_corrected_metric": 0.0003874999999999851,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-08-08",
+    "points": 96,
+    "official_metric": 0.0003875000000000406,
+    "endpoint_corrected_metric": 0.00048749999999997407,
+    "independent_fit": {
+      "metric": 7.536075036102715e-06,
+      "segments": [
+        [
+          0,
+          55
+        ],
+        [
+          55,
+          96
+        ]
+      ],
+      "fit_sse": 4.711363290274248e-06,
+      "target_points": 55
+    }
+  },
+  {
+    "date": "2023-08-09",
+    "points": 96,
+    "official_metric": 0.00026249999999999885,
+    "endpoint_corrected_metric": 0.0002750000000000252,
+    "independent_fit": {
+      "metric": 9.670058587753954e-06,
+      "segments": [
+        [
+          0,
+          46
+        ],
+        [
+          46,
+          96
+        ]
+      ],
+      "fit_sse": 1.557342507132926e-06,
+      "target_points": 46
+    }
+  },
+  {
+    "date": "2023-08-10",
+    "points": 96,
+    "official_metric": 0.037470204015044195,
+    "endpoint_corrected_metric": 0.038209231223624074,
+    "independent_fit": {
+      "metric": 0.0010324991901765558,
+      "segments": [
+        [
+          0,
+          29
+        ],
+        [
+          29,
+          96
+        ]
+      ],
+      "fit_sse": 0.0005632871639277073,
+      "target_points": 29
+    }
+  },
+  {
+    "date": "2023-08-11",
+    "points": 96,
+    "official_metric": 0.0003874999999999851,
+    "endpoint_corrected_metric": 0.00040000000000001146,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-08-12",
+    "points": 96,
+    "official_metric": 0.041622390826448974,
+    "endpoint_corrected_metric": 0.04201459921791467,
+    "independent_fit": {
+      "metric": 0.0009573704783722455,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 0.0005478605953998963,
+      "target_points": 24
+    }
+  },
+  {
+    "date": "2023-08-13",
+    "points": 96,
+    "official_metric": 0.00012499999999998623,
+    "endpoint_corrected_metric": 0.00014999999999998348,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-08-14",
+    "points": 96,
+    "official_metric": 0.00019999999999997797,
+    "endpoint_corrected_metric": 0.00022499999999997522,
+    "independent_fit": {
+      "metric": 2.110004741566137e-06,
+      "segments": [
+        [
+          0,
+          37
+        ],
+        [
+          37,
+          96
+        ]
+      ],
+      "fit_sse": 2.8273713711793667e-06,
+      "target_points": 37
+    }
+  },
+  {
+    "date": "2023-08-15",
+    "points": 96,
+    "official_metric": 0.00016250000000000986,
+    "endpoint_corrected_metric": 0.0001875000000000071,
+    "independent_fit": {
+      "metric": 9.43877550992288e-07,
+      "segments": [
+        [
+          0,
+          49
+        ],
+        [
+          49,
+          96
+        ]
+      ],
+      "fit_sse": 3.4347041103380324e-06,
+      "target_points": 49
+    }
+  },
+  {
+    "date": "2023-08-16",
+    "points": 96,
+    "official_metric": 7.499999999999174e-05,
+    "endpoint_corrected_metric": 0.00011250000000001537,
+    "independent_fit": {
+      "metric": 1.0000000000065512e-05,
+      "segments": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          96
+        ]
+      ],
+      "fit_sse": 4.520807915307327e-06,
+      "target_points": 4
+    }
+  },
+  {
+    "date": "2023-08-17",
+    "points": 96,
+    "official_metric": 0.00021250000000000435,
+    "endpoint_corrected_metric": 0.00024999999999997247,
+    "independent_fit": {
+      "metric": 8.109332527961736e-06,
+      "segments": [
+        [
+          0,
+          43
+        ],
+        [
+          43,
+          96
+        ]
+      ],
+      "fit_sse": 2.833601241306508e-07,
+      "target_points": 43
+    }
+  },
+  {
+    "date": "2023-08-18",
+    "points": 96,
+    "official_metric": 0.0002249999999999197,
+    "endpoint_corrected_metric": 0.0002874999999999406,
+    "independent_fit": {
+      "metric": 9.230769230764723e-06,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 5.240152278749349e-06,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-08-19",
+    "points": 96,
+    "official_metric": 0.00016250000000000986,
+    "endpoint_corrected_metric": 0.00019999999999997797,
+    "independent_fit": {
+      "metric": 4.350649350683043e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 6.178933642636626e-07,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-08-20",
+    "points": 96,
+    "official_metric": 0.000250000000000028,
+    "endpoint_corrected_metric": 0.00030000000000002247,
+    "independent_fit": {
+      "metric": 2.7125506072509222e-06,
+      "segments": [
+        [
+          0,
+          39
+        ],
+        [
+          39,
+          96
+        ]
+      ],
+      "fit_sse": 1.3138646920851896e-06,
+      "target_points": 39
+    }
+  },
+  {
+    "date": "2023-08-21",
+    "points": 96,
+    "official_metric": 0.0002874999999999961,
+    "endpoint_corrected_metric": 0.00029999999999996696,
+    "independent_fit": {
+      "metric": 6.849315068457458e-07,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 5.152716850138418e-07,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-08-22",
+    "points": 96,
+    "official_metric": 0.0003374999999999906,
+    "endpoint_corrected_metric": 0.0005124999999999713,
+    "independent_fit": {
+      "metric": 1.1149193548350369e-05,
+      "segments": [
+        [
+          0,
+          31
+        ],
+        [
+          31,
+          96
+        ]
+      ],
+      "fit_sse": 3.2806373716952316e-06,
+      "target_points": 31
+    }
+  },
+  {
+    "date": "2023-08-23",
+    "points": 96,
+    "official_metric": 0.0005124999999999713,
+    "endpoint_corrected_metric": 0.0005125000000000268,
+    "independent_fit": {
+      "metric": 6.816885779006055e-06,
+      "segments": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          96
+        ]
+      ],
+      "fit_sse": 2.1964866635997888e-06,
+      "target_points": 92
+    }
+  },
+  {
+    "date": "2023-08-24",
+    "points": 96,
+    "official_metric": 0.03214409762028714,
+    "endpoint_corrected_metric": 0.03216791980255934,
+    "independent_fit": {
+      "metric": 0.0009290426208150116,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 0.0003851600072500386,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-08-25",
+    "points": 96,
+    "official_metric": 0.00016250000000006537,
+    "endpoint_corrected_metric": 0.00020000000000003348,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-08-26",
+    "points": 96,
+    "official_metric": 0.0002749999999999697,
+    "endpoint_corrected_metric": 0.00029999999999996696,
+    "independent_fit": {
+      "metric": 1.5151515151587498e-06,
+      "segments": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          96
+        ]
+      ],
+      "fit_sse": 4.197189589397276e-06,
+      "target_points": 10
+    }
+  },
+  {
+    "date": "2023-08-27",
+    "points": 96,
+    "official_metric": 0.00026249999999999885,
+    "endpoint_corrected_metric": 0.0002750000000000252,
+    "independent_fit": {
+      "metric": 1.2719703977366094e-06,
+      "segments": [
+        [
+          0,
+          47
+        ],
+        [
+          47,
+          96
+        ]
+      ],
+      "fit_sse": 1.3851247836107763e-06,
+      "target_points": 47
+    }
+  },
+  {
+    "date": "2023-08-28",
+    "points": 96,
+    "official_metric": 0.0002875000000000516,
+    "endpoint_corrected_metric": 0.0003250000000000197,
+    "independent_fit": {
+      "metric": 1.6274836480474754e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 2.0356225403218285e-06,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-08-29",
+    "points": 96,
+    "official_metric": 0.00035000000000001696,
+    "endpoint_corrected_metric": 0.0003750000000000142,
+    "independent_fit": {
+      "metric": 1.181818181814966e-05,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 2.533287873472611e-06,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-08-30",
+    "points": 96,
+    "official_metric": 0.0003624999999999323,
+    "endpoint_corrected_metric": 0.0003749999999999587,
+    "independent_fit": {
+      "metric": 1.1505550416022297e-06,
+      "segments": [
+        [
+          0,
+          47
+        ],
+        [
+          47,
+          96
+        ]
+      ],
+      "fit_sse": 2.775082529013792e-06,
+      "target_points": 47
+    }
+  },
+  {
+    "date": "2023-08-31",
+    "points": 96,
+    "official_metric": 0.0004749999999999477,
+    "endpoint_corrected_metric": 0.0005374999999999686,
+    "independent_fit": {
+      "metric": 7.099303135859268e-06,
+      "segments": [
+        [
+          0,
+          41
+        ],
+        [
+          41,
+          96
+        ]
+      ],
+      "fit_sse": 2.0125473789390516e-06,
+      "target_points": 41
+    }
+  },
+  {
+    "date": "2023-09-01",
+    "points": 96,
+    "official_metric": 0.00012499999999998623,
+    "endpoint_corrected_metric": 0.0001375000000000126,
+    "independent_fit": {
+      "metric": 2.0791763109538724e-06,
+      "segments": [
+        [
+          0,
+          67
+        ],
+        [
+          67,
+          96
+        ]
+      ],
+      "fit_sse": 2.441283936982149e-06,
+      "target_points": 67
+    }
+  },
+  {
+    "date": "2023-09-02",
+    "points": 96,
+    "official_metric": 0.028955767559391665,
+    "endpoint_corrected_metric": 0.02910411649573319,
+    "independent_fit": {
+      "metric": 0.000744015207410456,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.0002739724117377997,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-09-03",
+    "points": 96,
+    "official_metric": 0.00012500000000004174,
+    "endpoint_corrected_metric": 0.00013750000000006812,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-09-04",
+    "points": 96,
+    "official_metric": 0.035003684978214544,
+    "endpoint_corrected_metric": 0.035143968911478474,
+    "independent_fit": {
+      "metric": 0.0010774063703869476,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.0004233004293665727,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-09-05",
+    "points": 96,
+    "official_metric": 0.0003249999999999642,
+    "endpoint_corrected_metric": 0.0003624999999999323,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-09-06",
+    "points": 96,
+    "official_metric": 0.00030000000000002247,
+    "endpoint_corrected_metric": 0.00031250000000004885,
+    "independent_fit": {
+      "metric": 7.587981638574425e-06,
+      "segments": [
+        [
+          0,
+          78
+        ],
+        [
+          78,
+          96
+        ]
+      ],
+      "fit_sse": 2.8142451743325865e-06,
+      "target_points": 78
+    }
+  },
+  {
+    "date": "2023-09-07",
+    "points": 96,
+    "official_metric": 0.03600978174650815,
+    "endpoint_corrected_metric": 0.03634518144281568,
+    "independent_fit": {
+      "metric": 0.0012038422209144674,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.00041140882230623703,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-09-08",
+    "points": 96,
+    "official_metric": 0.0003750000000000142,
+    "endpoint_corrected_metric": 0.0005000000000000004,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-09-09",
+    "points": 96,
+    "official_metric": 0.0003750000000000142,
+    "endpoint_corrected_metric": 0.0005000000000000004,
+    "independent_fit": {
+      "metric": 4.1046561407879965e-07,
+      "segments": [
+        [
+          0,
+          62
+        ],
+        [
+          62,
+          96
+        ]
+      ],
+      "fit_sse": 1.9474209688530825e-06,
+      "target_points": 62
+    }
+  },
+  {
+    "date": "2023-09-10",
+    "points": 96,
+    "official_metric": 0.0003750000000000142,
+    "endpoint_corrected_metric": 0.0005000000000000004,
+    "independent_fit": {
+      "metric": 8.823529411848633e-07,
+      "segments": [
+        [
+          0,
+          16
+        ],
+        [
+          16,
+          96
+        ]
+      ],
+      "fit_sse": 2.121969469624894e-06,
+      "target_points": 16
+    }
+  },
+  {
+    "date": "2023-09-11",
+    "points": 96,
+    "official_metric": 4.999999999999449e-05,
+    "endpoint_corrected_metric": 6.250000000002087e-05,
+    "independent_fit": {
+      "metric": 1.9351717469234148e-07,
+      "segments": [
+        [
+          0,
+          53
+        ],
+        [
+          53,
+          96
+        ]
+      ],
+      "fit_sse": 8.805254306069643e-07,
+      "target_points": 53
+    }
+  },
+  {
+    "date": "2023-09-12",
+    "points": 96,
+    "official_metric": 8.749999999996261e-05,
+    "endpoint_corrected_metric": 0.00012499999999998623,
+    "independent_fit": {
+      "metric": 1.2337662337518236e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 4.828054752182074e-08,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-09-13",
+    "points": 96,
+    "official_metric": 4.999999999999449e-05,
+    "endpoint_corrected_metric": 6.250000000002087e-05,
+    "independent_fit": {
+      "metric": 9.090909091533851e-07,
+      "segments": [
+        [
+          0,
+          11
+        ],
+        [
+          11,
+          96
+        ]
+      ],
+      "fit_sse": 1.3735597642517687e-06,
+      "target_points": 11
+    }
+  },
+  {
+    "date": "2023-09-14",
+    "points": 96,
+    "official_metric": 3.7500000000023626e-05,
+    "endpoint_corrected_metric": 5.0000000000050004e-05,
+    "independent_fit": {
+      "metric": 1.7532467532311323e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 6.026857161709038e-08,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-09-15",
+    "points": 96,
+    "official_metric": 6.249999999996536e-05,
+    "endpoint_corrected_metric": 7.499999999999174e-05,
+    "independent_fit": {
+      "metric": 1.3451807971574827e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 8.321598874900586e-08,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-09-16",
+    "points": 96,
+    "official_metric": 0.0002750000000000252,
+    "endpoint_corrected_metric": 0.0004124999999999823,
+    "independent_fit": {
+      "metric": 1.7902813298892466e-07,
+      "segments": [
+        [
+          0,
+          69
+        ],
+        [
+          69,
+          96
+        ]
+      ],
+      "fit_sse": 6.311946914705666e-07,
+      "target_points": 69
+    }
+  },
+  {
+    "date": "2023-09-17",
+    "points": 96,
+    "official_metric": 3.7499999999968114e-05,
+    "endpoint_corrected_metric": 3.7500000000023626e-05,
+    "independent_fit": {
+      "metric": 1.322051819290059e-08,
+      "segments": [
+        [
+          0,
+          61
+        ],
+        [
+          61,
+          96
+        ]
+      ],
+      "fit_sse": 1.241949461151831e-06,
+      "target_points": 61
+    }
+  },
+  {
+    "date": "2023-09-18",
+    "points": 96,
+    "official_metric": 0.0003749999999999587,
+    "endpoint_corrected_metric": 0.0003750000000000142,
+    "independent_fit": {
+      "metric": 1.6840262956170437e-06,
+      "segments": [
+        [
+          0,
+          52
+        ],
+        [
+          52,
+          96
+        ]
+      ],
+      "fit_sse": 7.289144879458941e-07,
+      "target_points": 52
+    }
+  },
+  {
+    "date": "2023-09-19",
+    "points": 96,
+    "official_metric": 0.000150000000000039,
+    "endpoint_corrected_metric": 0.00019999999999997797,
+    "independent_fit": {
+      "metric": 1.6657255787521356e-06,
+      "segments": [
+        [
+          0,
+          22
+        ],
+        [
+          22,
+          96
+        ]
+      ],
+      "fit_sse": 9.974006046670245e-08,
+      "target_points": 22
+    }
+  },
+  {
+    "date": "2023-09-20",
+    "points": 96,
+    "official_metric": 0.00041250000000003784,
+    "endpoint_corrected_metric": 0.0004250000000000087,
+    "independent_fit": {
+      "metric": 2.3076923077064497e-06,
+      "segments": [
+        [
+          0,
+          14
+        ],
+        [
+          14,
+          96
+        ]
+      ],
+      "fit_sse": 8.099184615455109e-08,
+      "target_points": 14
+    }
+  },
+  {
+    "date": "2023-09-21",
+    "points": 96,
+    "official_metric": 0.00010000000000010001,
+    "endpoint_corrected_metric": 0.00012500000000004174,
+    "independent_fit": {
+      "metric": 1.4624213254537572e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 1.5648766115241196e-07,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-09-22",
+    "points": 96,
+    "official_metric": 0.00034999999999996145,
+    "endpoint_corrected_metric": 0.0003624999999999323,
+    "independent_fit": {
+      "metric": 9.911141492729688e-08,
+      "segments": [
+        [
+          0,
+          76
+        ],
+        [
+          76,
+          96
+        ]
+      ],
+      "fit_sse": 1.9209088644396475e-07,
+      "target_points": 76
+    }
+  },
+  {
+    "date": "2023-09-23",
+    "points": 96,
+    "official_metric": 3.7499999999968114e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 1.1276687646841703e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 4.3972864015764715e-08,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-09-24",
+    "points": 96,
+    "official_metric": 0.0002874999999999406,
+    "endpoint_corrected_metric": 0.00039999999999995595,
+    "independent_fit": {
+      "metric": 1.8840579710283568e-06,
+      "segments": [
+        [
+          0,
+          45
+        ],
+        [
+          45,
+          96
+        ]
+      ],
+      "fit_sse": 1.2736144607103988e-06,
+      "target_points": 45
+    }
+  },
+  {
+    "date": "2023-09-25",
+    "points": 96,
+    "official_metric": 0.0001374999999999571,
+    "endpoint_corrected_metric": 0.00014999999999998348,
+    "independent_fit": {
+      "metric": 3.1572214601189115e-06,
+      "segments": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          96
+        ]
+      ],
+      "fit_sse": 9.310580118821536e-07,
+      "target_points": 92
+    }
+  },
+  {
+    "date": "2023-09-26",
+    "points": 96,
+    "official_metric": 0.02624155050980398,
+    "endpoint_corrected_metric": 0.02644255690034425,
+    "independent_fit": {
+      "metric": 0.0007700281058137202,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 0.0002376351177716372,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-09-27",
+    "points": 96,
+    "official_metric": 0.0003374999999999906,
+    "endpoint_corrected_metric": 0.00045000000000000595,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-09-28",
+    "points": 96,
+    "official_metric": 0.00043749999999992406,
+    "endpoint_corrected_metric": 0.0004624999999999768,
+    "independent_fit": {
+      "metric": 4.99999999989953e-06,
+      "segments": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          96
+        ]
+      ],
+      "fit_sse": 6.295549405011554e-06,
+      "target_points": 5
+    }
+  },
+  {
+    "date": "2023-09-29",
+    "points": 96,
+    "official_metric": 3.7500000000023626e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 1.7857142857735653e-06,
+      "segments": [
+        [
+          0,
+          7
+        ],
+        [
+          7,
+          96
+        ]
+      ],
+      "fit_sse": 6.584797331541972e-06,
+      "target_points": 7
+    }
+  },
+  {
+    "date": "2023-09-30",
+    "points": 96,
+    "official_metric": 0.00019999999999997797,
+    "endpoint_corrected_metric": 0.00024999999999997247,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-10-01",
+    "points": 96,
+    "official_metric": 0.00029999999999996696,
+    "endpoint_corrected_metric": 0.0003249999999999642,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-10-02",
+    "points": 96,
+    "official_metric": 0.0003374999999999906,
+    "endpoint_corrected_metric": 0.0003749999999999587,
+    "independent_fit": {
+      "metric": 3.1096681097077705e-06,
+      "segments": [
+        [
+          0,
+          55
+        ],
+        [
+          55,
+          96
+        ]
+      ],
+      "fit_sse": 3.0834086517973343e-06,
+      "target_points": 55
+    }
+  },
+  {
+    "date": "2023-10-03",
+    "points": 96,
+    "official_metric": 0.00014999999999998348,
+    "endpoint_corrected_metric": 0.00017499999999998073,
+    "independent_fit": {
+      "metric": 8.606228800513517e-06,
+      "segments": [
+        [
+          0,
+          46
+        ],
+        [
+          46,
+          96
+        ]
+      ],
+      "fit_sse": 8.970285433063862e-06,
+      "target_points": 46
+    }
+  },
+  {
+    "date": "2023-10-04",
+    "points": 96,
+    "official_metric": 0.0006125000000000158,
+    "endpoint_corrected_metric": 0.0006375000000000131,
+    "independent_fit": {
+      "metric": 1.9556451612349095e-06,
+      "segments": [
+        [
+          0,
+          31
+        ],
+        [
+          31,
+          96
+        ]
+      ],
+      "fit_sse": 9.356499867110452e-06,
+      "target_points": 31
+    }
+  },
+  {
+    "date": "2023-10-05",
+    "points": 96,
+    "official_metric": 0.0007999999999999674,
+    "endpoint_corrected_metric": 0.0008249999999999647,
+    "independent_fit": {
+      "metric": 5.9006211180076975e-06,
+      "segments": [
+        [
+          0,
+          22
+        ],
+        [
+          22,
+          96
+        ]
+      ],
+      "fit_sse": 1.1172182272828925e-05,
+      "target_points": 22
+    }
+  },
+  {
+    "date": "2023-10-06",
+    "points": 96,
+    "official_metric": 0.00022500000000003073,
+    "endpoint_corrected_metric": 0.000250000000000028,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-10-07",
+    "points": 96,
+    "official_metric": 0.002725000000000033,
+    "endpoint_corrected_metric": 0.002950000000000008,
+    "independent_fit": {
+      "metric": 2.5205164678853707e-05,
+      "segments": [
+        [
+          0,
+          38
+        ],
+        [
+          38,
+          96
+        ]
+      ],
+      "fit_sse": 1.6803324020196567e-05,
+      "target_points": 38
+    }
+  },
+  {
+    "date": "2023-10-08",
+    "points": 96,
+    "official_metric": 0.0004750000000000032,
+    "endpoint_corrected_metric": 0.0005000000000000004,
+    "independent_fit": {
+      "metric": 1.3947368421091803e-05,
+      "segments": [
+        [
+          0,
+          19
+        ],
+        [
+          19,
+          96
+        ]
+      ],
+      "fit_sse": 1.1620738382431545e-05,
+      "target_points": 19
+    }
+  },
+  {
+    "date": "2023-10-09",
+    "points": 96,
+    "official_metric": 0.0008000000000000784,
+    "endpoint_corrected_metric": 0.0008250000000000757,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-10-10",
+    "points": 96,
+    "official_metric": 0.012325000000000086,
+    "endpoint_corrected_metric": 0.012462500000000043,
+    "independent_fit": {
+      "metric": 6.404359277793147e-06,
+      "segments": [
+        [
+          0,
+          68
+        ],
+        [
+          68,
+          96
+        ]
+      ],
+      "fit_sse": 9.472667895214466e-05,
+      "target_points": 68
+    }
+  },
+  {
+    "date": "2023-10-11",
+    "points": 96,
+    "official_metric": 0.00011250000000001537,
+    "endpoint_corrected_metric": 0.00012500000000004174,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-10-12",
+    "points": 96,
+    "official_metric": 0.00039999999999995595,
+    "endpoint_corrected_metric": 0.00043749999999997957,
+    "independent_fit": {
+      "metric": 7.079708358547609e-07,
+      "segments": [
+        [
+          0,
+          88
+        ],
+        [
+          88,
+          96
+        ]
+      ],
+      "fit_sse": 1.1422259246165808e-05,
+      "target_points": 88
+    }
+  },
+  {
+    "date": "2023-10-13",
+    "points": 96,
+    "official_metric": 0.0004250000000000087,
+    "endpoint_corrected_metric": 0.00045000000000000595,
+    "independent_fit": {
+      "metric": 7.142857142840496e-06,
+      "segments": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          96
+        ]
+      ],
+      "fit_sse": 7.099625290435157e-06,
+      "target_points": 6
+    }
+  },
+  {
+    "date": "2023-10-14",
+    "points": 96,
+    "official_metric": 0.00024999999999991696,
+    "endpoint_corrected_metric": 0.00029999999999996696,
+    "independent_fit": {
+      "metric": 1.7261904761970266e-05,
+      "segments": [
+        [
+          0,
+          8
+        ],
+        [
+          8,
+          96
+        ]
+      ],
+      "fit_sse": 8.974719753963748e-06,
+      "target_points": 8
+    }
+  },
+  {
+    "date": "2023-10-15",
+    "points": 96,
+    "official_metric": 0.0002375000000000016,
+    "endpoint_corrected_metric": 0.0002874999999999961,
+    "independent_fit": {
+      "metric": 2.9851727219977365e-06,
+      "segments": [
+        [
+          0,
+          77
+        ],
+        [
+          77,
+          96
+        ]
+      ],
+      "fit_sse": 3.7618122054910642e-06,
+      "target_points": 77
+    }
+  },
+  {
+    "date": "2023-10-16",
+    "points": 96,
+    "official_metric": 0.001087500000000019,
+    "endpoint_corrected_metric": 0.0011249999999999871,
+    "independent_fit": {
+      "metric": 9.374164980754536e-06,
+      "segments": [
+        [
+          0,
+          68
+        ],
+        [
+          68,
+          96
+        ]
+      ],
+      "fit_sse": 8.879540646220444e-06,
+      "target_points": 68
+    }
+  },
+  {
+    "date": "2023-10-17",
+    "points": 96,
+    "official_metric": 0.0010999999999999344,
+    "endpoint_corrected_metric": 0.0011249999999999316,
+    "independent_fit": {
+      "metric": 3.3556149732670356e-05,
+      "segments": [
+        [
+          0,
+          33
+        ],
+        [
+          33,
+          96
+        ]
+      ],
+      "fit_sse": 1.3903587382813228e-05,
+      "target_points": 33
+    }
+  },
+  {
+    "date": "2023-10-18",
+    "points": 96,
+    "official_metric": 0.0011125000000000163,
+    "endpoint_corrected_metric": 0.0011625000000000107,
+    "independent_fit": {
+      "metric": 3.252005347590397e-05,
+      "segments": [
+        [
+          0,
+          33
+        ],
+        [
+          33,
+          96
+        ]
+      ],
+      "fit_sse": 1.1782069862653287e-05,
+      "target_points": 33
+    }
+  },
+  {
+    "date": "2023-10-19",
+    "points": 96,
+    "official_metric": 0.0007750000000000257,
+    "endpoint_corrected_metric": 0.0007750000000000812,
+    "independent_fit": {
+      "metric": 3.943349753693179e-05,
+      "segments": [
+        [
+          0,
+          29
+        ],
+        [
+          29,
+          96
+        ]
+      ],
+      "fit_sse": 6.968864121622807e-06,
+      "target_points": 29
+    }
+  },
+  {
+    "date": "2023-10-20",
+    "points": 96,
+    "official_metric": 0.0008250000000000202,
+    "endpoint_corrected_metric": 0.0009000000000000119,
+    "independent_fit": {
+      "metric": 5.728587319247246e-06,
+      "segments": [
+        [
+          0,
+          30
+        ],
+        [
+          30,
+          96
+        ]
+      ],
+      "fit_sse": 1.776352990957366e-05,
+      "target_points": 30
+    }
+  },
+  {
+    "date": "2023-10-21",
+    "points": 96,
+    "official_metric": 0.0008499999999999619,
+    "endpoint_corrected_metric": 0.0008749999999999036,
+    "independent_fit": {
+      "metric": 5.0000000000010357e-05,
+      "segments": [
+        [
+          0,
+          7
+        ],
+        [
+          7,
+          96
+        ]
+      ],
+      "fit_sse": 4.4946074070127195e-06,
+      "target_points": 7
+    }
+  },
+  {
+    "date": "2023-10-22",
+    "points": 96,
+    "official_metric": 0.0002375000000000016,
+    "endpoint_corrected_metric": 0.00026250000000005436,
+    "independent_fit": {
+      "metric": 4.62406015039054e-06,
+      "segments": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          96
+        ]
+      ],
+      "fit_sse": 1.3636169078451246e-06,
+      "target_points": 20
+    }
+  },
+  {
+    "date": "2023-10-23",
+    "points": 96,
+    "official_metric": 0.0002375000000000016,
+    "endpoint_corrected_metric": 0.0002749999999999697,
+    "independent_fit": {
+      "metric": 1.9480519480612496e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 1.2519596201264424e-06,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-10-24",
+    "points": 96,
+    "official_metric": 3.7499999999968114e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 9.803921568604602e-07,
+      "segments": [
+        [
+          0,
+          17
+        ],
+        [
+          17,
+          96
+        ]
+      ],
+      "fit_sse": 1.7418529523534397e-05,
+      "target_points": 17
+    }
+  },
+  {
+    "date": "2023-10-25",
+    "points": 96,
+    "official_metric": 0.00035000000000001696,
+    "endpoint_corrected_metric": 0.00040000000000001146,
+    "independent_fit": {
+      "metric": 1.1298701298707263e-05,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 7.598800514626078e-07,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-10-26",
+    "points": 96,
+    "official_metric": 5.0000000000050004e-05,
+    "endpoint_corrected_metric": 6.250000000007638e-05,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-10-27",
+    "points": 96,
+    "official_metric": 3.7500000000023626e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 7.4999999999529145e-06,
+      "segments": [
+        [
+          0,
+          9
+        ],
+        [
+          9,
+          96
+        ]
+      ],
+      "fit_sse": 1.754561986860031e-05,
+      "target_points": 9
+    }
+  },
+  {
+    "date": "2023-10-28",
+    "points": 96,
+    "official_metric": 3.7500000000023626e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 3.136940420769684e-07,
+      "segments": [
+        [
+          0,
+          86
+        ],
+        [
+          86,
+          96
+        ]
+      ],
+      "fit_sse": 3.6461304019301474e-06,
+      "target_points": 86
+    }
+  },
+  {
+    "date": "2023-10-29",
+    "points": 96,
+    "official_metric": 3.7500000000023626e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 1.7399267399758238e-06,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 1.4274432293611538e-05,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-10-30",
+    "points": 96,
+    "official_metric": 0.0015124999999999167,
+    "endpoint_corrected_metric": 0.0015249999999999986,
+    "independent_fit": {
+      "metric": 8.571428571459349e-06,
+      "segments": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          96
+        ]
+      ],
+      "fit_sse": 3.61195995272743e-05,
+      "target_points": 6
+    }
+  },
+  {
+    "date": "2023-10-31",
+    "points": 96,
+    "official_metric": 0.0001875000000000071,
+    "endpoint_corrected_metric": 0.00022500000000003073,
+    "independent_fit": {
+      "metric": 1.4999999999965042e-05,
+      "segments": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          96
+        ]
+      ],
+      "fit_sse": 2.0355780281098022e-05,
+      "target_points": 4
+    }
+  },
+  {
+    "date": "2023-11-01",
+    "points": 96,
+    "official_metric": 0.00029999999999996696,
+    "endpoint_corrected_metric": 0.00031249999999993783,
+    "independent_fit": {
+      "metric": 1.0194805194774514e-05,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 5.738356608279754e-07,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-11-02",
+    "points": 96,
+    "official_metric": 4.999999999999449e-05,
+    "endpoint_corrected_metric": 6.249999999996536e-05,
+    "independent_fit": {
+      "metric": 1.785714285731271e-06,
+      "segments": [
+        [
+          0,
+          8
+        ],
+        [
+          8,
+          96
+        ]
+      ],
+      "fit_sse": 2.877976189610251e-06,
+      "target_points": 8
+    }
+  },
+  {
+    "date": "2023-11-03",
+    "points": 96,
+    "official_metric": 0.03368376111083071,
+    "endpoint_corrected_metric": 0.03380047983014123,
+    "independent_fit": {
+      "metric": 0.0011137555155035551,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.0003889554430224026,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-11-04",
+    "points": 96,
+    "official_metric": 0.0009250000000000647,
+    "endpoint_corrected_metric": 0.0009625000000000883,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-11-05",
+    "points": 96,
+    "official_metric": 0.0,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-11-06",
+    "points": 96,
+    "official_metric": 0.002262499999999945,
+    "endpoint_corrected_metric": 0.0023499999999999632,
+    "independent_fit": {
+      "metric": 1.578399629983564e-06,
+      "segments": [
+        [
+          0,
+          47
+        ],
+        [
+          47,
+          96
+        ]
+      ],
+      "fit_sse": 2.666765839822684e-05,
+      "target_points": 47
+    }
+  },
+  {
+    "date": "2023-11-07",
+    "points": 96,
+    "official_metric": 0.02647891063558655,
+    "endpoint_corrected_metric": 0.0271472283046853,
+    "independent_fit": {
+      "metric": 0.0008623958388867856,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.00021727257389392388,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-11-08",
+    "points": 96,
+    "official_metric": 0.00029999999999996696,
+    "endpoint_corrected_metric": 0.00034999999999996145,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-11-09",
+    "points": 96,
+    "official_metric": 3.7500000000023626e-05,
+    "endpoint_corrected_metric": 4.999999999999449e-05,
+    "independent_fit": {
+      "metric": 5.454545454511211e-06,
+      "segments": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          96
+        ]
+      ],
+      "fit_sse": 2.4820515813112405e-06,
+      "target_points": 10
+    }
+  },
+  {
+    "date": "2023-11-10",
+    "points": 96,
+    "official_metric": 3.7500000000023626e-05,
+    "endpoint_corrected_metric": 8.750000000001812e-05,
+    "independent_fit": {
+      "metric": 3.913673947860597e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 4.5437666365876086e-07,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-11-11",
+    "points": 96,
+    "official_metric": 0.00018749999999989608,
+    "endpoint_corrected_metric": 0.0002249999999999197,
+    "independent_fit": {
+      "metric": 1.555341055341294e-05,
+      "segments": [
+        [
+          0,
+          36
+        ],
+        [
+          36,
+          96
+        ]
+      ],
+      "fit_sse": 5.634002936542296e-07,
+      "target_points": 36
+    }
+  },
+  {
+    "date": "2023-11-12",
+    "points": 96,
+    "official_metric": 0.0001875000000000071,
+    "endpoint_corrected_metric": 0.0002375000000000016,
+    "independent_fit": {
+      "metric": 5.259740259730309e-06,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 2.68128541578955e-06,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-11-13",
+    "points": 96,
+    "official_metric": 0.0008250000000000757,
+    "endpoint_corrected_metric": 0.0012375000000001135,
+    "independent_fit": {
+      "metric": 2.597402597304266e-07,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 1.967420024702391e-05,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-11-14",
+    "points": 96,
+    "official_metric": 0.0003374999999999906,
+    "endpoint_corrected_metric": 0.0003874999999999851,
+    "independent_fit": {
+      "metric": 4.438775510168723e-06,
+      "segments": [
+        [
+          0,
+          49
+        ],
+        [
+          49,
+          96
+        ]
+      ],
+      "fit_sse": 1.2072818616050227e-05,
+      "target_points": 49
+    }
+  },
+  {
+    "date": "2023-11-15",
+    "points": 96,
+    "official_metric": 0.0009125000000000938,
+    "endpoint_corrected_metric": 0.001087500000000019,
+    "independent_fit": {
+      "metric": 3.6918367346928864e-05,
+      "segments": [
+        [
+          0,
+          49
+        ],
+        [
+          49,
+          96
+        ]
+      ],
+      "fit_sse": 4.3472482030778865e-06,
+      "target_points": 49
+    }
+  },
+  {
+    "date": "2023-11-16",
+    "points": 96,
+    "official_metric": 0.0014999999999999458,
+    "endpoint_corrected_metric": 0.0015499999999999403,
+    "independent_fit": {
+      "metric": 1.9480519484857298e-07,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 3.8915474981675013e-05,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-11-17",
+    "points": 96,
+    "official_metric": 0.0012375000000000025,
+    "endpoint_corrected_metric": 0.0013250000000000206,
+    "independent_fit": {
+      "metric": 5.390259635564611e-06,
+      "segments": [
+        [
+          0,
+          53
+        ],
+        [
+          53,
+          96
+        ]
+      ],
+      "fit_sse": 4.2474103997952916e-05,
+      "target_points": 53
+    }
+  },
+  {
+    "date": "2023-11-18",
+    "points": 96,
+    "official_metric": 0.001087500000000019,
+    "endpoint_corrected_metric": 0.001174999999999926,
+    "independent_fit": {
+      "metric": 1.7448405253595908e-06,
+      "segments": [
+        [
+          0,
+          40
+        ],
+        [
+          40,
+          96
+        ]
+      ],
+      "fit_sse": 4.443283882396287e-05,
+      "target_points": 40
+    }
+  },
+  {
+    "date": "2023-11-19",
+    "points": 96,
+    "official_metric": 0.0007249999999999757,
+    "endpoint_corrected_metric": 0.0008124999999999938,
+    "independent_fit": {
+      "metric": 1.4545454545506773e-05,
+      "segments": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          96
+        ]
+      ],
+      "fit_sse": 8.280930850215385e-05,
+      "target_points": 10
+    }
+  },
+  {
+    "date": "2023-11-20",
+    "points": 96,
+    "official_metric": 0.0014250000000001206,
+    "endpoint_corrected_metric": 0.0014625000000000332,
+    "independent_fit": {
+      "metric": 1.4963880289307782e-06,
+      "segments": [
+        [
+          0,
+          18
+        ],
+        [
+          18,
+          96
+        ]
+      ],
+      "fit_sse": 5.279992719664689e-05,
+      "target_points": 18
+    }
+  },
+  {
+    "date": "2023-11-21",
+    "points": 96,
+    "official_metric": 0.0017625000000000002,
+    "endpoint_corrected_metric": 0.0018500000000000183,
+    "independent_fit": {
+      "metric": 0.0001269696969697348,
+      "segments": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          96
+        ]
+      ],
+      "fit_sse": 4.413743100295125e-05,
+      "target_points": 10
+    }
+  },
+  {
+    "date": "2023-11-22",
+    "points": 96,
+    "official_metric": 0.0013250000000000206,
+    "endpoint_corrected_metric": 0.001375000000000015,
+    "independent_fit": {
+      "metric": 1.0966898954733669e-05,
+      "segments": [
+        [
+          0,
+          41
+        ],
+        [
+          41,
+          96
+        ]
+      ],
+      "fit_sse": 3.958663585045024e-05,
+      "target_points": 41
+    }
+  },
+  {
+    "date": "2023-11-23",
+    "points": 96,
+    "official_metric": 0.001187500000000008,
+    "endpoint_corrected_metric": 0.0012375000000000025,
+    "independent_fit": {
+      "metric": 3.487684729067812e-05,
+      "segments": [
+        [
+          0,
+          29
+        ],
+        [
+          29,
+          96
+        ]
+      ],
+      "fit_sse": 7.516277416126731e-05,
+      "target_points": 29
+    }
+  },
+  {
+    "date": "2023-11-24",
+    "points": 96,
+    "official_metric": 0.0014125000000000387,
+    "endpoint_corrected_metric": 0.0015125000000000277,
+    "independent_fit": {
+      "metric": 1.6033653846228354e-05,
+      "segments": [
+        [
+          0,
+          65
+        ],
+        [
+          65,
+          96
+        ]
+      ],
+      "fit_sse": 4.176497980725363e-05,
+      "target_points": 65
+    }
+  },
+  {
+    "date": "2023-11-25",
+    "points": 96,
+    "official_metric": 0.001887500000000042,
+    "endpoint_corrected_metric": 0.00197500000000006,
+    "independent_fit": {
+      "metric": 3.615174299382641e-05,
+      "segments": [
+        [
+          0,
+          56
+        ],
+        [
+          56,
+          96
+        ]
+      ],
+      "fit_sse": 5.6777340666758477e-05,
+      "target_points": 56
+    }
+  },
+  {
+    "date": "2023-11-26",
+    "points": 96,
+    "official_metric": 0.0005749999999999922,
+    "endpoint_corrected_metric": 0.0006625000000000103,
+    "independent_fit": {
+      "metric": 9.590909090910962e-05,
+      "segments": [
+        [
+          0,
+          11
+        ],
+        [
+          11,
+          96
+        ]
+      ],
+      "fit_sse": 2.9300363517368558e-05,
+      "target_points": 11
+    }
+  },
+  {
+    "date": "2023-11-27",
+    "points": 96,
+    "official_metric": 0.0017999999999999128,
+    "endpoint_corrected_metric": 0.001887499999999931,
+    "independent_fit": {
+      "metric": 0.0001213970588235469,
+      "segments": [
+        [
+          0,
+          16
+        ],
+        [
+          16,
+          96
+        ]
+      ],
+      "fit_sse": 3.338895697769927e-05,
+      "target_points": 16
+    }
+  },
+  {
+    "date": "2023-11-28",
+    "points": 96,
+    "official_metric": 0.00197500000000006,
+    "endpoint_corrected_metric": 0.0020125000000000837,
+    "independent_fit": {
+      "metric": 0.00011409090909089465,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 5.6774385385155966e-05,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-11-29",
+    "points": 96,
+    "official_metric": 0.024344407943519997,
+    "endpoint_corrected_metric": 0.024470049458174714,
+    "independent_fit": {
+      "metric": 0.0005917126597336143,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.0003072855902648595,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-11-30",
+    "points": 96,
+    "official_metric": 0.0018500000000000183,
+    "endpoint_corrected_metric": 0.0019000000000000128,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-12-01",
+    "points": 96,
+    "official_metric": 0.002162499999999956,
+    "endpoint_corrected_metric": 0.0022499999999999742,
+    "independent_fit": {
+      "metric": 7.733405834655409e-06,
+      "segments": [
+        [
+          0,
+          78
+        ],
+        [
+          78,
+          96
+        ]
+      ],
+      "fit_sse": 3.9914976894535335e-05,
+      "target_points": 78
+    }
+  },
+  {
+    "date": "2023-12-02",
+    "points": 96,
+    "official_metric": 0.001787499999999942,
+    "endpoint_corrected_metric": 0.0018249999999999655,
+    "independent_fit": {
+      "metric": 6.240259740263884e-05,
+      "segments": [
+        [
+          0,
+          21
+        ],
+        [
+          21,
+          96
+        ]
+      ],
+      "fit_sse": 3.536159648920483e-05,
+      "target_points": 21
+    }
+  },
+  {
+    "date": "2023-12-03",
+    "points": 96,
+    "official_metric": 0.03464705624756803,
+    "endpoint_corrected_metric": 0.034715643776924654,
+    "independent_fit": {
+      "metric": 0.0010272842804835876,
+      "segments": [
+        [
+          0,
+          30
+        ],
+        [
+          30,
+          96
+        ]
+      ],
+      "fit_sse": 0.0004153209728419801,
+      "target_points": 30
+    }
+  },
+  {
+    "date": "2023-12-04",
+    "points": 96,
+    "official_metric": 0.0006000000000000449,
+    "endpoint_corrected_metric": 0.0006500000000000394,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-12-05",
+    "points": 96,
+    "official_metric": 0.000787500000000052,
+    "endpoint_corrected_metric": 0.0008374999999999355,
+    "independent_fit": {
+      "metric": 7.36363636363535e-05,
+      "segments": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          96
+        ]
+      ],
+      "fit_sse": 1.4739628326350794e-05,
+      "target_points": 10
+    }
+  },
+  {
+    "date": "2023-12-06",
+    "points": 96,
+    "official_metric": 0.04567580233808499,
+    "endpoint_corrected_metric": 0.04671172607508861,
+    "independent_fit": {
+      "metric": 0.0014815211859786276,
+      "segments": [
+        [
+          0,
+          27
+        ],
+        [
+          27,
+          96
+        ]
+      ],
+      "fit_sse": 0.0007140794123096198,
+      "target_points": 27
+    }
+  },
+  {
+    "date": "2023-12-07",
+    "points": 96,
+    "official_metric": 0.0007749999999999702,
+    "endpoint_corrected_metric": 0.0008500000000000174,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-12-08",
+    "points": 96,
+    "official_metric": 0.036776652477554794,
+    "endpoint_corrected_metric": 0.03724074008743722,
+    "independent_fit": {
+      "metric": 0.0010767875089804262,
+      "segments": [
+        [
+          0,
+          25
+        ],
+        [
+          25,
+          96
+        ]
+      ],
+      "fit_sse": 0.00045202484395706806,
+      "target_points": 25
+    }
+  },
+  {
+    "date": "2023-12-09",
+    "points": 96,
+    "official_metric": 0.00012500000000004174,
+    "endpoint_corrected_metric": 0.00017500000000003624,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-12-10",
+    "points": 96,
+    "official_metric": 0.036207619743979846,
+    "endpoint_corrected_metric": 0.036400402488614425,
+    "independent_fit": {
+      "metric": 0.0010478297460952079,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 0.0005405907748149577,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-12-11",
+    "points": 96,
+    "official_metric": 0.00417500000000004,
+    "endpoint_corrected_metric": 0.004262500000000058,
+    "independent_fit": {
+      "metric": 6.306713270308635e-06,
+      "segments": [
+        [
+          0,
+          73
+        ],
+        [
+          73,
+          96
+        ]
+      ],
+      "fit_sse": 0.0018775096519083872,
+      "target_points": 73
+    }
+  },
+  {
+    "date": "2023-12-12",
+    "points": 96,
+    "official_metric": 0.001587499999999964,
+    "endpoint_corrected_metric": 0.001674999999999982,
+    "independent_fit": {
+      "metric": 4.896115627841701e-06,
+      "segments": [
+        [
+          0,
+          81
+        ],
+        [
+          81,
+          96
+        ]
+      ],
+      "fit_sse": 4.3508275945756904e-05,
+      "target_points": 81
+    }
+  },
+  {
+    "date": "2023-12-13",
+    "points": 96,
+    "official_metric": 0.001687499999999953,
+    "endpoint_corrected_metric": 0.001774999999999971,
+    "independent_fit": {
+      "metric": 7.526315789469233e-05,
+      "segments": [
+        [
+          0,
+          19
+        ],
+        [
+          19,
+          96
+        ]
+      ],
+      "fit_sse": 6.635331098867191e-05,
+      "target_points": 19
+    }
+  },
+  {
+    "date": "2023-12-14",
+    "points": 96,
+    "official_metric": 0.0348371881887396,
+    "endpoint_corrected_metric": 0.034848316627808684,
+    "independent_fit": {
+      "metric": 0.0008651839271577505,
+      "segments": [
+        [
+          0,
+          26
+        ],
+        [
+          26,
+          96
+        ]
+      ],
+      "fit_sse": 0.0004583317641256099,
+      "target_points": 26
+    }
+  },
+  {
+    "date": "2023-12-15",
+    "points": 96,
+    "official_metric": 0.0015499999999999403,
+    "endpoint_corrected_metric": 0.001587499999999964,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-12-16",
+    "points": 96,
+    "official_metric": 0.0016000000000000458,
+    "endpoint_corrected_metric": 0.0016375000000000695,
+    "independent_fit": {
+      "metric": 3.3069620252861333e-06,
+      "segments": [
+        [
+          0,
+          79
+        ],
+        [
+          79,
+          96
+        ]
+      ],
+      "fit_sse": 3.549516420997741e-05,
+      "target_points": 79
+    }
+  },
+  {
+    "date": "2023-12-17",
+    "points": 96,
+    "official_metric": 0.0013374999999999915,
+    "endpoint_corrected_metric": 0.001387499999999986,
+    "independent_fit": {
+      "metric": 5.928379415776814e-07,
+      "segments": [
+        [
+          0,
+          63
+        ],
+        [
+          63,
+          96
+        ]
+      ],
+      "fit_sse": 3.4790242042859724e-05,
+      "target_points": 63
+    }
+  },
+  {
+    "date": "2023-12-18",
+    "points": 96,
+    "official_metric": 0.0013125000000000497,
+    "endpoint_corrected_metric": 0.0014250000000000096,
+    "independent_fit": {
+      "metric": 8.929330768474582e-06,
+      "segments": [
+        [
+          0,
+          84
+        ],
+        [
+          84,
+          96
+        ]
+      ],
+      "fit_sse": 3.575275191447134e-05,
+      "target_points": 84
+    }
+  },
+  {
+    "date": "2023-12-19",
+    "points": 96,
+    "official_metric": 0.0014249999999998986,
+    "endpoint_corrected_metric": 0.0014999999999999458,
+    "independent_fit": {
+      "metric": 1.7113783534166635e-06,
+      "segments": [
+        [
+          0,
+          46
+        ],
+        [
+          46,
+          96
+        ]
+      ],
+      "fit_sse": 3.701997076038952e-05,
+      "target_points": 46
+    }
+  },
+  {
+    "date": "2023-12-20",
+    "points": 96,
+    "official_metric": 0.04253679794271481,
+    "endpoint_corrected_metric": 0.042608598755020544,
+    "independent_fit": {
+      "metric": 0.001025756099487619,
+      "segments": [
+        [
+          0,
+          28
+        ],
+        [
+          28,
+          96
+        ]
+      ],
+      "fit_sse": 0.0006588878552945964,
+      "target_points": 28
+    }
+  },
+  {
+    "date": "2023-12-21",
+    "points": 96,
+    "official_metric": 0.001287500000000108,
+    "endpoint_corrected_metric": 0.0013250000000000206,
+    "independent_fit": null
+  },
+  {
+    "date": "2023-12-22",
+    "points": 96,
+    "official_metric": 0.0015375000000000805,
+    "endpoint_corrected_metric": 0.0016250000000000986,
+    "independent_fit": {
+      "metric": 0.00012428571428562763,
+      "segments": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          96
+        ]
+      ],
+      "fit_sse": 4.7415584461975297e-05,
+      "target_points": 6
+    }
+  },
+  {
+    "date": "2023-12-23",
+    "points": 96,
+    "official_metric": 0.0015249999999999986,
+    "endpoint_corrected_metric": 0.001574999999999993,
+    "independent_fit": {
+      "metric": 5.349624060155939e-05,
+      "segments": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          96
+        ]
+      ],
+      "fit_sse": 3.976631315581107e-05,
+      "target_points": 20
+    }
+  },
+  {
+    "date": "2023-12-24",
+    "points": 96,
+    "official_metric": 0.001100000000000101,
+    "endpoint_corrected_metric": 0.0011500000000000954,
+    "independent_fit": {
+      "metric": 4.82456140350937e-05,
+      "segments": [
+        [
+          0,
+          19
+        ],
+        [
+          19,
+          96
+        ]
+      ],
+      "fit_sse": 4.6229666755084115e-05,
+      "target_points": 19
+    }
+  },
+  {
+    "date": "2023-12-25",
+    "points": 96,
+    "official_metric": 0.0016499999999999293,
+    "endpoint_corrected_metric": 0.001687499999999953,
+    "independent_fit": {
+      "metric": 3.4399906235801677e-06,
+      "segments": [
+        [
+          0,
+          80
+        ],
+        [
+          80,
+          96
+        ]
+      ],
+      "fit_sse": 4.23563725115087e-05,
+      "target_points": 80
+    }
+  },
+  {
+    "date": "2023-12-26",
+    "points": 96,
+    "official_metric": 0.0010750000000000481,
+    "endpoint_corrected_metric": 0.0012125000000000608,
+    "independent_fit": {
+      "metric": 7.021978021983129e-05,
+      "segments": [
+        [
+          0,
+          14
+        ],
+        [
+          14,
+          96
+        ]
+      ],
+      "fit_sse": 4.450172550792257e-05,
+      "target_points": 14
+    }
+  },
+  {
+    "date": "2023-12-27",
+    "points": 96,
+    "official_metric": 0.0013250000000000206,
+    "endpoint_corrected_metric": 0.0014125000000000387,
+    "independent_fit": {
+      "metric": 1.1240075713780756e-05,
+      "segments": [
+        [
+          0,
+          77
+        ],
+        [
+          77,
+          96
+        ]
+      ],
+      "fit_sse": 5.445210191107458e-05,
+      "target_points": 77
+    }
+  },
+  {
+    "date": "2023-12-28",
+    "points": 96,
+    "official_metric": 0.0017000000000000348,
+    "endpoint_corrected_metric": 0.0018000000000000238,
+    "independent_fit": {
+      "metric": 3.847338935574966e-05,
+      "segments": [
+        [
+          0,
+          35
+        ],
+        [
+          35,
+          96
+        ]
+      ],
+      "fit_sse": 5.827222975125997e-05,
+      "target_points": 35
+    }
+  },
+  {
+    "date": "2023-12-29",
+    "points": 96,
+    "official_metric": 0.002187500000000009,
+    "endpoint_corrected_metric": 0.002275000000000027,
+    "independent_fit": {
+      "metric": 2.388082505732847e-05,
+      "segments": [
+        [
+          0,
+          34
+        ],
+        [
+          34,
+          96
+        ]
+      ],
+      "fit_sse": 5.778785795213555e-05,
+      "target_points": 34
+    }
+  },
+  {
+    "date": "2023-12-30",
+    "points": 96,
+    "official_metric": 0.0015000000000000568,
+    "endpoint_corrected_metric": 0.0015374999999999694,
+    "independent_fit": {
+      "metric": 6.924854945965846e-07,
+      "segments": [
+        [
+          0,
+          86
+        ],
+        [
+          86,
+          96
+        ]
+      ],
+      "fit_sse": 5.251111359519099e-05,
+      "target_points": 86
+    }
+  },
+  {
+    "date": "2023-12-31",
+    "points": 96,
+    "official_metric": 0.0014374999999999805,
+    "endpoint_corrected_metric": 0.0015249999999999986,
+    "independent_fit": {
+      "metric": 1.6956521739149614e-05,
+      "segments": [
+        [
+          0,
+          24
+        ],
+        [
+          24,
+          96
+        ]
+      ],
+      "fit_sse": 4.7374327324759546e-05,
+      "target_points": 24
+    }
+  }
+]

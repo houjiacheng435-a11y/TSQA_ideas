@@ -1,0 +1,13 @@
+{
+  "version": "v019", "stage": "Composite Trend first", "cpu_only": true,
+  "official_commit": "99866c43cd7ceb91a929de745e9f49cea92962e5",
+  "dataset_revision": "81571171c5c614d01698497626bff8eb6ad8dcf4",
+  "selection": "Sort Composite Trend IDs within published score=0, 0<score<1, score=1 strata; first four from each. Freeze before reading raw series. Case-control sample, not population estimator.",
+  "ids": ["L3_T1_Composite_Trend_00005","L3_T1_Composite_Trend_00007","L3_T1_Composite_Trend_00008","L3_T1_Composite_Trend_00019","L3_T1_Composite_Trend_00001","L3_T1_Composite_Trend_00003","L3_T1_Composite_Trend_00004","L3_T1_Composite_Trend_00006","L3_T1_Composite_Trend_00002","L3_T1_Composite_Trend_00033","L3_T1_Composite_Trend_00061","L3_T1_Composite_Trend_00066"],
+  "public_input": ["question", "channel", "ts_data_path"],
+  "blocked_in_runner": ["answer", "ground_truth", "meta", "published prediction", "published score"],
+  "arms": ["exact released skill template with SAX", "full-year raw with same metric and recomputed quantile", "full-year raw with original candidate quantile frozen", "original candidates with corrected monotone endpoint", "full-year raw with corrected monotone endpoint", "independent ordered piecewise-linear least-squares segmentation"],
+  "independent_algorithm": "Fit exactly the requested number of ordered segments by dynamic programming over all contiguous nonoverlapping partitions; at least 4 points/segment; OLS SSE objective, positive slopes for rise, negative slopes for fall, unconstrained stable. Target index parsed from exact requested phrase (unique match required); target absolute slope for rise/fall, raw segment standard deviation for stable. No floor. No adjective magnitude thresholds. All days ranked; this is a diagnostic heuristic, not a benchmark oracle or a perfect pattern verifier.",
+  "causal_limits": "Only our CPU executions have SQL traces. Published prediction cannot establish original candidates or code. Full-year interventions change access and may change floor; frozen-floor arm separates these. All thresholds fixed before raw inspection; no label-derived candidates.",
+  "expansion": "Only after Composite Trend initial results; preserve all cases regardless of outcomes. No automatic expansion to full benchmark."
+}

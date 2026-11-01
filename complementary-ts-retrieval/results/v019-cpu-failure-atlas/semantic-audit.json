@@ -1,0 +1,4813 @@
+{
+  "n": 220,
+  "rank_axes": {
+    "slope": 167,
+    "std": 53
+  },
+  "label_equals_metadata_topk_count": 220,
+  "label_equals_first_five_injection_ranks_count": 220,
+  "repeated_kinds_count": 122,
+  "public_target_index_mismatch_count": 0,
+  "endpoint_unit_test": {
+    "raw": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0
+    ],
+    "smoothed": [
+      1.5,
+      1.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5,
+      5.5
+    ],
+    "diff_run_inclusive_indices": [
+      2,
+      5
+    ],
+    "released_amplitude": 3.0,
+    "amplitude_including_last_increment": 4.0,
+    "explanation": "diff[i] = sm[i+1]-sm[i]; a..b increments span sm[a]..sm[b+1]. No benchmark labels used."
+  },
+  "records": [
+    {
+      "id": "L3_T1_Composite_Trend_00001",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00002",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00003",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00004",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00005",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00006",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00007",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00008",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00009",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00010",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00011",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00012",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00013",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00014",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00015",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00016",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00017",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00018",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00019",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00020",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00021",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00022",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00023",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00024",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00025",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00026",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00027",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00028",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00029",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00030",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00031",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00032",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00033",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00034",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00035",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00036",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00037",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00038",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00039",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00040",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00041",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00042",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00043",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00044",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00045",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00046",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00047",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00048",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00049",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00050",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00051",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00052",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00053",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00054",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00055",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00056",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00057",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00058",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00059",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00060",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00061",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00062",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00063",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00064",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00065",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00066",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00067",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00068",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00069",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00070",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00071",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00072",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00073",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00074",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00075",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00076",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00077",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00078",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00079",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00080",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00081",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00082",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00083",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00084",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00085",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00086",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00087",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00088",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00089",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00090",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00091",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00092",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00093",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00094",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00095",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00096",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00097",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00098",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00099",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00100",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00101",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00102",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00103",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00104",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00105",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00106",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00107",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00108",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00109",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00110",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00111",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00112",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00113",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00114",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00115",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00116",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00117",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00118",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00119",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00120",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00121",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00122",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00123",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00124",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00125",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00126",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00127",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00128",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00129",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00130",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00131",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00132",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00133",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00134",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00135",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "stable",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00136",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00137",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00138",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00139",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00140",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00141",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00142",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00143",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00144",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00145",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00146",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00147",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00148",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00149",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00150",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00151",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00152",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00153",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00154",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00155",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00156",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00157",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00158",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00159",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00160",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00161",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00162",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00163",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00164",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00165",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00166",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00167",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "stable",
+        "stable",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00168",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00169",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00170",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00171",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00172",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00173",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00174",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00175",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00176",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00177",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00178",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00179",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00180",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00181",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "stable",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00182",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00183",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00184",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00185",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00186",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00187",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00188",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00189",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00190",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00191",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00192",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00193",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00194",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00195",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00196",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00197",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00198",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "rise",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00199",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00200",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "fall",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00201",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00202",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00203",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00204",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00205",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00206",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00207",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00208",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00209",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00210",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "fall"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00211",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00212",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "rise",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00213",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00214",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00215",
+      "rank_axis_metadata": "std",
+      "public_target_kind": "stable",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "stable",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "most",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00216",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "stable",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00217",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 1,
+      "metadata_target_index": 1,
+      "public_kinds": [
+        "rise",
+        "fall",
+        "rise",
+        "fall"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00218",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 3,
+      "metadata_target_index": 3,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "rise",
+        "rise"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00219",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "fall",
+      "public_target_index": 0,
+      "metadata_target_index": 0,
+      "public_kinds": [
+        "fall",
+        "stable"
+      ],
+      "public_superlative": "slowest",
+      "metadata_direction": "ASC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        1.5,
+        3.0
+      ],
+      "repeated_kinds": false
+    },
+    {
+      "id": "L3_T1_Composite_Trend_00220",
+      "rank_axis_metadata": "slope",
+      "public_target_kind": "rise",
+      "public_target_index": 2,
+      "metadata_target_index": 2,
+      "public_kinds": [
+        "fall",
+        "stable",
+        "rise",
+        "stable"
+      ],
+      "public_superlative": "fastest",
+      "metadata_direction": "DESC",
+      "label_equals_metadata_topk": true,
+      "label_equals_first_five_injection_ranks": true,
+      "injection_count": 50,
+      "injection_intensities_first_last": [
+        3.0,
+        1.5
+      ],
+      "repeated_kinds": true
+    }
+  ]
+}

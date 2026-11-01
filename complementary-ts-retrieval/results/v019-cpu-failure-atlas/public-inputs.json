@@ -1,0 +1,74 @@
+[
+  {
+    "id": "L3_T1_Composite_Trend_00005",
+    "question": "Among days in channel 124 during 2021 that exhibit the trend pattern 'rapid fall, then steady stable, then fall', identify the top-5 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "124",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00005.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00007",
+    "question": "Among days in channel 147 during 2022 that exhibit the trend pattern 'steady stable, then fluctuating stable', identify the top-5 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "147",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00007.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00008",
+    "question": "Among days in channel 151 during 2023 that exhibit the trend pattern 'slow rise, then rapid fall, then slow rise', identify the top-5 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "151",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00008.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00019",
+    "question": "Among days in channel 312 during 2023 that exhibit the trend pattern 'slow fall, then steady stable', identify the top-5 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "312",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00019.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00001",
+    "question": "Among days in channel 67 during 2023 that exhibit the trend pattern 'steady stable, then rapid fall, then slow fall', identify the top-5 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "67",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00001.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00003",
+    "question": "Among days in channel 99 during 2020 that exhibit the trend pattern 'slow rise, then rapid rise, then fluctuating stable', identify the top-5 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "99",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00003.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00004",
+    "question": "Among days in channel 123 during 2021 that exhibit the trend pattern 'rapid rise, then fall', identify the top-5 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "123",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00004.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00006",
+    "question": "Among days in channel 146 during 2021 that exhibit the trend pattern 'slow fall, then fall, then rapid fall, then rapid rise', identify the top-5 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "146",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00006.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00002",
+    "question": "Among days in channel 71 during 2022 that exhibit the trend pattern 'rapid fall, then rapid rise, then steady stable', identify the top-5 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "71",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00002.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00033",
+    "question": "Among days in channel 647 during 2019 that exhibit the trend pattern 'rapid fall, then rapid rise', identify the top-5 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "647",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00033.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00061",
+    "question": "Among days in channel 146 during 2021 that exhibit the trend pattern 'steady stable, then rapid rise', identify the top-5 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "146",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00061.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_00066",
+    "question": "Among days in channel 166 during 2020 that exhibit the trend pattern 'rapid fall, then slow rise', identify the top-5 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "channel": "166",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_00066.csv"
+  }
+]

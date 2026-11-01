@@ -1,0 +1,156 @@
+[
+  {
+    "id": "L2_T1_Shape_Identification_00017",
+    "skill": "sonar_ts/skills/library/shape-identification.md",
+    "parameters": {
+      "CH": "237",
+      "SHAPE": "depression",
+      "SEARCH_START": "2020-07-30 23:30:00",
+      "SEARCH_END": "2020-08-09 22:30:00"
+    },
+    "arms": {
+      "released_template": {
+        "prediction": [
+          "2020-08-05 11:45:00",
+          "2020-08-07 00:15:00"
+        ],
+        "raw_points": 864,
+        "raw_start": "2020-07-31 00:00:00",
+        "raw_end": "2020-08-08 23:45:00",
+        "cpu_seconds": 0.05374704301357269,
+        "sql": [
+          "SELECT window_start FROM daily_feature WHERE channel_id = '237' AND window_start >= '2020-07-30 00:00:00' AND window_start <= '2020-08-09 22:30:00' AND sax REGEXP '[ab]{2,}'",
+          "SELECT timestamp, \"237\" FROM raw_data WHERE timestamp BETWEEN '2020-07-31 00:00:00' AND '2020-08-08 23:59:59' ORDER BY timestamp"
+        ],
+        "candidate_days": [
+          "2020-07-31",
+          "2020-08-01",
+          "2020-08-05",
+          "2020-08-07"
+        ],
+        "last_resort_fallback": null
+      },
+      "full_public_window": {
+        "prediction": [
+          "2020-08-07 16:30:00",
+          "2020-08-09 22:30:00"
+        ],
+        "raw_points": 957,
+        "raw_start": "2020-07-30 23:30:00",
+        "raw_end": "2020-08-09 22:30:00",
+        "cpu_seconds": 0.00506916269659996,
+        "sql": [
+          "SELECT window_start FROM daily_feature WHERE channel_id = '237' AND window_start >= '2020-07-30 00:00:00' AND window_start <= '2020-08-09 22:30:00' AND sax REGEXP '[ab]{2,}'",
+          "SELECT timestamp, \"237\" FROM raw_data WHERE timestamp BETWEEN '2020-07-30 23:30:00' AND '2020-08-09 22:30:00' ORDER BY timestamp"
+        ],
+        "candidate_days": [],
+        "last_resort_fallback": null
+      }
+    }
+  },
+  {
+    "id": "L2_T1_Shape_Identification_00001",
+    "skill": "sonar_ts/skills/library/shape-identification.md",
+    "parameters": {
+      "CH": "67",
+      "SHAPE": "step_up",
+      "SEARCH_START": "2019-08-19 10:00:00",
+      "SEARCH_END": "2019-08-26 17:45:00"
+    },
+    "arms": {
+      "released_template": {
+        "prediction": [
+          "2019-08-19 20:30:00",
+          "2019-08-21 09:30:00"
+        ],
+        "raw_points": 704,
+        "raw_start": "2019-08-19 10:00:00",
+        "raw_end": "2019-08-26 17:45:00",
+        "cpu_seconds": 0.004336223006248474,
+        "sql": [
+          "SELECT window_start FROM daily_feature WHERE channel_id = '67' AND window_start >= '2019-08-19 00:00:00' AND window_start <= '2019-08-26 17:45:00' AND sax REGEXP '[a-c].*[c-e]'",
+          "SELECT timestamp, \"67\" FROM raw_data WHERE timestamp BETWEEN '2019-08-19 10:00:00' AND '2019-08-26 17:45:00' ORDER BY timestamp"
+        ],
+        "candidate_days": [
+          "2019-08-19",
+          "2019-08-20",
+          "2019-08-21",
+          "2019-08-22",
+          "2019-08-23",
+          "2019-08-24",
+          "2019-08-25",
+          "2019-08-26"
+        ],
+        "last_resort_fallback": null
+      },
+      "full_public_window": {
+        "prediction": [
+          "2019-08-19 20:30:00",
+          "2019-08-21 09:30:00"
+        ],
+        "raw_points": 704,
+        "raw_start": "2019-08-19 10:00:00",
+        "raw_end": "2019-08-26 17:45:00",
+        "cpu_seconds": 0.0647164098918438,
+        "sql": [
+          "SELECT window_start FROM daily_feature WHERE channel_id = '67' AND window_start >= '2019-08-19 00:00:00' AND window_start <= '2019-08-26 17:45:00' AND sax REGEXP '[a-c].*[c-e]'",
+          "SELECT timestamp, \"67\" FROM raw_data WHERE timestamp BETWEEN '2019-08-19 10:00:00' AND '2019-08-26 17:45:00' ORDER BY timestamp"
+        ],
+        "candidate_days": [],
+        "last_resort_fallback": null
+      }
+    }
+  },
+  {
+    "id": "L3_T3_Causal_Anomaly_00386",
+    "skill": "sonar_ts/skills/library/causal-anomaly-correlation.md",
+    "parameters": {
+      "UP": "67_up_2022",
+      "DOWN": "67_down_2022",
+      "YEAR": 2022
+    },
+    "arms": {
+      "released_template": {
+        "prediction": [
+          "2022-02-18 00:00:00",
+          "2022-02-20 19:30:00"
+        ],
+        "raw_points": 35040,
+        "raw_start": "2022-01-01 00:00:00",
+        "raw_end": "2022-12-31 23:45:00",
+        "cpu_seconds": 0.31042736396193504,
+        "sql": [
+          "SELECT timestamp, \"67_up_2022\", \"67_down_2022\" FROM raw_data WHERE timestamp >= '2022-01-01' AND timestamp < '2023-01-01' ORDER BY timestamp"
+        ],
+        "candidate_days": [],
+        "last_resort_fallback": false
+      }
+    }
+  },
+  {
+    "id": "L3_T3_Causal_Anomaly_00387",
+    "skill": "sonar_ts/skills/library/causal-anomaly-correlation.md",
+    "parameters": {
+      "UP": "71_up_2019",
+      "DOWN": "71_down_2019",
+      "YEAR": 2019
+    },
+    "arms": {
+      "released_template": {
+        "prediction": [
+          "2019-04-13 05:00:00",
+          "2019-04-16 12:45:00"
+        ],
+        "raw_points": 35040,
+        "raw_start": "2019-01-01 00:00:00",
+        "raw_end": "2019-12-31 23:45:00",
+        "cpu_seconds": 0.2130495049059391,
+        "sql": [
+          "SELECT timestamp, \"71_up_2019\", \"71_down_2019\" FROM raw_data WHERE timestamp >= '2019-01-01' AND timestamp < '2020-01-01' ORDER BY timestamp"
+        ],
+        "candidate_days": [],
+        "last_resort_fallback": false
+      }
+    }
+  }
+]

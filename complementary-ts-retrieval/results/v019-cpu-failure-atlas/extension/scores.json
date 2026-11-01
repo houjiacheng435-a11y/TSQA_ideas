@@ -1,0 +1,100 @@
+[
+  {
+    "id": "L2_T1_Shape_Identification_00017",
+    "published_prediction": "[2020-08-07 16:30:00, 2020-08-09 22:30:00]",
+    "ground_truth": [
+      "2020-07-31 12:30:00",
+      "2020-08-02 00:00:00"
+    ],
+    "published_iou": 0.0,
+    "cpu_arms": {
+      "released_template": {
+        "prediction": [
+          "2020-08-05 11:45:00",
+          "2020-08-07 00:15:00"
+        ],
+        "iou": 0.0,
+        "raw_points": 864,
+        "last_resort_fallback": null
+      },
+      "full_public_window": {
+        "prediction": [
+          "2020-08-07 16:30:00",
+          "2020-08-09 22:30:00"
+        ],
+        "iou": 0.0,
+        "raw_points": 957,
+        "last_resort_fallback": null
+      }
+    }
+  },
+  {
+    "id": "L2_T1_Shape_Identification_00001",
+    "published_prediction": "[2019-08-19 18:45:00, 2019-08-21 11:45:00]",
+    "ground_truth": [
+      "2019-08-20 11:00:00",
+      "2019-08-21 13:00:00"
+    ],
+    "published_iou": 0.5857988165680473,
+    "cpu_arms": {
+      "released_template": {
+        "prediction": [
+          "2019-08-19 20:30:00",
+          "2019-08-21 09:30:00"
+        ],
+        "iou": 0.5555555555555556,
+        "raw_points": 704,
+        "last_resort_fallback": null
+      },
+      "full_public_window": {
+        "prediction": [
+          "2019-08-19 20:30:00",
+          "2019-08-21 09:30:00"
+        ],
+        "iou": 0.5555555555555556,
+        "raw_points": 704,
+        "last_resort_fallback": null
+      }
+    }
+  },
+  {
+    "id": "L3_T3_Causal_Anomaly_00386",
+    "published_prediction": "[2022-07-01 12:00:00, 2022-07-06 12:00:00]",
+    "ground_truth": [
+      "2022-02-17 21:00:00",
+      "2022-02-20 22:15:00"
+    ],
+    "published_iou": 0.0,
+    "cpu_arms": {
+      "released_template": {
+        "prediction": [
+          "2022-02-18 00:00:00",
+          "2022-02-20 19:30:00"
+        ],
+        "iou": 0.9215017064846417,
+        "raw_points": 35040,
+        "last_resort_fallback": false
+      }
+    }
+  },
+  {
+    "id": "L3_T3_Causal_Anomaly_00387",
+    "published_prediction": "[2019-04-13 05:00:00, 2019-04-16 12:45:00]",
+    "ground_truth": [
+      "2019-04-13 05:30:00",
+      "2019-04-22 18:45:00"
+    ],
+    "published_iou": 0.34494015233949943,
+    "cpu_arms": {
+      "released_template": {
+        "prediction": [
+          "2019-04-13 05:00:00",
+          "2019-04-16 12:45:00"
+        ],
+        "iou": 0.34494015233949943,
+        "raw_points": 35040,
+        "last_resort_fallback": false
+      }
+    }
+  }
+]

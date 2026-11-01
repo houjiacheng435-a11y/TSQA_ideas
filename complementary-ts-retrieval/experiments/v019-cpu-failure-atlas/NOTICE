@@ -1,0 +1,8 @@
+Sonar-TS official template reconstruction
+Source: https://github.com/Atlamtiz/Sonar-TS
+Commits: 99866c43cd7ceb91a929de745e9f49cea92962e5 and f2d61852498f1e406effc9d2696c512d2b3a2180
+Upstream license: Apache License 2.0 (SONARTS-LICENSE).
+Generated executed-code files retain upstream template content. Changes: public
+question parameter substitution, optional diagnostic intervention/instrumentation
+explicitly described in the protocol and source comments. These are CPU
+reconstructions, not recovered official model execution traces.

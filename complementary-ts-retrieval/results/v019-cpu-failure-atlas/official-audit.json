@@ -1,0 +1,215 @@
+{
+  "commit": "99866c43cd7ceb91a929de745e9f49cea92962e5",
+  "protocol_sha256": "df8b5a9aef2d99ecf3398d03904e85573bf0cf8a921b053fac48fabc7a070e74",
+  "sources": [
+    {
+      "path": "output/per_task.json",
+      "sha256": "423cbc56dbaf1e0c450ac28bc0abd5e7d235423aa1846b80b6a1111e8738d05d",
+      "git_blob": "cd6e86dbd121e23513377837435f864e87d5d5a5",
+      "last_commit": "f2d61852498f1e406effc9d2696c512d2b3a2180 2026-05-27T19:13:56+10:00"
+    },
+    {
+      "path": "output/summary.json",
+      "sha256": "f7c054abf0dd087ca19143c57565b451b98df66fa94a58e8ce5769af6a967ee1",
+      "git_blob": "9dbaf16b896b78215096dd026678f11555d29a6e",
+      "last_commit": "f2d61852498f1e406effc9d2696c512d2b3a2180 2026-05-27T19:13:56+10:00"
+    },
+    {
+      "path": "output/predict.json",
+      "sha256": "5f6cbf798e2a5c532cfb1b34228823c93ca3ab7fe8fb7816875da6432f4b7ee7",
+      "git_blob": "d42805060e32beba9a23ac476dcfb25ad7481060",
+      "last_commit": "f2d61852498f1e406effc9d2696c512d2b3a2180 2026-05-27T19:13:56+10:00"
+    },
+    {
+      "path": "nlqtsbench/tasks.json",
+      "sha256": "8a9604571854efe08d74cd6dd8ccbd686a06c6f412938d4d7e3b0e3333cc788e",
+      "git_blob": "74243da9c572d7db3fac3146ca79d595822b821f",
+      "last_commit": "f2d61852498f1e406effc9d2696c512d2b3a2180 2026-05-27T19:13:56+10:00"
+    },
+    {
+      "path": "sonar_ts/evaluator.py",
+      "sha256": "e0c1ec6cf727bf9b0ada7b233376c95e48449907fe0721353fff254661232a87",
+      "git_blob": "9a2063a45399bce95e238eaf95dc202924765b56",
+      "last_commit": "f2d61852498f1e406effc9d2696c512d2b3a2180 2026-05-27T19:13:56+10:00"
+    },
+    {
+      "path": "sonar_ts/offline.py",
+      "sha256": "b55db7fc93c7abba0296f54cdc3dde141d3cb306fdb494a18bbfe06dce9d9b4a",
+      "git_blob": "e8ac2b9fcc5d47aeef7259de09e616688ff66dc1",
+      "last_commit": "f2d61852498f1e406effc9d2696c512d2b3a2180 2026-05-27T19:13:56+10:00"
+    },
+    {
+      "path": "configs/offline.yaml",
+      "sha256": "1b36d2a9c3030aaf27296fe7c70e2f793c8ed94b35e102ed59ff5cd5d0ebb24c",
+      "git_blob": "1633f38f166ba3eb0d762ce7fa1d35faf1541592",
+      "last_commit": "f2d61852498f1e406effc9d2696c512d2b3a2180 2026-05-27T19:13:56+10:00"
+    },
+    {
+      "path": "sonar_ts/skills/library/composite-trend-topk.md",
+      "sha256": "d526e7f374450eea45a4fd08b02d71ce11574a22be5f365b131f991b4cef341c",
+      "git_blob": "5ef1fb3873f55477aaf79236bb222754b4a13c61",
+      "last_commit": "575058c8c9fd5c40a664687732207780ce5f2638 2026-06-02T00:44:46+10:00"
+    }
+  ],
+  "n_rescored": 1153,
+  "score_mismatches": [],
+  "ground_truth_score_mismatches": [],
+  "index_or_prediction_mismatches": [],
+  "distribution": {
+    "Causal Anomaly": {
+      "n": 95,
+      "metric": "iou",
+      "mean": 0.4230422589201093,
+      "median": 0.3903448275862069,
+      "zero": 26,
+      "partial": 69,
+      "full": 0,
+      "quartiles": [
+        0.0,
+        0.3903448275862069,
+        0.8676271420674406
+      ]
+    },
+    "Composite Trend": {
+      "n": 220,
+      "metric": "set_f1",
+      "mean": 0.3263636363636364,
+      "median": 0.20000000000000004,
+      "zero": 85,
+      "partial": 115,
+      "full": 20,
+      "quartiles": [
+        0.0,
+        0.20000000000000004,
+        0.6
+      ]
+    },
+    "Contextual Anomaly": {
+      "n": 104,
+      "metric": "iou",
+      "mean": 0.6966643360618557,
+      "median": 0.73950505291868,
+      "zero": 6,
+      "partial": 98,
+      "full": 0,
+      "quartiles": [
+        0.47469507134685707,
+        0.73950505291868,
+        0.9674154392006167
+      ]
+    },
+    "Global Aggregation": {
+      "n": 72,
+      "metric": "rel_acc",
+      "mean": 0.9994857150731387,
+      "median": 1.0,
+      "zero": 0,
+      "partial": 5,
+      "full": 67,
+      "quartiles": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Insight Synthesis": {
+      "n": 100,
+      "metric": "report",
+      "mean": 0.7358211391473491,
+      "median": 0.7445500723172958,
+      "zero": 0,
+      "partial": 100,
+      "full": 0,
+      "quartiles": [
+        0.6377406900809358,
+        0.7445500723172958,
+        0.8395514504302378
+      ]
+    },
+    "Interval Discovery": {
+      "n": 72,
+      "metric": "iou",
+      "mean": 0.8991060765266572,
+      "median": 1.0,
+      "zero": 6,
+      "partial": 17,
+      "full": 49,
+      "quartiles": [
+        0.9926626392909605,
+        1.0,
+        1.0
+      ]
+    },
+    "Periodicity Detection": {
+      "n": 120,
+      "metric": "rel_acc",
+      "mean": 0.976883558202731,
+      "median": 0.9870129870131557,
+      "zero": 0,
+      "partial": 82,
+      "full": 38,
+      "quartiles": [
+        0.9756097560978584,
+        0.9870129870131557,
+        1.0
+      ]
+    },
+    "Shape Identification": {
+      "n": 129,
+      "metric": "iou",
+      "mean": 0.32759690296573185,
+      "median": 0.25263157894736843,
+      "zero": 24,
+      "partial": 105,
+      "full": 0,
+      "quartiles": [
+        0.14782608695652175,
+        0.25263157894736843,
+        0.5648148148148148
+      ]
+    },
+    "Sliding Window": {
+      "n": 58,
+      "metric": "iou",
+      "mean": 0.9102147315336924,
+      "median": 1.0,
+      "zero": 5,
+      "partial": 2,
+      "full": 51,
+      "quartiles": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Subsequence Matching": {
+      "n": 111,
+      "metric": "iou",
+      "mean": 0.961881881881882,
+      "median": 1.0,
+      "zero": 4,
+      "partial": 5,
+      "full": 102,
+      "quartiles": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Temporal Localization": {
+      "n": 72,
+      "metric": "hit",
+      "mean": 0.9861111111111112,
+      "median": 1.0,
+      "zero": 1,
+      "partial": 0,
+      "full": 71,
+      "quartiles": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "runtime_config_for_published_predictions": "Not established by these result files; no per-case SQL or generated Python traces available in audited artifacts."
+}

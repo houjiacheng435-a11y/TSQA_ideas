@@ -1,0 +1,582 @@
+[
+  {
+    "path": "experiments/v019-cpu-failure-atlas/NOTICE",
+    "bytes": 536,
+    "sha256": "479aa72645af91c9f3fffce358b38710b2f1c86e41b9e069ef51f59e23d13da3"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/REPRODUCE.md",
+    "bytes": 5704,
+    "sha256": "f987d9300ae8dfcec9ce84b8946ff2847bc863835310c6ad28e43c3e28a10a9f"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/SONARTS-LICENSE",
+    "bytes": 11342,
+    "sha256": "707fcd9f0b3d086f0eb5bc16da898020855f7e8c163eb30bfa65ce2da2267213"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/audit_semantics.py",
+    "bytes": 2472,
+    "sha256": "b23d0fc716a52a232359e344c8bf870ae777641491a628994758d5065f7c3f4c"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/extend.py",
+    "bytes": 4298,
+    "sha256": "582bfafb6b662cdcc759cce481926cf52e3c8d08e5cd7ea63dcd016044363bea"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/extension_protocol.json",
+    "bytes": 1037,
+    "sha256": "e3d536dbbf4076dfe8cf6298e612b9663f0e4d20bc87124f31416ce056b3b870"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/illustrate.py",
+    "bytes": 1855,
+    "sha256": "08576060d104592511880910d7b6f7cd59997a1551c5ad771c78944742dc69b2"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/legacy_interventions.py",
+    "bytes": 3174,
+    "sha256": "593912f28684154d8214c7d084552dfdbf5b20bbed38d47a29547bd4e9ce477a"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/protocol.json",
+    "bytes": 2299,
+    "sha256": "df8b5a9aef2d99ecf3398d03904e85573bf0cf8a921b053fac48fabc7a070e74"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/raw-file-catalog.json",
+    "bytes": 2551,
+    "sha256": "84eb86954b4cd34aee0db9a613e1ab193e541c93198cce5f08f30252250c4d4b"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/run.py",
+    "bytes": 15104,
+    "sha256": "0c51a1cb26e4042a5591f50eb81533f950df3aaafda6009aef0d0927bdcc1ee8"
+  },
+  {
+    "path": "experiments/v019-cpu-failure-atlas/version_check.py",
+    "bytes": 2707,
+    "sha256": "a63a15a593a455c02d7011e1d24f6a140eb850bcae1bc800c5d3d4be2521acc0"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00001.json",
+    "bytes": 3695,
+    "sha256": "fbecd9fb3c4cb7cc2f77caaf3a33e84092a67cc4900cf00d17fd2f565dd85670"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00002.json",
+    "bytes": 5366,
+    "sha256": "71147f56d580877f71a4f54451e99bd4e79aa584dc9572b0d182caa5f3659978"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00003.json",
+    "bytes": 2234,
+    "sha256": "531eb7c43274a8a4469af2cf2836637d01d3c67bb489b43d631d2f503a0c2377"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00004.json",
+    "bytes": 4830,
+    "sha256": "fd2a5e3b121c23fca6bf90304c5118883db375af1b29743d578793879e38f238"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00005.json",
+    "bytes": 2835,
+    "sha256": "45d0c093b5e9239d7cf3c1c76cb211bff2feb5baf0e536853bd434ff58cf71ad"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00006.json",
+    "bytes": 14837,
+    "sha256": "7568555b6c7d5ba330811f094075bd35bfb09bfdf4ed283d0c10b8f519c3069e"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00007.json",
+    "bytes": 21362,
+    "sha256": "8d40d9340aa54a4f28d33546e59b5d8047bdd69885f25e029c4ded7041808e2f"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00008.json",
+    "bytes": 6210,
+    "sha256": "c62d9992e6febbb42fa11b419eff5ccc5fada7ea6ef237f2ab7d4226405aaf27"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00019.json",
+    "bytes": 16197,
+    "sha256": "dad5d8bbbea09daf0eda65c4d76d29c40bf1fe8464e7c669ccc12f4b6ae410eb"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00033.json",
+    "bytes": 7965,
+    "sha256": "aa6d0e279dae7befb64f082e6c4790fd88c106d2ec8989949b52f9dade1148f2"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00061.json",
+    "bytes": 10637,
+    "sha256": "67b6fc8f19bac862bb78b6c5997e8c8998593c2fc18bc8e2766eca5fc4e2e4a1"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cases/L3_T1_Composite_Trend_00066.json",
+    "bytes": 5037,
+    "sha256": "46b4ebda5be34784a40f377b73590709c86ecc39c45fe3bba652dd0758a6ef69"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/cpu-results.json",
+    "bytes": 112118,
+    "sha256": "c20bb8e75406dcb0ab1c14567de8ee6c1982e897b10acf6fcf304d833f919e56"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/ct00007-measured-interval.png",
+    "bytes": 77789,
+    "sha256": "b6e17eac18ef7f0bc2b6face090e359d4bc394cc0c5539d21b92072dc48e1f12"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00001.csv",
+    "bytes": 61586,
+    "sha256": "7b57da5f428478c4bc35c7964d6103ece8a16b17a90dea7870951c5d64115686"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00002.csv",
+    "bytes": 61428,
+    "sha256": "a27ccdbfb04c57dde6534bd7e2e308cc9e283ccd3a73bd994d081e24afbe4bcf"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00003.csv",
+    "bytes": 62813,
+    "sha256": "f492fda94d0ce27bb36c0258b00f543b09294f040888d08b734a118be1b2fbfb"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00004.csv",
+    "bytes": 61875,
+    "sha256": "a16e5ce4e1ec4f2cbe35a7e39f509588c65bc747b50cfa85cfec52b41ce9b481"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00005.csv",
+    "bytes": 62873,
+    "sha256": "493ebf2719911bbfaa8a3a5909d1f6a5cd57905f1a8db52dcf9a9f61e9855dc7"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00006.csv",
+    "bytes": 62925,
+    "sha256": "c16b9be7b36304359fe78cf2dac5d1f0155aad8ea5190ef5fad25ba87afa203c"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00007.csv",
+    "bytes": 63323,
+    "sha256": "729d8811efd12a7b298bbbfc0a01f486c9075798a952857bfd2e43d410ce71c6"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00008.csv",
+    "bytes": 62937,
+    "sha256": "7be0fcce1173fc238d0812baba4fc586751966998397efde2bd41246e978e101"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00019.csv",
+    "bytes": 63340,
+    "sha256": "e84e57dabbb31bfa796a74afe9af0556a2357f27d0eeaa5cb7eb66ca0ac85583"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00033.csv",
+    "bytes": 62535,
+    "sha256": "d9f0987814fc81036d86d462356769c4fd3dfeb2aeab6c516085c31e4cf1fbad"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00061.csv",
+    "bytes": 62914,
+    "sha256": "15ca68dfab1402e5970c3886f9e5f1734df684c0e5e1e4e34f2c6a8293b7f6e6"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/daily-features/L3_T1_Composite_Trend_00066.csv",
+    "bytes": 60845,
+    "sha256": "c69f6f1fa64cc43d35577cf0b5d4ff1c626df2d00b56332c1333ac630a4b353e"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00001.json",
+    "bytes": 157951,
+    "sha256": "c89a46c84a1881ac294fcee74cef7f4e4a68055ca3ddc61696dbd706463c8438"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00002.json",
+    "bytes": 153305,
+    "sha256": "f15dada4e9a30950548a1c03c36ad7adabf22a0ea8e970b1aba626cde045f1e6"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00003.json",
+    "bytes": 134563,
+    "sha256": "7732d528192e92a496c90af2dc5e726febd562e82128cf741918ece4de735893"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00004.json",
+    "bytes": 106879,
+    "sha256": "b0ac9631eccfd5585bc8da5099d3a040432c2c800d4a65e03ce9ebf6e43b22ea"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00005.json",
+    "bytes": 129979,
+    "sha256": "56b3ac110701edb2912b2b688bb0ec547f56d9ad82a7386d9f4565872ee415e5"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00006.json",
+    "bytes": 131333,
+    "sha256": "bf74831c2da247210d33fa9aca10a126912020b856919f8e051f3e9195d972d0"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00007.json",
+    "bytes": 140110,
+    "sha256": "ab987df0f9bff50d31bc499a8d8efd9d38b5ee3489dfdbaa9fd697abb8198e73"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00008.json",
+    "bytes": 146115,
+    "sha256": "b0c7b8f17cab73b36f76941857d245d121775d9d2cb3634e658354aef8f32a28"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00019.json",
+    "bytes": 137239,
+    "sha256": "9c298cef52c75d0d9f17bc6f414d77363ea258f8ab6a33e742c1c9d01a018e24"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00033.json",
+    "bytes": 127391,
+    "sha256": "763723c7e77f7d55cde0d2e45a2ef262b1255422f21c5f04f1d6c3993aa535d8"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00061.json",
+    "bytes": 132088,
+    "sha256": "1c796247db4062645357f06381740d98922eb0dc89d9ad0f6cca0abe8e24edf4"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/day-metrics/L3_T1_Composite_Trend_00066.json",
+    "bytes": 103712,
+    "sha256": "bcfac5d15527c99fc3e3813bfc1c747dee632ab7c42b14220e96e94969994f7f"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/environment.json",
+    "bytes": 700,
+    "sha256": "92e66735b79438a3936cbe3be003f24485ab4840b70f5b664321babe44d330b1"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/evaluation-only.json",
+    "bytes": 3749,
+    "sha256": "aeb53c6e6301ade13056581a0c2063b09e84cdc0424146952d05bb2ba7bd6922"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00001.py",
+    "bytes": 4059,
+    "sha256": "a322ae9837c629d30bc9b5915969d058f662ec3b64fcf021baac1c7c0df789b8"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00002.py",
+    "bytes": 4060,
+    "sha256": "e81c463b54944c4ff6e76624053b20c9ae1ff08174b603a4e762370a61344559"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00003.py",
+    "bytes": 4065,
+    "sha256": "c9adef387c7f1e54a5f49ce5217df98051046007a08c768123a6bea1a7f5bcee"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00004.py",
+    "bytes": 4051,
+    "sha256": "862c0bff52ec562ea0d1a3721befce77b5eacd4e48a58f146554ec7bcd4f826f"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00005.py",
+    "bytes": 4061,
+    "sha256": "a5d419e61123ded3337409f97bcd49a29bd213eb38d6ee1dd0236a26b299635a"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00006.py",
+    "bytes": 4067,
+    "sha256": "f074ed9b131ca43ab927212581b52a58592b3a6c5ac0be0f55c6b9bf0a5631a0"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00007.py",
+    "bytes": 4060,
+    "sha256": "c1077cfaee528789621619bfd9d935651a026403a56b1cd82950113b25336a91"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00008.py",
+    "bytes": 4059,
+    "sha256": "e4a580d535f0558139a108770ad02e1ecf75140ef0ed8fa248a52fd31505bc7e"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00019.py",
+    "bytes": 4052,
+    "sha256": "aab5c18dcce0c4e04025700d6807841d8575578e5ceb805d672c2e91352299f8"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00033.py",
+    "bytes": 4051,
+    "sha256": "c43643bd1d1e6710e07d089e1986f0386af726552aa130f1b4d4df4694fd4abc"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00061.py",
+    "bytes": 4053,
+    "sha256": "76b32623a408a72f9b1d450fadc77d5f1d0237204f2200571aea9d0af1f957dc"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code/L3_T1_Composite_Trend_00066.py",
+    "bytes": 4051,
+    "sha256": "2ab8c8db949c21beabda0495f89f7c0d9d3bad4f384ed597ffcc8440166408db"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00001.py",
+    "bytes": 4223,
+    "sha256": "3955457c34782066b1766e986d3332e31bce0e1472998e88ddd88049f82aaba5"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00002.py",
+    "bytes": 4224,
+    "sha256": "dd9468f99c7ac24a7f94170e9d00b21bf9729a8b66d874c62513ee351424a617"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00003.py",
+    "bytes": 4228,
+    "sha256": "06a39bce28426958b0b36d7d6e5ae0c76c9bd55dd5da773fe6cc90d29c0154d4"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00004.py",
+    "bytes": 4199,
+    "sha256": "988ebfba8d68c44bd4f8a605261172b904f4fa15276e35eb5661accec6d8070f"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00005.py",
+    "bytes": 4219,
+    "sha256": "a329f80df64f5270914af0d78358c44196f2b7bcd7b4a467704f49d813989056"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00006.py",
+    "bytes": 4232,
+    "sha256": "acca162411e26a4d8f6c57cf5a2c4c27a1867d149d827dcf3b2cf9a96343530a"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00007.py",
+    "bytes": 4216,
+    "sha256": "24ff8eaa7754f278d856d9dd3f0c276fbc312b71331e73859dca14be9fca6370"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00008.py",
+    "bytes": 4220,
+    "sha256": "c83a9f4df70a2be8449e11fd15335b72c41cb8a3da1e7b7a65d083805d6c3501"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00019.py",
+    "bytes": 4207,
+    "sha256": "74295d672bdf20f8bdf79f4eff39b113ee4574809e0ca59276d9c55a28b622a6"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00033.py",
+    "bytes": 4205,
+    "sha256": "602b7ad1919e8c2eb5152b61ebc28450f06e20208f98ef99a49ac87b7a2cf8f2"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00061.py",
+    "bytes": 4208,
+    "sha256": "f9c80150935e51817f9efe2321ed602c1f1b9305dec23266d67873c48061ccd9"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/executed-code-legacy/L3_T1_Composite_Trend_00066.py",
+    "bytes": 4204,
+    "sha256": "c791c1cc5bd4e278a9e0fd5cb806e2b9371fa8f64274d127f4db493d449dc5a4"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/cpu-results.json",
+    "bytes": 5368,
+    "sha256": "78495c150576d5ce1e3605b32ea25a7bac16caba85ecc6ee48a3397c912a9c3f"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/evaluation-only.json",
+    "bytes": 551,
+    "sha256": "7bdd5b5ab385636f3ca01ad938d5b4ea67a3fab57949bdf05739f985c7a33768"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/executed-code/L2_T1_Shape_Identification_00001-full_public_window.py",
+    "bytes": 3477,
+    "sha256": "2ebdb980683cd86df2cebf732af1cef6f6eb5a442f3ac86e2bf0001fb0d552d8"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/executed-code/L2_T1_Shape_Identification_00001-released_template.py",
+    "bytes": 3416,
+    "sha256": "365c979b7ccebcaff473d42240252a0ecf14c2cfa19eac0365ff406de1177235"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/executed-code/L2_T1_Shape_Identification_00017-full_public_window.py",
+    "bytes": 3481,
+    "sha256": "59a4c25f3f8f40c0d494dd4cd173afd55dc1172eaab76ee25af5e0690a30958e"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/executed-code/L2_T1_Shape_Identification_00017-released_template.py",
+    "bytes": 3420,
+    "sha256": "6e7b78e963339c22993595cdda9bdcda8a166923d2007f045eb30bf71c3fa103"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/executed-code/L3_T3_Causal_Anomaly_00386-released_template.py",
+    "bytes": 3848,
+    "sha256": "69cf3f03e6ad01cd2e902f0d1e591dd3bda225889e40067f5fe0289755df57bc"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/executed-code/L3_T3_Causal_Anomaly_00387-released_template.py",
+    "bytes": 3848,
+    "sha256": "8e34742aacb6d83acf955a39abe63435b8b66c647885829be35ca239cbe49888"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/public-inputs.json",
+    "bytes": 1558,
+    "sha256": "d4e4582599805ce365075d4f9ba0a596f28fce08e8776a97052f24dd2e9c2eb3"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/raw-manifest.json",
+    "bytes": 1611,
+    "sha256": "93b9a7824fdac97a3dac127a8bbcdabdc2809a8adf7e727b2c011c9890420e98"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/extension/scores.json",
+    "bytes": 2479,
+    "sha256": "e73b31c9bf0affc697178bd374e316408d4a0efe5983c75223c596b2abd60113"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/illustrative-case.json",
+    "bytes": 523,
+    "sha256": "dbdfde18ba0c2a607d5a9bd55e1d867f0e0ebdb3468c4cfc69edd76d31e13adb"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/intervention-scores.csv",
+    "bytes": 1909,
+    "sha256": "4419c5de0e07cb5d4e54052ec20f17aa2c9ec4e1436c319339dce028672ea5f6"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/intervention-scores.json",
+    "bytes": 6802,
+    "sha256": "0873fd510027d4ebc5692fc94278e06769fd20e0a3f29c0346040d208bb90a03"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/legacy-intervention-scores.csv",
+    "bytes": 771,
+    "sha256": "a0c439f49689b950711e9d15b074524d728d3e9019d0de5f1fb51a65d7823065"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/legacy-intervention-scores.json",
+    "bytes": 1949,
+    "sha256": "fc961a3cdd433942a2b38ffe14c8803972d97c708eba973fa4ed86050f2c38ce"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/legacy-interventions-protocol.json",
+    "bytes": 696,
+    "sha256": "7ae2584a174a7ed353d4405c5c4f0f6e5d498a79b60cf0f110f1e64dab027a86"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/legacy-interventions.json",
+    "bytes": 14415,
+    "sha256": "2c880582ba35502fbaec2056991a7f79ba9b1c094866203da6b0107c7a3a6cea"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/legacy-template-results.json",
+    "bytes": 30476,
+    "sha256": "611c7ed492df16a85658adb91323a7cf697c848aeee994bae09380987d4ff3f7"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/legacy-template-scores.json",
+    "bytes": 1277,
+    "sha256": "58fa7953a1353c9554381d7d93bd8008a03f167191de123cd159b0a0b37704fc"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/official-audit.json",
+    "bytes": 5897,
+    "sha256": "140587b61b77b4e19219b9b791acfd85ce73020ee49d236431e550bb4323e204"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/official-case-catalog.json",
+    "bytes": 274663,
+    "sha256": "614bfec0bed05d1584088ad61b73446f40f7ba6a642e5b334ead9bbd3c24bb11"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/public-inputs.json",
+    "bytes": 4825,
+    "sha256": "9c06a7c6ffe4bff5e08bae73f21cc10e67da8b588df2fd63e5eb0bee7e489af8"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/raw-manifest.json",
+    "bytes": 4791,
+    "sha256": "d57fb6bdd5780db293e6b5bd46a7430739c1dbfcce015ebbfa41388c53bf415e"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/reproducibility-check.json",
+    "bytes": 379,
+    "sha256": "0f9e2a076e07d14276009af1dfacf1caebd3abba18b144c56a20ba92a0878603"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/semantic-audit.json",
+    "bytes": 128161,
+    "sha256": "6f137dd707b0e49d4bc8d0c65722d7bb8ba453f8e8c2530d8c900c56cc34edca"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00001.json",
+    "bytes": 789,
+    "sha256": "a616ddba8ea4fbb70e31d9d00a61c0714060354d873ac61d7ee489e8d43da0c6"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00002.json",
+    "bytes": 1192,
+    "sha256": "c5e2b9ab7f3e3b60f63238e0e23602ef820230cc94a84f32eda97e20700c8e19"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00003.json",
+    "bytes": 477,
+    "sha256": "572d5d6dde5afae3eaabaaa5ee0088f6e4728df3c895f047771f9f6a6481aad5"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00004.json",
+    "bytes": 1042,
+    "sha256": "f1eecd44cb35328fb7b8395544c1e1e231bba6098acae24bbd2f48ab661c66ce"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00005.json",
+    "bytes": 583,
+    "sha256": "8a77aecd83bf5a20c45c801efe4171f720b251ad998852c808b1f03f476a7616"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00006.json",
+    "bytes": 5187,
+    "sha256": "d588a8795ee9574abd7ec63cfcd0a12e64e6a0a5e2232c86151d279e03d7fb5e"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00007.json",
+    "bytes": 5053,
+    "sha256": "a8277716fe51572936a28133847a746343bb5a2f220ac36ab1d249a7b2262199"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00008.json",
+    "bytes": 1379,
+    "sha256": "82a3f8c2a0be40b766abdcf368960db192eac798b9b5f6d1d34ee9e9fc571568"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00019.json",
+    "bytes": 3795,
+    "sha256": "5d1faaf4a1280ad301ea0063070e5393ce9c5a662947eb7254a7b695e237f989"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00033.json",
+    "bytes": 1796,
+    "sha256": "9f0a3cb16aec6d335e5ac6a9c19512004e0000fa0fac6ae7c603e0243bf0f019"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00061.json",
+    "bytes": 2456,
+    "sha256": "71a2d13e2624c2fa749cea8dd67561ea0399434efa721028b560775e0b6bae90"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/sql-traces/L3_T1_Composite_Trend_00066.json",
+    "bytes": 1094,
+    "sha256": "36a9b6648205229a908b0b8d34e0ebc4bbc729f80c04e6adf2aaffcba6a743cd"
+  },
+  {
+    "path": "results/v019-cpu-failure-atlas/version-diagnostic-protocol.json",
+    "bytes": 1021,
+    "sha256": "587e1d1b7d057a74e3e27f774ec24e66c4293e58e567edf74f53fffe0f69156c"
+  },
+  {
+    "path": "reports/v019-cpu-failure-atlas.md",
+    "bytes": 19782,
+    "sha256": "b3ee1d5c72bb274c02584bbe45eefb90a66dee1973f21bfa90b1fca285a6e068"
+  }
+]

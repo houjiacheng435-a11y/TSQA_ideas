@@ -1,0 +1,21 @@
+{
+  "reason": "Git history shows result JSON last changed May 27, CT template changed June 2. Added this source-version diagnostic after primary interventions, not selected by outcome.",
+  "commit": "f2d61852498f1e406effc9d2696c512d2b3a2180",
+  "path": "sonar_ts/skills/library/composite-trend-topk.md",
+  "source_sha256": "0cd0914dc6fc5de6382afa56784371cd189e07d2b218d1b300982147adceada1",
+  "cases": [
+    "L3_T1_Composite_Trend_00005",
+    "L3_T1_Composite_Trend_00007",
+    "L3_T1_Composite_Trend_00008",
+    "L3_T1_Composite_Trend_00019",
+    "L3_T1_Composite_Trend_00001",
+    "L3_T1_Composite_Trend_00003",
+    "L3_T1_Composite_Trend_00004",
+    "L3_T1_Composite_Trend_00006",
+    "L3_T1_Composite_Trend_00002",
+    "L3_T1_Composite_Trend_00033",
+    "L3_T1_Composite_Trend_00061",
+    "L3_T1_Composite_Trend_00066"
+  ],
+  "alterations": "Only CH, YEAR, pattern_phrase substituted from public question. np,pd,question supplied in globals; no threshold edits. Reads full year as its own released code specifies."
+}

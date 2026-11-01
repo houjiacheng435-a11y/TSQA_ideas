@@ -1,0 +1,8 @@
+{
+  "selection": "After completing all frozen Composite Trend interventions: within Shape Identification and Causal Anomaly, select lexicographically first zero-score and first nonzero-score case. No substitutions.",
+  "ids": ["L2_T1_Shape_Identification_00017", "L2_T1_Shape_Identification_00001", "L3_T3_Causal_Anomaly_00386", "L3_T3_Causal_Anomaly_00387"],
+  "prediction_input": "Public question and raw observations only; no meta, answer or ground_truth.",
+  "shape_mapping": "low plateau (bottom out) -> depression; step ascent -> step_up, from public question. Released template and forced full public search-window access, detector unchanged.",
+  "causal_mapping": "UP, DOWN and YEAR extracted literally from question. Execute released two-mode template, no changed thresholds. This skill reads both full-year channels and has no SAX candidate stage.",
+  "limits": "Four illustrative cases only; no task-level generalization. Published outputs have no execution traces. No independent shape/causal algorithm superiority claim."
+}

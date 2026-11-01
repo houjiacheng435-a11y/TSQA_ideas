@@ -1,0 +1,4 @@
+[
+  "SELECT window_start FROM daily_feature WHERE channel_id = '99' AND window_start >= '2020-01-01' AND window_start < '2021-01-01' AND sax REGEXP '[ab].*[de].*[ab].*[de].*(?:a{3,}|b{3,}|c{3,}|d{3,}|e{3,})'",
+  "SELECT timestamp, \"99\" FROM raw_data WHERE substr(timestamp,1,10) IN ('2020-01-07','2020-03-06','2020-05-08','2020-05-23','2020-08-08','2020-08-10','2020-08-11','2020-08-19','2020-10-12','2020-10-14','2020-11-27','2020-12-13','2020-12-15') ORDER BY timestamp"
+]
