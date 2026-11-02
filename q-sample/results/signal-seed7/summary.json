@@ -1,0 +1,122 @@
+[
+  {
+    "name": "adaptive",
+    "initial": {
+      "loss": 0.6923737339675426,
+      "accuracy": 0.5546875,
+      "target_occupancy": 0.0004103203781512605,
+      "target_mass": 0.0004999148483317689,
+      "target_hit": 0.21008403361344538,
+      "distractor_occupancy": 0.0004103203781512605,
+      "query_target_occupancy_change": 1.641281512605042e-05,
+      "value_zero_accuracy": 0.53515625,
+      "uniform_grid_accuracy": 0.5546875,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "final": {
+      "loss": 8.335337042808533e-06,
+      "accuracy": 1.0,
+      "target_occupancy": 0.01907169117647059,
+      "target_mass": 0.0194548119266494,
+      "target_hit": 1.0,
+      "distractor_occupancy": 0.03507418592436975,
+      "query_target_occupancy_change": -0.020844275210084032,
+      "value_zero_accuracy": 0.53515625,
+      "uniform_grid_accuracy": 0.6328125,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "seconds": 2.6254179812967777
+  },
+  {
+    "name": "uniform",
+    "initial": {
+      "loss": 0.692390501499176,
+      "accuracy": 0.5546875,
+      "target_occupancy": 0.0004103203781512605,
+      "target_mass": 0.0004999999645627847,
+      "target_hit": 0.21008403361344538,
+      "distractor_occupancy": 0.0004103203781512605,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.53515625,
+      "uniform_grid_accuracy": 0.5546875,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "final": {
+      "loss": 0.6227548234164715,
+      "accuracy": 0.6015625,
+      "target_occupancy": 0.0004103203781512605,
+      "target_mass": 0.0004999999645627847,
+      "target_hit": 0.21008403361344538,
+      "distractor_occupancy": 0.0004103203781512605,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.53515625,
+      "uniform_grid_accuracy": 0.6015625,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "seconds": 1.7175287678837776
+  },
+  {
+    "name": "adaptive_no_blur",
+    "initial": {
+      "loss": 0.6923737339675426,
+      "accuracy": 0.5546875,
+      "target_occupancy": 0.0004103203781512605,
+      "target_mass": 0.0004999148483317689,
+      "target_hit": 0.21008403361344538,
+      "distractor_occupancy": 0.0004103203781512605,
+      "query_target_occupancy_change": 1.641281512605042e-05,
+      "value_zero_accuracy": 0.53515625,
+      "uniform_grid_accuracy": 0.5546875,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "final": {
+      "loss": 0.6289546824991703,
+      "accuracy": 0.640625,
+      "target_occupancy": 0.00032825630252100843,
+      "target_mass": 0.0003472527160364039,
+      "target_hit": 0.16806722689075632,
+      "distractor_occupancy": 0.00032825630252100843,
+      "query_target_occupancy_change": -6.565126050420168e-05,
+      "value_zero_accuracy": 0.53515625,
+      "uniform_grid_accuracy": 0.6015625,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "seconds": 2.7018150240182877
+  },
+  {
+    "name": "adaptive_mean_only",
+    "initial": {
+      "loss": 0.6919492110610008,
+      "accuracy": 0.46484375,
+      "target_occupancy": 0.0004103203781512605,
+      "target_mass": 0.0004999884462938839,
+      "target_hit": 0.21008403361344538,
+      "distractor_occupancy": 0.0004103203781512605,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.46484375,
+      "uniform_grid_accuracy": 0.46484375,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "final": {
+      "loss": 1.0569434687495232,
+      "accuracy": 0.5703125,
+      "target_occupancy": 0.0010504201680672268,
+      "target_mass": 0.0009542420807787601,
+      "target_hit": 0.5126050420168067,
+      "distractor_occupancy": 0.00031184348739495796,
+      "query_target_occupancy_change": 0.0006893382352941177,
+      "value_zero_accuracy": 0.53515625,
+      "uniform_grid_accuracy": 0.5234375,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "seconds": 3.422615695744753
+  }
+]

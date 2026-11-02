@@ -1,0 +1,152 @@
+[
+  {
+    "name": "adaptive",
+    "initial": {
+      "loss": 0.6909615322947502,
+      "accuracy": 0.4921875,
+      "target_occupancy": 0.0004957932692307692,
+      "target_mass": 0.0004998393840371416,
+      "target_hit": 0.25384615384615383,
+      "distractor_occupancy": 0.0003155048076923077,
+      "query_target_occupancy_change": 1.5024038461538462e-05,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.4921875,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "final": {
+      "loss": 0.09833734761923552,
+      "accuracy": 0.98046875,
+      "target_occupancy": 0.04643930288461538,
+      "target_mass": 0.04734696619785749,
+      "target_hit": 0.9615384615384616,
+      "distractor_occupancy": 0.04299879807692308,
+      "query_target_occupancy_change": -0.0002854567307692308,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.625,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "seconds": 3.2713343054056168
+  },
+  {
+    "name": "uniform",
+    "initial": {
+      "loss": 0.690930288285017,
+      "accuracy": 0.4921875,
+      "target_occupancy": 0.0004957932692307692,
+      "target_mass": 0.0004999999727050846,
+      "target_hit": 0.25384615384615383,
+      "distractor_occupancy": 0.0003155048076923077,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.4921875,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "final": {
+      "loss": 0.5917185619473457,
+      "accuracy": 0.62890625,
+      "target_occupancy": 0.0004957932692307692,
+      "target_mass": 0.0004999999727050846,
+      "target_hit": 0.25384615384615383,
+      "distractor_occupancy": 0.0003155048076923077,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.62890625,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "seconds": 1.5842284001410007
+  },
+  {
+    "name": "adaptive_no_blur",
+    "initial": {
+      "loss": 0.6909615322947502,
+      "accuracy": 0.4921875,
+      "target_occupancy": 0.0004957932692307692,
+      "target_mass": 0.0004998393840371416,
+      "target_hit": 0.25384615384615383,
+      "distractor_occupancy": 0.0003155048076923077,
+      "query_target_occupancy_change": 1.5024038461538462e-05,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.4921875,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "final": {
+      "loss": 0.6193752158433199,
+      "accuracy": 0.59375,
+      "target_occupancy": 0.000390625,
+      "target_mass": 0.0004106822137076121,
+      "target_hit": 0.2,
+      "distractor_occupancy": 0.00033052884615384617,
+      "query_target_occupancy_change": -0.00010516826923076924,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.625,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "seconds": 2.56263642385602
+  },
+  {
+    "name": "adaptive_mean_only",
+    "initial": {
+      "loss": 0.697615459561348,
+      "accuracy": 0.4921875,
+      "target_occupancy": 0.0004957932692307692,
+      "target_mass": 0.0004999915800558833,
+      "target_hit": 0.25384615384615383,
+      "distractor_occupancy": 0.00033052884615384617,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.4921875,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "final": {
+      "loss": 0.9725606217980385,
+      "accuracy": 0.546875,
+      "target_occupancy": 0.00046574519230769233,
+      "target_mass": 0.0005032287516559546,
+      "target_hit": 0.23846153846153847,
+      "distractor_occupancy": 0.00037560096153846156,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.58203125,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "seconds": 3.1284173727035522
+  },
+  {
+    "name": "adaptive_query_blind",
+    "initial": {
+      "loss": 0.6909674778580666,
+      "accuracy": 0.4921875,
+      "target_occupancy": 0.0004957932692307692,
+      "target_mass": 0.0004998569287216434,
+      "target_hit": 0.25384615384615383,
+      "distractor_occupancy": 0.00033052884615384617,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.4921875,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "final": {
+      "loss": 0.5299258977174759,
+      "accuracy": 0.7421875,
+      "target_occupancy": 0.04559795673076923,
+      "target_mass": 0.04652537336716285,
+      "target_hit": 0.49230769230769234,
+      "distractor_occupancy": 0.04782151442307692,
+      "query_target_occupancy_change": 0.0,
+      "value_zero_accuracy": 0.4921875,
+      "uniform_grid_accuracy": 0.61328125,
+      "examples": 256,
+      "positive_examples": 130
+    },
+    "seconds": 3.771801620721817
+  }
+]

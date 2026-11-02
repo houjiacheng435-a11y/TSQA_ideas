@@ -1,0 +1,32 @@
+[
+  {
+    "name": "adaptive",
+    "initial": {
+      "loss": 0.6985890157520771,
+      "accuracy": 0.46484375,
+      "target_occupancy": 0.0004103203781512605,
+      "target_mass": 0.0004999148483317689,
+      "target_hit": 0.21008403361344538,
+      "distractor_occupancy": 0.0004103203781512605,
+      "query_target_occupancy_change": 1.641281512605042e-05,
+      "value_zero_accuracy": 0.46484375,
+      "uniform_grid_accuracy": 0.46484375,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "final": {
+      "loss": 0.01392203220166266,
+      "accuracy": 1.0,
+      "target_occupancy": 0.0004759716386554622,
+      "target_mass": 0.0005526829103962714,
+      "target_hit": 0.24369747899159663,
+      "distractor_occupancy": 0.0005908613445378151,
+      "query_target_occupancy_change": -0.00019695378151260505,
+      "value_zero_accuracy": 1.0,
+      "uniform_grid_accuracy": 0.53515625,
+      "examples": 256,
+      "positive_examples": 119
+    },
+    "seconds": 3.27056098356843
+  }
+]

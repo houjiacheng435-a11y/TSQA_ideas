@@ -1,0 +1,37 @@
+{
+  "length": 100000,
+  "event_width": 50,
+  "tokens": 512,
+  "coarse": 256,
+  "width": 48,
+  "batch_size": 16,
+  "steps": 300,
+  "eval_batches": 16,
+  "seed": 23,
+  "noise": 0.1,
+  "amplitude": 2.0,
+  "epsilon": 0.0001,
+  "sigma": 128.0,
+  "anneal_fraction": 0.6,
+  "lr": 0.002,
+  "log_every": 50,
+  "device": "cuda",
+  "threads": 4,
+  "readout": "signal",
+  "runs": [
+    "adaptive",
+    "uniform",
+    "adaptive_no_blur",
+    "adaptive_mean_only",
+    "adaptive_query_blind"
+  ],
+  "output": "results/signal-seed23",
+  "torch_version": "2.6.0+cu124",
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "task": "Query asks whether a positive/negative width-50 square pulse exists; opposite-sign distractor always present",
+  "training_supervision": "Answer BCE only; event coordinates used solely for evaluation",
+  "source_sha256": {
+    "model.py": "97a872449bcb0108534639f1ab36e14c2bc29ddb56f4405bb117c0f1e60d3f31",
+    "train_synthetic.py": "63c44676e619091dfa6922b5b4a956cc38e3f8b386fb53e95f96032ab7cba44d"
+  }
+}

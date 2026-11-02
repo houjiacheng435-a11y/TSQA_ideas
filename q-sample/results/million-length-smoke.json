@@ -1,0 +1,22 @@
+{
+  "input_shape": [
+    2,
+    1000000,
+    1
+  ],
+  "sampled_shape": [
+    2,
+    512,
+    1
+  ],
+  "grid_shape": [
+    2,
+    512
+  ],
+  "loss": 0.6936559677124023,
+  "density_grad_norm": 0.3241492509841919,
+  "finite_gradient": true,
+  "monotone_grid": true,
+  "peak_allocated_mib": 151.0751953125,
+  "scope": "One random-initialization forward/backward only; not trained million-length QA"
+}
