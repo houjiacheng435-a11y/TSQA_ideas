@@ -1,4 +1,4 @@
-"""Summarize the recorded three-seed pilot without checkpoint selection."""
+"""汇总已记录的三个随机种子的预实验结果，不筛选模型检查点。"""
 import json
 from pathlib import Path
 import statistics

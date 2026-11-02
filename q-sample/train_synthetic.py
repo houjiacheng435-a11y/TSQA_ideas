@@ -1,4 +1,4 @@
-"""Controlled synthetic task; labels supervise only the binary answer head."""
+"""受控合成任务；训练时只使用二分类答案标签作为监督。"""
 import argparse
 import hashlib
 import json
@@ -21,7 +21,7 @@ def batch(args, generator, size=None):
     x = torch.randn(size, args.length, 1, generator=generator, device=device) * args.noise
     query = (torch.randint(0, 2, (size, 1), generator=generator, device=device) * 2 - 1).float()
     labels = torch.randint(0, 2, (size,), generator=generator, device=device).float()
-    # Two separated, random positions. Every sample has an opposite-sign distractor.
+    # 随机生成两个分离的位置；每个样本都包含与查询极性相反的干扰事件。
     low = torch.randint(args.event_width, args.length // 2 - args.event_width,
                         (size,), generator=generator, device=device)
     high = torch.randint(args.length // 2 + args.event_width,
@@ -56,7 +56,7 @@ def evaluate(model, args, mode):
     total = positive = 0
     for _ in range(args.eval_batches):
         x, query, labels, target, distractor = batch(args, generator)
-        result = model(x, query, mode=mode)  # Always evaluate the raw signal.
+        result = model(x, query, mode=mode)  # 评估始终使用未经平滑的原始信号。
         zero = model(x, query, mode=mode, value_mode="zero")
         uniform = model(x, query, mode="uniform")
         opposite = model(x, -query, mode=mode)

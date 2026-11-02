@@ -75,7 +75,7 @@ class SamplingTests(unittest.TestCase):
         a = model(x, query, mode="adaptive_query_blind")
         b = model(x, -query, mode="adaptive_query_blind")
         torch.testing.assert_close(a["grid"], b["grid"])
-        # Signal-only readout cannot recover an answer from grid geometry.
+        # 只读取采样信号的答案头无法从网格几何形状中恢复答案。
         zero = model(x, query, value_mode="zero")
         torch.testing.assert_close(zero["logits"], zero["logits"][0].expand(2))
 

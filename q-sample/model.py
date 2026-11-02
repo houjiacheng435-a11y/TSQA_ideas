@@ -1,4 +1,4 @@
-"""Query-conditioned inverse-CDF sampling; no event labels enter the model."""
+"""由查询驱动的逆 CDF 采样；模型不接收事件标签。"""
 import math
 
 import torch
@@ -7,10 +7,10 @@ from torch.nn import functional as F
 
 
 def inverse_cdf(mass, count):
-    """Midpoint quantiles of positive, piecewise-constant bins on [0, 1].
+    """在 [0, 1] 上按分位区间中点，对正值、分段常数的概率分布取样。
 
-    Search indices are discrete; interpolation is differentiable almost
-    everywhere. FP64 prevents a small density floor vanishing in the CDF.
+    区间索引是离散的，区间内的线性插值几乎处处可微。
+    使用 FP64 构造 CDF，避免极小的密度下限在累加时因精度不足而丢失。
     """
     if mass.ndim != 2 or mass.shape[1] < 1 or count < 1:
         raise ValueError("Expected [batch, bins] masses and count >= 1")
@@ -31,7 +31,10 @@ def inverse_cdf(mass, count):
 
 
 def sample_linear(x, grid):
-    """x: [B,L,C], grid: [B,N] in [0,1]; coordinate and value gradients."""
+    """对形状为 [B,L,C] 的 x 插值；grid 为 [B,N]，范围为 [0,1]。
+
+    梯度可回传到采样坐标和原始信号值。
+    """
     positions = grid.clamp(0, 1) * (x.shape[1] - 1)
     left = positions.floor().long()
     right = (left + 1).clamp_max(x.shape[1] - 1)
@@ -41,7 +44,7 @@ def sample_linear(x, grid):
 
 
 def gaussian_smooth(x, sigma):
-    """Finite, normalized Gaussian via FFT convolution and replicated edges."""
+    """使用有限、归一化的高斯核进行 FFT 卷积，边界采用端点复制填充。"""
     if sigma <= 0:
         return x
     radius = max(1, math.ceil(3 * sigma))
@@ -70,7 +73,7 @@ class QSample(nn.Module):
             nn.GELU(), nn.Conv1d(width, width, 3, padding=1), nn.GELU())
         self.query = nn.Linear(1, width * 2)
         self.density = nn.Conv1d(width, 1, 1)
-        # Start with an almost uniform grid, retaining query/feature gradients.
+        # 从近似均匀的采样网格开始，同时保留查询和特征分支的梯度。
         nn.init.normal_(self.density.weight, std=0.001)
         nn.init.zeros_(self.density.bias)
 
@@ -97,7 +100,7 @@ class QSample(nn.Module):
             mass = (1 - self.epsilon) * coarse_mass + self.epsilon / self.coarse
         else:
             raise ValueError(f"Unknown mode: {mode}")
-        # Interpolation changes the total; normalize again on the dense axis.
+        # 插值会改变概率质量总和，因此在完整时间轴上重新归一化。
         dense_mass = F.interpolate(mass[:, None], size=x.shape[1],
                                    mode="linear", align_corners=False).squeeze(1)
         dense_mass = dense_mass / dense_mass.sum(-1, keepdim=True)
@@ -108,10 +111,10 @@ class QSample(nn.Module):
 
 
 class TimeProjection(nn.Module):
-    """Continuous Fourier time features plus explicit coordinate and gap.
+    """组合连续傅里叶时间特征、显式坐标和相邻采样间隔。
 
-    Fourier features are not RoPE. Physical duration must also be provided to
-    a future QA backend when sequences have different sampling rates/lengths.
+    傅里叶特征不等同于 RoPE。序列的采样率或长度不同时，
+    还须向后续问答模型提供实际时间跨度。
     """
     def __init__(self, channels=1, width=48, frequencies=8):
         super().__init__()
@@ -144,7 +147,7 @@ class SyntheticQA(nn.Module):
         density_query = torch.zeros_like(query) if mode == "adaptive_query_blind" else query
         sampler_mode = "adaptive" if mode == "adaptive_query_blind" else mode
         result = self.sampler(x, density_query, mode=sampler_mode, sigma=sigma)
-        # Sign-normalize the requested event. The head never sees coarse features.
+        # 按查询极性归一化采样值；答案头不接收粗粒度特征。
         values = result["values"] * query[:, None, :]
         if value_mode == "zero":
             values = torch.zeros_like(values)
