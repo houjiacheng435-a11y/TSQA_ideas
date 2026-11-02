@@ -1,0 +1,38 @@
+{
+  "task_id": "L1_T1_Global_Aggregation_00009",
+  "plan": "1. Query raw_data for channel \"154\" where timestamp is between '2019-06-01' and '2019-06-30'.\n    2. Compute the minimum value from the filtered raw_data.\n    3. Round the minimum value to 3 decimal places.",
+  "chosen_skills": [],
+  "code_attempts": [
+    "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Query raw_data for channel \"154\" in June 2019\nsql = \"\"\"\n    SELECT \"154\" AS value\n    FROM raw_data\n    WHERE timestamp BETWEEN '2019-06-01' AND '2019-06-30'\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Step 2: Compute the minimum value\nmin_value = df['value'].min().item()\n\n# Step 3: Round to 3 decimal places\nrounded_min_value = round(min_value, 3)\n\n_result = rounded_min_value\nimport json\nprint(json.dumps({\"_result\": _result}))"
+  ],
+  "executor_log": [
+    {
+      "status": "ok",
+      "message": ""
+    }
+  ],
+  "prediction": "0.313",
+  "raw_result": 0.313,
+  "final_status": "ok",
+  "final_message": "",
+  "native": true,
+  "view": "native",
+  "kind": "native",
+  "ground_truth": 0.313,
+  "compressed_view_exact_answer": 0.313,
+  "official_relative_score": 1.0,
+  "exact_numeric_correct": true,
+  "view_numeric_correct": true,
+  "wall_seconds": 5.62875447049737,
+  "llm_seconds": 5.05879420414567,
+  "llm_calls": 2,
+  "input_tokens": 2806,
+  "output_tokens": 244,
+  "code_failures": 0,
+  "code_retries": 0,
+  "sql_queries": [
+    "\n    SELECT \"154\" AS value\n    FROM raw_data\n    WHERE timestamp BETWEEN '2019-06-01' AND '2019-06-30'\n"
+  ],
+  "sql_rows_returned": 2784,
+  "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+}

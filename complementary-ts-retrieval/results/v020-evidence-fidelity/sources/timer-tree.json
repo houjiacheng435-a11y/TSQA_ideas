@@ -1,0 +1,271 @@
+{
+  "sha": "daf870f5ee5bce6797436b8c16eccf091149bccc",
+  "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/daf870f5ee5bce6797436b8c16eccf091149bccc",
+  "tree": [
+    {
+      "path": "Figure",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "271d80b716c875ade53e0abab6dc6d168dd4ac5e",
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/271d80b716c875ade53e0abab6dc6d168dd4ac5e"
+    },
+    {
+      "path": "Figure/TiMER_Overview.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d68d25d1e0256ec7c7ec2739aa6532654ba0e4",
+      "size": 160444,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/92d68d25d1e0256ec7c7ec2739aa6532654ba0e4"
+    },
+    {
+      "path": "Figure/TiMER_Overview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f5793b2ea363c273276a39a318fc70a16e65cb",
+      "size": 292669,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/63f5793b2ea363c273276a39a318fc70a16e65cb"
+    },
+    {
+      "path": "MTE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb630664dc43ff33cf9d8061b5013d8a6f03d4c7",
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/eb630664dc43ff33cf9d8061b5013d8a6f03d4c7"
+    },
+    {
+      "path": "MTE/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83b0c99befce9e3f8ada236a167e55d8bd0811a0",
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/83b0c99befce9e3f8ada236a167e55d8bd0811a0"
+    },
+    {
+      "path": "MTE/__pycache__/gft_varlen_forecast.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b89a3e58e0bb6f3800b4d6c252bb5efde84663",
+      "size": 39842,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/24b89a3e58e0bb6f3800b4d6c252bb5efde84663"
+    },
+    {
+      "path": "MTE/__pycache__/train_gft_varlen.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70966f485b3f70f71cab1760af4340194247e416",
+      "size": 29015,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/70966f485b3f70f71cab1760af4340194247e416"
+    },
+    {
+      "path": "MTE/checkpoint",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61bd3e9d46235c2b3034e1fc06d776a1eaea0cb8",
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/61bd3e9d46235c2b3034e1fc06d776a1eaea0cb8"
+    },
+    {
+      "path": "MTE/checkpoint/gft_varlen_best_forecast.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5c35d9718f4edfb5edf597066f1f44bff4101e3",
+      "size": 23735531,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/b5c35d9718f4edfb5edf597066f1f44bff4101e3"
+    },
+    {
+      "path": "MTE/gft_varlen_forecast.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b474dd57308f611665cb04673d923cb0524ab5c",
+      "size": 24446,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/7b474dd57308f611665cb04673d923cb0524ab5c"
+    },
+    {
+      "path": "MTE/run.bash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f5f10d260a11233e4cdbdbabc30bdfae94ecad",
+      "size": 450,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/72f5f10d260a11233e4cdbdbabc30bdfae94ecad"
+    },
+    {
+      "path": "MTE/train_gft_varlen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53ccff4fa0e24b6fc47a12b590ed8bec6cd1f23c",
+      "size": 16914,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/53ccff4fa0e24b6fc47a12b590ed8bec6cd1f23c"
+    },
+    {
+      "path": "QGR",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c91d9e3bf442f010b8e0400c51a0339af39be400",
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/c91d9e3bf442f010b8e0400c51a0339af39be400"
+    },
+    {
+      "path": "QGR/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c385e830ccb4250a2d24394a1cdffd169fd82e9",
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/8c385e830ccb4250a2d24394a1cdffd169fd82e9"
+    },
+    {
+      "path": "QGR/__pycache__/granularity.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "076cf51742094e0844eaa832de0b59da121780bb",
+      "size": 45857,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/076cf51742094e0844eaa832de0b59da121780bb"
+    },
+    {
+      "path": "QGR/__pycache__/granularity2.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac1400aca5b27b100d1a653c709e986aedd2b424",
+      "size": 54562,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/ac1400aca5b27b100d1a653c709e986aedd2b424"
+    },
+    {
+      "path": "QGR/__pycache__/granularity2.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cfb99bd5473392245906285486c80eca818f871",
+      "size": 51073,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/1cfb99bd5473392245906285486c80eca818f871"
+    },
+    {
+      "path": "QGR/__pycache__/granularity2_adaptive.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c28b3f1383496dd4b76be1c95c6510218a1c58b8",
+      "size": 6915,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/c28b3f1383496dd4b76be1c95c6510218a1c58b8"
+    },
+    {
+      "path": "QGR/__pycache__/granularity2_adaptive.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fae9bd35a5723855f4b970a320b2e2643bc4a1b",
+      "size": 6286,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/3fae9bd35a5723855f4b970a320b2e2643bc4a1b"
+    },
+    {
+      "path": "QGR/__pycache__/granularity2_qformer.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "663832445541bb03f6405656b9e9f5f5fa60c4af",
+      "size": 57570,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/663832445541bb03f6405656b9e9f5f5fa60c4af"
+    },
+    {
+      "path": "QGR/__pycache__/granularity2_sequence.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbdadb5e5c715474736611793bf39a6757cdfb4d",
+      "size": 5491,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/fbdadb5e5c715474736611793bf39a6757cdfb4d"
+    },
+    {
+      "path": "QGR/__pycache__/granularity_question.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a9a4b02ed5ccefb59d332a60b30feb406cbb03f",
+      "size": 66986,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/2a9a4b02ed5ccefb59d332a60b30feb406cbb03f"
+    },
+    {
+      "path": "QGR/__pycache__/granularity_question.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea19db8dd512747aac2e3a8b367a466fc6b3274",
+      "size": 60871,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/3ea19db8dd512747aac2e3a8b367a466fc6b3274"
+    },
+    {
+      "path": "QGR/granularity2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24fde5ba57e07d321bed86bcfeb5965961375400",
+      "size": 42994,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/24fde5ba57e07d321bed86bcfeb5965961375400"
+    },
+    {
+      "path": "QGR/granularity2_adaptive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3150454fe4c92145cf764a67c2f4c890df3dc9f6",
+      "size": 4793,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/3150454fe4c92145cf764a67c2f4c890df3dc9f6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66f242e45d7704c5c09548e5c3409cd68b777612",
+      "size": 6958,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/66f242e45d7704c5c09548e5c3409cd68b777612"
+    },
+    {
+      "path": "__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "297f2b90c56560623ae2d3f0864f8bd44332848f",
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/297f2b90c56560623ae2d3f0864f8bd44332848f"
+    },
+    {
+      "path": "__pycache__/eval2_adaptive.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a2211cf43a4bcaa2ab95ba9031e593c9d35370d",
+      "size": 104511,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/6a2211cf43a4bcaa2ab95ba9031e593c9d35370d"
+    },
+    {
+      "path": "__pycache__/train2_adaptive.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d150fd9eb88a7217aa7205324e3d2eb55b4b768",
+      "size": 102524,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/6d150fd9eb88a7217aa7205324e3d2eb55b4b768"
+    },
+    {
+      "path": "eval2_adaptive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd353e1220a38d0c2a48d9e2144804023eee393",
+      "size": 71807,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/4fd353e1220a38d0c2a48d9e2144804023eee393"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0babb1d32b1259d80306bac97ea609008d4b8d6",
+      "size": 4695,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/e0babb1d32b1259d80306bac97ea609008d4b8d6"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff83e4c9ce37e1fba19c235d5c431a37a3662c9b",
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/trees/ff83e4c9ce37e1fba19c235d5c431a37a3662c9b"
+    },
+    {
+      "path": "scripts/qwen_frozen.bash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "453831eaceb3a260772922bcf523c985c694e7b8",
+      "size": 1320,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/453831eaceb3a260772922bcf523c985c694e7b8"
+    },
+    {
+      "path": "train2_adaptive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84431137b3030bd7e19fbc5faa3c93346019bfad",
+      "size": 78050,
+      "url": "https://api.github.com/repos/hyuna0926/TiMER_paper/git/blobs/84431137b3030bd7e19fbc5faa3c93346019bfad"
+    }
+  ],
+  "truncated": false
+}

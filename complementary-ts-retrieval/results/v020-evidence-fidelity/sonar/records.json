@@ -1,0 +1,540 @@
+[
+  {
+    "task_id": "L1_T1_Global_Aggregation_00007",
+    "plan": "1. Query raw_data for channel \"147\" between 2020-05-20 and 2020-05-31.\n    2. Compute the median value of the selected data.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Query raw_data for channel \"147\" between 2020-05-20 and 2020-05-31\nsql = \"\"\"\n    SELECT timestamp, \"147\" AS value\n    FROM raw_data\n    WHERE timestamp BETWEEN '2020-05-20' AND '2020-05-31'\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Compute the median value\nmedian_value = df['value'].median().item()\n\n# Format the result to 3 decimal places\n_result = round(median_value, 3)\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "0.15",
+    "raw_result": 0.15,
+    "final_status": "ok",
+    "final_message": "",
+    "native": true,
+    "view": "native",
+    "kind": "native",
+    "ground_truth": 0.15,
+    "compressed_view_exact_answer": 0.15,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 6.007221329957247,
+    "llm_seconds": 5.471889976412058,
+    "llm_calls": 2,
+    "input_tokens": 2817,
+    "output_tokens": 227,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "\n    SELECT timestamp, \"147\" AS value\n    FROM raw_data\n    WHERE timestamp BETWEEN '2020-05-20' AND '2020-05-31'\n"
+    ],
+    "sql_rows_returned": 1056,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "L1_T1_Global_Aggregation_00009",
+    "plan": "1. Query raw_data for channel \"154\" where timestamp is between '2019-06-01' and '2019-06-30'.\n    2. Compute the minimum value from the filtered raw_data.\n    3. Round the minimum value to 3 decimal places.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Query raw_data for channel \"154\" in June 2019\nsql = \"\"\"\n    SELECT \"154\" AS value\n    FROM raw_data\n    WHERE timestamp BETWEEN '2019-06-01' AND '2019-06-30'\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Step 2: Compute the minimum value\nmin_value = df['value'].min().item()\n\n# Step 3: Round to 3 decimal places\nrounded_min_value = round(min_value, 3)\n\n_result = rounded_min_value\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "0.313",
+    "raw_result": 0.313,
+    "final_status": "ok",
+    "final_message": "",
+    "native": true,
+    "view": "native",
+    "kind": "native",
+    "ground_truth": 0.313,
+    "compressed_view_exact_answer": 0.313,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 5.62875447049737,
+    "llm_seconds": 5.05879420414567,
+    "llm_calls": 2,
+    "input_tokens": 2806,
+    "output_tokens": 244,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "\n    SELECT \"154\" AS value\n    FROM raw_data\n    WHERE timestamp BETWEEN '2019-06-01' AND '2019-06-30'\n"
+    ],
+    "sql_rows_returned": 2784,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_full_exists05",
+    "plan": "1. Query raw_data for channel \"ECG1\" and check if any value is >= 0.5.\n2. Return 1 if at least one value meets the condition, otherwise return 0.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Query raw_data for ECG1 values\nsql = 'SELECT \"ECG1\" FROM raw_data'\necg1_values = pd.read_sql_query(sql, conn)\n\n# Check if any value is >= 0.5\nhas_value = ecg1_values[ecg1_values >= 0.5].shape[0] > 0\n\n# Assign result\n_result = 1 if has_value else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "1",
+    "raw_result": 1,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "full",
+    "kind": "exists05",
+    "ground_truth": true,
+    "compressed_view_exact_answer": true,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 5.159110799431801,
+    "llm_seconds": 3.616800457239151,
+    "llm_calls": 2,
+    "input_tokens": 2872,
+    "output_tokens": 173,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "SELECT \"ECG1\" FROM raw_data"
+    ],
+    "sql_rows_returned": 131072,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_full_count",
+    "plan": "1. Scan the raw_data table to identify all samples where ECG1 is >= 0.5.  \n2. Iterate through the samples to detect maximal contiguous runs of ECG1 samples >= 0.5, counting each new run when a qualifying sample starts a new run.  \n3. Return the total count of maximal contiguous runs.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Scan the raw_data table to identify all samples where ECG1 is >= 0.5\nsql = \"\"\"\n    SELECT timestamp, \"ECG1\"\n    FROM raw_data\n    ORDER BY timestamp\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Step 2: Iterate through the samples to detect maximal contiguous runs\nrun_count = 0\nin_run = False\n\nfor index, row in df.iterrows():\n    if row[\"ECG1\"] >= 0.5:\n        if not in_run:\n            run_count += 1\n            in_run = True\n    else:\n        in_run = False\n\n# Step 3: Return the total count of maximal contiguous runs\n_result = run_count\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "2149",
+    "raw_result": 2149,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "full",
+    "kind": "count",
+    "ground_truth": 2149,
+    "compressed_view_exact_answer": 2149,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 16.584075529128313,
+    "llm_seconds": 5.546960141509771,
+    "llm_calls": 2,
+    "input_tokens": 2957,
+    "output_tokens": 266,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "\n    SELECT timestamp, \"ECG1\"\n    FROM raw_data\n    ORDER BY timestamp\n"
+    ],
+    "sql_rows_returned": 131072,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_full_duration",
+    "plan": "1. Query raw_data for channel \"ECG1\" and count the number of rows where the value is >= 1.0.\n2. Return the integer count of samples that meet the condition.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Query raw_data for ECG1 samples with value >= 1.0\nsql = \"\"\"\n    SELECT \"ECG1\" AS value\n    FROM raw_data\n    WHERE \"ECG1\" >= 1.0\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Count the number of samples\ncount = df.shape[0]\n\n# Convert to native Python type\n_result = count.item()\n\nimport json\nprint(json.dumps({\"_result\": _result}))",
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Connect to the database (assuming the connection is already established)\n# For the purpose of this code, we'll assume 'conn' is a valid SQLite connection object\n\n# Query raw_data for ECG1 samples with value >= 1.0\nsql = \"\"\"\n    SELECT \"ECG1\" AS value\n    FROM raw_data\n    WHERE \"ECG1\" >= 1.0\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Count the number of samples\ncount = df.shape[0]\n\n# Convert to native Python type (count is already an integer, so .item() is not needed)\n_result = count\n\n# Print the result in the required JSON format\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "exception",
+        "message": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/cf-run/TSQA_ideas/complementary-ts-retrieval/experiments/v016-sonarts-qwen-local/traced_runner.py\", line 93, in <module>\n    runpy.run_path(os.environ['V016_OFFICIAL_RUNNER'], run_name='__main__')\n  File \"<frozen runpy>\", line 286, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/root/autodl-tmp/cf-run/vendor/Sonar-TS-v016-direct/sonar_ts/_runner.py\", line 65, in <module>\n    _main()\n  File \"/root/autodl-tmp/cf-run/vendor/Sonar-TS-v016-direct/sonar_ts/_runner.py\", line 59, in _main\n    exec(compile(user_code, code_path, \"exec\"), globals_for_code)\n  File \"/tmp/tmpnf7yq8h5.py\", line 18, in <module>\n    _result = count.item()\n              ^^^^^^^^^^\nAttributeError: 'int' object has no attribute 'item'"
+      },
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "1073",
+    "raw_result": 1073,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "full",
+    "kind": "duration",
+    "ground_truth": 1073,
+    "compressed_view_exact_answer": 1073,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 9.178250901401043,
+    "llm_seconds": 7.839069649577141,
+    "llm_calls": 3,
+    "input_tokens": 3967,
+    "output_tokens": 341,
+    "code_failures": 1,
+    "code_retries": 1,
+    "sql_queries": [
+      "\n    SELECT \"ECG1\" AS value\n    FROM raw_data\n    WHERE \"ECG1\" >= 1.0\n",
+      "\n    SELECT \"ECG1\" AS value\n    FROM raw_data\n    WHERE \"ECG1\" >= 1.0\n"
+    ],
+    "sql_rows_returned": 2146,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_full_maximum",
+    "plan": "1. Query raw_data to find the maximum value of ECG1.\n2. Round the maximum value to three decimal places.\n3. Output the rounded maximum value as a single numeric value.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Query raw_data to find the maximum value of ECG1\nsql = 'SELECT \"ECG1\" FROM raw_data'\ndf = pd.read_sql_query(sql, conn)\n\n# Find the maximum value of ECG1\nmax_ecg1 = df.max().item()\n\n# Round the maximum value to three decimal places\nrounded_max_ecg1 = np.round(max_ecg1, 3)\n\n# Assign the result\n_result = rounded_max_ecg1\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "4.474",
+    "raw_result": 4.474,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "full",
+    "kind": "maximum",
+    "ground_truth": 4.474,
+    "compressed_view_exact_answer": 4.474,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 5.779558688402176,
+    "llm_seconds": 3.942950926721096,
+    "llm_calls": 2,
+    "input_tokens": 2846,
+    "output_tokens": 176,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "SELECT \"ECG1\" FROM raw_data"
+    ],
+    "sql_rows_returned": 131072,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_full_trend",
+    "plan": "1. Split the raw_data into two halves based on the number of samples.  \n2. Calculate the mean value of ECG1 for the first half and the second half.  \n3. Compare the two means and return 1 if the second half's mean is strictly larger, otherwise return 0.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import json\nimport pandas as pd\n\n# Step 1: Load raw_data into a DataFrame\nraw_data_df = pd.read_sql_query(\"SELECT * FROM raw_data\", conn)\n\n# Step 2: Sort the DataFrame by timestamp to ensure chronological order\nraw_data_df = raw_data_df.sort_values(by='timestamp')\n\n# Step 3: Split the data into two halves\nhalf = len(raw_data_df) // 2\nfirst_half = raw_data_df.iloc[:half]\nsecond_half = raw_data_df.iloc[half:]\n\n# Step 4: Calculate the mean ECG1 value for each half\nmean_first_half = first_half['ECG1'].mean()\nmean_second_half = second_half['ECG1'].mean()\n\n# Step 5: Compare the means and return 1 or 0\n_result = 1 if mean_second_half > mean_first_half else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "0",
+    "raw_result": 0,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "full",
+    "kind": "trend",
+    "ground_truth": false,
+    "compressed_view_exact_answer": false,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 9.60577068850398,
+    "llm_seconds": 5.950926333665848,
+    "llm_calls": 2,
+    "input_tokens": 2911,
+    "output_tokens": 269,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "SELECT * FROM raw_data"
+    ],
+    "sql_rows_returned": 131072,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_full_cooccur",
+    "plan": "1. Query raw_data for rows where both ECG1 and ECG2 are >= 0.5.\n2. Check if there is at least one row that meets the condition.\n3. Return 1 if such a row exists, otherwise return 0.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Query raw_data for rows where both ECG1 and ECG2 are >= 0.5\nsql = \"\"\"\n    SELECT timestamp, \"ECG1\", \"ECG2\"\n    FROM raw_data\n    WHERE \"ECG1\" >= 0.5 AND \"ECG2\" >= 0.5\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Step 2: Check if there is at least one row that meets the condition\nhas_row = not df.empty\n\n# Step 3: Return 1 if such a row exists, otherwise return 0\n_result = 1 if has_row else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "1",
+    "raw_result": 1,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "full",
+    "kind": "cooccur",
+    "ground_truth": true,
+    "compressed_view_exact_answer": true,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 6.123262908309698,
+    "llm_seconds": 5.422300111502409,
+    "llm_calls": 2,
+    "input_tokens": 2903,
+    "output_tokens": 233,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "\n    SELECT timestamp, \"ECG1\", \"ECG2\"\n    FROM raw_data\n    WHERE \"ECG1\" >= 0.5 AND \"ECG2\" >= 0.5\n"
+    ],
+    "sql_rows_returned": 1271,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_paa64_exists05",
+    "plan": "1. Count the number of distinct rows in raw_data where the \"ECG1\" value is >= 0.5.  \n2. Multiply the count by 64 to get the total number of samples meeting the threshold.  \n3. Return 1 if the total is greater than 0, otherwise return 0.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Count the number of distinct rows where ECG1 >= 0.5\nsql = \"\"\"\n    SELECT DISTINCT \"ECG1\"\n    FROM raw_data\n    WHERE \"ECG1\" >= 0.5\n\"\"\"\ndistinct_rows = pd.read_sql_query(sql, conn)\n\n# Step 2: Multiply the count by 64\ntotal_samples = len(distinct_rows) * 64\n\n# Step 3: Return 1 if total_samples > 0, else 0\n_result = 1 if total_samples > 0 else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "1",
+    "raw_result": 1,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "paa64",
+    "kind": "exists05",
+    "ground_truth": true,
+    "compressed_view_exact_answer": true,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 5.645248685032129,
+    "llm_seconds": 5.0160609893500805,
+    "llm_calls": 2,
+    "input_tokens": 2984,
+    "output_tokens": 230,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "\n    SELECT DISTINCT \"ECG1\"\n    FROM raw_data\n    WHERE \"ECG1\" >= 0.5\n"
+    ],
+    "sql_rows_returned": 24,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_paa64_count",
+    "plan": "1. Scan the raw_data table to identify contiguous runs of ECG1 samples >= 0.5, grouping them into runs based on the defined rules.  \n2. Count the number of maximal contiguous runs found in step 1.  \n3. Return the integer run count as the final result.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Extract ECG1 values and timestamps from raw_data\nsql = \"\"\"\n    SELECT timestamp, \"ECG1\" AS value\n    FROM raw_data\n    ORDER BY timestamp\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Step 2: Identify contiguous runs of ECG1 >= 0.5\nruns = []\ncurrent_run = None\n\nfor index, row in df.iterrows():\n    value = row['value']\n    if value >= 0.5:\n        if current_run is None:\n            current_run = {'start': row['timestamp'], 'end': row['timestamp']}\n        current_run['end'] = row['timestamp']\n    else:\n        if current_run is not None:\n            runs.append(current_run)\n            current_run = None\nif current_run is not None:\n    runs.append(current_run)\n\n# Step 3: Count the number of maximal contiguous runs\nrun_count = len(runs)\n\n# Final result\n_result = run_count\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "13",
+    "raw_result": 13,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "paa64",
+    "kind": "count",
+    "ground_truth": 2149,
+    "compressed_view_exact_answer": 13,
+    "official_relative_score": 0.006049325268028816,
+    "exact_numeric_correct": false,
+    "view_numeric_correct": true,
+    "wall_seconds": 7.288962364196777,
+    "llm_seconds": 6.526592381298542,
+    "llm_calls": 2,
+    "input_tokens": 3036,
+    "output_tokens": 307,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "\n    SELECT timestamp, \"ECG1\" AS value\n    FROM raw_data\n    ORDER BY timestamp\n"
+    ],
+    "sql_rows_returned": 2048,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_paa64_duration",
+    "plan": "1. Count the number of rows in raw_data where \"ECG1\" >= 1.0.  \n2. Multiply the count by 64 to get the total number of samples meeting the threshold.  \n3. Return the resulting integer value.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Count the number of rows in raw_data where \"ECG1\" >= 1.0\nsql_query = 'SELECT COUNT(*) FROM raw_data WHERE \"ECG1\" >= 1.0'\nresult = pd.read_sql_query(sql_query, conn).iloc[0, 0].item()\n\n# Step 2: Multiply the count by 64 to get the total number of samples meeting the threshold\ntotal_samples = int(result * 64)\n\n# Step 3: Return the resulting integer value\n_result = total_samples\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "896",
+    "raw_result": 896,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "paa64",
+    "kind": "duration",
+    "ground_truth": 1073,
+    "compressed_view_exact_answer": 896,
+    "official_relative_score": 0.8350419384903681,
+    "exact_numeric_correct": false,
+    "view_numeric_correct": true,
+    "wall_seconds": 4.87609713152051,
+    "llm_seconds": 4.344811826944351,
+    "llm_calls": 2,
+    "input_tokens": 2973,
+    "output_tokens": 210,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "SELECT COUNT(*) FROM raw_data WHERE \"ECG1\" >= 1.0"
+    ],
+    "sql_rows_returned": 1,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_paa64_maximum",
+    "plan": "1. Query raw_data to find the maximum value of ECG1.\n2. Round the maximum value to three decimal places.\n3. Output the rounded maximum value as a single numeric value.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import json\nimport sqlite3\nimport pandas as pd\n\n# Step 1: Query raw_data to find the maximum value of ECG1\nsql = 'SELECT \"ECG1\" FROM raw_data'\ndf = pd.read_sql_query(sql, conn)\n\n# Step 2: Find the maximum value and round it to three decimal places\nmax_ecg1 = df['ECG1'].max().item()\nrounded_max_ecg1 = round(max_ecg1, 3)\n\n# Step 3: Output the rounded maximum value\n_result = rounded_max_ecg1\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "2.883",
+    "raw_result": 2.883,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "paa64",
+    "kind": "maximum",
+    "ground_truth": 4.474,
+    "compressed_view_exact_answer": 2.883,
+    "official_relative_score": 0.6443898078577581,
+    "exact_numeric_correct": false,
+    "view_numeric_correct": true,
+    "wall_seconds": 4.372249405831099,
+    "llm_seconds": 3.80963646620512,
+    "llm_calls": 2,
+    "input_tokens": 2934,
+    "output_tokens": 182,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "SELECT \"ECG1\" FROM raw_data"
+    ],
+    "sql_rows_returned": 2048,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_paa64_trend",
+    "plan": "1. Split the raw_data into two halves based on the number of rows, ensuring each row represents 64 consecutive samples.\n2. Calculate the mean value of ECG1 for the first half of the data.\n3. Calculate the mean value of ECG1 for the second half of the data.\n4. Compare the two means and return 1 if the second half's mean is strictly larger, otherwise return 0.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Load raw_data\nraw_data = pd.read_sql_query(\"SELECT * FROM raw_data\", conn)\n\n# Step 2: Split the data into two halves based on the number of rows\nnum_rows = len(raw_data)\nhalf = num_rows // 2\nfirst_half = raw_data.iloc[:half]\nsecond_half = raw_data.iloc[half:]\n\n# Step 3: Calculate the mean ECG1 for each half\nmean_first_half = first_half['ECG1'].mean()\nmean_second_half = second_half['ECG1'].mean()\n\n# Step 4: Compare the means and return 1 or 0\n_result = 1 if mean_second_half > mean_first_half else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "0",
+    "raw_result": 0,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "paa64",
+    "kind": "trend",
+    "ground_truth": false,
+    "compressed_view_exact_answer": false,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 6.340626090764999,
+    "llm_seconds": 5.67669690027833,
+    "llm_calls": 2,
+    "input_tokens": 3024,
+    "output_tokens": 277,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "SELECT * FROM raw_data"
+    ],
+    "sql_rows_returned": 2048,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  },
+  {
+    "task_id": "V020_100_131072_paa64_cooccur",
+    "plan": "1. Count the number of rows in raw_data where both \"ECG1\" and \"ECG2\" are >= 0.5 in the same timestamp row.\n2. Multiply the count by 64 to get the total number of samples meeting the condition.\n3. Return 1 if the result is greater than 0, otherwise return 0.",
+    "chosen_skills": [],
+    "code_attempts": [
+      "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Count the number of rows where both ECG1 and ECG2 are >= 0.5\nsql_query = \"\"\"\n    SELECT COUNT(*) \n    FROM raw_data \n    WHERE \"ECG1\" >= 0.5 AND \"ECG2\" >= 0.5\n\"\"\"\ncount = pd.read_sql_query(sql_query, conn).iloc[0, 0].item()\n\n# Step 2: Multiply the count by 64\ntotal_samples = count * 64\n\n# Step 3: Return 1 if the result is greater than 0, otherwise return 0\n_result = 1 if total_samples > 0 else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+    ],
+    "executor_log": [
+      {
+        "status": "ok",
+        "message": ""
+      }
+    ],
+    "prediction": "1",
+    "raw_result": 1,
+    "final_status": "ok",
+    "final_message": "",
+    "native": false,
+    "view": "paa64",
+    "kind": "cooccur",
+    "ground_truth": true,
+    "compressed_view_exact_answer": true,
+    "official_relative_score": 1.0,
+    "exact_numeric_correct": true,
+    "view_numeric_correct": true,
+    "wall_seconds": 5.837387174367905,
+    "llm_seconds": 5.3091980665922165,
+    "llm_calls": 2,
+    "input_tokens": 3011,
+    "output_tokens": 258,
+    "code_failures": 0,
+    "code_retries": 0,
+    "sql_queries": [
+      "\n    SELECT COUNT(*) \n    FROM raw_data \n    WHERE \"ECG1\" >= 0.5 AND \"ECG2\" >= 0.5\n"
+    ],
+    "sql_rows_returned": 1,
+    "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+  }
+]

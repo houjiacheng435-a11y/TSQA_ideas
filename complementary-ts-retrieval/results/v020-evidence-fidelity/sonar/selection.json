@@ -1,0 +1,22 @@
+{
+  "native_ids": [
+    "L1_T1_Global_Aggregation_00007",
+    "L1_T1_Global_Aggregation_00009"
+  ],
+  "unified_ids": [
+    "V020_100_131072_full_exists05",
+    "V020_100_131072_full_count",
+    "V020_100_131072_full_duration",
+    "V020_100_131072_full_maximum",
+    "V020_100_131072_full_trend",
+    "V020_100_131072_full_cooccur",
+    "V020_100_131072_paa64_exists05",
+    "V020_100_131072_paa64_count",
+    "V020_100_131072_paa64_duration",
+    "V020_100_131072_paa64_maximum",
+    "V020_100_131072_paa64_trend",
+    "V020_100_131072_paa64_cooccur"
+  ],
+  "rule": "Two lexicographically first native Global Aggregation tasks; reuse local files or fetch and hash-check only the two missing CSVs, then predefined six numeric queries on record100 middle-length context, full and PAA64 views. No model-outcome reselection.",
+  "adaptations": "Existing local Qwen3 backbone; independent SQLite loading preserving fractional seconds; official planner/generator/skills/executor/postprocessor unchanged."
+}

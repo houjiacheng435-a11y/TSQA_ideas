@@ -1,0 +1,502 @@
+{
+  "sha": "95fe2c1d50561538a6fe822ec6a97e0f0829ff80",
+  "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/95fe2c1d50561538a6fe822ec6a97e0f0829ff80",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "768d5dd54fd97f0d41e6a94050fb640a589e900b",
+      "size": 362,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/768d5dd54fd97f0d41e6a94050fb640a589e900b"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b635af438d42352f37ce3483ba9be4b027d80db1",
+      "size": 869,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/b635af438d42352f37ce3483ba9be4b027d80db1"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31a6ac374e73246471c2e2c512178298de4b8117",
+      "size": 7737,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/31a6ac374e73246471c2e2c512178298de4b8117"
+    },
+    {
+      "path": "analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "551f7757a9cdb2f14119a75a017e2f94d306bec0",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/551f7757a9cdb2f14119a75a017e2f94d306bec0"
+    },
+    {
+      "path": "analysis/make_figures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b0807ee6424b20391efe80411409042b42cd1f4",
+      "size": 22603,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/5b0807ee6424b20391efe80411409042b42cd1f4"
+    },
+    {
+      "path": "analysis/make_tables.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543fc950ff100654d460f65fcc55593cec824046",
+      "size": 25932,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/543fc950ff100654d460f65fcc55593cec824046"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43b3f6f72df3c6aa935ef9641fb69575330329ba",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/43b3f6f72df3c6aa935ef9641fb69575330329ba"
+    },
+    {
+      "path": "configs/encodings.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f5bbb63f8055e9b3722160bd6fcaeba380b0904",
+      "size": 9304,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/1f5bbb63f8055e9b3722160bd6fcaeba380b0904"
+    },
+    {
+      "path": "configs/keys",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d515134c317098ae99115d65335c5a43f1c5c6f",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/1d515134c317098ae99115d65335c5a43f1c5c6f"
+    },
+    {
+      "path": "configs/keys/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f895eaff0ff81ff5488b30f8e68b08b6a2a868d5",
+      "size": 602,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/f895eaff0ff81ff5488b30f8e68b08b6a2a868d5"
+    },
+    {
+      "path": "configs/letter_groups.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dfda37cc9a937ef02a56f8045f1ce03a863344d",
+      "size": 770,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/6dfda37cc9a937ef02a56f8045f1ce03a863344d"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed2207343584537fb30d9795faefe390ac7f5a33",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/ed2207343584537fb30d9795faefe390ac7f5a33"
+    },
+    {
+      "path": "data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f469ba9b93dceafb02d7a78e7f95c509da2f314b",
+      "size": 391,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/f469ba9b93dceafb02d7a78e7f95c509da2f314b"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9b1a29665e7d6f9a6b58a7a9b371a1b0bf2aefe",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/d9b1a29665e7d6f9a6b58a7a9b371a1b0bf2aefe"
+    },
+    {
+      "path": "docs/DATA.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b90ef445f059f67c5644db81eebee7189a70bca",
+      "size": 5822,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/6b90ef445f059f67c5644db81eebee7189a70bca"
+    },
+    {
+      "path": "docs/REPRODUCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62cb37b375eae73e7c2187a77ef2487d0651026b",
+      "size": 12743,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/62cb37b375eae73e7c2187a77ef2487d0651026b"
+    },
+    {
+      "path": "docs/verified_numbers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a55e6f2248f4be54e32cd5af4e7017f0a33e5a50",
+      "size": 14002,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/a55e6f2248f4be54e32cd5af4e7017f0a33e5a50"
+    },
+    {
+      "path": "experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef6f249cf8f502dbae2ebbaad918643155d6202e",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/ef6f249cf8f502dbae2ebbaad918643155d6202e"
+    },
+    {
+      "path": "experiments/E0_build_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6694215f87c7dcc4686440c152b80f0f6711ee67",
+      "size": 1426,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/6694215f87c7dcc4686440c152b80f0f6711ee67"
+    },
+    {
+      "path": "experiments/E10_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e7f97252c989311f7776518821b803653a71cd",
+      "size": 5886,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/78e7f97252c989311f7776518821b803653a71cd"
+    },
+    {
+      "path": "experiments/E16_weak_letters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c88d32946fc6fb03e964b71323262dc53921002c",
+      "size": 3470,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/c88d32946fc6fb03e964b71323262dc53921002c"
+    },
+    {
+      "path": "experiments/E17_transfer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "866bda73b597ca17c31b13a34ef4ed7be4b907ca",
+      "size": 4138,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/866bda73b597ca17c31b13a34ef4ed7be4b907ca"
+    },
+    {
+      "path": "experiments/E2_zero_skill.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acecc739befb748d160e686343eeb2a8037e2f1a",
+      "size": 5092,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/acecc739befb748d160e686343eeb2a8037e2f1a"
+    },
+    {
+      "path": "experiments/E6_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "232fcc58aa23016f7ba7eca28ac1d89739e48b8e",
+      "size": 12870,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/232fcc58aa23016f7ba7eca28ac1d89739e48b8e"
+    },
+    {
+      "path": "experiments/E8_stress.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df816ae5d3a98d8e5a512838c5215f86914e131d",
+      "size": 3528,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/df816ae5d3a98d8e5a512838c5215f86914e131d"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc75e65340134a8a37fc6f4cbde82ec980e75c80",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/cc75e65340134a8a37fc6f4cbde82ec980e75c80"
+    },
+    {
+      "path": "figures/intro.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe1d961d79125d30e4a23f70fe1b7b50afc65dfe",
+      "size": 229250,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/fe1d961d79125d30e4a23f70fe1b7b50afc65dfe"
+    },
+    {
+      "path": "figures/intro.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc8f128ac34856bb723a7741bdc2e5e643b67019",
+      "size": 193989,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/cc8f128ac34856bb723a7741bdc2e5e643b67019"
+    },
+    {
+      "path": "figures/letters.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9ab42451d6706ca0d82181da0f734c5b2c582bc",
+      "size": 39458,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/c9ab42451d6706ca0d82181da0f734c5b2c582bc"
+    },
+    {
+      "path": "figures/letters.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8a3ae0897358b3e6c588794f30a6ee1e191451e",
+      "size": 59309,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/c8a3ae0897358b3e6c588794f30a6ee1e191451e"
+    },
+    {
+      "path": "figures/models.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a48a22c4e7ed3e1349467e4fbeb8a83ad0065b75",
+      "size": 40310,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/a48a22c4e7ed3e1349467e4fbeb8a83ad0065b75"
+    },
+    {
+      "path": "figures/models.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adee771011fd1b18adee6c2c35a1329a0220b387",
+      "size": 38371,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/adee771011fd1b18adee6c2c35a1329a0220b387"
+    },
+    {
+      "path": "figures/pipeline.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bab437b948fc59c09d96ac932919db66ae87e0f",
+      "size": 143405,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/5bab437b948fc59c09d96ac932919db66ae87e0f"
+    },
+    {
+      "path": "figures/scale.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96396a119722329fbcbd72c81df1256a5822140b",
+      "size": 18581,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/96396a119722329fbcbd72c81df1256a5822140b"
+    },
+    {
+      "path": "figures/stress.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5ccd0dfd91397245f4ec01e0cceec2607b74f74",
+      "size": 22341,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/c5ccd0dfd91397245f4ec01e0cceec2607b74f74"
+    },
+    {
+      "path": "figures/transfer.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb6d809e8d476c8a27581b4d9c09b95f980f5857",
+      "size": 23817,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/bb6d809e8d476c8a27581b4d9c09b95f980f5857"
+    },
+    {
+      "path": "figures/tt-sax.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cb2ec89b977760bdc4e30049f11399ac79e33ff",
+      "size": 136288,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/6cb2ec89b977760bdc4e30049f11399ac79e33ff"
+    },
+    {
+      "path": "figures/tt-sax.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b86d5ec37aa785fb0911e587a52e5776c3d9c5c",
+      "size": 93714,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/1b86d5ec37aa785fb0911e587a52e5776c3d9c5c"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1159c3382ce95eb0f808cc13b6b935fc8eb30d3d",
+      "size": 166,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/1159c3382ce95eb0f808cc13b6b935fc8eb30d3d"
+    },
+    {
+      "path": "symq",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93015da18a2b19540ba9171905392a4f14bcf9e6",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/93015da18a2b19540ba9171905392a4f14bcf9e6"
+    },
+    {
+      "path": "symq/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d79591dfd9f2c5339a11157dcdefc63eaed6d0e",
+      "size": 1347,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/2d79591dfd9f2c5339a11157dcdefc63eaed6d0e"
+    },
+    {
+      "path": "symq/analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "126b1ad9b5c88b8d9a8906a65e9db65604a6e378",
+      "size": 6339,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/126b1ad9b5c88b8d9a8906a65e9db65604a6e378"
+    },
+    {
+      "path": "symq/cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "477bf17f9cc64087b76060681206f17686908f6f",
+      "size": 1781,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/477bf17f9cc64087b76060681206f17686908f6f"
+    },
+    {
+      "path": "symq/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf7d4806af94aa8518bcec0716901914c5942d09",
+      "size": 3396,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/bf7d4806af94aa8518bcec0716901914c5942d09"
+    },
+    {
+      "path": "symq/encoders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b8df2897b326289b3df7c2d2d16532c4b145493",
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/trees/0b8df2897b326289b3df7c2d2d16532c4b145493"
+    },
+    {
+      "path": "symq/encoders/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "602700d9703732651c87ec357ce83dcc1c5bb8e5",
+      "size": 1050,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/602700d9703732651c87ec357ce83dcc1c5bb8e5"
+    },
+    {
+      "path": "symq/encoders/abba.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8760b91e8c3b9c9b43a89cefc6755437f96bdc01",
+      "size": 4521,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/8760b91e8c3b9c9b43a89cefc6755437f96bdc01"
+    },
+    {
+      "path": "symq/encoders/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e04f7d75080ea898971593334b8481a51eaec72e",
+      "size": 1597,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/e04f7d75080ea898971593334b8481a51eaec72e"
+    },
+    {
+      "path": "symq/encoders/esax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f210ef96b9a0ee5aef9bf080f4a84e70ff38ad6c",
+      "size": 2673,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/f210ef96b9a0ee5aef9bf080f4a84e70ff38ad6c"
+    },
+    {
+      "path": "symq/encoders/onedsax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d47a2335db87b750b1aa2bc7dca42ff22ff22fb4",
+      "size": 3108,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/d47a2335db87b750b1aa2bc7dca42ff22ff22fb4"
+    },
+    {
+      "path": "symq/encoders/sax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f80aab49df0394be8dc48b9d0563a4c25dd09701",
+      "size": 1459,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/f80aab49df0394be8dc48b9d0563a4c25dd09701"
+    },
+    {
+      "path": "symq/encoders/tfsax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28c35fee8fcba0a60df3df5dfbe24f7784773cd",
+      "size": 3052,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/f28c35fee8fcba0a60df3df5dfbe24f7784773cd"
+    },
+    {
+      "path": "symq/encoders/tsax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62481a5a37b3aa8c4199e427353344fee1b8dad1",
+      "size": 2123,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/62481a5a37b3aa8c4199e427353344fee1b8dad1"
+    },
+    {
+      "path": "symq/encoders/ttsax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d99f02476217e611815f98d9d6ac061126cc671",
+      "size": 23412,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/4d99f02476217e611815f98d9d6ac061126cc671"
+    },
+    {
+      "path": "symq/encoders/widened.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4243a63c4f49b3ce2f16c03c973885173b855425",
+      "size": 6636,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/4243a63c4f49b3ce2f16c03c973885173b855425"
+    },
+    {
+      "path": "symq/harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd133c6c4a3269f2ccaf3379837e8b76f652384a",
+      "size": 7819,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/fd133c6c4a3269f2ccaf3379837e8b76f652384a"
+    },
+    {
+      "path": "symq/keys.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e9a52842859eec625c6ce88bbb46c60a25ab3a5",
+      "size": 1952,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/0e9a52842859eec625c6ce88bbb46c60a25ab3a5"
+    },
+    {
+      "path": "symq/llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f65226fc9746fbc6afcd4d031366125abfeeeac3",
+      "size": 5138,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/f65226fc9746fbc6afcd4d031366125abfeeeac3"
+    },
+    {
+      "path": "symq/prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68946b4fe0c3e10741134c3f7cc2fcdbee57ec03",
+      "size": 5778,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/68946b4fe0c3e10741134c3f7cc2fcdbee57ec03"
+    },
+    {
+      "path": "symq/search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61709b451d71f19704a300a7c8540367463e64e8",
+      "size": 1815,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/61709b451d71f19704a300a7c8540367463e64e8"
+    },
+    {
+      "path": "symq/verify_ct.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa515a81603a8935a79b155238495262c3840986",
+      "size": 3550,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/aa515a81603a8935a79b155238495262c3840986"
+    },
+    {
+      "path": "ttsax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea3ac634a53abb41d0ae8370101fc13c23d21d08",
+      "size": 7666,
+      "url": "https://api.github.com/repos/Atlamtiz/tt-sax/git/blobs/ea3ac634a53abb41d0ae8370101fc13c23d21d08"
+    }
+  ],
+  "truncated": false
+}

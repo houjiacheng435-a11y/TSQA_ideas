@@ -1,0 +1,110 @@
+{
+  "purpose": "Raw signal payload is kept locally, excluded from GitHub; SQL, row counts, errors, final scalar outputs and payload checksums retained.",
+  "files": [
+    {
+      "local_original": "sonar/traces/L1_T1_Global_Aggregation_00007/sql-0.jsonl.gz",
+      "local_sha256": "8b960c89ec0eecded8e053c93bc09b88dc824cdd1e8d049b72a55ea74173422f",
+      "local_bytes": 8730,
+      "published": "sonar/public-sql/L1_T1_Global_Aggregation_00007/sql-0.jsonl.gz",
+      "published_sha256": "10a5bc19c05bbe9f33ae80382c2d0048ee9d7e16758c07f6e7f3dc59e1d859e3"
+    },
+    {
+      "local_original": "sonar/traces/L1_T1_Global_Aggregation_00009/sql-0.jsonl.gz",
+      "local_sha256": "e67a3e30b961d1678ad3cb5698923950a654d2b51e74d03b270d1bdab15d9580",
+      "local_bytes": 7996,
+      "published": "sonar/public-sql/L1_T1_Global_Aggregation_00009/sql-0.jsonl.gz",
+      "published_sha256": "ba87ee80affaf5fb463bd205879ae88472664d9c216859bb9f34925859809718"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_full_cooccur/sql-0.jsonl.gz",
+      "local_sha256": "f886e6379fb61b139a8d58963eb0f89dacf67269e4d172ef8c2d12ee0a8251d7",
+      "local_bytes": 34005,
+      "published": "sonar/public-sql/V020_100_131072_full_cooccur/sql-0.jsonl.gz",
+      "published_sha256": "3a936143af85aaaa5275ac29fc87ef3225b7df02c945166aa0700868fdc88fc4"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_full_count/sql-0.jsonl.gz",
+      "local_sha256": "3bf375ef421cd021f67b5836854d24d69de0cfb28181288663a412d234811759",
+      "local_bytes": 1589756,
+      "published": "sonar/public-sql/V020_100_131072_full_count/sql-0.jsonl.gz",
+      "published_sha256": "6396ad8f5366ea9fbb8dbe658fd623cbb6ed665b6a28f9abd7a257492ef740f4"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_full_duration/sql-0.jsonl.gz",
+      "local_sha256": "755185d26f07d4485e501c6c8798a92fd045308fe39632d85154e316102dee9b",
+      "local_bytes": 11200,
+      "published": "sonar/public-sql/V020_100_131072_full_duration/sql-0.jsonl.gz",
+      "published_sha256": "051fea16435931e9194748151bf353f47e72d5701e604e2dca071b36eac8fd33"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_full_duration/sql-1.jsonl.gz",
+      "local_sha256": "9119772dc0601d35d1f4031f4ec3a36f1b7bbfe48fe93dce67aee069a5963f4c",
+      "local_bytes": 11212,
+      "published": "sonar/public-sql/V020_100_131072_full_duration/sql-1.jsonl.gz",
+      "published_sha256": "ce4408589d1bbfad8d5018baa34e08194cb24b2b2be11b8bf4f1d6d4d0f10b4e"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_full_exists05/sql-0.jsonl.gz",
+      "local_sha256": "a8fb2b593f1911ef7fd7a53b8d2f5b2eb6a2caa6e0870fb9c83d85a69e988d0e",
+      "local_bytes": 703617,
+      "published": "sonar/public-sql/V020_100_131072_full_exists05/sql-0.jsonl.gz",
+      "published_sha256": "e1aad0a582e76b46bf79f9295cf8ca8f37fa8b6867bdd5c0572b8a9979bded3e"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_full_maximum/sql-0.jsonl.gz",
+      "local_sha256": "462f9201a02db82a84483f7c98fae1c7eb0d368e109cd9b5b48c2d90e3cce2cc",
+      "local_bytes": 703640,
+      "published": "sonar/public-sql/V020_100_131072_full_maximum/sql-0.jsonl.gz",
+      "published_sha256": "e3a41d1e5c81ef18c278bceb3f1ff332accd60b340460852cc66d34510aefa5d"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_full_trend/sql-0.jsonl.gz",
+      "local_sha256": "7879b407e8addbe33361d7a6e7fdb97fab129e2719ebad177e70579d2c59f105",
+      "local_bytes": 3541832,
+      "published": "sonar/public-sql/V020_100_131072_full_trend/sql-0.jsonl.gz",
+      "published_sha256": "6c45b6f6983e36d6f56cd5f56db76725618942282e5c1c3d0215bae295222ead"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_paa64_cooccur/sql-0.jsonl.gz",
+      "local_sha256": "1c706d9d3a93b4ec3f67670105867a22bf0264de74955953653a4155143e345e",
+      "local_bytes": 612,
+      "published": "sonar/public-sql/V020_100_131072_paa64_cooccur/sql-0.jsonl.gz",
+      "published_sha256": "9d3ae61050d1335c9e80442b99aeaf348cd8c07d75d9139881d663e30f8f5386"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_paa64_count/sql-0.jsonl.gz",
+      "local_sha256": "12cfaf191014fbde8da9d88e9c7c634ae39d698fbe5e815ba755f8084a9c1183",
+      "local_bytes": 51970,
+      "published": "sonar/public-sql/V020_100_131072_paa64_count/sql-0.jsonl.gz",
+      "published_sha256": "0b359aca07643316044332627be57bcae0590c19a16929329edccbaf98af532c"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_paa64_duration/sql-0.jsonl.gz",
+      "local_sha256": "8d26e557a185605a22c3fd77db0b9d117db03b4cd8d8d22c17b8454ed5b8af3c",
+      "local_bytes": 556,
+      "published": "sonar/public-sql/V020_100_131072_paa64_duration/sql-0.jsonl.gz",
+      "published_sha256": "1bdc790c46b489bef2c984c3d3ea33721478abdcee80a0ece00f5090ba0fc3f4"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_paa64_exists05/sql-0.jsonl.gz",
+      "local_sha256": "ce085f662b32abd085c363b9b5c417159f7ce256cc52ccf88c9042292f8d9f2f",
+      "local_bytes": 1207,
+      "published": "sonar/public-sql/V020_100_131072_paa64_exists05/sql-0.jsonl.gz",
+      "published_sha256": "26abbe654fd3ca6e6a0fac2874ca5222507a07c916521a1c640de86bc67f66ec"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_paa64_maximum/sql-0.jsonl.gz",
+      "local_sha256": "93fc9dcc3b7adbc183f1fca03528ac6e3d695ec100b12db2a236a4e63604b0b6",
+      "local_bytes": 35512,
+      "published": "sonar/public-sql/V020_100_131072_paa64_maximum/sql-0.jsonl.gz",
+      "published_sha256": "fb3c729cc25f136f54bdfada3b1d9ba1f51f61cfe71abb1b9aab99631b9811b9"
+    },
+    {
+      "local_original": "sonar/traces/V020_100_131072_paa64_trend/sql-0.jsonl.gz",
+      "local_sha256": "81e5093e173ec59c1a7c31b0329030e2d2ec06e13bdf66b5031b963acf0fd5fc",
+      "local_bytes": 135930,
+      "published": "sonar/public-sql/V020_100_131072_paa64_trend/sql-0.jsonl.gz",
+      "published_sha256": "e1b0578f240de0e15dfbd6158a4c9c416acff3cead0ca0b984cddf8c89b1ef61"
+    }
+  ]
+}

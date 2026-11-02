@@ -1,0 +1,32 @@
+{
+  "label": "Sonar-TS + local Qwen3-8B, v020 numeric ECG adapter",
+  "base_url": "http://127.0.0.1:8020/v1",
+  "dtype": "BF16",
+  "thinking": false,
+  "temperature": 0,
+  "max_tokens": 4096,
+  "workers": 1,
+  "context": 16384,
+  "official_commit": "99866c43cd7ceb91a929de745e9f49cea92962e5",
+  "paid_api": false,
+  "shape_rules": {
+    "rel_acc": {
+      "expected": "scalar"
+    },
+    "hit": {
+      "expected": "timestamp"
+    },
+    "iou": {
+      "expected": "interval"
+    },
+    "set_f1": {
+      "expected": "date_set",
+      "max_items": 50
+    },
+    "report": {
+      "expected": "report_dict"
+    }
+  },
+  "server_seed": null,
+  "seed_note": "No explicit server seed; vLLM log records seed=None. Greedy non-thinking decoding, not a promise of bitwise GPU reproducibility."
+}

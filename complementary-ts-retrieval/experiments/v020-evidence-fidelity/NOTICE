@@ -1,0 +1,6 @@
+All new v020 implementations are independent experiment code. No upstream source is copied into core.py.
+Official Sonar-TS, TT-SAX, TS-Haystack and TimeRLM repositories remain separate, unmodified checkouts.
+sonar_bridge.py reuses this project's committed v016 LocalClient and traced_runner, which instrument the official read-only executor; see v016/NOTICE and licenses.
+TS-Haystack pinned LICENSE states CC-BY-NC-4.0 (its README badge differs). Original dataset and upstream code licenses continue to apply.
+Signal data are real LTAF-derived released files, not new clinical labels. Download scripts retain provenance and SHA-256 and do not upload data or weights.
+Source API metadata/README snapshots in results/sources are provenance artifacts, not a claim of ownership. Please follow the original repository licenses when reusing.

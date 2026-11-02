@@ -1,0 +1,38 @@
+{
+  "task_id": "V020_100_131072_full_cooccur",
+  "plan": "1. Query raw_data for rows where both ECG1 and ECG2 are >= 0.5.\n2. Check if there is at least one row that meets the condition.\n3. Return 1 if such a row exists, otherwise return 0.",
+  "chosen_skills": [],
+  "code_attempts": [
+    "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Query raw_data for rows where both ECG1 and ECG2 are >= 0.5\nsql = \"\"\"\n    SELECT timestamp, \"ECG1\", \"ECG2\"\n    FROM raw_data\n    WHERE \"ECG1\" >= 0.5 AND \"ECG2\" >= 0.5\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Step 2: Check if there is at least one row that meets the condition\nhas_row = not df.empty\n\n# Step 3: Return 1 if such a row exists, otherwise return 0\n_result = 1 if has_row else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+  ],
+  "executor_log": [
+    {
+      "status": "ok",
+      "message": ""
+    }
+  ],
+  "prediction": "1",
+  "raw_result": 1,
+  "final_status": "ok",
+  "final_message": "",
+  "native": false,
+  "view": "full",
+  "kind": "cooccur",
+  "ground_truth": true,
+  "compressed_view_exact_answer": true,
+  "official_relative_score": 1.0,
+  "exact_numeric_correct": true,
+  "view_numeric_correct": true,
+  "wall_seconds": 6.123262908309698,
+  "llm_seconds": 5.422300111502409,
+  "llm_calls": 2,
+  "input_tokens": 2903,
+  "output_tokens": 233,
+  "code_failures": 0,
+  "code_retries": 0,
+  "sql_queries": [
+    "\n    SELECT timestamp, \"ECG1\", \"ECG2\"\n    FROM raw_data\n    WHERE \"ECG1\" >= 0.5 AND \"ECG2\" >= 0.5\n"
+  ],
+  "sql_rows_returned": 1271,
+  "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+}

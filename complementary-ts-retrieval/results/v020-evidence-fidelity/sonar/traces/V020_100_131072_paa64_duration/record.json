@@ -1,0 +1,38 @@
+{
+  "task_id": "V020_100_131072_paa64_duration",
+  "plan": "1. Count the number of rows in raw_data where \"ECG1\" >= 1.0.  \n2. Multiply the count by 64 to get the total number of samples meeting the threshold.  \n3. Return the resulting integer value.",
+  "chosen_skills": [],
+  "code_attempts": [
+    "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Count the number of rows in raw_data where \"ECG1\" >= 1.0\nsql_query = 'SELECT COUNT(*) FROM raw_data WHERE \"ECG1\" >= 1.0'\nresult = pd.read_sql_query(sql_query, conn).iloc[0, 0].item()\n\n# Step 2: Multiply the count by 64 to get the total number of samples meeting the threshold\ntotal_samples = int(result * 64)\n\n# Step 3: Return the resulting integer value\n_result = total_samples\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+  ],
+  "executor_log": [
+    {
+      "status": "ok",
+      "message": ""
+    }
+  ],
+  "prediction": "896",
+  "raw_result": 896,
+  "final_status": "ok",
+  "final_message": "",
+  "native": false,
+  "view": "paa64",
+  "kind": "duration",
+  "ground_truth": 1073,
+  "compressed_view_exact_answer": 896,
+  "official_relative_score": 0.8350419384903681,
+  "exact_numeric_correct": false,
+  "view_numeric_correct": true,
+  "wall_seconds": 4.87609713152051,
+  "llm_seconds": 4.344811826944351,
+  "llm_calls": 2,
+  "input_tokens": 2973,
+  "output_tokens": 210,
+  "code_failures": 0,
+  "code_retries": 0,
+  "sql_queries": [
+    "SELECT COUNT(*) FROM raw_data WHERE \"ECG1\" >= 1.0"
+  ],
+  "sql_rows_returned": 1,
+  "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+}

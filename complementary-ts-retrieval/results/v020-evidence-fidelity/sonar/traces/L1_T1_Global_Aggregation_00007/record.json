@@ -1,0 +1,38 @@
+{
+  "task_id": "L1_T1_Global_Aggregation_00007",
+  "plan": "1. Query raw_data for channel \"147\" between 2020-05-20 and 2020-05-31.\n    2. Compute the median value of the selected data.",
+  "chosen_skills": [],
+  "code_attempts": [
+    "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Query raw_data for channel \"147\" between 2020-05-20 and 2020-05-31\nsql = \"\"\"\n    SELECT timestamp, \"147\" AS value\n    FROM raw_data\n    WHERE timestamp BETWEEN '2020-05-20' AND '2020-05-31'\n\"\"\"\ndf = pd.read_sql_query(sql, conn)\n\n# Compute the median value\nmedian_value = df['value'].median().item()\n\n# Format the result to 3 decimal places\n_result = round(median_value, 3)\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+  ],
+  "executor_log": [
+    {
+      "status": "ok",
+      "message": ""
+    }
+  ],
+  "prediction": "0.15",
+  "raw_result": 0.15,
+  "final_status": "ok",
+  "final_message": "",
+  "native": true,
+  "view": "native",
+  "kind": "native",
+  "ground_truth": 0.15,
+  "compressed_view_exact_answer": 0.15,
+  "official_relative_score": 1.0,
+  "exact_numeric_correct": true,
+  "view_numeric_correct": true,
+  "wall_seconds": 6.007221329957247,
+  "llm_seconds": 5.471889976412058,
+  "llm_calls": 2,
+  "input_tokens": 2817,
+  "output_tokens": 227,
+  "code_failures": 0,
+  "code_retries": 0,
+  "sql_queries": [
+    "\n    SELECT timestamp, \"147\" AS value\n    FROM raw_data\n    WHERE timestamp BETWEEN '2020-05-20' AND '2020-05-31'\n"
+  ],
+  "sql_rows_returned": 1056,
+  "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+}

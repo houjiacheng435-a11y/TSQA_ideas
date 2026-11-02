@@ -1,0 +1,312 @@
+[
+  {
+    "method": "uniform",
+    "ratio": 4,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "uniform",
+    "ratio": 16,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "uniform",
+    "ratio": 64,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12160,
+      12224
+    ],
+    "changed_channel": 0,
+    "operation": "stable descending sort",
+    "exclude_first_sample_of_block": true,
+    "same_representation_bytes": true,
+    "signature_sha256": "7cc68ac78fcc47a68f1830245d2a23577baee7c208d6a4e4b9f7d8dbd8102ef9",
+    "answer_changes": {
+      "count": [
+        9,
+        10
+      ],
+      "first": [
+        12173,
+        12161
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "uniform",
+    "ratio": 256,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12032,
+      12288
+    ],
+    "changed_channel": 0,
+    "operation": "stable ascending sort",
+    "exclude_first_sample_of_block": true,
+    "same_representation_bytes": true,
+    "signature_sha256": "0ba65e57fe23b86cb4c3c6d02a45c733d515fc9add5c2481273332f2978acbf7",
+    "answer_changes": {
+      "argmax": [
+        12281,
+        12287
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "paa",
+    "ratio": 4,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "paa",
+    "ratio": 16,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "paa",
+    "ratio": 64,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12160,
+      12224
+    ],
+    "changed_channel": 0,
+    "operation": "stable descending sort",
+    "exclude_first_sample_of_block": false,
+    "same_representation_bytes": true,
+    "signature_sha256": "d09579f89032fd9034a3cd13fca6a9aa9d338dbf0af674c9cf295aa2640258b8",
+    "answer_changes": {
+      "count": [
+        9,
+        10
+      ],
+      "first": [
+        12173,
+        12160
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "paa",
+    "ratio": 256,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12032,
+      12288
+    ],
+    "changed_channel": 0,
+    "operation": "stable ascending sort",
+    "exclude_first_sample_of_block": false,
+    "same_representation_bytes": true,
+    "signature_sha256": "82c90b6f5adeb60f53373e6973f35243e88fd761674edd7497a57c19f029546a",
+    "answer_changes": {
+      "argmax": [
+        12281,
+        12287
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "minmax",
+    "ratio": 4,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "minmax",
+    "ratio": 16,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12160,
+      12192
+    ],
+    "changed_channel": 0,
+    "operation": "stable descending sort",
+    "exclude_first_sample_of_block": false,
+    "same_representation_bytes": true,
+    "signature_sha256": "b190a971832ff58844f1fba039bc8fecd9d271638aec5c65ee830de2117c1d38",
+    "answer_changes": {
+      "count": [
+        9,
+        10
+      ],
+      "first": [
+        12173,
+        12160
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "minmax",
+    "ratio": 64,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12160,
+      12288
+    ],
+    "changed_channel": 0,
+    "operation": "stable ascending sort",
+    "exclude_first_sample_of_block": false,
+    "same_representation_bytes": true,
+    "signature_sha256": "3a6a7853ca6cb6c92f26e59aa347e010111e0481c9c0c2cf55f218654d98a54d",
+    "answer_changes": {
+      "argmax": [
+        12281,
+        12287
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "minmax",
+    "ratio": 256,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      11776,
+      12288
+    ],
+    "changed_channel": 0,
+    "operation": "stable ascending sort",
+    "exclude_first_sample_of_block": false,
+    "same_representation_bytes": true,
+    "signature_sha256": "6906ce3f11e801f26764e64e2b9a101655cb26efa71ee999fe9d3000b145aecd",
+    "answer_changes": {
+      "argmax": [
+        12281,
+        12287
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "sax",
+    "ratio": 4,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "sax",
+    "ratio": 16,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "sax",
+    "ratio": 64,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "sax",
+    "ratio": 256,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12160,
+      12224
+    ],
+    "changed_channel": 0,
+    "operation": "stable descending sort",
+    "exclude_first_sample_of_block": false,
+    "same_representation_bytes": true,
+    "signature_sha256": "f16a12f386a6c32167bdb3ada8f1ceee2ede6334700575690fbda3f1d32c20fd",
+    "answer_changes": {
+      "count": [
+        9,
+        10
+      ],
+      "first": [
+        12173,
+        12160
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "ttsax",
+    "ratio": 4,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "ttsax",
+    "ratio": 16,
+    "witness_found": false,
+    "scope": "No certified witness found by this bounded search; no claim of identifiability or loss."
+  },
+  {
+    "method": "ttsax",
+    "ratio": 64,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12160,
+      12192
+    ],
+    "changed_channel": 0,
+    "operation": "stable descending sort",
+    "exclude_first_sample_of_block": false,
+    "same_representation_bytes": true,
+    "signature_sha256": "03361b03f968863c95ea51839d1374e6941c44406d9ef951aa3a0a7721ff2ee8",
+    "answer_changes": {
+      "count": [
+        9,
+        10
+      ],
+      "first": [
+        12173,
+        12160
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  },
+  {
+    "method": "ttsax",
+    "ratio": 256,
+    "record": "104",
+    "start": 0,
+    "n": 16384,
+    "block": [
+      12160,
+      12288
+    ],
+    "changed_channel": 0,
+    "operation": "stable ascending sort",
+    "exclude_first_sample_of_block": false,
+    "same_representation_bytes": true,
+    "signature_sha256": "862d087a6bf4772f6cffe67f1f2bca6222ef014ded002022af4c75c829dcb054",
+    "answer_changes": {
+      "argmax": [
+        12281,
+        12287
+      ]
+    },
+    "scope": "Explicit ambiguity witness for these answers, not a clinical counterfactual or a primary test record."
+  }
+]

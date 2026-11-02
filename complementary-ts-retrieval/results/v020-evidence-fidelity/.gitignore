@@ -1,0 +1,4 @@
+# Losslessly consolidated into refinement-traces.jsonl.gz; originals remain local.
+/refinement-traces/
+# Full SQL traces can contain raw arrays; public-sql stores query/count/hash audit versions.
+/sonar/traces/*/sql-*.jsonl.gz

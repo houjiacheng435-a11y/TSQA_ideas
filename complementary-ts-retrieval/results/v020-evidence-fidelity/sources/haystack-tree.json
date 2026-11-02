@@ -1,0 +1,3267 @@
+{
+  "sha": "5e8d3162d47176e19fbd9c5f3d3cf9c6e0e9a7d4",
+  "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/5e8d3162d47176e19fbd9c5f3d3cf9c6e0e9a7d4",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85f9827e2f3ec9ea83e4c883f93504a813743325",
+      "size": 319,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/85f9827e2f3ec9ea83e4c883f93504a813743325"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+      "size": 5,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a75b68f84fadba0753c0642ca2a6bc97b31ebf96",
+      "size": 395,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a75b68f84fadba0753c0642ca2a6bc97b31ebf96"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8b92c7f8513909b6b7b9a9e740326a0345a49c",
+      "size": 8189,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6d8b92c7f8513909b6b7b9a9e740326a0345a49c"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ec46ae4ea4c8d56d6e93c868252dca0f90e557e",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/6ec46ae4ea4c8d56d6e93c868252dca0f90e557e"
+    },
+    {
+      "path": "configs/defaults",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35a775c1f8771126738fd2a431ecbef2855f7829",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/35a775c1f8771126738fd2a431ecbef2855f7829"
+    },
+    {
+      "path": "configs/defaults/dataset_defaults.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "195629e13b05d7ebe2596df5b209d0454b4addba",
+      "size": 6139,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/195629e13b05d7ebe2596df5b209d0454b4addba"
+    },
+    {
+      "path": "configs/defaults/model_defaults.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67b391b0b74079aeaeda102bd06c275ba294f010",
+      "size": 1458,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/67b391b0b74079aeaeda102bd06c275ba294f010"
+    },
+    {
+      "path": "configs/defaults/sleep_psg_arousals_difficulty.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6a7d54929593f34d92f13307ce59f753853c0b3",
+      "size": 1195,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b6a7d54929593f34d92f13307ce59f753853c0b3"
+    },
+    {
+      "path": "configs/defaults/sleep_psg_stages_difficulty.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ebd8d84bdde9dea18341a81858f0858723d2dcd",
+      "size": 1133,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0ebd8d84bdde9dea18341a81858f0858723d2dcd"
+    },
+    {
+      "path": "configs/defaults/training_defaults.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e0e614e18ab9feef59a4357d0959a455899484",
+      "size": 1952,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/99e0e614e18ab9feef59a4357d0959a455899484"
+    },
+    {
+      "path": "configs/experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bda9708906631530b7ff7c460abe13d9dfc2eb48",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/bda9708906631530b7ff7c460abe13d9dfc2eb48"
+    },
+    {
+      "path": "configs/experiments/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "configs/experiments/capture24_haystack_itformer_llama.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc744ffaad5687fbe3368dca5bda251bbbc93670",
+      "size": 2519,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/bc744ffaad5687fbe3368dca5bda251bbbc93670"
+    },
+    {
+      "path": "configs/experiments/capture24_haystack_llama.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73e65aec00f053ded380a91e82a16deb6deff02f",
+      "size": 3214,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/73e65aec00f053ded380a91e82a16deb6deff02f"
+    },
+    {
+      "path": "configs/ltaf_haystack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dca976f167ae525760cc87b827875a41c30b28c",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/9dca976f167ae525760cc87b827875a41c30b28c"
+    },
+    {
+      "path": "configs/ltaf_haystack/flamingo_chronos2_llama_ltaf_haystack.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83fd3317e0a49041d2e4ae1d8375141377503f50",
+      "size": 1669,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/83fd3317e0a49041d2e4ae1d8375141377503f50"
+    },
+    {
+      "path": "configs/paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a788122187f3bce53fcc9b1ad77b3ef4a8c6a7db",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/a788122187f3bce53fcc9b1ad77b3ef4a8c6a7db"
+    },
+    {
+      "path": "configs/paper/chattime_capture24_haystack_cot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a3b05f3068466abb2047d828345f7bbdb084fe9",
+      "size": 1514,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7a3b05f3068466abb2047d828345f7bbdb084fe9"
+    },
+    {
+      "path": "configs/paper/chattime_ltaf_haystack.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfed1d5ed3e7e694c9552f15b1b7f39e2881719a",
+      "size": 1800,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/dfed1d5ed3e7e694c9552f15b1b7f39e2881719a"
+    },
+    {
+      "path": "configs/paper/chattime_sleep_psg_arousals.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "699cb6b5b3562a5eba2329e2862354533db00fd4",
+      "size": 1411,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/699cb6b5b3562a5eba2329e2862354533db00fd4"
+    },
+    {
+      "path": "configs/paper/chattime_sleep_psg_stages.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "461fcb3402da2ab0152817575417dd0fbe5f5525",
+      "size": 1492,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/461fcb3402da2ab0152817575417dd0fbe5f5525"
+    },
+    {
+      "path": "configs/paper/chattime_uk_dale_haystack.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14713eac6b43c051bcf7dec2d072d4685071e40a",
+      "size": 1867,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/14713eac6b43c051bcf7dec2d072d4685071e40a"
+    },
+    {
+      "path": "configs/paper/chatts_capture24_haystack_cot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "678b84440f5931cb8d025dcf44ef33da5a5ebb41",
+      "size": 1304,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/678b84440f5931cb8d025dcf44ef33da5a5ebb41"
+    },
+    {
+      "path": "configs/paper/chatts_ltaf_haystack.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81cdaef7e153dc06d2e6da6349911009b9e305e9",
+      "size": 1485,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/81cdaef7e153dc06d2e6da6349911009b9e305e9"
+    },
+    {
+      "path": "configs/paper/chatts_sleep_psg_arousals.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7df6d5b421a636ff25c8ca5286bed890a1a90b12",
+      "size": 1296,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7df6d5b421a636ff25c8ca5286bed890a1a90b12"
+    },
+    {
+      "path": "configs/paper/chatts_sleep_psg_stages.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2f641d2f69efd75548b503a9d0ffc9222f4ae65",
+      "size": 1294,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a2f641d2f69efd75548b503a9d0ffc9222f4ae65"
+    },
+    {
+      "path": "configs/paper/chatts_uk_dale_haystack.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a658ec509be1c4b162c04f3c59e594377b464763",
+      "size": 1602,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a658ec509be1c4b162c04f3c59e594377b464763"
+    },
+    {
+      "path": "configs/paper/flamingo_capture24_haystack_absolute_needle.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c58fae50ea271380d730d40f0c728b636074a0d",
+      "size": 1660,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6c58fae50ea271380d730d40f0c728b636074a0d"
+    },
+    {
+      "path": "configs/paper/flamingo_capture24_haystack_cot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c4785e40a2d83f88740ddde4ae01c5ccbd23fdd",
+      "size": 1425,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5c4785e40a2d83f88740ddde4ae01c5ccbd23fdd"
+    },
+    {
+      "path": "configs/paper/flamingo_uk_dale_haystack.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "581cbf20ffcd8d1e865a5415f6456d8fd1b8fa7a",
+      "size": 1578,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/581cbf20ffcd8d1e865a5415f6456d8fd1b8fa7a"
+    },
+    {
+      "path": "configs/paper/itformer_capture24_haystack_absolute_needle.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80965f3349acaa0543babf982f81c400f45ce49c",
+      "size": 1681,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/80965f3349acaa0543babf982f81c400f45ce49c"
+    },
+    {
+      "path": "configs/paper/itformer_capture24_haystack_cot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13ddc93e63be798d069fc2069c2152a2512f7e2d",
+      "size": 1310,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/13ddc93e63be798d069fc2069c2152a2512f7e2d"
+    },
+    {
+      "path": "configs/paper/itformer_ltaf_haystack.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b244608bf3dbe8c7f32ce5fe46837ad519de2aa",
+      "size": 1506,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0b244608bf3dbe8c7f32ce5fe46837ad519de2aa"
+    },
+    {
+      "path": "configs/paper/itformer_sleep_psg_arousals.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7657b019cf5e62a432de04eda6a1bdad85b6bd6a",
+      "size": 1302,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7657b019cf5e62a432de04eda6a1bdad85b6bd6a"
+    },
+    {
+      "path": "configs/paper/itformer_sleep_psg_stages.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fff4a37837514904e96f8d15b987e3a17ac4f96e",
+      "size": 1300,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/fff4a37837514904e96f8d15b987e3a17ac4f96e"
+    },
+    {
+      "path": "configs/paper/itformer_uk_dale_haystack.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d9e7d4588f080a6795668fcffc89667648ed6cb",
+      "size": 1562,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9d9e7d4588f080a6795668fcffc89667648ed6cb"
+    },
+    {
+      "path": "configs/sleep_psg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec24c6d683730ff7a7288c28b0308a079b10357a",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/ec24c6d683730ff7a7288c28b0308a079b10357a"
+    },
+    {
+      "path": "configs/sleep_psg/flamingo_chronos2_llama_sleep_psg_arousals.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f639934e5f86442119fd32350762362f0ecef1b",
+      "size": 1391,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7f639934e5f86442119fd32350762362f0ecef1b"
+    },
+    {
+      "path": "configs/sleep_psg/flamingo_chronos2_llama_sleep_psg_stages.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e42d1c90db719fe4d15092da9e92fc256f1a586",
+      "size": 1393,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/8e42d1c90db719fe4d15092da9e92fc256f1a586"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "data/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1979b8270ce9ef003f004ec5f04aa99ac3a2fa7a",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/1979b8270ce9ef003f004ec5f04aa99ac3a2fa7a"
+    },
+    {
+      "path": "docs/adding-datasets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee9d5e60ee25c812359d668c8ffaffcc02aacbb2",
+      "size": 11653,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ee9d5e60ee25c812359d668c8ffaffcc02aacbb2"
+    },
+    {
+      "path": "docs/adding-models.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04df38bfbba5c7f9a833f760ee0351419afebaad",
+      "size": 16494,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/04df38bfbba5c7f9a833f760ee0351419afebaad"
+    },
+    {
+      "path": "docs/architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fccb1a4afb544683e7cdf25288b703417016529",
+      "size": 13369,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/8fccb1a4afb544683e7cdf25288b703417016529"
+    },
+    {
+      "path": "docs/ltaf-integration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d5fc21d163a0d9580703571e36c0bf766c21596",
+      "size": 7158,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0d5fc21d163a0d9580703571e36c0bf766c21596"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c95832c630a5142c7ab7a383e2cd2b979aa0285",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/1c95832c630a5142c7ab7a383e2cd2b979aa0285"
+    },
+    {
+      "path": "figures/ALL_TASKS.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccd781765320357e0ec79bff7f20ddad3a6d71a2",
+      "size": 482308,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ccd781765320357e0ec79bff7f20ddad3a6d71a2"
+    },
+    {
+      "path": "main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c01f26a2e7ae5adc209ae4a35f70e9f837613c4",
+      "size": 794,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0c01f26a2e7ae5adc209ae4a35f70e9f837613c4"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "notebooks/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e2ae39595f9ccfb33f365c4353f84a2685058b5",
+      "size": 1764,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/2e2ae39595f9ccfb33f365c4353f84a2685058b5"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ebe233fb2ec2df8969e3605c0f3051b268b7dff7",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/ebe233fb2ec2df8969e3605c0f3051b268b7dff7"
+    },
+    {
+      "path": "scripts/download_classifiers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ad77f2accbcc04d2a7e84720f9237cbde06a90",
+      "size": 3485,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/67ad77f2accbcc04d2a7e84720f9237cbde06a90"
+    },
+    {
+      "path": "scripts/download_itformer_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11a53fe684efe8fab9ebc75a8fbfe02c70c584bd",
+      "size": 4472,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/11a53fe684efe8fab9ebc75a8fbfe02c70c584bd"
+    },
+    {
+      "path": "scripts/eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8e4023824123b69009baf0f0b7995599358d36d",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/d8e4023824123b69009baf0f0b7995599358d36d"
+    },
+    {
+      "path": "scripts/eval/eval_haystack_log.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35268b7e0c3d2f74b21f62782e6f0a6f4870666",
+      "size": 30371,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c35268b7e0c3d2f74b21f62782e6f0a6f4870666"
+    },
+    {
+      "path": "scripts/eval/plot_gpt_benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2cafb9b9cfaa6c1f82fc657fb01cd12e07b9bd4",
+      "size": 23037,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a2cafb9b9cfaa6c1f82fc657fb01cd12e07b9bd4"
+    },
+    {
+      "path": "scripts/eval/print_gpt_benchmark_grid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61ab7eddd0211ec3de76443a0f2fb6f158357418",
+      "size": 4702,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/61ab7eddd0211ec3de76443a0f2fb6f158357418"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dfec01426f789cec8f4d0d7956c3e95c2941a6b",
+      "size": 21300,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/1dfec01426f789cec8f4d0d7956c3e95c2941a6b"
+    },
+    {
+      "path": "scripts/run_paper_runs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1c640a16b2d12cab9d8c206d16be6206a2f85c7",
+      "size": 24289,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d1c640a16b2d12cab9d8c206d16be6206a2f85c7"
+    },
+    {
+      "path": "scripts/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "466d7a41c4c00131cfaff7d82d47eaed693de210",
+      "size": 37513,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/466d7a41c4c00131cfaff7d82d47eaed693de210"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "60d66605674343ce77e4bb08dc203dc901a6dd2c",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/60d66605674343ce77e4bb08dc203dc901a6dd2c"
+    },
+    {
+      "path": "src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/backbones",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf0fa5999298b5bb57d75908e702965c2fd89799",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/cf0fa5999298b5bb57d75908e702965c2fd89799"
+    },
+    {
+      "path": "src/backbones/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88d29365da4970edea519e94dcf2a0938729370d",
+      "size": 871,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/88d29365da4970edea519e94dcf2a0938729370d"
+    },
+    {
+      "path": "src/backbones/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e419ca78b5068089aa7432a7974734086995c4f0",
+      "size": 5702,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e419ca78b5068089aa7432a7974734086995c4f0"
+    },
+    {
+      "path": "src/backbones/llama",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4edf1c0783f8baf9b14d901f3ff19a20274fd681",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/4edf1c0783f8baf9b14d901f3ff19a20274fd681"
+    },
+    {
+      "path": "src/backbones/llama/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47953ef4e26f7ad685eee9d58c5db5af3ebecff7",
+      "size": 196,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/47953ef4e26f7ad685eee9d58c5db5af3ebecff7"
+    },
+    {
+      "path": "src/backbones/llama/backbone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f1c9f4d9c133789298a80e616d164759893762",
+      "size": 4023,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f2f1c9f4d9c133789298a80e616d164759893762"
+    },
+    {
+      "path": "src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0377d1cbfe1e81e01da0caa9d175278fecc01663",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/0377d1cbfe1e81e01da0caa9d175278fecc01663"
+    },
+    {
+      "path": "src/components/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd1e024ab0e3b74e5a669932ff9e729f1f572aa5",
+      "size": 1832,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/cd1e024ab0e3b74e5a669932ff9e729f1f572aa5"
+    },
+    {
+      "path": "src/components/alignment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b5480f818b727b392d0ffa953e9eb7879857e7",
+      "size": 696,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/16b5480f818b727b392d0ffa953e9eb7879857e7"
+    },
+    {
+      "path": "src/components/cross_attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec26ba72d27db83dc40d2e4614c11a3bc539e55f",
+      "size": 2019,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ec26ba72d27db83dc40d2e4614c11a3bc539e55f"
+    },
+    {
+      "path": "src/components/decoder_layers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "451759f32d5bc1ad8fa935ccb10513557e83dbda",
+      "size": 1898,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/451759f32d5bc1ad8fa935ccb10513557e83dbda"
+    },
+    {
+      "path": "src/components/drop_path.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d474e9a8f8fbcba547a0221bc6a585bc60513f2e",
+      "size": 798,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d474e9a8f8fbcba547a0221bc6a585bc60513f2e"
+    },
+    {
+      "path": "src/components/fusion_layer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c491c84dd72c608e208c2cf49c96cd6eb2cfa12e",
+      "size": 2410,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c491c84dd72c608e208c2cf49c96cd6eb2cfa12e"
+    },
+    {
+      "path": "src/components/gated_ff.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1825e141c8ecdf2212f888818dfbfacfbf8a11b",
+      "size": 895,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e1825e141c8ecdf2212f888818dfbfacfbf8a11b"
+    },
+    {
+      "path": "src/components/itformer_attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b84ceb101fe1731efed433676cf5095496a20323",
+      "size": 8147,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b84ceb101fe1731efed433676cf5095496a20323"
+    },
+    {
+      "path": "src/components/multi_scale_pooling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f2c1902772a02bceb27dcd81a8b0345e9a751ac",
+      "size": 1803,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4f2c1902772a02bceb27dcd81a8b0345e9a751ac"
+    },
+    {
+      "path": "src/components/positional_encoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b612531bc1f0523889ad4155429d4978b264c702",
+      "size": 3680,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b612531bc1f0523889ad4155429d4978b264c702"
+    },
+    {
+      "path": "src/components/ssm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98fe6d61e72b856a73d10a8742e508799450538c",
+      "size": 9370,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/98fe6d61e72b856a73d10a8742e508799450538c"
+    },
+    {
+      "path": "src/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "881fc962d1c419b4618bce7b6468f0ba5ed323e4",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/881fc962d1c419b4618bce7b6468f0ba5ed323e4"
+    },
+    {
+      "path": "src/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a02aa7fddbde45bf23d8beb6c8e53a6add222dd8",
+      "size": 1065,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a02aa7fddbde45bf23d8beb6c8e53a6add222dd8"
+    },
+    {
+      "path": "src/datasets/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1641d7a27fa72e05f6263093e2bb2b6b20d075e4",
+      "size": 4325,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/1641d7a27fa72e05f6263093e2bb2b6b20d075e4"
+    },
+    {
+      "path": "src/datasets/capture24",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3adb66303b21505789ddac71a54cb08203efe063",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/3adb66303b21505789ddac71a54cb08203efe063"
+    },
+    {
+      "path": "src/datasets/capture24/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a0ef88d48d96f1632e0eee25731e091dda92594",
+      "size": 14962,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6a0ef88d48d96f1632e0eee25731e091dda92594"
+    },
+    {
+      "path": "src/datasets/capture24/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd2f896c843199c223f2ba75ae93c802a5405e6",
+      "size": 2429,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/8cd2f896c843199c223f2ba75ae93c802a5405e6"
+    },
+    {
+      "path": "src/datasets/capture24/annotation-label-dictionary.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daffa62cd1c8024f09eefe9e667c265a0267b36b",
+      "size": 31220,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/daffa62cd1c8024f09eefe9e667c265a0267b36b"
+    },
+    {
+      "path": "src/datasets/capture24/classification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08594b87944e49b18a123c74f7344a539f85a734",
+      "size": 18065,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/08594b87944e49b18a123c74f7344a539f85a734"
+    },
+    {
+      "path": "src/datasets/capture24/cot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d44f7677d68c2c900e366c22ee579c9b2f428c21",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/d44f7677d68c2c900e366c22ee579c9b2f428c21"
+    },
+    {
+      "path": "src/datasets/capture24/cot/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ce4e93bb4fc4e5360c7ab82c9f4851fa5f8fb6",
+      "size": 551,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/08ce4e93bb4fc4e5360c7ab82c9f4851fa5f8fb6"
+    },
+    {
+      "path": "src/datasets/capture24/cot/cot_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f337b40abb744cc6f3fb35f1fc214b53b4d2e6",
+      "size": 27886,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/74f337b40abb744cc6f3fb35f1fc214b53b4d2e6"
+    },
+    {
+      "path": "src/datasets/capture24/eval_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "106da857e51417342660a3083410cd56cf0d09cc",
+      "size": 13231,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/106da857e51417342660a3083410cd56cf0d09cc"
+    },
+    {
+      "path": "src/datasets/capture24/evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb68a40e53c87acee397f27b96503c33ccc6abb",
+      "size": 16406,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/3fb68a40e53c87acee397f27b96503c33ccc6abb"
+    },
+    {
+      "path": "src/datasets/capture24/loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f638b90d1ad9a5606a5a60e3d1a8f1dfd3cfa48",
+      "size": 14606,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5f638b90d1ad9a5606a5a60e3d1a8f1dfd3cfa48"
+    },
+    {
+      "path": "src/datasets/capture24/metadata.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19a6cc861d84cccf4b6051b40e9fefc25a06e9d5",
+      "size": 1907,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/19a6cc861d84cccf4b6051b40e9fefc25a06e9d5"
+    },
+    {
+      "path": "src/datasets/capture24/qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4177af1174e62c13b34b80a56a55dad56ef8ceed",
+      "size": 11306,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4177af1174e62c13b34b80a56a55dad56ef8ceed"
+    },
+    {
+      "path": "src/datasets/capture24/qa_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1747d1408db4f4eae9fc0019efa2a199da24a715",
+      "size": 5795,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/1747d1408db4f4eae9fc0019efa2a199da24a715"
+    },
+    {
+      "path": "src/datasets/capture24/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd552d3a1364c1cd3af6e0297f67cb9c88907b96",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/fd552d3a1364c1cd3af6e0297f67cb9c88907b96"
+    },
+    {
+      "path": "src/datasets/capture24/test/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datasets/capture24/test/test_capture24_classification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9fff2799cd7373e78789700a9e21496124f1da3",
+      "size": 12253,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e9fff2799cd7373e78789700a9e21496124f1da3"
+    },
+    {
+      "path": "src/datasets/capture24/test/test_capture24_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047bf147faab17e78be6e9f1d86e2fbf0a5f55a6",
+      "size": 2615,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/047bf147faab17e78be6e9f1d86e2fbf0a5f55a6"
+    },
+    {
+      "path": "src/datasets/capture24/test/test_capture24_qa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f7e94abab1324b4ab790c03c80467ad9cf9924",
+      "size": 9053,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/17f7e94abab1324b4ab790c03c80467ad9cf9924"
+    },
+    {
+      "path": "src/datasets/capture24/test/test_capture24_windows.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc4325db3343c9568221d144f5b76890a901adab",
+      "size": 12409,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/fc4325db3343c9568221d144f5b76890a901adab"
+    },
+    {
+      "path": "src/datasets/capture24/windows.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef385253a1df764e01fd7bce2894f96fb85fb5c",
+      "size": 17351,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/bef385253a1df764e01fd7bce2894f96fb85fb5c"
+    },
+    {
+      "path": "src/datasets/capture24_haystack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69a8af80e8ab0c6e2d2d0b46b3d936dfc4c6913e",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/69a8af80e8ab0c6e2d2d0b46b3d936dfc4c6913e"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0468a18a60362cd4a7ea1dcbb0fcbf5293494797",
+      "size": 26024,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0468a18a60362cd4a7ea1dcbb0fcbf5293494797"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58bd5837479c2e748e184c2bb3f167db4ac0d57",
+      "size": 3981,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e58bd5837479c2e748e184c2bb3f167db4ac0d57"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a31cef5c9c1f8ecefee530860a73f2359ce3a8e",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/6a31cef5c9c1f8ecefee530860a73f2359ce3a8e"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dfbda15deb32f466064d2b57b9e079938eaa94d",
+      "size": 3133,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/3dfbda15deb32f466064d2b57b9e079938eaa94d"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/activity_regimes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a233791f77e63f751d842ae02969b1da8e084ab4",
+      "size": 5891,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a233791f77e63f751d842ae02969b1da8e084ab4"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/background_sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "569de058e8eb334f8e044412f81f502e29983dc3",
+      "size": 19323,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/569de058e8eb334f8e044412f81f502e29983dc3"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/bout_indexer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972f5fa844d84a6972766ad6a8eff2da2d106e70",
+      "size": 11454,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/972f5fa844d84a6972766ad6a8eff2da2d106e70"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/data_structures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5887ca18c52001a544c08741d2fa8ac12daa498",
+      "size": 32098,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e5887ca18c52001a544c08741d2fa8ac12daa498"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/needle_sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a24da1d028eb02daabc66f54512a8eb2d177f578",
+      "size": 12401,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a24da1d028eb02daabc66f54512a8eb2d177f578"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/prompt_templates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "456ec90d898df499ad4782106282bbd75398179c",
+      "size": 63872,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/456ec90d898df499ad4782106282bbd75398179c"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/seed_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "586196c6a4ace4115d70a80e9e47e57c342a75e8",
+      "size": 7834,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/586196c6a4ace4115d70a80e9e47e57c342a75e8"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/style_transfer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6e10072446948e62673be24ce69340609fa4d98",
+      "size": 13424,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b6e10072446948e62673be24ce69340609fa4d98"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/timeline_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29800e8f7ce536e03bc85fd3e6cf8da782be12eb",
+      "size": 16247,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/29800e8f7ce536e03bc85fd3e6cf8da782be12eb"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/core/transition_matrix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb5a085f45f0c02c8ee41372f5a1796aaa967bd",
+      "size": 10188,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/8cb5a085f45f0c02c8ee41372f5a1796aaa967bd"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/cot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02074b662c5830805230af3fc5a431f56b02938e",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/02074b662c5830805230af3fc5a431f56b02938e"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/cot/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "671dd1771a3e1da575527ea4b6beeaf6a55e7518",
+      "size": 1085,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/671dd1771a3e1da575527ea4b6beeaf6a55e7518"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/cot/cot_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9a248c7643bb07e9acb6c65d12235546871733c",
+      "size": 19666,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c9a248c7643bb07e9acb6c65d12235546871733c"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/cot/llm_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9911eb4f79ca9833bbe4317c820a5390704a7e61",
+      "size": 10443,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9911eb4f79ca9833bbe4317c820a5390704a7e61"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/cot/plot_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7875f4b614c01dec00441fdf4f46f20c43117029",
+      "size": 8831,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7875f4b614c01dec00441fdf4f46f20c43117029"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/cot/prompt_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10d9eafbd8345ff1c13bcce2260360dc98e17b0a",
+      "size": 14493,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/10d9eafbd8345ff1c13bcce2260360dc98e17b0a"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/cot_qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "041271eee9b7cc20d8852819012c39791d0b3a37",
+      "size": 13221,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/041271eee9b7cc20d8852819012c39791d0b3a37"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/generation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd478e4b64542a679d0480c8367060bcf11496bf",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/bd478e4b64542a679d0480c8367060bcf11496bf"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/generation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d88d415a1b5eee3930f20daf27be465fdaac6f",
+      "size": 554,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/81d88d415a1b5eee3930f20daf27be465fdaac6f"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/generation/absolute_needle.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a420ad4dad95c33ee7ad3389b38aff8d5e51a85",
+      "size": 4132,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5a420ad4dad95c33ee7ad3389b38aff8d5e51a85"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/generation/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eadbabc48f6d1b8618590e8a5b9a5aa63bb4fd57",
+      "size": 8961,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/eadbabc48f6d1b8618590e8a5b9a5aa63bb4fd57"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/generation/defaults.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3310517f8d04bb45668aadedbbd31cb83091945a",
+      "size": 11698,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/3310517f8d04bb45668aadedbbd31cb83091945a"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/generation/generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7694fe2d5cc9f85f5dc2ed2c11fa7df1b4c1b642",
+      "size": 15548,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7694fe2d5cc9f85f5dc2ed2c11fa7df1b4c1b642"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/oracle_qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68b2e4b49f444b6c71217639eb930f95329cb450",
+      "size": 6891,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/68b2e4b49f444b6c71217639eb930f95329cb450"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4869189b27afc63118742ac166f0ea4066a9a3",
+      "size": 14284,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ed4869189b27afc63118742ac166f0ea4066a9a3"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/qa_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b2d91aa0fa7f9cd428090b6c95631d2f9017f87",
+      "size": 22938,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/3b2d91aa0fa7f9cd428090b6c95631d2f9017f87"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8a486c4893f2ffaaae1c910329b9bee8d459191",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/a8a486c4893f2ffaaae1c910329b9bee8d459191"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "914272e055bf6e32d8843ac5176052afc3a17346",
+      "size": 3719,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/914272e055bf6e32d8843ac5176052afc3a17346"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/base_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ab7539e107e34b8516edd1535a17b0dab6c424",
+      "size": 24409,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/72ab7539e107e34b8516edd1535a17b0dab6c424"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_anomaly_detection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e65c74e5e3ce56d0ea00dc78d3cae9670edb39",
+      "size": 19596,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/92e65c74e5e3ce56d0ea00dc78d3cae9670edb39"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_anomaly_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbe95f6afd54781afd82c7ca433b09a493a59455",
+      "size": 14318,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/bbe95f6afd54781afd82c7ca433b09a493a59455"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_antecedent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19bea46ba6f0801da80f253b7a45e0a5e9b29cee",
+      "size": 19408,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/19bea46ba6f0801da80f253b7a45e0a5e9b29cee"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71c89789da520aed657230bba0754696f53d58c6",
+      "size": 18577,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/71c89789da520aed657230bba0754696f53d58c6"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_counting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b448e277de3fea8b4407bfc7b49e06cc453e215",
+      "size": 13170,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7b448e277de3fea8b4407bfc7b49e06cc453e215"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_existence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a6896c82761c9388a69d71bb65c4e2e1a79b4be",
+      "size": 15049,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/1a6896c82761c9388a69d71bb65c4e2e1a79b4be"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e233b2d992bb891f965e06fc2bd5cec4698acb",
+      "size": 14126,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/66e233b2d992bb891f965e06fc2bd5cec4698acb"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_multi_hop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2392fa84b391c15b588aa07e3135b34f7b8d15e5",
+      "size": 25472,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/2392fa84b391c15b588aa07e3135b34f7b8d15e5"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_ordering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39454414fdc4e84a69b87275506f2baac1345bb6",
+      "size": 17521,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/39454414fdc4e84a69b87275506f2baac1345bb6"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/tasks/task_state_query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be8b33f224e065a7780f2870ced85f6e88dcd84",
+      "size": 15898,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/3be8b33f224e065a7780f2870ced85f6e88dcd84"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f53217f9178535a706daa5d6e43360fd09a25252",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/f53217f9178535a706daa5d6e43360fd09a25252"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81fc7a829ddaf5a0b5c3611d6f44d5157d150c44",
+      "size": 1282,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/81fc7a829ddaf5a0b5c3611d6f44d5157d150c44"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bc539d9459fc42a774e98ddd30fcfd49c9998a9",
+      "size": 1443,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6bc539d9459fc42a774e98ddd30fcfd49c9998a9"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1deb9351af2d231b0cc24b9d91210f03473b6317",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/1deb9351af2d231b0cc24b9d91210f03473b6317"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "955215e3ec448ba823ccd0df64aea956d8cb18d7",
+      "size": 1041,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/955215e3ec448ba823ccd0df64aea956d8cb18d7"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d74516ce50c314964507865c24b77f5f66266b64",
+      "size": 8332,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d74516ce50c314964507865c24b77f5f66266b64"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_anomaly_detection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7bb4d33e88c45ce881f2bcb9dc8a097b3cecdb4",
+      "size": 14339,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e7bb4d33e88c45ce881f2bcb9dc8a097b3cecdb4"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_anomaly_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c2d9b4c94a37169600d9aeae2a7f5b648a4a16",
+      "size": 14297,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f2c2d9b4c94a37169600d9aeae2a7f5b648a4a16"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_antecedent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13fc9b440049485f64aba5893e345b67d83dca5b",
+      "size": 10901,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/13fc9b440049485f64aba5893e345b67d83dca5b"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2c1df729eec028e67a41203679955e79a9c2eb1",
+      "size": 9876,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d2c1df729eec028e67a41203679955e79a9c2eb1"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_counting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63529cdfae3f63b6aea967384311b746e8e4f6e2",
+      "size": 9571,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/63529cdfae3f63b6aea967384311b746e8e4f6e2"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_existence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cc6cb3fd87c0d9f8544771647d850521e028aa6",
+      "size": 21527,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4cc6cb3fd87c0d9f8544771647d850521e028aa6"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f20cc74bf4719571ce425e3d38e65b4d15a78d25",
+      "size": 20410,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f20cc74bf4719571ce425e3d38e65b4d15a78d25"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_multi_hop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ba06a8d1770a67276db6203d66156a491c97314",
+      "size": 12028,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/1ba06a8d1770a67276db6203d66156a491c97314"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_ordering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dad77d84d0bba70d93d8f339616a7f0e24183ec",
+      "size": 11029,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9dad77d84d0bba70d93d8f339616a7f0e24183ec"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/tasks/test_task_state_query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6520c4144fc9352f8e78626a4446587a3d0a8f",
+      "size": 7989,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0c6520c4144fc9352f8e78626a4446587a3d0a8f"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/test_background_sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0948b83ea70e5fdc0dbf03d3a2a55186aade881b",
+      "size": 25122,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0948b83ea70e5fdc0dbf03d3a2a55186aade881b"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/test_needle_sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe4e9c588a9615a2207ad58d78ff87affe7750df",
+      "size": 18821,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/fe4e9c588a9615a2207ad58d78ff87affe7750df"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/test_phase2_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06d556469699e53059412339b27b153add4e3c9f",
+      "size": 26364,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/06d556469699e53059412339b27b153add4e3c9f"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/test_prompt_templates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90879dddf3f26ff19a0416924b221f5a452bb72a",
+      "size": 24097,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/90879dddf3f26ff19a0416924b221f5a452bb72a"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/test/test_style_transfer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4a59f3c06fb5c7f994fb35d75ba0d37a27f9c9b",
+      "size": 37702,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e4a59f3c06fb5c7f994fb35d75ba0d37a27f9c9b"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a63ac486bcad4efeb7ee942e035074fd2d2e64d",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/6a63ac486bcad4efeb7ee942e035074fd2d2e64d"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d2569ee92e8180a6043537c5dfe6ed392408cf3",
+      "size": 2000,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5d2569ee92e8180a6043537c5dfe6ed392408cf3"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/utils/answer_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9441adce52de9607f0054b9dec5f482cae4dba58",
+      "size": 14821,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9441adce52de9607f0054b9dec5f482cae4dba58"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/utils/context_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bac47697083aad71584cc5dcb0b5647797078e0",
+      "size": 2360,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4bac47697083aad71584cc5dcb0b5647797078e0"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/utils/oracle_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67040f0429bec4c022aa933171f644af32249f3d",
+      "size": 9599,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/67040f0429bec4c022aa933171f644af32249f3d"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/utils/position_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "191170d121898fed962871b667196c1ef420e7af",
+      "size": 10577,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/191170d121898fed962871b667196c1ef420e7af"
+    },
+    {
+      "path": "src/datasets/capture24_haystack/utils/timestamp_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "009e84bf00f1a41561e417ca844820dcbcfd9fd2",
+      "size": 6804,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/009e84bf00f1a41561e417ca844820dcbcfd9fd2"
+    },
+    {
+      "path": "src/datasets/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97618a9b4691b244605c66e8a8dc78e5e39744cf",
+      "size": 340,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/97618a9b4691b244605c66e8a8dc78e5e39744cf"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cf763f100e400d995218d09e88bbcd8e349a93c",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/6cf763f100e400d995218d09e88bbcd8e349a93c"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/DATASET_CARD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d515d93d591833be28eeb235698f53032e124a",
+      "size": 8114,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f4d515d93d591833be28eeb235698f53032e124a"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ad9a180e9244c33394772998ca06643100e738",
+      "size": 1091,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d9ad9a180e9244c33394772998ca06643100e738"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfb112b9cb9dce3d7b303775212e4c143dd1a226",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/dfb112b9cb9dce3d7b303775212e4c143dd1a226"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39c8e55992eb74ac8f7cb803864f98bae89f79aa",
+      "size": 2631,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/39c8e55992eb74ac8f7cb803864f98bae89f79aa"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/activity_regimes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c40cc181c5bdbfa355bc2a5906d0146e791c4d91",
+      "size": 2846,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c40cc181c5bdbfa355bc2a5906d0146e791c4d91"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/data_structures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d92710a195e0c8c5ff0f68c4d5dfc33c400a0b",
+      "size": 9775,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/25d92710a195e0c8c5ff0f68c4d5dfc33c400a0b"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/ltaf_bout_indexer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1df0f0cd6b63fad4ad75cfe1952c65a10a63c73e",
+      "size": 8511,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/1df0f0cd6b63fad4ad75cfe1952c65a10a63c73e"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/ltaf_prompt_templates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0388c5547623118965df1af68be53fcfaf33d24",
+      "size": 17313,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a0388c5547623118965df1af68be53fcfaf33d24"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/ltaf_timeline_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4592ec71f65500859b771162c3ea894ef3a6fffa",
+      "size": 20996,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4592ec71f65500859b771162c3ea894ef3a6fffa"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/participant_splitter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b23d2356ed03bf9702a67889819008940db843bc",
+      "size": 6073,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b23d2356ed03bf9702a67889819008940db843bc"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/recording_sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc47e78e8b9f858cbc099e07f8ddd2f1cfd6a1cc",
+      "size": 12768,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/dc47e78e8b9f858cbc099e07f8ddd2f1cfd6a1cc"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/seed_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c040ac554ea718d116828ba6afea419d492beace",
+      "size": 1425,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c040ac554ea718d116828ba6afea419d492beace"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/core/window_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cffa44eddfcf706c617a5fcdd9e96b0fc101756",
+      "size": 11696,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4cffa44eddfcf706c617a5fcdd9e96b0fc101756"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/cot_qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "749378a6a79c729d678329faa859ffaa8f41b9c1",
+      "size": 1637,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/749378a6a79c729d678329faa859ffaa8f41b9c1"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/generation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eccc25662bc55043947ff226529fda81ae2bb347",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/eccc25662bc55043947ff226529fda81ae2bb347"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/generation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "572efcec354edef3398f31eaafa72e30178e6c47",
+      "size": 366,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/572efcec354edef3398f31eaafa72e30178e6c47"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/generation/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e3cc4deebbecb02db49646a1f8fc01f7d2af797",
+      "size": 3109,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/2e3cc4deebbecb02db49646a1f8fc01f7d2af797"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/generation/default_generation_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2570f0bbe0c2753932e7e650593d68e800486f0",
+      "size": 881,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d2570f0bbe0c2753932e7e650593d68e800486f0"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/generation/generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4098388afa5e581a4325af9dd421a9aa60b7f00",
+      "size": 8843,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d4098388afa5e581a4325af9dd421a9aa60b7f00"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34a3139f782d717b114fe7c02b3fc1fab827315a",
+      "size": 3590,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/34a3139f782d717b114fe7c02b3fc1fab827315a"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/plot_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f27ca53e9deb5d4b1865328bbf5017b6e131e17",
+      "size": 7162,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6f27ca53e9deb5d4b1865328bbf5017b6e131e17"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4f07c6991683ad24fa97a7297db3c0dcfe9b83d",
+      "size": 6356,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f4f07c6991683ad24fa97a7297db3c0dcfe9b83d"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/qa_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ec6d3512826d75f90a8e9f4261fcc7f1283901e",
+      "size": 4562,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/1ec6d3512826d75f90a8e9f4261fcc7f1283901e"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/rhythm_classifier_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "439de492ccf2e6b0f2bff79c9687fe6cccc89b98",
+      "size": 6808,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/439de492ccf2e6b0f2bff79c9687fe6cccc89b98"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57051dcba2e09c509e23d3324eeaf9bbd0d79f38",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/57051dcba2e09c509e23d3324eeaf9bbd0d79f38"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/scripts/verify_ltaf_haystack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc21a1c59844e9af49775d11b6b018099f25097",
+      "size": 10842,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/8dc21a1c59844e9af49775d11b6b018099f25097"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c9b6a5540515656faa1cababb9230ff8b1cc07b",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/3c9b6a5540515656faa1cababb9230ff8b1cc07b"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef7047ad0ac83bb193d03899c0159e27c98052c",
+      "size": 3699,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/2ef7047ad0ac83bb193d03899c0159e27c98052c"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/base_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a6aa11c0a6a3fe5d062236756f06ce2dbbd4fa3",
+      "size": 8961,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9a6aa11c0a6a3fe5d062236756f06ce2dbbd4fa3"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_anomaly_detection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04b5e20845ea140827c63208264a782c3975651f",
+      "size": 2035,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/04b5e20845ea140827c63208264a782c3975651f"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_anomaly_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "604962b76d495e0233f7401c8e05e5b67edafa9c",
+      "size": 2227,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/604962b76d495e0233f7401c8e05e5b67edafa9c"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_antecedent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a686cd5a438ee32d530074e75255c0fda175539d",
+      "size": 3068,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a686cd5a438ee32d530074e75255c0fda175539d"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb29fa3fa9737c6bbe3f76ed020c640d383d381e",
+      "size": 6122,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/bb29fa3fa9737c6bbe3f76ed020c640d383d381e"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_counting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d0ae2c52475aae7a7c475c3e4d07447894c31a",
+      "size": 3691,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f6d0ae2c52475aae7a7c475c3e4d07447894c31a"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_existence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5960c44b0865b0e3feda53975fc116b1006e1675",
+      "size": 2591,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5960c44b0865b0e3feda53975fc116b1006e1675"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7a0919d60ed048ce10abc49f1345d14dc5c7fa",
+      "size": 3506,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/2e7a0919d60ed048ce10abc49f1345d14dc5c7fa"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_multi_hop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bdf93db4855e2ddb66cd1260a2be2af5faef58e",
+      "size": 3891,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6bdf93db4855e2ddb66cd1260a2be2af5faef58e"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_ordering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f488dd53aa381144142c4c5c6081b04c8ede042",
+      "size": 3200,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4f488dd53aa381144142c4c5c6081b04c8ede042"
+    },
+    {
+      "path": "src/datasets/ltaf_haystack/tasks/task_state_query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "272f3d46700650da686c98fac2caa801b0f99f39",
+      "size": 3090,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/272f3d46700650da686c98fac2caa801b0f99f39"
+    },
+    {
+      "path": "src/datasets/qa_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "710c9321d95ecdb4a562f0bd10e542160505cb7e",
+      "size": 12062,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/710c9321d95ecdb4a562f0bd10e542160505cb7e"
+    },
+    {
+      "path": "src/datasets/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cc68e4a7466e0c7e2b67e626bd6f4839e02e85c",
+      "size": 1771,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0cc68e4a7466e0c7e2b67e626bd6f4839e02e85c"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bc65834b9a21b81b0d86c8a74259cb4a3981787",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/9bc65834b9a21b81b0d86c8a74259cb4a3981787"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c11cbb67c589ffb13adfebf87c4d569c416a1d66",
+      "size": 18239,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c11cbb67c589ffb13adfebf87c4d569c416a1d66"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4006500987b71d0e165c4dbb8a0bc82d1c43bb57",
+      "size": 486,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4006500987b71d0e165c4dbb8a0bc82d1c43bb57"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/generation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2af43d78a984d1b601afe1c8078e2df9807da6a",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/b2af43d78a984d1b601afe1c8078e2df9807da6a"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/generation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a352e4c216c31ab31430e0ae09ba71eeb7470c70",
+      "size": 104,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a352e4c216c31ab31430e0ae09ba71eeb7470c70"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/generation/generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66c1bda8387d2573b099d8669ecc0602f5ee918e",
+      "size": 10068,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/66c1bda8387d2573b099d8669ecc0602f5ee918e"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a776ecaa2dd416b02f492f965f1f8feacb0cfe85",
+      "size": 10611,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a776ecaa2dd416b02f492f965f1f8feacb0cfe85"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/plot_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcecb937d2ae6adeff4f9b6587c2aabbf534f3df",
+      "size": 8733,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/fcecb937d2ae6adeff4f9b6587c2aabbf534f3df"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971cf4811ea5402c6d6c1b0e632244a741d3446a",
+      "size": 9533,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/971cf4811ea5402c6d6c1b0e632244a741d3446a"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/qa_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f10edd03b5065507cc2f0b8b0cc9dd577705552c",
+      "size": 3828,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f10edd03b5065507cc2f0b8b0cc9dd577705552c"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3074c3b40350b47f77533d980dc22883620fa6b6",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/3074c3b40350b47f77533d980dc22883620fa6b6"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/scripts/analyze_sleep_psg_haystack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3b6ede0a967f435ca8e7c4cadf93b3c2770f898",
+      "size": 25724,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f3b6ede0a967f435ca8e7c4cadf93b3c2770f898"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/scripts/convert_sleep_psg_to_npy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9dcaf8627a18379bf51b4ccbf4c895fc3b1a0c",
+      "size": 1894,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/1a9dcaf8627a18379bf51b4ccbf4c895fc3b1a0c"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/scripts/download_sleep_psg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359178d49f299a25959be421753735a02580229b",
+      "size": 3683,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/359178d49f299a25959be421753735a02580229b"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/scripts/predecimate_sleep_psg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0305ad84fd1322144746d5984aa1ab4ce64b6f5e",
+      "size": 4951,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0305ad84fd1322144746d5984aa1ab4ce64b6f5e"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/scripts/verify_sleep_psg_haystack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76c35a76320f5e86b5e1f260fcbbd6c8eaad33a4",
+      "size": 16251,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/76c35a76320f5e86b5e1f260fcbbd6c8eaad33a4"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0185587788fd2cf05a2bad7773ac922d592e881b",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/0185587788fd2cf05a2bad7773ac922d592e881b"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0942d73c16e5649c3725c6d69a49dedc525962cc",
+      "size": 2715,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0942d73c16e5649c3725c6d69a49dedc525962cc"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/base_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dd28cbc5f62e814aaeb47ff0b759db9562a5093",
+      "size": 8908,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4dd28cbc5f62e814aaeb47ff0b759db9562a5093"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/task_antecedent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a8b28555f116c0ce2f929a4ea699558765931b",
+      "size": 3278,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/44a8b28555f116c0ce2f929a4ea699558765931b"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/task_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e4ce448ee8547a5b5fc7a08969884c8aad9cc2",
+      "size": 3342,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/87e4ce448ee8547a5b5fc7a08969884c8aad9cc2"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/task_counting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b662bc5ec61d998834f01c53731952c0e9e8cf4a",
+      "size": 2040,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b662bc5ec61d998834f01c53731952c0e9e8cf4a"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/task_existence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b80e889d3c40c9d860114e4c2ca941977055c9ab",
+      "size": 5008,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b80e889d3c40c9d860114e4c2ca941977055c9ab"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/task_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb5de67f080260aa3870ac802a291047747e4a8f",
+      "size": 2764,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/fb5de67f080260aa3870ac802a291047747e4a8f"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/task_multi_hop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b05b57395c520d19d4a76cba8d96fe4b4e3a799b",
+      "size": 4898,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b05b57395c520d19d4a76cba8d96fe4b4e3a799b"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/task_ordering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66d0e9324acb351c35652b6efa1cedb123a8f4a4",
+      "size": 3285,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/66d0e9324acb351c35652b6efa1cedb123a8f4a4"
+    },
+    {
+      "path": "src/datasets/sleep_psg_haystack/tasks/task_state_query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4819e89d0188e4a4da552cd3ad04819513328e5",
+      "size": 3322,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e4819e89d0188e4a4da552cd3ad04819513328e5"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8b687d84c18aaa2428edbf0d794e8af7831dcb0",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/d8b687d84c18aaa2428edbf0d794e8af7831dcb0"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/DATASET_CARD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "557c5a924d2d968f4eaf001f66e5e7b60e195ba8",
+      "size": 20182,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/557c5a924d2d968f4eaf001f66e5e7b60e195ba8"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a78ec2afa0ccdd235f7fc9627b0f82b0e79b2164",
+      "size": 60,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a78ec2afa0ccdd235f7fc9627b0f82b0e79b2164"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffb4a06c0a1c7a6fa81c458739c85594bb3b8fd3",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/ffb4a06c0a1c7a6fa81c458739c85594bb3b8fd3"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core/activity_regimes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42ca7b33d3528c00e7977a23d337fa3804c85aa7",
+      "size": 5074,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/42ca7b33d3528c00e7977a23d337fa3804c85aa7"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core/background_sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3895a04d64d8da8b1142e2cbb3fe08376bbaa6c7",
+      "size": 12982,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/3895a04d64d8da8b1142e2cbb3fe08376bbaa6c7"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core/bout_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "475e6d492e6c2ce2ca3111328d0d45648a02e9e4",
+      "size": 7762,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/475e6d492e6c2ce2ca3111328d0d45648a02e9e4"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core/data_structures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "646e85e55d1a9e101619d7cd3d23b063e693dd28",
+      "size": 4007,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/646e85e55d1a9e101619d7cd3d23b063e693dd28"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core/insertion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a61bbb7fcab2b675b78b391308de52c2e668adbb",
+      "size": 6052,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a61bbb7fcab2b675b78b391308de52c2e668adbb"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core/needle_sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "254633a0b419c22cfffe0c04ab35ea573364340e",
+      "size": 5016,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/254633a0b419c22cfffe0c04ab35ea573364340e"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/core/prompt_templates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcb6bed1093445384e1e216de952c6f47544e266",
+      "size": 19754,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/bcb6bed1093445384e1e216de952c6f47544e266"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/generation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "701250c9f8fd8d7c305b472b72748caefa03821d",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/701250c9f8fd8d7c305b472b72748caefa03821d"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/generation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/generation/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95cf09b6348464c3f5aa0ec508bca8b789baa601",
+      "size": 1716,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/95cf09b6348464c3f5aa0ec508bca8b789baa601"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/generation/defaults.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b860357ed99f193d917abea5e21d243c6a972302",
+      "size": 716,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b860357ed99f193d917abea5e21d243c6a972302"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/generation/generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943254847150cef8119798d31876fd8e376c4a57",
+      "size": 7438,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/943254847150cef8119798d31876fd8e376c4a57"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "335373897c57653aea7cb4967ed3c64c493e69db",
+      "size": 5897,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/335373897c57653aea7cb4967ed3c64c493e69db"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/plot_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a5b5f98bf86142b4d7f9c3783857b5cc5ec57d",
+      "size": 5400,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/76a5b5f98bf86142b4d7f9c3783857b5cc5ec57d"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9544fe4860616b1698629000699904e534718b9b",
+      "size": 8245,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9544fe4860616b1698629000699904e534718b9b"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/qa_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72c107a93fa507558b53c67ea081574cad58488d",
+      "size": 4738,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/72c107a93fa507558b53c67ea081574cad58488d"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b87355e4cb3580697761c3a0cd70f04c91d1b78",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/2b87355e4cb3580697761c3a0cd70f04c91d1b78"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts/ablate_insertion_fixes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e48ef37e6d7c2d4d82ea8d69ecaa82908aa6c43",
+      "size": 12455,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7e48ef37e6d7c2d4d82ea8d69ecaa82908aa6c43"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts/classifier_transfer_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f8543014fcc5ebab5c6cc84d8779d08cb76ed4a",
+      "size": 11478,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/8f8543014fcc5ebab5c6cc84d8779d08cb76ed4a"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts/plot_insertion_validation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10dd2de9b83f6f343e638d76885470b36b5834d6",
+      "size": 7971,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/10dd2de9b83f6f343e638d76885470b36b5834d6"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts/probe_insertion_shortcut.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaf6cdf7f8390162adf65c3a5893271962f4db4c",
+      "size": 18609,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/eaf6cdf7f8390162adf65c3a5893271962f4db4c"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts/validate_insertion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d97c38323dadd41048f7d5bbad58e9eacb00296",
+      "size": 6027,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/2d97c38323dadd41048f7d5bbad58e9eacb00296"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts/validate_isolated_insertion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78eec0a910e0dadfc5b8ef8824bdb90fcdbadba8",
+      "size": 14413,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/78eec0a910e0dadfc5b8ef8824bdb90fcdbadba8"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/scripts/verify_uk_dale_haystack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cbeb9e17ed31d22f012a9e975b3c5f451dc0597",
+      "size": 2840,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7cbeb9e17ed31d22f012a9e975b3c5f451dc0597"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a95ffc82e2c43b805bf30419c2f275f76886a2b",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/7a95ffc82e2c43b805bf30419c2f275f76886a2b"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08635789efbce7329ee1c32c02a2e6c1ee998dd0",
+      "size": 1585,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/08635789efbce7329ee1c32c02a2e6c1ee998dd0"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/base_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c5df71dca23247a919aa4e2b176b2f0dfc7948b",
+      "size": 2898,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0c5df71dca23247a919aa4e2b176b2f0dfc7948b"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_anomaly_detection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b7f58d8ad2cba035c4409b6e03c274aa0bd9a0",
+      "size": 5894,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/60b7f58d8ad2cba035c4409b6e03c274aa0bd9a0"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_anomaly_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08768d7a367b50f23334862d526665da697b3ab4",
+      "size": 3469,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/08768d7a367b50f23334862d526665da697b3ab4"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_antecedent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e7255c7f35e8235d521c88e75dc7e4ba024ba36",
+      "size": 3670,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0e7255c7f35e8235d521c88e75dc7e4ba024ba36"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5323844f18f7d18dff92a1d217e2a8e0da4d68",
+      "size": 3485,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/fc5323844f18f7d18dff92a1d217e2a8e0da4d68"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_counting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88c262ece24f0112ba72ecab3c7997c5af49d3f9",
+      "size": 3620,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/88c262ece24f0112ba72ecab3c7997c5af49d3f9"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_existence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c14a48248d48935b52487f7dbfc08521da9bedf4",
+      "size": 3462,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c14a48248d48935b52487f7dbfc08521da9bedf4"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c394cefb845c82ef3d948199d81fd11d8f61b4d",
+      "size": 4112,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5c394cefb845c82ef3d948199d81fd11d8f61b4d"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_multi_hop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "840135e883c3103a735037b0aa9ce05d905ece3d",
+      "size": 4515,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/840135e883c3103a735037b0aa9ce05d905ece3d"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_ordering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ee6f8479dbfda89fb0d14ac1f0c7481d0a1c3e",
+      "size": 3356,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/07ee6f8479dbfda89fb0d14ac1f0c7481d0a1c3e"
+    },
+    {
+      "path": "src/datasets/uk_dale_haystack/tasks/task_state_query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ebe3dc97b6161b7ec40be7595315c16056523aa",
+      "size": 3465,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7ebe3dc97b6161b7ec40be7595315c16056523aa"
+    },
+    {
+      "path": "src/datasets/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9247a46fefd1bc025e55e22e0ac322137cd10f24",
+      "size": 2058,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9247a46fefd1bc025e55e22e0ac322137cd10f24"
+    },
+    {
+      "path": "src/evaluation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40cd2b987598ed42a70334ed0aa467e6dad1a84a",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/40cd2b987598ed42a70334ed0aa467e6dad1a84a"
+    },
+    {
+      "path": "src/evaluation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/evaluation/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "394cb7b8ec656896b73aa009ba160c64167f9aaa",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/394cb7b8ec656896b73aa009ba160c64167f9aaa"
+    },
+    {
+      "path": "src/evaluation/metrics/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c63278887b65061cc8dd324b885db2021b9a562",
+      "size": 218,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6c63278887b65061cc8dd324b885db2021b9a562"
+    },
+    {
+      "path": "src/evaluation/metrics/text_generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47073a5c7b72e718e09b8d57d99592494d5226e0",
+      "size": 1164,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/47073a5c7b72e718e09b8d57d99592494d5226e0"
+    },
+    {
+      "path": "src/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bcf58a1a5032e44f146ff10c1c12a45244b77ad",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/9bcf58a1a5032e44f146ff10c1c12a45244b77ad"
+    },
+    {
+      "path": "src/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52f387e36c941b9d04d407d44efab61e19ffce7",
+      "size": 1142,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a52f387e36c941b9d04d407d44efab61e19ffce7"
+    },
+    {
+      "path": "src/models/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b8ecfc0a74a47ebc4c566718727e934eb58366",
+      "size": 10690,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/27b8ecfc0a74a47ebc4c566718727e934eb58366"
+    },
+    {
+      "path": "src/models/classifiers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af94af514f1901f20c09bc58afcd9abd27be1888",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/af94af514f1901f20c09bc58afcd9abd27be1888"
+    },
+    {
+      "path": "src/models/classifiers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5411d0e391eb614ec66a067998e7db74270c396d",
+      "size": 2424,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5411d0e391eb614ec66a067998e7db74270c396d"
+    },
+    {
+      "path": "src/models/classifiers/capture24",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1573e7641745c75723d4c8f5f8e068b4c8eccaf1",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/1573e7641745c75723d4c8f5f8e068b4c8eccaf1"
+    },
+    {
+      "path": "src/models/classifiers/capture24/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28acc9b3010ab9ef89421c1b6f47d373f4bf1c12",
+      "size": 273,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/28acc9b3010ab9ef89421c1b6f47d373f4bf1c12"
+    },
+    {
+      "path": "src/models/classifiers/capture24/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea7dd3deb53d2f65179bdc7590b19f091614a9ad",
+      "size": 8089,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ea7dd3deb53d2f65179bdc7590b19f091614a9ad"
+    },
+    {
+      "path": "src/models/classifiers/capture24/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec8e76481c614ed615e5e8e7e53416e34c242513",
+      "size": 18147,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ec8e76481c614ed615e5e8e7e53416e34c242513"
+    },
+    {
+      "path": "src/models/classifiers/ecg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ccb04c8ddfe1e6dc772fe3ff27609f9bca668a5d",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/ccb04c8ddfe1e6dc772fe3ff27609f9bca668a5d"
+    },
+    {
+      "path": "src/models/classifiers/ecg/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8dca06b0959e639fcd77764ddd0e871f1ed6aa",
+      "size": 838,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ef8dca06b0959e639fcd77764ddd0e871f1ed6aa"
+    },
+    {
+      "path": "src/models/classifiers/ecg/beat_htf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42f2a5b49193ac5d3ae243b7fcdfd21e86a994b8",
+      "size": 8075,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/42f2a5b49193ac5d3ae243b7fcdfd21e86a994b8"
+    },
+    {
+      "path": "src/models/classifiers/ecg/rhythm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "511ab8d69151ae1c5e307859cca60d291e17fa77",
+      "size": 4713,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/511ab8d69151ae1c5e307859cca60d291e17fa77"
+    },
+    {
+      "path": "src/models/classifiers/ecg/rhythm_from_beats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79e74e94b8d8205acb8d0cf4fcbfce48dc8ee8a3",
+      "size": 7143,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/79e74e94b8d8205acb8d0cf4fcbfce48dc8ee8a3"
+    },
+    {
+      "path": "src/models/classifiers/ecg/train_beat_htf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9843b3368ab869820dafbf9b825002f6498acb1",
+      "size": 16361,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a9843b3368ab869820dafbf9b825002f6498acb1"
+    },
+    {
+      "path": "src/models/classifiers/ecg/train_rhythm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58eb47c8ac5d3f1703c283752b9ecfa79f558cf7",
+      "size": 10473,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/58eb47c8ac5d3f1703c283752b9ecfa79f558cf7"
+    },
+    {
+      "path": "src/models/classifiers/ecg/train_rhythm_from_beats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e929e366fddfeb163df7e0084125ef84172c536",
+      "size": 20300,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/2e929e366fddfeb163df7e0084125ef84172c536"
+    },
+    {
+      "path": "src/models/classifiers/encoders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6255781dfc70671ba343b376732573769e3dd6",
+      "size": 5403,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/8a6255781dfc70671ba343b376732573769e3dd6"
+    },
+    {
+      "path": "src/models/classifiers/sleep",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e8d03a075d1afa036c0034b1fe4c3413ba3aa8c",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/6e8d03a075d1afa036c0034b1fe4c3413ba3aa8c"
+    },
+    {
+      "path": "src/models/classifiers/sleep/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d53631627de5837b0601e3116e0e3784f5618fcf",
+      "size": 438,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d53631627de5837b0601e3116e0e3784f5618fcf"
+    },
+    {
+      "path": "src/models/classifiers/sleep/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53f43b80fdb451529c8fdb0f599a005f1372bc3b",
+      "size": 5105,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/53f43b80fdb451529c8fdb0f599a005f1372bc3b"
+    },
+    {
+      "path": "src/models/classifiers/sleep/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95523c38f76aaa13559f2f1ea89b2abc8f8b894d",
+      "size": 20234,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/95523c38f76aaa13559f2f1ea89b2abc8f8b894d"
+    },
+    {
+      "path": "src/models/classifiers/uk_dale",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2fce199bde7dbf040f30b9e934a83e254e5e624",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/f2fce199bde7dbf040f30b9e934a83e254e5e624"
+    },
+    {
+      "path": "src/models/classifiers/uk_dale/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b4559a6a4e44b532dc1020aec659b47fe8113e0",
+      "size": 387,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9b4559a6a4e44b532dc1020aec659b47fe8113e0"
+    },
+    {
+      "path": "src/models/classifiers/uk_dale/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee22094102630f5669796248ed9f6a650ed32e70",
+      "size": 7730,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ee22094102630f5669796248ed9f6a650ed32e70"
+    },
+    {
+      "path": "src/models/classifiers/uk_dale/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba0544b91088f2edc5e84f7b042970d3a756c9d",
+      "size": 24734,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/aba0544b91088f2edc5e84f7b042970d3a756c9d"
+    },
+    {
+      "path": "src/models/projector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bb79a7e384c6edb18760db12eebf32d0f867903",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/1bb79a7e384c6edb18760db12eebf32d0f867903"
+    },
+    {
+      "path": "src/models/projector/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90dfa76fe6297b1385d6fb786b45a5becc02a818",
+      "size": 1719,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/90dfa76fe6297b1385d6fb786b45a5becc02a818"
+    },
+    {
+      "path": "src/models/projector/linear.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bd56bcf56a3533588e66c37f74efaa044447a64",
+      "size": 462,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/8bd56bcf56a3533588e66c37f74efaa044447a64"
+    },
+    {
+      "path": "src/models/projector/mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc5cd922baa5b7f0c6e73849975522ba67c035d",
+      "size": 606,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9dc5cd922baa5b7f0c6e73849975522ba67c035d"
+    },
+    {
+      "path": "src/models/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "045dd16df2189c10c61a59d4ceaac5759f316fe1",
+      "size": 1807,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/045dd16df2189c10c61a59d4ceaac5759f316fe1"
+    },
+    {
+      "path": "src/models/ts_encoder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba52a9b3631f8d06e1d354de72472d85f86bcd6d",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/ba52a9b3631f8d06e1d354de72472d85f86bcd6d"
+    },
+    {
+      "path": "src/models/ts_encoder/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "404903718451b55670b01fc1faa58da991caf883",
+      "size": 1719,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/404903718451b55670b01fc1faa58da991caf883"
+    },
+    {
+      "path": "src/models/ts_encoder/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "467677ec2d8bdbae41f868340949b5e22c57080a",
+      "size": 1476,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/467677ec2d8bdbae41f868340949b5e22c57080a"
+    },
+    {
+      "path": "src/models/ts_encoder/chronos2_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0a0a50b3e7912614267d1fccd15fcbcaf2e03c0",
+      "size": 4159,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f0a0a50b3e7912614267d1fccd15fcbcaf2e03c0"
+    },
+    {
+      "path": "src/models/ts_encoder/cnn_tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb9ace589b0c824df0c90bb0202062d79f3ee236",
+      "size": 3590,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/eb9ace589b0c824df0c90bb0202062d79f3ee236"
+    },
+    {
+      "path": "src/models/ts_encoder/itformer_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3b4443167fc6f351394cf92a7b0cf1398976f8d",
+      "size": 7325,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d3b4443167fc6f351394cf92a7b0cf1398976f8d"
+    },
+    {
+      "path": "src/models/ts_encoder/mlp_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22fb04cd2178168838d31b57c06adbf347da765d",
+      "size": 3828,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/22fb04cd2178168838d31b57c06adbf347da765d"
+    },
+    {
+      "path": "src/models/ts_encoder/timesfm_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fa4160eadcdcb18b102d4a405834bb51885b641",
+      "size": 7056,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5fa4160eadcdcb18b102d4a405834bb51885b641"
+    },
+    {
+      "path": "src/models/ts_encoder/transformer_cnn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6851e9f42b4643be4ffd51342ca869b076cb9418",
+      "size": 3792,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6851e9f42b4643be4ffd51342ca869b076cb9418"
+    },
+    {
+      "path": "src/models/ts_encoder/transformer_mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5dc279b7a9a9c0b27f5e2d2a8b05ad4edd5c612",
+      "size": 3905,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b5dc279b7a9a9c0b27f5e2d2a8b05ad4edd5c612"
+    },
+    {
+      "path": "src/models/ts_llm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a1693a63b3db436a41d19cfae9ec175bb445364",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/6a1693a63b3db436a41d19cfae9ec175bb445364"
+    },
+    {
+      "path": "src/models/ts_llm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1245809d08c1f539e68a4f569b78237a2a16e80",
+      "size": 465,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e1245809d08c1f539e68a4f569b78237a2a16e80"
+    },
+    {
+      "path": "src/models/ts_llm/arts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36329bfb14a6c96b7ce6daa5490627167c3cdf4e",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/36329bfb14a6c96b7ce6daa5490627167c3cdf4e"
+    },
+    {
+      "path": "src/models/ts_llm/arts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ecab182bd8c5fd8a666cabbee7079915394b5bb",
+      "size": 1593,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0ecab182bd8c5fd8a666cabbee7079915394b5bb"
+    },
+    {
+      "path": "src/models/ts_llm/arts/bout_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d1c2ac89ceafa52d24bfe8ae2d79d16a56dbde0",
+      "size": 14139,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9d1c2ac89ceafa52d24bfe8ae2d79d16a56dbde0"
+    },
+    {
+      "path": "src/models/ts_llm/arts/capture24.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffc90fc5200a66406337d853b88e0fc973fed770",
+      "size": 44423,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ffc90fc5200a66406337d853b88e0fc973fed770"
+    },
+    {
+      "path": "src/models/ts_llm/arts/capture24_prepass.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cff3fa510bb0f728437b69d1f16a46148aec05ce",
+      "size": 16657,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/cff3fa510bb0f728437b69d1f16a46148aec05ce"
+    },
+    {
+      "path": "src/models/ts_llm/arts/ltaf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f0f2829d1f6bcdc2018ac84061092cc9d973527",
+      "size": 60841,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/2f0f2829d1f6bcdc2018ac84061092cc9d973527"
+    },
+    {
+      "path": "src/models/ts_llm/arts/providers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62598e605376b9e7df33a53d8c8d571d2c176df6",
+      "size": 11658,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/62598e605376b9e7df33a53d8c8d571d2c176df6"
+    },
+    {
+      "path": "src/models/ts_llm/arts/query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2ae2e0200eed9d8bf98ba0ba0ed019ecac89628",
+      "size": 1290,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a2ae2e0200eed9d8bf98ba0ba0ed019ecac89628"
+    },
+    {
+      "path": "src/models/ts_llm/arts/sleep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3254e5f1ff9fcf7caccc03141bb69bc1921dd43c",
+      "size": 33259,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/3254e5f1ff9fcf7caccc03141bb69bc1921dd43c"
+    },
+    {
+      "path": "src/models/ts_llm/arts/sleep_prepass.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cebd9ba181fc91e8cdfcd6982075113d67d55587",
+      "size": 56172,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/cebd9ba181fc91e8cdfcd6982075113d67d55587"
+    },
+    {
+      "path": "src/models/ts_llm/arts/uk_dale_prepass.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "187b2ef3b80f8c92d75806aafcf9e64cdf266473",
+      "size": 47646,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/187b2ef3b80f8c92d75806aafcf9e64cdf266473"
+    },
+    {
+      "path": "src/models/ts_llm/chatTS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ffbe3d1a0627746d9d14e651768627f0936a3c5",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/9ffbe3d1a0627746d9d14e651768627f0936a3c5"
+    },
+    {
+      "path": "src/models/ts_llm/chatTS/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e278d3179a72c63e2dd9cf96d447c3be51d5e934",
+      "size": 225,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e278d3179a72c63e2dd9cf96d447c3be51d5e934"
+    },
+    {
+      "path": "src/models/ts_llm/chatTS/chatts_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd580c1a575feee12ecca2ce31173c590c42a1d",
+      "size": 19208,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9fd580c1a575feee12ecca2ce31173c590c42a1d"
+    },
+    {
+      "path": "src/models/ts_llm/chattime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffcc04e041ac8caee60155dad5aee0423db4c63f",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/ffcc04e041ac8caee60155dad5aee0423db4c63f"
+    },
+    {
+      "path": "src/models/ts_llm/chattime/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c96957f34fd67059f7841754d9fe8c39eb53d37",
+      "size": 88,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9c96957f34fd67059f7841754d9fe8c39eb53d37"
+    },
+    {
+      "path": "src/models/ts_llm/chattime/discretizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c07dda46abf46d589aa04d8505a73f16f0753bb6",
+      "size": 2903,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c07dda46abf46d589aa04d8505a73f16f0753bb6"
+    },
+    {
+      "path": "src/models/ts_llm/chattime/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0faab0840381ed57b9faace40a21f83cebceb4d8",
+      "size": 10941,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0faab0840381ed57b9faace40a21f83cebceb4d8"
+    },
+    {
+      "path": "src/models/ts_llm/chattime/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf348efd9b8ce35bfbaf9acd6d353a193522586",
+      "size": 2390,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/ecf348efd9b8ce35bfbaf9acd6d353a193522586"
+    },
+    {
+      "path": "src/models/ts_llm/itformer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69ae87a6072a0cc88067b79d4b9edf27b0d11780",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/69ae87a6072a0cc88067b79d4b9edf27b0d11780"
+    },
+    {
+      "path": "src/models/ts_llm/itformer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b0ef4979d0863d7e114f006b7ccfbb4f199410e",
+      "size": 240,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0b0ef4979d0863d7e114f006b7ccfbb4f199410e"
+    },
+    {
+      "path": "src/models/ts_llm/itformer/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b293603c43c5535e9facd8d5997797919f9f071f",
+      "size": 331,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b293603c43c5535e9facd8d5997797919f9f071f"
+    },
+    {
+      "path": "src/models/ts_llm/itformer/fusion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bb77078ebcb034311d017324c0f096d977e5e40",
+      "size": 7394,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7bb77078ebcb034311d017324c0f096d977e5e40"
+    },
+    {
+      "path": "src/models/ts_llm/itformer/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06d02f94bda41c68b24154a8c126b716ffb234a0",
+      "size": 15963,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/06d02f94bda41c68b24154a8c126b716ffb234a0"
+    },
+    {
+      "path": "src/models/ts_llm/itformer/position_encoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4f6fdcfc12d58e6c5a505804c82ea758263af6b",
+      "size": 441,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/f4f6fdcfc12d58e6c5a505804c82ea758263af6b"
+    },
+    {
+      "path": "src/models/ts_llm/itformer/pretrain_ts_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80794e147a8891da364c7ca14f739c9252696c2f",
+      "size": 5335,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/80794e147a8891da364c7ca14f739c9252696c2f"
+    },
+    {
+      "path": "src/models/ts_llm/opentslm_flamingo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96b1742ad6b3d2562b63e90229d22404a4e4ad08",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/96b1742ad6b3d2562b63e90229d22404a4e4ad08"
+    },
+    {
+      "path": "src/models/ts_llm/opentslm_flamingo/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2b2c43fc57442e04b09737f75533d1f1520d20d",
+      "size": 391,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/a2b2c43fc57442e04b09737f75533d1f1520d20d"
+    },
+    {
+      "path": "src/models/ts_llm/opentslm_flamingo/flamingo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f6d8e81fdfdb65d62a4259db433dddcf4d58183",
+      "size": 25545,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/6f6d8e81fdfdb65d62a4259db433dddcf4d58183"
+    },
+    {
+      "path": "src/models/ts_llm/opentslm_flamingo/flamingo_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83c01ab3b165513fab0ad25d7c92555a8e485faf",
+      "size": 4741,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/83c01ab3b165513fab0ad25d7c92555a8e485faf"
+    },
+    {
+      "path": "src/prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4ab827d4ba4089362e42cfce7764819a54e928f",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/b4ab827d4ba4089362e42cfce7764819a54e928f"
+    },
+    {
+      "path": "src/prompt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da48ad6e419dd7756395a02f6be7c7096d50d26",
+      "size": 464,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9da48ad6e419dd7756395a02f6be7c7096d50d26"
+    },
+    {
+      "path": "src/prompt/full_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f3649cb39e48f093438d8eba086899ca0095d03",
+      "size": 1383,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/5f3649cb39e48f093438d8eba086899ca0095d03"
+    },
+    {
+      "path": "src/prompt/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9736e822d03c00c7666475e127836770055e4a17",
+      "size": 255,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9736e822d03c00c7666475e127836770055e4a17"
+    },
+    {
+      "path": "src/prompt/prompt_with_answer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa25b85f7cb075bfcdc2940386682f71a4c8b88",
+      "size": 1571,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/baa25b85f7cb075bfcdc2940386682f71a4c8b88"
+    },
+    {
+      "path": "src/prompt/text_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7790618b33040b83119672ff9fd4d8f149298c89",
+      "size": 380,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7790618b33040b83119672ff9fd4d8f149298c89"
+    },
+    {
+      "path": "src/prompt/text_time_series_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7578d25b92837aa09515ace3efb7d605af3596b3",
+      "size": 1352,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7578d25b92837aa09515ace3efb7d605af3596b3"
+    },
+    {
+      "path": "src/training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "656c724f4559821d2042b27aca381608f5866cd2",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/656c724f4559821d2042b27aca381608f5866cd2"
+    },
+    {
+      "path": "src/training/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0038d033b95eaf49065fb250ffe9a4613aa1738a",
+      "size": 245,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0038d033b95eaf49065fb250ffe9a4613aa1738a"
+    },
+    {
+      "path": "src/training/logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637924de023d2a3c38503b7342f34c516ae7b5b6",
+      "size": 11911,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/637924de023d2a3c38503b7342f34c516ae7b5b6"
+    },
+    {
+      "path": "src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0551954700758dec3fb26d6140c584eb64fe847",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/d0551954700758dec3fb26d6140c584eb64fe847"
+    },
+    {
+      "path": "src/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc29efccdaf4e65639a0a6b0989988f39fc2db01",
+      "size": 719,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/cc29efccdaf4e65639a0a6b0989988f39fc2db01"
+    },
+    {
+      "path": "src/utils/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26e4c9469fbec64967c145d9de6bd3e788acdbe",
+      "size": 11786,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d26e4c9469fbec64967c145d9de6bd3e788acdbe"
+    },
+    {
+      "path": "src/utils/distributed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b3169e04373e8d4eb2dcd9fce69930563921b0",
+      "size": 2359,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/95b3169e04373e8d4eb2dcd9fce69930563921b0"
+    },
+    {
+      "path": "src/utils/io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a6c2d54821beaada92457c3cd7d10bb744b19be",
+      "size": 7228,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/0a6c2d54821beaada92457c3cd7d10bb744b19be"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b1af50dba1b55ee1e1a6601e4ce862c1f2c24e0",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/6b1af50dba1b55ee1e1a6601e4ce862c1f2c24e0"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "179923dff8039d7d52d5cd458e4b6bc0d1778ef5",
+      "size": 1965,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/179923dff8039d7d52d5cd458e4b6bc0d1778ef5"
+    },
+    {
+      "path": "tests/integration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f32a6b376349e1ff5aa137ef01bba1881406953",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/8f32a6b376349e1ff5aa137ef01bba1881406953"
+    },
+    {
+      "path": "tests/integration/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/integration/test_ltaf_generation_reproducibility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30626fa943bdcab904a8e09ecb319026b0124cb4",
+      "size": 4587,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/30626fa943bdcab904a8e09ecb319026b0124cb4"
+    },
+    {
+      "path": "tests/integration/test_ltaf_training_smoke.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b9f4d7b03841706cd6178b1abd7e80c522008f",
+      "size": 8861,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/d6b9f4d7b03841706cd6178b1abd7e80c522008f"
+    },
+    {
+      "path": "tests/integration/test_uk_dale_reproducibility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c1fbba6714d5d21acdec692b90c75b3f64d66b",
+      "size": 2067,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b0c1fbba6714d5d21acdec692b90c75b3f64d66b"
+    },
+    {
+      "path": "tests/unit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "feff4dbe39b11c4c8d26e6e3d337c998bb6b08fd",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/feff4dbe39b11c4c8d26e6e3d337c998bb6b08fd"
+    },
+    {
+      "path": "tests/unit/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/test_components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40753e0d2d4d04eda13279cfa9da655f76340e64",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/40753e0d2d4d04eda13279cfa9da655f76340e64"
+    },
+    {
+      "path": "tests/unit/test_components/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/test_components/test_decoder_layers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63cc6b4a08f0914c243d6e72428b368b6d329c81",
+      "size": 2704,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/63cc6b4a08f0914c243d6e72428b368b6d329c81"
+    },
+    {
+      "path": "tests/unit/test_components/test_primitives.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83e224428bae9edbf1a25f2c259da1a4cc310462",
+      "size": 6925,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/83e224428bae9edbf1a25f2c259da1a4cc310462"
+    },
+    {
+      "path": "tests/unit/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69247c8077004d0ebbdc77d0f1e686423bff66e7",
+      "size": 7864,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/69247c8077004d0ebbdc77d0f1e686423bff66e7"
+    },
+    {
+      "path": "tests/unit/test_datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1edf622f70af2f77ad6a7926373bfdd1b3da0bb2",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/1edf622f70af2f77ad6a7926373bfdd1b3da0bb2"
+    },
+    {
+      "path": "tests/unit/test_datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/test_datasets/test_ltaf_core_artifacts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b13ee82678eec391597624335d1b16c99a0415",
+      "size": 4537,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/27b13ee82678eec391597624335d1b16c99a0415"
+    },
+    {
+      "path": "tests/unit/test_datasets/test_ltaf_generation_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc1c9b36506fb995282a79b5e22341a5cc3f05a",
+      "size": 1677,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9bc1c9b36506fb995282a79b5e22341a5cc3f05a"
+    },
+    {
+      "path": "tests/unit/test_datasets/test_ltaf_qa_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9199c6c0ce33b44767167c5e0528c8d2acca99f3",
+      "size": 9620,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/9199c6c0ce33b44767167c5e0528c8d2acca99f3"
+    },
+    {
+      "path": "tests/unit/test_datasets/test_ltaf_tasks_m4.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8bfc0425f7881dbccc68f33f35337a0823d5992",
+      "size": 8012,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/b8bfc0425f7881dbccc68f33f35337a0823d5992"
+    },
+    {
+      "path": "tests/unit/test_datasets/test_uk_dale_bout_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fb818b378dc7f46570e2911a8c65be7c2208a62",
+      "size": 3182,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/4fb818b378dc7f46570e2911a8c65be7c2208a62"
+    },
+    {
+      "path": "tests/unit/test_datasets/test_uk_dale_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d51613f96e5cae4f90d4165400ab26b720a9a03",
+      "size": 3676,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/7d51613f96e5cae4f90d4165400ab26b720a9a03"
+    },
+    {
+      "path": "tests/unit/test_models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d1dcfdaf1a6857c5f83dc27019c7600e1ffaff8",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/9d1dcfdaf1a6857c5f83dc27019c7600e1ffaff8"
+    },
+    {
+      "path": "tests/unit/test_models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/test_training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7da162d99ada033a4e29e3c64c7db92517daf39e",
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/trees/7da162d99ada033a4e29e3c64c7db92517daf39e"
+    },
+    {
+      "path": "tests/unit/test_training/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/test_training/test_logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c699bb47009f61e03b66dfe361f7e6270b394576",
+      "size": 3479,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/c699bb47009f61e03b66dfe361f7e6270b394576"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "706843803ff507194eacb6af29299c9b7c33fbaa",
+      "size": 356015,
+      "url": "https://api.github.com/repos/AI-X-Labs/TS-Haystack/git/blobs/706843803ff507194eacb6af29299c9b7c33fbaa"
+    }
+  ],
+  "truncated": false
+}

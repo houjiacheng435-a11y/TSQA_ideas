@@ -1,0 +1,98 @@
+[
+  {
+    "path": "data/v020-evidence-fidelity/official-qa/rhythms/tasks/100_0s/existence/test/data.parquet",
+    "rows": 150,
+    "columns": [
+      "task_type",
+      "question",
+      "answer",
+      "answer_type",
+      "context_length_samples",
+      "record_id",
+      "window_start_ms",
+      "window_end_ms",
+      "metadata",
+      "is_valid",
+      "invalid_reason",
+      "source_hz"
+    ],
+    "example": {
+      "task_type": "existence",
+      "question": "Does the following ECG include a ventricular tachycardia segment?",
+      "answer": "no",
+      "answer_type": "boolean",
+      "context_length_samples": 12800,
+      "record_id": "32",
+      "window_start_ms": 33450000,
+      "window_end_ms": 33550000,
+      "metadata": "{\"target_activity\": \"VT\", \"is_positive\": false}",
+      "is_valid": true,
+      "invalid_reason": "",
+      "source_hz": 128
+    }
+  },
+  {
+    "path": "data/v020-evidence-fidelity/official-qa/rhythms/tasks/3600_0s/counting/test/data.parquet",
+    "rows": 150,
+    "columns": [
+      "task_type",
+      "question",
+      "answer",
+      "answer_type",
+      "context_length_samples",
+      "record_id",
+      "window_start_ms",
+      "window_end_ms",
+      "metadata",
+      "is_valid",
+      "invalid_reason",
+      "source_hz"
+    ],
+    "example": {
+      "task_type": "counting",
+      "question": "How many times does IVR occur in this recording?",
+      "answer": "0",
+      "answer_type": "integer",
+      "context_length_samples": 460800,
+      "record_id": "11",
+      "window_start_ms": 44100000,
+      "window_end_ms": 47700000,
+      "metadata": "{\"activity\": \"IVR\", \"count\": 0, \"target_bucket\": [0, 0], \"bout_segments\": []}",
+      "is_valid": true,
+      "invalid_reason": "",
+      "source_hz": 128
+    }
+  },
+  {
+    "path": "data/v020-evidence-fidelity/official-qa/rhythms/tasks/7200_0s/ordering/test/data.parquet",
+    "rows": 150,
+    "columns": [
+      "task_type",
+      "question",
+      "answer",
+      "answer_type",
+      "context_length_samples",
+      "record_id",
+      "window_start_ms",
+      "window_end_ms",
+      "metadata",
+      "is_valid",
+      "invalid_reason",
+      "source_hz"
+    ],
+    "example": {
+      "task_type": "ordering",
+      "question": "In this ECG, did the 11th ventricular tachycardia happen earlier than the 5th AFIB?",
+      "answer": "no",
+      "answer_type": "boolean",
+      "context_length_samples": 921600,
+      "record_id": "48",
+      "window_start_ms": 10800000,
+      "window_end_ms": 18000000,
+      "metadata": "{\"activity_a\": \"VT\", \"activity_b\": \"AFIB\", \"ordinal_a\": 11, \"ordinal_b\": 5, \"a_start\": 759127, \"a_end\": 759261, \"b_start\": 340724, \"b_end\": 370157, \"bout_segments\": [[759127, 759261], [340724, 370157]]}",
+      "is_valid": true,
+      "invalid_reason": "",
+      "source_hz": 128
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "view": "full",
+    "tasks": 6,
+    "full_truth_correct": 6,
+    "provided_view_correct": 6,
+    "mean_wall_seconds": 8.738338252529502,
+    "mean_llm_seconds": 5.386501270035903,
+    "input_tokens": 18456,
+    "output_tokens": 1458,
+    "llm_calls": 13,
+    "code_retries": 1,
+    "code_failures": 1,
+    "official_score_mean": 1.0
+  },
+  {
+    "view": "native",
+    "tasks": 2,
+    "full_truth_correct": 2,
+    "provided_view_correct": 2,
+    "mean_wall_seconds": 5.817987900227308,
+    "mean_llm_seconds": 5.265342090278864,
+    "input_tokens": 5623,
+    "output_tokens": 471,
+    "llm_calls": 4,
+    "code_retries": 0,
+    "code_failures": 0,
+    "official_score_mean": 1.0
+  },
+  {
+    "view": "paa64",
+    "tasks": 6,
+    "full_truth_correct": 3,
+    "provided_view_correct": 6,
+    "mean_wall_seconds": 5.726761808618903,
+    "mean_llm_seconds": 5.113832771778107,
+    "input_tokens": 17962,
+    "output_tokens": 1464,
+    "llm_calls": 12,
+    "code_retries": 0,
+    "code_failures": 0,
+    "official_score_mean": 0.7475801786026924
+  }
+]

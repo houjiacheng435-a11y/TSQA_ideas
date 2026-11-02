@@ -1,0 +1,9 @@
+{
+  "fixed_decoder": "Fixed representation build times include reconstruction, and query times use already reconstructed memory arrays. They are audit costs, not deployable end-to-end compressed-query timing.",
+  "tree": "Python traversal wall clock includes raw broker accounting and copies; NumPy full scan is vectorized and already resident. Lower logical bytes does not imply faster wall clock.",
+  "raw_bytes": "Unique scalar float32 bytes fetched, per query. Index nodes may be reread and are counted per access. No physical disk-I/O measurement.",
+  "SQL": "Returned rows cannot establish SQLite pages scanned. Do not put Sonar on raw-broker byte frontier.",
+  "full_baseline": "All relevant channels counted: one channel for eight single-variable questions; two for ordering/cooccur. A bookkeeping correction changed only byte counts before aggregation, not predictions.",
+  "sampling": "8 independent record clusters, 24 contexts, 240 correlated QA; CIs resample records, not individual questions.",
+  "fixed_build_input_bytes": "For fixed representations, index-build input_bytes is source-array extent, not instrumented accesses; uniform sampling can touch fewer values. The amortized indexed-baseline table includes only full scan, EventIndex and MinMax+Sum, not this unprofiled fixed-encoder count."
+}

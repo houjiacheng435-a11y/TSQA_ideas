@@ -1,0 +1,1886 @@
+{
+  "sha": "31fcd847b7cb37a1f1e6859b1dca7973ed0eae74",
+  "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/31fcd847b7cb37a1f1e6859b1dca7973ed0eae74",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4553301909bddee36f6cfa5bfeb27bf3c853cd4b",
+      "size": 584,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/4553301909bddee36f6cfa5bfeb27bf3c853cd4b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd506f8d0ddfef78429f38ba4edd2f053d5fcff",
+      "size": 2056,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/dfd506f8d0ddfef78429f38ba4edd2f053d5fcff"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e4f19b905e8e48014bc4c4b961a170691d02a3f",
+      "size": 6670,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/4e4f19b905e8e48014bc4c4b961a170691d02a3f"
+    },
+    {
+      "path": "anomalyXL",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47f09028dd54536feac3a38e582fabc6542fafb6",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/47f09028dd54536feac3a38e582fabc6542fafb6"
+    },
+    {
+      "path": "anomalyXL/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "493ebddaf11d046d2139b14c5ccd19764fcdf0ef",
+      "size": 3582,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/493ebddaf11d046d2139b14c5ccd19764fcdf0ef"
+    },
+    {
+      "path": "anomalyXL/anomalyxl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecd89941d6f7e2331f43e713e783004ab77f62d4",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/ecd89941d6f7e2331f43e713e783004ab77f62d4"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f4100fd32da9a103febe17cc8b0a0eabd1539ec",
+      "size": 814,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/0f4100fd32da9a103febe17cc8b0a0eabd1539ec"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae637f13cd528a1823ec240ed01b3bdaaa19967",
+      "size": 61,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/9ae637f13cd528a1823ec240ed01b3bdaaa19967"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/anomalies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2068d0146fe7b5fae9198a53f4acb6b3a6fcfea",
+      "size": 8551,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b2068d0146fe7b5fae9198a53f4acb6b3a6fcfea"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92af125f07c10d5b42a6f6cab937569937fd22a1",
+      "size": 5873,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/92af125f07c10d5b42a6f6cab937569937fd22a1"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/difficulty.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c48495f7986471bce62b74c5ab4f5ba81fc45f9",
+      "size": 1655,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/3c48495f7986471bce62b74c5ab4f5ba81fc45f9"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2735145c312f697590fbd2ddca25ddbd14021eb",
+      "size": 3864,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/c2735145c312f697590fbd2ddca25ddbd14021eb"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/primitives.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a6f19b929c03566301792c3969511501dc7c27",
+      "size": 4924,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/85a6f19b929c03566301792c3969511501dc7c27"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17d20d2e5c78e60c87c80af63dd1c7be07da1147",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/17d20d2e5c78e60c87c80af63dd1c7be07da1147"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "107a343c25efda4a72ec6fda85ba0cc1863cb2bd",
+      "size": 1532,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/107a343c25efda4a72ec6fda85ba0cc1863cb2bd"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/_multi_injection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e247e143b5e265fab34fb15055f66a127039d7bc",
+      "size": 3942,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e247e143b5e265fab34fb15055f66a127039d7bc"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/_paired.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941bfa658eb17c009dee5c6d21377b4c228a4645",
+      "size": 8345,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/941bfa658eb17c009dee5c6d21377b4c228a4645"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/_time_buckets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a655d0e54f42836e07238daae5789cacf09872e7",
+      "size": 1476,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/a655d0e54f42836e07238daae5789cacf09872e7"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa4dd177baf8ab9d462481aa8f2730a124aeef5",
+      "size": 1718,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/9aa4dd177baf8ab9d462481aa8f2730a124aeef5"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/categorization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15c4a10870cdb7fe6bb061ba07bea05b12256bd4",
+      "size": 3786,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/15c4a10870cdb7fe6bb061ba07bea05b12256bd4"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/classify_with_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6856c9683b6f32d45630384f222b50305e9c6864",
+      "size": 4526,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/6856c9683b6f32d45630384f222b50305e9c6864"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/identification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9187b01cc2b04f6323a88efd48429a213cb91550",
+      "size": 5317,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/9187b01cc2b04f6323a88efd48429a213cb91550"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/indicator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a562c9a8be6ee31d8d5437eb67340a087b9164",
+      "size": 2918,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/76a562c9a8be6ee31d8d5437eb67340a087b9164"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/lead_lag_with_magnitude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35e4b9f6a4b81865bd92a4a2545b2d92a96c04d2",
+      "size": 6249,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/35e4b9f6a4b81865bd92a4a2545b2d92a96c04d2"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/localize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a2365e2acd10edfc9fb88afb44a2f96c9684cbd",
+      "size": 4887,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/3a2365e2acd10edfc9fb88afb44a2f96c9684cbd"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/localize_all_channels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "001d42299affc2a6008b90100b801ca1730f06a8",
+      "size": 4412,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/001d42299affc2a6008b90100b801ca1730f06a8"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/magnitude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d21dd6668541d658eb568ae1ca590bc86b056a6",
+      "size": 3085,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/4d21dd6668541d658eb568ae1ca590bc86b056a6"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/measure_magnitude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c798aa106f5a6620c316734e1d5adb10672d237e",
+      "size": 4775,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/c798aa106f5a6620c316734e1d5adb10672d237e"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/presence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "956773def97c4d94379b8490cb99be290e364885",
+      "size": 1912,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/956773def97c4d94379b8490cb99be290e364885"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/questions/start_time.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af708642473ecd6080a22dc7c41a1382e554b6c2",
+      "size": 3856,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/af708642473ecd6080a22dc7c41a1382e554b6c2"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/scene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce0a99d9d3cb5c2bbb33fd0c736501be4753bde",
+      "size": 4254,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/dce0a99d9d3cb5c2bbb33fd0c736501be4753bde"
+    },
+    {
+      "path": "anomalyXL/anomalyxl/scoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "441de07f1ad0d1a5c6d28142aa166066a1ecd390",
+      "size": 769,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/441de07f1ad0d1a5c6d28142aa166066a1ecd390"
+    },
+    {
+      "path": "anomalyXL/generalization_set",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffb320d7e11e74616da961c6122c944dc505c693",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/ffb320d7e11e74616da961c6122c944dc505c693"
+    },
+    {
+      "path": "anomalyXL/generalization_set/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6174a437bbb2f5be8afbb1d6feecec5d9e6701f",
+      "size": 5111,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/a6174a437bbb2f5be8afbb1d6feecec5d9e6701f"
+    },
+    {
+      "path": "anomalyXL/generalization_set/extend_ltaf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "627c0c39a5d8e750b2a0d33d9cb8e63a94b50b25",
+      "size": 5059,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/627c0c39a5d8e750b2a0d33d9cb8e63a94b50b25"
+    },
+    {
+      "path": "anomalyXL/generalization_set/extend_sleep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b996dfe9c6a48b9bc580c9504541a0c8f02bef",
+      "size": 5180,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/16b996dfe9c6a48b9bc580c9504541a0c8f02bef"
+    },
+    {
+      "path": "anomalyXL/generalization_set/gen_ltaf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04891deabfdf9120a79ad87ad55ade03c6ca7ec4",
+      "size": 8808,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/04891deabfdf9120a79ad87ad55ade03c6ca7ec4"
+    },
+    {
+      "path": "anomalyXL/generalization_set/gen_sleep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe2574d2a87d3f695d89ee850bde446877a2dd85",
+      "size": 10570,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/fe2574d2a87d3f695d89ee850bde446877a2dd85"
+    },
+    {
+      "path": "anomalyXL/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f896674c34c1f67e1ed901bc49e26fd1dc9e1e85",
+      "size": 858,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/f896674c34c1f67e1ed901bc49e26fd1dc9e1e85"
+    },
+    {
+      "path": "anomalyXL/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6aa2b4814a6adaf26800c0cb874ec4bce5a7f22b",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/6aa2b4814a6adaf26800c0cb874ec4bce5a7f22b"
+    },
+    {
+      "path": "anomalyXL/scripts/classical_baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ced4c1ba20d62917fda1428874d97895651fd68",
+      "size": 19229,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/0ced4c1ba20d62917fda1428874d97895651fd68"
+    },
+    {
+      "path": "anomalyXL/scripts/coarse_project.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c10a093aa1daffbd97d54b62805d7fc52249cbc2",
+      "size": 15370,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/c10a093aa1daffbd97d54b62805d7fc52249cbc2"
+    },
+    {
+      "path": "anomalyXL/scripts/export_anomalyxl_for_toto.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c18bd009b7f7284c6dde43972636d1b42f61eb8",
+      "size": 3337,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/0c18bd009b7f7284c6dde43972636d1b42f61eb8"
+    },
+    {
+      "path": "anomalyXL/scripts/generate_anomalyxl_sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fde3cdb4377b9f4ffdbee393d73081879a7edb5",
+      "size": 7429,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/5fde3cdb4377b9f4ffdbee393d73081879a7edb5"
+    },
+    {
+      "path": "anomalyXL/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18c3a2c81da26782b602ef928bce3e4bca2cf652",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/18c3a2c81da26782b602ef928bce3e4bca2cf652"
+    },
+    {
+      "path": "anomalyXL/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "anomalyXL/tests/test_anomalies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5fad74054d887f76c8eaf484d3f8ed6b68e99af",
+      "size": 5033,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/d5fad74054d887f76c8eaf484d3f8ed6b68e99af"
+    },
+    {
+      "path": "anomalyXL/tests/test_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb5118cdabc9da9fcfa914872224fbe627dbea8",
+      "size": 2653,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/fcb5118cdabc9da9fcfa914872224fbe627dbea8"
+    },
+    {
+      "path": "anomalyXL/tests/test_primitives.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121a1a5dfde56406d1684369e48c16caa9bb5a60",
+      "size": 2841,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/121a1a5dfde56406d1684369e48c16caa9bb5a60"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9cfa6d06704202e0aafd0d338ab3e269053b05c",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/d9cfa6d06704202e0aafd0d338ab3e269053b05c"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_categorization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fad86dc17b6358b231f8707ad193b0e160da3f6",
+      "size": 2967,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/0fad86dc17b6358b231f8707ad193b0e160da3f6"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_classify_with_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce1c9943ba43e44f42dd4769b494925b52649796",
+      "size": 2812,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/ce1c9943ba43e44f42dd4769b494925b52649796"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_identification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668336aae948d7baa2baee796507d3e1eb6e4570",
+      "size": 1958,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/668336aae948d7baa2baee796507d3e1eb6e4570"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_indicator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17dee0e8a2f03145c3308dab73b8223d869ad0d1",
+      "size": 2283,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/17dee0e8a2f03145c3308dab73b8223d869ad0d1"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_lead_lag_with_magnitude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bc950a7edafe06b03942dcdd58e172a9d5646da",
+      "size": 5204,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/3bc950a7edafe06b03942dcdd58e172a9d5646da"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_localize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57c3f899afbb63f4d03b7ea9f016934c72a34879",
+      "size": 3656,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/57c3f899afbb63f4d03b7ea9f016934c72a34879"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_localize_all_channels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dff55bb040d890cb2de1f5571f83f47ba87fdd99",
+      "size": 5069,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/dff55bb040d890cb2de1f5571f83f47ba87fdd99"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_magnitude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc7f082af41d94e4e6228c7a3fc41b7eb3f76bb7",
+      "size": 1719,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/cc7f082af41d94e4e6228c7a3fc41b7eb3f76bb7"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_measure_magnitude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27eb213975c40028cff400e3318e7e2f65401978",
+      "size": 3899,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/27eb213975c40028cff400e3318e7e2f65401978"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_multi_injection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35c5a533de17d0ca9e60b54d1a795cd9d811f8df",
+      "size": 4263,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/35c5a533de17d0ca9e60b54d1a795cd9d811f8df"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_presence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "603cbbb32c1eb14132b4513c6d100e0bc9f477d6",
+      "size": 1147,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/603cbbb32c1eb14132b4513c6d100e0bc9f477d6"
+    },
+    {
+      "path": "anomalyXL/tests/test_questions/test_start_time.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10316f629124e22070c3b06dfd60597187b8f866",
+      "size": 1600,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/10316f629124e22070c3b06dfd60597187b8f866"
+    },
+    {
+      "path": "anomalyXL/tests/test_scene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7cf390cbea090ed82200d1f68e45ab3d91c5007",
+      "size": 2474,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e7cf390cbea090ed82200d1f68e45ab3d91c5007"
+    },
+    {
+      "path": "anomalyXL/tests/test_scoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "373337cbde6dd60139256370628f276f373c1905",
+      "size": 748,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/373337cbde6dd60139256370628f276f373c1905"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d6452ce80d3161164f0f2f75d72db46f9208b45",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/9d6452ce80d3161164f0f2f75d72db46f9208b45"
+    },
+    {
+      "path": "configs/rl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "811a2f89e727fc9b1907066c3515fbf6ea0af150",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/811a2f89e727fc9b1907066c3515fbf6ea0af150"
+    },
+    {
+      "path": "configs/rl/anomalyxl_rlm_v5_ablation_fixed.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "766d2bf3f9b481b0389da7c7af4198abdadca0b3",
+      "size": 10788,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/766d2bf3f9b481b0389da7c7af4198abdadca0b3"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dababde1361e89c3d7ce2641a27893ac3418e280",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/dababde1361e89c3d7ce2641a27893ac3418e280"
+    },
+    {
+      "path": "docs/REPRODUCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da02d0ee8e9c904af205203089c1c43ac13e783",
+      "size": 14104,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/9da02d0ee8e9c904af205203089c1c43ac13e783"
+    },
+    {
+      "path": "environments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae5a8ae60c2e845980bebfd5cf14041bb718ed7b",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/ae5a8ae60c2e845980bebfd5cf14041bb718ed7b"
+    },
+    {
+      "path": "environments/timeseries_qa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8599db980bbceee5def0ce5a03e3e975b2d4231b",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/8599db980bbceee5def0ce5a03e3e975b2d4231b"
+    },
+    {
+      "path": "environments/timeseries_qa/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ac63ff357cbb681dea8633d2915a4feb69263d",
+      "size": 5026,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/08ac63ff357cbb681dea8633d2915a4feb69263d"
+    },
+    {
+      "path": "environments/timeseries_qa/local_executor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb7fd77d25f5c28f04713c9e1637ded1ba916d4",
+      "size": 7333,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/5eb7fd77d25f5c28f04713c9e1637ded1ba916d4"
+    },
+    {
+      "path": "environments/timeseries_qa/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12df139e195d2464d3e568db8f0cd2c6eb823976",
+      "size": 1725,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/12df139e195d2464d3e568db8f0cd2c6eb823976"
+    },
+    {
+      "path": "environments/timeseries_qa/rlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1586f4631aa435bac94fd688f48dc4b95d3eb01",
+      "size": 24815,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/f1586f4631aa435bac94fd688f48dc4b95d3eb01"
+    },
+    {
+      "path": "environments/timeseries_qa/rlm_env_vendored.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d7d1be53034454ecccaf046f34e9f9ebdbed4e3",
+      "size": 173233,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/3d7d1be53034454ecccaf046f34e9f9ebdbed4e3"
+    },
+    {
+      "path": "environments/timeseries_qa/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce354e4d4c9bc190556abb10c07cd8d50ea5a7e6",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/ce354e4d4c9bc190556abb10c07cd8d50ea5a7e6"
+    },
+    {
+      "path": "environments/timeseries_qa/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "environments/timeseries_qa/tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df1376f8925d2517bf29a9698728c85ba09f9f9a",
+      "size": 1532,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/df1376f8925d2517bf29a9698728c85ba09f9f9a"
+    },
+    {
+      "path": "environments/timeseries_qa/tests/test_anomalyxl_coarse_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27e982b4ea82397f85257d88e5e649e3bf12d986",
+      "size": 5590,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/27e982b4ea82397f85257d88e5e649e3bf12d986"
+    },
+    {
+      "path": "environments/timeseries_qa/tests/test_anomalyxl_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6968bf17ab81e872d266ee67190fa6aa6282ce5",
+      "size": 14130,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/a6968bf17ab81e872d266ee67190fa6aa6282ce5"
+    },
+    {
+      "path": "environments/timeseries_qa/tests/test_arfbench_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04c087abc69bee204b49527a5f84d231a353cb22",
+      "size": 4665,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/04c087abc69bee204b49527a5f84d231a353cb22"
+    },
+    {
+      "path": "environments/timeseries_qa/tests/test_scorer_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82dbb598eddaf8b203625ac479e16a1c6d4c6c3f",
+      "size": 4641,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/82dbb598eddaf8b203625ac479e16a1c6d4c6c3f"
+    },
+    {
+      "path": "environments/timeseries_qa/timeseries_qa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caf09f63c98f3c9052d02b363d8d0bd3ba131881",
+      "size": 8145,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/caf09f63c98f3c9052d02b363d8d0bd3ba131881"
+    },
+    {
+      "path": "environments/timeseries_qa/ts_datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ba52a68b9b6f0cbe9e0e71a92a0f05c53db8d9b",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/5ba52a68b9b6f0cbe9e0e71a92a0f05c53db8d9b"
+    },
+    {
+      "path": "environments/timeseries_qa/ts_datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19e7a5724b049a28571e32bc35bcf0aab4d61ea8",
+      "size": 666,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/19e7a5724b049a28571e32bc35bcf0aab4d61ea8"
+    },
+    {
+      "path": "environments/timeseries_qa/ts_datasets/anomalyxl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eab7a5ee8ab95e5327ce5dbfbe86fc3fd9d6ac25",
+      "size": 25815,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/eab7a5ee8ab95e5327ce5dbfbe86fc3fd9d6ac25"
+    },
+    {
+      "path": "environments/timeseries_qa/ts_datasets/anomalyxl_coarse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a12f62028224535d5c3ab4ce902372bc638cf21",
+      "size": 20921,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/0a12f62028224535d5c3ab4ce902372bc638cf21"
+    },
+    {
+      "path": "environments/timeseries_qa/ts_datasets/arfbench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53bb4ed76a47ecca68a2ff9bb5c600adb442243d",
+      "size": 19396,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/53bb4ed76a47ecca68a2ff9bb5c600adb442243d"
+    },
+    {
+      "path": "environments/timeseries_qa/ts_datasets/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87f36bec234599a47cc3bdd6a9a796dc2313bede",
+      "size": 4150,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/87f36bec234599a47cc3bdd6a9a796dc2313bede"
+    },
+    {
+      "path": "environments/timeseries_qa/ts_datasets/generalization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1615883daaeff46d50a40780d894d70c6146c4d",
+      "size": 1654,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b1615883daaeff46d50a40780d894d70c6146c4d"
+    },
+    {
+      "path": "environments/timeseries_qa/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0c3eeb5079712978a802c973e14f451b46edc9d",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/c0c3eeb5079712978a802c973e14f451b46edc9d"
+    },
+    {
+      "path": "environments/timeseries_qa/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "883707180f1614220262998ee661a942c5ebc6b0",
+      "size": 110,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/883707180f1614220262998ee661a942c5ebc6b0"
+    },
+    {
+      "path": "environments/timeseries_qa/utils/formatter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6282dbe5eda894b2fabf6266a61523472bd6622",
+      "size": 1909,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/a6282dbe5eda894b2fabf6266a61523472bd6622"
+    },
+    {
+      "path": "environments/timeseries_qa_v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5dcaff8ef0810f99e5d638aaf38d3527b553f4a7",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/5dcaff8ef0810f99e5d638aaf38d3527b553f4a7"
+    },
+    {
+      "path": "environments/timeseries_qa_v1/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c8046b59ad9bc0fd75ee19ea58c3f258a147d0c",
+      "size": 802,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/6c8046b59ad9bc0fd75ee19ea58c3f258a147d0c"
+    },
+    {
+      "path": "environments/timeseries_qa_v1/timeseries_qa_v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91a072a9166c7da2071c1347c438028150d797a3",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/91a072a9166c7da2071c1347c438028150d797a3"
+    },
+    {
+      "path": "environments/timeseries_qa_v1/timeseries_qa_v1/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28864df606672d7f0ce5762046fd3624f297d611",
+      "size": 840,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/28864df606672d7f0ce5762046fd3624f297d611"
+    },
+    {
+      "path": "environments/timeseries_qa_v1/timeseries_qa_v1/generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d46ef973b542912d91d973300fa012950716ea",
+      "size": 5527,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b8d46ef973b542912d91d973300fa012950716ea"
+    },
+    {
+      "path": "environments/timeseries_qa_v1/timeseries_qa_v1/harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01905a083aee05670a25322c90cc9adbcbf2f06f",
+      "size": 2996,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/01905a083aee05670a25322c90cc9adbcbf2f06f"
+    },
+    {
+      "path": "environments/timeseries_qa_v1/timeseries_qa_v1/rlm_program.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521a936d71676216d2bb0584347a92acfc479381",
+      "size": 3100,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/521a936d71676216d2bb0584347a92acfc479381"
+    },
+    {
+      "path": "environments/timeseries_qa_v1/timeseries_qa_v1/taskset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "622da592f44520405e131644371a6c336f9179d1",
+      "size": 6433,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/622da592f44520405e131644371a6c336f9179d1"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e77e92a301062cae0fb0ad464eafdd65310a6959",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/e77e92a301062cae0fb0ad464eafdd65310a6959"
+    },
+    {
+      "path": "public/AnomalyXL_zoom.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41a269af4faf1b0cd2dec3e100877b2aaf942887",
+      "size": 179490,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/41a269af4faf1b0cd2dec3e100877b2aaf942887"
+    },
+    {
+      "path": "public/AnomalyXL_zoom.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d28335dff4344d145733ca40bbc6f5236c42974c",
+      "size": 342609,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/d28335dff4344d145733ca40bbc6f5236c42974c"
+    },
+    {
+      "path": "public/RLM_Loop.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcd8fd7af88d4e62cb4651143a78b490aaf21d39",
+      "size": 878498,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/fcd8fd7af88d4e62cb4651143a78b490aaf21d39"
+    },
+    {
+      "path": "public/RLM_Loop.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da768ba1c2b02dc1ca68fcaa282cc87c40da123",
+      "size": 415036,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/9da768ba1c2b02dc1ca68fcaa282cc87c40da123"
+    },
+    {
+      "path": "rlm-harness",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68646d4aea663e6256ad44fa59974224a43377f1",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/68646d4aea663e6256ad44fa59974224a43377f1"
+    },
+    {
+      "path": "rlm-harness/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17d03ebaa99125dac1daf348fcb2e2d25608ed42",
+      "size": 4714,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/17d03ebaa99125dac1daf348fcb2e2d25608ed42"
+    },
+    {
+      "path": "rlm-harness/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc56d94758d989faa0316d627fe5d95807855c4b",
+      "size": 1072,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/fc56d94758d989faa0316d627fe5d95807855c4b"
+    },
+    {
+      "path": "rlm-harness/NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae396140c7cb4a631044cb43602dc4e056ace50e",
+      "size": 1353,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/ae396140c7cb4a631044cb43602dc4e056ace50e"
+    },
+    {
+      "path": "rlm-harness/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "415889b559937535eb0be172186737953013635c",
+      "size": 11882,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/415889b559937535eb0be172186737953013635c"
+    },
+    {
+      "path": "rlm-harness/install.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b3e1a6d14f9ab89a1084a4f54961c0c4570780",
+      "size": 5888,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/45b3e1a6d14f9ab89a1084a4f54961c0c4570780"
+    },
+    {
+      "path": "rlm-harness/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb93db7c3c2ca95c09208fc3ef9ba83de73b3018",
+      "size": 962,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/bb93db7c3c2ca95c09208fc3ef9ba83de73b3018"
+    },
+    {
+      "path": "rlm-harness/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27c1465d36806f0d4615e2325263d3d0512397bc",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/27c1465d36806f0d4615e2325263d3d0512397bc"
+    },
+    {
+      "path": "rlm-harness/src/rlm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcfca70445e96c3c896405fdf972f2b15695c250",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/bcfca70445e96c3c896405fdf972f2b15695c250"
+    },
+    {
+      "path": "rlm-harness/src/rlm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb4117f5b8dac112fd182542deb2e00753d49a8",
+      "size": 220,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/3fb4117f5b8dac112fd182542deb2e00753d49a8"
+    },
+    {
+      "path": "rlm-harness/src/rlm/api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6def07caaa794474d52f8b64606e2db7041772",
+      "size": 755,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/cf6def07caaa794474d52f8b64606e2db7041772"
+    },
+    {
+      "path": "rlm-harness/src/rlm/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e58d347c2c5b0e0163cd23e309937dc45a30a61",
+      "size": 1495,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/3e58d347c2c5b0e0163cd23e309937dc45a30a61"
+    },
+    {
+      "path": "rlm-harness/src/rlm/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8367e0315a809deef59137080cd29aadd66eaf31",
+      "size": 3633,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/8367e0315a809deef59137080cd29aadd66eaf31"
+    },
+    {
+      "path": "rlm-harness/src/rlm/engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf831873efcbcc3a7b5e0f6293eee64b0b4e6bd",
+      "size": 26376,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/6bf831873efcbcc3a7b5e0f6293eee64b0b4e6bd"
+    },
+    {
+      "path": "rlm-harness/src/rlm/mcp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "474f972ed71918df8143e25f87b196de174f4eb1",
+      "size": 5966,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/474f972ed71918df8143e25f87b196de174f4eb1"
+    },
+    {
+      "path": "rlm-harness/src/rlm/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d42323f2544c98d89435ceda36aff8de923d072",
+      "size": 6850,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/5d42323f2544c98d89435ceda36aff8de923d072"
+    },
+    {
+      "path": "rlm-harness/src/rlm/session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f506f344a5e4738298d52c105fe7325074af3eda",
+      "size": 5139,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/f506f344a5e4738298d52c105fe7325074af3eda"
+    },
+    {
+      "path": "rlm-harness/src/rlm/skill.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "758c5424af5a7d73494596dd7a7c131a2bd52f28",
+      "size": 1212,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/758c5424af5a7d73494596dd7a7c131a2bd52f28"
+    },
+    {
+      "path": "rlm-harness/src/rlm/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0caa64245b4a5cdf9487129ef6d246362291209",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/c0caa64245b4a5cdf9487129ef6d246362291209"
+    },
+    {
+      "path": "rlm-harness/src/rlm/skills/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca73e8cc2a233a9d374f7f31d08ee4840b55f454",
+      "size": 1502,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/ca73e8cc2a233a9d374f7f31d08ee4840b55f454"
+    },
+    {
+      "path": "rlm-harness/src/rlm/skills/edit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50c4cf8e0bd3cccb020b24a8c8f6344396a382b2",
+      "size": 1153,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/50c4cf8e0bd3cccb020b24a8c8f6344396a382b2"
+    },
+    {
+      "path": "rlm-harness/src/rlm/skills/search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "337f7585490322945161da3f3ddfcd61bbe97c71",
+      "size": 1970,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/337f7585490322945161da3f3ddfcd61bbe97c71"
+    },
+    {
+      "path": "rlm-harness/src/rlm/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a35247ff57dda04626080d22e28907188fdae6b",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/0a35247ff57dda04626080d22e28907188fdae6b"
+    },
+    {
+      "path": "rlm-harness/src/rlm/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b92b090569cecf7652134bc0cd83b9396a5dcc2f",
+      "size": 662,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b92b090569cecf7652134bc0cd83b9396a5dcc2f"
+    },
+    {
+      "path": "rlm-harness/src/rlm/tools/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c46e874e80423fc2fac4b69bd02f305e7a6a5e",
+      "size": 1071,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b0c46e874e80423fc2fac4b69bd02f305e7a6a5e"
+    },
+    {
+      "path": "rlm-harness/src/rlm/tools/git_block.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "815943292fee0c051fb83cbcfd928aa77484b2e0",
+      "size": 11384,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/815943292fee0c051fb83cbcfd928aa77484b2e0"
+    },
+    {
+      "path": "rlm-harness/src/rlm/tools/ipython.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e538afef221aa24c3d96a537993e04732ca05c82",
+      "size": 11721,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e538afef221aa24c3d96a537993e04732ca05c82"
+    },
+    {
+      "path": "rlm-harness/src/rlm/tools/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54c4b01e46f982ff0d52cb09aa3548f4bf0c0fb2",
+      "size": 976,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/54c4b01e46f982ff0d52cb09aa3548f4bf0c0fb2"
+    },
+    {
+      "path": "rlm-harness/src/rlm/tools/skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "367139c1829a2a3750ea4df8c6a8148772a8b8e9",
+      "size": 1620,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/367139c1829a2a3750ea4df8c6a8148772a8b8e9"
+    },
+    {
+      "path": "rlm-harness/src/rlm/types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb09cbb435885ef2409f154890d9bf18b9d977f5",
+      "size": 18699,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/cb09cbb435885ef2409f154890d9bf18b9d977f5"
+    },
+    {
+      "path": "rlm-harness/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39255d915de48db40a6f06704fc9a6821731930b",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/39255d915de48db40a6f06704fc9a6821731930b"
+    },
+    {
+      "path": "rlm-harness/tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b38ce16967088bcf597ed774c4146703d68896fd",
+      "size": 7417,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b38ce16967088bcf597ed774c4146703d68896fd"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0159ff9946ff7ce81cded859f3b1d7eeaec59598",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/0159ff9946ff7ce81cded859f3b1d7eeaec59598"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b68f509876796b7d7c93cc6d98f9c5bf5c602e1",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/6b68f509876796b7d7c93cc6d98f9c5bf5c602e1"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/boom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07486860db29306bc060efd8f84def2bd605d126",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/07486860db29306bc060efd8f84def2bd605d126"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/boom/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0671b9372db77c343840c67a9e00821fbe9af9b",
+      "size": 298,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/d0671b9372db77c343840c67a9e00821fbe9af9b"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/boom/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85b852a5a02641dd799e3b705d4cd83b830c46ba",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/85b852a5a02641dd799e3b705d4cd83b830c46ba"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/boom/src/boom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d68fde62bd42df39e13319ca5efaa6c44ad9c3bd",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/d68fde62bd42df39e13319ca5efaa6c44ad9c3bd"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/boom/src/boom/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a411301706e867dc202a1cc8b71e635386f83000",
+      "size": 41,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/a411301706e867dc202a1cc8b71e635386f83000"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/boom/src/boom/boom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae02b1224e47de72977c64a6268c04c4975ceec2",
+      "size": 168,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/ae02b1224e47de72977c64a6268c04c4975ceec2"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/say",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62c1fee8408be0787bac6cd3c78e46d19fd703b0",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/62c1fee8408be0787bac6cd3c78e46d19fd703b0"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/say/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3305acb028f5b8eaf4564d50982bb9c2528bdae6",
+      "size": 295,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/3305acb028f5b8eaf4564d50982bb9c2528bdae6"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/say/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71a7738b3029b586e95f3d09f0111f7df38fb83d",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/71a7738b3029b586e95f3d09f0111f7df38fb83d"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/say/src/say",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74e28e04e3072dd9215749047fbf26681b40f925",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/74e28e04e3072dd9215749047fbf26681b40f925"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/say/src/say/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "774d3fd28006f7311178e7516bee0c3b8b426a92",
+      "size": 40,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/774d3fd28006f7311178e7516bee0c3b8b426a92"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/skills/say/src/say/say.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3c34a77075d44519e8af3cb0daf5b754b884bf5",
+      "size": 230,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/c3c34a77075d44519e8af3cb0daf5b754b884bf5"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b884e26576845cee74276751f168950850571b70",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/b884e26576845cee74276751f168950850571b70"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/tools/add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4660830d423054c4f37330c28ddce839576148d4",
+      "size": 895,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/4660830d423054c4f37330c28ddce839576148d4"
+    },
+    {
+      "path": "rlm-harness/tests/fixtures/tools/boom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69db59710a872b5376fdee7b776cce1c52ea975c",
+      "size": 676,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/69db59710a872b5376fdee7b776cce1c52ea975c"
+    },
+    {
+      "path": "rlm-harness/tests/test_builtin_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddcf34d54d9a251aa9de64d6335d39522c01d7c4",
+      "size": 2420,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/ddcf34d54d9a251aa9de64d6335d39522c01d7c4"
+    },
+    {
+      "path": "rlm-harness/tests/test_git_block.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6764c024c6d792e3d7ae1ebd2e3a0f0ae8ad538b",
+      "size": 9191,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/6764c024c6d792e3d7ae1ebd2e3a0f0ae8ad538b"
+    },
+    {
+      "path": "rlm-harness/tests/test_mcp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45c20c7e470a9277aecd27e1f0c08c6792412db6",
+      "size": 2559,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/45c20c7e470a9277aecd27e1f0c08c6792412db6"
+    },
+    {
+      "path": "rlm-harness/tests/test_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26528f063cdf05556e03a610d5f2ac46e333788",
+      "size": 5369,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/d26528f063cdf05556e03a610d5f2ac46e333788"
+    },
+    {
+      "path": "rlm-harness/tests/test_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b33a79423ff3018ce19e6116bbf3782dca90b3f6",
+      "size": 2721,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b33a79423ff3018ce19e6116bbf3782dca90b3f6"
+    },
+    {
+      "path": "rlm-harness/tests/test_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d349e43d65ec8c723503660530160c033b90ae57",
+      "size": 8340,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/d349e43d65ec8c723503660530160c033b90ae57"
+    },
+    {
+      "path": "rlm-harness/tests/test_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2705d49e5019ece289989ccaa94107718b558efb",
+      "size": 2211,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/2705d49e5019ece289989ccaa94107718b558efb"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61e428e43f95f41313223483a3e179bf230629c1",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/61e428e43f95f41313223483a3e179bf230629c1"
+    },
+    {
+      "path": "scripts/eval_v1_rlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9030e12d481a8d28a8e5158880b5c4e26fb9179b",
+      "size": 11826,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/9030e12d481a8d28a8e5158880b5c4e26fb9179b"
+    },
+    {
+      "path": "scripts/report_generalization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3d22bf161118c58285d8390344a80783c1b01b7",
+      "size": 9618,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e3d22bf161118c58285d8390344a80783c1b01b7"
+    },
+    {
+      "path": "scripts/setup.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88d302623e47437e776d1755218406b4304bad3e",
+      "size": 4081,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/88d302623e47437e776d1755218406b4304bad3e"
+    },
+    {
+      "path": "scripts/split_anomalyxl_train_val.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3541b03d5d3c88cba3b1a140bf8b8c434d4b44e5",
+      "size": 2538,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/3541b03d5d3c88cba3b1a140bf8b8c434d4b44e5"
+    },
+    {
+      "path": "sft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50c98948e445a5422964efafdb8a0a92e98e169a",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/50c98948e445a5422964efafdb8a0a92e98e169a"
+    },
+    {
+      "path": "sft/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f05bfa0a62f8bead4d0ab0be1f6199111578f9",
+      "size": 198,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/40f05bfa0a62f8bead4d0ab0be1f6199111578f9"
+    },
+    {
+      "path": "sft/toto",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0a25450bd7c6acb1d5729a42acb0efe8039970a",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/f0a25450bd7c6acb1d5729a42acb0efe8039970a"
+    },
+    {
+      "path": "sft/toto/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4150535ad6009a6a94410b241b56932dc5d786cf",
+      "size": 13,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/4150535ad6009a6a94410b241b56932dc5d786cf"
+    },
+    {
+      "path": "sft/toto/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "path": "sft/toto/NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d90752584427044f5dedf3370926c4d1fe1e55",
+      "size": 1285,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b6d90752584427044f5dedf3370926c4d1fe1e55"
+    },
+    {
+      "path": "sft/toto/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eb2d59abc89d85b8c85146cdc64ea5343a292dc",
+      "size": 6902,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/8eb2d59abc89d85b8c85146cdc64ea5343a292dc"
+    },
+    {
+      "path": "sft/toto/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e03a9ab539c2779664a7faf77db077ffa5f520",
+      "size": 2958,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b8e03a9ab539c2779664a7faf77db077ffa5f520"
+    },
+    {
+      "path": "sft/toto/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "881e949ec65e5aff660ac6b1b1bfe48426526c97",
+      "size": 865,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/881e949ec65e5aff660ac6b1b1bfe48426526c97"
+    },
+    {
+      "path": "sft/toto/score_precise.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6991d3bde196e00106003593847c833b2f6b6bef",
+      "size": 2433,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/6991d3bde196e00106003593847c833b2f6b6bef"
+    },
+    {
+      "path": "sft/toto/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "591833cf98d18ce3f36b309e436fef3347497949",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/591833cf98d18ce3f36b309e436fef3347497949"
+    },
+    {
+      "path": "sft/toto/src/evaluation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec8890fe0cf829bcfd33c18d8bcfc848a0dd425b",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/ec8890fe0cf829bcfd33c18d8bcfc848a0dd425b"
+    },
+    {
+      "path": "sft/toto/src/evaluation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "sft/toto/src/evaluation/eval_toto_vlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf46925da99f5d0997b1626c8c92ad02bde20c2a",
+      "size": 34904,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/bf46925da99f5d0997b1626c8c92ad02bde20c2a"
+    },
+    {
+      "path": "sft/toto/src/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7038b881789cec888245257fb4e6a32e71cb72db",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/7038b881789cec888245257fb4e6a32e71cb72db"
+    },
+    {
+      "path": "sft/toto/src/model/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "sft/toto/src/model/load_checkpoint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "454bcdc0dc8e1350dc4c59d80eb1b89ef6f31c23",
+      "size": 15436,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/454bcdc0dc8e1350dc4c59d80eb1b89ef6f31c23"
+    },
+    {
+      "path": "sft/toto/src/model/toto_vlm_components.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afea17afa06711175e63a20d3401c8326e68db95",
+      "size": 49199,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/afea17afa06711175e63a20d3401c8326e68db95"
+    },
+    {
+      "path": "sft/toto/src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f7eaa2c5f2d7f961d02e09c02bfe22c87b5cce6",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/2f7eaa2c5f2d7f961d02e09c02bfe22c87b5cce6"
+    },
+    {
+      "path": "sft/toto/src/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "sft/toto/src/utils/anomalyxl_scoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f229362c8ee1c144693932d70caa2ccc7a16364f",
+      "size": 15229,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/f229362c8ee1c144693932d70caa2ccc7a16364f"
+    },
+    {
+      "path": "sft/toto/src/utils/compute_statistics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22f02871d2ab60b8d070d612c4d480b0e314ae30",
+      "size": 36543,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/22f02871d2ab60b8d070d612c4d480b0e314ae30"
+    },
+    {
+      "path": "sft/toto/src/utils/inference_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59f36dbed128e68e9f540aa529ec4eadea327088",
+      "size": 7529,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/59f36dbed128e68e9f540aa529ec4eadea327088"
+    },
+    {
+      "path": "sft/toto/src/utils/log_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f26a1bc92b2482abbe10a57273b0c4937435046",
+      "size": 4934,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/6f26a1bc92b2482abbe10a57273b0c4937435046"
+    },
+    {
+      "path": "sft/toto/src/utils/prompt_test_benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c20fcd735974fba0f744560c9edc6e63067da701",
+      "size": 10506,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/c20fcd735974fba0f744560c9edc6e63067da701"
+    },
+    {
+      "path": "sft/toto/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "980329f2bd0cb819b49c72bc16ea0463648216dd",
+      "size": 10704,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/980329f2bd0cb819b49c72bc16ea0463648216dd"
+    },
+    {
+      "path": "sft/tslm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75122fb6dd9067bbc302b2b7522c2713650af040",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/75122fb6dd9067bbc302b2b7522c2713650af040"
+    },
+    {
+      "path": "sft/tslm/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29d60afc00ad5d87e7fb4bdd131aafa559a47e69",
+      "size": 4528,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/29d60afc00ad5d87e7fb4bdd131aafa559a47e69"
+    },
+    {
+      "path": "sft/tslm/aggregate_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1db886d8275d31577ebd06672e250c6ac214541",
+      "size": 4125,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e1db886d8275d31577ebd06672e250c6ac214541"
+    },
+    {
+      "path": "sft/tslm/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d04ce4cb6cfcfd2c3061bd039652abc2b8babda",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/0d04ce4cb6cfcfd2c3061bd039652abc2b8babda"
+    },
+    {
+      "path": "sft/tslm/configs/chatts_coarse.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38326a979ba0f9569cbe3b9990625e775136ca2c",
+      "size": 1231,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/38326a979ba0f9569cbe3b9990625e775136ca2c"
+    },
+    {
+      "path": "sft/tslm/configs/chatts_precise.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ef4a84b2d0222db950bb7c7d512e42324670c6",
+      "size": 1412,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/54ef4a84b2d0222db950bb7c7d512e42324670c6"
+    },
+    {
+      "path": "sft/tslm/configs/flamingo_coarse.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4efb6cba309ba439b8413d1027285425b62667a7",
+      "size": 1425,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/4efb6cba309ba439b8413d1027285425b62667a7"
+    },
+    {
+      "path": "sft/tslm/configs/flamingo_precise.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e1a1af85a976f2aab9963c670aac34c0e63c47d",
+      "size": 1456,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/0e1a1af85a976f2aab9963c670aac34c0e63c47d"
+    },
+    {
+      "path": "sft/tslm/configs/itformer_coarse.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d92dbc86b4dc60207d22ed326588873bc640263e",
+      "size": 1326,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/d92dbc86b4dc60207d22ed326588873bc640263e"
+    },
+    {
+      "path": "sft/tslm/configs/itformer_precise.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d0cb2a6ef7a35a35a45bf34b51471a358554d93",
+      "size": 1413,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/5d0cb2a6ef7a35a35a45bf34b51471a358554d93"
+    },
+    {
+      "path": "sft/tslm/fetch_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22365b9d0a16a93aff50d412fcac75d3e6d1f918",
+      "size": 2128,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/22365b9d0a16a93aff50d412fcac75d3e6d1f918"
+    },
+    {
+      "path": "sft/tslm/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e55e50b28b5f87e04420ded994cc6e8c19dcec2f",
+      "size": 1766,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e55e50b28b5f87e04420ded994cc6e8c19dcec2f"
+    },
+    {
+      "path": "sft/tslm/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "796ab3fa3f7961c69fea99e2ba5f64e28e06f6e7",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/796ab3fa3f7961c69fea99e2ba5f64e28e06f6e7"
+    },
+    {
+      "path": "sft/tslm/src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "sft/tslm/src/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1384f5cadb14548928e4ca89682b9c618fdb34f",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/f1384f5cadb14548928e4ca89682b9c618fdb34f"
+    },
+    {
+      "path": "sft/tslm/src/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "sft/tslm/src/datasets/anomaly_xl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b98830f23ed1d9ae05c2fbb4d806bb7764332dd4",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/b98830f23ed1d9ae05c2fbb4d806bb7764332dd4"
+    },
+    {
+      "path": "sft/tslm/src/datasets/anomaly_xl/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b107bc57d9b33b7a1fa874d70df16f5ce4dbb119",
+      "size": 96,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/b107bc57d9b33b7a1fa874d70df16f5ce4dbb119"
+    },
+    {
+      "path": "sft/tslm/src/datasets/anomaly_xl/qa_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb8b01916b8e20fc7509eda3c952addb50af610c",
+      "size": 6409,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/eb8b01916b8e20fc7509eda3c952addb50af610c"
+    },
+    {
+      "path": "sft/tslm/src/datasets/anomaly_xl/scoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dd83f06d49280c240969254f19cb83992860789",
+      "size": 15228,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/0dd83f06d49280c240969254f19cb83992860789"
+    },
+    {
+      "path": "sft/tslm/src/datasets/qa_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba3a0adb03c569b1b791bd557b6c4d69b30cdfd5",
+      "size": 12158,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/ba3a0adb03c569b1b791bd557b6c4d69b30cdfd5"
+    },
+    {
+      "path": "sft/tslm/src/datasets/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19309e7b2b9e59f921864c3973b650035c761626",
+      "size": 2154,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/19309e7b2b9e59f921864c3973b650035c761626"
+    },
+    {
+      "path": "sft/tslm/src/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10b41ab22cf13612b0c6f64675b42495c329dd79",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/10b41ab22cf13612b0c6f64675b42495c329dd79"
+    },
+    {
+      "path": "sft/tslm/src/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "sft/tslm/src/models/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f76504f11146c68db5e076cf2006ace2f57be4a2",
+      "size": 10720,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/f76504f11146c68db5e076cf2006ace2f57be4a2"
+    },
+    {
+      "path": "sft/tslm/src/models/chatts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7030fa425889db188ff8fecbe774c77d4046b2d2",
+      "size": 18521,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/7030fa425889db188ff8fecbe774c77d4046b2d2"
+    },
+    {
+      "path": "sft/tslm/src/models/chronos2_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb4f39705e183c8434cfbe235db6a792c85f05fc",
+      "size": 5641,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/bb4f39705e183c8434cfbe235db6a792c85f05fc"
+    },
+    {
+      "path": "sft/tslm/src/models/flamingo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "804079063d4a366a0fb3f48c8615f2337156083b",
+      "size": 27853,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/804079063d4a366a0fb3f48c8615f2337156083b"
+    },
+    {
+      "path": "sft/tslm/src/models/itformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f2c8903eaec826a6bdc50ee36da98949430788",
+      "size": 32523,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/45f2c8903eaec826a6bdc50ee36da98949430788"
+    },
+    {
+      "path": "sft/tslm/src/models/qwen_backbone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180c725b02283e9365b46dd9d28a93d6ec2699b4",
+      "size": 3605,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/180c725b02283e9365b46dd9d28a93d6ec2699b4"
+    },
+    {
+      "path": "sft/tslm/src/prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cea64e47b30f2ef94a21df5689dfd091fbd7761a",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/cea64e47b30f2ef94a21df5689dfd091fbd7761a"
+    },
+    {
+      "path": "sft/tslm/src/prompt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "sft/tslm/src/prompt/full_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9608b26b42c988602805721baf68346ec8ea6557",
+      "size": 1479,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/9608b26b42c988602805721baf68346ec8ea6557"
+    },
+    {
+      "path": "sft/tslm/src/prompt/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c57b6e6421528e351f1d2547c2fd2d6d5230d5ce",
+      "size": 351,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/c57b6e6421528e351f1d2547c2fd2d6d5230d5ce"
+    },
+    {
+      "path": "sft/tslm/src/prompt/prompt_with_answer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aaf249f63ecb2ff1ef673562b8e871ccc087209",
+      "size": 1667,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/4aaf249f63ecb2ff1ef673562b8e871ccc087209"
+    },
+    {
+      "path": "sft/tslm/src/prompt/text_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e0ae72d1ee5031e9c9d4726c532e9bda36c3474",
+      "size": 476,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/5e0ae72d1ee5031e9c9d4726c532e9bda36c3474"
+    },
+    {
+      "path": "sft/tslm/src/prompt/text_time_series_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdcbadd849c36e751a52fd0c2360d03b3a809b19",
+      "size": 1448,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/bdcbadd849c36e751a52fd0c2360d03b3a809b19"
+    },
+    {
+      "path": "sft/tslm/src/training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e6c14b69ab982a6d2c9b258de6fb037a9ccc94e",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/7e6c14b69ab982a6d2c9b258de6fb037a9ccc94e"
+    },
+    {
+      "path": "sft/tslm/src/training/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9253820dc5ecd3748f50147c003afc4d0425c1e0",
+      "size": 108,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/9253820dc5ecd3748f50147c003afc4d0425c1e0"
+    },
+    {
+      "path": "sft/tslm/src/training/logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a26689e6172c7e44f91ca7a3e40098e7e1bdc71",
+      "size": 11941,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/6a26689e6172c7e44f91ca7a3e40098e7e1bdc71"
+    },
+    {
+      "path": "sft/tslm/src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07b1d0e63018dd408a5a4cc9202b35228ecbe590",
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/trees/07b1d0e63018dd408a5a4cc9202b35228ecbe590"
+    },
+    {
+      "path": "sft/tslm/src/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c132a6a8bc4a62aed133c5b2746bec0e0d636987",
+      "size": 302,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/c132a6a8bc4a62aed133c5b2746bec0e0d636987"
+    },
+    {
+      "path": "sft/tslm/src/utils/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a681675fac05fd33a2d8d29f4ebfbde89a9e9c8",
+      "size": 10711,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/6a681675fac05fd33a2d8d29f4ebfbde89a9e9c8"
+    },
+    {
+      "path": "sft/tslm/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30e496f6ac67a2ec672e66c0f846ff0876348c2b",
+      "size": 38721,
+      "url": "https://api.github.com/repos/OpenTSLM/TimeRLM/git/blobs/30e496f6ac67a2ec672e66c0f846ff0876348c2b"
+    }
+  ],
+  "truncated": false
+}

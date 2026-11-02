@@ -1,0 +1,22 @@
+{
+  "axis": "Mean logical online raw+summary bytes/full relevant bytes; no offline cost or latency",
+  "points": [
+    {
+      "method": "event_index",
+      "ratio_target": 0,
+      "queries": 240,
+      "correct": 240,
+      "accuracy": 1.0,
+      "record_cluster_bootstrap_ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_online_ms": 0.16125608235597413,
+      "mean_raw_fraction": 0.0,
+      "mean_online_bytes_fraction": 0.0008635203043619792,
+      "mean_index_bytes": 42285.0,
+      "certified_fraction": 1.0
+    }
+  ],
+  "limitation": "Task-specific EventIndex can dominate this axis; it scans all source data offline and supports only declared thresholds/workload. Not an end-to-end efficiency frontier."
+}

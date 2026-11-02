@@ -1,0 +1,76 @@
+{
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "matplotlib": "3.9.2",
+    "torch": "2.6.0+cu124",
+    "transformers": "4.52.4",
+    "vllm": "0.8.5.post1"
+  },
+  "gpu_observed": "NVIDIA GeForce RTX 4090 D, 550.107.02, 24564 MiB, 21377 MiB",
+  "gpu_memory_note": "21377 MiB is the largest manually observed snapshot during pilot, not a continuously sampled certified peak. vLLM reserves cache; this is not live tensor-only usage.",
+  "disk": "Filesystem      Size  Used Avail Use% Mounted on\noverlay          30G  7.9G   23G  27% /\n/dev/md0         50G   48G  3.0G  95% /root/autodl-tmp",
+  "official_repos": {
+    "TS-Haystack": {
+      "commit": "5e8d3162d47176e19fbd9c5f3d3cf9c6e0e9a7d4",
+      "dirty": ""
+    },
+    "TimeRLM": {
+      "commit": "31fcd847b7cb37a1f1e6859b1dca7973ed0eae74",
+      "dirty": ""
+    },
+    "TT-SAX": {
+      "commit": "95fe2c1d50561538a6fe822ec6a97e0f0829ff80",
+      "dirty": ""
+    },
+    "Sonar-TS": {
+      "commit": "99866c43cd7ceb91a929de745e9f49cea92962e5",
+      "dirty": ""
+    }
+  },
+  "qwen_model_path": "/root/autodl-tmp/cf-run/models/qwen3-8b",
+  "qwen_config": {
+    "architectures": [
+      "Qwen3ForCausalLM"
+    ],
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "bos_token_id": 151643,
+    "eos_token_id": 151645,
+    "head_dim": 128,
+    "hidden_act": "silu",
+    "hidden_size": 4096,
+    "initializer_range": 0.02,
+    "intermediate_size": 12288,
+    "max_position_embeddings": 40960,
+    "max_window_layers": 36,
+    "model_type": "qwen3",
+    "num_attention_heads": 32,
+    "num_hidden_layers": 36,
+    "num_key_value_heads": 8,
+    "rms_norm_eps": 1e-06,
+    "rope_scaling": null,
+    "rope_theta": 1000000,
+    "sliding_window": null,
+    "tie_word_embeddings": false,
+    "torch_dtype": "bfloat16",
+    "transformers_version": "4.51.0",
+    "use_cache": true,
+    "use_sliding_window": false,
+    "vocab_size": 151936
+  },
+  "qwen_config_sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+  "no_new_weights": true,
+  "no_training": true,
+  "paid_api": false,
+  "pyarrow": "19.0.1 installed to /root/v020-extra only, used for parquet audit",
+  "cost_note": "No monetary estimate: server hourly price not supplied. GPU server startup cost is separate from task latency; GPU kernel time not measured.",
+  "qwen_provenance": {
+    "repo": "Qwen/Qwen3-8B",
+    "revision_from_existing_download_manifest": "b968826d9c46dd6066d109eabc6255188de91218",
+    "verification_scope": "Existing download manifest retained; config hash verified this round; all large weight shards were not rehashed."
+  }
+}

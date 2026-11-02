@@ -1,0 +1,38 @@
+{
+  "task_id": "V020_100_131072_paa64_exists05",
+  "plan": "1. Count the number of distinct rows in raw_data where the \"ECG1\" value is >= 0.5.  \n2. Multiply the count by 64 to get the total number of samples meeting the threshold.  \n3. Return 1 if the total is greater than 0, otherwise return 0.",
+  "chosen_skills": [],
+  "code_attempts": [
+    "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Step 1: Count the number of distinct rows where ECG1 >= 0.5\nsql = \"\"\"\n    SELECT DISTINCT \"ECG1\"\n    FROM raw_data\n    WHERE \"ECG1\" >= 0.5\n\"\"\"\ndistinct_rows = pd.read_sql_query(sql, conn)\n\n# Step 2: Multiply the count by 64\ntotal_samples = len(distinct_rows) * 64\n\n# Step 3: Return 1 if total_samples > 0, else 0\n_result = 1 if total_samples > 0 else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+  ],
+  "executor_log": [
+    {
+      "status": "ok",
+      "message": ""
+    }
+  ],
+  "prediction": "1",
+  "raw_result": 1,
+  "final_status": "ok",
+  "final_message": "",
+  "native": false,
+  "view": "paa64",
+  "kind": "exists05",
+  "ground_truth": true,
+  "compressed_view_exact_answer": true,
+  "official_relative_score": 1.0,
+  "exact_numeric_correct": true,
+  "view_numeric_correct": true,
+  "wall_seconds": 5.645248685032129,
+  "llm_seconds": 5.0160609893500805,
+  "llm_calls": 2,
+  "input_tokens": 2984,
+  "output_tokens": 230,
+  "code_failures": 0,
+  "code_retries": 0,
+  "sql_queries": [
+    "\n    SELECT DISTINCT \"ECG1\"\n    FROM raw_data\n    WHERE \"ECG1\" >= 0.5\n"
+  ],
+  "sql_rows_returned": 24,
+  "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+}

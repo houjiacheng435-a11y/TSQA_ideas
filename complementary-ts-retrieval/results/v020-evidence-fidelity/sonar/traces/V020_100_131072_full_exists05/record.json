@@ -1,0 +1,38 @@
+{
+  "task_id": "V020_100_131072_full_exists05",
+  "plan": "1. Query raw_data for channel \"ECG1\" and check if any value is >= 0.5.\n2. Return 1 if at least one value meets the condition, otherwise return 0.",
+  "chosen_skills": [],
+  "code_attempts": [
+    "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Query raw_data for ECG1 values\nsql = 'SELECT \"ECG1\" FROM raw_data'\necg1_values = pd.read_sql_query(sql, conn)\n\n# Check if any value is >= 0.5\nhas_value = ecg1_values[ecg1_values >= 0.5].shape[0] > 0\n\n# Assign result\n_result = 1 if has_value else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+  ],
+  "executor_log": [
+    {
+      "status": "ok",
+      "message": ""
+    }
+  ],
+  "prediction": "1",
+  "raw_result": 1,
+  "final_status": "ok",
+  "final_message": "",
+  "native": false,
+  "view": "full",
+  "kind": "exists05",
+  "ground_truth": true,
+  "compressed_view_exact_answer": true,
+  "official_relative_score": 1.0,
+  "exact_numeric_correct": true,
+  "view_numeric_correct": true,
+  "wall_seconds": 5.159110799431801,
+  "llm_seconds": 3.616800457239151,
+  "llm_calls": 2,
+  "input_tokens": 2872,
+  "output_tokens": 173,
+  "code_failures": 0,
+  "code_retries": 0,
+  "sql_queries": [
+    "SELECT \"ECG1\" FROM raw_data"
+  ],
+  "sql_rows_returned": 131072,
+  "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+}

@@ -1,0 +1,546 @@
+[
+  {
+    "method": "event_index",
+    "ratio_target": 0,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 0.16125608235597413,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.0008635203043619792,
+    "mean_index_bytes": 42285.0,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "full_resolution",
+    "ratio_target": 1,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 0.6593711208551796,
+    "mean_raw_fraction": 1.0,
+    "mean_online_bytes_fraction": 1.0,
+    "mean_index_bytes": 0.0,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "hierarchical_minmax_sum",
+    "ratio_target": 4,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 54.95964370978373,
+    "mean_raw_fraction": 0.026710891723632814,
+    "mean_online_bytes_fraction": 0.07671282291412354,
+    "mean_index_bytes": 3189386.6666666665,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "hierarchical_minmax_sum",
+    "ratio_target": 16,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 41.668759798631044,
+    "mean_raw_fraction": 0.09140911102294921,
+    "mean_online_bytes_fraction": 0.11774385770161946,
+    "mean_index_bytes": 797322.6666666666,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "hierarchical_minmax_sum",
+    "ratio_target": 64,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 24.873746434847487,
+    "mean_raw_fraction": 0.22917811075846353,
+    "mean_online_bytes_fraction": 0.2382975975672404,
+    "mean_index_bytes": 199306.66666666666,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "hierarchical_minmax_sum",
+    "ratio_target": 256,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 7.701288862153861,
+    "mean_raw_fraction": 0.2889912923177083,
+    "mean_online_bytes_fraction": 0.29177440802256266,
+    "mean_index_bytes": 49802.666666666664,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "minmax",
+    "ratio_target": 4,
+    "queries": 240,
+    "correct": 90,
+    "accuracy": 0.375,
+    "record_cluster_bootstrap_ci95": [
+      0.3208333333333333,
+      0.4375
+    ],
+    "mean_online_ms": 0.11926558800040427,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.45,
+    "mean_index_bytes": 797354.6666666666,
+    "certified_fraction": 0.375
+  },
+  {
+    "method": "minmax",
+    "ratio_target": 16,
+    "queries": 240,
+    "correct": 90,
+    "accuracy": 0.375,
+    "record_cluster_bootstrap_ci95": [
+      0.3208333333333333,
+      0.43333333333333335
+    ],
+    "mean_online_ms": 0.092129673187931,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.1125,
+    "mean_index_bytes": 199338.66666666666,
+    "certified_fraction": 0.375
+  },
+  {
+    "method": "minmax",
+    "ratio_target": 64,
+    "queries": 240,
+    "correct": 90,
+    "accuracy": 0.375,
+    "record_cluster_bootstrap_ci95": [
+      0.3208333333333333,
+      0.43333333333333335
+    ],
+    "mean_online_ms": 0.06956735936303846,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.028125,
+    "mean_index_bytes": 49834.666666666664,
+    "certified_fraction": 0.375
+  },
+  {
+    "method": "minmax",
+    "ratio_target": 256,
+    "queries": 240,
+    "correct": 90,
+    "accuracy": 0.375,
+    "record_cluster_bootstrap_ci95": [
+      0.3208333333333333,
+      0.43333333333333335
+    ],
+    "mean_online_ms": 0.06383402893940525,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.00703125,
+    "mean_index_bytes": 12458.666666666666,
+    "certified_fraction": 0.375
+  },
+  {
+    "method": "paa",
+    "ratio_target": 4,
+    "queries": 240,
+    "correct": 130,
+    "accuracy": 0.5416666666666666,
+    "record_cluster_bootstrap_ci95": [
+      0.4875,
+      0.5958333333333333
+    ],
+    "mean_online_ms": 0.6403684460868126,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.45,
+    "mean_index_bytes": 797354.6666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "paa",
+    "ratio_target": 16,
+    "queries": 240,
+    "correct": 104,
+    "accuracy": 0.43333333333333335,
+    "record_cluster_bootstrap_ci95": [
+      0.35,
+      0.5125
+    ],
+    "mean_online_ms": 0.6042988194773272,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.1125,
+    "mean_index_bytes": 199338.66666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "paa",
+    "ratio_target": 64,
+    "queries": 240,
+    "correct": 89,
+    "accuracy": 0.37083333333333335,
+    "record_cluster_bootstrap_ci95": [
+      0.2916666666666667,
+      0.45
+    ],
+    "mean_online_ms": 0.560224195942249,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.028125,
+    "mean_index_bytes": 49834.666666666664,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "paa",
+    "ratio_target": 256,
+    "queries": 240,
+    "correct": 77,
+    "accuracy": 0.32083333333333336,
+    "record_cluster_bootstrap_ci95": [
+      0.24166666666666667,
+      0.4
+    ],
+    "mean_online_ms": 0.577740309139063,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.00703125,
+    "mean_index_bytes": 12458.666666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "pla_bound",
+    "ratio_target": 4,
+    "queries": 240,
+    "correct": 137,
+    "accuracy": 0.5708333333333333,
+    "record_cluster_bootstrap_ci95": [
+      0.5083333333333333,
+      0.625
+    ],
+    "mean_online_ms": 0.7719502939531849,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.3375,
+    "mean_index_bytes": 598016.0,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "pla_bound",
+    "ratio_target": 16,
+    "queries": 240,
+    "correct": 124,
+    "accuracy": 0.5166666666666667,
+    "record_cluster_bootstrap_ci95": [
+      0.45833333333333337,
+      0.5708333333333333
+    ],
+    "mean_online_ms": 0.773701195915507,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.084375,
+    "mean_index_bytes": 149504.0,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "pla_bound",
+    "ratio_target": 64,
+    "queries": 240,
+    "correct": 113,
+    "accuracy": 0.4708333333333333,
+    "record_cluster_bootstrap_ci95": [
+      0.4041666666666667,
+      0.5291666666666667
+    ],
+    "mean_online_ms": 0.7348255254327913,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.02109375,
+    "mean_index_bytes": 37376.0,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "pla_bound",
+    "ratio_target": 256,
+    "queries": 240,
+    "correct": 100,
+    "accuracy": 0.4166666666666667,
+    "record_cluster_bootstrap_ci95": [
+      0.35833333333333334,
+      0.46677083333333375
+    ],
+    "mean_online_ms": 0.7801214853922183,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.0052734375,
+    "mean_index_bytes": 9344.0,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "query_aware_rule",
+    "ratio_target": 4,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 14.398671966046088,
+    "mean_raw_fraction": 0.00769503911336263,
+    "mean_online_bytes_fraction": 0.02312287489573161,
+    "mean_index_bytes": 3189386.6666666665,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "query_aware_rule",
+    "ratio_target": 16,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 11.262130178511132,
+    "mean_raw_fraction": 0.02732226053873698,
+    "mean_online_bytes_fraction": 0.035770889123280844,
+    "mean_index_bytes": 797322.6666666666,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "query_aware_rule",
+    "ratio_target": 64,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 6.736947549507015,
+    "mean_raw_fraction": 0.07236836751302084,
+    "mean_online_bytes_fraction": 0.07549096345901489,
+    "mean_index_bytes": 199306.66666666666,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "query_aware_rule",
+    "ratio_target": 256,
+    "queries": 240,
+    "correct": 240,
+    "accuracy": 1.0,
+    "record_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_online_ms": 2.2472378642608635,
+    "mean_raw_fraction": 0.09688517252604166,
+    "mean_online_bytes_fraction": 0.09793725411097208,
+    "mean_index_bytes": 49802.666666666664,
+    "certified_fraction": 1.0
+  },
+  {
+    "method": "sax",
+    "ratio_target": 4,
+    "queries": 240,
+    "correct": 60,
+    "accuracy": 0.25,
+    "record_cluster_bootstrap_ci95": [
+      0.17916666666666667,
+      0.31666666666666665
+    ],
+    "mean_online_ms": 0.6894476866970115,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.4501670837402344,
+    "mean_index_bytes": 797386.6666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "sax",
+    "ratio_target": 16,
+    "queries": 240,
+    "correct": 60,
+    "accuracy": 0.25,
+    "record_cluster_bootstrap_ci95": [
+      0.1791666666666667,
+      0.3167708333333338
+    ],
+    "mean_online_ms": 0.6843696503589234,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.11266708374023438,
+    "mean_index_bytes": 199370.66666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "sax",
+    "ratio_target": 64,
+    "queries": 240,
+    "correct": 62,
+    "accuracy": 0.25833333333333336,
+    "record_cluster_bootstrap_ci95": [
+      0.19583333333333333,
+      0.32083333333333336
+    ],
+    "mean_online_ms": 0.6586254884798978,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.028292083740234376,
+    "mean_index_bytes": 49866.666666666664,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "sax",
+    "ratio_target": 256,
+    "queries": 240,
+    "correct": 62,
+    "accuracy": 0.25833333333333336,
+    "record_cluster_bootstrap_ci95": [
+      0.1875,
+      0.32916666666666666
+    ],
+    "mean_online_ms": 1.0239574592560217,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.007198333740234375,
+    "mean_index_bytes": 12490.666666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "ttsax_level_diagnostic",
+    "ratio_target": 4,
+    "queries": 240,
+    "correct": 59,
+    "accuracy": 0.24583333333333332,
+    "record_cluster_bootstrap_ci95": [
+      0.1791666666666667,
+      0.30833333333333335
+    ],
+    "mean_online_ms": 0.6674386250475702,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.450177526473999,
+    "mean_index_bytes": 797388.6666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "ttsax_level_diagnostic",
+    "ratio_target": 16,
+    "queries": 240,
+    "correct": 61,
+    "accuracy": 0.25416666666666665,
+    "record_cluster_bootstrap_ci95": [
+      0.1875,
+      0.32083333333333336
+    ],
+    "mean_online_ms": 0.7066769059747123,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.11267752647399902,
+    "mean_index_bytes": 199372.66666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "ttsax_level_diagnostic",
+    "ratio_target": 64,
+    "queries": 240,
+    "correct": 63,
+    "accuracy": 0.2625,
+    "record_cluster_bootstrap_ci95": [
+      0.19166666666666668,
+      0.3333333333333333
+    ],
+    "mean_online_ms": 0.6611015958090265,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.028302526473999022,
+    "mean_index_bytes": 49868.666666666664,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "ttsax_level_diagnostic",
+    "ratio_target": 256,
+    "queries": 240,
+    "correct": 61,
+    "accuracy": 0.25416666666666665,
+    "record_cluster_bootstrap_ci95": [
+      0.1875,
+      0.3291666666666666
+    ],
+    "mean_online_ms": 0.6780798702190011,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.007208776473999023,
+    "mean_index_bytes": 12492.666666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "uniform",
+    "ratio_target": 4,
+    "queries": 240,
+    "correct": 145,
+    "accuracy": 0.6041666666666666,
+    "record_cluster_bootstrap_ci95": [
+      0.5541666666666667,
+      0.6458333333333333
+    ],
+    "mean_online_ms": 0.6321341264992616,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.45,
+    "mean_index_bytes": 797354.6666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "uniform",
+    "ratio_target": 16,
+    "queries": 240,
+    "correct": 128,
+    "accuracy": 0.5333333333333333,
+    "record_cluster_bootstrap_ci95": [
+      0.4875,
+      0.5791666666666667
+    ],
+    "mean_online_ms": 0.6546735918769867,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.1125,
+    "mean_index_bytes": 199338.66666666666,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "uniform",
+    "ratio_target": 64,
+    "queries": 240,
+    "correct": 116,
+    "accuracy": 0.48333333333333334,
+    "record_cluster_bootstrap_ci95": [
+      0.44166666666666665,
+      0.525
+    ],
+    "mean_online_ms": 0.6069735003014058,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.028125,
+    "mean_index_bytes": 49834.666666666664,
+    "certified_fraction": 0.0
+  },
+  {
+    "method": "uniform",
+    "ratio_target": 256,
+    "queries": 240,
+    "correct": 108,
+    "accuracy": 0.45,
+    "record_cluster_bootstrap_ci95": [
+      0.3916666666666666,
+      0.5
+    ],
+    "mean_online_ms": 0.631255035599042,
+    "mean_raw_fraction": 0.0,
+    "mean_online_bytes_fraction": 0.00703125,
+    "mean_index_bytes": 12458.666666666666,
+    "certified_fraction": 0.0
+  }
+]

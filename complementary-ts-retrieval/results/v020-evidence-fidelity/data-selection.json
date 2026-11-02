@@ -1,0 +1,26 @@
+{
+  "records": [
+    "100",
+    "104",
+    "105",
+    "11",
+    "200",
+    "32",
+    "48",
+    "49"
+  ],
+  "selection": "First eight lexicographic official test records; no outcome-based replacement. Separate train record 00 used only for calibration if needed.",
+  "lengths": [
+    16384,
+    131072,
+    1048576
+  ],
+  "sample_rate": 128,
+  "channels": [
+    "ECG1",
+    "ECG2"
+  ],
+  "signal_revision": "f6b42b56f698507660a65d5a63ba98c1e2342ab0",
+  "qa_revision": "595630367eefc6da5211dc512efe0ee3491bc197",
+  "primary": "Numeric rule QA on unmodified real ECG; not the official rhythm QA labels; no clinical interpretation. Official task metadata audited separately."
+}

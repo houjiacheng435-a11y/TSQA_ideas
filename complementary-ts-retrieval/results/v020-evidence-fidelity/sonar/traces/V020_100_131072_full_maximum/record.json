@@ -1,0 +1,38 @@
+{
+  "task_id": "V020_100_131072_full_maximum",
+  "plan": "1. Query raw_data to find the maximum value of ECG1.\n2. Round the maximum value to three decimal places.\n3. Output the rounded maximum value as a single numeric value.",
+  "chosen_skills": [],
+  "code_attempts": [
+    "import sqlite3\nimport pandas as pd\nimport numpy as np\nimport json\n\n# Query raw_data to find the maximum value of ECG1\nsql = 'SELECT \"ECG1\" FROM raw_data'\ndf = pd.read_sql_query(sql, conn)\n\n# Find the maximum value of ECG1\nmax_ecg1 = df.max().item()\n\n# Round the maximum value to three decimal places\nrounded_max_ecg1 = np.round(max_ecg1, 3)\n\n# Assign the result\n_result = rounded_max_ecg1\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+  ],
+  "executor_log": [
+    {
+      "status": "ok",
+      "message": ""
+    }
+  ],
+  "prediction": "4.474",
+  "raw_result": 4.474,
+  "final_status": "ok",
+  "final_message": "",
+  "native": false,
+  "view": "full",
+  "kind": "maximum",
+  "ground_truth": 4.474,
+  "compressed_view_exact_answer": 4.474,
+  "official_relative_score": 1.0,
+  "exact_numeric_correct": true,
+  "view_numeric_correct": true,
+  "wall_seconds": 5.779558688402176,
+  "llm_seconds": 3.942950926721096,
+  "llm_calls": 2,
+  "input_tokens": 2846,
+  "output_tokens": 176,
+  "code_failures": 0,
+  "code_retries": 0,
+  "sql_queries": [
+    "SELECT \"ECG1\" FROM raw_data"
+  ],
+  "sql_rows_returned": 131072,
+  "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+}

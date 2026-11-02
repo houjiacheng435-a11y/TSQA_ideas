@@ -1,0 +1,38 @@
+{
+  "task_id": "V020_100_131072_full_trend",
+  "plan": "1. Split the raw_data into two halves based on the number of samples.  \n2. Calculate the mean value of ECG1 for the first half and the second half.  \n3. Compare the two means and return 1 if the second half's mean is strictly larger, otherwise return 0.",
+  "chosen_skills": [],
+  "code_attempts": [
+    "import json\nimport pandas as pd\n\n# Step 1: Load raw_data into a DataFrame\nraw_data_df = pd.read_sql_query(\"SELECT * FROM raw_data\", conn)\n\n# Step 2: Sort the DataFrame by timestamp to ensure chronological order\nraw_data_df = raw_data_df.sort_values(by='timestamp')\n\n# Step 3: Split the data into two halves\nhalf = len(raw_data_df) // 2\nfirst_half = raw_data_df.iloc[:half]\nsecond_half = raw_data_df.iloc[half:]\n\n# Step 4: Calculate the mean ECG1 value for each half\nmean_first_half = first_half['ECG1'].mean()\nmean_second_half = second_half['ECG1'].mean()\n\n# Step 5: Compare the means and return 1 or 0\n_result = 1 if mean_second_half > mean_first_half else 0\n\nimport json\nprint(json.dumps({\"_result\": _result}))"
+  ],
+  "executor_log": [
+    {
+      "status": "ok",
+      "message": ""
+    }
+  ],
+  "prediction": "0",
+  "raw_result": 0,
+  "final_status": "ok",
+  "final_message": "",
+  "native": false,
+  "view": "full",
+  "kind": "trend",
+  "ground_truth": false,
+  "compressed_view_exact_answer": false,
+  "official_relative_score": 1.0,
+  "exact_numeric_correct": true,
+  "view_numeric_correct": true,
+  "wall_seconds": 9.60577068850398,
+  "llm_seconds": 5.950926333665848,
+  "llm_calls": 2,
+  "input_tokens": 2911,
+  "output_tokens": 269,
+  "code_failures": 0,
+  "code_retries": 0,
+  "sql_queries": [
+    "SELECT * FROM raw_data"
+  ],
+  "sql_rows_returned": 131072,
+  "raw_scanned_bytes": "not established by SQL return tracing; no equality with broker logical reads claimed"
+}

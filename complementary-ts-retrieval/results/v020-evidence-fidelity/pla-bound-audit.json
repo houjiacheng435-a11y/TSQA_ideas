@@ -1,0 +1,9 @@
+{
+  "contexts": 24,
+  "ratios": 4,
+  "all_96_context_ratio_bounds_contain_every_original_sample": true,
+  "existence_queries": 192,
+  "certified": 81,
+  "wrong_certificates": 0,
+  "note": "The other PLA rows use the interpolant as a point estimate. Neither point-estimate error nor a wide bound alone proves intrinsic information loss."
+}

@@ -1,0 +1,16 @@
+{
+ "study":"v020 initial pilot; no training",
+ "data":"Unmodified LTAF real ECG from TS-Haystack linked raw repository; eight lexicographically first official test record IDs. Official clinical QA metadata audited separately, never treated as numeric event labels.",
+ "seed":20261102,
+ "lengths":[16384,131072,1048576],"sample_rate_hz":128,
+ "windows":"One nonoverlapping context of each length per recording. Start offsets 0,16384,147456. Ten public numeric questions per context = 240 questions, 24 contexts, eight independent record clusters. No train/test overlap; no model training or parameter search.",
+ "query_types":["exists@0.5/ch0","exists@1.0/ch0","count_runs@0.5/ch0","first_crossing@0.5/ch0","argmax/ch0","maximum_value_rounded_3/ch0","second_half_mean_greater/ch0","first_crossing_order@0.5/ch0,ch1","simultaneous_crossing_exists@0.5/ch0,ch1","exceedance_samples@1.0/ch0"],
+ "event_definition":"Maximal contiguous samples with x>=threshold; not clinical rhythms, R peaks or disease labels. No minimum-width gate or synthetic insertion. Thresholds 0.5 and 1.0 in released numeric signal units fixed before reading test raw observations.",
+ "ratios":[4,16,64,256],
+ "fixed_representations":"Uniform, PAA, MinMax, PLA with measured sup error, SAX; official TT-SAX on supported trend encoding. Nominal target float32 byte compression; actual bytes include all values, bound arrays, normalization metadata and symbolic words. No claim that equal block width means equal budget.",
+ "hierarchy":"MinMax+Sum binary tree; leaf width 2*nominal ratio. Report all internal index bytes and build time. Query-aware branch-and-bound uses only index values, never answers. Raw access through counted broker only.",
+ "event_index":"Offline threshold-run index at two predeclared thresholds and both channels, plus ordinary maximum/argmax and half sums. Exact only for this declared workload. Report complete build scan and storage; do not generalize to unknown clinical labels or arbitrary future thresholds.",
+ "identifiability":"Report decoder disagreement separately from proven ambiguity or sufficient certificates. PAA/TT-SAX are functions of block means; same block sums permit within-block permutations. Uniform hides unsampled points. MinMax cannot determine internal event count/order without positions. Do not equate decoder error with mathematical information loss.",
+ "statistics":"Pair conditions within contexts, uncertainty resampling over record IDs (eight clusters), not 240 independent subjects. No outcome-based sample replacement.",
+ "sota":"Inspect all six official sources. Run TT-SAX reference encoding and supported native shape search smoke. Attempt existing Sonar-TS official pipeline with local Qwen on new native numeric tasks then unified numeric ECG pilot; label adapted backbone and workload. No paid APIs or new training. ARTS/TimeRLM blockers must be explicit, not assigned fabricated scores."
+}

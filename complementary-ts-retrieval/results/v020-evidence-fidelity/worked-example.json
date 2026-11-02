@@ -1,0 +1,26 @@
+{
+  "context": "104-s0-n16384",
+  "full": {
+    "first": 12173,
+    "count": 9,
+    "maximum": 2.045
+  },
+  "decoded": [
+    {
+      "method": "paa",
+      "first": 12160,
+      "count": 2,
+      "maximum": 1.547
+    },
+    {
+      "method": "uniform",
+      "first": 12224,
+      "count": 2,
+      "maximum": 1.393
+    }
+  ],
+  "figure_samples": [
+    12128,
+    12384
+  ]
+}

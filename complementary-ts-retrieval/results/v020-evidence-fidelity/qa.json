@@ -1,0 +1,5762 @@
+[
+  {
+    "id": "100-s0-n16384-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": null,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 4215,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0.382,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "NONE",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s0-n16384-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s0-n16384"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2149,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 17072,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 20382,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 4.474,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s16384-n131072-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1073,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s16384-n131072"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 19293,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 38,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 997634,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2.405,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "100-s147456-n1048576-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "100",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b05b5e3161ae92e2459fb466e1906b7f986a874fd2445f3526530297b69d2b81"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 3442,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "100-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s0-n16384-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 9,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 12173,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 12281,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2.045,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s0-n16384-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 67,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s0-n16384"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 653,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 7335,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 65279,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0.899,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "B",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s16384-n131072-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s16384-n131072"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 11802,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 56,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1010445,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0.855,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "B",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "104-s147456-n1048576-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "104",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "b71d8e953f3eb07888e1f53e7fb0b40f8fb29c254622eefc04928622a618d032"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "104-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s0-n16384-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": null,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 481,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0.148,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "NONE",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s0-n16384-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s0-n16384"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 7,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 3973,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 4913,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 4.52,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s16384-n131072-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 185,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s16384-n131072"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 3,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 28460,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 743962,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0.899,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "105-s147456-n1048576-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "105",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "f536d57af575f2a3ba327ed870daebeff712d2ac6be487962066373693771331"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "105-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s0-n16384-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 232,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1354,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 12063,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2.746,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "B",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s0-n16384-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 265,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s0-n16384"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1204,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 337,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 3.661,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s16384-n131072-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 429,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s16384-n131072"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 12487,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 20,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 301583,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1.866,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "11-s147456-n1048576-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "11",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7d499ca1f274d7f014b32b45b3810d39377fb6e1cd74551c7917b78b73eb5f4e"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 6340,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "11-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s0-n16384-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 97,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 4776,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 4917,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 3.29,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "B",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s0-n16384-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 269,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s0-n16384"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1066,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 31631,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2.771,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s16384-n131072-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 549,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s16384-n131072"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 9333,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 120,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 522049,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2.868,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "200-s147456-n1048576-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "200",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "562354ad8056cec9ef9d2c5b9e29370b0d649374b5f53db014813ad7c90234e3"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 5394,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "200-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s0-n16384-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": null,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 9806,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0.199,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "NONE",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s0-n16384-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 0,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s0-n16384"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 789,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 6991,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 7112,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2.675,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s16384-n131072-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 189,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s16384-n131072"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 4961,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 69997,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1.721,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "32-s147456-n1048576-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "32",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "eb3a8a34503997ddee2092a531e578c68da2a529faac90a49a542133fd2b6acf"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 39,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "32-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s0-n16384-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 214,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 3138,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 3284,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1.378,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s0-n16384-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 32,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s0-n16384"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1947,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 51,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 54519,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1.27,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s16384-n131072-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 223,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s16384-n131072"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 13945,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 17,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 167770,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1.299,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "48-s147456-n1048576-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "48",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "7e846ddeb8a8eaac8de5755208a05fb031dbbfb8768ac0bf50764d8866a4a841"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1135,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "48-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s0-n16384-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 34,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 7731,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 11213,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1.037,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "NONE",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s0-n16384-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 0,
+      "n": 16384,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s0-n16384"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 61,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 120,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 5543,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1.126,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s16384-n131072-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 16384,
+      "n": 131072,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 2,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s16384-n131072"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-exists05",
+    "query": "exists05",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-exists10",
+    "query": "exists10",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-count",
+    "query": "count",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 8110,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-first",
+    "query": "first",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 74,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-argmax",
+    "query": "argmax",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 365970,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-maximum",
+    "query": "maximum",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 1.769,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-trend",
+    "query": "trend",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": true,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-ordering",
+    "query": "ordering",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": "A",
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-cooccur",
+    "query": "cooccur",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": false,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 0.5
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  },
+  {
+    "id": "49-s147456-n1048576-duration",
+    "query": "duration",
+    "timeseries_reference": {
+      "record": "49",
+      "start_sample": 147456,
+      "n": 1048576,
+      "sha256": "c1e9e8b15006d806b48125ee4c53f695c234fe5cff1182ad466622f26b8fe2fb"
+    },
+    "available_channels": [
+      "ECG1",
+      "ECG2"
+    ],
+    "ground_truth": 15091,
+    "evidence_annotation": {
+      "source": "declared numeric threshold predicate, not human clinical labels",
+      "threshold": 1.0
+    },
+    "metadata": {
+      "split": "official-record-test",
+      "hz": 128,
+      "context": "49-s147456-n1048576"
+    }
+  }
+]
