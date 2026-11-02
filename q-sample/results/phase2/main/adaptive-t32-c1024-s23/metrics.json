@@ -1,0 +1,158 @@
+{
+  "none": {
+    "loss": 0.6931020990014076,
+    "accuracy": 0.50390625,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.50390625,
+    "wrong_query_grid_accuracy": 0.501953125,
+    "shuffled_values_accuracy": 0.501953125,
+    "positive_recall": 0.01171875,
+    "removed_target_yes_rate": 0.01171875,
+    "target_hit": 0.31640625,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.0098876953125,
+    "target_mass": 0.010217978511100512,
+    "distractor_occupancy": 0.030517578125,
+    "distractor_mass": 0.03062504157828272,
+    "extra_distractor_occupancy": 0.0,
+    "query_selectivity": 0.0,
+    "query_mass_selectivity": 5.253822646267891e-06,
+    "all_queries_correct": 0.0859375,
+    "paired_transfer": 0.0,
+    "paired_transfer_direction": 0.0,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 202,
+    "per_class_accuracy": [
+      0.5,
+      0.5,
+      0.5078125,
+      0.5078125
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "6275d9b63e869da49aef9bbbfc516d0e2919ba1efee25f172e808968fc5bcc4e"
+  },
+  "few": {
+    "loss": 0.6930031329393387,
+    "accuracy": 0.509765625,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.51171875,
+    "wrong_query_grid_accuracy": 0.509765625,
+    "shuffled_values_accuracy": 0.51171875,
+    "positive_recall": 0.0703125,
+    "removed_target_yes_rate": 0.06640625,
+    "target_hit": 0.3984375,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.012451171875,
+    "target_mass": 0.010219334381584844,
+    "distractor_occupancy": 0.068115234375,
+    "distractor_mass": 0.06580876241054057,
+    "extra_distractor_occupancy": 0.03564453125,
+    "query_selectivity": -8.138021075865254e-05,
+    "query_mass_selectivity": 5.512235868347786e-06,
+    "all_queries_correct": 0.078125,
+    "paired_transfer": 0.0,
+    "paired_transfer_direction": 0.0,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 197,
+    "per_class_accuracy": [
+      0.4921875,
+      0.515625,
+      0.5,
+      0.53125
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "29e0f8bf631eba965bc2e430c6321d6b58642aba06b7113b3c8ad3d8fa0d9aa2"
+  },
+  "strong": {
+    "loss": 0.6938780508935452,
+    "accuracy": 0.5078125,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.4921875,
+    "wrong_query_grid_accuracy": 0.494140625,
+    "shuffled_values_accuracy": 0.505859375,
+    "positive_recall": 0.95703125,
+    "removed_target_yes_rate": 0.95703125,
+    "target_hit": 0.296875,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.00927734375,
+    "target_mass": 0.010261037377379267,
+    "distractor_occupancy": 0.19140625,
+    "distractor_mass": 0.19071449516098937,
+    "extra_distractor_occupancy": 0.16015625,
+    "query_selectivity": -0.00012207031977595761,
+    "query_mass_selectivity": 5.287143183116072e-06,
+    "all_queries_correct": 0.078125,
+    "paired_transfer": -0.0002403846153846154,
+    "paired_transfer_direction": 0.0,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 195,
+    "per_class_accuracy": [
+      0.5546875,
+      0.5078125,
+      0.4921875,
+      0.4765625
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "c2abf7ad47fb19603968a85bf42b019ad61e07d44777bb1d428ebb0e3b4b41c7"
+  }
+}

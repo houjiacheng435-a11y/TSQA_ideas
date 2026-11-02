@@ -1,0 +1,4202 @@
+[
+  {
+    "step": 1,
+    "loss": 0.6938987970352173,
+    "sigma": 32.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04770763963460922
+  },
+  {
+    "step": 2,
+    "loss": 0.6919554471969604,
+    "sigma": 31.91111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.036638300865888596
+  },
+  {
+    "step": 3,
+    "loss": 0.6891747713088989,
+    "sigma": 31.822222222222223,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04319068044424057
+  },
+  {
+    "step": 4,
+    "loss": 0.6872909069061279,
+    "sigma": 31.733333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.043027594685554504
+  },
+  {
+    "step": 5,
+    "loss": 0.6838939189910889,
+    "sigma": 31.644444444444446,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05289647728204727
+  },
+  {
+    "step": 6,
+    "loss": 0.683067798614502,
+    "sigma": 31.555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05044933781027794
+  },
+  {
+    "step": 7,
+    "loss": 0.6799938678741455,
+    "sigma": 31.466666666666665,
+    "density_gradient": 0.0,
+    "full_gradient": 0.058327097445726395
+  },
+  {
+    "step": 8,
+    "loss": 0.6766791939735413,
+    "sigma": 31.377777777777776,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06628277152776718
+  },
+  {
+    "step": 9,
+    "loss": 0.6749587059020996,
+    "sigma": 31.288888888888888,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06965851783752441
+  },
+  {
+    "step": 10,
+    "loss": 0.6712745428085327,
+    "sigma": 31.2,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07802622765302658
+  },
+  {
+    "step": 11,
+    "loss": 0.6646475195884705,
+    "sigma": 31.11111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09435490518808365
+  },
+  {
+    "step": 12,
+    "loss": 0.6629595756530762,
+    "sigma": 31.022222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0968177318572998
+  },
+  {
+    "step": 13,
+    "loss": 0.6611587405204773,
+    "sigma": 30.933333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10186763107776642
+  },
+  {
+    "step": 14,
+    "loss": 0.6601880192756653,
+    "sigma": 30.844444444444445,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10046588629484177
+  },
+  {
+    "step": 15,
+    "loss": 0.6593027710914612,
+    "sigma": 30.755555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10273868590593338
+  },
+  {
+    "step": 16,
+    "loss": 0.6427967548370361,
+    "sigma": 30.666666666666668,
+    "density_gradient": 0.0,
+    "full_gradient": 0.13601256906986237
+  },
+  {
+    "step": 17,
+    "loss": 0.6442015171051025,
+    "sigma": 30.57777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1283324658870697
+  },
+  {
+    "step": 18,
+    "loss": 0.6415503621101379,
+    "sigma": 30.488888888888887,
+    "density_gradient": 0.0,
+    "full_gradient": 0.13213248550891876
+  },
+  {
+    "step": 19,
+    "loss": 0.6291348934173584,
+    "sigma": 30.4,
+    "density_gradient": 0.0,
+    "full_gradient": 0.15246842801570892
+  },
+  {
+    "step": 20,
+    "loss": 0.6264848709106445,
+    "sigma": 30.31111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1531895250082016
+  },
+  {
+    "step": 21,
+    "loss": 0.6081370115280151,
+    "sigma": 30.22222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.18303543329238892
+  },
+  {
+    "step": 22,
+    "loss": 0.5944187641143799,
+    "sigma": 30.133333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.20275254547595978
+  },
+  {
+    "step": 23,
+    "loss": 0.6004941463470459,
+    "sigma": 30.044444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.18427765369415283
+  },
+  {
+    "step": 24,
+    "loss": 0.593978226184845,
+    "sigma": 29.955555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.19676178693771362
+  },
+  {
+    "step": 25,
+    "loss": 0.5861120223999023,
+    "sigma": 29.866666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.20126575231552124
+  },
+  {
+    "step": 26,
+    "loss": 0.5661946535110474,
+    "sigma": 29.77777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.22479946911334991
+  },
+  {
+    "step": 27,
+    "loss": 0.5576888918876648,
+    "sigma": 29.68888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.229991614818573
+  },
+  {
+    "step": 28,
+    "loss": 0.5351961851119995,
+    "sigma": 29.6,
+    "density_gradient": 0.0,
+    "full_gradient": 0.26734286546707153
+  },
+  {
+    "step": 29,
+    "loss": 0.5321019887924194,
+    "sigma": 29.511111111111113,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2540907561779022
+  },
+  {
+    "step": 30,
+    "loss": 0.5176700353622437,
+    "sigma": 29.42222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2701091170310974
+  },
+  {
+    "step": 31,
+    "loss": 0.49240735173225403,
+    "sigma": 29.333333333333332,
+    "density_gradient": 0.0,
+    "full_gradient": 0.29270943999290466
+  },
+  {
+    "step": 32,
+    "loss": 0.4805157780647278,
+    "sigma": 29.244444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2932863235473633
+  },
+  {
+    "step": 33,
+    "loss": 0.4795229434967041,
+    "sigma": 29.155555555555555,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3011865019798279
+  },
+  {
+    "step": 34,
+    "loss": 0.44965171813964844,
+    "sigma": 29.066666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.32294532656669617
+  },
+  {
+    "step": 35,
+    "loss": 0.42978131771087646,
+    "sigma": 28.977777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.35785171389579773
+  },
+  {
+    "step": 36,
+    "loss": 0.4260369539260864,
+    "sigma": 28.88888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.33027857542037964
+  },
+  {
+    "step": 37,
+    "loss": 0.3990711569786072,
+    "sigma": 28.8,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3406137228012085
+  },
+  {
+    "step": 38,
+    "loss": 0.3823281526565552,
+    "sigma": 28.711111111111112,
+    "density_gradient": 0.0,
+    "full_gradient": 0.36701059341430664
+  },
+  {
+    "step": 39,
+    "loss": 0.3658686578273773,
+    "sigma": 28.622222222222224,
+    "density_gradient": 0.0,
+    "full_gradient": 0.35891249775886536
+  },
+  {
+    "step": 40,
+    "loss": 0.3130396604537964,
+    "sigma": 28.53333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.37987080216407776
+  },
+  {
+    "step": 41,
+    "loss": 0.3261508345603943,
+    "sigma": 28.444444444444443,
+    "density_gradient": 0.0,
+    "full_gradient": 0.39321374893188477
+  },
+  {
+    "step": 42,
+    "loss": 0.28801971673965454,
+    "sigma": 28.355555555555554,
+    "density_gradient": 0.0,
+    "full_gradient": 0.40492284297943115
+  },
+  {
+    "step": 43,
+    "loss": 0.2494359016418457,
+    "sigma": 28.266666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.39013156294822693
+  },
+  {
+    "step": 44,
+    "loss": 0.2701908051967621,
+    "sigma": 28.177777777777777,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3758544325828552
+  },
+  {
+    "step": 45,
+    "loss": 0.2245761603116989,
+    "sigma": 28.08888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3905927538871765
+  },
+  {
+    "step": 46,
+    "loss": 0.22171378135681152,
+    "sigma": 28.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3669005334377289
+  },
+  {
+    "step": 47,
+    "loss": 0.22175458073616028,
+    "sigma": 27.91111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.48490995168685913
+  },
+  {
+    "step": 48,
+    "loss": 0.21113169193267822,
+    "sigma": 27.822222222222223,
+    "density_gradient": 0.0,
+    "full_gradient": 0.44477301836013794
+  },
+  {
+    "step": 49,
+    "loss": 0.13048401474952698,
+    "sigma": 27.733333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3237006962299347
+  },
+  {
+    "step": 50,
+    "loss": 0.14748111367225647,
+    "sigma": 27.644444444444446,
+    "density_gradient": 0.0,
+    "full_gradient": 0.32887572050094604
+  },
+  {
+    "step": 51,
+    "loss": 0.10553856194019318,
+    "sigma": 27.555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.31036195158958435
+  },
+  {
+    "step": 52,
+    "loss": 0.15084877610206604,
+    "sigma": 27.46666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.5130099058151245
+  },
+  {
+    "step": 53,
+    "loss": 0.0913623720407486,
+    "sigma": 27.37777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.29361411929130554
+  },
+  {
+    "step": 54,
+    "loss": 0.12390416860580444,
+    "sigma": 27.288888888888888,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3654594421386719
+  },
+  {
+    "step": 55,
+    "loss": 0.08515610545873642,
+    "sigma": 27.2,
+    "density_gradient": 0.0,
+    "full_gradient": 0.28202933073043823
+  },
+  {
+    "step": 56,
+    "loss": 0.0625179260969162,
+    "sigma": 27.11111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.29599595069885254
+  },
+  {
+    "step": 57,
+    "loss": 0.07409696280956268,
+    "sigma": 27.022222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.18986749649047852
+  },
+  {
+    "step": 58,
+    "loss": 0.08621163666248322,
+    "sigma": 26.933333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.4458840787410736
+  },
+  {
+    "step": 59,
+    "loss": 0.05022205039858818,
+    "sigma": 26.844444444444445,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3055557310581207
+  },
+  {
+    "step": 60,
+    "loss": 0.05990387499332428,
+    "sigma": 26.755555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3220784664154053
+  },
+  {
+    "step": 61,
+    "loss": 0.04429037868976593,
+    "sigma": 26.666666666666668,
+    "density_gradient": 0.0,
+    "full_gradient": 0.26033398509025574
+  },
+  {
+    "step": 62,
+    "loss": 0.043942101299762726,
+    "sigma": 26.577777777777776,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3271833658218384
+  },
+  {
+    "step": 63,
+    "loss": 0.03888799250125885,
+    "sigma": 26.488888888888887,
+    "density_gradient": 0.0,
+    "full_gradient": 0.21406514942646027
+  },
+  {
+    "step": 64,
+    "loss": 0.032287731766700745,
+    "sigma": 26.4,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3011498749256134
+  },
+  {
+    "step": 65,
+    "loss": 0.04654465615749359,
+    "sigma": 26.31111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.5429253578186035
+  },
+  {
+    "step": 66,
+    "loss": 0.014744315296411514,
+    "sigma": 26.22222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.12271931022405624
+  },
+  {
+    "step": 67,
+    "loss": 0.03365813568234444,
+    "sigma": 26.133333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.257106214761734
+  },
+  {
+    "step": 68,
+    "loss": 0.011891319416463375,
+    "sigma": 26.044444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07570728659629822
+  },
+  {
+    "step": 69,
+    "loss": 0.019489901140332222,
+    "sigma": 25.955555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.20984627306461334
+  },
+  {
+    "step": 70,
+    "loss": 0.01539117842912674,
+    "sigma": 25.866666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1138884425163269
+  },
+  {
+    "step": 71,
+    "loss": 0.02436554618179798,
+    "sigma": 25.77777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.37717920541763306
+  },
+  {
+    "step": 72,
+    "loss": 0.014369108714163303,
+    "sigma": 25.68888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.17333275079727173
+  },
+  {
+    "step": 73,
+    "loss": 0.02660965546965599,
+    "sigma": 25.6,
+    "density_gradient": 0.0,
+    "full_gradient": 0.18779467046260834
+  },
+  {
+    "step": 74,
+    "loss": 0.013674796558916569,
+    "sigma": 25.511111111111113,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07194320857524872
+  },
+  {
+    "step": 75,
+    "loss": 0.028261639177799225,
+    "sigma": 25.422222222222224,
+    "density_gradient": 0.0,
+    "full_gradient": 0.41250303387641907
+  },
+  {
+    "step": 76,
+    "loss": 0.008646969683468342,
+    "sigma": 25.333333333333332,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08716819435358047
+  },
+  {
+    "step": 77,
+    "loss": 0.013731400482356548,
+    "sigma": 25.244444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.24730297923088074
+  },
+  {
+    "step": 78,
+    "loss": 0.014895791187882423,
+    "sigma": 25.155555555555555,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2371000051498413
+  },
+  {
+    "step": 79,
+    "loss": 0.008921912871301174,
+    "sigma": 25.066666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.11233499646186829
+  },
+  {
+    "step": 80,
+    "loss": 0.011623557657003403,
+    "sigma": 24.977777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.12012652307748795
+  },
+  {
+    "step": 81,
+    "loss": 0.007120043970644474,
+    "sigma": 24.88888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05386919155716896
+  },
+  {
+    "step": 82,
+    "loss": 0.010194776579737663,
+    "sigma": 24.8,
+    "density_gradient": 0.0,
+    "full_gradient": 0.20170451700687408
+  },
+  {
+    "step": 83,
+    "loss": 0.005185932852327824,
+    "sigma": 24.711111111111112,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05150756612420082
+  },
+  {
+    "step": 84,
+    "loss": 0.012756511569023132,
+    "sigma": 24.62222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2668220102787018
+  },
+  {
+    "step": 85,
+    "loss": 0.006348792929202318,
+    "sigma": 24.53333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10619477182626724
+  },
+  {
+    "step": 86,
+    "loss": 0.005400181747972965,
+    "sigma": 24.444444444444443,
+    "density_gradient": 0.0,
+    "full_gradient": 0.033243194222450256
+  },
+  {
+    "step": 87,
+    "loss": 0.0038072820752859116,
+    "sigma": 24.355555555555554,
+    "density_gradient": 0.0,
+    "full_gradient": 0.035809729248285294
+  },
+  {
+    "step": 88,
+    "loss": 0.010873716324567795,
+    "sigma": 24.266666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07545838505029678
+  },
+  {
+    "step": 89,
+    "loss": 0.004703906364738941,
+    "sigma": 24.177777777777777,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04812854155898094
+  },
+  {
+    "step": 90,
+    "loss": 0.00470369728282094,
+    "sigma": 24.08888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06869383901357651
+  },
+  {
+    "step": 91,
+    "loss": 0.002818433567881584,
+    "sigma": 24.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05215639993548393
+  },
+  {
+    "step": 92,
+    "loss": 0.009472761303186417,
+    "sigma": 23.91111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.175246462225914
+  },
+  {
+    "step": 93,
+    "loss": 0.006498119793832302,
+    "sigma": 23.822222222222223,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08039344102144241
+  },
+  {
+    "step": 94,
+    "loss": 0.005760279018431902,
+    "sigma": 23.733333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10015834867954254
+  },
+  {
+    "step": 95,
+    "loss": 0.0038619565311819315,
+    "sigma": 23.644444444444446,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04578560218214989
+  },
+  {
+    "step": 96,
+    "loss": 0.003299121744930744,
+    "sigma": 23.555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04580198973417282
+  },
+  {
+    "step": 97,
+    "loss": 0.0018465158063918352,
+    "sigma": 23.46666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.015729820355772972
+  },
+  {
+    "step": 98,
+    "loss": 0.0033678796608000994,
+    "sigma": 23.37777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.029725372791290283
+  },
+  {
+    "step": 99,
+    "loss": 0.004535183310508728,
+    "sigma": 23.28888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.040732160210609436
+  },
+  {
+    "step": 100,
+    "loss": 0.0040515814907848835,
+    "sigma": 23.2,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03749435767531395
+  },
+  {
+    "step": 101,
+    "loss": 0.004608485382050276,
+    "sigma": 23.11111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10658329725265503
+  },
+  {
+    "step": 102,
+    "loss": 0.005868164822459221,
+    "sigma": 23.022222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.13207530975341797
+  },
+  {
+    "step": 103,
+    "loss": 0.0031584121752530336,
+    "sigma": 22.933333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.034303419291973114
+  },
+  {
+    "step": 104,
+    "loss": 0.004589797463268042,
+    "sigma": 22.844444444444445,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10020489990711212
+  },
+  {
+    "step": 105,
+    "loss": 0.0035828063264489174,
+    "sigma": 22.755555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07755318284034729
+  },
+  {
+    "step": 106,
+    "loss": 0.00262223812751472,
+    "sigma": 22.666666666666664,
+    "density_gradient": 0.0,
+    "full_gradient": 0.027961090207099915
+  },
+  {
+    "step": 107,
+    "loss": 0.004048229660838842,
+    "sigma": 22.577777777777776,
+    "density_gradient": 0.0,
+    "full_gradient": 0.022724008187651634
+  },
+  {
+    "step": 108,
+    "loss": 0.0027058147825300694,
+    "sigma": 22.488888888888887,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04270320013165474
+  },
+  {
+    "step": 109,
+    "loss": 0.002193578751757741,
+    "sigma": 22.4,
+    "density_gradient": 0.0,
+    "full_gradient": 0.013502509333193302
+  },
+  {
+    "step": 110,
+    "loss": 0.0028930497355759144,
+    "sigma": 22.31111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05470532551407814
+  },
+  {
+    "step": 111,
+    "loss": 0.001335490494966507,
+    "sigma": 22.22222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01376761682331562
+  },
+  {
+    "step": 112,
+    "loss": 0.002985491417348385,
+    "sigma": 22.133333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08338756114244461
+  },
+  {
+    "step": 113,
+    "loss": 0.0027187070809304714,
+    "sigma": 22.044444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06365281343460083
+  },
+  {
+    "step": 114,
+    "loss": 0.0029424726963043213,
+    "sigma": 21.955555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.042137470096349716
+  },
+  {
+    "step": 115,
+    "loss": 0.0020177250262349844,
+    "sigma": 21.866666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.016248399391770363
+  },
+  {
+    "step": 116,
+    "loss": 0.0021484564058482647,
+    "sigma": 21.77777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.013890196569263935
+  },
+  {
+    "step": 117,
+    "loss": 0.0014901009853929281,
+    "sigma": 21.68888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.028555383905768394
+  },
+  {
+    "step": 118,
+    "loss": 0.001775979995727539,
+    "sigma": 21.6,
+    "density_gradient": 0.0,
+    "full_gradient": 0.024185216054320335
+  },
+  {
+    "step": 119,
+    "loss": 0.0015064470935612917,
+    "sigma": 21.511111111111113,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01892603375017643
+  },
+  {
+    "step": 120,
+    "loss": 0.0017054516356438398,
+    "sigma": 21.422222222222224,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01970634050667286
+  },
+  {
+    "step": 121,
+    "loss": 0.0023519685491919518,
+    "sigma": 21.333333333333336,
+    "density_gradient": 0.0,
+    "full_gradient": 0.016319384798407555
+  },
+  {
+    "step": 122,
+    "loss": 0.0033897673711180687,
+    "sigma": 21.244444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07722562551498413
+  },
+  {
+    "step": 123,
+    "loss": 0.002132115885615349,
+    "sigma": 21.155555555555555,
+    "density_gradient": 0.0,
+    "full_gradient": 0.022422976791858673
+  },
+  {
+    "step": 124,
+    "loss": 0.0026645588222891092,
+    "sigma": 21.066666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04743994399905205
+  },
+  {
+    "step": 125,
+    "loss": 0.0018569548847153783,
+    "sigma": 20.977777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01829509250819683
+  },
+  {
+    "step": 126,
+    "loss": 0.0010033666621893644,
+    "sigma": 20.88888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.022433871403336525
+  },
+  {
+    "step": 127,
+    "loss": 0.0017486432334408164,
+    "sigma": 20.8,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01872660405933857
+  },
+  {
+    "step": 128,
+    "loss": 0.0015437371330335736,
+    "sigma": 20.71111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009673124179244041
+  },
+  {
+    "step": 129,
+    "loss": 0.0026010493747889996,
+    "sigma": 20.62222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02396983653306961
+  },
+  {
+    "step": 130,
+    "loss": 0.0014751013368368149,
+    "sigma": 20.53333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.024191701784729958
+  },
+  {
+    "step": 131,
+    "loss": 0.0015595457516610622,
+    "sigma": 20.444444444444443,
+    "density_gradient": 0.0,
+    "full_gradient": 0.014249050058424473
+  },
+  {
+    "step": 132,
+    "loss": 0.0010719267884269357,
+    "sigma": 20.355555555555554,
+    "density_gradient": 0.0,
+    "full_gradient": 0.00904892385005951
+  },
+  {
+    "step": 133,
+    "loss": 0.0015766751021146774,
+    "sigma": 20.266666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02010452374815941
+  },
+  {
+    "step": 134,
+    "loss": 0.0014709631213918328,
+    "sigma": 20.177777777777777,
+    "density_gradient": 0.0,
+    "full_gradient": 0.010673549957573414
+  },
+  {
+    "step": 135,
+    "loss": 0.0011255176505073905,
+    "sigma": 20.08888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.012183479964733124
+  },
+  {
+    "step": 136,
+    "loss": 0.0013967258855700493,
+    "sigma": 20.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.026702677831053734
+  },
+  {
+    "step": 137,
+    "loss": 0.0011905787978321314,
+    "sigma": 19.91111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.010467545129358768
+  },
+  {
+    "step": 138,
+    "loss": 0.000723969133105129,
+    "sigma": 19.822222222222223,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006399872712790966
+  },
+  {
+    "step": 139,
+    "loss": 0.0020119883120059967,
+    "sigma": 19.733333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03237355872988701
+  },
+  {
+    "step": 140,
+    "loss": 0.001506675616838038,
+    "sigma": 19.644444444444446,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02245735004544258
+  },
+  {
+    "step": 141,
+    "loss": 0.0014281673356890678,
+    "sigma": 19.555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02692757174372673
+  },
+  {
+    "step": 142,
+    "loss": 0.001291567925363779,
+    "sigma": 19.46666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.026069728657603264
+  },
+  {
+    "step": 143,
+    "loss": 0.0017170245992019773,
+    "sigma": 19.37777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03723644092679024
+  },
+  {
+    "step": 144,
+    "loss": 0.0020762209314852953,
+    "sigma": 19.28888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04168644919991493
+  },
+  {
+    "step": 145,
+    "loss": 0.0009092353284358978,
+    "sigma": 19.2,
+    "density_gradient": 0.0,
+    "full_gradient": 0.008407247252762318
+  },
+  {
+    "step": 146,
+    "loss": 0.0007537476485595107,
+    "sigma": 19.11111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.011785225942730904
+  },
+  {
+    "step": 147,
+    "loss": 0.001795504824258387,
+    "sigma": 19.022222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03544076159596443
+  },
+  {
+    "step": 148,
+    "loss": 0.0017407424747943878,
+    "sigma": 18.933333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02079746685922146
+  },
+  {
+    "step": 149,
+    "loss": 0.0009372819331474602,
+    "sigma": 18.844444444444445,
+    "density_gradient": 0.0,
+    "full_gradient": 0.015153594315052032
+  },
+  {
+    "step": 150,
+    "loss": 0.0011438893852755427,
+    "sigma": 18.755555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.017202164977788925
+  },
+  {
+    "step": 151,
+    "loss": 0.0005532857612706721,
+    "sigma": 18.666666666666664,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005707848351448774
+  },
+  {
+    "step": 152,
+    "loss": 0.0015266218688338995,
+    "sigma": 18.577777777777776,
+    "density_gradient": 0.0,
+    "full_gradient": 0.014500513672828674
+  },
+  {
+    "step": 153,
+    "loss": 0.000777934561483562,
+    "sigma": 18.488888888888887,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007444590330123901
+  },
+  {
+    "step": 154,
+    "loss": 0.0005923291901126504,
+    "sigma": 18.4,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005957907997071743
+  },
+  {
+    "step": 155,
+    "loss": 0.0015065539628267288,
+    "sigma": 18.31111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.012317893095314503
+  },
+  {
+    "step": 156,
+    "loss": 0.0006818281253799796,
+    "sigma": 18.22222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007028388790786266
+  },
+  {
+    "step": 157,
+    "loss": 0.0005599242867901921,
+    "sigma": 18.133333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007130518089979887
+  },
+  {
+    "step": 158,
+    "loss": 0.0010163995902985334,
+    "sigma": 18.044444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.014784153550863266
+  },
+  {
+    "step": 159,
+    "loss": 0.0005487994058057666,
+    "sigma": 17.955555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.00472015468403697
+  },
+  {
+    "step": 160,
+    "loss": 0.0009616875322535634,
+    "sigma": 17.866666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009106986224651337
+  },
+  {
+    "step": 161,
+    "loss": 0.0015544627094641328,
+    "sigma": 17.77777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02304038405418396
+  },
+  {
+    "step": 162,
+    "loss": 0.0006272950558923185,
+    "sigma": 17.68888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009265495464205742
+  },
+  {
+    "step": 163,
+    "loss": 0.0015975809656083584,
+    "sigma": 17.6,
+    "density_gradient": 0.0,
+    "full_gradient": 0.028191175311803818
+  },
+  {
+    "step": 164,
+    "loss": 0.0005792273441329598,
+    "sigma": 17.511111111111113,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007201100699603558
+  },
+  {
+    "step": 165,
+    "loss": 0.0013178566005080938,
+    "sigma": 17.422222222222224,
+    "density_gradient": 0.0,
+    "full_gradient": 0.020442331209778786
+  },
+  {
+    "step": 166,
+    "loss": 0.000610104703810066,
+    "sigma": 17.333333333333336,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007366586476564407
+  },
+  {
+    "step": 167,
+    "loss": 0.0006836425745859742,
+    "sigma": 17.244444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007838526740670204
+  },
+  {
+    "step": 168,
+    "loss": 0.0008290042169392109,
+    "sigma": 17.155555555555555,
+    "density_gradient": 0.0,
+    "full_gradient": 0.008665241301059723
+  },
+  {
+    "step": 169,
+    "loss": 0.0006122925551608205,
+    "sigma": 17.066666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009363037534058094
+  },
+  {
+    "step": 170,
+    "loss": 0.000428896804805845,
+    "sigma": 16.977777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006001441273838282
+  },
+  {
+    "step": 171,
+    "loss": 0.000775957596488297,
+    "sigma": 16.88888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.00889469962567091
+  },
+  {
+    "step": 172,
+    "loss": 0.0007340905140154064,
+    "sigma": 16.8,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009449516423046589
+  },
+  {
+    "step": 173,
+    "loss": 0.0008821083465591073,
+    "sigma": 16.71111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01035868190228939
+  },
+  {
+    "step": 174,
+    "loss": 0.0005453758640214801,
+    "sigma": 16.62222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004415236879140139
+  },
+  {
+    "step": 175,
+    "loss": 0.0006422869046218693,
+    "sigma": 16.53333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007034950889647007
+  },
+  {
+    "step": 176,
+    "loss": 0.0011284362990409136,
+    "sigma": 16.444444444444443,
+    "density_gradient": 0.0,
+    "full_gradient": 0.024995170533657074
+  },
+  {
+    "step": 177,
+    "loss": 0.0008035541977733374,
+    "sigma": 16.355555555555554,
+    "density_gradient": 0.0,
+    "full_gradient": 0.00829265732318163
+  },
+  {
+    "step": 178,
+    "loss": 0.0009719020454213023,
+    "sigma": 16.266666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009143180213868618
+  },
+  {
+    "step": 179,
+    "loss": 0.0005609648651443422,
+    "sigma": 16.177777777777777,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009335371665656567
+  },
+  {
+    "step": 180,
+    "loss": 0.0006268140859901905,
+    "sigma": 16.08888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004877242725342512
+  },
+  {
+    "step": 181,
+    "loss": 0.0006470466614700854,
+    "sigma": 16.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005753478035330772
+  },
+  {
+    "step": 182,
+    "loss": 0.0011312277056276798,
+    "sigma": 15.911111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.011499390006065369
+  },
+  {
+    "step": 183,
+    "loss": 0.0007797365542501211,
+    "sigma": 15.822222222222223,
+    "density_gradient": 0.0,
+    "full_gradient": 0.011486329138278961
+  },
+  {
+    "step": 184,
+    "loss": 0.0009267152054235339,
+    "sigma": 15.733333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007449636701494455
+  },
+  {
+    "step": 185,
+    "loss": 0.00041793513810262084,
+    "sigma": 15.644444444444446,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004933384247124195
+  },
+  {
+    "step": 186,
+    "loss": 0.0006388700567185879,
+    "sigma": 15.555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007331121247261763
+  },
+  {
+    "step": 187,
+    "loss": 0.0005763748195022345,
+    "sigma": 15.466666666666665,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005046810023486614
+  },
+  {
+    "step": 188,
+    "loss": 0.0012708180584013462,
+    "sigma": 15.377777777777776,
+    "density_gradient": 0.0,
+    "full_gradient": 0.013322671875357628
+  },
+  {
+    "step": 189,
+    "loss": 0.0005373000167310238,
+    "sigma": 15.288888888888888,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0064065102487802505
+  },
+  {
+    "step": 190,
+    "loss": 0.0008051648619584739,
+    "sigma": 15.2,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009530916810035706
+  },
+  {
+    "step": 191,
+    "loss": 0.0009761409019120038,
+    "sigma": 15.11111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02025657892227173
+  },
+  {
+    "step": 192,
+    "loss": 0.0005386273842304945,
+    "sigma": 15.022222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004583745263516903
+  },
+  {
+    "step": 193,
+    "loss": 0.00030664485529996455,
+    "sigma": 14.933333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004179083742201328
+  },
+  {
+    "step": 194,
+    "loss": 0.0008437799988314509,
+    "sigma": 14.844444444444445,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009547237306833267
+  },
+  {
+    "step": 195,
+    "loss": 0.0003269492299295962,
+    "sigma": 14.755555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003795311087742448
+  },
+  {
+    "step": 196,
+    "loss": 0.0005059217219240963,
+    "sigma": 14.666666666666668,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004346724599599838
+  },
+  {
+    "step": 197,
+    "loss": 0.0006505226483568549,
+    "sigma": 14.57777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009032105095684528
+  },
+  {
+    "step": 198,
+    "loss": 0.0003358002286404371,
+    "sigma": 14.488888888888887,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004895934835076332
+  },
+  {
+    "step": 199,
+    "loss": 0.00034784432500600815,
+    "sigma": 14.399999999999999,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004508685320615768
+  },
+  {
+    "step": 200,
+    "loss": 0.0004681920981965959,
+    "sigma": 14.31111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0068758586421608925
+  },
+  {
+    "step": 201,
+    "loss": 0.0004892356228083372,
+    "sigma": 14.222222222222221,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005796405952423811
+  },
+  {
+    "step": 202,
+    "loss": 0.0009277191711589694,
+    "sigma": 14.133333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.00848816242069006
+  },
+  {
+    "step": 203,
+    "loss": 0.00048017612425610423,
+    "sigma": 14.044444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009140213020145893
+  },
+  {
+    "step": 204,
+    "loss": 0.0005719433538615704,
+    "sigma": 13.955555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007625938858836889
+  },
+  {
+    "step": 205,
+    "loss": 0.0006627232069149613,
+    "sigma": 13.866666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005044631659984589
+  },
+  {
+    "step": 206,
+    "loss": 0.0006278220098465681,
+    "sigma": 13.777777777777779,
+    "density_gradient": 0.0,
+    "full_gradient": 0.011963136494159698
+  },
+  {
+    "step": 207,
+    "loss": 0.00038022559601813555,
+    "sigma": 13.68888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004023322835564613
+  },
+  {
+    "step": 208,
+    "loss": 0.0005258285673335195,
+    "sigma": 13.600000000000001,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004247928969562054
+  },
+  {
+    "step": 209,
+    "loss": 0.0003375319065526128,
+    "sigma": 13.511111111111113,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006134858820587397
+  },
+  {
+    "step": 210,
+    "loss": 0.0005565991159528494,
+    "sigma": 13.42222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0073043787851929665
+  },
+  {
+    "step": 211,
+    "loss": 0.0004663840227294713,
+    "sigma": 13.333333333333332,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0062077781185507774
+  },
+  {
+    "step": 212,
+    "loss": 0.00031582466908730567,
+    "sigma": 13.244444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003589656436815858
+  },
+  {
+    "step": 213,
+    "loss": 0.00038995983777567744,
+    "sigma": 13.155555555555555,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0030303664971143007
+  },
+  {
+    "step": 214,
+    "loss": 0.00023488738224841654,
+    "sigma": 13.066666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003429517848417163
+  },
+  {
+    "step": 215,
+    "loss": 0.0007237203535623848,
+    "sigma": 12.977777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.016040656715631485
+  },
+  {
+    "step": 216,
+    "loss": 0.0005223918124102056,
+    "sigma": 12.88888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004812781233340502
+  },
+  {
+    "step": 217,
+    "loss": 0.00037401809822767973,
+    "sigma": 12.8,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006022595800459385
+  },
+  {
+    "step": 218,
+    "loss": 0.0005548762856051326,
+    "sigma": 12.711111111111112,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007283145561814308
+  },
+  {
+    "step": 219,
+    "loss": 0.0004943766980431974,
+    "sigma": 12.622222222222224,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01102443691343069
+  },
+  {
+    "step": 220,
+    "loss": 0.00038126338040456176,
+    "sigma": 12.533333333333335,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004579298663884401
+  },
+  {
+    "step": 221,
+    "loss": 0.0004354050615802407,
+    "sigma": 12.444444444444443,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004455817397683859
+  },
+  {
+    "step": 222,
+    "loss": 0.0007107272394932806,
+    "sigma": 12.355555555555554,
+    "density_gradient": 0.0,
+    "full_gradient": 0.00964560080319643
+  },
+  {
+    "step": 223,
+    "loss": 0.00046540831681340933,
+    "sigma": 12.266666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.008812382817268372
+  },
+  {
+    "step": 224,
+    "loss": 0.0003943360934499651,
+    "sigma": 12.177777777777777,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004113953560590744
+  },
+  {
+    "step": 225,
+    "loss": 0.0003824715386144817,
+    "sigma": 12.088888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005462054628878832
+  },
+  {
+    "step": 226,
+    "loss": 0.00041921381489373744,
+    "sigma": 12.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005236102733761072
+  },
+  {
+    "step": 227,
+    "loss": 0.0004171844047959894,
+    "sigma": 11.911111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009165046736598015
+  },
+  {
+    "step": 228,
+    "loss": 0.0002741815405897796,
+    "sigma": 11.822222222222223,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0022592300083488226
+  },
+  {
+    "step": 229,
+    "loss": 0.0005119094275869429,
+    "sigma": 11.733333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0041234130039811134
+  },
+  {
+    "step": 230,
+    "loss": 0.0002784014795906842,
+    "sigma": 11.644444444444446,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0028310187626630068
+  },
+  {
+    "step": 231,
+    "loss": 0.0005720555200241506,
+    "sigma": 11.555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007444056216627359
+  },
+  {
+    "step": 232,
+    "loss": 0.00038842682261019945,
+    "sigma": 11.466666666666665,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004330799914896488
+  },
+  {
+    "step": 233,
+    "loss": 0.00039160909363999963,
+    "sigma": 11.377777777777776,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0034052443224936724
+  },
+  {
+    "step": 234,
+    "loss": 0.00024605714133940637,
+    "sigma": 11.288888888888888,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0027673598378896713
+  },
+  {
+    "step": 235,
+    "loss": 0.00032624579034745693,
+    "sigma": 11.2,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0058524818159639835
+  },
+  {
+    "step": 236,
+    "loss": 0.000458492839243263,
+    "sigma": 11.11111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005223198793828487
+  },
+  {
+    "step": 237,
+    "loss": 0.0002624235348775983,
+    "sigma": 11.022222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005455115810036659
+  },
+  {
+    "step": 238,
+    "loss": 0.0005162208108231425,
+    "sigma": 10.933333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006682069506496191
+  },
+  {
+    "step": 239,
+    "loss": 0.00030574153061024845,
+    "sigma": 10.844444444444445,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003533503971993923
+  },
+  {
+    "step": 240,
+    "loss": 0.0005160684231668711,
+    "sigma": 10.755555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004668422508984804
+  },
+  {
+    "step": 241,
+    "loss": 0.0005733886500820518,
+    "sigma": 10.666666666666668,
+    "density_gradient": 0.0,
+    "full_gradient": 0.008338931016623974
+  },
+  {
+    "step": 242,
+    "loss": 0.00036439840914681554,
+    "sigma": 10.57777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003750792471691966
+  },
+  {
+    "step": 243,
+    "loss": 0.0009521065512672067,
+    "sigma": 10.488888888888887,
+    "density_gradient": 0.0,
+    "full_gradient": 0.019382640719413757
+  },
+  {
+    "step": 244,
+    "loss": 0.0002336045727133751,
+    "sigma": 10.399999999999999,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0021447462495416403
+  },
+  {
+    "step": 245,
+    "loss": 0.00039760040817782283,
+    "sigma": 10.31111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004833185579627752
+  },
+  {
+    "step": 246,
+    "loss": 0.00032927500433288515,
+    "sigma": 10.222222222222221,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005384594667702913
+  },
+  {
+    "step": 247,
+    "loss": 0.0005879992968402803,
+    "sigma": 10.133333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0049356077797710896
+  },
+  {
+    "step": 248,
+    "loss": 0.0002792694722302258,
+    "sigma": 10.044444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0028967426624149084
+  },
+  {
+    "step": 249,
+    "loss": 0.00029187608743086457,
+    "sigma": 9.955555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0038267483469098806
+  },
+  {
+    "step": 250,
+    "loss": 0.0003256915952078998,
+    "sigma": 9.866666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004885043948888779
+  },
+  {
+    "step": 251,
+    "loss": 0.0002567601331975311,
+    "sigma": 9.777777777777779,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0050177620723843575
+  },
+  {
+    "step": 252,
+    "loss": 0.00044861965579912066,
+    "sigma": 9.68888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005243475548923016
+  },
+  {
+    "step": 253,
+    "loss": 0.00034551724093034863,
+    "sigma": 9.600000000000001,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0033243789803236723
+  },
+  {
+    "step": 254,
+    "loss": 0.0003665718832053244,
+    "sigma": 9.511111111111113,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004614419303834438
+  },
+  {
+    "step": 255,
+    "loss": 0.0002502197748981416,
+    "sigma": 9.42222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004488507751375437
+  },
+  {
+    "step": 256,
+    "loss": 0.000455600384157151,
+    "sigma": 9.333333333333332,
+    "density_gradient": 0.0,
+    "full_gradient": 0.008957719430327415
+  },
+  {
+    "step": 257,
+    "loss": 0.000343402789440006,
+    "sigma": 9.244444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006419237703084946
+  },
+  {
+    "step": 258,
+    "loss": 0.0002950417692773044,
+    "sigma": 9.155555555555555,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0032632388174533844
+  },
+  {
+    "step": 259,
+    "loss": 0.0002337312325835228,
+    "sigma": 9.066666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0025691776536405087
+  },
+  {
+    "step": 260,
+    "loss": 0.00035310472594574094,
+    "sigma": 8.977777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005122754257172346
+  },
+  {
+    "step": 261,
+    "loss": 0.00022859685122966766,
+    "sigma": 8.88888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003989440388977528
+  },
+  {
+    "step": 262,
+    "loss": 0.0003481026506051421,
+    "sigma": 8.8,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004218847490847111
+  },
+  {
+    "step": 263,
+    "loss": 0.00022981032088864595,
+    "sigma": 8.711111111111112,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0033007466699928045
+  },
+  {
+    "step": 264,
+    "loss": 0.00024647213285788894,
+    "sigma": 8.622222222222224,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0028739292174577713
+  },
+  {
+    "step": 265,
+    "loss": 0.00031529885018244386,
+    "sigma": 8.533333333333335,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003169511677697301
+  },
+  {
+    "step": 266,
+    "loss": 0.0002732081920839846,
+    "sigma": 8.444444444444443,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0026352389249950647
+  },
+  {
+    "step": 267,
+    "loss": 0.00024362473050132394,
+    "sigma": 8.355555555555554,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0027670408599078655
+  },
+  {
+    "step": 268,
+    "loss": 0.00026994108338840306,
+    "sigma": 8.266666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.00442149443551898
+  },
+  {
+    "step": 269,
+    "loss": 0.00014134397497400641,
+    "sigma": 8.177777777777777,
+    "density_gradient": 0.0,
+    "full_gradient": 0.002062191953882575
+  },
+  {
+    "step": 270,
+    "loss": 0.00020957623200956732,
+    "sigma": 8.088888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0020725468639284372
+  },
+  {
+    "step": 271,
+    "loss": 0.00022646141587756574,
+    "sigma": 8.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003692397614941001
+  },
+  {
+    "step": 272,
+    "loss": 0.00021751594613306224,
+    "sigma": 7.911111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0027594733983278275
+  },
+  {
+    "step": 273,
+    "loss": 0.00033042460563592613,
+    "sigma": 7.822222222222223,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004102126695215702
+  },
+  {
+    "step": 274,
+    "loss": 0.00019772176165133715,
+    "sigma": 7.733333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0020876757334917784
+  },
+  {
+    "step": 275,
+    "loss": 0.00029124607681296766,
+    "sigma": 7.644444444444446,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004091927316039801
+  },
+  {
+    "step": 276,
+    "loss": 0.00024911301443353295,
+    "sigma": 7.555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0027012431528419256
+  },
+  {
+    "step": 277,
+    "loss": 0.0002684430801309645,
+    "sigma": 7.466666666666665,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0035637079272419214
+  },
+  {
+    "step": 278,
+    "loss": 0.0003826949396170676,
+    "sigma": 7.377777777777776,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0055868723429739475
+  },
+  {
+    "step": 279,
+    "loss": 0.0002033629862125963,
+    "sigma": 7.288888888888888,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0019756935071200132
+  },
+  {
+    "step": 280,
+    "loss": 0.0003916568821296096,
+    "sigma": 7.199999999999999,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0038828563410788774
+  },
+  {
+    "step": 281,
+    "loss": 0.00017884955741465092,
+    "sigma": 7.111111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0024162468034774065
+  },
+  {
+    "step": 282,
+    "loss": 0.0003867726190946996,
+    "sigma": 7.022222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005412447266280651
+  },
+  {
+    "step": 283,
+    "loss": 0.0003082594776060432,
+    "sigma": 6.933333333333334,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005158844403922558
+  },
+  {
+    "step": 284,
+    "loss": 0.00021890543575864285,
+    "sigma": 6.844444444444445,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0030018226243555546
+  },
+  {
+    "step": 285,
+    "loss": 0.00023718058946542442,
+    "sigma": 6.755555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0025527654215693474
+  },
+  {
+    "step": 286,
+    "loss": 0.00033403816632926464,
+    "sigma": 6.666666666666668,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005118615925312042
+  },
+  {
+    "step": 287,
+    "loss": 0.00018256588373333216,
+    "sigma": 6.577777777777779,
+    "density_gradient": 0.0,
+    "full_gradient": 0.001707909512333572
+  },
+  {
+    "step": 288,
+    "loss": 0.00026141354464925826,
+    "sigma": 6.488888888888887,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0028106863610446453
+  },
+  {
+    "step": 289,
+    "loss": 0.0004531581944320351,
+    "sigma": 6.399999999999999,
+    "density_gradient": 0.0,
+    "full_gradient": 0.015257703140377998
+  },
+  {
+    "step": 290,
+    "loss": 0.0003846049658022821,
+    "sigma": 6.31111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003221155609935522
+  },
+  {
+    "step": 291,
+    "loss": 0.00027150518144480884,
+    "sigma": 6.222222222222221,
+    "density_gradient": 0.0,
+    "full_gradient": 0.00335827493108809
+  },
+  {
+    "step": 292,
+    "loss": 0.00023776966554578394,
+    "sigma": 6.133333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006125783082097769
+  },
+  {
+    "step": 293,
+    "loss": 0.0003535578725859523,
+    "sigma": 6.044444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005347293335944414
+  },
+  {
+    "step": 294,
+    "loss": 0.000243449627305381,
+    "sigma": 5.955555555555556,
+    "density_gradient": 0.0,
+    "full_gradient": 0.002306927228346467
+  },
+  {
+    "step": 295,
+    "loss": 0.00024651887360960245,
+    "sigma": 5.866666666666667,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0020654434338212013
+  },
+  {
+    "step": 296,
+    "loss": 0.0002510626509319991,
+    "sigma": 5.777777777777779,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003434307873249054
+  },
+  {
+    "step": 297,
+    "loss": 0.00023876888735685498,
+    "sigma": 5.68888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.002539608161896467
+  },
+  {
+    "step": 298,
+    "loss": 0.00023181796132121235,
+    "sigma": 5.600000000000001,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003820478916168213
+  },
+  {
+    "step": 299,
+    "loss": 0.0002529096382204443,
+    "sigma": 5.511111111111113,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004716073162853718
+  },
+  {
+    "step": 300,
+    "loss": 0.0004040154453832656,
+    "sigma": 5.422222222222221,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004999538883566856
+  },
+  {
+    "step": 301,
+    "loss": 0.0006221745861694217,
+    "sigma": 5.333333333333332,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0058463080786168575
+  },
+  {
+    "step": 302,
+    "loss": 0.00016311122453771532,
+    "sigma": 5.244444444444444,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0017959994729608297
+  },
+  {
+    "step": 303,
+    "loss": 0.00013482665235642344,
+    "sigma": 5.155555555555555,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0014162292936816812
+  },
+  {
+    "step": 304,
+    "loss": 0.0008064416470006108,
+    "sigma": 5.066666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.024119067937135696
+  },
+  {
+    "step": 305,
+    "loss": 0.00043906670180149376,
+    "sigma": 4.977777777777778,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003671270562335849
+  },
+  {
+    "step": 306,
+    "loss": 0.000368126027751714,
+    "sigma": 4.888888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004736611619591713
+  },
+  {
+    "step": 307,
+    "loss": 0.00023757427698001266,
+    "sigma": 4.800000000000001,
+    "density_gradient": 0.0,
+    "full_gradient": 0.002371023176237941
+  },
+  {
+    "step": 308,
+    "loss": 0.00020804762607440352,
+    "sigma": 4.711111111111112,
+    "density_gradient": 0.0,
+    "full_gradient": 0.002344094915315509
+  },
+  {
+    "step": 309,
+    "loss": 0.00017891547759063542,
+    "sigma": 4.622222222222224,
+    "density_gradient": 0.0,
+    "full_gradient": 0.002219764981418848
+  },
+  {
+    "step": 310,
+    "loss": 0.00031984414090402424,
+    "sigma": 4.533333333333335,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0064974697306752205
+  },
+  {
+    "step": 311,
+    "loss": 0.00026825786335393786,
+    "sigma": 4.444444444444443,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004672428593039513
+  },
+  {
+    "step": 312,
+    "loss": 0.00041371723636984825,
+    "sigma": 4.355555555555554,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004112833179533482
+  },
+  {
+    "step": 313,
+    "loss": 0.00016279664123430848,
+    "sigma": 4.266666666666666,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0017840759828686714
+  },
+  {
+    "step": 314,
+    "loss": 0.0005575340474024415,
+    "sigma": 4.177777777777777,
+    "density_gradient": 0.0,
+    "full_gradient": 0.013590192422270775
+  },
+  {
+    "step": 315,
+    "loss": 0.0003282286925241351,
+    "sigma": 4.088888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0071066259406507015
+  },
+  {
+    "step": 316,
+    "loss": 0.0001867601095000282,
+    "sigma": 4.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0027593174017965794
+  },
+  {
+    "step": 317,
+    "loss": 0.00028507038950920105,
+    "sigma": 3.9111111111111114,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0037648926954716444
+  },
+  {
+    "step": 318,
+    "loss": 0.00047220257692970335,
+    "sigma": 3.822222222222223,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007283194921910763
+  },
+  {
+    "step": 319,
+    "loss": 0.0005569114582613111,
+    "sigma": 3.7333333333333343,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01001648884266615
+  },
+  {
+    "step": 320,
+    "loss": 0.000382294092560187,
+    "sigma": 3.6444444444444457,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007255219388753176
+  },
+  {
+    "step": 321,
+    "loss": 0.0003408894990570843,
+    "sigma": 3.555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003318060887977481
+  },
+  {
+    "step": 322,
+    "loss": 0.0007878141477704048,
+    "sigma": 3.466666666666665,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01800590194761753
+  },
+  {
+    "step": 323,
+    "loss": 0.00021739458316005766,
+    "sigma": 3.3777777777777764,
+    "density_gradient": 0.0,
+    "full_gradient": 0.001958091277629137
+  },
+  {
+    "step": 324,
+    "loss": 0.0004188254242762923,
+    "sigma": 3.288888888888888,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004974016919732094
+  },
+  {
+    "step": 325,
+    "loss": 0.00022855984570924193,
+    "sigma": 3.1999999999999993,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0026837221812456846
+  },
+  {
+    "step": 326,
+    "loss": 0.00022896353038959205,
+    "sigma": 3.1111111111111107,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003306132508441806
+  },
+  {
+    "step": 327,
+    "loss": 0.0002754450833890587,
+    "sigma": 3.022222222222222,
+    "density_gradient": 0.0,
+    "full_gradient": 0.002847934141755104
+  },
+  {
+    "step": 328,
+    "loss": 0.0003498244914226234,
+    "sigma": 2.9333333333333336,
+    "density_gradient": 0.0,
+    "full_gradient": 0.008441366255283356
+  },
+  {
+    "step": 329,
+    "loss": 0.0006919862353242934,
+    "sigma": 2.844444444444445,
+    "density_gradient": 0.0,
+    "full_gradient": 0.015696721151471138
+  },
+  {
+    "step": 330,
+    "loss": 0.0005427635624073446,
+    "sigma": 2.7555555555555564,
+    "density_gradient": 0.0,
+    "full_gradient": 0.009758243337273598
+  },
+  {
+    "step": 331,
+    "loss": 0.002131761983036995,
+    "sigma": 2.666666666666668,
+    "density_gradient": 0.0,
+    "full_gradient": 0.057714156806468964
+  },
+  {
+    "step": 332,
+    "loss": 0.0007977589266374707,
+    "sigma": 2.5777777777777793,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02443351410329342
+  },
+  {
+    "step": 333,
+    "loss": 0.00035269412910565734,
+    "sigma": 2.488888888888887,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0037702498957514763
+  },
+  {
+    "step": 334,
+    "loss": 0.0004276359104551375,
+    "sigma": 2.3999999999999986,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006549867335706949
+  },
+  {
+    "step": 335,
+    "loss": 0.0003610370331443846,
+    "sigma": 2.31111111111111,
+    "density_gradient": 0.0,
+    "full_gradient": 0.005621928256005049
+  },
+  {
+    "step": 336,
+    "loss": 0.0004136757052037865,
+    "sigma": 2.2222222222222214,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006764685735106468
+  },
+  {
+    "step": 337,
+    "loss": 0.0006272110622376204,
+    "sigma": 2.133333333333333,
+    "density_gradient": 0.0,
+    "full_gradient": 0.012958998791873455
+  },
+  {
+    "step": 338,
+    "loss": 0.0005375811015255749,
+    "sigma": 2.0444444444444443,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01344747468829155
+  },
+  {
+    "step": 339,
+    "loss": 0.0006308129522949457,
+    "sigma": 1.9555555555555557,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01263438817113638
+  },
+  {
+    "step": 340,
+    "loss": 0.0009576266165822744,
+    "sigma": 1.8666666666666671,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0198294036090374
+  },
+  {
+    "step": 341,
+    "loss": 0.003028367180377245,
+    "sigma": 1.7777777777777786,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07972721010446548
+  },
+  {
+    "step": 342,
+    "loss": 0.0011632333043962717,
+    "sigma": 1.68888888888889,
+    "density_gradient": 0.0,
+    "full_gradient": 0.013433407992124557
+  },
+  {
+    "step": 343,
+    "loss": 0.0010302066802978516,
+    "sigma": 1.6000000000000014,
+    "density_gradient": 0.0,
+    "full_gradient": 0.012605722062289715
+  },
+  {
+    "step": 344,
+    "loss": 0.0010061402572318912,
+    "sigma": 1.5111111111111128,
+    "density_gradient": 0.0,
+    "full_gradient": 0.018995406106114388
+  },
+  {
+    "step": 345,
+    "loss": 0.00037684550625272095,
+    "sigma": 1.4222222222222207,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004288269206881523
+  },
+  {
+    "step": 346,
+    "loss": 0.00199155043810606,
+    "sigma": 1.3333333333333321,
+    "density_gradient": 0.0,
+    "full_gradient": 0.020973820239305496
+  },
+  {
+    "step": 347,
+    "loss": 0.0017273073317483068,
+    "sigma": 1.2444444444444436,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02050178311765194
+  },
+  {
+    "step": 348,
+    "loss": 0.0006999355973675847,
+    "sigma": 1.155555555555555,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007535540498793125
+  },
+  {
+    "step": 349,
+    "loss": 0.017624638974666595,
+    "sigma": 1.0666666666666664,
+    "density_gradient": 0.0,
+    "full_gradient": 0.5120096206665039
+  },
+  {
+    "step": 350,
+    "loss": 0.005378182977437973,
+    "sigma": 0.9777777777777779,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1440276801586151
+  },
+  {
+    "step": 351,
+    "loss": 0.0047133867628872395,
+    "sigma": 0.8888888888888893,
+    "density_gradient": 0.0,
+    "full_gradient": 0.15636686980724335
+  },
+  {
+    "step": 352,
+    "loss": 0.00399036705493927,
+    "sigma": 0.8000000000000007,
+    "density_gradient": 0.0,
+    "full_gradient": 0.13403455913066864
+  },
+  {
+    "step": 353,
+    "loss": 0.004960403777658939,
+    "sigma": 0.7111111111111121,
+    "density_gradient": 0.0,
+    "full_gradient": 0.143182635307312
+  },
+  {
+    "step": 354,
+    "loss": 0.0039195287972688675,
+    "sigma": 0.6222222222222236,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03792934492230415
+  },
+  {
+    "step": 355,
+    "loss": 0.009204640984535217,
+    "sigma": 0.533333333333335,
+    "density_gradient": 0.0,
+    "full_gradient": 0.21684905886650085
+  },
+  {
+    "step": 356,
+    "loss": 0.017242738977074623,
+    "sigma": 0.44444444444444287,
+    "density_gradient": 0.0,
+    "full_gradient": 0.500194251537323
+  },
+  {
+    "step": 357,
+    "loss": 0.1173950657248497,
+    "sigma": 0.3555555555555543,
+    "density_gradient": 0.0,
+    "full_gradient": 0.9000436067581177
+  },
+  {
+    "step": 358,
+    "loss": 0.07199731469154358,
+    "sigma": 0.2666666666666657,
+    "density_gradient": 0.0,
+    "full_gradient": 0.9179010391235352
+  },
+  {
+    "step": 359,
+    "loss": 0.15990346670150757,
+    "sigma": 0.17777777777777715,
+    "density_gradient": 0.0,
+    "full_gradient": 3.6227121353149414
+  },
+  {
+    "step": 360,
+    "loss": 0.16375908255577087,
+    "sigma": 0.08888888888888857,
+    "density_gradient": 0.0,
+    "full_gradient": 2.1617038249969482
+  },
+  {
+    "step": 361,
+    "loss": 0.01937038078904152,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.23966115713119507
+  },
+  {
+    "step": 362,
+    "loss": 0.07181712985038757,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.498274803161621
+  },
+  {
+    "step": 363,
+    "loss": 0.017695026472210884,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2600706219673157
+  },
+  {
+    "step": 364,
+    "loss": 0.026338327676057816,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.6545055508613586
+  },
+  {
+    "step": 365,
+    "loss": 0.022824371233582497,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.5750110149383545
+  },
+  {
+    "step": 366,
+    "loss": 0.016815215349197388,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.42820245027542114
+  },
+  {
+    "step": 367,
+    "loss": 0.013805177994072437,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3392603099346161
+  },
+  {
+    "step": 368,
+    "loss": 0.023129675537347794,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.6964361071586609
+  },
+  {
+    "step": 369,
+    "loss": 0.038928158581256866,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.0507060289382935
+  },
+  {
+    "step": 370,
+    "loss": 0.08112505078315735,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.9936000108718872
+  },
+  {
+    "step": 371,
+    "loss": 0.03956582024693489,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.3378021717071533
+  },
+  {
+    "step": 372,
+    "loss": 0.055591098964214325,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.6024341583251953
+  },
+  {
+    "step": 373,
+    "loss": 0.06644854694604874,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.998031735420227
+  },
+  {
+    "step": 374,
+    "loss": 0.02390437386929989,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.7108613848686218
+  },
+  {
+    "step": 375,
+    "loss": 0.005961108487099409,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.19093042612075806
+  },
+  {
+    "step": 376,
+    "loss": 0.07975303381681442,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.7416242361068726
+  },
+  {
+    "step": 377,
+    "loss": 0.0008401601808145642,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.008296720683574677
+  },
+  {
+    "step": 378,
+    "loss": 0.007328256964683533,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.24379433691501617
+  },
+  {
+    "step": 379,
+    "loss": 0.09153318405151367,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.643696665763855
+  },
+  {
+    "step": 380,
+    "loss": 0.015369596891105175,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.43586939573287964
+  },
+  {
+    "step": 381,
+    "loss": 0.017052877694368362,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.30040985345840454
+  },
+  {
+    "step": 382,
+    "loss": 0.03834627568721771,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.172696828842163
+  },
+  {
+    "step": 383,
+    "loss": 0.07453858107328415,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.9140565395355225
+  },
+  {
+    "step": 384,
+    "loss": 0.020547542721033096,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.6549015045166016
+  },
+  {
+    "step": 385,
+    "loss": 0.0023380222264677286,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.057707417756319046
+  },
+  {
+    "step": 386,
+    "loss": 0.008819078095257282,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09874540567398071
+  },
+  {
+    "step": 387,
+    "loss": 0.015834704041481018,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.4197591543197632
+  },
+  {
+    "step": 388,
+    "loss": 0.021495375782251358,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.5643601417541504
+  },
+  {
+    "step": 389,
+    "loss": 0.049211353063583374,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.0612293481826782
+  },
+  {
+    "step": 390,
+    "loss": 0.10395140945911407,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.217263102531433
+  },
+  {
+    "step": 391,
+    "loss": 0.01667139306664467,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.42953944206237793
+  },
+  {
+    "step": 392,
+    "loss": 0.03710221126675606,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3757163882255554
+  },
+  {
+    "step": 393,
+    "loss": 0.059718333184719086,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.9340581893920898
+  },
+  {
+    "step": 394,
+    "loss": 0.04290646314620972,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.4250094890594482
+  },
+  {
+    "step": 395,
+    "loss": 0.005912594962865114,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.21822161972522736
+  },
+  {
+    "step": 396,
+    "loss": 0.014279776252806187,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.14310964941978455
+  },
+  {
+    "step": 397,
+    "loss": 0.010033661499619484,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.32494211196899414
+  },
+  {
+    "step": 398,
+    "loss": 0.11537150293588638,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.7842025756835938
+  },
+  {
+    "step": 399,
+    "loss": 0.036898884922266006,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.9626897573471069
+  },
+  {
+    "step": 400,
+    "loss": 0.0034108818508684635,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06191606447100639
+  },
+  {
+    "step": 401,
+    "loss": 0.05421701818704605,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.65882807970047
+  },
+  {
+    "step": 402,
+    "loss": 0.060356833040714264,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.5203860998153687
+  },
+  {
+    "step": 403,
+    "loss": 0.023422706872224808,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.4195479154586792
+  },
+  {
+    "step": 404,
+    "loss": 0.043957170099020004,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.7113405466079712
+  },
+  {
+    "step": 405,
+    "loss": 0.02586066722869873,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.31969961524009705
+  },
+  {
+    "step": 406,
+    "loss": 0.011988488957285881,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.4364631474018097
+  },
+  {
+    "step": 407,
+    "loss": 0.007562717422842979,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.27085500955581665
+  },
+  {
+    "step": 408,
+    "loss": 0.003776381490752101,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10338499397039413
+  },
+  {
+    "step": 409,
+    "loss": 0.005357440561056137,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.20260363817214966
+  },
+  {
+    "step": 410,
+    "loss": 0.005070055834949017,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09457854926586151
+  },
+  {
+    "step": 411,
+    "loss": 0.012728927657008171,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.44362106919288635
+  },
+  {
+    "step": 412,
+    "loss": 0.0006266117561608553,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.006731811910867691
+  },
+  {
+    "step": 413,
+    "loss": 0.0024863719008862972,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08672790974378586
+  },
+  {
+    "step": 414,
+    "loss": 0.0033190068788826466,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09457985311746597
+  },
+  {
+    "step": 415,
+    "loss": 0.007386952638626099,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.24514105916023254
+  },
+  {
+    "step": 416,
+    "loss": 0.011969391256570816,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3846759796142578
+  },
+  {
+    "step": 417,
+    "loss": 0.026905009523034096,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.035111665725708
+  },
+  {
+    "step": 418,
+    "loss": 0.002904034685343504,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09252195805311203
+  },
+  {
+    "step": 419,
+    "loss": 0.054423246532678604,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.2455673217773438
+  },
+  {
+    "step": 420,
+    "loss": 0.0004762457392644137,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01239507831633091
+  },
+  {
+    "step": 421,
+    "loss": 0.0025659585371613503,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07668894529342651
+  },
+  {
+    "step": 422,
+    "loss": 0.0016021216288208961,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04526013880968094
+  },
+  {
+    "step": 423,
+    "loss": 0.001719901105388999,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.019997822120785713
+  },
+  {
+    "step": 424,
+    "loss": 0.022210843861103058,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.7227329611778259
+  },
+  {
+    "step": 425,
+    "loss": 0.012892273254692554,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.47777825593948364
+  },
+  {
+    "step": 426,
+    "loss": 0.03703649714589119,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.6455411911010742
+  },
+  {
+    "step": 427,
+    "loss": 0.025246290490031242,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.429175466299057
+  },
+  {
+    "step": 428,
+    "loss": 0.007289821747690439,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.19254498183727264
+  },
+  {
+    "step": 429,
+    "loss": 0.003535766154527664,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.11826203018426895
+  },
+  {
+    "step": 430,
+    "loss": 0.002409766661003232,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08696234226226807
+  },
+  {
+    "step": 431,
+    "loss": 0.010648352093994617,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1477542519569397
+  },
+  {
+    "step": 432,
+    "loss": 0.013294657692313194,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.22285029292106628
+  },
+  {
+    "step": 433,
+    "loss": 0.002424209611490369,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08171902596950531
+  },
+  {
+    "step": 434,
+    "loss": 0.0098204854875803,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.35495153069496155
+  },
+  {
+    "step": 435,
+    "loss": 0.003955264110118151,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.14514048397541046
+  },
+  {
+    "step": 436,
+    "loss": 0.001960952300578356,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0649590864777565
+  },
+  {
+    "step": 437,
+    "loss": 0.004454250447452068,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10529891401529312
+  },
+  {
+    "step": 438,
+    "loss": 0.002086177235469222,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.059266600757837296
+  },
+  {
+    "step": 439,
+    "loss": 0.012303118593990803,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3417206108570099
+  },
+  {
+    "step": 440,
+    "loss": 0.0009487973293289542,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.01747339963912964
+  },
+  {
+    "step": 441,
+    "loss": 0.0034439454320818186,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02696768194437027
+  },
+  {
+    "step": 442,
+    "loss": 0.002248537726700306,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05627050995826721
+  },
+  {
+    "step": 443,
+    "loss": 0.018852146342396736,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.6405960917472839
+  },
+  {
+    "step": 444,
+    "loss": 0.007129190489649773,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.24103879928588867
+  },
+  {
+    "step": 445,
+    "loss": 0.004565238021314144,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10711067914962769
+  },
+  {
+    "step": 446,
+    "loss": 0.0019689109176397324,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04976540058851242
+  },
+  {
+    "step": 447,
+    "loss": 0.002610375639051199,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06504812091588974
+  },
+  {
+    "step": 448,
+    "loss": 0.00743977352976799,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.14340528845787048
+  },
+  {
+    "step": 449,
+    "loss": 0.005878284573554993,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07373964041471481
+  },
+  {
+    "step": 450,
+    "loss": 0.006184058729559183,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.25943025946617126
+  },
+  {
+    "step": 451,
+    "loss": 0.004354976117610931,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.13372217118740082
+  },
+  {
+    "step": 452,
+    "loss": 0.0097988061606884,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.38731810450553894
+  },
+  {
+    "step": 453,
+    "loss": 0.010449082590639591,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.35134515166282654
+  },
+  {
+    "step": 454,
+    "loss": 0.004330202005803585,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.17933550477027893
+  },
+  {
+    "step": 455,
+    "loss": 0.0047555891796946526,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05425480008125305
+  },
+  {
+    "step": 456,
+    "loss": 0.03495003655552864,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.9940004348754883
+  },
+  {
+    "step": 457,
+    "loss": 0.005451531149446964,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.14410993456840515
+  },
+  {
+    "step": 458,
+    "loss": 0.0014412481104955077,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.053325824439525604
+  },
+  {
+    "step": 459,
+    "loss": 0.002486635698005557,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08338584750890732
+  },
+  {
+    "step": 460,
+    "loss": 0.0033962491434067488,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.12498078495264053
+  },
+  {
+    "step": 461,
+    "loss": 0.0032269468065351248,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.12418705970048904
+  },
+  {
+    "step": 462,
+    "loss": 0.0017018476501107216,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.055807653814554214
+  },
+  {
+    "step": 463,
+    "loss": 0.0442107729613781,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.1428024768829346
+  },
+  {
+    "step": 464,
+    "loss": 0.011667465791106224,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3459671437740326
+  },
+  {
+    "step": 465,
+    "loss": 0.006361095700412989,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.21090921759605408
+  },
+  {
+    "step": 466,
+    "loss": 0.0063702501356601715,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2654125690460205
+  },
+  {
+    "step": 467,
+    "loss": 0.007664102129638195,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.28669273853302
+  },
+  {
+    "step": 468,
+    "loss": 0.013486422598361969,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.4478084444999695
+  },
+  {
+    "step": 469,
+    "loss": 0.014170561917126179,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.5308933258056641
+  },
+  {
+    "step": 470,
+    "loss": 0.009723610244691372,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3633911907672882
+  },
+  {
+    "step": 471,
+    "loss": 0.0049051279202103615,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.19351699948310852
+  },
+  {
+    "step": 472,
+    "loss": 0.002851447556167841,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03839029371738434
+  },
+  {
+    "step": 473,
+    "loss": 0.0064401584677398205,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.22018635272979736
+  },
+  {
+    "step": 474,
+    "loss": 0.02740819938480854,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.8111645579338074
+  },
+  {
+    "step": 475,
+    "loss": 0.000583272660151124,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.017572782933712006
+  },
+  {
+    "step": 476,
+    "loss": 0.0018256899202242494,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.025329668074846268
+  },
+  {
+    "step": 477,
+    "loss": 0.0023654852993786335,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.041139278560876846
+  },
+  {
+    "step": 478,
+    "loss": 0.0006388535257428885,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.020373063161969185
+  },
+  {
+    "step": 479,
+    "loss": 0.07648701965808868,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.5004000663757324
+  },
+  {
+    "step": 480,
+    "loss": 0.002823281567543745,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0969342440366745
+  },
+  {
+    "step": 481,
+    "loss": 0.014631915837526321,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.30832600593566895
+  },
+  {
+    "step": 482,
+    "loss": 0.004804694093763828,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1760573387145996
+  },
+  {
+    "step": 483,
+    "loss": 0.009099708870053291,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.15284989774227142
+  },
+  {
+    "step": 484,
+    "loss": 0.004334906116127968,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.16723982989788055
+  },
+  {
+    "step": 485,
+    "loss": 0.01747685857117176,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.38310956954956055
+  },
+  {
+    "step": 486,
+    "loss": 0.007358303293585777,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3290335536003113
+  },
+  {
+    "step": 487,
+    "loss": 0.013754396699368954,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2483176738023758
+  },
+  {
+    "step": 488,
+    "loss": 0.0033156455028802156,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.13361647725105286
+  },
+  {
+    "step": 489,
+    "loss": 0.009099860675632954,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3604606091976166
+  },
+  {
+    "step": 490,
+    "loss": 0.003934086300432682,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08753012865781784
+  },
+  {
+    "step": 491,
+    "loss": 0.0014270793180912733,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.040915198624134064
+  },
+  {
+    "step": 492,
+    "loss": 0.0014998536789789796,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.055518265813589096
+  },
+  {
+    "step": 493,
+    "loss": 0.002198069356381893,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04456552490592003
+  },
+  {
+    "step": 494,
+    "loss": 0.0017586862668395042,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06587111204862595
+  },
+  {
+    "step": 495,
+    "loss": 0.0004254553932696581,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.008669964969158173
+  },
+  {
+    "step": 496,
+    "loss": 0.001231867354363203,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.021708572283387184
+  },
+  {
+    "step": 497,
+    "loss": 0.0009397379471920431,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.010100371204316616
+  },
+  {
+    "step": 498,
+    "loss": 0.034827835857868195,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.2808942794799805
+  },
+  {
+    "step": 499,
+    "loss": 0.029852624982595444,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.96519935131073
+  },
+  {
+    "step": 500,
+    "loss": 0.00528330821543932,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.11529430001974106
+  },
+  {
+    "step": 501,
+    "loss": 0.0019571753218770027,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07703889161348343
+  },
+  {
+    "step": 502,
+    "loss": 0.006671609356999397,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2446671575307846
+  },
+  {
+    "step": 503,
+    "loss": 0.003308432176709175,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1295062005519867
+  },
+  {
+    "step": 504,
+    "loss": 0.00691563356667757,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2762700021266937
+  },
+  {
+    "step": 505,
+    "loss": 0.012443887069821358,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.5282759070396423
+  },
+  {
+    "step": 506,
+    "loss": 0.00447217607870698,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.17974956333637238
+  },
+  {
+    "step": 507,
+    "loss": 0.0034741531126201153,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.14643917977809906
+  },
+  {
+    "step": 508,
+    "loss": 0.002217561239376664,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09640062600374222
+  },
+  {
+    "step": 509,
+    "loss": 0.0011121730785816908,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03466538339853287
+  },
+  {
+    "step": 510,
+    "loss": 0.003038040827959776,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03208160772919655
+  },
+  {
+    "step": 511,
+    "loss": 0.0023096606601029634,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03524542599916458
+  },
+  {
+    "step": 512,
+    "loss": 0.02523493394255638,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.9678834080696106
+  },
+  {
+    "step": 513,
+    "loss": 0.0015454278327524662,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.0382964052259922
+  },
+  {
+    "step": 514,
+    "loss": 0.0018436405807733536,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07859472930431366
+  },
+  {
+    "step": 515,
+    "loss": 0.0011348462430760264,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02509932406246662
+  },
+  {
+    "step": 516,
+    "loss": 0.0006772309425286949,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.027976876124739647
+  },
+  {
+    "step": 517,
+    "loss": 0.003199627622961998,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.13248567283153534
+  },
+  {
+    "step": 518,
+    "loss": 0.001074602478183806,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04936196282505989
+  },
+  {
+    "step": 519,
+    "loss": 0.0037964170332998037,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1743994802236557
+  },
+  {
+    "step": 520,
+    "loss": 0.002452652435749769,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10214445739984512
+  },
+  {
+    "step": 521,
+    "loss": 0.004033653996884823,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.087897390127182
+  },
+  {
+    "step": 522,
+    "loss": 0.013302822597324848,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3019096851348877
+  },
+  {
+    "step": 523,
+    "loss": 0.0090179443359375,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.31183913350105286
+  },
+  {
+    "step": 524,
+    "loss": 0.0009126141085289419,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03661128506064415
+  },
+  {
+    "step": 525,
+    "loss": 0.0016414488200098276,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05473480373620987
+  },
+  {
+    "step": 526,
+    "loss": 0.0016312586376443505,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04045620188117027
+  },
+  {
+    "step": 527,
+    "loss": 0.001610520645044744,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05543907731771469
+  },
+  {
+    "step": 528,
+    "loss": 0.022789692506194115,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.8026694655418396
+  },
+  {
+    "step": 529,
+    "loss": 0.0015148732345551252,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.039716772735118866
+  },
+  {
+    "step": 530,
+    "loss": 0.0034782858565449715,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.030717331916093826
+  },
+  {
+    "step": 531,
+    "loss": 0.000833488826174289,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.017817825078964233
+  },
+  {
+    "step": 532,
+    "loss": 0.005826128181070089,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.22753237187862396
+  },
+  {
+    "step": 533,
+    "loss": 0.00464820209890604,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.18512138724327087
+  },
+  {
+    "step": 534,
+    "loss": 0.0031915309373289347,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.14194203913211823
+  },
+  {
+    "step": 535,
+    "loss": 0.006610711105167866,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.24279442429542542
+  },
+  {
+    "step": 536,
+    "loss": 0.003162848763167858,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.12265100330114365
+  },
+  {
+    "step": 537,
+    "loss": 0.003744735848158598,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.11541645973920822
+  },
+  {
+    "step": 538,
+    "loss": 0.0037941576447337866,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.11706556379795074
+  },
+  {
+    "step": 539,
+    "loss": 0.0038540116511285305,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.14130046963691711
+  },
+  {
+    "step": 540,
+    "loss": 0.0015107666840776801,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.036241546273231506
+  },
+  {
+    "step": 541,
+    "loss": 0.0382399708032608,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.1053756475448608
+  },
+  {
+    "step": 542,
+    "loss": 0.0007576730567961931,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.016369694843888283
+  },
+  {
+    "step": 543,
+    "loss": 0.001132130972109735,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.041345417499542236
+  },
+  {
+    "step": 544,
+    "loss": 0.0004561397072393447,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.010053642094135284
+  },
+  {
+    "step": 545,
+    "loss": 0.0024322723038494587,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.10195406526327133
+  },
+  {
+    "step": 546,
+    "loss": 0.000534944876562804,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.020768433809280396
+  },
+  {
+    "step": 547,
+    "loss": 0.0023770779371261597,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1062341257929802
+  },
+  {
+    "step": 548,
+    "loss": 0.00210536178201437,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.022118033841252327
+  },
+  {
+    "step": 549,
+    "loss": 0.0013625726569443941,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.057889945805072784
+  },
+  {
+    "step": 550,
+    "loss": 0.0033229547552764416,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.1535673588514328
+  },
+  {
+    "step": 551,
+    "loss": 0.0027930825017392635,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.12917591631412506
+  },
+  {
+    "step": 552,
+    "loss": 0.06925872713327408,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.3902595043182373
+  },
+  {
+    "step": 553,
+    "loss": 0.016528213396668434,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.7208770513534546
+  },
+  {
+    "step": 554,
+    "loss": 0.007497226353734732,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.339690625667572
+  },
+  {
+    "step": 555,
+    "loss": 0.0017292550764977932,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.08272748440504074
+  },
+  {
+    "step": 556,
+    "loss": 0.0027231916319578886,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09160330146551132
+  },
+  {
+    "step": 557,
+    "loss": 0.0018545044586062431,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09029307961463928
+  },
+  {
+    "step": 558,
+    "loss": 0.0006652564043179154,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.029528550803661346
+  },
+  {
+    "step": 559,
+    "loss": 0.01399215403944254,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.4351332485675812
+  },
+  {
+    "step": 560,
+    "loss": 0.0022675185464322567,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.11509036272764206
+  },
+  {
+    "step": 561,
+    "loss": 0.001358186942525208,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06355443596839905
+  },
+  {
+    "step": 562,
+    "loss": 0.0014236040879040956,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06426071375608444
+  },
+  {
+    "step": 563,
+    "loss": 0.0014763197395950556,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.07263156026601791
+  },
+  {
+    "step": 564,
+    "loss": 0.008148619905114174,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2872318625450134
+  },
+  {
+    "step": 565,
+    "loss": 0.008000948466360569,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.29463401436805725
+  },
+  {
+    "step": 566,
+    "loss": 0.0010566629935055971,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.04230057820677757
+  },
+  {
+    "step": 567,
+    "loss": 0.0012178969336673617,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.056135378777980804
+  },
+  {
+    "step": 568,
+    "loss": 0.008938570506870747,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.3878001570701599
+  },
+  {
+    "step": 569,
+    "loss": 0.0016143076354637742,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.035784389823675156
+  },
+  {
+    "step": 570,
+    "loss": 0.0006169306579977274,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.02750510908663273
+  },
+  {
+    "step": 571,
+    "loss": 0.0013016221346333623,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03775421157479286
+  },
+  {
+    "step": 572,
+    "loss": 0.0003591075073927641,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.012417404912412167
+  },
+  {
+    "step": 573,
+    "loss": 0.002643158659338951,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.12685085833072662
+  },
+  {
+    "step": 574,
+    "loss": 0.0018984160851687193,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03198019415140152
+  },
+  {
+    "step": 575,
+    "loss": 0.0007932413718663156,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.023453058674931526
+  },
+  {
+    "step": 576,
+    "loss": 0.0007392714614979923,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.030519718304276466
+  },
+  {
+    "step": 577,
+    "loss": 0.0004405760846566409,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.010570424608886242
+  },
+  {
+    "step": 578,
+    "loss": 0.00028678402304649353,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.011191177181899548
+  },
+  {
+    "step": 579,
+    "loss": 0.0018203116487711668,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.05734805762767792
+  },
+  {
+    "step": 580,
+    "loss": 0.00023299937311094254,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.004937202204018831
+  },
+  {
+    "step": 581,
+    "loss": 0.00019398344738874584,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.007849951274693012
+  },
+  {
+    "step": 582,
+    "loss": 0.005152061115950346,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.2179713398218155
+  },
+  {
+    "step": 583,
+    "loss": 0.0007640545954927802,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.020115673542022705
+  },
+  {
+    "step": 584,
+    "loss": 0.0015733075561001897,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06582602113485336
+  },
+  {
+    "step": 585,
+    "loss": 0.0004595014324877411,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.011402568779885769
+  },
+  {
+    "step": 586,
+    "loss": 0.1379678100347519,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 1.5741426944732666
+  },
+  {
+    "step": 587,
+    "loss": 0.0012697945348918438,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.029179230332374573
+  },
+  {
+    "step": 588,
+    "loss": 0.0029069683514535427,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09870970249176025
+  },
+  {
+    "step": 589,
+    "loss": 0.001661227666772902,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.06243681535124779
+  },
+  {
+    "step": 590,
+    "loss": 0.0030686811078339815,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.13643178343772888
+  },
+  {
+    "step": 591,
+    "loss": 0.005591054446995258,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.24157504737377167
+  },
+  {
+    "step": 592,
+    "loss": 0.015975000336766243,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.6658424139022827
+  },
+  {
+    "step": 593,
+    "loss": 0.01422964408993721,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.6130847334861755
+  },
+  {
+    "step": 594,
+    "loss": 0.003974393475800753,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.16063766181468964
+  },
+  {
+    "step": 595,
+    "loss": 0.0131610706448555,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.5918538570404053
+  },
+  {
+    "step": 596,
+    "loss": 0.0007967248093336821,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.028692081570625305
+  },
+  {
+    "step": 597,
+    "loss": 0.0007836221484467387,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.03146925941109657
+  },
+  {
+    "step": 598,
+    "loss": 9.121999755734578e-05,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.003082463750615716
+  },
+  {
+    "step": 599,
+    "loss": 0.0022226625587791204,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.09482304006814957
+  },
+  {
+    "step": 600,
+    "loss": 0.008128579705953598,
+    "sigma": 0.0,
+    "density_gradient": 0.0,
+    "full_gradient": 0.31398895382881165
+  }
+]

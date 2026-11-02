@@ -1,0 +1,19 @@
+{
+  "command": "OMP_NUM_THREADS=4 python -m unittest -v test_model.py test_phase2.py",
+  "passed_tests": 16,
+  "checks": [
+    "逆 CDF 与插值有限差分梯度",
+    "多类别 QA 到密度梯度",
+    "各类别严格平衡",
+    "同信号配对查询",
+    "标签反事实保持位置、幅值和强干扰",
+    "无噪声全局数值分布一致",
+    "事件窗口非重叠",
+    "强干扰幅值高于目标",
+    "Signal-Only 隔离坐标",
+    "Query Blind 网格不变",
+    "已知网格的选择性指标",
+    "主模型忽略 Oracle 元数据"
+  ],
+  "phase1_preservation": "原有模型与训练默认兼容；第一阶段实验目录不覆盖"
+}

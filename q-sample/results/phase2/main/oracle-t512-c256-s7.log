@@ -1,0 +1,5 @@
+{"run": "oracle-t512-c256-s7", "step": 1, "loss": 0.6938036680221558, "sigma": 32.0, "density_gradient": 0.0, "full_gradient": 0.0335458479821682, "seconds": 0.0}
+{"run": "oracle-t512-c256-s7", "step": 200, "loss": 0.0010007568635046482, "sigma": 14.31111111111111, "density_gradient": 0.0, "full_gradient": 0.01629873737692833, "seconds": 2.2}
+{"run": "oracle-t512-c256-s7", "step": 400, "loss": 0.003834810107946396, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.1300349235534668, "seconds": 4.3}
+{"run": "oracle-t512-c256-s7", "step": 600, "loss": 0.0005330269923433661, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.0277973935008049, "seconds": 6.3}
+{"completed": "oracle-t512-c256-s7", "metrics": {"none": {"accuracy": 1.0, "target_hit": 1.0, "query_selectivity": 1.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.998046875, "target_hit": 1.0, "query_selectivity": 1.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 1.0, "target_hit": 1.0, "query_selectivity": 1.0, "zero_signal_accuracy": 0.5}}}

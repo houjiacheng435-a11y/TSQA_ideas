@@ -1,0 +1,457 @@
+{
+  "common": {
+    "width": 48,
+    "length": 100000,
+    "event_width": 1024,
+    "noise": 0.06,
+    "steps": 600,
+    "batch_size": 8,
+    "eval_sequences": 128,
+    "eval_seed": 424242,
+    "train_seed_offset": 100000,
+    "sigma": 32.0,
+    "anneal_fraction": 0.6,
+    "lr": 0.001,
+    "log_every": 200,
+    "device": "cuda"
+  },
+  "runs": [
+    {
+      "method": "adaptive",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "query_blind",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "uniform",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "saliency",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "no_blur",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "oracle",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "adaptive",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "query_blind",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "uniform",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "saliency",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "no_blur",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "oracle",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "adaptive",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "query_blind",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "uniform",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "saliency",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "no_blur",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "oracle",
+      "tokens": 512,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "adaptive",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "query_blind",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "uniform",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "saliency",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "no_blur",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "oracle",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "adaptive",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "query_blind",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "uniform",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "saliency",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "no_blur",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "oracle",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "adaptive",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "query_blind",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "uniform",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "saliency",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "no_blur",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "oracle",
+      "tokens": 64,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "adaptive",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "query_blind",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "uniform",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "saliency",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "no_blur",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "oracle",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "adaptive",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "query_blind",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "uniform",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "saliency",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "no_blur",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "oracle",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "adaptive",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "query_blind",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "uniform",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "uniform_blur",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "saliency",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "no_blur",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "oracle",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "signal_time",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 7
+    },
+    {
+      "method": "signal_time",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 11
+    },
+    {
+      "method": "signal_time",
+      "tokens": 32,
+      "coarse": 256,
+      "seed": 23
+    },
+    {
+      "method": "adaptive",
+      "tokens": 32,
+      "coarse": 1024,
+      "seed": 7
+    },
+    {
+      "method": "adaptive",
+      "tokens": 32,
+      "coarse": 1024,
+      "seed": 11
+    },
+    {
+      "method": "adaptive",
+      "tokens": 32,
+      "coarse": 1024,
+      "seed": 23
+    }
+  ],
+  "source": {
+    "sha256": {
+      "model.py": "002ea5fb1ee1017cdd44f040091c2544e99de2952955f8b760a0da27a2a6c048",
+      "phase2_data.py": "3504f14e8e08b37c14995cc2523cfb487fb28fbc657e72a68fc4cb1fe1f16702",
+      "phase2_model.py": "126b37ee6ae0689233076d46250cab6029064d70c61711247553e7e969df8971",
+      "phase2_experiment.py": "5a6b212c51046acd1fac1bc853806b641c73f4132c76743e7eb1ee720a44a203"
+    },
+    "git_head": "d0918a9b4c2f5b2470c733130615ea42b7fb9dd7",
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.4"
+  },
+  "development": {
+    "seed": 101,
+    "eval_seed": 900001,
+    "change": "开发集将事件宽度 384 调整到 1024；完整测试集未用于选配置",
+    "failures_retained": [
+      "smoke-v1",
+      "smoke-longer",
+      "smoke-width1024"
+    ]
+  },
+  "selection": "所有配置固定最后一步；不根据完整测试结果调整数据或模型",
+  "auxiliary_loss": false
+}

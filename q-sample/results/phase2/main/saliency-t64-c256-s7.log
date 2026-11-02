@@ -1,0 +1,5 @@
+{"run": "saliency-t64-c256-s7", "step": 1, "loss": 0.6951755285263062, "sigma": 32.0, "density_gradient": 0.0, "full_gradient": 0.07638242840766907, "seconds": 0.0}
+{"run": "saliency-t64-c256-s7", "step": 200, "loss": 0.7025188207626343, "sigma": 14.31111111111111, "density_gradient": 0.0, "full_gradient": 0.24469637870788574, "seconds": 1.6}
+{"run": "saliency-t64-c256-s7", "step": 400, "loss": 0.660252571105957, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.2731793522834778, "seconds": 3.2}
+{"run": "saliency-t64-c256-s7", "step": 600, "loss": 0.6184234619140625, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.21897736191749573, "seconds": 4.7}
+{"completed": "saliency-t64-c256-s7", "metrics": {"none": {"accuracy": 0.599609375, "target_hit": 1.0, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.53515625, "target_hit": 1.0, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 0.5, "target_hit": 0.51171875, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}}}

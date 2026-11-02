@@ -1,0 +1,5 @@
+{"run": "uniform-t512-c256-s11", "step": 1, "loss": 0.6915990710258484, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.15401911735534668, "seconds": 0.0}
+{"run": "uniform-t512-c256-s11", "step": 200, "loss": 0.6899121999740601, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.057018522173166275, "seconds": 2.1}
+{"run": "uniform-t512-c256-s11", "step": 400, "loss": 0.6394526958465576, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.30801430344581604, "seconds": 4.2}
+{"run": "uniform-t512-c256-s11", "step": 600, "loss": 0.4996325373649597, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 1.9981603622436523, "seconds": 6.3}
+{"completed": "uniform-t512-c256-s11", "metrics": {"none": {"accuracy": 0.841796875, "target_hit": 1.0, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.828125, "target_hit": 1.0, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 0.802734375, "target_hit": 1.0, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}}}

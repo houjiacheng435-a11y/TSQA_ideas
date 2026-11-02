@@ -1,0 +1,158 @@
+{
+  "none": {
+    "loss": 0.46924132108688354,
+    "accuracy": 0.80859375,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.7890625,
+    "wrong_query_grid_accuracy": 0.779296875,
+    "shuffled_values_accuracy": 0.51171875,
+    "positive_recall": 0.6953125,
+    "removed_target_yes_rate": 0.01171875,
+    "target_hit": 1.0,
+    "target_four_points": 1.0,
+    "target_occupancy": 0.010223388671875,
+    "target_mass": 0.010259103399206992,
+    "distractor_occupancy": 0.03046417236328125,
+    "distractor_mass": 0.030770706221652233,
+    "extra_distractor_occupancy": 0.0,
+    "query_selectivity": 5.086232704343274e-06,
+    "query_mass_selectivity": -7.823752914266777e-06,
+    "all_queries_correct": 0.453125,
+    "paired_transfer": 4.834467821782178e-06,
+    "paired_transfer_direction": 0.024752475247524754,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 202,
+    "per_class_accuracy": [
+      0.7578125,
+      0.90625,
+      0.7890625,
+      0.78125
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "6275d9b63e869da49aef9bbbfc516d0e2919ba1efee25f172e808968fc5bcc4e"
+  },
+  "few": {
+    "loss": 0.5490685719996691,
+    "accuracy": 0.720703125,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.751953125,
+    "wrong_query_grid_accuracy": 0.71875,
+    "shuffled_values_accuracy": 0.498046875,
+    "positive_recall": 0.6640625,
+    "removed_target_yes_rate": 0.1875,
+    "target_hit": 1.0,
+    "target_four_points": 1.0,
+    "target_occupancy": 0.01025390625,
+    "target_mass": 0.010253144224414257,
+    "distractor_occupancy": 0.06620025634765625,
+    "distractor_mass": 0.06621160779521418,
+    "extra_distractor_occupancy": 0.0353240966796875,
+    "query_selectivity": 1.52587381307967e-05,
+    "query_mass_selectivity": -6.805533943794635e-06,
+    "all_queries_correct": 0.2578125,
+    "paired_transfer": 4.957170050761421e-06,
+    "paired_transfer_direction": 0.07106598984771574,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 197,
+    "per_class_accuracy": [
+      0.7109375,
+      0.7109375,
+      0.6796875,
+      0.78125
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "29e0f8bf631eba965bc2e430c6321d6b58642aba06b7113b3c8ad3d8fa0d9aa2"
+  },
+  "strong": {
+    "loss": 0.6531928181648254,
+    "accuracy": 0.642578125,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.62109375,
+    "wrong_query_grid_accuracy": 0.619140625,
+    "shuffled_values_accuracy": 0.498046875,
+    "positive_recall": 0.64453125,
+    "removed_target_yes_rate": 0.38671875,
+    "target_hit": 1.0,
+    "target_four_points": 1.0,
+    "target_occupancy": 0.01009368896484375,
+    "target_mass": 0.0101049672825404,
+    "distractor_occupancy": 0.19951629638671875,
+    "distractor_mass": 0.199755288347216,
+    "extra_distractor_occupancy": 0.16909027099609375,
+    "query_selectivity": -3.560401455615647e-05,
+    "query_mass_selectivity": -6.457801591844601e-06,
+    "all_queries_correct": 0.1875,
+    "paired_transfer": -0.0001252003205128205,
+    "paired_transfer_direction": 0.14871794871794872,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 195,
+    "per_class_accuracy": [
+      0.625,
+      0.4921875,
+      0.6484375,
+      0.8046875
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "c2abf7ad47fb19603968a85bf42b019ad61e07d44777bb1d428ebb0e3b4b41c7"
+  }
+}

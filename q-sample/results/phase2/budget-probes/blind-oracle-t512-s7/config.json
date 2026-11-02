@@ -1,0 +1,38 @@
+{
+  "tokens": 512,
+  "seeds": [
+    7,
+    11,
+    23
+  ],
+  "steps": 600,
+  "data": {
+    "length": 100000,
+    "event_width": 1024,
+    "noise": 0.06,
+    "target_amplitude_low": 0.8,
+    "target_amplitude_high": 1.2,
+    "classes": [
+      "positive_square",
+      "negative_square",
+      "oscillation",
+      "double_pulse"
+    ],
+    "version": "phase2-matched-histogram-v1"
+  },
+  "source": {
+    "sha256": {
+      "model.py": "002ea5fb1ee1017cdd44f040091c2544e99de2952955f8b760a0da27a2a6c048",
+      "phase2_data.py": "3504f14e8e08b37c14995cc2523cfb487fb28fbc657e72a68fc4cb1fe1f16702",
+      "phase2_model.py": "126b37ee6ae0689233076d46250cab6029064d70c61711247553e7e969df8971",
+      "phase2_experiment.py": "5a6b212c51046acd1fac1bc853806b641c73f4132c76743e7eb1ee720a44a203"
+    },
+    "git_head": "d0918a9b4c2f5b2470c733130615ea42b7fb9dd7",
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.4"
+  },
+  "script_sha256": "0549e8f2284ebf8401469344390a283ff8f3098d042c6177db928ccfdec81d1c",
+  "status": "查看主矩阵结果后增加的预算诊断；未修改数据、测试集或主模型",
+  "purpose": "验证查询盲的理想候选覆盖是否已足够，避免把少 Token 等同于信息瓶颈",
+  "seed": 7
+}

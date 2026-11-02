@@ -1,0 +1,158 @@
+{
+  "none": {
+    "loss": 0.692294180393219,
+    "accuracy": 0.5703125,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.5390625,
+    "wrong_query_grid_accuracy": 0.5703125,
+    "shuffled_values_accuracy": 0.546875,
+    "positive_recall": 0.265625,
+    "removed_target_yes_rate": 0.03125,
+    "target_hit": 1.0,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.00384521484375,
+    "target_mass": 0.0038011735526310986,
+    "distractor_occupancy": 0.01141357421875,
+    "distractor_mass": 0.011358959340583397,
+    "extra_distractor_occupancy": 0.0,
+    "query_selectivity": -2.0345054508652538e-05,
+    "query_mass_selectivity": 7.358563654711291e-07,
+    "all_queries_correct": 0.125,
+    "paired_transfer": -2.2194602272727273e-05,
+    "paired_transfer_direction": 0.0,
+    "examples": 128,
+    "sequences": 32,
+    "positive_examples": 64,
+    "paired_present_pairs": 44,
+    "per_class_accuracy": [
+      0.59375,
+      0.6875,
+      0.5,
+      0.5
+    ],
+    "class_label_counts": [
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "e62f746bb6e3aad41a8c8a46198ffb53cf043a246b58cdf2f2665e6f141f3173"
+  },
+  "few": {
+    "loss": 0.6938410103321075,
+    "accuracy": 0.46875,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.5,
+    "wrong_query_grid_accuracy": 0.4765625,
+    "shuffled_values_accuracy": 0.4453125,
+    "positive_recall": 0.609375,
+    "removed_target_yes_rate": 0.53125,
+    "target_hit": 1.0,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.003753662109375,
+    "target_mass": 0.003803496505838666,
+    "distractor_occupancy": 0.025146484375,
+    "distractor_mass": 0.025128951333869054,
+    "extra_distractor_occupancy": 0.013763427734375,
+    "query_selectivity": -6.103515988797881e-05,
+    "query_mass_selectivity": 5.157134239654093e-07,
+    "all_queries_correct": 0.0625,
+    "paired_transfer": 0.0,
+    "paired_transfer_direction": 0.06976744186046512,
+    "examples": 128,
+    "sequences": 32,
+    "positive_examples": 64,
+    "paired_present_pairs": 43,
+    "per_class_accuracy": [
+      0.5625,
+      0.46875,
+      0.4375,
+      0.40625
+    ],
+    "class_label_counts": [
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "092bf34e759788559c974d185ec46eab97b1f6ad51a99cbebb8c0e19bd217b25"
+  },
+  "strong": {
+    "loss": 0.6938474178314209,
+    "accuracy": 0.46875,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.5078125,
+    "wrong_query_grid_accuracy": 0.515625,
+    "shuffled_values_accuracy": 0.5,
+    "positive_recall": 0.59375,
+    "removed_target_yes_rate": 0.59375,
+    "target_hit": 1.0,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.003814697265625,
+    "target_mass": 0.0038369179858790403,
+    "distractor_occupancy": 0.068756103515625,
+    "distractor_mass": 0.06868447686012757,
+    "extra_distractor_occupancy": 0.05743408203125,
+    "query_selectivity": 5.086261808173731e-05,
+    "query_mass_selectivity": 5.6265117602236384e-08,
+    "all_queries_correct": 0.03125,
+    "paired_transfer": 2.5040064102564102e-05,
+    "paired_transfer_direction": 0.07692307692307693,
+    "examples": 128,
+    "sequences": 32,
+    "positive_examples": 64,
+    "paired_present_pairs": 39,
+    "per_class_accuracy": [
+      0.53125,
+      0.46875,
+      0.5,
+      0.375
+    ],
+    "class_label_counts": [
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "0847595de1099c74f07427ccf86f45c4ae8a0dca147992f143061a34f2e75759"
+  }
+}

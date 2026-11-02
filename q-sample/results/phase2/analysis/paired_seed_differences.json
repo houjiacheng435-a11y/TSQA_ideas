@@ -1,0 +1,407 @@
+[
+  {
+    "tokens": 512,
+    "difficulty": "none",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      -0.12109375,
+      -0.0078125,
+      -0.16796875
+    ],
+    "selectivity_difference": [
+      2.797418346744962e-05,
+      0.00013987211059429683,
+      0.0014114376608631574
+    ]
+  },
+  {
+    "tokens": 512,
+    "difficulty": "none",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      -0.22265625,
+      -0.03515625,
+      -0.228515625
+    ],
+    "selectivity_difference": [
+      2.797418346744962e-05,
+      0.00013987211059429683,
+      0.0014114376608631574
+    ]
+  },
+  {
+    "tokens": 512,
+    "difficulty": "none",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      -0.224609375,
+      -0.09375,
+      -0.287109375
+    ],
+    "selectivity_difference": [
+      2.797418346744962e-05,
+      0.00013987211059429683,
+      0.0014114376608631574
+    ]
+  },
+  {
+    "tokens": 512,
+    "difficulty": "few",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      -0.123046875,
+      0.044921875,
+      -0.169921875
+    ],
+    "selectivity_difference": [
+      -7.629623723914847e-06,
+      8.900944885681383e-05,
+      0.0013732906627410557
+    ]
+  },
+  {
+    "tokens": 512,
+    "difficulty": "few",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      -0.27734375,
+      -0.072265625,
+      -0.26171875
+    ],
+    "selectivity_difference": [
+      -7.629623723914847e-06,
+      8.900944885681383e-05,
+      0.0013732906627410557
+    ]
+  },
+  {
+    "tokens": 512,
+    "difficulty": "few",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      -0.1875,
+      -0.01953125,
+      -0.22265625
+    ],
+    "selectivity_difference": [
+      -7.629623723914847e-06,
+      8.900944885681383e-05,
+      0.0013732906627410557
+    ]
+  },
+  {
+    "tokens": 512,
+    "difficulty": "strong",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      0.01953125,
+      0.017578125,
+      0.048828125
+    ],
+    "selectivity_difference": [
+      0.00010172508154937532,
+      8.13800397736486e-05,
+      0.000719705874871579
+    ]
+  },
+  {
+    "tokens": 512,
+    "difficulty": "strong",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      -0.091796875,
+      -0.1796875,
+      -0.259765625
+    ],
+    "selectivity_difference": [
+      0.00010172508154937532,
+      8.13800397736486e-05,
+      0.000719705874871579
+    ]
+  },
+  {
+    "tokens": 512,
+    "difficulty": "strong",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      0.0,
+      0.1875,
+      0.056640625
+    ],
+    "selectivity_difference": [
+      0.00010172508154937532,
+      8.13800397736486e-05,
+      0.000719705874871579
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "none",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      -0.009765625,
+      -0.0078125,
+      -0.00390625
+    ],
+    "selectivity_difference": [
+      -0.0002848308358807117,
+      -0.00016276045062113553,
+      6.1035148974042386e-05
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "none",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      0.0,
+      0.001953125,
+      0.005859375
+    ],
+    "selectivity_difference": [
+      -0.0002848308358807117,
+      -0.00016276045062113553,
+      6.1035148974042386e-05
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "none",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      -0.099609375,
+      -0.138671875,
+      -0.12109375
+    ],
+    "selectivity_difference": [
+      -0.0002848308358807117,
+      -0.00016276045062113553,
+      6.1035148974042386e-05
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "few",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      0.0234375,
+      -0.017578125,
+      0.009765625
+    ],
+    "selectivity_difference": [
+      -0.0002441408378217602,
+      0.00044759109368897043,
+      -4.0690118112252094e-05
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "few",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      0.009765625,
+      -0.029296875,
+      0.015625
+    ],
+    "selectivity_difference": [
+      -0.0002441408378217602,
+      0.00044759109368897043,
+      -4.0690118112252094e-05
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "few",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      -0.029296875,
+      -0.060546875,
+      -0.046875
+    ],
+    "selectivity_difference": [
+      -0.0002441408378217602,
+      0.00044759109368897043,
+      -4.0690118112252094e-05
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "strong",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      -0.009765625,
+      0.04296875,
+      0.0
+    ],
+    "selectivity_difference": [
+      0.0,
+      -0.0004882813373114914,
+      -0.0004069012502441183
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "strong",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      0.0,
+      -0.0078125,
+      0.01171875
+    ],
+    "selectivity_difference": [
+      0.0,
+      -0.0004882813373114914,
+      -0.0004069012502441183
+    ]
+  },
+  {
+    "tokens": 64,
+    "difficulty": "strong",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      0.0,
+      0.046875,
+      0.001953125
+    ],
+    "selectivity_difference": [
+      0.0,
+      -0.0004882813373114914,
+      -0.0004069012502441183
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "none",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      0.0,
+      0.001953125,
+      0.0078125
+    ],
+    "selectivity_difference": [
+      -0.00036621096296585165,
+      0.00048828122089616954,
+      0.0
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "none",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      0.0,
+      -0.005859375,
+      0.00390625
+    ],
+    "selectivity_difference": [
+      -0.00036621096296585165,
+      0.00048828122089616954,
+      0.0
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "none",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      0.0,
+      -0.052734375,
+      -0.0078125
+    ],
+    "selectivity_difference": [
+      -0.00036621096296585165,
+      0.00048828122089616954,
+      0.0
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "few",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      0.009765625,
+      0.015625,
+      0.01171875
+    ],
+    "selectivity_difference": [
+      -0.00012207043255330063,
+      0.0001220702579303179,
+      0.0
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "few",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      0.001953125,
+      0.0234375,
+      0.001953125
+    ],
+    "selectivity_difference": [
+      -0.00012207043255330063,
+      0.0001220702579303179,
+      0.0
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "few",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      0.00390625,
+      -0.015625,
+      -0.0390625
+    ],
+    "selectivity_difference": [
+      -0.00012207043255330063,
+      0.0001220702579303179,
+      0.0
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "strong",
+    "baseline": "query_blind",
+    "accuracy_difference": [
+      0.009765625,
+      0.021484375,
+      0.029296875
+    ],
+    "selectivity_difference": [
+      0.00032552063566981815,
+      8.138013072311878e-05,
+      -2.1827872842550278e-11
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "strong",
+    "baseline": "uniform_blur",
+    "accuracy_difference": [
+      0.001953125,
+      0.021484375,
+      0.001953125
+    ],
+    "selectivity_difference": [
+      0.00032552063566981815,
+      8.138013072311878e-05,
+      -2.1827872842550278e-11
+    ]
+  },
+  {
+    "tokens": 32,
+    "difficulty": "strong",
+    "baseline": "saliency",
+    "accuracy_difference": [
+      -0.001953125,
+      0.01171875,
+      0.00390625
+    ],
+    "selectivity_difference": [
+      0.00032552063566981815,
+      8.138013072311878e-05,
+      -2.1827872842550278e-11
+    ]
+  }
+]

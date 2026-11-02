@@ -1,0 +1,182 @@
+[
+  {
+    "tokens": 32,
+    "query": 0,
+    "class": 0,
+    "sequence": 0,
+    "label": 0,
+    "probability": 0.5429480671882629,
+    "target_samples": 0,
+    "source": "main/adaptive-t32-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 32,
+    "query": 1,
+    "class": 1,
+    "sequence": 1,
+    "label": 0,
+    "probability": 0.5290418267250061,
+    "target_samples": 0,
+    "source": "main/adaptive-t32-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 32,
+    "query": 2,
+    "class": 2,
+    "sequence": 1,
+    "label": 0,
+    "probability": 0.5386340022087097,
+    "target_samples": 1,
+    "source": "main/adaptive-t32-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 32,
+    "query": 3,
+    "class": 3,
+    "sequence": 1,
+    "label": 0,
+    "probability": 0.534187376499176,
+    "target_samples": 1,
+    "source": "main/adaptive-t32-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 32,
+    "query": 2,
+    "class": 2,
+    "sequence": 2,
+    "label": 0,
+    "probability": 0.5316553711891174,
+    "target_samples": 0,
+    "source": "main/adaptive-t32-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 32,
+    "query": 1,
+    "class": 1,
+    "sequence": 3,
+    "label": 0,
+    "probability": 0.5244762301445007,
+    "target_samples": 1,
+    "source": "main/adaptive-t32-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 32,
+    "query": 2,
+    "class": 2,
+    "sequence": 3,
+    "label": 0,
+    "probability": 0.5295742154121399,
+    "target_samples": 0,
+    "source": "main/adaptive-t32-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 32,
+    "query": 3,
+    "class": 3,
+    "sequence": 3,
+    "label": 1,
+    "probability": 0.4986013174057007,
+    "target_samples": 0,
+    "source": "main/adaptive-t32-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 1,
+    "class": 1,
+    "sequence": 1,
+    "label": 0,
+    "probability": 0.5622072815895081,
+    "target_samples": 2,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 0,
+    "class": 0,
+    "sequence": 2,
+    "label": 1,
+    "probability": 0.48615115880966187,
+    "target_samples": 4,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 2,
+    "class": 2,
+    "sequence": 2,
+    "label": 0,
+    "probability": 0.5158954858779907,
+    "target_samples": 8,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 3,
+    "class": 3,
+    "sequence": 2,
+    "label": 1,
+    "probability": 0.49602535367012024,
+    "target_samples": 3,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 1,
+    "class": 1,
+    "sequence": 3,
+    "label": 0,
+    "probability": 0.5584418773651123,
+    "target_samples": 2,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 2,
+    "class": 2,
+    "sequence": 3,
+    "label": 0,
+    "probability": 0.5345089435577393,
+    "target_samples": 5,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 3,
+    "class": 3,
+    "sequence": 3,
+    "label": 1,
+    "probability": 0.48927727341651917,
+    "target_samples": 3,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 0,
+    "class": 0,
+    "sequence": 4,
+    "label": 0,
+    "probability": 0.5406567454338074,
+    "target_samples": 6,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 2,
+    "class": 2,
+    "sequence": 4,
+    "label": 1,
+    "probability": 0.4980052709579468,
+    "target_samples": 3,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  },
+  {
+    "tokens": 512,
+    "query": 3,
+    "class": 3,
+    "sequence": 4,
+    "label": 0,
+    "probability": 0.5392175316810608,
+    "target_samples": 3,
+    "source": "main/adaptive-t512-c256-s7/predictions.json"
+  }
+]

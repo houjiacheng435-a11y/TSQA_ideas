@@ -1,0 +1,49 @@
+{
+  "width": 48,
+  "length": 100000,
+  "event_width": 1024,
+  "noise": 0.06,
+  "steps": 600,
+  "batch_size": 8,
+  "eval_sequences": 128,
+  "eval_seed": 424242,
+  "train_seed_offset": 100000,
+  "sigma": 32.0,
+  "anneal_fraction": 0.6,
+  "lr": 0.001,
+  "log_every": 200,
+  "device": "cuda",
+  "method": "query_blind",
+  "tokens": 32,
+  "coarse": 256,
+  "seed": 7,
+  "output": "results/phase2/main",
+  "data": {
+    "length": 100000,
+    "event_width": 1024,
+    "noise": 0.06,
+    "target_amplitude_low": 0.8,
+    "target_amplitude_high": 1.2,
+    "classes": [
+      "positive_square",
+      "negative_square",
+      "oscillation",
+      "double_pulse"
+    ],
+    "version": "phase2-matched-histogram-v1"
+  },
+  "source": {
+    "sha256": {
+      "model.py": "002ea5fb1ee1017cdd44f040091c2544e99de2952955f8b760a0da27a2a6c048",
+      "phase2_data.py": "3504f14e8e08b37c14995cc2523cfb487fb28fbc657e72a68fc4cb1fe1f16702",
+      "phase2_model.py": "126b37ee6ae0689233076d46250cab6029064d70c61711247553e7e969df8971",
+      "phase2_experiment.py": "5a6b212c51046acd1fac1bc853806b641c73f4132c76743e7eb1ee720a44a203"
+    },
+    "git_head": "d0918a9b4c2f5b2470c733130615ea42b7fb9dd7",
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.4"
+  },
+  "supervision": "仅 QA BCE；Oracle 对照独立使用候选事件窗口，主模型不接收元数据",
+  "readout": "signal_only",
+  "gpu": "NVIDIA GeForce RTX 4090 D"
+}

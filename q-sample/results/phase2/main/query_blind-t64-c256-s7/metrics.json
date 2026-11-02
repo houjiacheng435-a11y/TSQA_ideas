@@ -1,0 +1,158 @@
+{
+  "none": {
+    "loss": 0.6930835023522377,
+    "accuracy": 0.509765625,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.501953125,
+    "wrong_query_grid_accuracy": 0.509765625,
+    "shuffled_values_accuracy": 0.51953125,
+    "positive_recall": 0.078125,
+    "removed_target_yes_rate": 0.06640625,
+    "target_hit": 0.69140625,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.01080322265625,
+    "target_mass": 0.010218882644686289,
+    "distractor_occupancy": 0.03192138671875,
+    "distractor_mass": 0.03084397426486163,
+    "extra_distractor_occupancy": 0.0,
+    "query_selectivity": 0.0,
+    "query_mass_selectivity": 0.0,
+    "all_queries_correct": 0.078125,
+    "paired_transfer": 0.0,
+    "paired_transfer_direction": 0.0,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 202,
+    "per_class_accuracy": [
+      0.5078125,
+      0.5078125,
+      0.4921875,
+      0.53125
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "6275d9b63e869da49aef9bbbfc516d0e2919ba1efee25f172e808968fc5bcc4e"
+  },
+  "few": {
+    "loss": 0.6932386681437492,
+    "accuracy": 0.482421875,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.50390625,
+    "wrong_query_grid_accuracy": 0.482421875,
+    "shuffled_values_accuracy": 0.494140625,
+    "positive_recall": 0.21484375,
+    "removed_target_yes_rate": 0.20703125,
+    "target_hit": 0.61328125,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.00958251953125,
+    "target_mass": 0.010219197494116372,
+    "distractor_occupancy": 0.0623779296875,
+    "distractor_mass": 0.06538472157636122,
+    "extra_distractor_occupancy": 0.03411865234375,
+    "query_selectivity": 0.0,
+    "query_mass_selectivity": 0.0,
+    "all_queries_correct": 0.0546875,
+    "paired_transfer": 0.0,
+    "paired_transfer_direction": 0.0,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 197,
+    "per_class_accuracy": [
+      0.484375,
+      0.5078125,
+      0.484375,
+      0.453125
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "29e0f8bf631eba965bc2e430c6321d6b58642aba06b7113b3c8ad3d8fa0d9aa2"
+  },
+  "strong": {
+    "loss": 0.6935341991484165,
+    "accuracy": 0.509765625,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.5,
+    "wrong_query_grid_accuracy": 0.509765625,
+    "shuffled_values_accuracy": 0.505859375,
+    "positive_recall": 0.984375,
+    "removed_target_yes_rate": 0.984375,
+    "target_hit": 0.71875,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.01123046875,
+    "target_mass": 0.011747379246708434,
+    "distractor_occupancy": 0.1370849609375,
+    "distractor_mass": 0.1402541133332278,
+    "extra_distractor_occupancy": 0.1019287109375,
+    "query_selectivity": 0.0,
+    "query_mass_selectivity": 0.0,
+    "all_queries_correct": 0.078125,
+    "paired_transfer": 0.0,
+    "paired_transfer_direction": 0.0,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 195,
+    "per_class_accuracy": [
+      0.5078125,
+      0.5,
+      0.5078125,
+      0.5234375
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "c2abf7ad47fb19603968a85bf42b019ad61e07d44777bb1d428ebb0e3b4b41c7"
+  }
+}

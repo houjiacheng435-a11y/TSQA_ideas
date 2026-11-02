@@ -1,0 +1,5 @@
+{"run": "uniform-t64-c256-s23", "step": 1, "loss": 0.6889917254447937, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.11895226687192917, "seconds": 0.0}
+{"run": "uniform-t64-c256-s23", "step": 200, "loss": 0.693266749382019, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.027364099398255348, "seconds": 2.1}
+{"run": "uniform-t64-c256-s23", "step": 400, "loss": 0.6981794834136963, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.07228655368089676, "seconds": 4.2}
+{"run": "uniform-t64-c256-s23", "step": 600, "loss": 0.6926470994949341, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.0138959726318717, "seconds": 6.3}
+{"completed": "uniform-t64-c256-s23", "metrics": {"none": {"accuracy": 0.490234375, "target_hit": 0.703125, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.49609375, "target_hit": 0.62109375, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 0.470703125, "target_hit": 0.63671875, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}}}

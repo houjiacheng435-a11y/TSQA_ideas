@@ -1,0 +1,5 @@
+{"run": "uniform-t64-c256-s7", "step": 1, "loss": 0.6936867237091064, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.058122895658016205, "seconds": 0.0}
+{"run": "uniform-t64-c256-s7", "step": 200, "loss": 0.6906377077102661, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.10148289799690247, "seconds": 2.1}
+{"run": "uniform-t64-c256-s7", "step": 400, "loss": 0.7004188299179077, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.07086117565631866, "seconds": 4.2}
+{"run": "uniform-t64-c256-s7", "step": 600, "loss": 0.6953907012939453, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.026537500321865082, "seconds": 6.2}
+{"completed": "uniform-t64-c256-s7", "metrics": {"none": {"accuracy": 0.5, "target_hit": 0.703125, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.494140625, "target_hit": 0.62109375, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 0.5, "target_hit": 0.63671875, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}}}

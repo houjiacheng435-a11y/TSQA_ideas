@@ -1,0 +1,158 @@
+{
+  "none": {
+    "loss": 0.6895066909492016,
+    "accuracy": 0.529296875,
+    "zero_signal_accuracy": 0.533203125,
+    "uniform_grid_accuracy": 0.5,
+    "wrong_query_grid_accuracy": 0.517578125,
+    "shuffled_values_accuracy": 0.53125,
+    "positive_recall": 0.875,
+    "removed_target_yes_rate": 0.87890625,
+    "target_hit": 0.3203125,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.010009765625,
+    "target_mass": 0.010269816687149103,
+    "distractor_occupancy": 0.0284423828125,
+    "distractor_mass": 0.02940910664332108,
+    "extra_distractor_occupancy": 0.0,
+    "query_selectivity": 0.00020345049051684327,
+    "query_mass_selectivity": 0.00014643489566286937,
+    "all_queries_correct": 0.09375,
+    "paired_transfer": 0.0004641089108910891,
+    "paired_transfer_direction": 0.039603960396039604,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 202,
+    "per_class_accuracy": [
+      0.5,
+      0.5078125,
+      0.5859375,
+      0.5234375
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "6275d9b63e869da49aef9bbbfc516d0e2919ba1efee25f172e808968fc5bcc4e"
+  },
+  "few": {
+    "loss": 0.6928094998002052,
+    "accuracy": 0.515625,
+    "zero_signal_accuracy": 0.51953125,
+    "uniform_grid_accuracy": 0.5,
+    "wrong_query_grid_accuracy": 0.4921875,
+    "shuffled_values_accuracy": 0.517578125,
+    "positive_recall": 0.44140625,
+    "removed_target_yes_rate": 0.4375,
+    "target_hit": 0.390625,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.01220703125,
+    "target_mass": 0.010270761835268871,
+    "distractor_occupancy": 0.0694580078125,
+    "distractor_mass": 0.06614542874016038,
+    "extra_distractor_occupancy": 0.0386962890625,
+    "query_selectivity": 0.000366210842912551,
+    "query_mass_selectivity": 0.00015237287282232666,
+    "all_queries_correct": 0.1171875,
+    "paired_transfer": 0.0007931472081218274,
+    "paired_transfer_direction": 0.08121827411167512,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 197,
+    "per_class_accuracy": [
+      0.515625,
+      0.53125,
+      0.5234375,
+      0.4921875
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "29e0f8bf631eba965bc2e430c6321d6b58642aba06b7113b3c8ad3d8fa0d9aa2"
+  },
+  "strong": {
+    "loss": 0.6936239376664162,
+    "accuracy": 0.5,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.5,
+    "wrong_query_grid_accuracy": 0.498046875,
+    "shuffled_values_accuracy": 0.5,
+    "positive_recall": 0.0,
+    "removed_target_yes_rate": 0.0,
+    "target_hit": 0.2421875,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.007568359375,
+    "target_mass": 0.007578942686205181,
+    "distractor_occupancy": 0.3568115234375,
+    "distractor_mass": 0.3527333135406794,
+    "extra_distractor_occupancy": 0.3328857421875,
+    "query_selectivity": -8.138049452099949e-05,
+    "query_mass_selectivity": 7.41256977621067e-05,
+    "all_queries_correct": 0.0703125,
+    "paired_transfer": -0.0014423076923076924,
+    "paired_transfer_direction": 0.1794871794871795,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 195,
+    "per_class_accuracy": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "c2abf7ad47fb19603968a85bf42b019ad61e07d44777bb1d428ebb0e3b4b41c7"
+  }
+}

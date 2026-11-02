@@ -1,0 +1,100 @@
+[
+  {
+    "group": "smoke-v1",
+    "run": "adaptive-t32-c1024-s101",
+    "width": 384,
+    "steps": 250,
+    "seed": 101,
+    "eval_seed": 900001,
+    "accuracy": {
+      "none": 0.5,
+      "few": 0.484375,
+      "strong": 0.4921875
+    },
+    "source": "smoke-v1/adaptive-t32-c1024-s101/metrics.json"
+  },
+  {
+    "group": "smoke-v1",
+    "run": "adaptive-t32-c256-s101",
+    "width": 384,
+    "steps": 250,
+    "seed": 101,
+    "eval_seed": 900001,
+    "accuracy": {
+      "none": 0.5,
+      "few": 0.5703125,
+      "strong": 0.5078125
+    },
+    "source": "smoke-v1/adaptive-t32-c256-s101/metrics.json"
+  },
+  {
+    "group": "smoke-v1",
+    "run": "adaptive-t512-c256-s101",
+    "width": 384,
+    "steps": 250,
+    "seed": 101,
+    "eval_seed": 900001,
+    "accuracy": {
+      "none": 0.5703125,
+      "few": 0.46875,
+      "strong": 0.46875
+    },
+    "source": "smoke-v1/adaptive-t512-c256-s101/metrics.json"
+  },
+  {
+    "group": "smoke-v1",
+    "run": "oracle-t32-c256-s101",
+    "width": 384,
+    "steps": 250,
+    "seed": 101,
+    "eval_seed": 900001,
+    "accuracy": {
+      "none": 1.0,
+      "few": 1.0,
+      "strong": 1.0
+    },
+    "source": "smoke-v1/oracle-t32-c256-s101/metrics.json"
+  },
+  {
+    "group": "smoke-longer",
+    "run": "adaptive-t32-c1024-s101",
+    "width": 384,
+    "steps": 1200,
+    "seed": 101,
+    "eval_seed": 900001,
+    "accuracy": {
+      "none": 0.5,
+      "few": 0.5,
+      "strong": 0.5
+    },
+    "source": "smoke-longer/adaptive-t32-c1024-s101/metrics.json"
+  },
+  {
+    "group": "smoke-width1024",
+    "run": "adaptive-t512-c256-s101",
+    "width": 1024,
+    "steps": 600,
+    "seed": 101,
+    "eval_seed": 900001,
+    "accuracy": {
+      "none": 0.8203125,
+      "few": 0.7265625,
+      "strong": 0.609375
+    },
+    "source": "smoke-width1024/adaptive-t512-c256-s101/metrics.json"
+  },
+  {
+    "group": "smoke-width1024",
+    "run": "adaptive-t64-c256-s101",
+    "width": 1024,
+    "steps": 600,
+    "seed": 101,
+    "eval_seed": 900001,
+    "accuracy": {
+      "none": 0.5078125,
+      "few": 0.546875,
+      "strong": 0.5
+    },
+    "source": "smoke-width1024/adaptive-t64-c256-s101/metrics.json"
+  }
+]

@@ -1,0 +1,5 @@
+{"run": "oracle-t512-c256-s23", "step": 1, "loss": 0.6957311630249023, "sigma": 32.0, "density_gradient": 0.0, "full_gradient": 0.060866910964250565, "seconds": 0.0}
+{"run": "oracle-t512-c256-s23", "step": 200, "loss": 0.001427765702828765, "sigma": 14.31111111111111, "density_gradient": 0.0, "full_gradient": 0.02388175018131733, "seconds": 2.2}
+{"run": "oracle-t512-c256-s23", "step": 400, "loss": 0.0005935070803388953, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.024378577247262, "seconds": 4.3}
+{"run": "oracle-t512-c256-s23", "step": 600, "loss": 9.415269596502185e-05, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.0028414856642484665, "seconds": 6.3}
+{"completed": "oracle-t512-c256-s23", "metrics": {"none": {"accuracy": 0.994140625, "target_hit": 1.0, "query_selectivity": 1.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.998046875, "target_hit": 1.0, "query_selectivity": 1.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 0.998046875, "target_hit": 1.0, "query_selectivity": 1.0, "zero_signal_accuracy": 0.5}}}

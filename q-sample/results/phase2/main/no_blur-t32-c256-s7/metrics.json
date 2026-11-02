@@ -1,0 +1,158 @@
+{
+  "none": {
+    "loss": 0.6931563504040241,
+    "accuracy": 0.50390625,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.501953125,
+    "wrong_query_grid_accuracy": 0.501953125,
+    "shuffled_values_accuracy": 0.5,
+    "positive_recall": 0.0078125,
+    "removed_target_yes_rate": 0.0,
+    "target_hit": 0.3203125,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.010009765625,
+    "target_mass": 0.01013130178445465,
+    "distractor_occupancy": 0.0296630859375,
+    "distractor_mass": 0.030357284349744162,
+    "extra_distractor_occupancy": 0.0,
+    "query_selectivity": -0.0001220703161379788,
+    "query_mass_selectivity": -2.145556341304143e-05,
+    "all_queries_correct": 0.078125,
+    "paired_transfer": 0.0,
+    "paired_transfer_direction": 0.0,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 202,
+    "per_class_accuracy": [
+      0.5,
+      0.515625,
+      0.5,
+      0.5
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "6275d9b63e869da49aef9bbbfc516d0e2919ba1efee25f172e808968fc5bcc4e"
+  },
+  "few": {
+    "loss": 0.6929509788751602,
+    "accuracy": 0.5078125,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.5078125,
+    "wrong_query_grid_accuracy": 0.509765625,
+    "shuffled_values_accuracy": 0.509765625,
+    "positive_recall": 0.05859375,
+    "removed_target_yes_rate": 0.0546875,
+    "target_hit": 0.41015625,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.0128173828125,
+    "target_mass": 0.01015984658991087,
+    "distractor_occupancy": 0.068603515625,
+    "distractor_mass": 0.06440363697409168,
+    "extra_distractor_occupancy": 0.03466796875,
+    "query_selectivity": -0.0001220703161379788,
+    "query_mass_selectivity": -1.9104024321591723e-05,
+    "all_queries_correct": 0.0859375,
+    "paired_transfer": -0.00015862944162436547,
+    "paired_transfer_direction": 0.0,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 197,
+    "per_class_accuracy": [
+      0.5078125,
+      0.5078125,
+      0.4921875,
+      0.5234375
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "29e0f8bf631eba965bc2e430c6321d6b58642aba06b7113b3c8ad3d8fa0d9aa2"
+  },
+  "strong": {
+    "loss": 0.6945386193692684,
+    "accuracy": 0.478515625,
+    "zero_signal_accuracy": 0.5,
+    "uniform_grid_accuracy": 0.49609375,
+    "wrong_query_grid_accuracy": 0.486328125,
+    "shuffled_values_accuracy": 0.484375,
+    "positive_recall": 0.90234375,
+    "removed_target_yes_rate": 0.90234375,
+    "target_hit": 0.3046875,
+    "target_four_points": 0.0,
+    "target_occupancy": 0.009521484375,
+    "target_mass": 0.010730066046715336,
+    "distractor_occupancy": 0.16259765625,
+    "distractor_mass": 0.170214473195216,
+    "extra_distractor_occupancy": 0.1322021484375,
+    "query_selectivity": 0.00024414055224042386,
+    "query_mass_selectivity": -2.0184184155169177e-05,
+    "all_queries_correct": 0.0625,
+    "paired_transfer": 0.0004807692307692308,
+    "paired_transfer_direction": 0.07179487179487179,
+    "examples": 512,
+    "sequences": 128,
+    "positive_examples": 256,
+    "paired_present_pairs": 195,
+    "per_class_accuracy": [
+      0.46875,
+      0.4921875,
+      0.4765625,
+      0.4765625
+    ],
+    "class_label_counts": [
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "prior_baseline": 0.5,
+    "evaluation_sha256": "c2abf7ad47fb19603968a85bf42b019ad61e07d44777bb1d428ebb0e3b4b41c7"
+  }
+}

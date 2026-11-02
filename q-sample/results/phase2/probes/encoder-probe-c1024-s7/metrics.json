@@ -1,0 +1,29 @@
+{
+  "none": {
+    "accuracy": 0.998046875,
+    "per_class_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      0.9921875
+    ]
+  },
+  "few": {
+    "accuracy": 1.0,
+    "per_class_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "strong": {
+    "accuracy": 0.99609375,
+    "per_class_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      0.984375
+    ]
+  }
+}

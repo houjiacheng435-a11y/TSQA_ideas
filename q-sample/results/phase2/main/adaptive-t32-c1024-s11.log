@@ -1,0 +1,5 @@
+{"run": "adaptive-t32-c1024-s11", "step": 1, "loss": 0.6924149394035339, "sigma": 32.0, "density_gradient": 0.046575501561164856, "full_gradient": 0.0763494074344635, "seconds": 0.0}
+{"run": "adaptive-t32-c1024-s11", "step": 200, "loss": 0.6881658434867859, "sigma": 14.31111111111111, "density_gradient": 0.3083658516407013, "full_gradient": 0.3211042284965515, "seconds": 3.5}
+{"run": "adaptive-t32-c1024-s11", "step": 400, "loss": 0.6926745772361755, "sigma": 0.0, "density_gradient": 0.2833369970321655, "full_gradient": 0.29000258445739746, "seconds": 7.1}
+{"run": "adaptive-t32-c1024-s11", "step": 600, "loss": 0.6919955015182495, "sigma": 0.0, "density_gradient": 0.5578626394271851, "full_gradient": 0.5665218234062195, "seconds": 10.7}
+{"completed": "adaptive-t32-c1024-s11", "metrics": {"none": {"accuracy": 0.501953125, "target_hit": 0.31640625, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.513671875, "target_hit": 0.3984375, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 0.5, "target_hit": 0.29296875, "query_selectivity": -0.00024414064682787284, "zero_signal_accuracy": 0.5}}}

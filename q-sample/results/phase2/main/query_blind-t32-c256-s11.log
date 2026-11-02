@@ -1,0 +1,5 @@
+{"run": "query_blind-t32-c256-s11", "step": 1, "loss": 0.6924252510070801, "sigma": 32.0, "density_gradient": 0.09472976624965668, "full_gradient": 0.11258276551961899, "seconds": 0.0}
+{"run": "query_blind-t32-c256-s11", "step": 200, "loss": 0.6890901327133179, "sigma": 14.31111111111111, "density_gradient": 0.07929696142673492, "full_gradient": 0.08347345143556595, "seconds": 3.5}
+{"run": "query_blind-t32-c256-s11", "step": 400, "loss": 0.6927886605262756, "sigma": 0.0, "density_gradient": 0.0873689278960228, "full_gradient": 0.089720219373703, "seconds": 7.1}
+{"run": "query_blind-t32-c256-s11", "step": 600, "loss": 0.6913047432899475, "sigma": 0.0, "density_gradient": 0.19219540059566498, "full_gradient": 0.20777657628059387, "seconds": 10.7}
+{"completed": "query_blind-t32-c256-s11", "metrics": {"none": {"accuracy": 0.5, "target_hit": 0.3203125, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.501953125, "target_hit": 0.3828125, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 0.501953125, "target_hit": 0.2578125, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}}}

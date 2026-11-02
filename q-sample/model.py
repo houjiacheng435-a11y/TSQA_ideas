@@ -62,7 +62,7 @@ def gaussian_smooth(x, sigma):
 
 class QSample(nn.Module):
     def __init__(self, channels=1, coarse=256, tokens=512, width=48,
-                 epsilon=1e-4, statistics=True):
+                 epsilon=1e-4, statistics=True, query_dim=1):
         super().__init__()
         if coarse < 1 or tokens < 1 or not 0 < epsilon <= 1:
             raise ValueError("Invalid bin count, token budget or density floor")
@@ -71,7 +71,7 @@ class QSample(nn.Module):
         self.encoder = nn.Sequential(
             nn.Conv1d(channels * (5 if statistics else 1), width, 3, padding=1),
             nn.GELU(), nn.Conv1d(width, width, 3, padding=1), nn.GELU())
-        self.query = nn.Linear(1, width * 2)
+        self.query = nn.Linear(query_dim, width * 2)
         self.density = nn.Conv1d(width, 1, 1)
         # 从近似均匀的采样网格开始，同时保留查询和特征分支的梯度。
         nn.init.normal_(self.density.weight, std=0.001)

@@ -1,0 +1,5 @@
+{"run": "uniform_blur-t32-c256-s23", "step": 1, "loss": 0.6910552978515625, "sigma": 32.0, "density_gradient": 0.0, "full_gradient": 0.07565907388925552, "seconds": 0.0}
+{"run": "uniform_blur-t32-c256-s23", "step": 200, "loss": 0.6931643486022949, "sigma": 14.31111111111111, "density_gradient": 0.0, "full_gradient": 0.02253425307571888, "seconds": 1.4}
+{"run": "uniform_blur-t32-c256-s23", "step": 400, "loss": 0.6945815682411194, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.036823827773332596, "seconds": 2.9}
+{"run": "uniform_blur-t32-c256-s23", "step": 600, "loss": 0.693146288394928, "sigma": 0.0, "density_gradient": 0.0, "full_gradient": 0.008689849637448788, "seconds": 4.4}
+{"completed": "uniform_blur-t32-c256-s23", "metrics": {"none": {"accuracy": 0.5, "target_hit": 0.31640625, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "few": {"accuracy": 0.49609375, "target_hit": 0.3984375, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}, "strong": {"accuracy": 0.49609375, "target_hit": 0.296875, "query_selectivity": 0.0, "zero_signal_accuracy": 0.5}}}
