@@ -1,0 +1,52 @@
+[
+  {
+    "method": "full",
+    "head": "regression",
+    "loss": 1.0678085088729858
+  },
+  {
+    "method": "full",
+    "head": "pointer",
+    "loss": 8.089158058166504
+  },
+  {
+    "method": "oracle",
+    "head": "regression",
+    "loss": 0.8947718739509583
+  },
+  {
+    "method": "oracle",
+    "head": "pointer",
+    "loss": 5.981755256652832
+  },
+  {
+    "method": "uniform",
+    "head": "regression",
+    "loss": 0.8824734687805176
+  },
+  {
+    "method": "uniform",
+    "head": "pointer",
+    "loss": 5.933206081390381
+  },
+  {
+    "method": "adaptive",
+    "head": "regression",
+    "loss": 2.5959272384643555
+  },
+  {
+    "method": "adaptive",
+    "head": "pointer",
+    "loss": 7.5620927810668945
+  },
+  {
+    "method": "blind",
+    "head": "regression",
+    "loss": 2.6995086669921875
+  },
+  {
+    "method": "blind",
+    "head": "pointer",
+    "loss": 7.515113830566406
+  }
+]

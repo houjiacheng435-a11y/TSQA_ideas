@@ -1,0 +1,19 @@
+| 方法/头 | 32题Train Acc % | 1024题Train Acc % | Val Acc % | Val IoU | Val端点MAE秒 | 连续锚点通过比例 % |
+|---|---:|---:|---:|---:|---:|---:|
+|full_regression_qa|43.75|24.02|12.50|0.0779|4829.4|—|
+|full_pointer_qa|100.00|90.23|70.31|0.6804|2373.8|100.00|
+|oracle_regression_qa|43.75|50.59|41.41|0.2521|1346.2|—|
+|oracle_pointer_qa|100.00|96.88|83.59|0.7747|557.5|100.00|
+|oracle_regression_qa_coordinate|43.75|50.98|37.50|0.2408|1463.3|—|
+|oracle_pointer_qa_coordinate|100.00|92.58|82.03|0.7002|890.4|100.00|
+|uniform_regression_qa|40.62|31.45|17.19|0.0983|3959.3|—|
+|uniform_pointer_qa|78.12|39.94|16.41|0.1209|3532.8|92.19|
+|adaptive_regression_qa|37.50|30.96|16.41|0.1168|4313.2|—|
+|adaptive_pointer_qa|78.12|24.80|20.31|0.1343|4658.4|68.75|
+|adaptive_regression_joint|37.50|30.57|19.53|0.1348|3670.9|—|
+|adaptive_pointer_joint|65.62|37.79|33.59|0.2547|4197.9|94.53|
+|blind_pointer_joint|59.38|34.47|28.12|0.2029|4565.3|69.53|
+|oracle_block_pointer_qa|100.00|97.27|78.91|0.6810|924.6|100.00|
+|oracle_block_pointer_qa_coordinate|100.00|81.35|60.16|0.4405|1223.6|100.00|
+|adaptive_noclip_pointer_qa|34.38|30.47|22.66|0.1503|4252.1|60.16|
+|adaptive_noclip_pointer_joint|53.12|44.82|34.38|0.2890|4604.1|75.00|

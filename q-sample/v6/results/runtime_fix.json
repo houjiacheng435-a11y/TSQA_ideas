@@ -1,0 +1,7 @@
+{
+  "problem": "正式结果生成前发现BF16 GRU显著变慢，终止初始启动并统一改为GRU FP32；非按QA成绩调参",
+  "bf16_seconds_one_step": 2.7956,
+  "fp32_seconds_one_step": 0.0954,
+  "batch": 4,
+  "length": 5400
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "case": "full_pointer_qa",
+    "normal": {
+      "n": 128,
+      "accuracy": 0.703125,
+      "iou": 0.6804483703017468,
+      "endpoint_mae_s": 2373.773468707688,
+      "target_hit": 1.0,
+      "target_occupancy": 0.06481698575089467,
+      "prefix_coverage": 1.0,
+      "grid_max_iou": 1.0,
+      "nearest_boundary_mae_s": 4.780304152518511e-05,
+      "grid_iou25_capacity": 1.0
+    },
+    "zero_signal": {
+      "n": 128,
+      "accuracy": 0.0078125,
+      "iou": 0.010303423297955305,
+      "endpoint_mae_s": 8658.328071475029,
+      "target_hit": 1.0,
+      "target_occupancy": 0.06481698575089467,
+      "prefix_coverage": 1.0,
+      "grid_max_iou": 1.0,
+      "nearest_boundary_mae_s": 4.780304152518511e-05,
+      "grid_iou25_capacity": 1.0
+    },
+    "note": "分布外干预；相同已训练答案头/网格/Query，仅采样波形置零，不等同独立训练的Coordinate-only"
+  },
+  {
+    "case": "uniform_pointer_qa",
+    "normal": {
+      "n": 128,
+      "accuracy": 0.1640625,
+      "iou": 0.12094505674576794,
+      "endpoint_mae_s": 3532.7978378534317,
+      "target_hit": 0.8984375,
+      "target_occupancy": 0.06500244140625,
+      "prefix_coverage": 0.8297872340425532,
+      "grid_max_iou": 0.7529949501040392,
+      "nearest_boundary_mae_s": 39.405506394803524,
+      "grid_iou25_capacity": 0.921875
+    },
+    "zero_signal": {
+      "n": 128,
+      "accuracy": 0.0703125,
+      "iou": 0.04161744935117895,
+      "endpoint_mae_s": 6267.693257570267,
+      "target_hit": 0.8984375,
+      "target_occupancy": 0.06500244140625,
+      "prefix_coverage": 0.8297872340425532,
+      "grid_max_iou": 0.7529949501040392,
+      "nearest_boundary_mae_s": 39.405506394803524,
+      "grid_iou25_capacity": 0.921875
+    },
+    "note": "分布外干预；相同已训练答案头/网格/Query，仅采样波形置零，不等同独立训练的Coordinate-only"
+  },
+  {
+    "case": "adaptive_pointer_qa",
+    "normal": {
+      "n": 128,
+      "accuracy": 0.203125,
+      "iou": 0.13430533954669954,
+      "endpoint_mae_s": 4658.385453283787,
+      "target_hit": 0.7109375,
+      "target_occupancy": 0.1966552734375,
+      "prefix_coverage": 0.7978723404255319,
+      "grid_max_iou": 0.526959191241076,
+      "nearest_boundary_mae_s": 529.6483520902693,
+      "grid_iou25_capacity": 0.6875
+    },
+    "zero_signal": {
+      "n": 128,
+      "accuracy": 0.15625,
+      "iou": 0.09060311896246276,
+      "endpoint_mae_s": 5350.560177020729,
+      "target_hit": 0.7109375,
+      "target_occupancy": 0.1966552734375,
+      "prefix_coverage": 0.7978723404255319,
+      "grid_max_iou": 0.526959191241076,
+      "nearest_boundary_mae_s": 529.6483520902693,
+      "grid_iou25_capacity": 0.6875
+    },
+    "note": "分布外干预；相同已训练答案头/网格/Query，仅采样波形置零，不等同独立训练的Coordinate-only"
+  },
+  {
+    "case": "adaptive_pointer_joint",
+    "normal": {
+      "n": 128,
+      "accuracy": 0.3359375,
+      "iou": 0.25465074026396906,
+      "endpoint_mae_s": 4197.941226314753,
+      "target_hit": 0.9609375,
+      "target_occupancy": 0.21759033203125,
+      "prefix_coverage": 0.9361702127659575,
+      "grid_max_iou": 0.824125558940068,
+      "nearest_boundary_mae_s": 82.29937948659062,
+      "grid_iou25_capacity": 0.9453125
+    },
+    "zero_signal": {
+      "n": 128,
+      "accuracy": 0.2734375,
+      "iou": 0.17812246768880868,
+      "endpoint_mae_s": 4679.290108293295,
+      "target_hit": 0.9609375,
+      "target_occupancy": 0.21759033203125,
+      "prefix_coverage": 0.9361702127659575,
+      "grid_max_iou": 0.824125558940068,
+      "nearest_boundary_mae_s": 82.29937948659062,
+      "grid_iou25_capacity": 0.9453125
+    },
+    "note": "分布外干预；相同已训练答案头/网格/Query，仅采样波形置零，不等同独立训练的Coordinate-only"
+  },
+  {
+    "case": "blind_pointer_joint",
+    "normal": {
+      "n": 128,
+      "accuracy": 0.28125,
+      "iou": 0.20285695431448403,
+      "endpoint_mae_s": 4565.312919134274,
+      "target_hit": 0.7734375,
+      "target_occupancy": 0.2777099609375,
+      "prefix_coverage": 0.7872340425531915,
+      "grid_max_iou": 0.5564040578810818,
+      "nearest_boundary_mae_s": 508.827264348045,
+      "grid_iou25_capacity": 0.6953125
+    },
+    "zero_signal": {
+      "n": 128,
+      "accuracy": 0.2734375,
+      "iou": 0.1954424546406699,
+      "endpoint_mae_s": 4384.6027535256,
+      "target_hit": 0.7734375,
+      "target_occupancy": 0.2777099609375,
+      "prefix_coverage": 0.7872340425531915,
+      "grid_max_iou": 0.5564040578810818,
+      "nearest_boundary_mae_s": 508.827264348045,
+      "grid_iou25_capacity": 0.6953125
+    },
+    "note": "分布外干预；相同已训练答案头/网格/Query，仅采样波形置零，不等同独立训练的Coordinate-only"
+  },
+  {
+    "case": "adaptive_noclip_pointer_qa",
+    "normal": {
+      "n": 128,
+      "accuracy": 0.2265625,
+      "iou": 0.1502529671852244,
+      "endpoint_mae_s": 4252.105643756688,
+      "target_hit": 0.671875,
+      "target_occupancy": 0.31719970703125,
+      "prefix_coverage": 0.7127659574468085,
+      "grid_max_iou": 0.43894130439002765,
+      "nearest_boundary_mae_s": 916.8637603814714,
+      "grid_iou25_capacity": 0.6015625
+    },
+    "zero_signal": {
+      "n": 128,
+      "accuracy": 0.09375,
+      "iou": 0.06423436702334584,
+      "endpoint_mae_s": 4716.02489875257,
+      "target_hit": 0.671875,
+      "target_occupancy": 0.31719970703125,
+      "prefix_coverage": 0.7127659574468085,
+      "grid_max_iou": 0.43894130439002765,
+      "nearest_boundary_mae_s": 916.8637603814714,
+      "grid_iou25_capacity": 0.6015625
+    },
+    "note": "分布外干预；相同已训练答案头/网格/Query，仅采样波形置零，不等同独立训练的Coordinate-only"
+  },
+  {
+    "case": "adaptive_noclip_pointer_joint",
+    "normal": {
+      "n": 128,
+      "accuracy": 0.34375,
+      "iou": 0.2890366242318123,
+      "endpoint_mae_s": 4604.056669433601,
+      "target_hit": 0.84375,
+      "target_occupancy": 0.29534912109375,
+      "prefix_coverage": 0.8936170212765957,
+      "grid_max_iou": 0.6701126887992359,
+      "nearest_boundary_mae_s": 330.63792837271467,
+      "grid_iou25_capacity": 0.75
+    },
+    "zero_signal": {
+      "n": 128,
+      "accuracy": 0.2890625,
+      "iou": 0.2297857952544291,
+      "endpoint_mae_s": 4125.702239010483,
+      "target_hit": 0.84375,
+      "target_occupancy": 0.29534912109375,
+      "prefix_coverage": 0.8936170212765957,
+      "grid_max_iou": 0.6701126887992359,
+      "nearest_boundary_mae_s": 330.63792837271467,
+      "grid_iou25_capacity": 0.75
+    },
+    "note": "分布外干预；相同已训练答案头/网格/Query，仅采样波形置零，不等同独立训练的Coordinate-only"
+  }
+]

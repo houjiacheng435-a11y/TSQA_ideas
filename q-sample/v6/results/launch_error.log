@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/cf-run/TSQA_ideas/q-sample/v6/execute.py", line 7, in <module>
+    from tests import main as tests
+ImportError: cannot import name 'main' from 'tests' (/root/autodl-tmp/cf-run/TSQA_ideas/q-sample/v5/tests.py)

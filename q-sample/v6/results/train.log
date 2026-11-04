@@ -1,0 +1,248 @@
+10种真实前向/反传、Oracle隔离与原生边界检查通过
+overfit_full_regression_qa 1 {'geometry': 1.1096, 'ce': 0.0, 'kl': 0.0}
+overfit_full_regression_qa 200 {'geometry': 1.0485, 'ce': 0.0, 'kl': 0.0}
+overfit_full_regression_qa 400 {'geometry': 1.1876, 'ce': 0.0, 'kl': 0.0}
+overfit_full_regression_qa 600 {'geometry': 0.8503, 'ce': 0.0, 'kl': 0.0}
+overfit_full_regression_qa 800 {'geometry': 1.0571, 'ce': 0.0, 'kl': 0.0}
+overfit_full_regression_qa 1000 {'geometry': 1.001, 'ce': 0.0, 'kl': 0.0}
+overfit_full_regression_qa 完成 {'n': 32, 'accuracy': 0.4375, 'iou': 0.3602725339005701, 'endpoint_mae_s': 1770.6829580068588, 'target_hit': 1.0, 'target_occupancy': 0.09253183014698152, 'prefix_coverage': 1.0, 'grid_max_iou': 1.0, 'nearest_boundary_mae_s': 3.771856427192688e-05, 'grid_iou25_capacity': 1.0} {'n': 32, 'accuracy': 0.4375, 'iou': 0.3602725339005701, 'endpoint_mae_s': 1770.6829580068588, 'target_hit': 1.0, 'target_occupancy': 0.09253183014698152, 'prefix_coverage': 1.0, 'grid_max_iou': 1.0, 'nearest_boundary_mae_s': 3.771856427192688e-05, 'grid_iou25_capacity': 1.0}
+overfit_full_pointer_qa 1 {'geometry': 1.2522, 'ce': 7.1225, 'kl': 0.0}
+overfit_full_pointer_qa 200 {'geometry': 0.8371, 'ce': 1.7014, 'kl': 0.0}
+overfit_full_pointer_qa 400 {'geometry': 0.5997, 'ce': 0.3443, 'kl': 0.0}
+overfit_full_pointer_qa 600 {'geometry': 0.0459, 'ce': 0.0216, 'kl': 0.0}
+overfit_full_pointer_qa 800 {'geometry': 0.0002, 'ce': 0.0006, 'kl': 0.0}
+overfit_full_pointer_qa 1000 {'geometry': 0.0001, 'ce': 0.0002, 'kl': 0.0}
+overfit_full_pointer_qa 完成 {'n': 32, 'accuracy': 1.0, 'iou': 0.9999996572732925, 'endpoint_mae_s': 3.771856427192688e-05, 'target_hit': 1.0, 'target_occupancy': 0.09253183014698152, 'prefix_coverage': 1.0, 'grid_max_iou': 1.0, 'nearest_boundary_mae_s': 3.771856427192688e-05, 'grid_iou25_capacity': 1.0} {'n': 32, 'accuracy': 1.0, 'iou': 0.9999996572732925, 'endpoint_mae_s': 3.771856427192688e-05, 'target_hit': 1.0, 'target_occupancy': 0.09253183014698152, 'prefix_coverage': 1.0, 'grid_max_iou': 1.0, 'nearest_boundary_mae_s': 3.771856427192688e-05, 'grid_iou25_capacity': 1.0}
+overfit_oracle_regression_qa 1 {'geometry': 1.1142, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa 200 {'geometry': 1.1586, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa 400 {'geometry': 1.0306, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa 600 {'geometry': 0.8858, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa 800 {'geometry': 0.9648, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa 1000 {'geometry': 0.9843, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa 完成 {'n': 32, 'accuracy': 0.4375, 'iou': 0.3451279732398689, 'endpoint_mae_s': 1053.9989875555038, 'target_hit': 1.0, 'target_occupancy': 0.482421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9872593767940998, 'nearest_boundary_mae_s': 5.288362621329725, 'grid_iou25_capacity': 1.0} {'n': 32, 'accuracy': 0.4375, 'iou': 0.3451279732398689, 'endpoint_mae_s': 1053.9989875555038, 'target_hit': 1.0, 'target_occupancy': 0.482421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9872593767940998, 'nearest_boundary_mae_s': 5.288362621329725, 'grid_iou25_capacity': 1.0}
+overfit_oracle_pointer_qa 1 {'geometry': 1.1017, 'ce': 4.9435, 'kl': 0.0}
+overfit_oracle_pointer_qa 200 {'geometry': 0.0211, 'ce': 0.0588, 'kl': 0.0}
+overfit_oracle_pointer_qa 400 {'geometry': 0.01, 'ce': 0.0071, 'kl': 0.0}
+overfit_oracle_pointer_qa 600 {'geometry': 0.0135, 'ce': 0.0005, 'kl': 0.0}
+overfit_oracle_pointer_qa 800 {'geometry': 0.0234, 'ce': 0.2446, 'kl': 0.0}
+overfit_oracle_pointer_qa 1000 {'geometry': 0.0131, 'ce': 0.0004, 'kl': 0.0}
+overfit_oracle_pointer_qa 完成 {'n': 32, 'accuracy': 1.0, 'iou': 0.9872593693435192, 'endpoint_mae_s': 5.288362621329725, 'target_hit': 1.0, 'target_occupancy': 0.482421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9872593767940998, 'nearest_boundary_mae_s': 5.288362621329725, 'grid_iou25_capacity': 1.0} {'n': 32, 'accuracy': 1.0, 'iou': 0.9872593693435192, 'endpoint_mae_s': 5.288362621329725, 'target_hit': 1.0, 'target_occupancy': 0.482421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9872593767940998, 'nearest_boundary_mae_s': 5.288362621329725, 'grid_iou25_capacity': 1.0}
+overfit_oracle_regression_qa_coordinate 1 {'geometry': 1.1191, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa_coordinate 200 {'geometry': 1.0426, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa_coordinate 400 {'geometry': 1.2241, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa_coordinate 600 {'geometry': 0.9306, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa_coordinate 800 {'geometry': 0.9469, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa_coordinate 1000 {'geometry': 1.0375, 'ce': 0.0, 'kl': 0.0}
+overfit_oracle_regression_qa_coordinate 完成 {'n': 32, 'accuracy': 0.4375, 'iou': 0.3025092346360907, 'endpoint_mae_s': 1317.1876598596573, 'target_hit': 1.0, 'target_occupancy': 0.482421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9872593767940998, 'nearest_boundary_mae_s': 5.288362621329725, 'grid_iou25_capacity': 1.0} {'n': 32, 'accuracy': 0.4375, 'iou': 0.3025092346360907, 'endpoint_mae_s': 1317.1876598596573, 'target_hit': 1.0, 'target_occupancy': 0.482421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9872593767940998, 'nearest_boundary_mae_s': 5.288362621329725, 'grid_iou25_capacity': 1.0}
+overfit_oracle_pointer_qa_coordinate 1 {'geometry': 1.1014, 'ce': 4.9726, 'kl': 0.0}
+overfit_oracle_pointer_qa_coordinate 200 {'geometry': 0.3007, 'ce': 0.5837, 'kl': 0.0}
+overfit_oracle_pointer_qa_coordinate 400 {'geometry': 0.0114, 'ce': 0.0026, 'kl': 0.0}
+overfit_oracle_pointer_qa_coordinate 600 {'geometry': 0.0144, 'ce': 0.0011, 'kl': 0.0}
+overfit_oracle_pointer_qa_coordinate 800 {'geometry': 0.012, 'ce': 0.0143, 'kl': 0.0}
+overfit_oracle_pointer_qa_coordinate 1000 {'geometry': 0.1364, 'ce': 0.0354, 'kl': 0.0}
+overfit_oracle_pointer_qa_coordinate 完成 {'n': 32, 'accuracy': 1.0, 'iou': 0.9869555905461311, 'endpoint_mae_s': 5.696841238997877, 'target_hit': 1.0, 'target_occupancy': 0.482421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9872593767940998, 'nearest_boundary_mae_s': 5.288362621329725, 'grid_iou25_capacity': 1.0} {'n': 32, 'accuracy': 1.0, 'iou': 0.9869555905461311, 'endpoint_mae_s': 5.696841238997877, 'target_hit': 1.0, 'target_occupancy': 0.482421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9872593767940998, 'nearest_boundary_mae_s': 5.288362621329725, 'grid_iou25_capacity': 1.0}
+overfit_uniform_regression_qa 1 {'geometry': 1.1105, 'ce': 0.0, 'kl': 0.0}
+overfit_uniform_regression_qa 200 {'geometry': 1.0587, 'ce': 0.0, 'kl': 0.0}
+overfit_uniform_regression_qa 400 {'geometry': 1.1874, 'ce': 0.0, 'kl': 0.0}
+overfit_uniform_regression_qa 600 {'geometry': 1.0186, 'ce': 0.0, 'kl': 0.0}
+overfit_uniform_regression_qa 800 {'geometry': 0.9946, 'ce': 0.0, 'kl': 0.0}
+overfit_uniform_regression_qa 1000 {'geometry': 1.1024, 'ce': 0.0, 'kl': 0.0}
+overfit_uniform_regression_qa 完成 {'n': 32, 'accuracy': 0.40625, 'iou': 0.2974284393712878, 'endpoint_mae_s': 1578.2645925283432, 'target_hit': 0.78125, 'target_occupancy': 0.092041015625, 'prefix_coverage': 0.6818181818181818, 'grid_max_iou': 0.708606694592163, 'nearest_boundary_mae_s': 42.45041552186012, 'grid_iou25_capacity': 0.875} {'n': 32, 'accuracy': 0.40625, 'iou': 0.2974284393712878, 'endpoint_mae_s': 1578.2645925283432, 'target_hit': 0.78125, 'target_occupancy': 0.092041015625, 'prefix_coverage': 0.6818181818181818, 'grid_max_iou': 0.708606694592163, 'nearest_boundary_mae_s': 42.45041552186012, 'grid_iou25_capacity': 0.875}
+overfit_uniform_pointer_qa 1 {'geometry': 1.2276, 'ce': 4.8859, 'kl': 0.0}
+overfit_uniform_pointer_qa 200 {'geometry': 0.6012, 'ce': 0.3199, 'kl': 0.0}
+overfit_uniform_pointer_qa 400 {'geometry': 0.3809, 'ce': 0.0726, 'kl': 0.0}
+overfit_uniform_pointer_qa 600 {'geometry': 0.4183, 'ce': 0.0034, 'kl': 0.0}
+overfit_uniform_pointer_qa 800 {'geometry': 0.3841, 'ce': 0.0955, 'kl': 0.0}
+overfit_uniform_pointer_qa 1000 {'geometry': 0.5286, 'ce': 0.0031, 'kl': 0.0}
+overfit_uniform_pointer_qa 完成 {'n': 32, 'accuracy': 0.78125, 'iou': 0.670420000096783, 'endpoint_mae_s': 42.45041552186012, 'target_hit': 0.78125, 'target_occupancy': 0.092041015625, 'prefix_coverage': 0.6818181818181818, 'grid_max_iou': 0.708606694592163, 'nearest_boundary_mae_s': 42.45041552186012, 'grid_iou25_capacity': 0.875} {'n': 32, 'accuracy': 0.78125, 'iou': 0.670420000096783, 'endpoint_mae_s': 42.45041552186012, 'target_hit': 0.78125, 'target_occupancy': 0.092041015625, 'prefix_coverage': 0.6818181818181818, 'grid_max_iou': 0.708606694592163, 'nearest_boundary_mae_s': 42.45041552186012, 'grid_iou25_capacity': 0.875}
+overfit_adaptive_regression_qa 1 {'geometry': 1.1098, 'ce': 0.0, 'kl': 0.0}
+overfit_adaptive_regression_qa 200 {'geometry': 1.0231, 'ce': 0.0, 'kl': 0.0}
+overfit_adaptive_regression_qa 400 {'geometry': 1.143, 'ce': 0.0, 'kl': 0.0}
+overfit_adaptive_regression_qa 600 {'geometry': 0.9363, 'ce': 0.0, 'kl': 0.0}
+overfit_adaptive_regression_qa 800 {'geometry': 1.02, 'ce': 0.0, 'kl': 0.0}
+overfit_adaptive_regression_qa 1000 {'geometry': 1.0202, 'ce': 0.0, 'kl': 0.0}
+overfit_adaptive_regression_qa 完成 {'n': 32, 'accuracy': 0.375, 'iou': 0.30032278096769005, 'endpoint_mae_s': 2025.5641978383064, 'target_hit': 0.4375, 'target_occupancy': 0.033935546875, 'prefix_coverage': 0.4090909090909091, 'grid_max_iou': 0.509485511254752, 'nearest_boundary_mae_s': 183.02894282341003, 'grid_iou25_capacity': 0.625} {'n': 32, 'accuracy': 0.375, 'iou': 0.30032278096769005, 'endpoint_mae_s': 2025.5641978383064, 'target_hit': 0.4375, 'target_occupancy': 0.033935546875, 'prefix_coverage': 0.4090909090909091, 'grid_max_iou': 0.509485511254752, 'nearest_boundary_mae_s': 183.02894282341003, 'grid_iou25_capacity': 0.625}
+overfit_adaptive_pointer_qa 1 {'geometry': 1.2277, 'ce': 4.9127, 'kl': 0.0}
+overfit_adaptive_pointer_qa 200 {'geometry': 1.0345, 'ce': 3.8914, 'kl': 0.0}
+overfit_adaptive_pointer_qa 400 {'geometry': 0.897, 'ce': 1.0063, 'kl': 0.0}
+overfit_adaptive_pointer_qa 600 {'geometry': 0.9776, 'ce': 2.1224, 'kl': 0.0}
+overfit_adaptive_pointer_qa 800 {'geometry': 0.3909, 'ce': 0.1087, 'kl': 0.0}
+overfit_adaptive_pointer_qa 1000 {'geometry': 0.5502, 'ce': 0.014, 'kl': 0.0}
+overfit_adaptive_pointer_qa 完成 {'n': 32, 'accuracy': 0.78125, 'iou': 0.670420000096783, 'endpoint_mae_s': 42.45041552186012, 'target_hit': 0.78125, 'target_occupancy': 0.092041015625, 'prefix_coverage': 0.6818181818181818, 'grid_max_iou': 0.708606694592163, 'nearest_boundary_mae_s': 42.45041552186012, 'grid_iou25_capacity': 0.875} {'n': 32, 'accuracy': 0.78125, 'iou': 0.670420000096783, 'endpoint_mae_s': 42.45041552186012, 'target_hit': 0.78125, 'target_occupancy': 0.092041015625, 'prefix_coverage': 0.6818181818181818, 'grid_max_iou': 0.708606694592163, 'nearest_boundary_mae_s': 42.45041552186012, 'grid_iou25_capacity': 0.875}
+overfit_adaptive_regression_joint 1 {'geometry': 1.1098, 'ce': 0.0, 'kl': 1.7443}
+overfit_adaptive_regression_joint 200 {'geometry': 1.0593, 'ce': 0.0, 'kl': 1.3202}
+overfit_adaptive_regression_joint 400 {'geometry': 1.2476, 'ce': 0.0, 'kl': 0.8972}
+overfit_adaptive_regression_joint 600 {'geometry': 1.055, 'ce': 0.0, 'kl': 0.6507}
+overfit_adaptive_regression_joint 800 {'geometry': 1.1769, 'ce': 0.0, 'kl': 0.8071}
+overfit_adaptive_regression_joint 1000 {'geometry': 1.1919, 'ce': 0.0, 'kl': 0.7914}
+overfit_adaptive_regression_joint 完成 {'n': 32, 'accuracy': 0.375, 'iou': 0.3110628069844097, 'endpoint_mae_s': 2391.956695333123, 'target_hit': 1.0, 'target_occupancy': 0.2880859375, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9743771404027939, 'nearest_boundary_mae_s': 11.854762099683285, 'grid_iou25_capacity': 1.0} {'n': 32, 'accuracy': 0.375, 'iou': 0.3110628069844097, 'endpoint_mae_s': 2391.956695333123, 'target_hit': 1.0, 'target_occupancy': 0.2880859375, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9743771404027939, 'nearest_boundary_mae_s': 11.854762099683285, 'grid_iou25_capacity': 1.0}
+overfit_adaptive_pointer_joint 1 {'geometry': 1.2277, 'ce': 4.9127, 'kl': 1.7443}
+overfit_adaptive_pointer_joint 200 {'geometry': 1.079, 'ce': 3.3402, 'kl': 3.7312}
+overfit_adaptive_pointer_joint 400 {'geometry': 1.0891, 'ce': 2.233, 'kl': 3.4675}
+overfit_adaptive_pointer_joint 600 {'geometry': 0.7356, 'ce': 2.0664, 'kl': 2.7707}
+overfit_adaptive_pointer_joint 800 {'geometry': 0.8122, 'ce': 1.9932, 'kl': 2.7865}
+overfit_adaptive_pointer_joint 1000 {'geometry': 1.0549, 'ce': 3.2485, 'kl': 2.3534}
+overfit_adaptive_pointer_joint 完成 {'n': 32, 'accuracy': 0.65625, 'iou': 0.5411812997772358, 'endpoint_mae_s': 1276.0498379468918, 'target_hit': 0.96875, 'target_occupancy': 0.246337890625, 'prefix_coverage': 1.0, 'grid_max_iou': 0.8426391172688454, 'nearest_boundary_mae_s': 53.037111608311534, 'grid_iou25_capacity': 0.9375} {'n': 32, 'accuracy': 0.65625, 'iou': 0.5411812997772358, 'endpoint_mae_s': 1276.0498379468918, 'target_hit': 0.96875, 'target_occupancy': 0.246337890625, 'prefix_coverage': 1.0, 'grid_max_iou': 0.8426391172688454, 'nearest_boundary_mae_s': 53.037111608311534, 'grid_iou25_capacity': 0.9375}
+overfit_blind_pointer_joint 1 {'geometry': 1.228, 'ce': 4.9084, 'kl': 1.7426}
+overfit_blind_pointer_joint 200 {'geometry': 1.1021, 'ce': 2.6372, 'kl': 4.4027}
+overfit_blind_pointer_joint 400 {'geometry': 0.9994, 'ce': 2.1936, 'kl': 3.935}
+overfit_blind_pointer_joint 600 {'geometry': 0.6638, 'ce': 0.8168, 'kl': 3.3475}
+overfit_blind_pointer_joint 800 {'geometry': 0.9344, 'ce': 1.7493, 'kl': 3.8534}
+overfit_blind_pointer_joint 1000 {'geometry': 1.011, 'ce': 1.1675, 'kl': 4.9241}
+overfit_blind_pointer_joint 完成 {'n': 32, 'accuracy': 0.59375, 'iou': 0.49760281524504535, 'endpoint_mae_s': 1150.6141524910927, 'target_hit': 0.71875, 'target_occupancy': 0.279541015625, 'prefix_coverage': 0.8181818181818182, 'grid_max_iou': 0.593814675376052, 'nearest_boundary_mae_s': 423.1495496034622, 'grid_iou25_capacity': 0.6875} {'n': 32, 'accuracy': 0.59375, 'iou': 0.49760281524504535, 'endpoint_mae_s': 1150.6141524910927, 'target_hit': 0.71875, 'target_occupancy': 0.279541015625, 'prefix_coverage': 0.8181818181818182, 'grid_max_iou': 0.593814675376052, 'nearest_boundary_mae_s': 423.1495496034622, 'grid_iou25_capacity': 0.6875}
+main_full_regression_qa 1 {'geometry': 0.9842, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 200 {'geometry': 1.1723, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 400 {'geometry': 1.1965, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 600 {'geometry': 1.1609, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 800 {'geometry': 1.2056, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 1000 {'geometry': 1.0878, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 1200 {'geometry': 1.1269, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 1400 {'geometry': 1.084, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 1600 {'geometry': 0.8395, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 1800 {'geometry': 1.1625, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 2000 {'geometry': 1.1372, 'ce': 0.0, 'kl': 0.0}
+main_full_regression_qa 完成 {'n': 1024, 'accuracy': 0.240234375, 'iou': 0.15044325284065962, 'endpoint_mae_s': 4126.721562325954, 'target_hit': 1.0, 'target_occupancy': 0.09865930783591637, 'prefix_coverage': 1.0, 'grid_max_iou': 1.0, 'nearest_boundary_mae_s': 5.4007614380680025e-05, 'grid_iou25_capacity': 1.0} {'n': 128, 'accuracy': 0.125, 'iou': 0.07791077053116169, 'endpoint_mae_s': 4829.402068376541, 'target_hit': 1.0, 'target_occupancy': 0.06481698575089467, 'prefix_coverage': 1.0, 'grid_max_iou': 1.0, 'nearest_boundary_mae_s': 4.780304152518511e-05, 'grid_iou25_capacity': 1.0}
+main_full_pointer_qa 1 {'geometry': 1.2076, 'ce': 7.0724, 'kl': 0.0}
+main_full_pointer_qa 200 {'geometry': 1.0766, 'ce': 3.6522, 'kl': 0.0}
+main_full_pointer_qa 400 {'geometry': 1.0278, 'ce': 1.803, 'kl': 0.0}
+main_full_pointer_qa 600 {'geometry': 1.0604, 'ce': 1.8721, 'kl': 0.0}
+main_full_pointer_qa 800 {'geometry': 0.9552, 'ce': 1.7923, 'kl': 0.0}
+main_full_pointer_qa 1000 {'geometry': 0.641, 'ce': 1.2602, 'kl': 0.0}
+main_full_pointer_qa 1200 {'geometry': 0.756, 'ce': 1.4754, 'kl': 0.0}
+main_full_pointer_qa 1400 {'geometry': 0.8108, 'ce': 0.8049, 'kl': 0.0}
+main_full_pointer_qa 1600 {'geometry': 0.403, 'ce': 0.6861, 'kl': 0.0}
+main_full_pointer_qa 1800 {'geometry': 0.5403, 'ce': 0.3023, 'kl': 0.0}
+main_full_pointer_qa 2000 {'geometry': 0.6429, 'ce': 0.6167, 'kl': 0.0}
+main_full_pointer_qa 完成 {'n': 1024, 'accuracy': 0.90234375, 'iou': 0.8841141131072163, 'endpoint_mae_s': 732.6240639606112, 'target_hit': 1.0, 'target_occupancy': 0.09865930783591637, 'prefix_coverage': 1.0, 'grid_max_iou': 1.0, 'nearest_boundary_mae_s': 5.4007614380680025e-05, 'grid_iou25_capacity': 1.0} {'n': 128, 'accuracy': 0.703125, 'iou': 0.6804483703017468, 'endpoint_mae_s': 2373.773468707688, 'target_hit': 1.0, 'target_occupancy': 0.06481698575089467, 'prefix_coverage': 1.0, 'grid_max_iou': 1.0, 'nearest_boundary_mae_s': 4.780304152518511e-05, 'grid_iou25_capacity': 1.0}
+main_oracle_regression_qa 1 {'geometry': 1.0519, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 200 {'geometry': 1.2063, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 400 {'geometry': 1.0764, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 600 {'geometry': 1.0995, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 800 {'geometry': 0.9751, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 1000 {'geometry': 0.8922, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 1200 {'geometry': 0.9278, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 1400 {'geometry': 0.8624, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 1600 {'geometry': 0.7185, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 1800 {'geometry': 0.7924, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 2000 {'geometry': 0.8599, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa 完成 {'n': 1024, 'accuracy': 0.505859375, 'iou': 0.3273659201327064, 'endpoint_mae_s': 1176.7227372769266, 'target_hit': 1.0, 'target_occupancy': 0.42177581787109375, 'prefix_coverage': 1.0, 'grid_max_iou': 0.986668135446962, 'nearest_boundary_mae_s': 7.494995461165672, 'grid_iou25_capacity': 1.0} {'n': 128, 'accuracy': 0.4140625, 'iou': 0.252120800967532, 'endpoint_mae_s': 1346.2209975719452, 'target_hit': 1.0, 'target_occupancy': 0.40411376953125, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9857911793515086, 'nearest_boundary_mae_s': 6.441741458605975, 'grid_iou25_capacity': 1.0}
+main_oracle_pointer_qa 1 {'geometry': 1.0905, 'ce': 4.9612, 'kl': 0.0}
+main_oracle_pointer_qa 200 {'geometry': 0.7202, 'ce': 3.0283, 'kl': 0.0}
+main_oracle_pointer_qa 400 {'geometry': 0.5256, 'ce': 1.6791, 'kl': 0.0}
+main_oracle_pointer_qa 600 {'geometry': 0.4734, 'ce': 1.2661, 'kl': 0.0}
+main_oracle_pointer_qa 800 {'geometry': 0.5026, 'ce': 1.3801, 'kl': 0.0}
+main_oracle_pointer_qa 1000 {'geometry': 0.3131, 'ce': 1.091, 'kl': 0.0}
+main_oracle_pointer_qa 1200 {'geometry': 0.3697, 'ce': 1.759, 'kl': 0.0}
+main_oracle_pointer_qa 1400 {'geometry': 0.2586, 'ce': 0.7248, 'kl': 0.0}
+main_oracle_pointer_qa 1600 {'geometry': 0.1305, 'ce': 0.7547, 'kl': 0.0}
+main_oracle_pointer_qa 1800 {'geometry': 0.1469, 'ce': 0.3751, 'kl': 0.0}
+main_oracle_pointer_qa 2000 {'geometry': 0.308, 'ce': 1.8576, 'kl': 0.0}
+main_oracle_pointer_qa 完成 {'n': 1024, 'accuracy': 0.96875, 'iou': 0.9417165044683316, 'endpoint_mae_s': 109.73215024081583, 'target_hit': 1.0, 'target_occupancy': 0.42177581787109375, 'prefix_coverage': 1.0, 'grid_max_iou': 0.986668135446962, 'nearest_boundary_mae_s': 7.494995461165672, 'grid_iou25_capacity': 1.0} {'n': 128, 'accuracy': 0.8359375, 'iou': 0.7747278221686429, 'endpoint_mae_s': 557.4722145143896, 'target_hit': 1.0, 'target_occupancy': 0.40411376953125, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9857911793515086, 'nearest_boundary_mae_s': 6.441741458605975, 'grid_iou25_capacity': 1.0}
+main_oracle_regression_qa_coordinate 1 {'geometry': 1.0455, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 200 {'geometry': 1.1799, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 400 {'geometry': 1.0469, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 600 {'geometry': 1.0284, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 800 {'geometry': 0.9162, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 1000 {'geometry': 0.8497, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 1200 {'geometry': 0.9188, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 1400 {'geometry': 0.8257, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 1600 {'geometry': 0.6806, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 1800 {'geometry': 0.8407, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 2000 {'geometry': 0.9002, 'ce': 0.0, 'kl': 0.0}
+main_oracle_regression_qa_coordinate 完成 {'n': 1024, 'accuracy': 0.509765625, 'iou': 0.31823342277903066, 'endpoint_mae_s': 1228.8080679289997, 'target_hit': 1.0, 'target_occupancy': 0.42177581787109375, 'prefix_coverage': 1.0, 'grid_max_iou': 0.986668135446962, 'nearest_boundary_mae_s': 7.494995461165672, 'grid_iou25_capacity': 1.0} {'n': 128, 'accuracy': 0.375, 'iou': 0.24084085640242847, 'endpoint_mae_s': 1463.2782172262669, 'target_hit': 1.0, 'target_occupancy': 0.40411376953125, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9857911793515086, 'nearest_boundary_mae_s': 6.441741458605975, 'grid_iou25_capacity': 1.0}
+main_oracle_pointer_qa_coordinate 1 {'geometry': 1.0847, 'ce': 4.9585, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 200 {'geometry': 0.8237, 'ce': 3.3746, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 400 {'geometry': 0.5247, 'ce': 2.3807, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 600 {'geometry': 0.5705, 'ce': 1.9255, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 800 {'geometry': 0.6065, 'ce': 2.1179, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 1000 {'geometry': 0.3642, 'ce': 1.4036, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 1200 {'geometry': 0.5617, 'ce': 2.445, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 1400 {'geometry': 0.4984, 'ce': 2.1945, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 1600 {'geometry': 0.2173, 'ce': 0.9144, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 1800 {'geometry': 0.4849, 'ce': 2.1899, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 2000 {'geometry': 0.5954, 'ce': 2.2375, 'kl': 0.0}
+main_oracle_pointer_qa_coordinate 完成 {'n': 1024, 'accuracy': 0.92578125, 'iou': 0.8586367431315693, 'endpoint_mae_s': 295.41368481569225, 'target_hit': 1.0, 'target_occupancy': 0.42177581787109375, 'prefix_coverage': 1.0, 'grid_max_iou': 0.986668135446962, 'nearest_boundary_mae_s': 7.494995461165672, 'grid_iou25_capacity': 1.0} {'n': 128, 'accuracy': 0.8203125, 'iou': 0.700167281072936, 'endpoint_mae_s': 890.4108355287462, 'target_hit': 1.0, 'target_occupancy': 0.40411376953125, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9857911793515086, 'nearest_boundary_mae_s': 6.441741458605975, 'grid_iou25_capacity': 1.0}
+main_uniform_regression_qa 1 {'geometry': 1.0481, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 200 {'geometry': 1.1958, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 400 {'geometry': 1.1941, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 600 {'geometry': 1.1905, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 800 {'geometry': 1.1929, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 1000 {'geometry': 1.0756, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 1200 {'geometry': 1.0547, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 1400 {'geometry': 1.0489, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 1600 {'geometry': 0.719, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 1800 {'geometry': 1.1485, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 2000 {'geometry': 1.0992, 'ce': 0.0, 'kl': 0.0}
+main_uniform_regression_qa 完成 {'n': 1024, 'accuracy': 0.314453125, 'iou': 0.1953155919668461, 'endpoint_mae_s': 3436.3691856972873, 'target_hit': 0.8203125, 'target_occupancy': 0.09859466552734375, 'prefix_coverage': 0.819060773480663, 'grid_max_iou': 0.7473454457740445, 'nearest_boundary_mae_s': 38.593209141050465, 'grid_iou25_capacity': 0.9140625} {'n': 128, 'accuracy': 0.171875, 'iou': 0.09830721436446765, 'endpoint_mae_s': 3959.2552012205124, 'target_hit': 0.8984375, 'target_occupancy': 0.06500244140625, 'prefix_coverage': 0.8297872340425532, 'grid_max_iou': 0.7529949501040392, 'nearest_boundary_mae_s': 39.405506394803524, 'grid_iou25_capacity': 0.921875}
+main_uniform_pointer_qa 1 {'geometry': 1.1945, 'ce': 4.9349, 'kl': 0.0}
+main_uniform_pointer_qa 200 {'geometry': 1.1087, 'ce': 4.4022, 'kl': 0.0}
+main_uniform_pointer_qa 400 {'geometry': 1.1298, 'ce': 4.406, 'kl': 0.0}
+main_uniform_pointer_qa 600 {'geometry': 1.049, 'ce': 4.2128, 'kl': 0.0}
+main_uniform_pointer_qa 800 {'geometry': 1.0475, 'ce': 3.8414, 'kl': 0.0}
+main_uniform_pointer_qa 1000 {'geometry': 1.0271, 'ce': 4.0167, 'kl': 0.0}
+main_uniform_pointer_qa 1200 {'geometry': 0.917, 'ce': 3.3145, 'kl': 0.0}
+main_uniform_pointer_qa 1400 {'geometry': 0.9996, 'ce': 3.5489, 'kl': 0.0}
+main_uniform_pointer_qa 1600 {'geometry': 0.7132, 'ce': 2.7145, 'kl': 0.0}
+main_uniform_pointer_qa 1800 {'geometry': 0.9754, 'ce': 2.6104, 'kl': 0.0}
+main_uniform_pointer_qa 2000 {'geometry': 0.8896, 'ce': 2.3353, 'kl': 0.0}
+main_uniform_pointer_qa 完成 {'n': 1024, 'accuracy': 0.3994140625, 'iou': 0.3045850250099704, 'endpoint_mae_s': 2165.5438452826347, 'target_hit': 0.8203125, 'target_occupancy': 0.09859466552734375, 'prefix_coverage': 0.819060773480663, 'grid_max_iou': 0.7473454457740445, 'nearest_boundary_mae_s': 38.593209141050465, 'grid_iou25_capacity': 0.9140625} {'n': 128, 'accuracy': 0.1640625, 'iou': 0.12094505674576794, 'endpoint_mae_s': 3532.7978378534317, 'target_hit': 0.8984375, 'target_occupancy': 0.06500244140625, 'prefix_coverage': 0.8297872340425532, 'grid_max_iou': 0.7529949501040392, 'nearest_boundary_mae_s': 39.405506394803524, 'grid_iou25_capacity': 0.921875}
+main_adaptive_regression_qa 1 {'geometry': 1.0479, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 200 {'geometry': 1.1881, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 400 {'geometry': 1.1816, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 600 {'geometry': 1.1508, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 800 {'geometry': 1.1506, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 1000 {'geometry': 1.0992, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 1200 {'geometry': 1.0563, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 1400 {'geometry': 1.0563, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 1600 {'geometry': 0.7894, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 1800 {'geometry': 1.1011, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 2000 {'geometry': 1.071, 'ce': 0.0, 'kl': 0.0}
+main_adaptive_regression_qa 完成 {'n': 1024, 'accuracy': 0.3095703125, 'iou': 0.1856733562435693, 'endpoint_mae_s': 3670.544809674844, 'target_hit': 0.8447265625, 'target_occupancy': 0.100311279296875, 'prefix_coverage': 0.8232044198895028, 'grid_max_iou': 0.7466923504089209, 'nearest_boundary_mae_s': 38.540778590017, 'grid_iou25_capacity': 0.908203125} {'n': 128, 'accuracy': 0.1640625, 'iou': 0.11678267336174031, 'endpoint_mae_s': 4313.160886883736, 'target_hit': 0.890625, 'target_occupancy': 0.06683349609375, 'prefix_coverage': 0.8829787234042553, 'grid_max_iou': 0.7597780895011965, 'nearest_boundary_mae_s': 38.74024005420506, 'grid_iou25_capacity': 0.9296875}
+main_adaptive_pointer_qa 1 {'geometry': 1.1953, 'ce': 4.9267, 'kl': 0.0}
+main_adaptive_pointer_qa 200 {'geometry': 1.0613, 'ce': 4.1536, 'kl': 0.0}
+main_adaptive_pointer_qa 400 {'geometry': 1.1323, 'ce': 4.3596, 'kl': 0.0}
+main_adaptive_pointer_qa 600 {'geometry': 1.1451, 'ce': 3.0649, 'kl': 0.0}
+main_adaptive_pointer_qa 800 {'geometry': 1.1232, 'ce': 3.3335, 'kl': 0.0}
+main_adaptive_pointer_qa 1000 {'geometry': 1.056, 'ce': 2.2344, 'kl': 0.0}
+main_adaptive_pointer_qa 1200 {'geometry': 1.0813, 'ce': 2.2236, 'kl': 0.0}
+main_adaptive_pointer_qa 1400 {'geometry': 1.1222, 'ce': 1.9586, 'kl': 0.0}
+main_adaptive_pointer_qa 1600 {'geometry': 0.9228, 'ce': 2.2233, 'kl': 0.0}
+main_adaptive_pointer_qa 1800 {'geometry': 1.1942, 'ce': 3.58, 'kl': 0.0}
+main_adaptive_pointer_qa 2000 {'geometry': 1.0997, 'ce': 3.1383, 'kl': 0.0}
+main_adaptive_pointer_qa 完成 {'n': 1024, 'accuracy': 0.248046875, 'iou': 0.1535986630379398, 'endpoint_mae_s': 4203.291519633029, 'target_hit': 0.763671875, 'target_occupancy': 0.1981048583984375, 'prefix_coverage': 0.7665745856353591, 'grid_max_iou': 0.5808651609311823, 'nearest_boundary_mae_s': 402.3382709011785, 'grid_iou25_capacity': 0.740234375} {'n': 128, 'accuracy': 0.203125, 'iou': 0.13430533954669954, 'endpoint_mae_s': 4658.385453283787, 'target_hit': 0.7109375, 'target_occupancy': 0.1966552734375, 'prefix_coverage': 0.7978723404255319, 'grid_max_iou': 0.526959191241076, 'nearest_boundary_mae_s': 529.6483520902693, 'grid_iou25_capacity': 0.6875}
+main_adaptive_regression_joint 1 {'geometry': 1.0479, 'ce': 0.0, 'kl': 1.2199}
+main_adaptive_regression_joint 200 {'geometry': 1.1982, 'ce': 0.0, 'kl': 1.4704}
+main_adaptive_regression_joint 400 {'geometry': 1.23, 'ce': 0.0, 'kl': 1.1814}
+main_adaptive_regression_joint 600 {'geometry': 1.1778, 'ce': 0.0, 'kl': 1.2603}
+main_adaptive_regression_joint 800 {'geometry': 1.1566, 'ce': 0.0, 'kl': 1.194}
+main_adaptive_regression_joint 1000 {'geometry': 1.098, 'ce': 0.0, 'kl': 1.6256}
+main_adaptive_regression_joint 1200 {'geometry': 1.0401, 'ce': 0.0, 'kl': 1.1253}
+main_adaptive_regression_joint 1400 {'geometry': 1.0712, 'ce': 0.0, 'kl': 1.2075}
+main_adaptive_regression_joint 1600 {'geometry': 0.7895, 'ce': 0.0, 'kl': 1.2573}
+main_adaptive_regression_joint 1800 {'geometry': 1.1433, 'ce': 0.0, 'kl': 0.9209}
+main_adaptive_regression_joint 2000 {'geometry': 1.0572, 'ce': 0.0, 'kl': 1.1601}
+main_adaptive_regression_joint 完成 {'n': 1024, 'accuracy': 0.3056640625, 'iou': 0.18859438910720883, 'endpoint_mae_s': 2905.961573485285, 'target_hit': 0.9951171875, 'target_occupancy': 0.249542236328125, 'prefix_coverage': 0.9972375690607734, 'grid_max_iou': 0.9529963110035169, 'nearest_boundary_mae_s': 21.29067361264606, 'grid_iou25_capacity': 0.9990234375} {'n': 128, 'accuracy': 0.1953125, 'iou': 0.13484561601217138, 'endpoint_mae_s': 3670.8835537433624, 'target_hit': 1.0, 'target_occupancy': 0.2156982421875, 'prefix_coverage': 1.0, 'grid_max_iou': 0.9621074325405061, 'nearest_boundary_mae_s': 17.385120102087967, 'grid_iou25_capacity': 1.0}
+main_adaptive_pointer_joint 1 {'geometry': 1.1953, 'ce': 4.9267, 'kl': 1.2199}
+main_adaptive_pointer_joint 200 {'geometry': 1.0375, 'ce': 4.5728, 'kl': 2.2484}
+main_adaptive_pointer_joint 400 {'geometry': 1.164, 'ce': 4.3897, 'kl': 2.2537}
+main_adaptive_pointer_joint 600 {'geometry': 1.1069, 'ce': 3.2858, 'kl': 4.3544}
+main_adaptive_pointer_joint 800 {'geometry': 1.0713, 'ce': 3.2348, 'kl': 3.2531}
+main_adaptive_pointer_joint 1000 {'geometry': 1.0768, 'ce': 3.0922, 'kl': 5.0027}
+main_adaptive_pointer_joint 1200 {'geometry': 1.0875, 'ce': 3.3745, 'kl': 3.3265}
+main_adaptive_pointer_joint 1400 {'geometry': 1.0732, 'ce': 3.024, 'kl': 4.3387}
+main_adaptive_pointer_joint 1600 {'geometry': 0.8986, 'ce': 2.8618, 'kl': 2.439}
+main_adaptive_pointer_joint 1800 {'geometry': 1.1517, 'ce': 2.1538, 'kl': 4.6329}
+main_adaptive_pointer_joint 2000 {'geometry': 1.0527, 'ce': 3.8042, 'kl': 2.6138}
+main_adaptive_pointer_joint 完成 {'n': 1024, 'accuracy': 0.3779296875, 'iou': 0.2827671914328391, 'endpoint_mae_s': 3620.8674772194936, 'target_hit': 0.9091796875, 'target_occupancy': 0.2450103759765625, 'prefix_coverage': 0.93646408839779, 'grid_max_iou': 0.8080098425268716, 'nearest_boundary_mae_s': 85.52219543216052, 'grid_iou25_capacity': 0.90234375} {'n': 128, 'accuracy': 0.3359375, 'iou': 0.25465074026396906, 'endpoint_mae_s': 4197.941226314753, 'target_hit': 0.9609375, 'target_occupancy': 0.21759033203125, 'prefix_coverage': 0.9361702127659575, 'grid_max_iou': 0.824125558940068, 'nearest_boundary_mae_s': 82.29937948659062, 'grid_iou25_capacity': 0.9453125}
+main_blind_pointer_joint 1 {'geometry': 1.1949, 'ce': 4.9375, 'kl': 1.2189}
+main_blind_pointer_joint 200 {'geometry': 1.1571, 'ce': 4.6043, 'kl': 2.0576}
+main_blind_pointer_joint 400 {'geometry': 1.1606, 'ce': 3.8948, 'kl': 3.2619}
+main_blind_pointer_joint 600 {'geometry': 1.0777, 'ce': 3.4014, 'kl': 3.3173}
+main_blind_pointer_joint 800 {'geometry': 1.1243, 'ce': 2.6452, 'kl': 4.7659}
+main_blind_pointer_joint 1000 {'geometry': 1.0487, 'ce': 3.3921, 'kl': 3.2213}
+main_blind_pointer_joint 1200 {'geometry': 1.0374, 'ce': 2.9037, 'kl': 3.355}
+main_blind_pointer_joint 1400 {'geometry': 1.0548, 'ce': 4.3878, 'kl': 2.3262}
+main_blind_pointer_joint 1600 {'geometry': 0.9794, 'ce': 3.8718, 'kl': 2.1075}
+main_blind_pointer_joint 1800 {'geometry': 1.1915, 'ce': 2.9602, 'kl': 2.6824}
+main_blind_pointer_joint 2000 {'geometry': 1.0751, 'ce': 2.3299, 'kl': 4.8063}
+main_blind_pointer_joint 完成 {'n': 1024, 'accuracy': 0.3447265625, 'iou': 0.2366116538067331, 'endpoint_mae_s': 3719.3755873559276, 'target_hit': 0.7607421875, 'target_occupancy': 0.290679931640625, 'prefix_coverage': 0.7348066298342542, 'grid_max_iou': 0.5645928802791786, 'nearest_boundary_mae_s': 568.3505787553731, 'grid_iou25_capacity': 0.72265625} {'n': 128, 'accuracy': 0.28125, 'iou': 0.20285695431448403, 'endpoint_mae_s': 4565.312919134274, 'target_hit': 0.7734375, 'target_occupancy': 0.2777099609375, 'prefix_coverage': 0.7872340425531915, 'grid_max_iou': 0.5564040578810818, 'nearest_boundary_mae_s': 508.827264348045, 'grid_iou25_capacity': 0.6953125}
