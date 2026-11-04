@@ -1,0 +1,18 @@
+{
+  "name": "long_adaptive_32",
+  "method": "adaptive",
+  "regime": "joint",
+  "seed": 7,
+  "tokens": 32,
+  "time_mode": "absolute",
+  "steps": 200,
+  "warmup_steps": 50,
+  "batch_size": 8,
+  "lr": 0.001,
+  "density_weight": 1.0,
+  "coverage_weight": 0.0,
+  "proxy_kind": "boundary_context",
+  "amp": true,
+  "train_group": "long_train",
+  "validation_group": "long_validation"
+}

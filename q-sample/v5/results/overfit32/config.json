@@ -1,0 +1,19 @@
+{
+  "name": "overfit32",
+  "method": "adaptive",
+  "regime": "joint",
+  "seed": 7,
+  "tokens": 128,
+  "time_mode": "absolute",
+  "steps": 800,
+  "warmup_steps": 100,
+  "batch_size": 8,
+  "lr": 0.001,
+  "density_weight": 1.0,
+  "coverage_weight": 0.0,
+  "proxy_kind": "boundary_context",
+  "amp": true,
+  "train_group": "overfit",
+  "validation_group": "overfit",
+  "eval_every": 200
+}

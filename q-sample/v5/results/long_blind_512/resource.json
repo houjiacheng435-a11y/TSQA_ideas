@@ -1,0 +1,12 @@
+{
+  "seconds": 16.57780595123768,
+  "peak_allocated_mib": 169.7890625,
+  "peak_reserved_mib": 212.0,
+  "parameters": 97451,
+  "train_n": 16,
+  "validation_n": 8,
+  "updates": 200,
+  "amp": "bfloat16",
+  "torch": "2.6.0+cu124",
+  "gpu": "NVIDIA GeForce RTX 4090 D"
+}

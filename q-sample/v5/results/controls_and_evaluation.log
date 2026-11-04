@@ -1,0 +1,133 @@
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+等待主矩阵24个最终checkpoint
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: Flash Attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:102.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+coordinate_only 1 {'total': 0.88, 'qa': 0.88, 'density_kl': 0.4032, 'entropy': 6.209}
+coordinate_only 100 {'total': 0.6279, 'qa': 0.6279, 'density_kl': 1.4255, 'entropy': 7.7096}
+coordinate_only 200 {'total': 0.4428, 'qa': 0.4428, 'density_kl': 1.0282, 'entropy': 7.7865}
+coordinate_only 300 {'total': 0.6248, 'qa': 0.6248, 'density_kl': 1.1514, 'entropy': 7.4587}
+coordinate_only 400 {'total': 0.6191, 'qa': 0.6191, 'density_kl': 0.8968, 'entropy': 7.2309}
+coordinate_only 完成
+query_only 1 {'total': 0.8689, 'qa': 0.8689, 'density_kl': 0.4032, 'entropy': 6.209}
+query_only 100 {'total': 0.5971, 'qa': 0.5971, 'density_kl': 1.4255, 'entropy': 7.7096}
+query_only 200 {'total': 0.453, 'qa': 0.453, 'density_kl': 1.0282, 'entropy': 7.7865}
+query_only 300 {'total': 0.5943, 'qa': 0.5943, 'density_kl': 1.1514, 'entropy': 7.4587}
+query_only 400 {'total': 0.6239, 'qa': 0.6239, 'density_kl': 0.8968, 'entropy': 7.2309}
+query_only 完成
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: upsample_linear1d_backward_out_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: adaptive_avg_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+adaptive_joint_signal 1 {'total': 1.9231, 'qa': 0.8976, 'density_kl': 1.0255, 'entropy': 7.0862}
+adaptive_joint_signal 100 {'total': 2.4202, 'qa': 0.6755, 'density_kl': 1.7447, 'entropy': 7.592}
+adaptive_joint_signal 200 {'total': 1.7696, 'qa': 0.6766, 'density_kl': 1.093, 'entropy': 7.8762}
+adaptive_joint_signal 300 {'total': 2.0773, 'qa': 0.5898, 'density_kl': 1.4875, 'entropy': 7.5952}
+adaptive_joint_signal 400 {'total': 1.4868, 'qa': 0.6147, 'density_kl': 0.8721, 'entropy': 6.9561}
+adaptive_joint_signal 完成
+adaptive_joint_gaps 1 {'total': 1.8984, 'qa': 0.8728, 'density_kl': 1.0255, 'entropy': 7.0862}
+adaptive_joint_gaps 100 {'total': 2.5322, 'qa': 0.6683, 'density_kl': 1.8639, 'entropy': 8.3218}
+adaptive_joint_gaps 200 {'total': 1.5663, 'qa': 0.6127, 'density_kl': 0.9536, 'entropy': 7.5639}
+adaptive_joint_gaps 300 {'total': 2.127, 'qa': 0.602, 'density_kl': 1.525, 'entropy': 8.2165}
+adaptive_joint_gaps 400 {'total': 1.4038, 'qa': 0.5666, 'density_kl': 0.8372, 'entropy': 6.9293}
+adaptive_joint_gaps 完成
+adaptive_joint_source_safe 1 {'total': 2.1995, 'qa': 0.9298, 'density_kl': 1.2697, 'entropy': 7.0891}
+adaptive_joint_source_safe 100 {'total': 2.0492, 'qa': 0.7457, 'density_kl': 1.3035, 'entropy': 7.512}
+adaptive_joint_source_safe 200 {'total': 2.0519, 'qa': 0.466, 'density_kl': 1.5859, 'entropy': 7.2379}
+adaptive_joint_source_safe 300 {'total': 1.884, 'qa': 0.6107, 'density_kl': 1.2733, 'entropy': 7.8184}
+adaptive_joint_source_safe 400 {'total': 1.6369, 'qa': 0.4836, 'density_kl': 1.1533, 'entropy': 7.962}
+adaptive_joint_source_safe 完成
+retention_adaptive_s7 1 {'total': 1.0255, 'qa': 0.8744, 'density_kl': 1.0255, 'entropy': 7.0862}
+retention_adaptive_s7 100 {'total': 1.5983, 'qa': 0.9538, 'density_kl': 1.5983, 'entropy': 7.7278}
+retention_adaptive_s7 200 {'total': 0.6884, 'qa': 0.6884, 'density_kl': 3.2337, 'entropy': 8.5634}
+retention_adaptive_s7 300 {'total': 0.6223, 'qa': 0.6223, 'density_kl': 2.5037, 'entropy': 8.5696}
+retention_adaptive_s7 400 {'total': 0.7434, 'qa': 0.7434, 'density_kl': 1.9623, 'entropy': 8.1071}
+retention_adaptive_s7 完成
+retention_adaptive_s11 1 {'total': 1.7149, 'qa': 0.9609, 'density_kl': 1.7149, 'entropy': 7.0895}
+retention_adaptive_s11 100 {'total': 1.3053, 'qa': 0.8906, 'density_kl': 1.3053, 'entropy': 7.5642}
+retention_adaptive_s11 200 {'total': 0.9279, 'qa': 0.9279, 'density_kl': 2.7124, 'entropy': 8.5545}
+retention_adaptive_s11 300 {'total': 0.5727, 'qa': 0.5727, 'density_kl': 3.686, 'entropy': 8.5233}
+retention_adaptive_s11 400 {'total': 0.9317, 'qa': 0.9317, 'density_kl': 5.2545, 'entropy': 8.501}
+retention_adaptive_s11 完成
+retention_adaptive_s23 1 {'total': 1.8834, 'qa': 1.0259, 'density_kl': 1.8834, 'entropy': 7.0875}
+retention_adaptive_s23 100 {'total': 0.9928, 'qa': 1.076, 'density_kl': 0.9928, 'entropy': 7.4555}
+retention_adaptive_s23 200 {'total': 0.7393, 'qa': 0.7393, 'density_kl': 2.6482, 'entropy': 8.5642}
+retention_adaptive_s23 300 {'total': 0.6697, 'qa': 0.6697, 'density_kl': 3.5029, 'entropy': 8.5391}
+retention_adaptive_s23 400 {'total': 0.6661, 'qa': 0.6661, 'density_kl': 3.6602, 'entropy': 8.5834}
+retention_adaptive_s23 完成
+retention_blind_s7 1 {'total': 1.031, 'qa': 0.8752, 'density_kl': 1.031, 'entropy': 7.0862}
+retention_blind_s7 100 {'total': 1.801, 'qa': 0.9589, 'density_kl': 1.801, 'entropy': 7.6502}
+retention_blind_s7 200 {'total': 0.6648, 'qa': 0.6648, 'density_kl': 2.375, 'entropy': 8.5703}
+retention_blind_s7 300 {'total': 0.6142, 'qa': 0.6142, 'density_kl': 3.0415, 'entropy': 8.5824}
+retention_blind_s7 400 {'total': 0.7713, 'qa': 0.7713, 'density_kl': 2.8314, 'entropy': 8.5788}
+retention_blind_s7 完成
+retention_blind_s11 1 {'total': 1.7116, 'qa': 0.9617, 'density_kl': 1.7116, 'entropy': 7.0896}
+retention_blind_s11 100 {'total': 1.3979, 'qa': 0.8868, 'density_kl': 1.3979, 'entropy': 7.5603}
+retention_blind_s11 200 {'total': 0.9748, 'qa': 0.9748, 'density_kl': 1.9731, 'entropy': 7.2358}
+retention_blind_s11 300 {'total': 0.8954, 'qa': 0.8954, 'density_kl': 2.3045, 'entropy': 8.4251}
+retention_blind_s11 400 {'total': 0.9839, 'qa': 0.9839, 'density_kl': 3.1349, 'entropy': 8.373}
+retention_blind_s11 完成
+retention_blind_s23 1 {'total': 1.8864, 'qa': 1.0292, 'density_kl': 1.8864, 'entropy': 7.0879}
+retention_blind_s23 100 {'total': 1.1394, 'qa': 1.0636, 'density_kl': 1.1394, 'entropy': 7.3276}
+retention_blind_s23 200 {'total': 0.7107, 'qa': 0.7107, 'density_kl': 2.537, 'entropy': 5.5645}
+retention_blind_s23 300 {'total': 0.557, 'qa': 0.557, 'density_kl': 1.4565, 'entropy': 7.5462}
+retention_blind_s23 400 {'total': 0.615, 'qa': 0.615, 'density_kl': 1.9963, 'entropy': 4.9226}
+retention_blind_s23 完成
+adaptive_joint_gaps 最终验证/测试完成
+adaptive_joint_s11 最终验证/测试完成
+adaptive_joint_s23 最终验证/测试完成
+adaptive_joint_s7 最终验证/测试完成
+adaptive_joint_signal 最终验证/测试完成
+adaptive_joint_source_safe 最终验证/测试完成
+adaptive_qa_s11 最终验证/测试完成
+adaptive_qa_s23 最终验证/测试完成
+adaptive_qa_s7 最终验证/测试完成
+adaptive_warmup_s11 最终验证/测试完成
+adaptive_warmup_s23 最终验证/测试完成
+adaptive_warmup_s7 最终验证/测试完成
+blind_joint_s11 最终验证/测试完成
+blind_joint_s23 最终验证/测试完成
+blind_joint_s7 最终验证/测试完成
+blind_qa_s11 最终验证/测试完成
+blind_qa_s23 最终验证/测试完成
+blind_qa_s7 最终验证/测试完成
+blind_warmup_s11 最终验证/测试完成
+blind_warmup_s23 最终验证/测试完成
+blind_warmup_s7 最终验证/测试完成
+coordinate_only 最终验证/测试完成
+query_only 最终验证/测试完成
+retention_adaptive_s11 最终验证/测试完成
+retention_adaptive_s23 最终验证/测试完成
+retention_adaptive_s7 最终验证/测试完成
+retention_blind_s11 最终验证/测试完成
+retention_blind_s23 最终验证/测试完成
+retention_blind_s7 最终验证/测试完成
+saliency_qa_s11 最终验证/测试完成
+saliency_qa_s23 最终验证/测试完成
+saliency_qa_s7 最终验证/测试完成
+uniform_qa_s11 最终验证/测试完成
+uniform_qa_s23 最终验证/测试完成
+uniform_qa_s7 最终验证/测试完成
+{'counts': {'train': {'existence:No': 15, 'existence:Yes': 17, 'localization': 32}, 'validation': {'existence:Yes': 10, 'existence:No': 6, 'localization': 16}, 'test': {'existence:Yes': 8, 'existence:No': 8, 'localization': 16}}, 'question_exact_overlap_count': {'train_validation': 5, 'train_test': 5}, 'missing': 0, 'exact_cross_split_duplicates': 0, 'near_duplicates': 0, 'near_criterion': 'same native length, correlation>.999 AND RMSE/max(std_x,std_y,1W)<.01', 'background_overlap_pairs': 61, 'existence_no_background_index_conflicts': 0}
+| 方法 / 监督 | Existence Acc | Balanced Acc | Localization Acc | Mean IoU | Endpoint MAE (s) | Loc Target Occupancy |
+|---|---:|---:|---:|---:|---:|---:|
+| adaptive / joint | 64.58 ± 3.61 | 64.58 ± 3.61 | 6.25 ± 0.00 | 0.03 ± 0.00 | 5293.04 ± 392.70 | 23.83 ± 0.94 |
+| adaptive / qa | 68.75 ± 6.25 | 68.75 ± 6.25 | 10.42 ± 3.61 | 0.04 ± 0.01 | 5537.93 ± 414.99 | 6.10 ± 1.82 |
+| adaptive / warmup | 66.67 ± 3.61 | 66.67 ± 3.61 | 4.17 ± 3.61 | 0.03 ± 0.01 | 5113.74 ± 803.50 | 13.54 ± 8.90 |
+| blind / joint | 60.42 ± 3.61 | 60.42 ± 3.61 | 8.33 ± 7.22 | 0.04 ± 0.02 | 5266.48 ± 602.10 | 19.29 ± 4.15 |
+| blind / qa | 68.75 ± 6.25 | 68.75 ± 6.25 | 6.25 ± 6.25 | 0.03 ± 0.02 | 5427.43 ± 660.26 | 4.69 ± 2.40 |
+| blind / warmup | 64.58 ± 9.55 | 64.58 ± 9.55 | 8.33 ± 3.61 | 0.07 ± 0.01 | 4916.65 ± 804.24 | 25.10 ± 3.02 |
+| saliency / qa | 62.50 ± 12.50 | 62.50 ± 12.50 | 12.50 ± 6.25 | 0.06 ± 0.02 | 5587.41 ± 780.99 | 27.78 ± 0.00 |
+| uniform / qa | 58.33 ± 9.55 | 58.33 ± 9.55 | 10.42 ± 3.61 | 0.05 ± 0.02 | 5531.47 ± 1173.07 | 6.79 ± 0.00 |

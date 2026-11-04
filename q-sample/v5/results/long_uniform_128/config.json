@@ -1,0 +1,18 @@
+{
+  "name": "long_uniform_128",
+  "method": "uniform",
+  "regime": "qa",
+  "seed": 7,
+  "tokens": 128,
+  "time_mode": "absolute",
+  "steps": 200,
+  "warmup_steps": 50,
+  "batch_size": 8,
+  "lr": 0.001,
+  "density_weight": 1.0,
+  "coverage_weight": 0.0,
+  "proxy_kind": "boundary_context",
+  "amp": true,
+  "train_group": "long_train",
+  "validation_group": "long_validation"
+}

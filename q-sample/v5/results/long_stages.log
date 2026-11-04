@@ -1,0 +1,159 @@
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待Stage3完整正式评分与控制
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_train
+等待long_validation
+等待long_validation
+等待long_validation
+等待long_validation
+等待long_validation
+等待long_validation
+等待long_test
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: Flash Attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:102.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: upsample_linear1d_backward_out_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: adaptive_avg_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+long_adaptive_32 1 {'total': 4.0937, 'qa': 1.0093, 'density_kl': 3.0844, 'entropy': 9.5722}
+long_adaptive_32 100 {'total': 3.1347, 'qa': 0.3965, 'density_kl': 2.7382, 'entropy': 8.6675}
+long_adaptive_32 200 {'total': 2.467, 'qa': 0.5218, 'density_kl': 1.9452, 'entropy': 8.4775}
+long_adaptive_32 完成
+long_blind_32 1 {'total': 4.0847, 'qa': 1.0082, 'density_kl': 3.0765, 'entropy': 9.5724}
+long_blind_32 100 {'total': 3.3743, 'qa': 0.4647, 'density_kl': 2.9096, 'entropy': 9.2406}
+long_blind_32 200 {'total': 2.8807, 'qa': 0.5369, 'density_kl': 2.3438, 'entropy': 8.167}
+long_blind_32 完成
+long_uniform_32 1 {'total': 1.0087, 'qa': 1.0087, 'density_kl': 3.0105, 'entropy': 9.575}
+long_uniform_32 100 {'total': 0.4961, 'qa': 0.4961, 'density_kl': 3.229, 'entropy': 9.575}
+long_uniform_32 200 {'total': 0.5111, 'qa': 0.5111, 'density_kl': 2.8985, 'entropy': 9.575}
+long_uniform_32 完成
+long_saliency_32 1 {'total': 1.0103, 'qa': 1.0103, 'density_kl': 3.3276, 'entropy': 7.8625}
+long_saliency_32 100 {'total': 0.4389, 'qa': 0.4389, 'density_kl': 3.5584, 'entropy': 7.6996}
+long_saliency_32 200 {'total': 0.4327, 'qa': 0.4327, 'density_kl': 2.8682, 'entropy': 7.6456}
+long_saliency_32 完成
+long_adaptive_64 1 {'total': 4.1062, 'qa': 1.0218, 'density_kl': 3.0844, 'entropy': 9.5722}
+long_adaptive_64 100 {'total': 3.0422, 'qa': 0.4339, 'density_kl': 2.6083, 'entropy': 8.6557}
+long_adaptive_64 200 {'total': 2.4751, 'qa': 0.5658, 'density_kl': 1.9093, 'entropy': 8.6237}
+long_adaptive_64 完成
+long_blind_64 1 {'total': 4.099, 'qa': 1.0225, 'density_kl': 3.0765, 'entropy': 9.5724}
+long_blind_64 100 {'total': 3.4098, 'qa': 0.4456, 'density_kl': 2.9642, 'entropy': 8.7755}
+long_blind_64 200 {'total': 2.5239, 'qa': 0.4234, 'density_kl': 2.1004, 'entropy': 8.7672}
+long_blind_64 完成
+long_uniform_64 1 {'total': 1.0241, 'qa': 1.0241, 'density_kl': 3.0105, 'entropy': 9.575}
+long_uniform_64 100 {'total': 0.3934, 'qa': 0.3934, 'density_kl': 3.229, 'entropy': 9.575}
+long_uniform_64 200 {'total': 0.534, 'qa': 0.534, 'density_kl': 2.8985, 'entropy': 9.575}
+long_uniform_64 完成
+long_saliency_64 1 {'total': 1.0227, 'qa': 1.0227, 'density_kl': 3.3276, 'entropy': 7.8625}
+long_saliency_64 100 {'total': 0.5166, 'qa': 0.5166, 'density_kl': 3.5584, 'entropy': 7.6996}
+long_saliency_64 200 {'total': 0.5909, 'qa': 0.5909, 'density_kl': 2.8682, 'entropy': 7.6456}
+long_saliency_64 完成
+long_adaptive_128 1 {'total': 4.1163, 'qa': 1.0319, 'density_kl': 3.0844, 'entropy': 9.5722}
+long_adaptive_128 100 {'total': 3.0098, 'qa': 0.4583, 'density_kl': 2.5515, 'entropy': 8.7442}
+long_adaptive_128 200 {'total': 2.5003, 'qa': 0.528, 'density_kl': 1.9723, 'entropy': 8.5715}
+long_adaptive_128 完成
+long_blind_128 1 {'total': 4.1087, 'qa': 1.0322, 'density_kl': 3.0765, 'entropy': 9.5724}
+long_blind_128 100 {'total': 3.3753, 'qa': 0.433, 'density_kl': 2.9423, 'entropy': 9.1798}
+long_blind_128 200 {'total': 2.5904, 'qa': 0.6474, 'density_kl': 1.943, 'entropy': 8.7598}
+long_blind_128 完成
+long_uniform_128 1 {'total': 1.0327, 'qa': 1.0327, 'density_kl': 3.0105, 'entropy': 9.575}
+long_uniform_128 100 {'total': 0.4118, 'qa': 0.4118, 'density_kl': 3.229, 'entropy': 9.575}
+long_uniform_128 200 {'total': 0.4998, 'qa': 0.4998, 'density_kl': 2.8985, 'entropy': 9.575}
+long_uniform_128 完成
+long_saliency_128 1 {'total': 1.0357, 'qa': 1.0357, 'density_kl': 3.3276, 'entropy': 7.8625}
+long_saliency_128 100 {'total': 0.4441, 'qa': 0.4441, 'density_kl': 3.5584, 'entropy': 7.6996}
+long_saliency_128 200 {'total': 0.533, 'qa': 0.533, 'density_kl': 2.8682, 'entropy': 7.6456}
+long_saliency_128 完成
+long_adaptive_256 1 {'total': 4.1192, 'qa': 1.0347, 'density_kl': 3.0844, 'entropy': 9.5722}
+long_adaptive_256 100 {'total': 2.5824, 'qa': 0.4324, 'density_kl': 2.15, 'entropy': 7.9613}
+long_adaptive_256 200 {'total': 1.9938, 'qa': 0.5511, 'density_kl': 1.4427, 'entropy': 7.8098}
+long_adaptive_256 完成
+long_blind_256 1 {'total': 4.1118, 'qa': 1.0353, 'density_kl': 3.0765, 'entropy': 9.5724}
+long_blind_256 100 {'total': 3.3284, 'qa': 0.4777, 'density_kl': 2.8507, 'entropy': 9.0908}
+long_blind_256 200 {'total': 2.5037, 'qa': 0.4686, 'density_kl': 2.0351, 'entropy': 8.9364}
+long_blind_256 完成
+long_uniform_256 1 {'total': 1.0339, 'qa': 1.0339, 'density_kl': 3.0105, 'entropy': 9.575}
+long_uniform_256 100 {'total': 0.441, 'qa': 0.441, 'density_kl': 3.229, 'entropy': 9.575}
+long_uniform_256 200 {'total': 0.5046, 'qa': 0.5046, 'density_kl': 2.8985, 'entropy': 9.575}
+long_uniform_256 完成
+long_saliency_256 1 {'total': 1.0404, 'qa': 1.0404, 'density_kl': 3.3276, 'entropy': 7.8625}
+long_saliency_256 100 {'total': 0.423, 'qa': 0.423, 'density_kl': 3.5584, 'entropy': 7.6996}
+long_saliency_256 200 {'total': 0.4567, 'qa': 0.4567, 'density_kl': 2.8682, 'entropy': 7.6456}
+long_saliency_256 完成
+long_adaptive_512 1 {'total': 4.1203, 'qa': 1.0359, 'density_kl': 3.0844, 'entropy': 9.5722}
+long_adaptive_512 100 {'total': 3.044, 'qa': 0.4654, 'density_kl': 2.5786, 'entropy': 9.1784}
+long_adaptive_512 200 {'total': 2.0624, 'qa': 0.5318, 'density_kl': 1.5306, 'entropy': 7.7719}
+long_adaptive_512 完成
+long_blind_512 1 {'total': 4.1117, 'qa': 1.0352, 'density_kl': 3.0765, 'entropy': 9.5724}
+long_blind_512 100 {'total': 3.1447, 'qa': 0.3222, 'density_kl': 2.8225, 'entropy': 9.0648}
+long_blind_512 200 {'total': 2.5128, 'qa': 0.4084, 'density_kl': 2.1044, 'entropy': 8.993}
+long_blind_512 完成
+long_uniform_512 1 {'total': 1.0366, 'qa': 1.0366, 'density_kl': 3.0105, 'entropy': 9.575}
+long_uniform_512 100 {'total': 0.4499, 'qa': 0.4499, 'density_kl': 3.229, 'entropy': 9.575}
+long_uniform_512 200 {'total': 0.5329, 'qa': 0.5329, 'density_kl': 2.8985, 'entropy': 9.575}
+long_uniform_512 完成
+long_saliency_512 1 {'total': 1.0417, 'qa': 1.0417, 'density_kl': 3.3276, 'entropy': 7.8625}
+long_saliency_512 100 {'total': 0.448, 'qa': 0.448, 'density_kl': 3.5584, 'entropy': 7.6996}
+long_saliency_512 200 {'total': 0.4603, 'qa': 0.4603, 'density_kl': 2.8682, 'entropy': 7.6456}
+long_saliency_512 完成
+long_adaptive_32 {"existence": {"n": 4, "accuracy": 0.75, "positive_accuracy": 0.5, "negative_accuracy": 1.0, "balanced_accuracy": 0.75, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.46875, "target_mass": 0.47565339505672455, "distractor_occupancy": 0.2578125, "distractor_mass": 0.26548057049512863, "entropy": 6.31443452835083, "max_density": 0.013717353926040232, "by_length": {"14400": {"n": 4, "accuracy": 0.75}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 32392.4501953125, "normalized_endpoint_mae": 0.3749126195907593, "target_hit": 0.75, "target_occupancy": 0.21875, "target_mass": 0.20634787643211894, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 8.699989914894104, "max_density": 0.0017836080442066304, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_blind_32 {"existence": {"n": 4, "accuracy": 0.75, "positive_accuracy": 0.5, "negative_accuracy": 1.0, "balanced_accuracy": 0.75, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.546875, "target_mass": 0.5529392808675766, "distractor_occupancy": 0.4375, "distractor_mass": 0.4372749924659729, "entropy": 5.073621392250061, "max_density": 0.05654178420081735, "by_length": {"14400": {"n": 4, "accuracy": 0.75}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 28749.5, "normalized_endpoint_mae": 0.3327488452196121, "target_hit": 0.75, "target_occupancy": 0.234375, "target_mass": 0.23078266595257446, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 8.0375394821167, "max_density": 0.004356093821115792, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_uniform_32 {"existence": {"n": 4, "accuracy": 0.75, "positive_accuracy": 0.5, "negative_accuracy": 1.0, "balanced_accuracy": 0.75, "positive_n": 2, "negative_n": 2, "target_hit": 0.5, "target_occupancy": 0.03125, "target_mass": 0.03420138143701479, "distractor_occupancy": 0.0234375, "distractor_mass": 0.017499997920822352, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.75}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 28340.438720703125, "normalized_endpoint_mae": 0.3280143402516842, "target_hit": 0.25, "target_occupancy": 0.0234375, "target_mass": 0.02546874697873136, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_saliency_32 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.0, "negative_accuracy": 1.0, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.234375, "target_mass": 0.22866205126047134, "distractor_occupancy": 0.1171875, "distractor_mass": 0.1242094561457634, "entropy": 8.096594095230103, "max_density": 0.02435811096802354, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 31517.2431640625, "normalized_endpoint_mae": 0.3647829070687294, "target_hit": 0.75, "target_occupancy": 0.1796875, "target_mass": 0.1687759703490883, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 7.918934464454651, "max_density": 0.008753821603022516, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_adaptive_64 {"existence": {"n": 4, "accuracy": 0.25, "positive_accuracy": 0.0, "negative_accuracy": 0.5, "balanced_accuracy": 0.25, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.3046875, "target_mass": 0.305776447057724, "distractor_occupancy": 0.1484375, "distractor_mass": 0.14802098274230957, "entropy": 7.074495077133179, "max_density": 0.01696609554346651, "by_length": {"14400": {"n": 4, "accuracy": 0.25}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 27236.904052734375, "normalized_endpoint_mae": 0.3152419403195381, "target_hit": 0.75, "target_occupancy": 0.171875, "target_mass": 0.1694902463350445, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 8.8841073513031, "max_density": 0.0021933706157142296, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_blind_64 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.359375, "target_mass": 0.361439049243927, "distractor_occupancy": 0.2890625, "distractor_mass": 0.2916201204061508, "entropy": 6.3513869643211365, "max_density": 0.030767303833272308, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 42145.67578125, "normalized_endpoint_mae": 0.48779717832803726, "target_hit": 0.75, "target_occupancy": 0.15625, "target_mass": 0.15395763888955116, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 8.684224605560303, "max_density": 0.004822315226192586, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_uniform_64 {"existence": {"n": 4, "accuracy": 0.75, "positive_accuracy": 0.5, "negative_accuracy": 1.0, "balanced_accuracy": 0.75, "positive_n": 2, "negative_n": 2, "target_hit": 0.5, "target_occupancy": 0.0390625, "target_mass": 0.03420138143701479, "distractor_occupancy": 0.01953125, "distractor_mass": 0.017499997920822352, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.75}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 35204.47900390625, "normalized_endpoint_mae": 0.4074592553079128, "target_hit": 0.5, "target_occupancy": 0.0234375, "target_mass": 0.02546874697873136, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_saliency_64 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.2265625, "target_mass": 0.22866205126047134, "distractor_occupancy": 0.12890625, "distractor_mass": 0.1242094561457634, "entropy": 8.096594095230103, "max_density": 0.02435811096802354, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 24441.997924804688, "normalized_endpoint_mae": 0.28289349749684334, "target_hit": 0.75, "target_occupancy": 0.16796875, "target_mass": 0.1687759703490883, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 7.918934464454651, "max_density": 0.008753821603022516, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_adaptive_128 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.38671875, "target_mass": 0.3887885808944702, "distractor_occupancy": 0.19140625, "distractor_mass": 0.19048697501420975, "entropy": 7.232010245323181, "max_density": 0.010832996049430221, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.03261812403798103, "endpoint_mae_s": 37304.00701904297, "normalized_endpoint_mae": 0.4317593276500702, "target_hit": 1.0, "target_occupancy": 0.181640625, "target_mass": 0.17981205770047382, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 8.919997930526733, "max_density": 0.0013974236353533342, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_blind_128 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.23046875, "target_mass": 0.23703571408987045, "distractor_occupancy": 0.12890625, "distractor_mass": 0.12782450392842293, "entropy": 7.555227637290955, "max_density": 0.019867349124979228, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 21065.019287109375, "normalized_endpoint_mae": 0.2438080906867981, "target_hit": 1.0, "target_occupancy": 0.095703125, "target_mass": 0.09586938354186714, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 8.986140966415405, "max_density": 0.0025191093154717237, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_uniform_128 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 0.5, "target_occupancy": 0.03515625, "target_mass": 0.03420138143701479, "distractor_occupancy": 0.015625, "distractor_mass": 0.017499997920822352, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 38043.50634765625, "normalized_endpoint_mae": 0.44031835719943047, "target_hit": 0.75, "target_occupancy": 0.025390625, "target_mass": 0.02546874697873136, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_saliency_128 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.2265625, "target_mass": 0.22866205126047134, "distractor_occupancy": 0.125, "distractor_mass": 0.1242094561457634, "entropy": 8.096594095230103, "max_density": 0.02435811096802354, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.25, "iou": 0.08205115795135498, "endpoint_mae_s": 36796.99963378906, "normalized_endpoint_mae": 0.425891206599772, "target_hit": 1.0, "target_occupancy": 0.16796875, "target_mass": 0.1687759703490883, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 7.918934464454651, "max_density": 0.008753821603022516, "by_length": {"14400": {"n": 4, "accuracy": 0.25}}}}
+long_adaptive_256 {"existence": {"n": 4, "accuracy": 0.75, "positive_accuracy": 0.5, "negative_accuracy": 1.0, "balanced_accuracy": 0.75, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.423828125, "target_mass": 0.4271952509880066, "distractor_occupancy": 0.255859375, "distractor_mass": 0.25585682317614555, "entropy": 6.440948128700256, "max_density": 0.017728292325045913, "by_length": {"14400": {"n": 4, "accuracy": 0.75}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 27697.471435546875, "normalized_endpoint_mae": 0.3205725811421871, "target_hit": 0.75, "target_occupancy": 0.1904296875, "target_mass": 0.18990461426437832, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 8.69604480266571, "max_density": 0.0029358816682361066, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_blind_256 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.216796875, "target_mass": 0.2246702015399933, "distractor_occupancy": 0.1083984375, "distractor_mass": 0.10780332610011101, "entropy": 7.607236385345459, "max_density": 0.02016050656675361, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 36649.626953125, "normalized_endpoint_mae": 0.42418550699949265, "target_hit": 1.0, "target_occupancy": 0.087890625, "target_mass": 0.08819560939446092, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 9.117082595825195, "max_density": 0.001952761500433553, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_uniform_256 {"existence": {"n": 4, "accuracy": 0.75, "positive_accuracy": 0.5, "negative_accuracy": 1.0, "balanced_accuracy": 0.75, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.03515625, "target_mass": 0.03420138143701479, "distractor_occupancy": 0.017578125, "distractor_mass": 0.017499997920822352, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.75}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 37161.7451171875, "normalized_endpoint_mae": 0.4301127940416336, "target_hit": 0.75, "target_occupancy": 0.025390625, "target_mass": 0.02546874697873136, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_saliency_256 {"existence": {"n": 4, "accuracy": 0.75, "positive_accuracy": 0.5, "negative_accuracy": 1.0, "balanced_accuracy": 0.75, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.224609375, "target_mass": 0.22866205126047134, "distractor_occupancy": 0.123046875, "distractor_mass": 0.1242094561457634, "entropy": 8.096594095230103, "max_density": 0.02435811096802354, "by_length": {"14400": {"n": 4, "accuracy": 0.75}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 32668.47119140625, "normalized_endpoint_mae": 0.37810730189085007, "target_hit": 0.75, "target_occupancy": 0.1669921875, "target_mass": 0.1687759703490883, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 7.918934464454651, "max_density": 0.008753821603022516, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_adaptive_512 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.4853515625, "target_mass": 0.4932616651058197, "distractor_occupancy": 0.32958984375, "distractor_mass": 0.3288746029138565, "entropy": 5.863887310028076, "max_density": 0.027748933527618647, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 32593.858154296875, "normalized_endpoint_mae": 0.3772437274456024, "target_hit": 1.0, "target_occupancy": 0.201171875, "target_mass": 0.2011767884832807, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 8.750226974487305, "max_density": 0.002663421953911893, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_blind_512 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.5, "negative_accuracy": 0.5, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.1474609375, "target_mass": 0.14736628904938698, "distractor_occupancy": 0.0576171875, "distractor_mass": 0.05714384792372584, "entropy": 8.469370722770691, "max_density": 0.006815063730755355, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 25442.68310546875, "normalized_endpoint_mae": 0.2944754995405674, "target_hit": 1.0, "target_occupancy": 0.091796875, "target_mass": 0.09152144007384777, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 9.024430274963379, "max_density": 0.002249380268040113, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_uniform_512 {"existence": {"n": 4, "accuracy": 0.75, "positive_accuracy": 0.5, "negative_accuracy": 1.0, "balanced_accuracy": 0.75, "positive_n": 2, "negative_n": 2, "target_hit": 0.5, "target_occupancy": 0.0341796875, "target_mass": 0.03420138143701479, "distractor_occupancy": 0.017578125, "distractor_mass": 0.017499997920822352, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.75}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.004658904392272234, "endpoint_mae_s": 36671.75, "normalized_endpoint_mae": 0.42444154620170593, "target_hit": 1.0, "target_occupancy": 0.0263671875, "target_mass": 0.02546874697873136, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 9.57498550415039, "max_density": 6.944444612599909e-05, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+long_saliency_512 {"existence": {"n": 4, "accuracy": 0.5, "positive_accuracy": 0.0, "negative_accuracy": 1.0, "balanced_accuracy": 0.5, "positive_n": 2, "negative_n": 2, "target_hit": 1.0, "target_occupancy": 0.2265625, "target_mass": 0.22866205126047134, "distractor_occupancy": 0.12451171875, "distractor_mass": 0.1242094561457634, "entropy": 8.096594095230103, "max_density": 0.02435811096802354, "by_length": {"14400": {"n": 4, "accuracy": 0.5}}}, "localization": {"n": 4, "accuracy": 0.0, "iou": 0.0, "endpoint_mae_s": 39207.943359375, "normalized_endpoint_mae": 0.4537956453859806, "target_hit": 1.0, "target_occupancy": 0.16748046875, "target_mass": 0.1687759703490883, "distractor_occupancy": 0.0, "distractor_mass": 0.0, "entropy": 7.918934464454651, "max_density": 0.008753821603022516, "by_length": {"14400": {"n": 4, "accuracy": 0.0}}}}
+| 方法 / 监督 | Existence Acc | Balanced Acc | Localization Acc | Mean IoU | Endpoint MAE (s) | Loc Target Occupancy |
+|---|---:|---:|---:|---:|---:|---:|
+| adaptive / joint | 64.58 ± 3.61 | 64.58 ± 3.61 | 6.25 ± 0.00 | 0.03 ± 0.00 | 5293.04 ± 392.70 | 23.83 ± 0.94 |
+| adaptive / qa | 68.75 ± 6.25 | 68.75 ± 6.25 | 10.42 ± 3.61 | 0.04 ± 0.01 | 5537.93 ± 414.99 | 6.10 ± 1.82 |
+| adaptive / warmup | 66.67 ± 3.61 | 66.67 ± 3.61 | 4.17 ± 3.61 | 0.03 ± 0.01 | 5113.74 ± 803.50 | 13.54 ± 8.90 |
+| blind / joint | 60.42 ± 3.61 | 60.42 ± 3.61 | 8.33 ± 7.22 | 0.04 ± 0.02 | 5266.48 ± 602.10 | 19.29 ± 4.15 |
+| blind / qa | 68.75 ± 6.25 | 68.75 ± 6.25 | 6.25 ± 6.25 | 0.03 ± 0.02 | 5427.43 ± 660.26 | 4.69 ± 2.40 |
+| blind / warmup | 64.58 ± 9.55 | 64.58 ± 9.55 | 8.33 ± 3.61 | 0.07 ± 0.01 | 4916.65 ± 804.24 | 25.10 ± 3.02 |
+| saliency / qa | 62.50 ± 12.50 | 62.50 ± 12.50 | 12.50 ± 6.25 | 0.06 ± 0.02 | 5587.41 ± 780.99 | 27.78 ± 0.00 |
+| uniform / qa | 58.33 ± 9.55 | 58.33 ± 9.55 | 10.42 ± 3.61 | 0.05 ± 0.02 | 5531.47 ± 1173.07 | 6.79 ± 0.00 |

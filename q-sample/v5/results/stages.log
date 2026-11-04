@@ -1,0 +1,170 @@
+overfit32 已完成，跳过
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: Flash Attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:102.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: upsample_linear1d_backward_out_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: adaptive_avg_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+adaptive_qa_s7 1 {'total': 0.8744, 'qa': 0.8744, 'density_kl': 1.0255, 'entropy': 7.0862}
+adaptive_qa_s7 100 {'total': 0.6298, 'qa': 0.6298, 'density_kl': 3.7008, 'entropy': 8.5386}
+adaptive_qa_s7 200 {'total': 0.5906, 'qa': 0.5906, 'density_kl': 3.7912, 'entropy': 8.5463}
+adaptive_qa_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_qa_s7 300 {'total': 0.5676, 'qa': 0.5676, 'density_kl': 3.9519, 'entropy': 8.5568}
+adaptive_qa_s7 400 {'total': 0.6258, 'qa': 0.6258, 'density_kl': 3.6437, 'entropy': 8.586}
+adaptive_qa_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_qa_s7 完成
+adaptive_warmup_s7 1 {'total': 1.0255, 'qa': 0.8744, 'density_kl': 1.0255, 'entropy': 7.0862}
+adaptive_warmup_s7 100 {'total': 1.5991, 'qa': 0.9538, 'density_kl': 1.5991, 'entropy': 7.7257}
+adaptive_warmup_s7 200 {'total': 0.6773, 'qa': 0.6773, 'density_kl': 3.8719, 'entropy': 5.2226}
+adaptive_warmup_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_warmup_s7 300 {'total': 0.5916, 'qa': 0.5916, 'density_kl': 1.9906, 'entropy': 7.6454}
+adaptive_warmup_s7 400 {'total': 0.6568, 'qa': 0.6568, 'density_kl': 3.1748, 'entropy': 6.4086}
+adaptive_warmup_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_warmup_s7 完成
+adaptive_joint_s7 1 {'total': 1.8999, 'qa': 0.8744, 'density_kl': 1.0255, 'entropy': 7.0862}
+adaptive_joint_s7 100 {'total': 2.4452, 'qa': 0.6731, 'density_kl': 1.7721, 'entropy': 7.7133}
+adaptive_joint_s7 200 {'total': 1.7036, 'qa': 0.5909, 'density_kl': 1.1127, 'entropy': 7.761}
+adaptive_joint_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_joint_s7 300 {'total': 2.1824, 'qa': 0.5739, 'density_kl': 1.6086, 'entropy': 8.067}
+adaptive_joint_s7 400 {'total': 1.5053, 'qa': 0.5966, 'density_kl': 0.9087, 'entropy': 7.2242}
+adaptive_joint_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_joint_s7 完成
+blind_qa_s7 1 {'total': 0.8752, 'qa': 0.8752, 'density_kl': 1.031, 'entropy': 7.0862}
+blind_qa_s7 100 {'total': 0.6696, 'qa': 0.6696, 'density_kl': 3.8471, 'entropy': 8.5088}
+blind_qa_s7 200 {'total': 0.6, 'qa': 0.6, 'density_kl': 4.2505, 'entropy': 8.5064}
+blind_qa_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+blind_qa_s7 300 {'total': 0.6033, 'qa': 0.6033, 'density_kl': 4.7593, 'entropy': 8.4903}
+blind_qa_s7 400 {'total': 0.6338, 'qa': 0.6338, 'density_kl': 4.9842, 'entropy': 8.5417}
+blind_qa_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+blind_qa_s7 完成
+blind_warmup_s7 1 {'total': 1.031, 'qa': 0.8752, 'density_kl': 1.031, 'entropy': 7.0862}
+blind_warmup_s7 100 {'total': 1.801, 'qa': 0.9589, 'density_kl': 1.801, 'entropy': 7.6502}
+blind_warmup_s7 200 {'total': 0.6774, 'qa': 0.6774, 'density_kl': 1.5852, 'entropy': 7.3338}
+blind_warmup_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+blind_warmup_s7 300 {'total': 0.6395, 'qa': 0.6395, 'density_kl': 1.8818, 'entropy': 7.0866}
+blind_warmup_s7 400 {'total': 0.6722, 'qa': 0.6722, 'density_kl': 1.5262, 'entropy': 6.2666}
+blind_warmup_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+blind_warmup_s7 完成
+blind_joint_s7 1 {'total': 1.9062, 'qa': 0.8752, 'density_kl': 1.031, 'entropy': 7.0862}
+blind_joint_s7 100 {'total': 2.5547, 'qa': 0.6608, 'density_kl': 1.8939, 'entropy': 7.9611}
+blind_joint_s7 200 {'total': 1.9156, 'qa': 0.539, 'density_kl': 1.3766, 'entropy': 7.3566}
+blind_joint_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+blind_joint_s7 300 {'total': 2.115, 'qa': 0.5939, 'density_kl': 1.5212, 'entropy': 7.8285}
+blind_joint_s7 400 {'total': 1.8483, 'qa': 0.5987, 'density_kl': 1.2496, 'entropy': 7.815}
+blind_joint_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+blind_joint_s7 完成
+uniform_qa_s7 1 {'total': 0.873, 'qa': 0.873, 'density_kl': 0.9727, 'entropy': 7.0901}
+uniform_qa_s7 100 {'total': 0.6626, 'qa': 0.6626, 'density_kl': 2.6481, 'entropy': 8.5942}
+uniform_qa_s7 200 {'total': 0.592, 'qa': 0.592, 'density_kl': 2.5914, 'entropy': 8.5942}
+uniform_qa_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+uniform_qa_s7 300 {'total': 0.5927, 'qa': 0.5927, 'density_kl': 2.8493, 'entropy': 8.5942}
+uniform_qa_s7 400 {'total': 0.5767, 'qa': 0.5767, 'density_kl': 2.9928, 'entropy': 8.5942}
+uniform_qa_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+uniform_qa_s7 完成
+saliency_qa_s7 1 {'total': 0.8741, 'qa': 0.8741, 'density_kl': 1.4271, 'entropy': 5.4371}
+saliency_qa_s7 100 {'total': 0.7121, 'qa': 0.7121, 'density_kl': 2.5893, 'entropy': 6.9343}
+saliency_qa_s7 200 {'total': 0.5189, 'qa': 0.5189, 'density_kl': 2.2083, 'entropy': 6.9206}
+saliency_qa_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+saliency_qa_s7 300 {'total': 0.5641, 'qa': 0.5641, 'density_kl': 2.4371, 'entropy': 6.9666}
+saliency_qa_s7 400 {'total': 0.5336, 'qa': 0.5336, 'density_kl': 2.3447, 'entropy': 6.874}
+saliency_qa_s7 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+saliency_qa_s7 完成
+adaptive_qa_s11 1 {'total': 0.9609, 'qa': 0.9609, 'density_kl': 1.7149, 'entropy': 7.0895}
+adaptive_qa_s11 100 {'total': 0.8841, 'qa': 0.8841, 'density_kl': 2.8744, 'entropy': 8.5917}
+adaptive_qa_s11 200 {'total': 0.8193, 'qa': 0.8193, 'density_kl': 3.9932, 'entropy': 8.4308}
+adaptive_qa_s11 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_qa_s11 300 {'total': 0.5293, 'qa': 0.5293, 'density_kl': 5.0658, 'entropy': 7.9023}
+adaptive_qa_s11 400 {'total': 0.8832, 'qa': 0.8832, 'density_kl': 3.7605, 'entropy': 8.4932}
+adaptive_qa_s11 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_qa_s11 完成
+adaptive_warmup_s11 1 {'total': 1.7149, 'qa': 0.9609, 'density_kl': 1.7149, 'entropy': 7.0895}
+adaptive_warmup_s11 100 {'total': 1.3053, 'qa': 0.8906, 'density_kl': 1.3053, 'entropy': 7.5642}
+adaptive_warmup_s11 200 {'total': 0.8761, 'qa': 0.8761, 'density_kl': 2.5114, 'entropy': 8.5273}
+adaptive_warmup_s11 验证窗口待下载；配置固定，不影响训练更新或最终checkpoint选择
+adaptive_warmup_s11 300 {'total': 0.5818, 'qa': 0.5818, 'density_kl': 1.8378, 'entropy': 6.8472}
+adaptive_warmup_s11 400 {'total': 0.9277, 'qa': 0.9277, 'density_kl': 3.1447, 'entropy': 8.5902}
+adaptive_warmup_s11 完成
+adaptive_joint_s11 1 {'total': 2.6758, 'qa': 0.9609, 'density_kl': 1.7149, 'entropy': 7.0895}
+adaptive_joint_s11 100 {'total': 2.1213, 'qa': 0.8105, 'density_kl': 1.3108, 'entropy': 7.5114}
+adaptive_joint_s11 200 {'total': 1.9658, 'qa': 0.91, 'density_kl': 1.0558, 'entropy': 7.5357}
+adaptive_joint_s11 300 {'total': 1.8787, 'qa': 0.5898, 'density_kl': 1.2889, 'entropy': 7.3486}
+adaptive_joint_s11 400 {'total': 1.7575, 'qa': 0.8975, 'density_kl': 0.8601, 'entropy': 7.0643}
+adaptive_joint_s11 完成
+blind_qa_s11 1 {'total': 0.9617, 'qa': 0.9617, 'density_kl': 1.7116, 'entropy': 7.0896}
+blind_qa_s11 100 {'total': 0.8209, 'qa': 0.8209, 'density_kl': 2.5795, 'entropy': 8.589}
+blind_qa_s11 200 {'total': 0.8848, 'qa': 0.8848, 'density_kl': 2.563, 'entropy': 8.5941}
+blind_qa_s11 300 {'total': 0.5701, 'qa': 0.5701, 'density_kl': 2.4812, 'entropy': 8.5853}
+blind_qa_s11 400 {'total': 0.8917, 'qa': 0.8917, 'density_kl': 2.9724, 'entropy': 8.593}
+blind_qa_s11 完成
+blind_warmup_s11 1 {'total': 1.7116, 'qa': 0.9617, 'density_kl': 1.7116, 'entropy': 7.0896}
+blind_warmup_s11 100 {'total': 1.3979, 'qa': 0.8868, 'density_kl': 1.3979, 'entropy': 7.5603}
+blind_warmup_s11 200 {'total': 0.9748, 'qa': 0.9748, 'density_kl': 1.9731, 'entropy': 7.2358}
+blind_warmup_s11 300 {'total': 0.6579, 'qa': 0.6579, 'density_kl': 1.7774, 'entropy': 7.9498}
+blind_warmup_s11 400 {'total': 0.9432, 'qa': 0.9432, 'density_kl': 1.7225, 'entropy': 7.1907}
+blind_warmup_s11 完成
+blind_joint_s11 1 {'total': 2.6733, 'qa': 0.9617, 'density_kl': 1.7116, 'entropy': 7.0896}
+blind_joint_s11 100 {'total': 2.5287, 'qa': 1.0952, 'density_kl': 1.4335, 'entropy': 7.6794}
+blind_joint_s11 200 {'total': 2.282, 'qa': 0.8899, 'density_kl': 1.3921, 'entropy': 8.1446}
+blind_joint_s11 300 {'total': 1.5539, 'qa': 0.4165, 'density_kl': 1.1374, 'entropy': 7.1873}
+blind_joint_s11 400 {'total': 2.3486, 'qa': 1.3548, 'density_kl': 0.9938, 'entropy': 7.3294}
+blind_joint_s11 完成
+uniform_qa_s11 1 {'total': 0.96, 'qa': 0.96, 'density_kl': 1.7241, 'entropy': 7.0901}
+uniform_qa_s11 100 {'total': 0.8908, 'qa': 0.8908, 'density_kl': 2.7392, 'entropy': 8.5942}
+uniform_qa_s11 200 {'total': 0.8876, 'qa': 0.8876, 'density_kl': 2.5549, 'entropy': 8.5942}
+uniform_qa_s11 300 {'total': 0.4323, 'qa': 0.4323, 'density_kl': 2.7051, 'entropy': 8.5942}
+uniform_qa_s11 400 {'total': 0.9023, 'qa': 0.9023, 'density_kl': 3.0819, 'entropy': 8.5942}
+uniform_qa_s11 完成
+saliency_qa_s11 1 {'total': 0.974, 'qa': 0.974, 'density_kl': 2.0535, 'entropy': 5.421}
+saliency_qa_s11 100 {'total': 1.0357, 'qa': 1.0357, 'density_kl': 2.4257, 'entropy': 6.7592}
+saliency_qa_s11 200 {'total': 0.8801, 'qa': 0.8801, 'density_kl': 2.2114, 'entropy': 7.099}
+saliency_qa_s11 300 {'total': 0.4199, 'qa': 0.4199, 'density_kl': 2.2024, 'entropy': 6.9958}
+saliency_qa_s11 400 {'total': 0.9173, 'qa': 0.9173, 'density_kl': 2.2855, 'entropy': 6.6897}
+saliency_qa_s11 完成
+adaptive_qa_s23 1 {'total': 1.0259, 'qa': 1.0259, 'density_kl': 1.8834, 'entropy': 7.0875}
+adaptive_qa_s23 100 {'total': 0.7607, 'qa': 0.7607, 'density_kl': 2.6425, 'entropy': 8.5933}
+adaptive_qa_s23 200 {'total': 0.7193, 'qa': 0.7193, 'density_kl': 3.1743, 'entropy': 5.3004}
+adaptive_qa_s23 300 {'total': 0.5434, 'qa': 0.5434, 'density_kl': 1.8828, 'entropy': 8.1546}
+adaptive_qa_s23 400 {'total': 0.669, 'qa': 0.669, 'density_kl': 2.661, 'entropy': 8.5723}
+adaptive_qa_s23 完成
+adaptive_warmup_s23 1 {'total': 1.8834, 'qa': 1.0259, 'density_kl': 1.8834, 'entropy': 7.0875}
+adaptive_warmup_s23 100 {'total': 0.9937, 'qa': 1.0753, 'density_kl': 0.9937, 'entropy': 7.4563}
+adaptive_warmup_s23 200 {'total': 0.8122, 'qa': 0.8122, 'density_kl': 2.2231, 'entropy': 6.6398}
+adaptive_warmup_s23 300 {'total': 0.6525, 'qa': 0.6525, 'density_kl': 3.5372, 'entropy': 4.2047}
+adaptive_warmup_s23 400 {'total': 0.6705, 'qa': 0.6705, 'density_kl': 1.0605, 'entropy': 6.215}
+adaptive_warmup_s23 完成
+adaptive_joint_s23 1 {'total': 2.9094, 'qa': 1.0259, 'density_kl': 1.8834, 'entropy': 7.0875}
+adaptive_joint_s23 100 {'total': 1.7577, 'qa': 0.808, 'density_kl': 0.9496, 'entropy': 7.4509}
+adaptive_joint_s23 200 {'total': 2.5607, 'qa': 0.7375, 'density_kl': 1.8232, 'entropy': 7.0917}
+adaptive_joint_s23 300 {'total': 1.8373, 'qa': 0.7328, 'density_kl': 1.1046, 'entropy': 7.4363}
+adaptive_joint_s23 400 {'total': 1.2344, 'qa': 0.6434, 'density_kl': 0.591, 'entropy': 5.8338}
+adaptive_joint_s23 完成
+blind_qa_s23 1 {'total': 1.0292, 'qa': 1.0292, 'density_kl': 1.8864, 'entropy': 7.0879}
+blind_qa_s23 100 {'total': 0.745, 'qa': 0.745, 'density_kl': 1.9978, 'entropy': 8.4408}
+blind_qa_s23 200 {'total': 0.5151, 'qa': 0.5151, 'density_kl': 3.4044, 'entropy': 8.5834}
+blind_qa_s23 300 {'total': 0.6201, 'qa': 0.6201, 'density_kl': 3.4435, 'entropy': 8.5455}
+blind_qa_s23 400 {'total': 0.6458, 'qa': 0.6458, 'density_kl': 4.9434, 'entropy': 8.5409}
+blind_qa_s23 完成
+blind_warmup_s23 1 {'total': 1.8864, 'qa': 1.0292, 'density_kl': 1.8864, 'entropy': 7.0879}
+blind_warmup_s23 100 {'total': 1.1394, 'qa': 1.0636, 'density_kl': 1.1394, 'entropy': 7.3276}
+blind_warmup_s23 200 {'total': 0.7107, 'qa': 0.7107, 'density_kl': 2.537, 'entropy': 5.5645}
+blind_warmup_s23 300 {'total': 0.557, 'qa': 0.557, 'density_kl': 1.4565, 'entropy': 7.5462}
+blind_warmup_s23 400 {'total': 0.637, 'qa': 0.637, 'density_kl': 1.1803, 'entropy': 6.461}
+blind_warmup_s23 完成
+blind_joint_s23 1 {'total': 2.9156, 'qa': 1.0292, 'density_kl': 1.8864, 'entropy': 7.0879}
+blind_joint_s23 100 {'total': 1.8708, 'qa': 0.7416, 'density_kl': 1.1292, 'entropy': 7.3207}
+blind_joint_s23 200 {'total': 2.1782, 'qa': 0.5913, 'density_kl': 1.5869, 'entropy': 7.3023}
+blind_joint_s23 300 {'total': 1.5908, 'qa': 0.583, 'density_kl': 1.0077, 'entropy': 7.0888}
+blind_joint_s23 400 {'total': 1.5068, 'qa': 0.6017, 'density_kl': 0.9051, 'entropy': 6.9359}
+blind_joint_s23 完成
+uniform_qa_s23 1 {'total': 1.025, 'qa': 1.025, 'density_kl': 1.8443, 'entropy': 7.0901}
+uniform_qa_s23 100 {'total': 0.6886, 'qa': 0.6886, 'density_kl': 2.6, 'entropy': 8.5942}
+uniform_qa_s23 200 {'total': 0.4285, 'qa': 0.4285, 'density_kl': 3.0416, 'entropy': 8.5942}
+uniform_qa_s23 300 {'total': 0.4782, 'qa': 0.4782, 'density_kl': 2.471, 'entropy': 8.5942}
+uniform_qa_s23 400 {'total': 1.2026, 'qa': 1.2026, 'density_kl': 3.065, 'entropy': 8.5942}
+uniform_qa_s23 完成
+saliency_qa_s23 1 {'total': 1.0192, 'qa': 1.0192, 'density_kl': 1.5686, 'entropy': 5.2392}
+saliency_qa_s23 100 {'total': 0.7628, 'qa': 0.7628, 'density_kl': 1.963, 'entropy': 6.8985}
+saliency_qa_s23 200 {'total': 0.5394, 'qa': 0.5394, 'density_kl': 2.8508, 'entropy': 6.8221}
+saliency_qa_s23 300 {'total': 0.4301, 'qa': 0.4301, 'density_kl': 2.0934, 'entropy': 6.7359}
+saliency_qa_s23 400 {'total': 0.5373, 'qa': 0.5373, 'density_kl': 2.0985, 'entropy': 6.7696}
+saliency_qa_s23 完成

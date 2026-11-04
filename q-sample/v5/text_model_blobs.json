@@ -1,0 +1,143 @@
+{
+  "_id": "621ffdc136468d709f17ef83",
+  "id": "prajjwal1/bert-tiny",
+  "private": false,
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "BERT",
+    "MNLI",
+    "NLI",
+    "transformer",
+    "pre-training",
+    "en",
+    "arxiv:1908.08962",
+    "arxiv:2110.01518",
+    "license:mit",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 900174,
+  "likes": 160,
+  "modelId": "prajjwal1/bert-tiny",
+  "author": "prajjwal1",
+  "sha": "6f75de8b60a9f8a2fdf7b69cbd86d9e64bcb3837",
+  "lastModified": "2021-10-27T18:29:01.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "language": [
+      "en"
+    ],
+    "license": [
+      "mit"
+    ],
+    "tags": [
+      "BERT",
+      "MNLI",
+      "NLI",
+      "transformer",
+      "pre-training"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "dc08351d4dc0732d9c8af04070ced089b201ce2f",
+      "size": 345
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "488d07a361bd823cc0fad0a6661f73ff6debc000",
+      "size": 2560
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "234608c922aaf3989d6a772af31711fbbdd62e3a",
+      "size": 285
+    },
+    {
+      "rfilename": "pytorch_model.bin",
+      "blobId": "27df7aef8d7989e557b54552c0690e7fa1b2bc8c",
+      "size": 17756393,
+      "lfs": {
+        "sha256": "dab2c2bddcfb48ea430ef63fd76d46d67d704487844d967256a50dd7d7fd0a66",
+        "size": 17756393,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "vocab.txt",
+      "blobId": "fb140275c155a9c7c5a3b3e0e77a9e839594a938",
+      "size": 231508
+    }
+  ],
+  "spaces": [
+    "lukasgarbas/transformer-ranker",
+    "AlexWortega/transformer-xray",
+    "courtneyf2/IS41720_Zone",
+    "alexxxey123/email_classifier",
+    "max-bevza/ViralTweets",
+    "kevin1911/LLM",
+    "ogirald0/oversai-models",
+    "Hunter-Pax/SentiNet",
+    "abdelghanighpgmailcom/chat2",
+    "MaheshP98/Multi_Device_LabOps_Dashboard",
+    "gopichandra/campaign-personalizer-app",
+    "yummyu/test",
+    "PauloFN/draft-estimation",
+    "alantv/bertsample",
+    "jsoswcny/storypoint-increment-api",
+    "Wiztensai/nanangwiz-chatbot",
+    "rohan0212/hotel-sentiment-analysis",
+    "kenlkehl/mm-ai-demo",
+    "zeekalph/devra-ai_verifier",
+    "kauanmelo/N2-Chatbot-Cascata-IA",
+    "lxinton/TurbineAI",
+    "yujieyyj/NLP-HOMEWORK",
+    "theeorg/TV_Series_analyser",
+    "donato11/Capibara",
+    "turing-team/turing-space",
+    "AkhilSJ/ai-investment-guidance-app",
+    "AkhilSJ/AI-investment-backend",
+    "Omarrran/Quantize_Any_Neural_Network",
+    "raahinaez/doc_classifictaion_tinybert",
+    "raahinaez/doc_classify_lora",
+    "Gigishot/Wordinator",
+    "bhautikvekariya21/voicebot-customer-support",
+    "amaisto/CO3",
+    "Optitransfer/crdt-merge-federation",
+    "Optitransfer/convergence-lab",
+    "akhiilll/forgeenv",
+    "norah-sudo/qr-guard-api",
+    "Krsnapriya/plutchikk",
+    "sh1k4ku/ai-supply-chain-scanner",
+    "Mridul2004/Model-Speed-Comparator",
+    "Mani890/ZeroAi",
+    "fergieee/gotcha-classifier2",
+    "mslovenberg/arxiv-topic-classifier",
+    "ankushkarmakar/talentiq",
+    "saibafatima/shadowsage-ai",
+    "Feras7/quishing-detection-app",
+    "Taimwe/aitrainlab",
+    "yunyunvan/nlp-bert-tiny-sentiment",
+    "wxtee/disaster-tweet-classifier",
+    "patientmonkey/nlp-disaster-tweet-finetuning",
+    "eiheieihei111/nlp-bert-sentiment",
+    "MY123-567/sms-bert-finetuning",
+    "Aurora0214/disaster-tweet-classifier",
+    "DanteSolomon/nlp-bert-tiny-sentiment",
+    "Rea1Atomic/nlp-sentiment-homework",
+    "Jinyu2233/nlp-course-experiments",
+    "JustMon1kAa/text-classification-homework",
+    "setariaa/nlp-sms-classifier"
+  ],
+  "createdAt": "2022-03-02T23:29:05.000Z",
+  "usedStorage": 122081256
+}

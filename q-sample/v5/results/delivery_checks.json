@@ -1,0 +1,9 @@
+{
+  "training_runs": 56,
+  "finite_curves": true,
+  "all_checkpoints_and_test_outputs": true,
+  "core_sha256": "3ee37190dc523ece340747100dca5d99c9d5ac8935054f755709f5f68219c0c9",
+  "localization_inference_answer": "00:25:00 - 00:57:28",
+  "inference_arguments": "checkpoint, raw signal array, original question, public task, dt; no GT",
+  "official_metadata_files_verified": 31
+}

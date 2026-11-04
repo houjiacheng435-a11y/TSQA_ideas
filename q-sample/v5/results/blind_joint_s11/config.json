@@ -1,0 +1,16 @@
+{
+  "name": "blind_joint_s11",
+  "method": "blind",
+  "regime": "joint",
+  "seed": 11,
+  "tokens": 128,
+  "time_mode": "absolute",
+  "steps": 400,
+  "warmup_steps": 100,
+  "batch_size": 8,
+  "lr": 0.001,
+  "density_weight": 1.0,
+  "coverage_weight": 0.0,
+  "proxy_kind": "boundary_context",
+  "amp": true
+}

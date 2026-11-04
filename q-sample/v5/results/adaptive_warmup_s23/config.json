@@ -1,0 +1,16 @@
+{
+  "name": "adaptive_warmup_s23",
+  "method": "adaptive",
+  "regime": "warmup",
+  "seed": 23,
+  "tokens": 128,
+  "time_mode": "absolute",
+  "steps": 400,
+  "warmup_steps": 100,
+  "batch_size": 8,
+  "lr": 0.001,
+  "density_weight": 1.0,
+  "coverage_weight": 0.0,
+  "proxy_kind": "boundary_context",
+  "amp": true
+}

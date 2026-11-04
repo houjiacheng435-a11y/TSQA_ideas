@@ -1,0 +1,46 @@
+{
+  "counts": {
+    "long_train": {
+      "existence:Yes": 3,
+      "existence:No": 5,
+      "localization": 8
+    },
+    "long_validation": {
+      "existence:Yes": 3,
+      "existence:No": 1,
+      "localization": 4
+    },
+    "long_test": {
+      "existence:No": 2,
+      "existence:Yes": 2,
+      "localization": 4
+    }
+  },
+  "question_exact_overlap_count": {
+    "long_train_long_validation": 0,
+    "long_train_long_test": 0
+  },
+  "missing": [],
+  "exact_cross_split_duplicates": [],
+  "near_duplicates": [],
+  "near_criterion": "same native length, correlation>.999 AND RMSE/max(std_x,std_y,1W)<.01",
+  "background_overlap_pairs": [
+    [
+      "tasks/86400s/existence/train/data.parquet#991",
+      "tasks/86400s/localization/validation/data.parquet#136"
+    ],
+    [
+      "tasks/86400s/localization/train/data.parquet#955",
+      "tasks/86400s/localization/validation/data.parquet#144"
+    ],
+    [
+      "tasks/86400s/existence/train/data.parquet#991",
+      "tasks/86400s/existence/test/data.parquet#44"
+    ],
+    [
+      "tasks/86400s/localization/validation/data.parquet#136",
+      "tasks/86400s/existence/test/data.parquet#44"
+    ]
+  ],
+  "existence_no_background_index_conflicts": []
+}

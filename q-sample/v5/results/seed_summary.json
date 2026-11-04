@@ -1,0 +1,738 @@
+[
+  {
+    "method": "adaptive",
+    "regime": "joint",
+    "task": "existence",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.6458333333333334,
+      "std": 0.03608439182435161
+    },
+    "balanced_accuracy": {
+      "mean": 0.6458333333333334,
+      "std": 0.03608439182435161
+    },
+    "positive_accuracy": {
+      "mean": 0.7083333333333334,
+      "std": 0.14433756729740646
+    },
+    "negative_accuracy": {
+      "mean": 0.5833333333333334,
+      "std": 0.07216878364870323
+    },
+    "target_hit": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.4518229166666667,
+      "std": 0.01578692142315383
+    },
+    "target_mass": {
+      "mean": 0.45208184452106553,
+      "std": 0.016186194735400884
+    },
+    "distractor_occupancy": {
+      "mean": 0.10400390625,
+      "std": 0.027926101987946886
+    },
+    "entropy": {
+      "mean": 6.657095238566399,
+      "std": 0.24814426542029314
+    }
+  },
+  {
+    "method": "adaptive",
+    "regime": "joint",
+    "task": "localization",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.0625,
+      "std": 0.0
+    },
+    "iou": {
+      "mean": 0.030821516246457275,
+      "std": 0.003464218219581417
+    },
+    "endpoint_mae_s": {
+      "mean": 5293.0434223810835,
+      "std": 392.6974015123901
+    },
+    "normalized_endpoint_mae": {
+      "mean": 0.25351725425571203,
+      "std": 0.01075107107458036
+    },
+    "target_hit": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.23828125,
+      "std": 0.009417627696282183
+    },
+    "target_mass": {
+      "mean": 0.2385875745288407,
+      "std": 0.00951868556258295
+    },
+    "distractor_occupancy": {
+      "mean": 0.018717447916666668,
+      "std": 0.0061827538780021415
+    },
+    "entropy": {
+      "mean": 6.7988413870334625,
+      "std": 0.1604892320063466
+    }
+  },
+  {
+    "method": "adaptive",
+    "regime": "qa",
+    "task": "existence",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.6875,
+      "std": 0.0625
+    },
+    "balanced_accuracy": {
+      "mean": 0.6875,
+      "std": 0.0625
+    },
+    "positive_accuracy": {
+      "mean": 0.6666666666666666,
+      "std": 0.07216878364870323
+    },
+    "negative_accuracy": {
+      "mean": 0.7083333333333334,
+      "std": 0.07216878364870323
+    },
+    "target_hit": {
+      "mean": 0.8333333333333334,
+      "std": 0.07216878364870323
+    },
+    "target_occupancy": {
+      "mean": 0.20247395833333334,
+      "std": 0.030902198662254732
+    },
+    "target_mass": {
+      "mean": 0.20159373589073462,
+      "std": 0.03044263624868347
+    },
+    "distractor_occupancy": {
+      "mean": 0.0166015625,
+      "std": 0.00554580893144558
+    },
+    "entropy": {
+      "mean": 7.806046267350514,
+      "std": 0.03849144894182252
+    }
+  },
+  {
+    "method": "adaptive",
+    "regime": "qa",
+    "task": "localization",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.10416666666666667,
+      "std": 0.03608439182435161
+    },
+    "iou": {
+      "mean": 0.04459061582262317,
+      "std": 0.010363860817851157
+    },
+    "endpoint_mae_s": {
+      "mean": 5537.9345989227295,
+      "std": 414.99417461293035
+    },
+    "normalized_endpoint_mae": {
+      "mean": 0.2710745877896746,
+      "std": 0.01822144596805484
+    },
+    "target_hit": {
+      "mean": 0.875,
+      "std": 0.10825317547305482
+    },
+    "target_occupancy": {
+      "mean": 0.06103515625,
+      "std": 0.01818478950150007
+    },
+    "target_mass": {
+      "mean": 0.06096225528502449,
+      "std": 0.017896193012453966
+    },
+    "distractor_occupancy": {
+      "mean": 0.004720052083333333,
+      "std": 0.002505664765354924
+    },
+    "entropy": {
+      "mean": 7.803170005480449,
+      "std": 0.04316962320952287
+    }
+  },
+  {
+    "method": "adaptive",
+    "regime": "warmup",
+    "task": "existence",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.6666666666666666,
+      "std": 0.03608439182435161
+    },
+    "balanced_accuracy": {
+      "mean": 0.6666666666666666,
+      "std": 0.03608439182435161
+    },
+    "positive_accuracy": {
+      "mean": 0.7083333333333334,
+      "std": 0.07216878364870323
+    },
+    "negative_accuracy": {
+      "mean": 0.625,
+      "std": 0.0
+    },
+    "target_hit": {
+      "mean": 0.8333333333333334,
+      "std": 0.07216878364870323
+    },
+    "target_occupancy": {
+      "mean": 0.306640625,
+      "std": 0.12466767959047227
+    },
+    "target_mass": {
+      "mean": 0.315014848485589,
+      "std": 0.12450755507652503
+    },
+    "distractor_occupancy": {
+      "mean": 0.038899739583333336,
+      "std": 0.04757757310802995
+    },
+    "entropy": {
+      "mean": 6.789848983287811,
+      "std": 1.0474849801577932
+    }
+  },
+  {
+    "method": "adaptive",
+    "regime": "warmup",
+    "task": "localization",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.041666666666666664,
+      "std": 0.036084391824351615
+    },
+    "iou": {
+      "mean": 0.03259790983671943,
+      "std": 0.009281150705296478
+    },
+    "endpoint_mae_s": {
+      "mean": 5113.739500045776,
+      "std": 803.5036153635133
+    },
+    "normalized_endpoint_mae": {
+      "mean": 0.2546575255692005,
+      "std": 0.03007263866292068
+    },
+    "target_hit": {
+      "mean": 0.9375,
+      "std": 0.0625
+    },
+    "target_occupancy": {
+      "mean": 0.13541666666666666,
+      "std": 0.08897756352309376
+    },
+    "target_mass": {
+      "mean": 0.14416084829645115,
+      "std": 0.08743706334045954
+    },
+    "distractor_occupancy": {
+      "mean": 0.017252604166666668,
+      "std": 0.023982182670738487
+    },
+    "entropy": {
+      "mean": 6.859963670372963,
+      "std": 0.8666419193907542
+    }
+  },
+  {
+    "method": "blind",
+    "regime": "joint",
+    "task": "existence",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.6041666666666666,
+      "std": 0.03608439182435161
+    },
+    "balanced_accuracy": {
+      "mean": 0.6041666666666666,
+      "std": 0.03608439182435161
+    },
+    "positive_accuracy": {
+      "mean": 0.7916666666666666,
+      "std": 0.07216878364870323
+    },
+    "negative_accuracy": {
+      "mean": 0.4166666666666667,
+      "std": 0.07216878364870323
+    },
+    "target_hit": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.3776041666666667,
+      "std": 0.044477392275912096
+    },
+    "target_mass": {
+      "mean": 0.37748313369229436,
+      "std": 0.04585479978926814
+    },
+    "distractor_occupancy": {
+      "mean": 0.08984375,
+      "std": 0.020303342662394325
+    },
+    "entropy": {
+      "mean": 7.0583153168360395,
+      "std": 0.0751945274463582
+    }
+  },
+  {
+    "method": "blind",
+    "regime": "joint",
+    "task": "localization",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.08333333333333333,
+      "std": 0.07216878364870323
+    },
+    "iou": {
+      "mean": 0.042418813691862546,
+      "std": 0.02185682937866255
+    },
+    "endpoint_mae_s": {
+      "mean": 5266.483187993367,
+      "std": 602.0956339553034
+    },
+    "normalized_endpoint_mae": {
+      "mean": 0.257955605785052,
+      "std": 0.034855988585557975
+    },
+    "target_hit": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.19287109375,
+      "std": 0.041544098186339425
+    },
+    "target_mass": {
+      "mean": 0.1933575686222563,
+      "std": 0.04142450679342228
+    },
+    "distractor_occupancy": {
+      "mean": 0.027506510416666668,
+      "std": 0.001973365177894229
+    },
+    "entropy": {
+      "mean": 6.94229777654012,
+      "std": 0.07029019158725079
+    }
+  },
+  {
+    "method": "blind",
+    "regime": "qa",
+    "task": "existence",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.6875,
+      "std": 0.0625
+    },
+    "balanced_accuracy": {
+      "mean": 0.6875,
+      "std": 0.0625
+    },
+    "positive_accuracy": {
+      "mean": 0.7083333333333334,
+      "std": 0.07216878364870323
+    },
+    "negative_accuracy": {
+      "mean": 0.6666666666666666,
+      "std": 0.07216878364870323
+    },
+    "target_hit": {
+      "mean": 0.7083333333333334,
+      "std": 0.19094065395649332
+    },
+    "target_occupancy": {
+      "mean": 0.1767578125,
+      "std": 0.04167302401045287
+    },
+    "target_mass": {
+      "mean": 0.17630111017206218,
+      "std": 0.04186512392409808
+    },
+    "distractor_occupancy": {
+      "mean": 0.009928385416666666,
+      "std": 0.008028230765064143
+    },
+    "entropy": {
+      "mean": 7.784222622712453,
+      "std": 0.05256283333949963
+    }
+  },
+  {
+    "method": "blind",
+    "regime": "qa",
+    "task": "localization",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.0625,
+      "std": 0.0625
+    },
+    "iou": {
+      "mean": 0.03119314091357713,
+      "std": 0.016285791513590196
+    },
+    "endpoint_mae_s": {
+      "mean": 5427.43288675944,
+      "std": 660.2609489600867
+    },
+    "normalized_endpoint_mae": {
+      "mean": 0.25967822782695293,
+      "std": 0.02380087654923572
+    },
+    "target_hit": {
+      "mean": 0.7083333333333334,
+      "std": 0.21949278651776538
+    },
+    "target_occupancy": {
+      "mean": 0.046875,
+      "std": 0.024000401811415054
+    },
+    "target_mass": {
+      "mean": 0.04614427598956657,
+      "std": 0.023500864195688014
+    },
+    "distractor_occupancy": {
+      "mean": 0.00244140625,
+      "std": 0.0027186349427880964
+    },
+    "entropy": {
+      "mean": 7.7795297006766,
+      "std": 0.056273439598730386
+    }
+  },
+  {
+    "method": "blind",
+    "regime": "warmup",
+    "task": "existence",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.6458333333333334,
+      "std": 0.09547032697824667
+    },
+    "balanced_accuracy": {
+      "mean": 0.6458333333333334,
+      "std": 0.09547032697824667
+    },
+    "positive_accuracy": {
+      "mean": 0.625,
+      "std": 0.125
+    },
+    "negative_accuracy": {
+      "mean": 0.6666666666666666,
+      "std": 0.07216878364870323
+    },
+    "target_hit": {
+      "mean": 0.9166666666666666,
+      "std": 0.07216878364870323
+    },
+    "target_occupancy": {
+      "mean": 0.4231770833333333,
+      "std": 0.0375225423239741
+    },
+    "target_mass": {
+      "mean": 0.42321315009515575,
+      "std": 0.03786570082439374
+    },
+    "distractor_occupancy": {
+      "mean": 0.12093098958333333,
+      "std": 0.02076391735379732
+    },
+    "entropy": {
+      "mean": 6.503044833739598,
+      "std": 0.2711582634808468
+    }
+  },
+  {
+    "method": "blind",
+    "regime": "warmup",
+    "task": "localization",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.08333333333333333,
+      "std": 0.03608439182435161
+    },
+    "iou": {
+      "mean": 0.06557152251480147,
+      "std": 0.010762925067681473
+    },
+    "endpoint_mae_s": {
+      "mean": 4916.652531305949,
+      "std": 804.2379523839425
+    },
+    "normalized_endpoint_mae": {
+      "mean": 0.2529253023676574,
+      "std": 0.03534568909848345
+    },
+    "target_hit": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.2509765625,
+      "std": 0.03021431348516598
+    },
+    "target_mass": {
+      "mean": 0.25111952030177537,
+      "std": 0.03115545607076441
+    },
+    "distractor_occupancy": {
+      "mean": 0.032389322916666664,
+      "std": 0.007938638280115363
+    },
+    "entropy": {
+      "mean": 6.467479924360911,
+      "std": 0.2962387795721952
+    }
+  },
+  {
+    "method": "saliency",
+    "regime": "qa",
+    "task": "existence",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.625,
+      "std": 0.125
+    },
+    "balanced_accuracy": {
+      "mean": 0.625,
+      "std": 0.125
+    },
+    "positive_accuracy": {
+      "mean": 0.625,
+      "std": 0.33071891388307384
+    },
+    "negative_accuracy": {
+      "mean": 0.625,
+      "std": 0.21650635094610965
+    },
+    "target_hit": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.498046875,
+      "std": 0.0
+    },
+    "target_mass": {
+      "mean": 0.5000314263161272,
+      "std": 0.0
+    },
+    "distractor_occupancy": {
+      "mean": 0.12060546875,
+      "std": 0.0
+    },
+    "entropy": {
+      "mean": 6.344655245542526,
+      "std": 0.0
+    }
+  },
+  {
+    "method": "saliency",
+    "regime": "qa",
+    "task": "localization",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.125,
+      "std": 0.0625
+    },
+    "iou": {
+      "mean": 0.06343691347865388,
+      "std": 0.017177410802656154
+    },
+    "endpoint_mae_s": {
+      "mean": 5587.413245519002,
+      "std": 780.9906237795915
+    },
+    "normalized_endpoint_mae": {
+      "mean": 0.28186099603772163,
+      "std": 0.02040079893041817
+    },
+    "target_hit": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.27783203125,
+      "std": 0.0
+    },
+    "target_mass": {
+      "mean": 0.27993400883860886,
+      "std": 0.0
+    },
+    "distractor_occupancy": {
+      "mean": 0.0302734375,
+      "std": 0.0
+    },
+    "entropy": {
+      "mean": 6.278460592031479,
+      "std": 0.0
+    }
+  },
+  {
+    "method": "uniform",
+    "regime": "qa",
+    "task": "existence",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.5833333333333334,
+      "std": 0.09547032697824667
+    },
+    "balanced_accuracy": {
+      "mean": 0.5833333333333334,
+      "std": 0.09547032697824667
+    },
+    "positive_accuracy": {
+      "mean": 0.7083333333333334,
+      "std": 0.07216878364870323
+    },
+    "negative_accuracy": {
+      "mean": 0.4583333333333333,
+      "std": 0.26020824993326663
+    },
+    "target_hit": {
+      "mean": 0.875,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.212890625,
+      "std": 0.0
+    },
+    "target_mass": {
+      "mean": 0.2130787101777969,
+      "std": 0.0
+    },
+    "distractor_occupancy": {
+      "mean": 0.017578125,
+      "std": 0.0
+    },
+    "entropy": {
+      "mean": 7.842115163803101,
+      "std": 0.0
+    }
+  },
+  {
+    "method": "uniform",
+    "regime": "qa",
+    "task": "localization",
+    "seeds": [
+      11,
+      23,
+      7
+    ],
+    "accuracy": {
+      "mean": 0.10416666666666667,
+      "std": 0.03608439182435161
+    },
+    "iou": {
+      "mean": 0.046231659109859415,
+      "std": 0.017077456022182573
+    },
+    "endpoint_mae_s": {
+      "mean": 5531.470580418904,
+      "std": 1173.0713559812455
+    },
+    "normalized_endpoint_mae": {
+      "mean": 0.26391245424747467,
+      "std": 0.04199906529284383
+    },
+    "target_hit": {
+      "mean": 0.9375,
+      "std": 0.0
+    },
+    "target_occupancy": {
+      "mean": 0.06787109375,
+      "std": 0.0
+    },
+    "target_mass": {
+      "mean": 0.06667824249598198,
+      "std": 0.0
+    },
+    "distractor_occupancy": {
+      "mean": 0.0048828125,
+      "std": 0.0
+    },
+    "entropy": {
+      "mean": 7.842115163803101,
+      "std": 0.0
+    }
+  }
+]

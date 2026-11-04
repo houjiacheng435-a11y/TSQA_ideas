@@ -1,0 +1,9 @@
+overfit32 已完成，跳过
+Traceback (most recent call last):
+  File "/root/autodl-tmp/cf-run/TSQA_ideas/q-sample/v5/execute_stages.py", line 30, in <module>
+    for config in freeze():run(config)
+                           ^^^^^^^^^^^
+  File "/root/autodl-tmp/cf-run/TSQA_ideas/q-sample/v5/train.py", line 37, in run
+    if all(signal_path(r).exists() for r in groups()[validation_group]):validation=OfficialDataset(validation_group)
+                                            ^^^^^^
+UnboundLocalError: cannot access local variable 'groups' where it is not associated with a value

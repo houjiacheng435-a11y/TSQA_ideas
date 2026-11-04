@@ -1,0 +1,6 @@
+{
+  "network": "首次本地代理读取超时/文本下载中断；改用服务器/etc/network_turbo提供的代理和CA，保留失败日志；官方权重sha256已核验。",
+  "validation_io": "验证波形下载慢于训练波形。预先固定使用最后400步checkpoint，无验证驱动scheduler/选模，因此允许训练并行等待下载；补做所有最终checkpoint的验证评估，不用测试选超参数。",
+  "overfit_source_hashes": "overfit32/source_hashes.json为训练后补录；训练后仅添加统计/日志和下载等待逻辑；核心model.py/losses.py在该训练期间和之后保持不变。",
+  "determinism": "种子固定，cuDNN benchmark关闭，warn_only=True；首次过拟合无CUBLAS_WORKSPACE_CONFIG，后续主矩阵设置:4096:8。CUDA插值、池化及FlashAttention反向仍可能不具备逐bit确定性。"
+}

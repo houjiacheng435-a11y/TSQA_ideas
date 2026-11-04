@@ -1,0 +1,72 @@
+[
+  {
+    "native_length": 14400,
+    "tokens": 32,
+    "compression": 450.0,
+    "batch": 2,
+    "fp32_seconds_per_batch": 0.0035450253635644913,
+    "peak_allocated_mib": 18.287109375,
+    "density_sum": [
+      0.9999999403953552,
+      1.0
+    ],
+    "finite": true,
+    "meaning": "随机数值组件工程测试，不是官方QA成绩或长序列训练"
+  },
+  {
+    "native_length": 14400,
+    "tokens": 64,
+    "compression": 225.0,
+    "batch": 2,
+    "fp32_seconds_per_batch": 0.0034936390817165374,
+    "peak_allocated_mib": 18.287109375,
+    "density_sum": [
+      1.0,
+      1.0
+    ],
+    "finite": true,
+    "meaning": "随机数值组件工程测试，不是官方QA成绩或长序列训练"
+  },
+  {
+    "native_length": 14400,
+    "tokens": 128,
+    "compression": 112.5,
+    "batch": 2,
+    "fp32_seconds_per_batch": 0.0034836150705814363,
+    "peak_allocated_mib": 18.2880859375,
+    "density_sum": [
+      1.0,
+      0.9999999403953552
+    ],
+    "finite": true,
+    "meaning": "随机数值组件工程测试，不是官方QA成绩或长序列训练"
+  },
+  {
+    "native_length": 14400,
+    "tokens": 256,
+    "compression": 56.25,
+    "batch": 2,
+    "fp32_seconds_per_batch": 0.0034701969474554063,
+    "peak_allocated_mib": 18.2900390625,
+    "density_sum": [
+      0.9999999403953552,
+      1.0
+    ],
+    "finite": true,
+    "meaning": "随机数值组件工程测试，不是官方QA成绩或长序列训练"
+  },
+  {
+    "native_length": 14400,
+    "tokens": 512,
+    "compression": 28.125,
+    "batch": 2,
+    "fp32_seconds_per_batch": 0.003472210094332695,
+    "peak_allocated_mib": 18.2939453125,
+    "density_sum": [
+      0.9999999403953552,
+      1.0
+    ],
+    "finite": true,
+    "meaning": "随机数值组件工程测试，不是官方QA成绩或长序列训练"
+  }
+]

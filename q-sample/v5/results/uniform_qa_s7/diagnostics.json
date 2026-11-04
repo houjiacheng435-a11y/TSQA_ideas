@@ -1,0 +1,489 @@
+{
+  "normal": {
+    "existence": {
+      "n": 16,
+      "accuracy": 0.5625,
+      "positive_accuracy": 0.75,
+      "negative_accuracy": 0.375,
+      "balanced_accuracy": 0.5625,
+      "positive_n": 8,
+      "negative_n": 8,
+      "target_hit": 0.875,
+      "target_occupancy": 0.212890625,
+      "target_mass": 0.2130787101777969,
+      "distractor_occupancy": 0.017578125,
+      "distractor_mass": 0.017320604471024126,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592764412984,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.625
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.5
+        }
+      }
+    },
+    "localization": {
+      "n": 16,
+      "accuracy": 0.125,
+      "iou": 0.05719857366057113,
+      "endpoint_mae_s": 5856.030818939209,
+      "normalized_endpoint_mae": 0.27037691604346037,
+      "target_hit": 0.9375,
+      "target_occupancy": 0.06787109375,
+      "target_mass": 0.06667824249598198,
+      "distractor_occupancy": 0.0048828125,
+      "distractor_mass": 0.0049479169538244605,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592764412984,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.125
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.125
+        }
+      }
+    }
+  },
+  "zero": {
+    "existence": {
+      "n": 16,
+      "accuracy": 0.625,
+      "positive_accuracy": 0.625,
+      "negative_accuracy": 0.625,
+      "balanced_accuracy": 0.625,
+      "positive_n": 8,
+      "negative_n": 8,
+      "target_hit": 0.875,
+      "target_occupancy": 0.212890625,
+      "target_mass": 0.2130787101777969,
+      "distractor_occupancy": 0.017578125,
+      "distractor_mass": 0.017320604471024126,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592764412984,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.5
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.75
+        }
+      }
+    },
+    "localization": {
+      "n": 16,
+      "accuracy": 0.0,
+      "iou": 0.01699803746305406,
+      "endpoint_mae_s": 7500.119701385498,
+      "normalized_endpoint_mae": 0.348554152995348,
+      "target_hit": 0.9375,
+      "target_occupancy": 0.06787109375,
+      "target_mass": 0.06667824249598198,
+      "distractor_occupancy": 0.0048828125,
+      "distractor_mass": 0.0049479169538244605,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592764412984,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.0
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.0
+        }
+      }
+    }
+  },
+  "permutation": {
+    "existence": {
+      "n": 16,
+      "accuracy": 0.6875,
+      "positive_accuracy": 0.625,
+      "negative_accuracy": 0.75,
+      "balanced_accuracy": 0.6875,
+      "positive_n": 8,
+      "negative_n": 8,
+      "target_hit": 0.875,
+      "target_occupancy": 0.212890625,
+      "target_mass": 0.2130787101777969,
+      "distractor_occupancy": 0.017578125,
+      "distractor_mass": 0.017320604471024126,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592764412984,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.5
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.875
+        }
+      }
+    },
+    "localization": {
+      "n": 16,
+      "accuracy": 0.125,
+      "iou": 0.07328431989299133,
+      "endpoint_mae_s": 5306.203315734863,
+      "normalized_endpoint_mae": 0.2623346531763673,
+      "target_hit": 0.9375,
+      "target_occupancy": 0.06787109375,
+      "target_mass": 0.06667824249598198,
+      "distractor_occupancy": 0.0048828125,
+      "distractor_mass": 0.0049479169538244605,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592764412984,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.0
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.25
+        }
+      }
+    }
+  },
+  "cross": {
+    "existence": {
+      "n": 16,
+      "accuracy": 0.5625,
+      "positive_accuracy": 0.75,
+      "negative_accuracy": 0.375,
+      "balanced_accuracy": 0.5625,
+      "positive_n": 8,
+      "negative_n": 8,
+      "target_hit": 0.875,
+      "target_occupancy": 0.212890625,
+      "target_mass": 0.2130787101777969,
+      "distractor_occupancy": 0.017578125,
+      "distractor_mass": 0.017320604471024126,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592764412984,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.625
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.5
+        }
+      }
+    },
+    "localization": {
+      "n": 16,
+      "accuracy": 0.125,
+      "iou": 0.06564872153103352,
+      "endpoint_mae_s": 5305.699451446533,
+      "normalized_endpoint_mae": 0.2519087977707386,
+      "target_hit": 0.9375,
+      "target_occupancy": 0.06787109375,
+      "target_mass": 0.06667824249598198,
+      "distractor_occupancy": 0.0048828125,
+      "distractor_mass": 0.0049479169538244605,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592764412984,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.125
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.125
+        }
+      }
+    }
+  },
+  "uniform": {
+    "existence": {
+      "n": 16,
+      "accuracy": 0.5625,
+      "positive_accuracy": 0.75,
+      "negative_accuracy": 0.375,
+      "balanced_accuracy": 0.5625,
+      "positive_n": 8,
+      "negative_n": 8,
+      "target_hit": 0.875,
+      "target_occupancy": 0.212890625,
+      "target_mass": 0.21307871017052094,
+      "distractor_occupancy": 0.017578125,
+      "distractor_mass": 0.017320602521067485,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592691653408,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.625
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.5
+        }
+      }
+    },
+    "localization": {
+      "n": 16,
+      "accuracy": 0.125,
+      "iou": 0.05719853285700083,
+      "endpoint_mae_s": 5856.041954040527,
+      "normalized_endpoint_mae": 0.27037727274000645,
+      "target_hit": 0.9375,
+      "target_occupancy": 0.06787109375,
+      "target_mass": 0.06667824147734791,
+      "distractor_occupancy": 0.0048828125,
+      "distractor_mass": 0.00494791692472063,
+      "entropy": 7.842115163803101,
+      "max_density": 0.0005092592691653408,
+      "by_length": {
+        "1200": {
+          "n": 8,
+          "accuracy": 0.125
+        },
+        "5400": {
+          "n": 8,
+          "accuracy": 0.125
+        }
+      }
+    }
+  },
+  "query_dependence": [
+    {
+      "row_id": "tasks/7200s/existence/test/data.parquet#126",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.36250001192092896,
+      "changed_query_old_target_mass": 0.36250001192092896
+    },
+    {
+      "row_id": "tasks/7200s/existence/test/data.parquet#89",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": null,
+      "changed_query_old_target_mass": null
+    },
+    {
+      "row_id": "tasks/7200s/existence/test/data.parquet#56",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": null,
+      "changed_query_old_target_mass": null
+    },
+    {
+      "row_id": "tasks/7200s/existence/test/data.parquet#99",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.019166667014360428,
+      "changed_query_old_target_mass": 0.019166667014360428
+    },
+    {
+      "row_id": "tasks/7200s/existence/test/data.parquet#49",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.021666666492819786,
+      "changed_query_old_target_mass": 0.021666666492819786
+    },
+    {
+      "row_id": "tasks/7200s/existence/test/data.parquet#114",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.014166666194796562,
+      "changed_query_old_target_mass": 0.014166666194796562
+    },
+    {
+      "row_id": "tasks/7200s/existence/test/data.parquet#125",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.36250001192092896,
+      "changed_query_old_target_mass": 0.36250001192092896
+    },
+    {
+      "row_id": "tasks/7200s/existence/test/data.parquet#118",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.84333336353302,
+      "changed_query_old_target_mass": 0.84333336353302
+    },
+    {
+      "row_id": "tasks/7200s/localization/test/data.parquet#66",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.0033333334140479565,
+      "changed_query_old_target_mass": 0.0033333334140479565
+    },
+    {
+      "row_id": "tasks/7200s/localization/test/data.parquet#145",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.023333333432674408,
+      "changed_query_old_target_mass": 0.023333333432674408
+    },
+    {
+      "row_id": "tasks/7200s/localization/test/data.parquet#142",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.09083333611488342,
+      "changed_query_old_target_mass": 0.09083333611488342
+    },
+    {
+      "row_id": "tasks/7200s/localization/test/data.parquet#68",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.010833333246409893,
+      "changed_query_old_target_mass": 0.010833333246409893
+    },
+    {
+      "row_id": "tasks/7200s/localization/test/data.parquet#117",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.011666666716337204,
+      "changed_query_old_target_mass": 0.011666666716337204
+    },
+    {
+      "row_id": "tasks/7200s/localization/test/data.parquet#58",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.06749999523162842,
+      "changed_query_old_target_mass": 0.06749999523162842
+    },
+    {
+      "row_id": "tasks/7200s/localization/test/data.parquet#36",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.009999999776482582,
+      "changed_query_old_target_mass": 0.009999999776482582
+    },
+    {
+      "row_id": "tasks/7200s/localization/test/data.parquet#12",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.36250001192092896,
+      "changed_query_old_target_mass": 0.36250001192092896
+    },
+    {
+      "row_id": "tasks/32400s/existence/test/data.parquet#17",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": null,
+      "changed_query_old_target_mass": null
+    },
+    {
+      "row_id": "tasks/32400s/existence/test/data.parquet#110",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": null,
+      "changed_query_old_target_mass": null
+    },
+    {
+      "row_id": "tasks/32400s/existence/test/data.parquet#79",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.0007407407974824309,
+      "changed_query_old_target_mass": 0.0007407407974824309
+    },
+    {
+      "row_id": "tasks/32400s/existence/test/data.parquet#40",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": null,
+      "changed_query_old_target_mass": null
+    },
+    {
+      "row_id": "tasks/32400s/existence/test/data.parquet#140",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.08055555820465088,
+      "changed_query_old_target_mass": 0.08055555820465088
+    },
+    {
+      "row_id": "tasks/32400s/existence/test/data.parquet#91",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": null,
+      "changed_query_old_target_mass": null
+    },
+    {
+      "row_id": "tasks/32400s/existence/test/data.parquet#116",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": null,
+      "changed_query_old_target_mass": null
+    },
+    {
+      "row_id": "tasks/32400s/existence/test/data.parquet#101",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": null,
+      "changed_query_old_target_mass": null
+    },
+    {
+      "row_id": "tasks/32400s/localization/test/data.parquet#55",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.009444445371627808,
+      "changed_query_old_target_mass": 0.009444445371627808
+    },
+    {
+      "row_id": "tasks/32400s/localization/test/data.parquet#108",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.03462963178753853,
+      "changed_query_old_target_mass": 0.03462963178753853
+    },
+    {
+      "row_id": "tasks/32400s/localization/test/data.parquet#56",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.08055555820465088,
+      "changed_query_old_target_mass": 0.08055555820465088
+    },
+    {
+      "row_id": "tasks/32400s/localization/test/data.parquet#37",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.08055555820465088,
+      "changed_query_old_target_mass": 0.08055555820465088
+    },
+    {
+      "row_id": "tasks/32400s/localization/test/data.parquet#77",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.005185185465961695,
+      "changed_query_old_target_mass": 0.005185185465961695
+    },
+    {
+      "row_id": "tasks/32400s/localization/test/data.parquet#70",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.007222222629934549,
+      "changed_query_old_target_mass": 0.007222222629934549
+    },
+    {
+      "row_id": "tasks/32400s/localization/test/data.parquet#17",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.08055555820465088,
+      "changed_query_old_target_mass": 0.08055555820465088
+    },
+    {
+      "row_id": "tasks/32400s/localization/test/data.parquet#149",
+      "density_total_variation": 0.0,
+      "grid_shift_s": 0.0,
+      "original_target_mass": 0.188703715801239,
+      "changed_query_old_target_mass": 0.188703715801239
+    }
+  ],
+  "interpretation": "Query置换仅测函数依赖，不是具有新答案/完整证据标注的同信号配对测试，不能称为正确Query Selectivity。冻结答案头干预属于分布外诊断。"
+}

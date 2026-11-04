@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "runs": 20,
+  "train_n": 16,
+  "validation_n": 8,
+  "test_n": 8,
+  "seed": 7,
+  "tokens": [
+    32,
+    64,
+    128,
+    256,
+    512
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "selection": "固定seed7最终checkpoint，非按测试成绩挑选；另附独立Coordinate-only控制",
+  "files": [
+    {
+      "path": "models/adaptive_joint_seed7.pt",
+      "bytes": 404022,
+      "sha256": "610b40fd762d9bc414bb1e1470776fa764b08fb5e71181398817963a66715aef"
+    },
+    {
+      "path": "models/coordinate_only_seed7.pt",
+      "bytes": 404086,
+      "sha256": "a652bee8b0b808bc64424c15e8479d790a5f8cb7055bb153a8bfb88e9ccb0de7"
+    }
+  ],
+  "local_available": true,
+  "uploaded_to_git": false,
+  "reason": "沿用仓库忽略models/与*.pt的约定；不提交权重，固定训练命令可重建"
+}

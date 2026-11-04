@@ -1,0 +1,48 @@
+等待smoke：缺1个固定窗口
+等待smoke：缺1个固定窗口
+等待smoke：缺1个固定窗口
+等待smoke：缺1个固定窗口
+等待smoke：缺1个固定窗口
+等待overfit：缺1个固定窗口
+等待overfit：缺1个固定窗口
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/conv.py:370: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:217.)
+  return F.conv1d(
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/transformer.py:887: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:217.)
+  return torch._transformer_encoder_layer_fwd(
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/linear.py:125: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:217.)
+  return F.linear(input, self.weight, self.bias)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/functional.py:5614: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:217.)
+  proj = linear(q, w, b)
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:217.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: Flash Attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:102.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: upsample_linear1d_backward_out_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: adaptive_avg_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+overfit32 1 {'total': 2.3269, 'qa': 0.9907, 'density_kl': 1.3362, 'entropy': 7.0871}
+overfit32 100 {'total': 2.7071, 'qa': 0.8801, 'density_kl': 1.827, 'entropy': 7.9151}
+overfit32 200 {'total': 1.6019, 'qa': 0.606, 'density_kl': 0.9959, 'entropy': 7.3955}
+overfit32 300 {'total': 1.2566, 'qa': 0.6281, 'density_kl': 0.6285, 'entropy': 6.975}
+overfit32 400 {'total': 0.8495, 'qa': 0.2802, 'density_kl': 0.5694, 'entropy': 7.1715}
+overfit32 500 {'total': 1.3846, 'qa': 0.7063, 'density_kl': 0.6783, 'entropy': 6.4652}
+overfit32 600 {'total': 1.0034, 'qa': 0.5804, 'density_kl': 0.423, 'entropy': 6.4202}
+overfit32 700 {'total': 0.7865, 'qa': 0.3112, 'density_kl': 0.4753, 'entropy': 6.8178}
+overfit32 800 {'total': 0.5975, 'qa': 0.1495, 'density_kl': 0.448, 'entropy': 7.1581}
+overfit32 完成
+等待validation：缺10个固定窗口
+等待validation：缺10个固定窗口
+等待validation：缺10个固定窗口
+等待validation：缺10个固定窗口
+等待validation：缺10个固定窗口
+等待validation：缺8个固定窗口
+等待validation：缺8个固定窗口
+等待validation：缺7个固定窗口
+等待validation：缺7个固定窗口
+等待validation：缺7个固定窗口
+等待validation：缺7个固定窗口
+等待validation：缺7个固定窗口
+等待validation：缺7个固定窗口
+等待validation：缺7个固定窗口
+等待validation：缺7个固定窗口

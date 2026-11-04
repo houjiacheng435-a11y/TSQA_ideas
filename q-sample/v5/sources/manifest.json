@@ -1,0 +1,520 @@
+{
+  "houses_kept": [
+    1,
+    2,
+    5
+  ],
+  "v1_vocab": [
+    "dishwasher",
+    "fridge",
+    "fridge_freezer",
+    "hair_dryer",
+    "kettle",
+    "microwave",
+    "oven",
+    "toaster",
+    "washer_dryer",
+    "washing_machine"
+  ],
+  "regimes": {
+    "impulse": [
+      "kettle",
+      "microwave",
+      "toaster",
+      "hair_dryer"
+    ],
+    "long_cycle": [
+      "washing_machine",
+      "dishwasher",
+      "washer_dryer"
+    ],
+    "cooking": [
+      "oven"
+    ],
+    "refrig": [
+      "fridge",
+      "fridge_freezer"
+    ]
+  },
+  "houses": {
+    "1": {
+      "building": 1,
+      "n_meters": 54,
+      "site_meters": [
+        1,
+        54
+      ],
+      "mains_meter": 1,
+      "timeframe": {
+        "start": "2012-11-09T22:28:15+00:00",
+        "end": "2017-04-26T18:35:53+01:00"
+      },
+      "n_occupants": 4,
+      "building_type": "end of terrace",
+      "meter_to_label": {
+        "2": "boiler",
+        "3": "solar thermal pumping station",
+        "4": "laptop computer+laptop computer#3",
+        "5": "washer dryer+washer dryer#2",
+        "6": "dish washer",
+        "7": "television",
+        "8": "light+light#2",
+        "9": "HTPC",
+        "10": "kettle+food processor+toasted sandwich maker",
+        "11": "toaster+kitchen aid+food processor#2",
+        "12": "fridge freezer",
+        "13": "microwave",
+        "14": "computer monitor",
+        "15": "audio system",
+        "16": "breadmaker",
+        "17": "audio amplifier",
+        "18": "broadband router+broadband router#2",
+        "19": "light#3+bouncy castle pump",
+        "20": "soldering iron",
+        "21": "ethernet switch+USB hub",
+        "22": "vacuum cleaner",
+        "23": "light#4",
+        "24": "light#5",
+        "26": "light#6",
+        "27": "tablet computer charger",
+        "28": "active subwoofer",
+        "29": "light#7",
+        "30": "radio",
+        "31": "light#8",
+        "32": "wireless phone charger+audio system#2",
+        "33": "light#9",
+        "34": "mobile phone charger",
+        "35": "light#10",
+        "36": "coffee maker",
+        "37": "radio#2",
+        "38": "mobile phone charger#2+baby monitor#2+radio#3",
+        "39": "hair dryer",
+        "40": "hair straighteners",
+        "41": "clothes iron",
+        "42": "oven",
+        "43": "computer+external hard disk",
+        "44": "light#11",
+        "45": "light#12",
+        "46": "baby monitor",
+        "47": "charger",
+        "48": "light#13",
+        "49": "light#14",
+        "50": "light#15",
+        "51": "desktop computer",
+        "52": "fan",
+        "53": "printer",
+        "0": "immersion heater+water pump+security alarm+fan#2+drill+laptop computer#2",
+        "25": "light#16"
+      },
+      "canonical_meters": {
+        "washer_dryer": [
+          {
+            "meter_id": 5,
+            "instances": [
+              1,
+              2
+            ],
+            "raw_names": [
+              "washer dryer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 1800,
+            "min_off_duration_s": 160,
+            "data_location": "/building1/elec/meter5"
+          }
+        ],
+        "dishwasher": [
+          {
+            "meter_id": 6,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "dish washer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 1800,
+            "min_off_duration_s": 1800,
+            "data_location": "/building1/elec/meter6"
+          }
+        ],
+        "fridge_freezer": [
+          {
+            "meter_id": 12,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "fridge freezer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 60,
+            "min_off_duration_s": 12,
+            "data_location": "/building1/elec/meter12"
+          }
+        ],
+        "microwave": [
+          {
+            "meter_id": 13,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "microwave"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 12,
+            "min_off_duration_s": 30,
+            "data_location": "/building1/elec/meter13"
+          }
+        ],
+        "hair_dryer": [
+          {
+            "meter_id": 39,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "hair dryer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": null,
+            "min_off_duration_s": null,
+            "data_location": "/building1/elec/meter39"
+          }
+        ]
+      }
+    },
+    "2": {
+      "building": 2,
+      "n_meters": 20,
+      "site_meters": [
+        1,
+        20
+      ],
+      "mains_meter": 1,
+      "timeframe": {
+        "start": "2013-02-17T15:39:19+00:00",
+        "end": "2013-10-10T06:15:58+01:00"
+      },
+      "n_occupants": 2,
+      "building_type": "end of terrace",
+      "meter_to_label": {
+        "2": "laptop computer",
+        "3": "computer monitor",
+        "4": "active speaker",
+        "5": "computer",
+        "6": "broadband router",
+        "7": "external hard disk",
+        "8": "kettle",
+        "9": "rice cooker",
+        "10": "running machine",
+        "11": "laptop computer#2",
+        "12": "washing machine",
+        "13": "dish washer",
+        "14": "fridge",
+        "15": "microwave",
+        "16": "toaster",
+        "17": "games console",
+        "18": "modem",
+        "19": "cooker"
+      },
+      "canonical_meters": {
+        "kettle": [
+          {
+            "meter_id": 8,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "kettle"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 12,
+            "min_off_duration_s": null,
+            "data_location": "/building2/elec/meter8"
+          }
+        ],
+        "washing_machine": [
+          {
+            "meter_id": 12,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "washing machine"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 1800,
+            "min_off_duration_s": 160,
+            "data_location": "/building2/elec/meter12"
+          }
+        ],
+        "dishwasher": [
+          {
+            "meter_id": 13,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "dish washer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 1800,
+            "min_off_duration_s": 1800,
+            "data_location": "/building2/elec/meter13"
+          }
+        ],
+        "fridge": [
+          {
+            "meter_id": 14,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "fridge"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 60,
+            "min_off_duration_s": 12,
+            "data_location": "/building2/elec/meter14"
+          }
+        ],
+        "microwave": [
+          {
+            "meter_id": 15,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "microwave"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 12,
+            "min_off_duration_s": 30,
+            "data_location": "/building2/elec/meter15"
+          }
+        ],
+        "toaster": [
+          {
+            "meter_id": 16,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "toaster"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": null,
+            "min_off_duration_s": null,
+            "data_location": "/building2/elec/meter16"
+          }
+        ]
+      }
+    },
+    "5": {
+      "building": 5,
+      "n_meters": 26,
+      "site_meters": [
+        1,
+        26
+      ],
+      "mains_meter": 1,
+      "timeframe": {
+        "start": "2014-06-29T17:23:48+01:00",
+        "end": "2014-11-13T18:00:03+00:00"
+      },
+      "n_occupants": 2,
+      "building_type": "flat",
+      "meter_to_label": {
+        "2": "active speaker",
+        "3": "desktop computer",
+        "4": "hair dryer",
+        "5": "television",
+        "6": "computer monitor",
+        "7": "running machine",
+        "8": "network attached storage",
+        "9": "server computer",
+        "10": "computer monitor#2",
+        "11": "games console",
+        "12": "clothes iron",
+        "13": "coffee maker",
+        "14": "desktop computer#2",
+        "15": "toaster",
+        "16": "audio amplifier",
+        "17": "set top box",
+        "18": "kettle",
+        "19": "fridge freezer",
+        "20": "electric oven",
+        "21": "electric stove",
+        "22": "dish washer",
+        "23": "microwave",
+        "24": "washer dryer",
+        "25": "vacuum cleaner"
+      },
+      "canonical_meters": {
+        "hair_dryer": [
+          {
+            "meter_id": 4,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "hair dryer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": null,
+            "min_off_duration_s": null,
+            "data_location": "/building5/elec/meter4"
+          }
+        ],
+        "toaster": [
+          {
+            "meter_id": 15,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "toaster"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": null,
+            "min_off_duration_s": null,
+            "data_location": "/building5/elec/meter15"
+          }
+        ],
+        "kettle": [
+          {
+            "meter_id": 18,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "kettle"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 12,
+            "min_off_duration_s": null,
+            "data_location": "/building5/elec/meter18"
+          }
+        ],
+        "fridge_freezer": [
+          {
+            "meter_id": 19,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "fridge freezer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 60,
+            "min_off_duration_s": 12,
+            "data_location": "/building5/elec/meter19"
+          }
+        ],
+        "oven": [
+          {
+            "meter_id": 20,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "electric oven"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": null,
+            "min_off_duration_s": null,
+            "data_location": "/building5/elec/meter20"
+          }
+        ],
+        "dishwasher": [
+          {
+            "meter_id": 22,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "dish washer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 1800,
+            "min_off_duration_s": 1800,
+            "data_location": "/building5/elec/meter22"
+          }
+        ],
+        "microwave": [
+          {
+            "meter_id": 23,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "microwave"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 12,
+            "min_off_duration_s": 30,
+            "data_location": "/building5/elec/meter23"
+          }
+        ],
+        "washer_dryer": [
+          {
+            "meter_id": 24,
+            "instances": [
+              1
+            ],
+            "raw_names": [
+              "washer dryer"
+            ],
+            "nominal_on_power_w": null,
+            "min_on_duration_s": 1800,
+            "min_off_duration_s": 160,
+            "data_location": "/building5/elec/meter24"
+          }
+        ]
+      }
+    }
+  },
+  "availability": {
+    "dishwasher": [
+      1,
+      2,
+      5
+    ],
+    "fridge": [
+      2
+    ],
+    "fridge_freezer": [
+      1,
+      5
+    ],
+    "hair_dryer": [
+      1,
+      5
+    ],
+    "kettle": [
+      2,
+      5
+    ],
+    "microwave": [
+      1,
+      2,
+      5
+    ],
+    "oven": [
+      5
+    ],
+    "toaster": [
+      2,
+      5
+    ],
+    "washer_dryer": [
+      1,
+      5
+    ],
+    "washing_machine": [
+      2
+    ]
+  }
+}
