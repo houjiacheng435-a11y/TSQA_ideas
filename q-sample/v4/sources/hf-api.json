@@ -1,0 +1,702 @@
+{
+  "_id": "69f6953f376cf9fd3ef62ba2",
+  "id": "nz00shuuuu/uk-dale-haystack",
+  "author": "nz00shuuuu",
+  "sha": "eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521",
+  "lastModified": "2026-05-03T00:22:44.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:question-answering",
+    "task_categories:time-series-forecasting",
+    "language:en",
+    "license:cc-by-4.0",
+    "size_categories:10K<n<100K",
+    "format:parquet",
+    "modality:tabular",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:polars",
+    "library:mlcroissant",
+    "region:us",
+    "time-series",
+    "nilm",
+    "energy",
+    "uk-dale",
+    "needle-in-a-haystack",
+    "long-context"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tUK-DALE-Haystack\n\t\n\nA controlled additive-needle benchmark for long-context time-series language\nmodels built on top of UK-DALE (Kelly & Knottenbelt, 2015), the canonical\nUK domestic appliance-level + whole-house power demand dataset.\nEach sample is a 6-second-sampled mains active-power trace with one or more\nreal per-appliance bouts inserted at known locations. A QA prompt asks the\nmodel to detect, count, localize, order, or reason about those bouts across\nfive context lengths\u2026 See the full description on the dataset page: https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack.",
+  "downloads": 383,
+  "likes": 0,
+  "cardData": {
+    "license": "cc-by-4.0",
+    "language": [
+      "en"
+    ],
+    "task_categories": [
+      "question-answering",
+      "time-series-forecasting"
+    ],
+    "tags": [
+      "time-series",
+      "nilm",
+      "energy",
+      "uk-dale",
+      "needle-in-a-haystack",
+      "long-context"
+    ],
+    "pretty_name": "UK-DALE-Haystack",
+    "size_categories": [
+      "10K<n<100K"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "bout_index.parquet"
+    },
+    {
+      "rfilename": "bout_index_stats.json"
+    },
+    {
+      "rfilename": "diagnostics/classifier_transfer.json"
+    },
+    {
+      "rfilename": "diagnostics/insertion_fix_ablation.json"
+    },
+    {
+      "rfilename": "diagnostics/insertion_validation.json"
+    },
+    {
+      "rfilename": "diagnostics/isolated_insertion_validation.json"
+    },
+    {
+      "rfilename": "diagnostics/shortcut_probe.json"
+    },
+    {
+      "rfilename": "diagnostics/shortcut_probe_isolated.json"
+    },
+    {
+      "rfilename": "diagnostics/shortcut_probe_null.json"
+    },
+    {
+      "rfilename": "diagnostics/shortcut_probe_placebo.json"
+    },
+    {
+      "rfilename": "diagnostics/shortcut_probe_target_on.json"
+    },
+    {
+      "rfilename": "manifest.json"
+    },
+    {
+      "rfilename": "signals/conversion_manifest.json"
+    },
+    {
+      "rfilename": "signals/h1/m1.npy"
+    },
+    {
+      "rfilename": "signals/h1/m1.t.npy"
+    },
+    {
+      "rfilename": "signals/h1/m12.npy"
+    },
+    {
+      "rfilename": "signals/h1/m12.t.npy"
+    },
+    {
+      "rfilename": "signals/h1/m13.npy"
+    },
+    {
+      "rfilename": "signals/h1/m13.t.npy"
+    },
+    {
+      "rfilename": "signals/h1/m39.npy"
+    },
+    {
+      "rfilename": "signals/h1/m39.t.npy"
+    },
+    {
+      "rfilename": "signals/h1/m42.npy"
+    },
+    {
+      "rfilename": "signals/h1/m42.t.npy"
+    },
+    {
+      "rfilename": "signals/h1/m5.npy"
+    },
+    {
+      "rfilename": "signals/h1/m5.t.npy"
+    },
+    {
+      "rfilename": "signals/h1/m6.npy"
+    },
+    {
+      "rfilename": "signals/h1/m6.t.npy"
+    },
+    {
+      "rfilename": "signals/h2/m1.npy"
+    },
+    {
+      "rfilename": "signals/h2/m1.t.npy"
+    },
+    {
+      "rfilename": "signals/h2/m12.npy"
+    },
+    {
+      "rfilename": "signals/h2/m12.t.npy"
+    },
+    {
+      "rfilename": "signals/h2/m13.npy"
+    },
+    {
+      "rfilename": "signals/h2/m13.t.npy"
+    },
+    {
+      "rfilename": "signals/h2/m14.npy"
+    },
+    {
+      "rfilename": "signals/h2/m14.t.npy"
+    },
+    {
+      "rfilename": "signals/h2/m15.npy"
+    },
+    {
+      "rfilename": "signals/h2/m15.t.npy"
+    },
+    {
+      "rfilename": "signals/h2/m16.npy"
+    },
+    {
+      "rfilename": "signals/h2/m16.t.npy"
+    },
+    {
+      "rfilename": "signals/h2/m8.npy"
+    },
+    {
+      "rfilename": "signals/h2/m8.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m1.npy"
+    },
+    {
+      "rfilename": "signals/h5/m1.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m15.npy"
+    },
+    {
+      "rfilename": "signals/h5/m15.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m18.npy"
+    },
+    {
+      "rfilename": "signals/h5/m18.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m19.npy"
+    },
+    {
+      "rfilename": "signals/h5/m19.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m20.npy"
+    },
+    {
+      "rfilename": "signals/h5/m20.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m22.npy"
+    },
+    {
+      "rfilename": "signals/h5/m22.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m23.npy"
+    },
+    {
+      "rfilename": "signals/h5/m23.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m24.npy"
+    },
+    {
+      "rfilename": "signals/h5/m24.t.npy"
+    },
+    {
+      "rfilename": "signals/h5/m4.npy"
+    },
+    {
+      "rfilename": "signals/h5/m4.t.npy"
+    },
+    {
+      "rfilename": "source_manifest.json"
+    },
+    {
+      "rfilename": "split_manifest.json"
+    },
+    {
+      "rfilename": "tasks/32400s/anomaly_detection/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/anomaly_detection/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/anomaly_detection/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/anomaly_localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/anomaly_localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/anomaly_localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/antecedent/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/antecedent/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/antecedent/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/comparison/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/comparison/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/comparison/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/counting/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/counting/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/counting/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/existence/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/existence/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/existence/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/multi_hop/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/multi_hop/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/multi_hop/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/ordering/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/ordering/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/ordering/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/state_query/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/state_query/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/32400s/state_query/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/anomaly_detection/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/anomaly_detection/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/anomaly_detection/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/anomaly_localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/anomaly_localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/anomaly_localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/antecedent/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/antecedent/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/antecedent/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/comparison/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/comparison/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/comparison/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/counting/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/counting/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/counting/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/existence/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/existence/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/existence/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/multi_hop/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/multi_hop/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/multi_hop/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/ordering/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/ordering/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/ordering/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/state_query/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/state_query/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/3600s/state_query/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/anomaly_detection/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/anomaly_detection/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/anomaly_detection/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/anomaly_localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/anomaly_localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/anomaly_localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/antecedent/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/antecedent/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/antecedent/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/comparison/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/comparison/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/comparison/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/counting/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/counting/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/counting/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/existence/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/existence/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/existence/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/multi_hop/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/multi_hop/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/multi_hop/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/ordering/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/ordering/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/ordering/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/state_query/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/state_query/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/7200s/state_query/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/anomaly_detection/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/anomaly_detection/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/anomaly_detection/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/anomaly_localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/anomaly_localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/anomaly_localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/antecedent/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/antecedent/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/antecedent/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/comparison/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/comparison/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/comparison/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/counting/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/counting/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/counting/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/existence/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/existence/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/existence/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/multi_hop/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/multi_hop/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/multi_hop/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/ordering/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/ordering/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/ordering/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/state_query/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/state_query/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/86400s/state_query/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/anomaly_detection/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/anomaly_detection/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/anomaly_detection/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/anomaly_localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/anomaly_localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/anomaly_localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/antecedent/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/antecedent/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/antecedent/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/comparison/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/comparison/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/comparison/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/counting/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/counting/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/counting/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/existence/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/existence/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/existence/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/localization/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/localization/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/localization/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/multi_hop/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/multi_hop/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/multi_hop/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/ordering/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/ordering/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/ordering/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/state_query/test/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/state_query/train/data.parquet"
+    },
+    {
+      "rfilename": "tasks/900s/state_query/validation/data.parquet"
+    },
+    {
+      "rfilename": "tasks/generation_summary.json"
+    }
+  ],
+  "createdAt": "2026-05-03T00:22:23.000Z",
+  "usedStorage": 0
+}

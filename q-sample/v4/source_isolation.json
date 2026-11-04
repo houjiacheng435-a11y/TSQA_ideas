@@ -1,0 +1,233 @@
+{
+  "timezone": "UTC",
+  "official_week_counts": {
+    "test": 29,
+    "train": 232,
+    "validation": 29
+  },
+  "overlap_witnesses": [
+    {
+      "left": "tasks/32400s/anomaly_detection/train/data.parquet#0",
+      "right": "tasks/32400s/existence/validation/data.parquet#76",
+      "house": 2,
+      "overlap_start_ns": 1361922940803821839,
+      "overlap_end_ns": 1361929560368807766,
+      "overlap_s": 6619.564985927
+    },
+    {
+      "left": "tasks/32400s/anomaly_detection/train/data.parquet#3",
+      "right": "tasks/3600s/anomaly_localization/test/data.parquet#12",
+      "house": 1,
+      "overlap_start_ns": 1470739200549347376,
+      "overlap_end_ns": 1470742800549347376,
+      "overlap_s": 3600.0
+    },
+    {
+      "left": "tasks/32400s/anomaly_detection/validation/data.parquet#0",
+      "right": "tasks/32400s/anomaly_localization/test/data.parquet#116",
+      "house": 1,
+      "overlap_start_ns": 1423430871079812790,
+      "overlap_end_ns": 1423462747313716738,
+      "overlap_s": 31876.233903948
+    }
+  ],
+  "source_safe_stages": {
+    "test": {
+      "background_source_week_safe": 1235,
+      "all_read_windows_week_safe": 1235,
+      "week_safe_and_no_index_off_conflict": 1235
+    },
+    "train": {
+      "background_source_week_safe": 38139,
+      "all_read_windows_week_safe": 38136,
+      "week_safe_and_no_index_off_conflict": 38136
+    },
+    "validation": {
+      "background_source_week_safe": 1049,
+      "all_read_windows_week_safe": 1049,
+      "week_safe_and_no_index_off_conflict": 1049
+    }
+  },
+  "filtered_counts": [
+    {
+      "split": "test",
+      "task": "anomaly_detection",
+      "n": 65
+    },
+    {
+      "split": "test",
+      "task": "anomaly_localization",
+      "n": 67
+    },
+    {
+      "split": "test",
+      "task": "antecedent",
+      "n": 42
+    },
+    {
+      "split": "test",
+      "task": "comparison",
+      "n": 64
+    },
+    {
+      "split": "test",
+      "task": "counting",
+      "n": 57
+    },
+    {
+      "split": "test",
+      "task": "existence",
+      "n": 79
+    },
+    {
+      "split": "test",
+      "task": "localization",
+      "n": 53
+    },
+    {
+      "split": "test",
+      "task": "multi_hop",
+      "n": 50
+    },
+    {
+      "split": "test",
+      "task": "ordering",
+      "n": 40
+    },
+    {
+      "split": "test",
+      "task": "state_query",
+      "n": 718
+    },
+    {
+      "split": "train",
+      "task": "anomaly_detection",
+      "n": 4098
+    },
+    {
+      "split": "train",
+      "task": "anomaly_localization",
+      "n": 4080
+    },
+    {
+      "split": "train",
+      "task": "antecedent",
+      "n": 3349
+    },
+    {
+      "split": "train",
+      "task": "comparison",
+      "n": 3645
+    },
+    {
+      "split": "train",
+      "task": "counting",
+      "n": 3742
+    },
+    {
+      "split": "train",
+      "task": "existence",
+      "n": 3915
+    },
+    {
+      "split": "train",
+      "task": "localization",
+      "n": 3698
+    },
+    {
+      "split": "train",
+      "task": "multi_hop",
+      "n": 3335
+    },
+    {
+      "split": "train",
+      "task": "ordering",
+      "n": 3311
+    },
+    {
+      "split": "train",
+      "task": "state_query",
+      "n": 4963
+    },
+    {
+      "split": "validation",
+      "task": "anomaly_detection",
+      "n": 46
+    },
+    {
+      "split": "validation",
+      "task": "anomaly_localization",
+      "n": 42
+    },
+    {
+      "split": "validation",
+      "task": "antecedent",
+      "n": 33
+    },
+    {
+      "split": "validation",
+      "task": "comparison",
+      "n": 33
+    },
+    {
+      "split": "validation",
+      "task": "counting",
+      "n": 32
+    },
+    {
+      "split": "validation",
+      "task": "existence",
+      "n": 46
+    },
+    {
+      "split": "validation",
+      "task": "localization",
+      "n": 39
+    },
+    {
+      "split": "validation",
+      "task": "multi_hop",
+      "n": 39
+    },
+    {
+      "split": "validation",
+      "task": "ordering",
+      "n": 32
+    },
+    {
+      "split": "validation",
+      "task": "state_query",
+      "n": 707
+    }
+  ],
+  "negative_existence_index_witness": {
+    "row_id": "tasks/32400s/existence/train/data.parquet#50",
+    "question": "Did the electric kettle run during this window?",
+    "answer": "No",
+    "background_house_id": 5,
+    "background_start_ns": 1409464748217727929,
+    "background_end_ns": 1409497148217727929,
+    "official_bout": {
+      "house_id": 5,
+      "meter_id": 18,
+      "appliance": "kettle",
+      "regime": "impulse",
+      "instance": 1,
+      "start_ns": 1409473163000000000,
+      "end_ns": 1409473362000000000,
+      "duration_s": 205.0,
+      "peak_w": 2931.0,
+      "mean_w": 2859.970703125,
+      "total_kwh": 0.15910860896110535,
+      "iso_week": "2014-W35",
+      "split": "test"
+    },
+    "label_semantics_warning": "官方事件索引冲突，还未用原始分表波形复核，不宣布所有此类题都错标"
+  },
+  "limitations": [
+    "只读候选筛选不是新官方划分",
+    "同 house 的设备签名仍共享，不是跨住户泛化",
+    "完整事件索引仍不是全部真实活动的无误标注",
+    "未做全库波形近重复检测"
+  ]
+}

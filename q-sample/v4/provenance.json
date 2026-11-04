@@ -1,0 +1,57 @@
+{
+  "date_utc": "2026-11-04",
+  "base_repository_commit": "89eb77a3fe84eac5bc7add78c7f94b75e5b6f561",
+  "official_code_commit": "5e8d3162d47176e19fbd9c5f3d3cf9c6e0e9a7d4",
+  "hf_revision": "eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521",
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "executable": "/root/v016-sonarts-env/bin/python",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "pyarrow": "19.0.1",
+    "requests": "2.31.0",
+    "matplotlib": "3.9.2"
+  },
+  "script_sha256": {
+    "acquire_metadata.py": "b730ed6aaa63d8485047832d55c16174fa9af3d8ea7e3f3ec674f2cb9bff87b8",
+    "audit_metadata.py": "9316c65d6450cdae2ee93e38f69b91f5cd714ffac2f975d301738e5258419881",
+    "audit_source_isolation.py": "4e10f56e1419252cd04a5d30b0a28fca1d06072495a0c4dff93b6498b4baa1f1",
+    "check_semantics.py": "0a9b0b7aa9afcb7403a191340f7dd02084a2613a034b07aae5ea77a73b0bcdf0",
+    "oracle_fidelity.py": "46888026a7ea0ed46d417a0deaae47ca8f926e39b1c1d2a0186cfb2c161e112e",
+    "signal_diagnostic.py": "6cee6cb5216dcbb7fa94983d67620973360b0f8cfda56449ecd4067dd544739b",
+    "test_audit.py": "8d11bf92ae9ef31cf1022dc532e2f27c81dfe6258d5ecdc02c5aa9f21b7decdb"
+  },
+  "selection": "train 每个 context={900,7200,86400} × task={existence,localization,ordering,multi_hop} 的第一条有效题；未按分数替换",
+  "oracle": {
+    "budgets": [
+      16,
+      32,
+      64,
+      128,
+      512
+    ],
+    "context_padding_seconds": 60,
+    "background_weight": 0.02,
+    "randomness": "无；并列残差按首索引",
+    "readout": "相同 float32 坐标和采样值的线性重建器；不产生 QA 预测"
+  },
+  "checks": {
+    "metadata_files_sha256": 151,
+    "official_gt_self_scores": {
+      "train": 50000,
+      "validation": 7499,
+      "test": 7498
+    },
+    "localization_relative_answer_checks": 6500,
+    "unit_tests": 2,
+    "signal_reconstructions": 12
+  },
+  "training": "未优化神经网络；文字/类别先验仅由 train 频数得到；无 GPU、LLM、API 推理",
+  "test_exposure": "完整官方 test 元数据与答案已接触，用于审计和固定先验评分；没有下载 test 问题的重建波形",
+  "operational_notes": [
+    "首次完整性断言在轻量分片尚未下载完成时触发，补齐 150 分片后通过；没有放宽完整性要求",
+    "首次 pip 获取尝试中止后发现服务器已有 PyArrow 19.0.1，转用既有环境；没有安装全局依赖",
+    "信号 Range 共 238 个不同区间、2993812 字节；另有获取前 256 字节能力探针记录于 sources/range_probe.json"
+  ]
+}

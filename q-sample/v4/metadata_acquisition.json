@@ -1,0 +1,1210 @@
+[
+  {
+    "path": "bout_index.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/bout_index.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/bout_index.parquet",
+    "bytes": 1418225,
+    "sha256": "5df520eca1ec8c56aef213a7569ead0a0aafad35a931522e23cf8ffad7e95b3f",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/anomaly_detection/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_detection/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_detection/test/data.parquet",
+    "bytes": 30927,
+    "sha256": "ff3c05a040fe88d078d33b05f6836e36177bac85384c65c7ed162573e0901fd9",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/anomaly_detection/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_detection/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_detection/train/data.parquet",
+    "bytes": 213974,
+    "sha256": "949a3a9855f7cc5a290a9ffd9bd5ddb25fcf6044769742174850bc313558e081",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/anomaly_detection/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_detection/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_detection/validation/data.parquet",
+    "bytes": 33229,
+    "sha256": "b1c552e1dc3106f610be3dffa60d15f0c116a16edea5fe6d3ef692ecc27dd2b6",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/anomaly_localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_localization/test/data.parquet",
+    "bytes": 44178,
+    "sha256": "a3b5530d7f1c23e4df600d499c7380a64425969d031b088a76f55a33027aa4d5",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/anomaly_localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_localization/train/data.parquet",
+    "bytes": 279648,
+    "sha256": "c7600644c4a48adc5ff3c7a0f23e9b0a94a420873e1d307b542635025f4e5121",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/anomaly_localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/anomaly_localization/validation/data.parquet",
+    "bytes": 42174,
+    "sha256": "0185e3a37a4618643ac475e182262cea208888057e5362baa258cf03942bf58d",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/antecedent/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/antecedent/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/antecedent/test/data.parquet",
+    "bytes": 34673,
+    "sha256": "661bb2996d06a173e69ddaf8188402d866841176b0180c956a8fdd703ba1574e",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/antecedent/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/antecedent/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/antecedent/train/data.parquet",
+    "bytes": 182105,
+    "sha256": "9311cd8524d35108a464107b25f9ba00d77ff499409f19e2bd6101ccc37c6ec9",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/antecedent/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/antecedent/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/antecedent/validation/data.parquet",
+    "bytes": 34646,
+    "sha256": "ba73f0d97d7334f789e34f3be438e7b8418586abdbd7c9f22299f46706f340f3",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/comparison/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/comparison/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/comparison/test/data.parquet",
+    "bytes": 38829,
+    "sha256": "e01f9b553642d676dfd4835dbd9e9fceb95d361c191bca6c9ec5676654aecf98",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/comparison/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/comparison/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/comparison/train/data.parquet",
+    "bytes": 237239,
+    "sha256": "9bc6b8e68eb130653ab9df380b4ac8c378306e888df74fb7f6b2c8db57de2f76",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/comparison/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/comparison/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/comparison/validation/data.parquet",
+    "bytes": 40697,
+    "sha256": "1a9ce91732423818d7370268c7591687a4428e00bdeae8d66918c1844e8ad0fe",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/counting/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/counting/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/counting/test/data.parquet",
+    "bytes": 38537,
+    "sha256": "8b8d34375814042df71d71daca04280bd2a669dca15cd45462af1a30ba3d206e",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/counting/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/counting/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/counting/train/data.parquet",
+    "bytes": 231298,
+    "sha256": "10427a4d3b97861b3c8b359e8c1dbd4fc4166bc330e3451be11f0eee4815b28b",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/counting/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/counting/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/counting/validation/data.parquet",
+    "bytes": 34284,
+    "sha256": "210fd71489af65afabd95ea8d16b370141a1869cb1a081a6c1f8e7f36d6d711c",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/existence/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/existence/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/existence/test/data.parquet",
+    "bytes": 27878,
+    "sha256": "224186424cb39eab0e9f34cdc30003f89df663bf2dedce7cf8db751a5fe16af4",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/existence/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/existence/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/existence/train/data.parquet",
+    "bytes": 181497,
+    "sha256": "692de648ace76542a2f7452dd720ea059a3314f6cc4291220ee1b2030b9651bb",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/existence/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/existence/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/existence/validation/data.parquet",
+    "bytes": 25644,
+    "sha256": "1cc6a1cb38ac93f8f6aa83bcab15a2d14c0d5997a1ddf3ea27b04f14cf9e453e",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/localization/test/data.parquet",
+    "bytes": 35386,
+    "sha256": "ea605b19da52537f08c30dc9d74a5bb4f4a7696ccc72f78e7b3f9177619e8e0c",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/localization/train/data.parquet",
+    "bytes": 229212,
+    "sha256": "0eeff036931c38f2339bf35704ec7a831f93b66a14c61be6fd062b5af02d47db",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/localization/validation/data.parquet",
+    "bytes": 37742,
+    "sha256": "b6ffe00bdc6aa251668d79012751d59bba0b1f5aba800897009ad710545442c9",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/multi_hop/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/multi_hop/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/multi_hop/test/data.parquet",
+    "bytes": 51366,
+    "sha256": "510b48304aee4cd8612d4e6460daacb3905ca3b787d4f58c129129481020a5a9",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/multi_hop/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/multi_hop/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/multi_hop/train/data.parquet",
+    "bytes": 284954,
+    "sha256": "b744ca10e03900e3296811ae4e984890761ee41b2a3d2ace17b4f0341ccf5c9b",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/multi_hop/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/multi_hop/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/multi_hop/validation/data.parquet",
+    "bytes": 49396,
+    "sha256": "00586eb7da41aa13096ec48b2a4c7a96a05701c9fc598f3213c1fa2342cb4734",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/ordering/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/ordering/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/ordering/test/data.parquet",
+    "bytes": 29518,
+    "sha256": "56da017a7e810e6269558b98f0b6710b4ddb125a1a3ed2690efd01e2a61342eb",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/ordering/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/ordering/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/ordering/train/data.parquet",
+    "bytes": 199599,
+    "sha256": "ad1d0bc30a05381f33ece2d6f6eaca80c8e7e6a60182d1fdc103c61c1838e8e1",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/ordering/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/ordering/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/ordering/validation/data.parquet",
+    "bytes": 36633,
+    "sha256": "cc427ca5d12952fdb10235d59bf4ad04a698b806b4830211868be58c2b14abcc",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/state_query/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/state_query/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/state_query/test/data.parquet",
+    "bytes": 49990,
+    "sha256": "7cef4831b049a320920fa0427904231b1d0c6ac6d10c8d3a66f393d0a28c14a3",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/state_query/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/state_query/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/state_query/train/data.parquet",
+    "bytes": 242262,
+    "sha256": "41f44f340b243af44e626c67db844c8da7d607f465d803d4d51d0fe537e0f8c8",
+    "reused": true
+  },
+  {
+    "path": "tasks/32400s/state_query/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/state_query/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/32400s/state_query/validation/data.parquet",
+    "bytes": 50028,
+    "sha256": "b4e021ad9df7eb06f672fcd26c85ba58da1f8022e5792e3331feaf6eb8afbf9e",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/anomaly_detection/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_detection/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_detection/test/data.parquet",
+    "bytes": 23331,
+    "sha256": "d5acac195a534702520ba341ce43ea6a04a759728e1bd82a5bca35ae0317dc40",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/anomaly_detection/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_detection/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_detection/train/data.parquet",
+    "bytes": 109130,
+    "sha256": "eb1449325f7d67ca3aeca9f54af4f7773174f4d5b2ce6197323f4ca8865fb099",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/anomaly_detection/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_detection/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_detection/validation/data.parquet",
+    "bytes": 23558,
+    "sha256": "e974dbfe41b863196ff3da094c9701945dea12ab50b370c3fe637574b6395f99",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/anomaly_localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_localization/test/data.parquet",
+    "bytes": 35696,
+    "sha256": "8e16f2db4a42433647b3f20d042a912b33affface53709fccd7116467b6b8019",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/anomaly_localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_localization/train/data.parquet",
+    "bytes": 156513,
+    "sha256": "64a5b2f3bee61aaafc16483270a621976019bb23b0ed5c29fa1d4d03595f3f47",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/anomaly_localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/anomaly_localization/validation/data.parquet",
+    "bytes": 30002,
+    "sha256": "b6ddc614b11fbce37f81fb64b12fe936b909cc84e828f71d7a1914af1d6b04d8",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/antecedent/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/antecedent/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/antecedent/test/data.parquet",
+    "bytes": 27512,
+    "sha256": "59e603d1c974aee5bd071bc2ea6b1967c353a1dd2391f2e0f0311cbb9d5a93e2",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/antecedent/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/antecedent/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/antecedent/train/data.parquet",
+    "bytes": 115084,
+    "sha256": "95bd47870eeea3bd27f9866f72de9c3be03f27f676408e4c4948a9d534707741",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/antecedent/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/antecedent/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/antecedent/validation/data.parquet",
+    "bytes": 26540,
+    "sha256": "0a7b4b461f7b5398f28d62bb0ffd03471ef7bd65e9612231f31c22417b994483",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/comparison/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/comparison/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/comparison/test/data.parquet",
+    "bytes": 33798,
+    "sha256": "9aee2bd0858625f46639df9794cba0d024aa8668884c883a4e22363f9764a63c",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/comparison/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/comparison/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/comparison/train/data.parquet",
+    "bytes": 147708,
+    "sha256": "d88f3aebb3008b4fa2f89a0125b07e0c0f5e6ae4a133deb03763641d8ada2a62",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/comparison/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/comparison/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/comparison/validation/data.parquet",
+    "bytes": 36903,
+    "sha256": "3a4211f553dbb98ce062b753fb328939cba393c82a3a30776dd2f15a8cd7245d",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/counting/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/counting/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/counting/test/data.parquet",
+    "bytes": 23893,
+    "sha256": "5eb0e6c27bd0068921cc28ec6065339256d934a58ce74d0bd3767f365961bc4e",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/counting/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/counting/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/counting/train/data.parquet",
+    "bytes": 120856,
+    "sha256": "1b61044d9ed74ac017518174b8e05bc93c580c148d9e81dcf5ba2c65748c21ba",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/counting/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/counting/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/counting/validation/data.parquet",
+    "bytes": 23579,
+    "sha256": "ccd6bf27e2a8babb4c627ff07cbbf99ce60bece5b04775ec04a174951dddd557",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/existence/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/existence/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/existence/test/data.parquet",
+    "bytes": 20688,
+    "sha256": "dfb1f5cc0a1ff5cf6d59cba97e2638fc22b33feecc0beb66e3391f12adedde99",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/existence/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/existence/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/existence/train/data.parquet",
+    "bytes": 87417,
+    "sha256": "a87ff93e44449d40a6d3790780f8851e3832b40195b2cccf63914b1889fa9f30",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/existence/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/existence/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/existence/validation/data.parquet",
+    "bytes": 22244,
+    "sha256": "a82da3ed997f3eace852b33e9861289ae15402e9286c359a13146a76504fa768",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/localization/test/data.parquet",
+    "bytes": 28281,
+    "sha256": "7cd0c4ec1187fc66040a43eac720b8b418f907d156ea5540c1840e4df51bbeef",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/localization/train/data.parquet",
+    "bytes": 128323,
+    "sha256": "003390ff4b73303d224538fe7bc1f9ec6c9986286222cb4191a2da9dc9725269",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/localization/validation/data.parquet",
+    "bytes": 26540,
+    "sha256": "a1b496321dc264302f8e349473ac397630d48f2ca36aa30227ad06db65feb926",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/multi_hop/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/multi_hop/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/multi_hop/test/data.parquet",
+    "bytes": 43460,
+    "sha256": "657c8d29db84e769447e56711edfc61994b7a0dc22461cb9afb67d5051e48227",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/multi_hop/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/multi_hop/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/multi_hop/train/data.parquet",
+    "bytes": 199372,
+    "sha256": "36b8b96744281ae01ad2bc161e72a67e44aeccacd45019ff04fc5f413e4b6325",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/multi_hop/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/multi_hop/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/multi_hop/validation/data.parquet",
+    "bytes": 42947,
+    "sha256": "32fad615b30c0533c0fed0a05b24076a72b9f815b30203de75cca42b73c8e9de",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/ordering/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/ordering/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/ordering/test/data.parquet",
+    "bytes": 30533,
+    "sha256": "6fe703204ab4aa0d87adcd9487ff4995edf461c2c6152b0220cdb591f2ed79c9",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/ordering/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/ordering/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/ordering/train/data.parquet",
+    "bytes": 132118,
+    "sha256": "efdd73e5559c8e26f4655139f74e022aeb71fa5dfaf7617d02e06fad1168ba5f",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/ordering/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/ordering/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/ordering/validation/data.parquet",
+    "bytes": 29728,
+    "sha256": "42fe2cdada966b0f4cfbd83198d3a3dfb92bc1e0e27014eec9077e2f2e62ca88",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/state_query/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/state_query/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/state_query/test/data.parquet",
+    "bytes": 21964,
+    "sha256": "727b65366668fac4ce6a54f1e8048c9402ed25647c86c39fb3f935d90aaaea43",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/state_query/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/state_query/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/state_query/train/data.parquet",
+    "bytes": 81162,
+    "sha256": "ac9b734913b7e74fad124a8a446a3f1de821026ae3b3dbb5682d709a81928412",
+    "reused": true
+  },
+  {
+    "path": "tasks/3600s/state_query/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/state_query/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/3600s/state_query/validation/data.parquet",
+    "bytes": 21116,
+    "sha256": "9ce9989af1e9e57e6c44b11ccb604dea8979b4b66f44f47fbb50c6fc5609aa5e",
+    "reused": true
+  },
+  {
+    "path": "tasks/7200s/anomaly_detection/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_detection/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_detection/test/data.parquet",
+    "bytes": 24106,
+    "sha256": "c48e2f4743b4f7a6c1d83829b699acfcbaa28b3c2503a79389f88bbcc8379c14",
+    "reused": true
+  },
+  {
+    "path": "tasks/7200s/anomaly_detection/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_detection/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_detection/train/data.parquet",
+    "bytes": 129794,
+    "sha256": "9f023cdfe437a1524ff3948aea8641624dd529f57f0c84f20407191eb8e26786",
+    "reused": true
+  },
+  {
+    "path": "tasks/7200s/anomaly_detection/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_detection/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_detection/validation/data.parquet",
+    "bytes": 26371,
+    "sha256": "0ea9df4f1f29e7df21e060de43482bce7952b0ef371d2f1125bf279a3c570946",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/anomaly_localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_localization/test/data.parquet",
+    "bytes": 33799,
+    "sha256": "83af8ca6d047acdff114609b553f320d791a70558499d7e742f53dee42701870",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/anomaly_localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_localization/train/data.parquet",
+    "bytes": 185727,
+    "sha256": "52f36982f901be28d854e3ae5dfb1009773c40af98ad415190ebe1f9181b84ee",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/anomaly_localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/anomaly_localization/validation/data.parquet",
+    "bytes": 36088,
+    "sha256": "34dbf6b6ce175247465b3ac3e847c6d01b45b23d9b4dc1f02857a0f1105b0e9d",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/antecedent/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/antecedent/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/antecedent/test/data.parquet",
+    "bytes": 27977,
+    "sha256": "da3a1962d1fec894ae8a9d79a03a5f75702193b2d31b30d50bc0c7d62dc8d640",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/antecedent/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/antecedent/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/antecedent/train/data.parquet",
+    "bytes": 129255,
+    "sha256": "df3bc9c5ede87fb8f7d086eb8209c1c3755ad4b5024a635ab40528ccacb43a34",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/antecedent/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/antecedent/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/antecedent/validation/data.parquet",
+    "bytes": 29865,
+    "sha256": "1c3c88be65bce60f1f1c5f432d8f004c61a872d4c6508609ce7507243bd42bca",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/comparison/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/comparison/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/comparison/test/data.parquet",
+    "bytes": 33367,
+    "sha256": "c9ed3c5e218860e1f58d19c85b924fb55e6540367d9526cafdfdb80434bb95a8",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/comparison/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/comparison/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/comparison/train/data.parquet",
+    "bytes": 162290,
+    "sha256": "9862f8105b9f4f2bc1b6b61f1144c5ed66974ca46971dc7c9d37847ad92fa2f7",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/comparison/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/comparison/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/comparison/validation/data.parquet",
+    "bytes": 34792,
+    "sha256": "fbe7b62bb91262a54aad7989decd60069f66da279ebd7a55e6a6b76dc7fe77bb",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/counting/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/counting/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/counting/test/data.parquet",
+    "bytes": 25508,
+    "sha256": "b1aebb1dea032fd3e639ad6219a5eab151372cf723858ad20dc1853b3e32afcf",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/counting/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/counting/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/counting/train/data.parquet",
+    "bytes": 141709,
+    "sha256": "832d34896969856782ef2bf19fd88a051cbb9939bdc055e5bf45121cf20cea29",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/counting/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/counting/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/counting/validation/data.parquet",
+    "bytes": 23967,
+    "sha256": "8023eed8e58f292f9778cf8636c6cb52b214f01a7f7d83fed0817c9d943586a8",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/existence/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/existence/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/existence/test/data.parquet",
+    "bytes": 21023,
+    "sha256": "c5b84e8467d6a438cb47a1875a495fc186728decf7ee24d5aa020578c548b967",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/existence/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/existence/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/existence/train/data.parquet",
+    "bytes": 105266,
+    "sha256": "755a9e3429ec8d847f27798a068cf558d1cf8649309c5db98204657fc2d0e320",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/existence/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/existence/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/existence/validation/data.parquet",
+    "bytes": 21710,
+    "sha256": "0eecfc886fef52635cf0d30e182e159310f09f39fd5ef05e3e27254efc1b95f8",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/localization/test/data.parquet",
+    "bytes": 28371,
+    "sha256": "6d4211ae6b3ba469dc920791a1d394144e959d6b5aa524c4d520e1d5c7b2f755",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/localization/train/data.parquet",
+    "bytes": 145947,
+    "sha256": "4a7fa6b4b7cd55ab4b429618a0fa342a2a5ec483312021bd9ed2c9d0f2e2c863",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/localization/validation/data.parquet",
+    "bytes": 28257,
+    "sha256": "5a032c60227a998df1f7c95fb91153510257d3c84499850eca04af1bdd670318",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/multi_hop/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/multi_hop/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/multi_hop/test/data.parquet",
+    "bytes": 47253,
+    "sha256": "266b3d51f4f9c89d38a0210b75aa39215431697a98649a16b135c6bfa9e0cdec",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/multi_hop/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/multi_hop/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/multi_hop/train/data.parquet",
+    "bytes": 217886,
+    "sha256": "cf3b29937fad0c0724970ef5d91d0a51b5859715bb0093fdcf11c3765f714636",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/multi_hop/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/multi_hop/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/multi_hop/validation/data.parquet",
+    "bytes": 44575,
+    "sha256": "5ddf20c4a47eb0ad4dd5520753d928295205e22e27feb58f3b3004fd01117f4e",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/ordering/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/ordering/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/ordering/test/data.parquet",
+    "bytes": 30771,
+    "sha256": "36392307c006b6dd2775545fe8f5b887c510801402d582b2dda27192f1a254f4",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/ordering/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/ordering/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/ordering/train/data.parquet",
+    "bytes": 148836,
+    "sha256": "1966e8fc0c2d846e688ff152381849c6866fce8d45a01283a1a5b232c672a5e6",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/ordering/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/ordering/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/ordering/validation/data.parquet",
+    "bytes": 30773,
+    "sha256": "b216f453b4aef3a73f7676e41c8632b76d499a9495ff375e6801564107f75d48",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/state_query/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/state_query/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/state_query/test/data.parquet",
+    "bytes": 23192,
+    "sha256": "548bb6c4be28c3001fcf796dc018a819b26bdbdbba3d19551da80a5e7ee4c845",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/state_query/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/state_query/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/state_query/train/data.parquet",
+    "bytes": 108678,
+    "sha256": "16aa75d026f34f6fd6728c6bed66d9aff624bf4ac07bba09a68bf40309140a63",
+    "reused": false
+  },
+  {
+    "path": "tasks/7200s/state_query/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/state_query/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/7200s/state_query/validation/data.parquet",
+    "bytes": 24747,
+    "sha256": "694ab13d54f2959188b57efcbeb7fce1a8a7463b586af85355fe9837b16099c3",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/anomaly_detection/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_detection/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_detection/test/data.parquet",
+    "bytes": 45861,
+    "sha256": "9ac9dc2730921c45e28c7debbeca6670fb525d113a3af6e3bb596b828fbc951f",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/anomaly_detection/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_detection/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_detection/train/data.parquet",
+    "bytes": 375014,
+    "sha256": "a830572a6b1393dddcd0f3a061c1bc9c4e353757f360a9f4e33a9188afd9e37a",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/anomaly_detection/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_detection/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_detection/validation/data.parquet",
+    "bytes": 39488,
+    "sha256": "f08199322834f7bb04c830c2e3e0e1b825bd2c4c57b9aa9bf608e7327abb49c2",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/anomaly_localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_localization/test/data.parquet",
+    "bytes": 61048,
+    "sha256": "6db5786f2872cd67d09f73659828983835867561208a6a5b032617e09021c773",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/anomaly_localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_localization/train/data.parquet",
+    "bytes": 432410,
+    "sha256": "871b3035dee1b292714cc17310d48df995cc57e4c2a74583ec3366a2ecba05f3",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/anomaly_localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/anomaly_localization/validation/data.parquet",
+    "bytes": 52651,
+    "sha256": "c4ce3c3b11edf40122a06842c9501e4ac0d5b2d305e4e61f4ed7ac0edd9f8429",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/antecedent/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/antecedent/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/antecedent/test/data.parquet",
+    "bytes": 53523,
+    "sha256": "fb2c7bdbca60461ffad9b9ed38d826e199898a96213005c6cfa486686f33b605",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/antecedent/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/antecedent/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/antecedent/train/data.parquet",
+    "bytes": 240845,
+    "sha256": "be4b4dd2b6360957f4b41bac6f5049cd9a612f17df17e7723276682a8b71b49b",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/antecedent/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/antecedent/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/antecedent/validation/data.parquet",
+    "bytes": 40287,
+    "sha256": "b7c1fea7761617b2419bf444691424185a785a722ad4d2dce3a5bc896ff49c6c",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/comparison/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/comparison/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/comparison/test/data.parquet",
+    "bytes": 61888,
+    "sha256": "291c664e808207f98d72212d09d517007c888acd7be4787fe2a60dcb2a455ea8",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/comparison/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/comparison/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/comparison/train/data.parquet",
+    "bytes": 350146,
+    "sha256": "c60c7a18c0b8e4fa465334aaf377f6f0d99bed2d9f2456783bef16284d831f23",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/comparison/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/comparison/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/comparison/validation/data.parquet",
+    "bytes": 51910,
+    "sha256": "4501eb93ac0eb6544dd63f20783c8b187e4dd05079ddf99bb25daeb7ab579dfd",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/counting/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/counting/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/counting/test/data.parquet",
+    "bytes": 52450,
+    "sha256": "0d4489d971b616dc54224095fe68869c043612b2a8419004bddbe858c7aaaf28",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/counting/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/counting/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/counting/train/data.parquet",
+    "bytes": 358232,
+    "sha256": "550a75fa4910d3d14f1c0caa452616e6519362ba5ca84aa41bbf867bef9072e1",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/counting/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/counting/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/counting/validation/data.parquet",
+    "bytes": 42875,
+    "sha256": "b20c7a823a9b54b370478fcd42c3f5b48c7158fa481124d885d6e54a330e67a8",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/existence/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/existence/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/existence/test/data.parquet",
+    "bytes": 37583,
+    "sha256": "d2a032db542f54726a2daee36c7ca9840391172946847b84358be0e0b9935f71",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/existence/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/existence/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/existence/train/data.parquet",
+    "bytes": 327141,
+    "sha256": "b1aa7ddaa262d1e955a70b77fbefd0ca3bcc9f33c1ac9490d9cbe9f3b9f8ff6e",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/existence/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/existence/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/existence/validation/data.parquet",
+    "bytes": 36011,
+    "sha256": "8d1098f242ee423cdcf35fcee650f54ff9809d5c9b8b68b5bf32a19f052bbca2",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/localization/test/data.parquet",
+    "bytes": 64466,
+    "sha256": "15ea03f65b04bb10c7a24c97fce0757de53676c1594af21e34a31cfd1405919f",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/localization/train/data.parquet",
+    "bytes": 352621,
+    "sha256": "8f7468dac25c692e55d5f0fdc7292c39d13f71794a62a6363af60e76dd7e5a8b",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/localization/validation/data.parquet",
+    "bytes": 36702,
+    "sha256": "c8a0f21a00752003740709c0b6133737c9a8c310b9db60c8d90fdd0bfe241093",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/multi_hop/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/multi_hop/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/multi_hop/test/data.parquet",
+    "bytes": 64909,
+    "sha256": "48fe70e2a9086241affe09fc0c856b69454aef165f5bbc30161ebcb2ac68f0b6",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/multi_hop/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/multi_hop/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/multi_hop/train/data.parquet",
+    "bytes": 357913,
+    "sha256": "6e72d9d90dfc3bbcda16c70c363a39733d7c3f5f91ebd1f85acc182bd0f63e1d",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/multi_hop/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/multi_hop/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/multi_hop/validation/data.parquet",
+    "bytes": 64666,
+    "sha256": "f701d9cda26d32de6e24e8a18b39a3e75be4f3123d1904f2a47d6727a1410343",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/ordering/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/ordering/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/ordering/test/data.parquet",
+    "bytes": 63768,
+    "sha256": "c9b473919ad3bcb07cb4766dd3d9485f7c82b34818d69043f62f7a8a20de2245",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/ordering/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/ordering/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/ordering/train/data.parquet",
+    "bytes": 254896,
+    "sha256": "ea6fe97ee5ac6624bf89b7da2994c64dd0459a0aa9b82749c07a0cbac52ce80b",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/ordering/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/ordering/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/ordering/validation/data.parquet",
+    "bytes": 48181,
+    "sha256": "a9746ae1c9fb1047ff84362ac2987dcebfa1729619a95a6cb3170276de010980",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/state_query/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/state_query/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/state_query/test/data.parquet",
+    "bytes": 84979,
+    "sha256": "b0293a9a793965036444a4c860e9e880fd6e34ef1cd5520ad345906885ec5b36",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/state_query/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/state_query/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/state_query/train/data.parquet",
+    "bytes": 731765,
+    "sha256": "64314c17c00ff625fb6faa0da1f9f464d794a47a29bef1760f6b9436673ebb2d",
+    "reused": false
+  },
+  {
+    "path": "tasks/86400s/state_query/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/state_query/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/86400s/state_query/validation/data.parquet",
+    "bytes": 91086,
+    "sha256": "3b8a731a939ab4063b257bf01569e74e6eeb7196ca86dcb6fff4f91791bb6482",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/anomaly_detection/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_detection/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_detection/test/data.parquet",
+    "bytes": 22347,
+    "sha256": "7fb791ddfbc87acd8551f2b27935a1ad2963febbc6fab1938206be4f2e2f3b64",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/anomaly_detection/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_detection/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_detection/train/data.parquet",
+    "bytes": 90898,
+    "sha256": "3a5a2404c5d06b9b163a9ac7c3e052b7816eeda5983050d943ee0e66505c97a8",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/anomaly_detection/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_detection/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_detection/validation/data.parquet",
+    "bytes": 22283,
+    "sha256": "1b8a04578205ebe9b92cf7b897f6aae538e3e3a198d6e263bad91aa847dba962",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/anomaly_localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_localization/test/data.parquet",
+    "bytes": 32906,
+    "sha256": "580ce13c9668d75bcf8ce050dab4c45b1d761691492b5606398162fb4cebde19",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/anomaly_localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_localization/train/data.parquet",
+    "bytes": 146051,
+    "sha256": "a4e5ab5eec1a66c6d99a6e5720a92adcf10c3637f9624aa66f710cd7cadf629b",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/anomaly_localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/anomaly_localization/validation/data.parquet",
+    "bytes": 32806,
+    "sha256": "689ae3dd7a8db14452a5df81a095b7d23e73c4507d6d3d8fada78494fb528c1c",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/antecedent/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/antecedent/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/antecedent/test/data.parquet",
+    "bytes": 25693,
+    "sha256": "c7394c778c0e33954eb08fa63ce7dc039a68d622f719064191d1c1df0323d857",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/antecedent/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/antecedent/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/antecedent/train/data.parquet",
+    "bytes": 96519,
+    "sha256": "93497d0146a1955b799f48ed1971d100254f2ac0e9328198b7785a19f27418e3",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/antecedent/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/antecedent/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/antecedent/validation/data.parquet",
+    "bytes": 26248,
+    "sha256": "fcd055969e5003a9c022b5a8e49d5a1b6e6a0ac87c7daa553f9a2845a957568b",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/comparison/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/comparison/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/comparison/test/data.parquet",
+    "bytes": 31880,
+    "sha256": "5c25b01ddd0330415a43535236e5aab18309af64e7e85bfced92b97575eed739",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/comparison/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/comparison/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/comparison/train/data.parquet",
+    "bytes": 128426,
+    "sha256": "530ea1977c5e01883a4c385b6986c1de8ce277f6f9ad0537de538ad58f9447a0",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/comparison/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/comparison/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/comparison/validation/data.parquet",
+    "bytes": 30774,
+    "sha256": "2a19add153fe9c92f52e56ce9b004493b9c6414dd4698575e16a9d2cbfd1bb51",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/counting/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/counting/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/counting/test/data.parquet",
+    "bytes": 28852,
+    "sha256": "2d65ab41965e58b73f8e075b2273717c0cab76fda25ccbf26b740dfb4e858b45",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/counting/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/counting/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/counting/train/data.parquet",
+    "bytes": 99850,
+    "sha256": "48312203bc5b8e75a35f02f3c19ca95a213afd1f342044871c549469b9e4e1fd",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/counting/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/counting/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/counting/validation/data.parquet",
+    "bytes": 22981,
+    "sha256": "c1b2625733bce62c230b5fd03e91310351a793d99d1f5b9122d65bbbae140377",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/existence/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/existence/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/existence/test/data.parquet",
+    "bytes": 19632,
+    "sha256": "4e6f8047dde27d7e2a69da25aebef736e0145e5daa830ed50ea822beb5faa345",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/existence/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/existence/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/existence/train/data.parquet",
+    "bytes": 73502,
+    "sha256": "50e66af33b971e86a042b5446e224c136159209ed24f975383dcc6cfe5444727",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/existence/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/existence/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/existence/validation/data.parquet",
+    "bytes": 19637,
+    "sha256": "0e426e561be2ddcc727ff2ead8a678b41d3d14fe53ed65003204b9e7a9b130ca",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/localization/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/localization/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/localization/test/data.parquet",
+    "bytes": 30329,
+    "sha256": "74df51bba7dc00fa19ea58f288e7414845e2d35fb6ba54eae24fabc0bcc8786c",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/localization/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/localization/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/localization/train/data.parquet",
+    "bytes": 114603,
+    "sha256": "a43ffc61a1bb302db3e4fd3e39c25dfd244e1eb0cb08acccd04e1aea31e0b9ef",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/localization/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/localization/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/localization/validation/data.parquet",
+    "bytes": 27143,
+    "sha256": "354d1f72677037dd2fce333e6a3b5201a52409768574a9bc211f37f70f0b9143",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/multi_hop/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/multi_hop/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/multi_hop/test/data.parquet",
+    "bytes": 43088,
+    "sha256": "756c2361259882c8be5904738f2f14d71701343e6b288e12ab96c456acf32c63",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/multi_hop/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/multi_hop/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/multi_hop/train/data.parquet",
+    "bytes": 181087,
+    "sha256": "116b1c5cdcdbbd221b8d1cd088034faeb32e22de130c3c8a6e20d4236b44a1b8",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/multi_hop/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/multi_hop/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/multi_hop/validation/data.parquet",
+    "bytes": 36597,
+    "sha256": "75edbbf1b8091303e9dc29f1fb7dc0aa8db1160cc45181ce93e976cada1c03b0",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/ordering/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/ordering/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/ordering/test/data.parquet",
+    "bytes": 28347,
+    "sha256": "bc7bab277fc9fe2fc03655048fe029fce5bbba7af4fbe239478bd582bf67eb11",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/ordering/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/ordering/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/ordering/train/data.parquet",
+    "bytes": 112238,
+    "sha256": "58e59a46fa9708468047ccaa20c2894b5ceadf01fce61b61bf71966042f2bbe0",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/ordering/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/ordering/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/ordering/validation/data.parquet",
+    "bytes": 28047,
+    "sha256": "17809fb81430051a2902ee6b349cd639d0c31f3be1592f2fc8aac3ba31b6554d",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/state_query/test/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/state_query/test/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/state_query/test/data.parquet",
+    "bytes": 16806,
+    "sha256": "85c812c507236c84310c625df32c72bd3d4fd68d6352fb5424774294e8c4e087",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/state_query/train/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/state_query/train/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/state_query/train/data.parquet",
+    "bytes": 65183,
+    "sha256": "cd05fa1d37aba38cb5de126f86f7269651302e9124becf8c80f400d615c3290f",
+    "reused": false
+  },
+  {
+    "path": "tasks/900s/state_query/validation/data.parquet",
+    "local": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/state_query/validation/data.parquet",
+    "url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/tasks/900s/state_query/validation/data.parquet",
+    "bytes": 18368,
+    "sha256": "526da5e378fec07215f4e3511eebe8d56f698998c3ea5206b9f085fbb862b02b",
+    "reused": false
+  }
+]

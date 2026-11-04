@@ -1,0 +1,182 @@
+[
+  {
+    "method": "aware_proxy",
+    "budget": 16,
+    "n": 12,
+    "event_hit_rate": 0.8703703703703703,
+    "target_nrmse": 0.2704336082474685,
+    "context_nrmse": 0.2859436437708919,
+    "global_nrmse": 0.42759842446223845
+  },
+  {
+    "method": "aware_proxy",
+    "budget": 32,
+    "n": 12,
+    "event_hit_rate": 0.9074074074074073,
+    "target_nrmse": 0.08391643775201064,
+    "context_nrmse": 0.08178418451946316,
+    "global_nrmse": 0.28480525828824405
+  },
+  {
+    "method": "aware_proxy",
+    "budget": 64,
+    "n": 12,
+    "event_hit_rate": 0.9444444444444444,
+    "target_nrmse": 0.05327672117122301,
+    "context_nrmse": 0.05229770502721528,
+    "global_nrmse": 0.16664507435094114
+  },
+  {
+    "method": "aware_proxy",
+    "budget": 128,
+    "n": 12,
+    "event_hit_rate": 1.0,
+    "target_nrmse": 0.026509957257798172,
+    "context_nrmse": 0.02630489757777753,
+    "global_nrmse": 0.06490701896704307
+  },
+  {
+    "method": "aware_proxy",
+    "budget": 512,
+    "n": 12,
+    "event_hit_rate": 1.0,
+    "target_nrmse": 0.006575814807700804,
+    "context_nrmse": 0.0064759561841956845,
+    "global_nrmse": 0.026496718143711833
+  },
+  {
+    "method": "blind_all_events",
+    "budget": 16,
+    "n": 12,
+    "event_hit_rate": 0.8148148148148148,
+    "target_nrmse": 0.5620729615659421,
+    "context_nrmse": 0.5538712388421895,
+    "global_nrmse": 0.510983629318852
+  },
+  {
+    "method": "blind_all_events",
+    "budget": 32,
+    "n": 12,
+    "event_hit_rate": 0.8518518518518517,
+    "target_nrmse": 0.2864887291893648,
+    "context_nrmse": 0.2856724019463156,
+    "global_nrmse": 0.27806828826201224
+  },
+  {
+    "method": "blind_all_events",
+    "budget": 64,
+    "n": 12,
+    "event_hit_rate": 0.9444444444444444,
+    "target_nrmse": 0.18406407341849576,
+    "context_nrmse": 0.18757840933340608,
+    "global_nrmse": 0.14277431057393117
+  },
+  {
+    "method": "blind_all_events",
+    "budget": 128,
+    "n": 12,
+    "event_hit_rate": 0.9444444444444444,
+    "target_nrmse": 0.08512921099250285,
+    "context_nrmse": 0.08400260153413129,
+    "global_nrmse": 0.07061095820747881
+  },
+  {
+    "method": "blind_all_events",
+    "budget": 512,
+    "n": 12,
+    "event_hit_rate": 0.9444444444444444,
+    "target_nrmse": 0.03237370755454314,
+    "context_nrmse": 0.03170104870047373,
+    "global_nrmse": 0.025620461672181138
+  },
+  {
+    "method": "blind_global",
+    "budget": 16,
+    "n": 12,
+    "event_hit_rate": 0.7592592592592592,
+    "target_nrmse": 0.5877376673949822,
+    "context_nrmse": 0.5821092471241337,
+    "global_nrmse": 0.5242912047200065
+  },
+  {
+    "method": "blind_global",
+    "budget": 32,
+    "n": 12,
+    "event_hit_rate": 0.8518518518518517,
+    "target_nrmse": 0.2567463400047902,
+    "context_nrmse": 0.2664354409433385,
+    "global_nrmse": 0.22515805216600915
+  },
+  {
+    "method": "blind_global",
+    "budget": 64,
+    "n": 12,
+    "event_hit_rate": 0.8888888888888888,
+    "target_nrmse": 0.145019470848856,
+    "context_nrmse": 0.1480891917484176,
+    "global_nrmse": 0.10414423151751606
+  },
+  {
+    "method": "blind_global",
+    "budget": 128,
+    "n": 12,
+    "event_hit_rate": 0.9444444444444444,
+    "target_nrmse": 0.10354869375177299,
+    "context_nrmse": 0.10387403625331455,
+    "global_nrmse": 0.06985974966198054
+  },
+  {
+    "method": "blind_global",
+    "budget": 512,
+    "n": 12,
+    "event_hit_rate": 0.9444444444444444,
+    "target_nrmse": 0.030925424240866885,
+    "context_nrmse": 0.030420932149341277,
+    "global_nrmse": 0.022495259548601192
+  },
+  {
+    "method": "uniform",
+    "budget": 16,
+    "n": 12,
+    "event_hit_rate": 0.6666666666666666,
+    "target_nrmse": 1.166071805647394,
+    "context_nrmse": 1.0879105177222257,
+    "global_nrmse": 0.7580919604002414
+  },
+  {
+    "method": "uniform",
+    "budget": 32,
+    "n": 12,
+    "event_hit_rate": 0.8333333333333334,
+    "target_nrmse": 0.8771836779456771,
+    "context_nrmse": 1.0014042285094114,
+    "global_nrmse": 0.7386068551604277
+  },
+  {
+    "method": "uniform",
+    "budget": 64,
+    "n": 12,
+    "event_hit_rate": 0.7777777777777778,
+    "target_nrmse": 0.8278255912278284,
+    "context_nrmse": 0.7811032942235476,
+    "global_nrmse": 0.5283701270115855
+  },
+  {
+    "method": "uniform",
+    "budget": 128,
+    "n": 12,
+    "event_hit_rate": 0.8888888888888888,
+    "target_nrmse": 0.5697032375412565,
+    "context_nrmse": 0.6270716465281755,
+    "global_nrmse": 0.358135808483611
+  },
+  {
+    "method": "uniform",
+    "budget": 512,
+    "n": 12,
+    "event_hit_rate": 0.8888888888888888,
+    "target_nrmse": 0.23637994627833847,
+    "context_nrmse": 0.2828049817239273,
+    "global_nrmse": 0.1722373542209513
+  }
+]

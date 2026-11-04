@@ -1,0 +1,239 @@
+{
+  "source_url": "https://huggingface.co/datasets/nz00shuuuu/uk-dale-haystack/resolve/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/signals/conversion_manifest.json",
+  "source_sha256": "19c6a284f99a0b4110d9e9c039c9b377f19afdaf659e8a249d5997083f9a38de",
+  "source_bytes": 6714309,
+  "raw_local_cache": "/root/autodl-tmp/cf-run/data/qsample-v4-ukdale/eb86b2ecc46b2f26b3a4e1768d7b479dc9abc521/signals/conversion_manifest.json",
+  "description": "原始逐缺测区间清单保存在仓库外，仓库只保留各表统计和来源哈希",
+  "per_meter": {
+    "h1_m5": {
+      "n_samples": 19555935,
+      "median_dt_s": 7.0,
+      "min_w": 0.0,
+      "max_w": 3999.0,
+      "mean_w": 27.76845359802246,
+      "n_gaps_gt_24s": 9825,
+      "sample_sha256": "877cb1f24c641b2b50d91f37905943e00fe2e72c4abd07cfc5f11c657d0b8dfb",
+      "kind": "submeter:washer_dryer"
+    },
+    "h1_m1": {
+      "n_samples": 21837636,
+      "median_dt_s": 6.0,
+      "min_w": 46.0,
+      "max_w": 8788.0,
+      "mean_w": 377.5243835449219,
+      "n_gaps_gt_24s": 13397,
+      "sample_sha256": "471e117be5b0597344f1c346c86edf2e2b354c85aca603a0e26dfa345ecb6253",
+      "kind": "mains"
+    },
+    "h1_m6": {
+      "n_samples": 19819392,
+      "median_dt_s": 7.0,
+      "min_w": 0.0,
+      "max_w": 3973.0,
+      "mean_w": 27.384185791015625,
+      "n_gaps_gt_24s": 1389,
+      "sample_sha256": "24a909825a2cc069ae186a71b5e75c033a66c447d22f34e41e66793d0be51c9f",
+      "kind": "submeter:dishwasher"
+    },
+    "h1_m12": {
+      "n_samples": 19381298,
+      "median_dt_s": 7.0,
+      "min_w": 0.0,
+      "max_w": 3323.0,
+      "mean_w": 40.15857696533203,
+      "n_gaps_gt_24s": 11481,
+      "sample_sha256": "49ed1c3c990d5f94ec339bbceed2aab855b5be5f474c4b86b02b0c184c916acc",
+      "kind": "submeter:fridge_freezer"
+    },
+    "h1_m13": {
+      "n_samples": 19406625,
+      "median_dt_s": 7.0,
+      "min_w": 0.0,
+      "max_w": 3267.0,
+      "mean_w": 8.35921573638916,
+      "n_gaps_gt_24s": 10244,
+      "sample_sha256": "7ad583e7d70cc4c5f3ad52641427d96beeb67a3317cd082c988d90a805afb787",
+      "kind": "submeter:microwave"
+    },
+    "h1_m39": {
+      "n_samples": 181497,
+      "median_dt_s": 7.0,
+      "min_w": 0.0,
+      "max_w": 3893.0,
+      "mean_w": 113.5983657836914,
+      "n_gaps_gt_24s": 579,
+      "sample_sha256": "b1e63fdde0e6e0de087afd0b5bf3b1dc8995d2a8547d66d60ec9b792e423b70d",
+      "kind": "submeter:hair_dryer"
+    },
+    "h1_m42": {
+      "n_samples": 18185875,
+      "median_dt_s": 7.0,
+      "min_w": 0.0,
+      "max_w": 1070.0,
+      "mean_w": 3.7846250534057617,
+      "n_gaps_gt_24s": 9885,
+      "sample_sha256": "e4e5c7764918b881ba38440d6836d1c5348b81dd1be7c3e28b99367217f0aea3",
+      "kind": "submeter:oven"
+    },
+    "h2_m1": {
+      "n_samples": 2780373,
+      "median_dt_s": 6.0,
+      "min_w": 109.0,
+      "max_w": 16529.0,
+      "mean_w": 337.3775634765625,
+      "n_gaps_gt_24s": 930,
+      "sample_sha256": "f7f7400c67ce00f09f59624c30d8cd1f693a6cb2aa17ad933688997e8186403f",
+      "kind": "mains"
+    },
+    "h2_m8": {
+      "n_samples": 2094523,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 3998.0,
+      "mean_w": 29.99901008605957,
+      "n_gaps_gt_24s": 34,
+      "sample_sha256": "2c70923269b096b7c635ddd013abe58c5a7137eca44f3d4334f700500e083156",
+      "kind": "submeter:kettle"
+    },
+    "h2_m12": {
+      "n_samples": 1686220,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 2974.0,
+      "mean_w": 11.572428703308105,
+      "n_gaps_gt_24s": 118,
+      "sample_sha256": "854c43b43eea0a8ebfdff6dc6c518abee295060dcbc588596826c1f97b87f989",
+      "kind": "submeter:washing_machine"
+    },
+    "h2_m13": {
+      "n_samples": 1687175,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 3964.0,
+      "mean_w": 42.925140380859375,
+      "n_gaps_gt_24s": 49,
+      "sample_sha256": "7a7d6814fc36f0c152f983673474d0d95a20b67361b0aa066524238e174ed798",
+      "kind": "submeter:dishwasher"
+    },
+    "h2_m14": {
+      "n_samples": 1687285,
+      "median_dt_s": 6.0,
+      "min_w": 7.0,
+      "max_w": 1826.0,
+      "mean_w": 45.85794448852539,
+      "n_gaps_gt_24s": 36,
+      "sample_sha256": "fde5e581883cc55bbd5ce50d9bee0b7f72374ff6baeef6743d39e27a891a9b5c",
+      "kind": "submeter:fridge"
+    },
+    "h2_m15": {
+      "n_samples": 1685519,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 2668.0,
+      "mean_w": 6.709595203399658,
+      "n_gaps_gt_24s": 159,
+      "sample_sha256": "ebce159a21e8e3102aa34f566f2b591fad67de8e318700578a3730a4413dfd92",
+      "kind": "submeter:microwave"
+    },
+    "h2_m16": {
+      "n_samples": 1685322,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 3216.0,
+      "mean_w": 0.6086540222167969,
+      "n_gaps_gt_24s": 119,
+      "sample_sha256": "77d1e78b60c40829384920e38b65b4ab251904f0e3f637841ccbcc090c4fc26d",
+      "kind": "submeter:toaster"
+    },
+    "h5_m1": {
+      "n_samples": 1763101,
+      "median_dt_s": 6.0,
+      "min_w": 347.0,
+      "max_w": 9644.0,
+      "mean_w": 690.753173828125,
+      "n_gaps_gt_24s": 4063,
+      "sample_sha256": "872164d4fe81d2bd9950cff02073182c333c916780cd3d3068581e9fc35ecf9f",
+      "kind": "mains"
+    },
+    "h5_m4": {
+      "n_samples": 1854414,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 3401.0,
+      "mean_w": 2.6053390502929688,
+      "n_gaps_gt_24s": 35,
+      "sample_sha256": "2831db51337f313e345a8c019405a985490a9d2d79490ed223df4916d03f2bdf",
+      "kind": "submeter:hair_dryer"
+    },
+    "h5_m15": {
+      "n_samples": 985856,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 3747.0,
+      "mean_w": 0.7780030965805054,
+      "n_gaps_gt_24s": 11,
+      "sample_sha256": "43926c56f0981e7d68c1f8e819d03a43e798d2113a32f126af4951a17b942d90",
+      "kind": "submeter:toaster"
+    },
+    "h5_m18": {
+      "n_samples": 985855,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 3996.0,
+      "mean_w": 12.62236499786377,
+      "n_gaps_gt_24s": 11,
+      "sample_sha256": "e4983e5a2ab2ec08af98ed3006e7f124dd852a4e3e060e287e44283cdd581f1f",
+      "kind": "submeter:kettle"
+    },
+    "h5_m19": {
+      "n_samples": 1842971,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 2048.0,
+      "mean_w": 39.041316986083984,
+      "n_gaps_gt_24s": 1995,
+      "sample_sha256": "1d463141d80ba094dfe094d0cd4307d2aa4d63460ee2f4d212de133ebe7195aa",
+      "kind": "submeter:fridge_freezer"
+    },
+    "h5_m20": {
+      "n_samples": 1842883,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 3084.0,
+      "mean_w": 26.91302490234375,
+      "n_gaps_gt_24s": 1995,
+      "sample_sha256": "65da5f46ca51793ff8f041f19fe703e2eca39ce563ec4d3a89403bbaeb43c678",
+      "kind": "submeter:oven"
+    },
+    "h5_m22": {
+      "n_samples": 1859593,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 1730.0,
+      "mean_w": 15.93403148651123,
+      "n_gaps_gt_24s": 670,
+      "sample_sha256": "54d6c0f10c1de3b892ba2045592b06cf2312370a1d986b17feff97ab1900a4f9",
+      "kind": "submeter:dishwasher"
+    },
+    "h5_m23": {
+      "n_samples": 1859545,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 2098.0,
+      "mean_w": 45.27067184448242,
+      "n_gaps_gt_24s": 670,
+      "sample_sha256": "cb5835221e4b3e30a167abd196256efb26155bc07a1eacb94afb2828db57f3c6",
+      "kind": "submeter:microwave"
+    },
+    "h5_m24": {
+      "n_samples": 1859562,
+      "median_dt_s": 6.0,
+      "min_w": 0.0,
+      "max_w": 2551.0,
+      "mean_w": 39.6707649230957,
+      "n_gaps_gt_24s": 671,
+      "sample_sha256": "e5f722ded935abce3a2b6a4322769383ef0f37f562a280ec782e880fb0d92587",
+      "kind": "submeter:washer_dryer"
+    }
+  }
+}

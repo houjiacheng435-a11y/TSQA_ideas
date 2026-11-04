@@ -1,0 +1,2269 @@
+{
+  "total_rows": 65000,
+  "valid_rows": 64997,
+  "shards": [
+    {
+      "context_s": 900,
+      "task": "anomaly_detection",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "anomaly_detection",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "anomaly_detection",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "anomaly_localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "anomaly_localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "anomaly_localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "antecedent",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "antecedent",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "antecedent",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "comparison",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "comparison",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "comparison",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "counting",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "counting",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "counting",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "existence",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "existence",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "existence",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "multi_hop",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "multi_hop",
+      "split": "validation",
+      "rows": 150,
+      "valid": 149,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "multi_hop",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "ordering",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "ordering",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "ordering",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "state_query",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "state_query",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 900,
+      "task": "state_query",
+      "split": "test",
+      "rows": 150,
+      "valid": 148,
+      "raw_samples": 150
+    },
+    {
+      "context_s": 3600,
+      "task": "anomaly_detection",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "anomaly_detection",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "anomaly_detection",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "anomaly_localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "anomaly_localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "anomaly_localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "antecedent",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "antecedent",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "antecedent",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "comparison",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "comparison",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "comparison",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "counting",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "counting",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "counting",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "existence",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "existence",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "existence",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "multi_hop",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "multi_hop",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "multi_hop",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "ordering",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "ordering",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "ordering",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "state_query",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "state_query",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 3600,
+      "task": "state_query",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 600
+    },
+    {
+      "context_s": 7200,
+      "task": "anomaly_detection",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "anomaly_detection",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "anomaly_detection",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "anomaly_localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "anomaly_localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "anomaly_localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "antecedent",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "antecedent",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "antecedent",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "comparison",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "comparison",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "comparison",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "counting",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "counting",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "counting",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "existence",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "existence",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "existence",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "multi_hop",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "multi_hop",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "multi_hop",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "ordering",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "ordering",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "ordering",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "state_query",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "state_query",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 7200,
+      "task": "state_query",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 1200
+    },
+    {
+      "context_s": 32400,
+      "task": "anomaly_detection",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "anomaly_detection",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "anomaly_detection",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "anomaly_localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "anomaly_localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "anomaly_localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "antecedent",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "antecedent",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "antecedent",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "comparison",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "comparison",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "comparison",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "counting",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "counting",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "counting",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "existence",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "existence",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "existence",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "multi_hop",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "multi_hop",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "multi_hop",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "ordering",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "ordering",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "ordering",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "state_query",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "state_query",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 32400,
+      "task": "state_query",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 5400
+    },
+    {
+      "context_s": 86400,
+      "task": "anomaly_detection",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "anomaly_detection",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "anomaly_detection",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "anomaly_localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "anomaly_localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "anomaly_localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "antecedent",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "antecedent",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "antecedent",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "comparison",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "comparison",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "comparison",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "counting",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "counting",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "counting",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "existence",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "existence",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "existence",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "localization",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "localization",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "localization",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "multi_hop",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "multi_hop",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "multi_hop",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "ordering",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "ordering",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "ordering",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "state_query",
+      "split": "train",
+      "rows": 1000,
+      "valid": 1000,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "state_query",
+      "split": "validation",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    },
+    {
+      "context_s": 86400,
+      "task": "state_query",
+      "split": "test",
+      "rows": 150,
+      "valid": 150,
+      "raw_samples": 14400
+    }
+  ],
+  "splits": {
+    "train": {
+      "rows": 50000,
+      "valid": 50000,
+      "invalid": 0
+    },
+    "validation": {
+      "rows": 7500,
+      "valid": 7499,
+      "invalid": 1
+    },
+    "test": {
+      "rows": 7500,
+      "valid": 7498,
+      "invalid": 2
+    }
+  },
+  "tasks": {
+    "anomaly_detection": {
+      "valid": 6500,
+      "answer_types": {
+        "boolean": 6500
+      },
+      "answers": {
+        "Yes": 3291,
+        "No": 3209
+      },
+      "n_needles": {
+        "1": 6500
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#0",
+          "question": "Is at least one appliance bout suspicious or out-of-distribution here?",
+          "answer": "Yes",
+          "answer_type": "boolean",
+          "difficulty": {
+            "target": "oven",
+            "has_anomaly": true,
+            "anomaly_class": "truncated_cycle",
+            "anomaly_params": {
+              "fraction_kept": 0.21674475120677061,
+              "n_kept": 12,
+              "n_original": 58
+            }
+          },
+          "needles": [
+            {
+              "appliance": "oven",
+              "insert_position_samples": 5155,
+              "insert_duration_samples": 12,
+              "duration_s": 72.0,
+              "peak_w": 2150.0,
+              "source_house_id": 5,
+              "source_meter_id": 20,
+              "source_start_ns": 1407577060000000000,
+              "source_end_ns": 1407577132000000000,
+              "timestamp_start": "23:48:05",
+              "timestamp_end": "23:49:17",
+              "is_anomalous": true,
+              "anomaly_class": "truncated_cycle",
+              "anomaly_params": {
+                "fraction_kept": 0.21674475120677061,
+                "n_kept": 12,
+                "n_original": 58
+              }
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "anomaly_localization": {
+      "valid": 6500,
+      "answer_types": {
+        "time_range": 6500
+      },
+      "answers": null,
+      "n_needles": {
+        "2": 6045,
+        "1": 455
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/anomaly_localization/test/data.parquet#0",
+          "question": "Find the timing of the anomalous appliance event.",
+          "answer": "04:01:48 - 04:07:30",
+          "answer_type": "time_range",
+          "difficulty": {
+            "target": "hair_dryer",
+            "anomaly_class": "abnormal_peak",
+            "anomaly_params": {
+              "scale": 1.6963695555545604,
+              "ceiling_w": 2200.0
+            },
+            "n_distractor_nominals": 1
+          },
+          "needles": [
+            {
+              "appliance": "hair_dryer",
+              "insert_position_samples": 2418,
+              "insert_duration_samples": 57,
+              "duration_s": 342.0,
+              "peak_w": 1882.97021484375,
+              "source_house_id": 5,
+              "source_meter_id": 4,
+              "source_start_ns": 1409493227000000000,
+              "source_end_ns": 1409493569000000000,
+              "timestamp_start": "05:11:32",
+              "timestamp_end": "05:17:14",
+              "is_anomalous": true,
+              "anomaly_class": "abnormal_peak",
+              "anomaly_params": {
+                "scale": 1.6963695555545604,
+                "ceiling_w": 2200.0
+              }
+            },
+            {
+              "appliance": "hair_dryer",
+              "insert_position_samples": 448,
+              "insert_duration_samples": 48,
+              "duration_s": 289.0,
+              "peak_w": 1112.0,
+              "source_house_id": 5,
+              "source_meter_id": 4,
+              "source_start_ns": 1407303254000000000,
+              "source_end_ns": 1407303537000000000,
+              "timestamp_start": "01:54:32",
+              "timestamp_end": "01:59:20",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "antecedent": {
+      "valid": 6500,
+      "answer_types": {
+        "category": 6500
+      },
+      "answers": {
+        "microwave": 1084,
+        "kettle": 890,
+        "washer_dryer": 377,
+        "fridge_freezer": 768,
+        "toaster": 871,
+        "hair_dryer": 781,
+        "oven": 600,
+        "dishwasher": 371,
+        "fridge": 452,
+        "washing_machine": 306
+      },
+      "n_needles": {
+        "2": 6500
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/antecedent/test/data.parquet#0",
+          "question": "What ran immediately prior to the 1st washer-dryer cycle?",
+          "answer": "microwave",
+          "answer_type": "category",
+          "difficulty": {
+            "target": "washer_dryer",
+            "predecessor": "microwave",
+            "k": 1
+          },
+          "needles": [
+            {
+              "appliance": "microwave",
+              "insert_position_samples": 1459,
+              "insert_duration_samples": 19,
+              "duration_s": 114.0,
+              "peak_w": 1532.0,
+              "source_house_id": 5,
+              "source_meter_id": 23,
+              "source_start_ns": 1407697428000000000,
+              "source_end_ns": 1407697536000000000,
+              "timestamp_start": "09:39:50",
+              "timestamp_end": "09:41:44",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            },
+            {
+              "appliance": "washer_dryer",
+              "insert_position_samples": 4789,
+              "insert_duration_samples": 586,
+              "duration_s": 3519.0,
+              "peak_w": 2487.0,
+              "source_house_id": 5,
+              "source_meter_id": 24,
+              "source_start_ns": 1408980276000000000,
+              "source_end_ns": 1408983789000000000,
+              "timestamp_start": "15:12:50",
+              "timestamp_end": "16:11:26",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "comparison": {
+      "valid": 6500,
+      "answer_types": {
+        "time_range": 6500
+      },
+      "answers": null,
+      "n_needles": {
+        "2": 3263,
+        "3": 3237
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/comparison/test/data.parquet#0",
+          "question": "Give the time range of the longest electric oven cycle in this trace.",
+          "answer": "08:08:48 - 08:14:36",
+          "answer_type": "time_range",
+          "difficulty": {
+            "target": "oven",
+            "mode": "longest",
+            "n_needles": 2,
+            "winner_index": 0
+          },
+          "needles": [
+            {
+              "appliance": "oven",
+              "insert_position_samples": 4888,
+              "insert_duration_samples": 58,
+              "duration_s": 346.0,
+              "peak_w": 2165.0,
+              "source_house_id": 5,
+              "source_meter_id": 20,
+              "source_start_ns": 1407577060000000000,
+              "source_end_ns": 1407577400000000000,
+              "timestamp_start": "09:11:04",
+              "timestamp_end": "09:16:52",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            },
+            {
+              "appliance": "oven",
+              "insert_position_samples": 4518,
+              "insert_duration_samples": 52,
+              "duration_s": 313.0,
+              "peak_w": 2194.0,
+              "source_house_id": 5,
+              "source_meter_id": 20,
+              "source_start_ns": 1408961704000000000,
+              "source_end_ns": 1408962011000000000,
+              "timestamp_start": "08:34:04",
+              "timestamp_end": "08:39:16",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "counting": {
+      "valid": 6500,
+      "answer_types": {
+        "integer": 6500
+      },
+      "answers": {
+        "2": 1090,
+        "0": 1457,
+        "5": 779,
+        "1": 1323,
+        "4": 895,
+        "3": 956
+      },
+      "n_needles": {
+        "2": 1090,
+        "1": 1956,
+        "5": 779,
+        "4": 895,
+        "0": 824,
+        "3": 956
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/counting/test/data.parquet#0",
+          "question": "How many washer-dryer bouts are present?",
+          "answer": "2",
+          "answer_type": "integer",
+          "difficulty": {
+            "target": "washer_dryer",
+            "n_target_needles": 2,
+            "n_distractors": 0
+          },
+          "needles": [
+            {
+              "appliance": "washer_dryer",
+              "insert_position_samples": 1191,
+              "insert_duration_samples": 978,
+              "duration_s": 5866.0,
+              "peak_w": 2104.0,
+              "source_house_id": 1,
+              "source_meter_id": 5,
+              "source_start_ns": 1365405819000000000,
+              "source_end_ns": 1365411679000000000,
+              "timestamp_start": "19:22:49",
+              "timestamp_end": "21:00:37",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            },
+            {
+              "appliance": "washer_dryer",
+              "insert_position_samples": 4316,
+              "insert_duration_samples": 613,
+              "duration_s": 3676.0,
+              "peak_w": 412.0,
+              "source_house_id": 1,
+              "source_meter_id": 5,
+              "source_start_ns": 1467118826000000000,
+              "source_end_ns": 1467122496000000000,
+              "timestamp_start": "00:35:19",
+              "timestamp_end": "01:36:37",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "existence": {
+      "valid": 6500,
+      "answer_types": {
+        "boolean": 6500
+      },
+      "answers": {
+        "No": 3287,
+        "Yes": 3213
+      },
+      "n_needles": {
+        "1": 6500
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/existence/test/data.parquet#0",
+          "question": "Did anyone turn on the toaster in this period?",
+          "answer": "No",
+          "answer_type": "boolean",
+          "difficulty": {
+            "target": "toaster",
+            "is_positive": false,
+            "needle_appliance": "kettle",
+            "distractor_regime_peer": "kettle"
+          },
+          "needles": [
+            {
+              "appliance": "kettle",
+              "insert_position_samples": 1461,
+              "insert_duration_samples": 34,
+              "duration_s": 205.0,
+              "peak_w": 2931.0,
+              "source_house_id": 5,
+              "source_meter_id": 18,
+              "source_start_ns": 1409473163000000000,
+              "source_end_ns": 1409473362000000000,
+              "timestamp_start": "11:19:10",
+              "timestamp_end": "11:22:34",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "localization": {
+      "valid": 6500,
+      "answer_types": {
+        "time_range": 6500
+      },
+      "answers": null,
+      "n_needles": {
+        "3": 1910,
+        "4": 472,
+        "2": 2141,
+        "1": 1977
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/localization/test/data.parquet#0",
+          "question": "At what time did the 1st hair dryer cycle take place?",
+          "answer": "02:15:36 - 02:16:48",
+          "answer_type": "time_range",
+          "difficulty": {
+            "target": "hair_dryer",
+            "k": 1,
+            "n_target_needles": 2,
+            "n_distractors": 1
+          },
+          "needles": [
+            {
+              "appliance": "hair_dryer",
+              "insert_position_samples": 4883,
+              "insert_duration_samples": 24,
+              "duration_s": 145.0,
+              "peak_w": 1107.0,
+              "source_house_id": 5,
+              "source_meter_id": 4,
+              "source_start_ns": 1407303555000000000,
+              "source_end_ns": 1407303694000000000,
+              "timestamp_start": "17:24:59",
+              "timestamp_end": "17:27:23",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            },
+            {
+              "appliance": "hair_dryer",
+              "insert_position_samples": 1356,
+              "insert_duration_samples": 12,
+              "duration_s": 72.0,
+              "peak_w": 1105.0,
+              "source_house_id": 5,
+              "source_meter_id": 4,
+              "source_start_ns": 1407485013000000000,
+              "source_end_ns": 1407485079000000000,
+              "timestamp_start": "11:32:17",
+              "timestamp_end": "11:33:29",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            },
+            {
+              "appliance": "toaster",
+              "insert_position_samples": 5298,
+              "insert_duration_samples": 16,
+              "duration_s": 97.0,
+              "peak_w": 1093.0,
+              "source_house_id": 5,
+              "source_meter_id": 15,
+              "source_start_ns": 1407577414000000000,
+              "source_end_ns": 1407577505000000000,
+              "timestamp_start": "18:06:29",
+              "timestamp_end": "18:08:05",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "multi_hop": {
+      "valid": 6499,
+      "answer_types": {
+        "time_range": 6499
+      },
+      "answers": null,
+      "n_needles": {
+        "3": 1703,
+        "5": 1494,
+        "4": 3302
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 749
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/multi_hop/test/data.parquet#0",
+          "question": "Identify the time range of the 1st washer dryer combo bout that comes after the 1st dishwasher.",
+          "answer": "03:39:12 - 04:22:42",
+          "answer_type": "time_range",
+          "difficulty": {
+            "anchor": "dishwasher",
+            "target": "washer_dryer",
+            "j": 1,
+            "k": 1,
+            "direction": "after",
+            "n_anchors": 1,
+            "n_targets": 2
+          },
+          "needles": [
+            {
+              "appliance": "dishwasher",
+              "insert_position_samples": 211,
+              "insert_duration_samples": 1074,
+              "duration_s": 6445.0,
+              "peak_w": 1689.0,
+              "source_house_id": 5,
+              "source_meter_id": 22,
+              "source_start_ns": 1409306427000000000,
+              "source_end_ns": 1409312866000000000,
+              "timestamp_start": "06:40:55",
+              "timestamp_end": "08:28:19",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            },
+            {
+              "appliance": "washer_dryer",
+              "insert_position_samples": 2192,
+              "insert_duration_samples": 435,
+              "duration_s": 2608.0,
+              "peak_w": 2327.0,
+              "source_house_id": 5,
+              "source_meter_id": 24,
+              "source_start_ns": 1409500305000000000,
+              "source_end_ns": 1409502907000000000,
+              "timestamp_start": "09:59:01",
+              "timestamp_end": "10:42:31",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            },
+            {
+              "appliance": "washer_dryer",
+              "insert_position_samples": 3342,
+              "insert_duration_samples": 586,
+              "duration_s": 3519.0,
+              "peak_w": 2487.0,
+              "source_house_id": 5,
+              "source_meter_id": 24,
+              "source_start_ns": 1408980276000000000,
+              "source_end_ns": 1408983789000000000,
+              "timestamp_start": "11:54:01",
+              "timestamp_end": "12:52:37",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "ordering": {
+      "valid": 6500,
+      "answer_types": {
+        "boolean": 6500
+      },
+      "answers": {
+        "Yes": 3188,
+        "No": 3312
+      },
+      "n_needles": {
+        "2": 6500
+      },
+      "splits": {
+        "test": 750,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/ordering/test/data.parquet#0",
+          "question": "Order check: did the oven run prior to the microwave?",
+          "answer": "Yes",
+          "answer_type": "boolean",
+          "difficulty": {
+            "appliance_a": "oven",
+            "appliance_b": "microwave",
+            "answer_a_before_b": true,
+            "pos_a_samples": 2295,
+            "pos_b_samples": 4308
+          },
+          "needles": [
+            {
+              "appliance": "oven",
+              "insert_position_samples": 2295,
+              "insert_duration_samples": 81,
+              "duration_s": 486.0,
+              "peak_w": 2220.0,
+              "source_house_id": 5,
+              "source_meter_id": 20,
+              "source_start_ns": 1407610208000000000,
+              "source_end_ns": 1407610688000000000,
+              "timestamp_start": "19:05:49",
+              "timestamp_end": "19:13:55",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            },
+            {
+              "appliance": "microwave",
+              "insert_position_samples": 4308,
+              "insert_duration_samples": 30,
+              "duration_s": 179.0,
+              "peak_w": 1514.0,
+              "source_house_id": 5,
+              "source_meter_id": 23,
+              "source_start_ns": 1409311802000000000,
+              "source_end_ns": 1409311975000000000,
+              "timestamp_start": "22:27:07",
+              "timestamp_end": "22:30:07",
+              "is_anomalous": false,
+              "anomaly_class": null,
+              "anomaly_params": {}
+            }
+          ],
+          "bouts": []
+        }
+      ]
+    },
+    "state_query": {
+      "valid": 6498,
+      "answer_types": {
+        "category": 6498
+      },
+      "answers": {
+        "fridge_freezer": 1990,
+        "washer_dryer": 712,
+        "dishwasher": 1643,
+        "microwave": 349,
+        "fridge": 1052,
+        "hair_dryer": 82,
+        "kettle": 364,
+        "washing_machine": 105,
+        "oven": 200,
+        "toaster": 1
+      },
+      "n_needles": {
+        "0": 6498
+      },
+      "splits": {
+        "test": 748,
+        "train": 5000,
+        "validation": 750
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/state_query/test/data.parquet#0",
+          "question": "What appliance was running while the 1st microwave oven was on?",
+          "answer": "fridge_freezer",
+          "answer_type": "category",
+          "difficulty": {
+            "anchor": "microwave",
+            "state_appliance": "fridge_freezer",
+            "k": 1
+          },
+          "needles": [],
+          "bouts": [
+            {
+              "appliance": "fridge_freezer",
+              "start_sample": 230,
+              "end_sample": 339,
+              "duration_s": 651.0,
+              "peak_w": 124.0,
+              "mean_w": 90.84782409667969
+            },
+            {
+              "appliance": "fridge_freezer",
+              "start_sample": 1178,
+              "end_sample": 1284,
+              "duration_s": 639.0,
+              "peak_w": 103.0,
+              "mean_w": 90.29669952392578
+            },
+            {
+              "appliance": "fridge_freezer",
+              "start_sample": 1560,
+              "end_sample": 1966,
+              "duration_s": 2438.0,
+              "peak_w": 184.0,
+              "mean_w": 93.09248352050781
+            },
+            {
+              "appliance": "microwave",
+              "start_sample": 1665,
+              "end_sample": 1672,
+              "duration_s": 40.0,
+              "peak_w": 1596.0,
+              "mean_w": 1252.75
+            },
+            {
+              "appliance": "microwave",
+              "start_sample": 1684,
+              "end_sample": 1691,
+              "duration_s": 46.0,
+              "peak_w": 1587.0,
+              "mean_w": 1574.142822265625
+            },
+            {
+              "appliance": "fridge_freezer",
+              "start_sample": 2315,
+              "end_sample": 2426,
+              "duration_s": 663.0,
+              "peak_w": 119.0,
+              "mean_w": 90.1546401977539
+            },
+            {
+              "appliance": "fridge_freezer",
+              "start_sample": 2608,
+              "end_sample": 2919,
+              "duration_s": 1866.0,
+              "peak_w": 639.0,
+              "mean_w": 95.41263580322266
+            },
+            {
+              "appliance": "fridge_freezer",
+              "start_sample": 3276,
+              "end_sample": 3386,
+              "duration_s": 659.0,
+              "peak_w": 518.0,
+              "mean_w": 95.42552947998047
+            },
+            {
+              "appliance": "fridge_freezer",
+              "start_sample": 3658,
+              "end_sample": 3755,
+              "duration_s": 583.0,
+              "peak_w": 255.0,
+              "mean_w": 249.54762268066406
+            },
+            {
+              "appliance": "dishwasher",
+              "start_sample": 4301,
+              "end_sample": 5088,
+              "duration_s": 4717.0,
+              "peak_w": 2759.0,
+              "mean_w": 1108.9801025390625
+            },
+            {
+              "appliance": "fridge_freezer",
+              "start_sample": 5007,
+              "end_sample": 5396,
+              "duration_s": 2334.0,
+              "peak_w": 105.0,
+              "mean_w": 91.67155456542969
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pairing": {
+    "unique_recipes": 64997,
+    "duplicate_recipe_groups": 0,
+    "multi_query_groups": 0,
+    "examples": [],
+    "exact_background_groups_multiple_rows": 0
+  },
+  "overlap": {
+    "train__validation": {
+      "left_background_rows_overlapping": 39644,
+      "right_background_rows_overlapping": 6994,
+      "exact_shared_source_bouts": 0,
+      "right_rows_exact_question_seen_left": 7159
+    },
+    "train__test": {
+      "left_background_rows_overlapping": 23586,
+      "right_background_rows_overlapping": 6824,
+      "exact_shared_source_bouts": 0,
+      "right_rows_exact_question_seen_left": 7124
+    },
+    "validation__test": {
+      "left_background_rows_overlapping": 4112,
+      "right_background_rows_overlapping": 5802,
+      "exact_shared_source_bouts": 0,
+      "right_rows_exact_question_seen_left": 6020
+    }
+  },
+  "limitations": [
+    "配方相同可证明输入相同，配方不同不能完全排除波形近重复",
+    "Event Span 不是充分 Evidence Span",
+    "本轮不生成新的配对 Query"
+  ],
+  "question_templates": {
+    "anomaly_detection": 6,
+    "anomaly_localization": 6,
+    "antecedent": 144,
+    "comparison": 432,
+    "counting": 144,
+    "existence": 160,
+    "localization": 418,
+    "multi_hop": 3141,
+    "ordering": 1641,
+    "state_query": 709
+  },
+  "background_week_assignment": {
+    "UTC": {
+      "total": {
+        "test": 7498,
+        "train": 50000,
+        "validation": 7499
+      },
+      "mismatch": {
+        "test": 6238,
+        "train": 11618,
+        "validation": 6386
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#0",
+          "declared": "test",
+          "actual_week": "2014-W33",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#2",
+          "declared": "test",
+          "actual_week": "2014-W44",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#3",
+          "declared": "test",
+          "actual_week": "2014-W41",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#4",
+          "declared": "test",
+          "actual_week": "2014-W41",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#5",
+          "declared": "test",
+          "actual_week": "2014-W41",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#6",
+          "declared": "test",
+          "actual_week": "2014-W41",
+          "week_split": "train"
+        }
+      ]
+    },
+    "Europe/London": {
+      "total": {
+        "test": 7498,
+        "train": 50000,
+        "validation": 7499
+      },
+      "mismatch": {
+        "test": 6239,
+        "train": 11608,
+        "validation": 6390
+      },
+      "examples": [
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#0",
+          "declared": "test",
+          "actual_week": "2014-W33",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#2",
+          "declared": "test",
+          "actual_week": "2014-W44",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#3",
+          "declared": "test",
+          "actual_week": "2014-W41",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#4",
+          "declared": "test",
+          "actual_week": "2014-W41",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#5",
+          "declared": "test",
+          "actual_week": "2014-W41",
+          "week_split": "train"
+        },
+        {
+          "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#6",
+          "declared": "test",
+          "actual_week": "2014-W41",
+          "week_split": "train"
+        }
+      ]
+    }
+  },
+  "source_bout_reuse": {
+    "train": {
+      "inserted_events": 93688,
+      "unique_source_spans": 19738
+    },
+    "validation": {
+      "inserted_events": 14086,
+      "unique_source_spans": 2723
+    },
+    "test": {
+      "inserted_events": 14151,
+      "unique_source_spans": 2744
+    }
+  },
+  "questions_containing_hhmm_pattern": 0,
+  "target_off_check": {
+    "checked": {
+      "anomaly_detection": 6500,
+      "anomaly_localization": 6500,
+      "antecedent": 6500,
+      "comparison": 6500,
+      "counting": 6500,
+      "existence": 6500,
+      "localization": 6500,
+      "multi_hop": 6499
+    },
+    "background_overlaps_official_target_bout": {
+      "anomaly_detection": 198,
+      "anomaly_localization": 210,
+      "antecedent": 869,
+      "comparison": 933,
+      "counting": 809,
+      "existence": 509,
+      "localization": 837,
+      "multi_hop": 880
+    },
+    "existence_no_contradictions_by_split": {
+      "test": 13,
+      "train": 60,
+      "validation": 29
+    },
+    "examples": [
+      {
+        "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#9",
+        "question": "Are any appliance cycles in this window abnormally truncated or over-powered?",
+        "answer": "No",
+        "target": "microwave"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#16",
+        "question": "Detect whether any appliance event is anomalous.",
+        "answer": "Yes",
+        "target": "dishwasher"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#54",
+        "question": "Is there a malfunction-like appliance signature in this window?",
+        "answer": "No",
+        "target": "microwave"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#96",
+        "question": "Are any appliance cycles in this window abnormally truncated or over-powered?",
+        "answer": "Yes",
+        "target": "microwave"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#100",
+        "question": "Is there an anomalous appliance bout in this window?",
+        "answer": "No",
+        "target": "microwave"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/test/data.parquet#149",
+        "question": "Does any appliance show abnormal behaviour in this trace?",
+        "answer": "Yes",
+        "target": "microwave"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/train/data.parquet#19",
+        "question": "Is there an anomalous appliance bout in this window?",
+        "answer": "Yes",
+        "target": "oven"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/train/data.parquet#42",
+        "question": "Detect whether any appliance event is anomalous.",
+        "answer": "Yes",
+        "target": "kettle"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/train/data.parquet#44",
+        "question": "Detect whether any appliance event is anomalous.",
+        "answer": "Yes",
+        "target": "microwave"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/train/data.parquet#45",
+        "question": "Are any appliance cycles in this window abnormally truncated or over-powered?",
+        "answer": "No",
+        "target": "oven"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/train/data.parquet#72",
+        "question": "Is there a malfunction-like appliance signature in this window?",
+        "answer": "No",
+        "target": "microwave"
+      },
+      {
+        "row_id": "tasks/32400s/anomaly_detection/train/data.parquet#106",
+        "question": "Detect whether any appliance event is anomalous.",
+        "answer": "Yes",
+        "target": "oven"
+      }
+    ],
+    "meaning": "完整事件索引指出背景仍含目标活动；须原始波形复核，不直接等价为每题答案错误"
+  },
+  "bout_index": {
+    "rows": 57672,
+    "splits": {
+      "train": 46286,
+      "validation": 5471,
+      "test": 5915
+    },
+    "appliances": {
+      "washer_dryer": 1289,
+      "dishwasher": 779,
+      "fridge_freezer": 40572,
+      "microwave": 8089,
+      "hair_dryer": 1981,
+      "kettle": 985,
+      "washing_machine": 57,
+      "fridge": 3829,
+      "toaster": 33,
+      "oven": 58
+    }
+  }
+}

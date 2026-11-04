@@ -1,0 +1,174 @@
+{
+  "self_score": {
+    "train": {
+      "ok": 50000,
+      "failed": 0
+    },
+    "validation": {
+      "ok": 7499,
+      "failed": 0
+    },
+    "test": {
+      "ok": 7498,
+      "failed": 0
+    }
+  },
+  "failures": [],
+  "localization_position_mismatches": [],
+  "coordinate_endpoint_oracle": {
+    "train_n": 5000,
+    "accuracy": 1.0,
+    "meaning": "零信号下，特权端点坐标仍可重建答案；这不是训练模型成绩，也不证明模型已使用该捷径"
+  },
+  "train_majority_baseline": [
+    {
+      "split": "test",
+      "task": "anomaly_detection",
+      "n": 750,
+      "accuracy": 0.508,
+      "question_only_accuracy": 0.5013333333333333
+    },
+    {
+      "split": "test",
+      "task": "anomaly_localization",
+      "n": 750,
+      "accuracy": 0.05466666666666667,
+      "question_only_accuracy": 0.04666666666666667
+    },
+    {
+      "split": "test",
+      "task": "antecedent",
+      "n": 750,
+      "accuracy": 0.184,
+      "question_only_accuracy": 0.20933333333333334
+    },
+    {
+      "split": "test",
+      "task": "comparison",
+      "n": 750,
+      "accuracy": 0.05733333333333333,
+      "question_only_accuracy": 0.09866666666666667
+    },
+    {
+      "split": "test",
+      "task": "counting",
+      "n": 750,
+      "accuracy": 0.20666666666666667,
+      "question_only_accuracy": 0.224
+    },
+    {
+      "split": "test",
+      "task": "existence",
+      "n": 750,
+      "accuracy": 0.4826666666666667,
+      "question_only_accuracy": 0.4786666666666667
+    },
+    {
+      "split": "test",
+      "task": "localization",
+      "n": 750,
+      "accuracy": 0.013333333333333334,
+      "question_only_accuracy": 0.116
+    },
+    {
+      "split": "test",
+      "task": "multi_hop",
+      "n": 750,
+      "accuracy": 0.08266666666666667,
+      "question_only_accuracy": 0.08266666666666667
+    },
+    {
+      "split": "test",
+      "task": "ordering",
+      "n": 750,
+      "accuracy": 0.5013333333333333,
+      "question_only_accuracy": 0.524
+    },
+    {
+      "split": "test",
+      "task": "state_query",
+      "n": 748,
+      "accuracy": 0.42780748663101603,
+      "question_only_accuracy": 0.6056149732620321
+    },
+    {
+      "split": "validation",
+      "task": "anomaly_detection",
+      "n": 750,
+      "accuracy": 0.48,
+      "question_only_accuracy": 0.508
+    },
+    {
+      "split": "validation",
+      "task": "anomaly_localization",
+      "n": 750,
+      "accuracy": 0.072,
+      "question_only_accuracy": 0.048
+    },
+    {
+      "split": "validation",
+      "task": "antecedent",
+      "n": 750,
+      "accuracy": 0.16533333333333333,
+      "question_only_accuracy": 0.18533333333333332
+    },
+    {
+      "split": "validation",
+      "task": "comparison",
+      "n": 750,
+      "accuracy": 0.09466666666666666,
+      "question_only_accuracy": 0.13066666666666665
+    },
+    {
+      "split": "validation",
+      "task": "counting",
+      "n": 750,
+      "accuracy": 0.22533333333333333,
+      "question_only_accuracy": 0.21466666666666667
+    },
+    {
+      "split": "validation",
+      "task": "existence",
+      "n": 750,
+      "accuracy": 0.49733333333333335,
+      "question_only_accuracy": 0.5853333333333334
+    },
+    {
+      "split": "validation",
+      "task": "localization",
+      "n": 750,
+      "accuracy": 0.017333333333333333,
+      "question_only_accuracy": 0.13866666666666666
+    },
+    {
+      "split": "validation",
+      "task": "multi_hop",
+      "n": 749,
+      "accuracy": 0.08945260347129506,
+      "question_only_accuracy": 0.09879839786381843
+    },
+    {
+      "split": "validation",
+      "task": "ordering",
+      "n": 750,
+      "accuracy": 0.5186666666666667,
+      "question_only_accuracy": 0.5413333333333333
+    },
+    {
+      "split": "validation",
+      "task": "state_query",
+      "n": 750,
+      "accuracy": 0.516,
+      "question_only_accuracy": 0.6586666666666666
+    }
+  ],
+  "official_source_sha256": {
+    "src/datasets/uk_dale_haystack/loader.py": "39ad949e141367b8bff6d97ec0df4aa82c09118fd6f81d5d4c0749301606408f",
+    "src/datasets/uk_dale_haystack/plot_generator.py": "870d3219c217a8b5c27ab23de480381e4afd82ae9f05474096546b389e207fcc",
+    "src/datasets/uk_dale_haystack/core/background_sampler.py": "52008c296f0899cf7fa2eb91407ceb41940adc3797f2c552a99bf29a4f011588",
+    "src/datasets/uk_dale_haystack/core/insertion.py": "b822d057a9837dfa717e03b3d034cf281e9bbe3911422825c690997085793a47",
+    "src/datasets/uk_dale_haystack/core/prompt_templates.py": "360f493f01e037589671dbd165cc1791e26b35215245347507589d89eb0c2ba5",
+    "src/datasets/capture24_haystack/utils/answer_evaluation.py": "899860583285fb4d1a1af1dc6c0595ac24e63ced24982b3497861e9e694714fd",
+    "src/datasets/capture24_haystack/utils/timestamp_utils.py": "4dd48222fc1922aa6b7aab62500ff1f3a5ab79e924731981e01afa6a1dd6a27b"
+  }
+}

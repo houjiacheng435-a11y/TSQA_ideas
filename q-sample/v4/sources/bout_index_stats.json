@@ -1,0 +1,100 @@
+{
+  "n_bouts_total": 57672,
+  "by_split": {
+    "validation": 5471,
+    "test": 5915,
+    "train": 46286
+  },
+  "by_appliance": [
+    {
+      "appliance": "fridge_freezer",
+      "count": 40572,
+      "dur_med_s": 1396.0,
+      "dur_p10_s": 617.0,
+      "dur_p90_s": 2379.0,
+      "peak_w_mean": 280.0294189453125,
+      "total_kwh": 1518.713623046875
+    },
+    {
+      "appliance": "microwave",
+      "count": 8089,
+      "dur_med_s": 52.0,
+      "dur_p10_s": 25.0,
+      "dur_p90_s": 247.0,
+      "peak_w_mean": 1646.040771484375,
+      "total_kwh": 262.9836730957031
+    },
+    {
+      "appliance": "fridge",
+      "count": 3829,
+      "dur_med_s": 918.0,
+      "dur_p10_s": 727.0,
+      "dur_p90_s": 1745.0,
+      "peak_w_mean": 328.46539306640625,
+      "total_kwh": 113.5818099975586
+    },
+    {
+      "appliance": "hair_dryer",
+      "count": 1981,
+      "dur_med_s": 48.0,
+      "dur_p10_s": 18.0,
+      "dur_p90_s": 141.0,
+      "peak_w_mean": 1294.1680908203125,
+      "total_kwh": 40.20328903198242
+    },
+    {
+      "appliance": "washer_dryer",
+      "count": 1289,
+      "dur_med_s": 5397.0,
+      "dur_p10_s": 3556.0,
+      "dur_p90_s": 6360.0,
+      "peak_w_mean": 2546.410400390625,
+      "total_kwh": 938.4954223632812
+    },
+    {
+      "appliance": "kettle",
+      "count": 985,
+      "dur_med_s": 163.0,
+      "dur_p10_s": 78.0,
+      "dur_p90_s": 200.0,
+      "peak_w_mean": 3128.377685546875,
+      "total_kwh": 114.33751678466797
+    },
+    {
+      "appliance": "dishwasher",
+      "count": 779,
+      "dur_med_s": 5107.0,
+      "dur_p10_s": 2955.0,
+      "dur_p90_s": 6001.0,
+      "peak_w_mean": 2655.2490234375,
+      "total_kwh": 1083.529296875
+    },
+    {
+      "appliance": "oven",
+      "count": 58,
+      "dur_med_s": 950.0,
+      "dur_p10_s": 358.0,
+      "dur_p90_s": 2382.0,
+      "peak_w_mean": 2386.913818359375,
+      "total_kwh": 31.352846145629883
+    },
+    {
+      "appliance": "washing_machine",
+      "count": 57,
+      "dur_med_s": 2414.0,
+      "dur_p10_s": 2179.0,
+      "dur_p90_s": 2661.0,
+      "peak_w_mean": 2416.912353515625,
+      "total_kwh": 23.07993507385254
+    },
+    {
+      "appliance": "toaster",
+      "count": 33,
+      "dur_med_s": 98.0,
+      "dur_p10_s": 30.0,
+      "dur_p90_s": 163.0,
+      "peak_w_mean": 1117.1212158203125,
+      "total_kwh": 0.9489724636077881
+    }
+  ]
+}
