@@ -1,0 +1,2137 @@
+{
+  "_id": "6acc60f8b0d942380fc73b8c",
+  "id": "mrtan/NLQTSBench-train-v2",
+  "author": "mrtan",
+  "sha": "6419876ba6adf9d16ab50bf6e41405f98932bf6d",
+  "lastModified": "2026-10-12T04:24:36.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:question-answering",
+    "task_categories:table-question-answering",
+    "language:en",
+    "license:apache-2.0",
+    "size_categories:n<1K",
+    "region:us",
+    "time-series",
+    "natural-language-queries",
+    "benchmark",
+    "training-set"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tNLQTSBench-train-v2\n\t\n\nSecond training set for NLQTSBench.\nIt sits next to mrtan/NLQTSBench-train, which is unchanged.\nIt holds 690 tasks over all 11 sub-tasks, including Composite Trend.\nThe skill library of the Sonar-TS moso branch was distilled from it.\nThe tasks use the same question templates as the test set, generated with different and more widely varying parameters.\nNo task id and no question text of this set appears in the test set.\nDo not use it for benchmarking.\u2026 See the full description on the dataset page: https://huggingface.co/datasets/mrtan/NLQTSBench-train-v2.",
+  "downloads": 331,
+  "likes": 0,
+  "cardData": {
+    "license": "apache-2.0",
+    "language": [
+      "en"
+    ],
+    "task_categories": [
+      "question-answering",
+      "table-question-answering"
+    ],
+    "tags": [
+      "time-series",
+      "natural-language-queries",
+      "benchmark",
+      "training-set"
+    ],
+    "size_categories": [
+      "n<1K"
+    ],
+    "pretty_name": "NLQTSBench-train-v2"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "composite_trend/splits.json"
+    },
+    {
+      "rfilename": "composite_trend/tasks.json"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00001.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00002.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00003.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00004.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00005.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00006.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00007.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00008.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00009.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00010.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00011.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00012.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00013.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00014.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00015.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00016.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00017.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00018.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00019.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00020.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00021.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00022.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00023.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00024.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00025.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00026.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00027.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00028.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00029.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00030.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00031.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00032.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00033.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00034.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00035.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00036.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00037.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00038.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00039.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00040.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00041.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00042.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00043.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00044.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00045.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00046.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00047.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00048.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00049.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00050.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00051.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00052.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00053.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00054.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00055.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00056.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00057.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00058.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00059.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00060.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00061.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00062.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00063.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00064.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00065.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00066.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00067.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00068.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00069.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00070.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00071.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00072.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00073.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00074.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00075.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00076.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00077.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00078.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00079.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00080.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00081.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00082.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00083.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00084.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00085.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00086.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00087.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00088.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00089.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00090.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00091.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00092.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00093.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00094.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00095.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00001.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00002.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00003.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00004.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00005.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00006.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00007.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00008.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00009.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00010.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00011.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00012.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00013.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00014.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00015.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00016.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00017.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00018.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00019.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00020.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00021.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00022.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00023.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00024.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00025.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00026.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00027.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00028.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00029.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00030.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00031.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00032.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00033.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00034.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00035.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00036.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00037.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00038.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00039.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00040.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00041.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00042.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00043.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00044.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00045.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00046.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00047.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00048.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00049.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00050.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00051.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00052.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00053.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00054.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00055.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00056.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00057.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00058.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00059.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00060.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00061.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00062.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00063.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00064.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00065.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00066.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00067.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00068.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00069.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00070.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00071.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00072.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00073.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00074.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00075.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00076.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00077.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00078.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00079.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00080.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00081.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00082.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00083.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00084.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00085.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00086.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00087.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00088.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00089.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00090.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00091.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00092.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00093.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00094.csv"
+    },
+    {
+      "rfilename": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00095.csv"
+    },
+    {
+      "rfilename": "general/splits.json"
+    },
+    {
+      "rfilename": "general/tasks.json"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T1_Global_Aggregation_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T2_Temporal_Localization_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T3_Interval_Discovery_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L1_T4_Sliding_Window_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T1_Shape_Identification_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T2_Periodicity_Detection_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L2_T3_Subsequence_Matching_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S0_00010.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S1_00010.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S2_00010.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S3_00010.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T1_Composite_Trend_S4_00010.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L3_T3_Causal_Anomaly_S4_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S0_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S1_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S2_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S3_00009.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00001.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00002.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00003.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00004.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00005.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00006.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00007.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00008.csv"
+    },
+    {
+      "rfilename": "general/ts_data/L4_T1_Insight_Synthesis_S4_00009.csv"
+    }
+  ],
+  "createdAt": "2026-10-12T04:24:24.000Z",
+  "usedStorage": 0
+}

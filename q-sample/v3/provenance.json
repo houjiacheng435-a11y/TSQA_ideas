@@ -1,0 +1,43 @@
+{
+  "audit_date_beijing": "2026-11-04",
+  "project_base_commit": "19a46bc22495427711fb2c9c61422f11d9054fcf",
+  "official_code_commit": "99866c43cd7ceb91a929de745e9f49cea92962e5",
+  "dataset_revisions": {
+    "NLQTSBench": "81571171c5c614d01698497626bff8eb6ad8dcf4",
+    "NLQTSBench-train": "91d7f6f9731c56bc525c6abb04aedd03bf9a252f",
+    "NLQTSBench-train-v2": "6419876ba6adf9d16ab50bf6e41405f98932bf6d"
+  },
+  "files": {
+    "sources/LICENSE": "707fcd9f0b3d086f0eb5bc16da898020855f7e8c163eb30bfa65ce2da2267213",
+    "sources/NLQTSBench-README.md": "98b45ea81164d1e1a1dd82255207053b15cd6c69d922a1c5cf3387ce604d4b74",
+    "sources/NLQTSBench-api.json": "e8d30fe3344707a370f6a431abf809ef9cc3fb3a781407d4aa6a688d1a51b1f4",
+    "sources/NLQTSBench-tasks.json": "8a9604571854efe08d74cd6dd8ccbd686a06c6f412938d4d7e3b0e3333cc788e",
+    "sources/NLQTSBench-train-README.md": "32e10ad7f4624cc0c8acbb7b43780fdcdda043174008aa51abcdbc306098acac",
+    "sources/NLQTSBench-train-api.json": "deabecf48da1cb1c2b54ffd6e992e1d6c86602b421890d8619c8e423a0af6585",
+    "sources/NLQTSBench-train-tasks.json": "225b8373746f70c3fc598532d50db662dabf48b8ab153a71131e3cf2327dd2c7",
+    "sources/NLQTSBench-train-tree.json": "e8bcfd4375f12133fd587400e579d83a0275b2b0d2676cd687164087d3bdfcb3",
+    "sources/NLQTSBench-train-v2-README.md": "fb01bdd9af1d403614c16f5a7fc5fb1afdd9ccf217f8467b06ebe2aa46a38826",
+    "sources/NLQTSBench-train-v2-api.json": "ead1e05a2b3ddebddb42416019a91067fdb282f7614f852ac1d8a57e92dbda6b",
+    "sources/NLQTSBench-train-v2-tree.json": "640c4f64cfa6107db967bdca2843b4073e8f9a3709a349236c0e4698bcddc0bb",
+    "sources/NLQTSBench-tree.json": "78369a9e6eb2727d2aaa53be3d5da223f99edc9e1ff537c391931b75a050bad1",
+    "sources/NOTICE.md": "ce13485c3db3e1707313d489388ae347c84010c39356a99c410e291438eb5e89",
+    "sources/train-v2-composite_trend-splits.json": "66ad2ec77423c587f71bd7471607390ee0f6cbb2f44d016d92125810dc0e6242",
+    "sources/train-v2-composite_trend-tasks.json": "2d92de442eefbf0dd43e0bce3c4afee48d4e7d8ac93e9f5d79e89f674d7df384",
+    "sources/train-v2-general-splits.json": "0b4f0d3ca63b4d47d2116e6fcfcea3b033cc58bac8e54ae5b4f8927ce51826c8",
+    "sources/train-v2-general-tasks.json": "212dd25bdfbfa8dfc0dd3d289beaca1144a3cce904d00c04627a6f22a626a0f8"
+  },
+  "actions": "只读 CPU 审计；12 个训练样本首次按题号请求 36,372,284 字节，后验发现其中两个与已有其他题号 CSV 内容一致；已改为内容指纹复用，详见 acquisition_history.json；没有训练、推理 API、模型下载或官方数据改写",
+  "new_raw_csv_location": "/root/autodl-tmp/cf-run/data/qsample-nlqts-audit",
+  "prior_local_raw_verified_test_ids": 231,
+  "runtime": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "requests": "2.31.0"
+  },
+  "audit_code_sha256": {
+    "audit_data.py": "113842feb5b45c74152d1b12590279f39573e991f054e2db0d0ffb7978346964",
+    "acquire_audit_sources.py": "7221b938e4dc674b040e5eb22645b46ccbf1c82b57d6774d49c7f776222d9ffe"
+  },
+  "local_official_tasks_match_hf_json": true
+}

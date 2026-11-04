@@ -1,0 +1,4202 @@
+[
+  {
+    "type": "directory",
+    "oid": "ed9d3b591d010c87da5a6965e9adc6160de38bba",
+    "size": 0,
+    "path": "composite_trend"
+  },
+  {
+    "type": "directory",
+    "oid": "aa550e3e1f785dfdac4557eb79bb6872b81c18f8",
+    "size": 0,
+    "path": "composite_trend/ts_data"
+  },
+  {
+    "type": "directory",
+    "oid": "21ec3bab26c6c8f9a97f4d88d4f3321d49dd14e5",
+    "size": 0,
+    "path": "general"
+  },
+  {
+    "type": "directory",
+    "oid": "c91897267c6e0faf4c2cc5c3d4d78b80369c9347",
+    "size": 0,
+    "path": "general/ts_data"
+  },
+  {
+    "type": "file",
+    "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+    "size": 2504,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "db01c24a3386656c2a4d944b5bc7799298abea29",
+    "size": 2728,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "fada25a3f234039cc9dd77bc2b47d040ce714190",
+    "size": 6887,
+    "path": "composite_trend/splits.json"
+  },
+  {
+    "type": "file",
+    "oid": "aeb39a7c40edcc18efd2891f7255a0811d26bacc",
+    "size": 149308,
+    "path": "composite_trend/tasks.json"
+  },
+  {
+    "type": "file",
+    "oid": "30ec2c5a3651ed340d32bd7701138d3b8b4c4240",
+    "size": 1347336,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8ef777a9366da16ddd8962af22d0e15078b0eedb",
+    "size": 1366977,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e030753c7c30d06eae2b87689620876b575d6790",
+    "size": 1219395,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "11fc187ff8088f8ff14c42ee26a1a08bd23bb50e",
+    "size": 1354605,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "39e150606ceb52933f13f7399b58e39a4eba96f2",
+    "size": 1341491,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "97b6772f850d1354c887d9fee335758822bf4c79",
+    "size": 1363025,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f52328c0466114cd63d86465c36dcc05f00ff9f3",
+    "size": 1399356,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dc9e211e324642bec1cb09d253c8ecfcd566f4a4",
+    "size": 1369587,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2e8a795c55b97fcea4907b2c87bae1b3d859a148",
+    "size": 1365973,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ede521339d72fd708aae28fad676dc327b38e083",
+    "size": 1366045,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00010.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2a0ea6fc4c487ed231b44c22215c3117c31dbdf6",
+    "size": 1394367,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00011.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3b96af7f7f44d12024950255e77479798493799c",
+    "size": 1338142,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00012.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f8c3f53cceaa200257fc037ed132435c75c0b87b",
+    "size": 1344522,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00013.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f55b74544854bab54667ca9f519cfc36c4ffe8b9",
+    "size": 1348607,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00014.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1f64cd311b7ae048fa898fb8257b5347175b028f",
+    "size": 1361067,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00015.csv"
+  },
+  {
+    "type": "file",
+    "oid": "17b3e2ed574c05c2b74d66d34da78561b1098536",
+    "size": 1218469,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00016.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0270260c7db254193053796c146f20bf2b033b9e",
+    "size": 1349303,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00017.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e8fb733c2b6a8ea1bf7c845bc6005ed51663643f",
+    "size": 1369470,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00018.csv"
+  },
+  {
+    "type": "file",
+    "oid": "03007c3af0429b52d79752bba09c2ea3029a60af",
+    "size": 1362895,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00019.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9466adfca2ef8cbccfca9e87a2e4627907671cff",
+    "size": 1366096,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00020.csv"
+  },
+  {
+    "type": "file",
+    "oid": "972ec70422573a34b7e0893511370e622bf0fdd8",
+    "size": 1343513,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00021.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7b80f6d5fe4ce8a354a34e3a9c639841cbe7dcc1",
+    "size": 1336685,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00022.csv"
+  },
+  {
+    "type": "file",
+    "oid": "67768dcf02fce6e270071aae045115c4189be87d",
+    "size": 1376021,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00023.csv"
+  },
+  {
+    "type": "file",
+    "oid": "16ca7ad83b62e984d5a911bc47c98cbaf74a101b",
+    "size": 1365612,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00024.csv"
+  },
+  {
+    "type": "file",
+    "oid": "65d533783de7be42f1cfbf6cb3022d15c669ca45",
+    "size": 1335028,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00025.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b43bcd10ffbe7d19318d3beb73fcca0bece7c51b",
+    "size": 1387494,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00026.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1420f256f71a2f6466f36f2079c05c35662f0d61",
+    "size": 1335067,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00027.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2a6d463c3e1f730fc34457e26296aa9c63e431ac",
+    "size": 1364453,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00028.csv"
+  },
+  {
+    "type": "file",
+    "oid": "776e3e6cbc1587e22137c8e368ab4188293054b1",
+    "size": 1357324,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00029.csv"
+  },
+  {
+    "type": "file",
+    "oid": "304ada514b283e929ea74dc43ff44ce0f075e8d7",
+    "size": 1391382,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00030.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e305a25094fd9f4f0176d5ced5068af2799f0d8d",
+    "size": 1360742,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00031.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5c296555b6de93609296b32288faec711782127c",
+    "size": 1400417,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00032.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ca409411efa6d09e69327c69ed68ec1170b5e66e",
+    "size": 1369094,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00033.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f7809359168e3551a189b9e48d514d588c490a5f",
+    "size": 1366056,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00034.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a7a6ab8500b9f6d18b1285f8b9f89f9c655ab2ae",
+    "size": 1367729,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00035.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dceb1066079055ce2db8b905b5d7a47ef899b013",
+    "size": 1397405,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00036.csv"
+  },
+  {
+    "type": "file",
+    "oid": "fd003bbda8bd56fcbcffd35a110d649e8311d283",
+    "size": 1365700,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00037.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7f1cd7feb5c4c74f6773fefa6e610783e75afd92",
+    "size": 1361774,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00038.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7bb14373359dbd33565774e0267f4218ffdce223",
+    "size": 1375322,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00039.csv"
+  },
+  {
+    "type": "file",
+    "oid": "833edcb65c7dea423a85b937b8cd29b10a3928ab",
+    "size": 1353238,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00040.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d1c343b756daadb4a47fca283614de728e607349",
+    "size": 1365595,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00041.csv"
+  },
+  {
+    "type": "file",
+    "oid": "eafba11beb4d0c5e5b4c1d1aadbdb2683c338574",
+    "size": 1341490,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00042.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1ed8c9a00ae920d951421bd1532a21bcd42fb2d9",
+    "size": 1404275,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00043.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f2e0ae35aa7d9bd380b9fc44d52261a6664031b5",
+    "size": 1367868,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00044.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a23c23148656d6ab0a5cf2e0c313f1a406d972e0",
+    "size": 1356591,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00045.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e9bfd105c235e6bbed4ec13259d9083b12dd65ce",
+    "size": 1345082,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00046.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8cec197b0eb00dcbc6a236b1cde386d8e4464135",
+    "size": 1431189,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00047.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d7979dc6a01a1c1c257c0ec2954905145b4dbb26",
+    "size": 1400154,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00048.csv"
+  },
+  {
+    "type": "file",
+    "oid": "591e8aab4a8ee4614d5fb2b864f1e576d95d569b",
+    "size": 1332391,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00049.csv"
+  },
+  {
+    "type": "file",
+    "oid": "024eefc9d7befd39508825a03fac9b37b8b3593b",
+    "size": 1348607,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00050.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bf193f1c60fa035aaaaae408ab072da9bf18199c",
+    "size": 1390033,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00051.csv"
+  },
+  {
+    "type": "file",
+    "oid": "79812f882e4cd856333aa6a257f84f58fdf63ff8",
+    "size": 1361017,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00052.csv"
+  },
+  {
+    "type": "file",
+    "oid": "694ce442ebe3a22167f4ae8ed95aef10b63214dd",
+    "size": 1404587,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00053.csv"
+  },
+  {
+    "type": "file",
+    "oid": "825f2314cc79486d2a06d13f4b073360dada8fc5",
+    "size": 1382728,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00054.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3f7264716acfaf9f317cae99270c9d938c8ee728",
+    "size": 1374038,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00055.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7855dec93fd50c1bac8ed9266efc428fe0a63930",
+    "size": 1362948,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00056.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c755032b4a45ba3ea5092cf989e2fecf4e4f4ef2",
+    "size": 1399044,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00057.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b1c704abe6d7a3b246edad0a7122b55ff3d4118",
+    "size": 1354168,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00058.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a552c77e51c9121544da0c0478df7ba70c769b93",
+    "size": 1343893,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00059.csv"
+  },
+  {
+    "type": "file",
+    "oid": "36047b2541ee4ed024aaa6393e9323c13beb3ae9",
+    "size": 1365744,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00060.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8e18c412dae5dc207e14a6a8f0cb63d2120108ed",
+    "size": 1366229,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00061.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7b8cfaa1fea4c225b0e555a4f72c2f6dbb6b54eb",
+    "size": 1342067,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00062.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2d35ebf0c3074dcfc65ef17c7939e5a78ab4e5eb",
+    "size": 1366084,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00063.csv"
+  },
+  {
+    "type": "file",
+    "oid": "188ecb7618f5697b9570148aa971f271d5c7ff71",
+    "size": 1364338,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00064.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5d4a70a710af11e1b289a562ac28a18d72d1ed8f",
+    "size": 1331073,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00065.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d9b04aaf81630946b0513cbbe80a967f00e02dba",
+    "size": 1375860,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00066.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1334363017d0b692d0e20027056cbdefba029640",
+    "size": 1361010,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00067.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8fd8523546297150838360e1bc03f9589f31fb8e",
+    "size": 1335304,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00068.csv"
+  },
+  {
+    "type": "file",
+    "oid": "fa3b9142f66087fcc7bef737f789e03f3e43597a",
+    "size": 1339510,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00069.csv"
+  },
+  {
+    "type": "file",
+    "oid": "44e4b03166f23cb0e12274141ca86152940662ee",
+    "size": 1343912,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00070.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a6497aee2e6e2db9a93d2d005a01505a33ce7756",
+    "size": 1348571,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00071.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a4f95bb86c1a0c00383328bf71c729cf42244c7f",
+    "size": 1397211,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00072.csv"
+  },
+  {
+    "type": "file",
+    "oid": "07c3ae328f1f735130c5bb2445ac5fddd87b49ad",
+    "size": 1400797,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00073.csv"
+  },
+  {
+    "type": "file",
+    "oid": "eab9629b094602d82d3bc587296c71b9bd1e8fcb",
+    "size": 1366100,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00074.csv"
+  },
+  {
+    "type": "file",
+    "oid": "424621c90c26a7fd7d965ed030e1668a75624515",
+    "size": 1384760,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00075.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9f5c9903ab1566496358f5a15ea4584cfbe580a6",
+    "size": 1367097,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00076.csv"
+  },
+  {
+    "type": "file",
+    "oid": "779c4d6855f0fc2972503e50270e0b6d323902cf",
+    "size": 1399038,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00077.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3306fa58f00e35d480ec3bd82c4f17258df049c1",
+    "size": 1393083,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00078.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5a8ef3298f7c3afbca98881a7cab32a43488a9f5",
+    "size": 1337349,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00079.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0081fb333448175a5725e41ecdb860306ad73964",
+    "size": 1336345,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00080.csv"
+  },
+  {
+    "type": "file",
+    "oid": "75da172fc3e75ff0f21c87859f2cf98ee97a9b68",
+    "size": 1369090,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00081.csv"
+  },
+  {
+    "type": "file",
+    "oid": "eb93c837d0cae2df40997eaa184ad86541ae9d93",
+    "size": 1398324,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00082.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e7b085b727af142ec0ac3c5b4a2272d7e81e7b18",
+    "size": 1362930,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00083.csv"
+  },
+  {
+    "type": "file",
+    "oid": "764a2c12d866d73a21c378ced6e7695b8a2150c6",
+    "size": 1305812,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00084.csv"
+  },
+  {
+    "type": "file",
+    "oid": "325112ff54723f06142001ebe142671f01858b59",
+    "size": 1367688,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00085.csv"
+  },
+  {
+    "type": "file",
+    "oid": "076535fd7dd2d40bef3895dbdcdb399c2adb677e",
+    "size": 1366103,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00086.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b3c36a2e3adcfe315a284ec345cb3d3dd4fb5d41",
+    "size": 1330955,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00087.csv"
+  },
+  {
+    "type": "file",
+    "oid": "561247fc1a526796d5dcc2e7b3cf2e8c6aa90d73",
+    "size": 1403940,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00088.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ea8186f73db284771f4525939091ed646ef63aef",
+    "size": 1365725,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00089.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b0a4df101faf0b3aa7f9b6387cfba1171be688fd",
+    "size": 1345013,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00090.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cddcfc6b968ca2db65be1a6522dc3ed8276cb5cf",
+    "size": 1399525,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00091.csv"
+  },
+  {
+    "type": "file",
+    "oid": "63458423464f90d49da55dd8985a9af10f53cbb5",
+    "size": 1358546,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00092.csv"
+  },
+  {
+    "type": "file",
+    "oid": "877670ba0561570859107509b1914d77e8b63fc8",
+    "size": 1351592,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00093.csv"
+  },
+  {
+    "type": "file",
+    "oid": "044874a40b6cfb8938c2457c54c71f26c98eda1a",
+    "size": 1388362,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00094.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e35878860ea39d4de0a6fe498ca41e608de8447a",
+    "size": 1348479,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C0_00095.csv"
+  },
+  {
+    "type": "file",
+    "oid": "694b665ae4dc7bc01693314c57167239728e9b2c",
+    "size": 1374407,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "fa06e84fa942f0fe032447e4cbfaa4e87f1ca5a4",
+    "size": 1366400,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9802bf251a0fe464843ecb9ef4eb29e2db14c4a3",
+    "size": 1356201,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "962d1c6e78be14ae9b11667d1e4abf19495b64a6",
+    "size": 1342634,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e92a8fa89a8fa295d9e97635bc511275df6ee1d7",
+    "size": 1368144,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4a52b7dbbe81bb9859649b460cd1f786a0570232",
+    "size": 1377133,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d9deadfdf7fc2bb88acca51396b604bf3677f72f",
+    "size": 1393829,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4fb04b8ec6403c33ac173ec88bc82919d8814e07",
+    "size": 1354914,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "99a830365193d3cbbffc2dda7f6c7d6f4a7d460f",
+    "size": 1342301,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7e1d28e2c7579dc583a0c0c1b4d5b9edecd6f9a0",
+    "size": 1366474,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00010.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6e17667450ba2f8a8154ec4a2d3576263f0105c7",
+    "size": 1391515,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00011.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4227106e522dc08710d4fbdc07eea779cded4be4",
+    "size": 1368517,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00012.csv"
+  },
+  {
+    "type": "file",
+    "oid": "25e64542f6df6b1665cf4441f4cd59bbd08f0899",
+    "size": 1338267,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00013.csv"
+  },
+  {
+    "type": "file",
+    "oid": "273c499edd866a6d053da33bc1893947efb967d3",
+    "size": 1341836,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00014.csv"
+  },
+  {
+    "type": "file",
+    "oid": "96443978d24f0f5ef05071bfdddf8057953fd247",
+    "size": 1366487,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00015.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c50a7666b4b5d6969c5604e6db75e9a8d63ba6e7",
+    "size": 1337005,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00016.csv"
+  },
+  {
+    "type": "file",
+    "oid": "02e7cf7ea902797f458be377405409dc3c2f23e4",
+    "size": 1331965,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00017.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dcf08866a95e8e1fc09749d546320fce47c26f66",
+    "size": 1359237,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00018.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0197c13ef54352cfdf11515c3b0885685531d078",
+    "size": 1347675,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00019.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9df23692a16663fed1eb56e4605ea3ce156d33c3",
+    "size": 1364434,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00020.csv"
+  },
+  {
+    "type": "file",
+    "oid": "749ba21f7b0de0fee235336c4df75fc3d08dad88",
+    "size": 1359856,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00021.csv"
+  },
+  {
+    "type": "file",
+    "oid": "75db97a922fa9366e78c2d42ff44c8a17ac12aa7",
+    "size": 1377190,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00022.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d20149e19eaeb48f1f16284066d6e755600ba3bb",
+    "size": 1367205,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00023.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c4a6c99b9572f289231a1cc9c448417eab1109c2",
+    "size": 1371380,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00024.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b24b6f4c59b905d5f1276a579ab1479747322488",
+    "size": 1341155,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00025.csv"
+  },
+  {
+    "type": "file",
+    "oid": "de19f5f316757b2ddeb7831c4c171d36e9659f9d",
+    "size": 1339933,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00026.csv"
+  },
+  {
+    "type": "file",
+    "oid": "22857b96d7d7704cb9c6aebc7206b40fb624f6c6",
+    "size": 1357666,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00027.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d8379c947aab0ba86455d9b046ba93881e3f3a67",
+    "size": 1400583,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00028.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e80af5104111b174017c3a4d10222dfcbe2ae5f9",
+    "size": 1366144,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00029.csv"
+  },
+  {
+    "type": "file",
+    "oid": "afe805be0cab85653e3add5171e4d7b7e53fdc67",
+    "size": 1400915,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00030.csv"
+  },
+  {
+    "type": "file",
+    "oid": "52dd69248b64a77f87a4c778845f86e11eca741b",
+    "size": 1359527,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00031.csv"
+  },
+  {
+    "type": "file",
+    "oid": "40faa4836ae719cf6997a895aa16018feca1796f",
+    "size": 1337136,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00032.csv"
+  },
+  {
+    "type": "file",
+    "oid": "17c4b3a6e8ce6664e4aef3964270e815c4e73414",
+    "size": 1365024,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00033.csv"
+  },
+  {
+    "type": "file",
+    "oid": "072eb317b6b7054b60be2d44ef62c0a4e270283a",
+    "size": 1400272,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00034.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e42c66856cbdb1be3b86b569ff2d12f5c468eb3c",
+    "size": 1397741,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00035.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9d11385d4f262cfec0d7efcf090404530d065a53",
+    "size": 1367194,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00036.csv"
+  },
+  {
+    "type": "file",
+    "oid": "fe97c32e8ba634a4ba5f25916151a25bc80260d9",
+    "size": 1400315,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00037.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bf5add8fb774efc5d0848c21c7b35eda34da8895",
+    "size": 1337658,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00038.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e749a5ccd5a0adb4bc225db9be31c147503e42ac",
+    "size": 1366157,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00039.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5779217d7a4e86c3afefaf7290b7eb75cc3049cc",
+    "size": 1372124,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00040.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c4d8fa28d49d25de9b4fcedd65f3ddf34af47df7",
+    "size": 1342529,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00041.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e430314c9c5b00896778a5b6d724c4d1339f187c",
+    "size": 1352823,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00042.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6a0d030041092f63ec6fdf7204f3af32aa14d63b",
+    "size": 1367435,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00043.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8c0fea4382a5dd866cea4c97b9fccf18b2e2803d",
+    "size": 1375078,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00044.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f71c220104f5262773a08d3699d6f6d013a3066f",
+    "size": 1340433,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00045.csv"
+  },
+  {
+    "type": "file",
+    "oid": "19748e5478a6722c7499047ca45003a2f3a75aa7",
+    "size": 1327343,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00046.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b4ec178fceadd846b105358a59a74fe3fa612a5f",
+    "size": 1335859,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00047.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5acf6b65d71092e9e1de79add29028acc74544ad",
+    "size": 1346476,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00048.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2cf18c03d558f931ae649dde772b147d5ddd8360",
+    "size": 1335721,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00049.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9f58b4144dd78b605b0f92f7d0c31d48d5b23492",
+    "size": 1332487,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00050.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5a0e811969025705038d0a9fbe14544befb5811c",
+    "size": 1362278,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00051.csv"
+  },
+  {
+    "type": "file",
+    "oid": "01f1988a1949cbf4ab31300db47a2cc2db845617",
+    "size": 1352331,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00052.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a074d99a1301ba90310504e0041e75717a48a42c",
+    "size": 1391086,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00053.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e5bdd2546e385c171205cfef612b581fdf443a2a",
+    "size": 1364415,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00054.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7b398791a09607813b549cd01df2970cc9deb7ae",
+    "size": 1360144,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00055.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4c045baed4a5d15db8ebda281dba5391ebd5fdcc",
+    "size": 1400591,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00056.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7e94266bd9a8535614b00baab434d7a2e4abeaa9",
+    "size": 1365750,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00057.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d7646da275cd0308eeb9c44f3cc118989de35c21",
+    "size": 1404380,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00058.csv"
+  },
+  {
+    "type": "file",
+    "oid": "970ce24aca74890fbff6ff82afa55765f2c612cf",
+    "size": 1400455,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00059.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f94c067c218676ff9b5b90cec6cb1d3eef13e79c",
+    "size": 1342365,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00060.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9a962b336d0ed8d9867fc826383afed95f69fae6",
+    "size": 1348066,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00061.csv"
+  },
+  {
+    "type": "file",
+    "oid": "23ee406dd19d648dded6cf31861b0dd6e35d45f3",
+    "size": 1319128,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00062.csv"
+  },
+  {
+    "type": "file",
+    "oid": "678b32a1a5f0734ce94d9dcd99ebff122346fb31",
+    "size": 1370306,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00063.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e10fee62a771274b6b2ac18d352360a98d8db918",
+    "size": 1362254,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00064.csv"
+  },
+  {
+    "type": "file",
+    "oid": "833a438750f8c1ea8ec190eaf94f0885b49376a1",
+    "size": 1369840,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00065.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cc0674e8e09e117b48cdd1fe22d708193c9a8a23",
+    "size": 1350657,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00066.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c1d408af526aee889a624aa67436464f8051be76",
+    "size": 1316172,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00067.csv"
+  },
+  {
+    "type": "file",
+    "oid": "be6ec7f92fdcca60d54ab63288623333c08badaf",
+    "size": 1335121,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00068.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ae446563b253537de64a74849fc19dbf1d5d1c5f",
+    "size": 1404126,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00069.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bda11374b656fd92c0becc3fb3a14ba48c48b48c",
+    "size": 1370126,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00070.csv"
+  },
+  {
+    "type": "file",
+    "oid": "611306649aaf6b876ffbfc464ad7c81640f78ad0",
+    "size": 1326954,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00071.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2cfd225024ce8aa5e3dbdea73f2ea292080975a3",
+    "size": 1348685,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00072.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4902b62b3784b4e6d4fd409bf475ec78b489ed1d",
+    "size": 1395947,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00073.csv"
+  },
+  {
+    "type": "file",
+    "oid": "650d4b492e6e93f16ae618baec8084edeeaf512b",
+    "size": 1365052,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00074.csv"
+  },
+  {
+    "type": "file",
+    "oid": "26ef182e095eefd02e2bb60856f7054be0a43a43",
+    "size": 1360302,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00075.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ccdff78c75e5b64ce9e21c4f6b5d0aa86abf1433",
+    "size": 1400539,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00076.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9c2f1d807cbb6ce05984b1dbf32ad9641906b843",
+    "size": 1380313,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00077.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ad307c11ce040026aaf6ddbedf1da07c92575f5e",
+    "size": 1401094,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00078.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b2d99bb350aa034356ca2a5e733ec5d8deef042",
+    "size": 1401904,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00079.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2de77f948ab1067edad87e34f07641aa0ca73bb7",
+    "size": 1384649,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00080.csv"
+  },
+  {
+    "type": "file",
+    "oid": "23d50e60519bc0e114f6ad21aa62200df43b0621",
+    "size": 1381931,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00081.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b5ff2109df95db4fa17c891dfc0950aa213c947e",
+    "size": 1331652,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00082.csv"
+  },
+  {
+    "type": "file",
+    "oid": "87057ceb77a1cf0af0beceb0c67ada806b896b64",
+    "size": 1368936,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00083.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e43f8cccda5551a3948b9744483860db02dfae7b",
+    "size": 1365708,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00084.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e3ac52e6b4cb96dbc37e6114fd4ee7a6bffae4da",
+    "size": 1365011,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00085.csv"
+  },
+  {
+    "type": "file",
+    "oid": "68a25c82430ffaced5ab108cc1c6f31350104aae",
+    "size": 1369480,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00086.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8ec2373b47ebf37194f5e55ab85c26011b2ede84",
+    "size": 1367536,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00087.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1e4413796e103a4c5179fd0b664cc7f46d61dc26",
+    "size": 1366156,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00088.csv"
+  },
+  {
+    "type": "file",
+    "oid": "06c5b4d156db7b03664b12ee523fe6dd0b46d827",
+    "size": 1327403,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00089.csv"
+  },
+  {
+    "type": "file",
+    "oid": "67efa5bebc886dbe827a4bfe3fa84ef7ca81ac95",
+    "size": 1322692,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00090.csv"
+  },
+  {
+    "type": "file",
+    "oid": "72fa7dd0dec701c270e2d6186984b65c09829fc7",
+    "size": 1400446,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00091.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5705c7359c17bad8900d4db8d9e7bff1125eb990",
+    "size": 1324837,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00092.csv"
+  },
+  {
+    "type": "file",
+    "oid": "80f31f26d9b539b8a7f649162519468bf85b4500",
+    "size": 1360281,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00093.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4192b9ba5a96442d627d6afff9412b8afbfd31eb",
+    "size": 1347579,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00094.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7136ffd79cb1535108eeb4ebeaf0a74fd5a091bb",
+    "size": 1359187,
+    "path": "composite_trend/ts_data/L3_T1_Composite_Trend_C1_00095.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dbd727e7b20e8bf99c03f37826169c1bdd544514",
+    "size": 19445,
+    "path": "general/splits.json"
+  },
+  {
+    "type": "file",
+    "oid": "627f6ba28ef07e0c340cd39b38bb527cd393a3a3",
+    "size": 404115,
+    "path": "general/tasks.json"
+  },
+  {
+    "type": "file",
+    "oid": "d4acd68081b096109194ac324913b49ad28c214e",
+    "size": 4536958,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bb24031fd08bd6678d459e4eaab108840ab5452a",
+    "size": 4493616,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "223e93b7f3250beb11baf8f71b9b17bfd333303e",
+    "size": 4452354,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1f5317423b9f30e730ba210b6ea508e55082e136",
+    "size": 4445543,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cc20abe0e3a6d1fb609b95af3b8d9d3b63420074",
+    "size": 4482174,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a076c7fe6f1e3096ac5a757418d3f9ff6180ec4f",
+    "size": 2655669,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "536ed6fbf20741272aee2170e77d11d1d9498591",
+    "size": 2660793,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cf2e2179a16813d4b538919e228173ccd2c25472",
+    "size": 2694479,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b19dd429185c33382665b2955a61fc4d6d653e4",
+    "size": 4543332,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7271db9ae3ba4a56e5a70469a5b69eb0fd651bb8",
+    "size": 4402254,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0bc790069f2465e7aca9751ab4fcbd8dcdfa8e46",
+    "size": 4508897,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "621b099e4d1fcedcaa349a06ee7198b2a706976a",
+    "size": 4522944,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6cbed23b6c404a3043f77a2c5cb3d11feb5fb8c4",
+    "size": 4566860,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "55a4534c35c1d385e58c95a684cb8f04af15e9ac",
+    "size": 4376843,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e23348de2ed71deddd02d6260178a718ba5a0262",
+    "size": 4537747,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7affc7302983c27e49b389a85fe2225758935a1d",
+    "size": 4420208,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "acf0cec8bf8a64d05ca82a541fd26eb0a9dbec6a",
+    "size": 4410732,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cc20abe0e3a6d1fb609b95af3b8d9d3b63420074",
+    "size": 4482174,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "886b3b422376cb8cce1a28a3af1044672e6c76e3",
+    "size": 4537653,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d80948b60b53ef4e28083747a6afadc343dab7a9",
+    "size": 4503455,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a3b312a024f1ccb54544965f9e2623c5f3cc2527",
+    "size": 4537206,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ccc3a35bf53ef0385f92393dca6a96539588ce23",
+    "size": 4541065,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a076c7fe6f1e3096ac5a757418d3f9ff6180ec4f",
+    "size": 2655669,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "886b3b422376cb8cce1a28a3af1044672e6c76e3",
+    "size": 4537653,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "17c682d8f5537184da0037e2682c7897220c761f",
+    "size": 4558688,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "acf0cec8bf8a64d05ca82a541fd26eb0a9dbec6a",
+    "size": 4410732,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e3110558e3dbc272efde83f3a8bd14527599b47c",
+    "size": 4364119,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "70b927038cecf45d40be4420f509b15288042195",
+    "size": 4536952,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "01d722a83a2763420095c9da517de73d5788baf5",
+    "size": 4511544,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3fb7b0d42120a0ddeb0d76a178eca857f0f1f12d",
+    "size": 4561298,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "113a3dfa8e070befee47b7a83ea6750ff4102443",
+    "size": 4451455,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d80948b60b53ef4e28083747a6afadc343dab7a9",
+    "size": 4503455,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cf2e2179a16813d4b538919e228173ccd2c25472",
+    "size": 2694479,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "66997a11dc75fa9eafeae75714737bdbb3d81075",
+    "size": 2663406,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0bc790069f2465e7aca9751ab4fcbd8dcdfa8e46",
+    "size": 4508897,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "01d722a83a2763420095c9da517de73d5788baf5",
+    "size": 4511544,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "696bbf49e7e90976b163f09e65f68c5ab28295de",
+    "size": 4561457,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "55a4534c35c1d385e58c95a684cb8f04af15e9ac",
+    "size": 4376843,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4bae388eb2cf80da0641ebacaddf71a281fedb18",
+    "size": 4456151,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "17c682d8f5537184da0037e2682c7897220c761f",
+    "size": 4558688,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b30a747d14c2e44d6a4ef12a59f52db39c00bee",
+    "size": 4538878,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "223e93b7f3250beb11baf8f71b9b17bfd333303e",
+    "size": 4452354,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "254c20d7f86d6cb15a6d4ba390ca6dc9135f2a93",
+    "size": 4373410,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a076c7fe6f1e3096ac5a757418d3f9ff6180ec4f",
+    "size": 2655669,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "536ed6fbf20741272aee2170e77d11d1d9498591",
+    "size": 2660793,
+    "path": "general/ts_data/L1_T1_Global_Aggregation_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b19dd429185c33382665b2955a61fc4d6d653e4",
+    "size": 4543332,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "88be1af96fd203236fd723b305bad73453323c5a",
+    "size": 4545310,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4bae388eb2cf80da0641ebacaddf71a281fedb18",
+    "size": 4456151,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d5b187061454e5044d71c9e2134bba96c5b5b8b6",
+    "size": 4537398,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e23348de2ed71deddd02d6260178a718ba5a0262",
+    "size": 4537747,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bb24031fd08bd6678d459e4eaab108840ab5452a",
+    "size": 4493616,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "536ed6fbf20741272aee2170e77d11d1d9498591",
+    "size": 2660793,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d64af901d0815d505751e65dcc5730374bb98b2e",
+    "size": 2689980,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2e70b9bf2d5a4ce2bd74b771ba3d3b94663748d9",
+    "size": 2661379,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "01d722a83a2763420095c9da517de73d5788baf5",
+    "size": 4511544,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5d938ad3b1c53e9a0f09cd49fef3179837f4822e",
+    "size": 4534457,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "621b099e4d1fcedcaa349a06ee7198b2a706976a",
+    "size": 4522944,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ecedddbf54b93f44834005fe9a310c19ec1e3d61",
+    "size": 4528114,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d4acd68081b096109194ac324913b49ad28c214e",
+    "size": 4536958,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b30a747d14c2e44d6a4ef12a59f52db39c00bee",
+    "size": 4538878,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "254c20d7f86d6cb15a6d4ba390ca6dc9135f2a93",
+    "size": 4373410,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "886b3b422376cb8cce1a28a3af1044672e6c76e3",
+    "size": 4537653,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "867918b05fe7087b51b54f4a5baf99c5a00d2676",
+    "size": 4537826,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "01d722a83a2763420095c9da517de73d5788baf5",
+    "size": 4511544,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5d938ad3b1c53e9a0f09cd49fef3179837f4822e",
+    "size": 4534457,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "867918b05fe7087b51b54f4a5baf99c5a00d2676",
+    "size": 4537826,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bece043aff38d8b5bd0436ebd7733f06f8228dcc",
+    "size": 4535662,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9af2b32ea1ce7a4f18cc90cffd5e9cb1140b447a",
+    "size": 4420508,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cc20abe0e3a6d1fb609b95af3b8d9d3b63420074",
+    "size": 4482174,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "66997a11dc75fa9eafeae75714737bdbb3d81075",
+    "size": 2663406,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2e70b9bf2d5a4ce2bd74b771ba3d3b94663748d9",
+    "size": 2661379,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f138194ba0279050c30cea8be5fd7a14ff06f21e",
+    "size": 4460811,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b19dd429185c33382665b2955a61fc4d6d653e4",
+    "size": 4543332,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c5cf93edf8d5d5a79b419b0bae31ad3a0c42411c",
+    "size": 4500378,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "696bbf49e7e90976b163f09e65f68c5ab28295de",
+    "size": 4561457,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f138194ba0279050c30cea8be5fd7a14ff06f21e",
+    "size": 4460811,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b30a747d14c2e44d6a4ef12a59f52db39c00bee",
+    "size": 4538878,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1f5317423b9f30e730ba210b6ea508e55082e136",
+    "size": 4445543,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cc20abe0e3a6d1fb609b95af3b8d9d3b63420074",
+    "size": 4482174,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f7424a7ed0e37cc1146d3635dbfb1e5f0ee9fae1",
+    "size": 2671050,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cf2e2179a16813d4b538919e228173ccd2c25472",
+    "size": 2694479,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "01d722a83a2763420095c9da517de73d5788baf5",
+    "size": 4511544,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bece043aff38d8b5bd0436ebd7733f06f8228dcc",
+    "size": 4535662,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bb24031fd08bd6678d459e4eaab108840ab5452a",
+    "size": 4493616,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1f5317423b9f30e730ba210b6ea508e55082e136",
+    "size": 4445543,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ccc3a35bf53ef0385f92393dca6a96539588ce23",
+    "size": 4541065,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b19dd429185c33382665b2955a61fc4d6d653e4",
+    "size": 4543332,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "621b099e4d1fcedcaa349a06ee7198b2a706976a",
+    "size": 4522944,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d4acd68081b096109194ac324913b49ad28c214e",
+    "size": 4536958,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bb24031fd08bd6678d459e4eaab108840ab5452a",
+    "size": 4493616,
+    "path": "general/ts_data/L1_T2_Temporal_Localization_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "70b927038cecf45d40be4420f509b15288042195",
+    "size": 4536952,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "53e7e2dd05f997f2eadd8bc2cbbcce1ff111bd7d",
+    "size": 4541982,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d4acd68081b096109194ac324913b49ad28c214e",
+    "size": 4536958,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bb24031fd08bd6678d459e4eaab108840ab5452a",
+    "size": 4493616,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a3b312a024f1ccb54544965f9e2623c5f3cc2527",
+    "size": 4537206,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7271db9ae3ba4a56e5a70469a5b69eb0fd651bb8",
+    "size": 4402254,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ccc3a35bf53ef0385f92393dca6a96539588ce23",
+    "size": 4541065,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d64af901d0815d505751e65dcc5730374bb98b2e",
+    "size": 2689980,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ecedddbf54b93f44834005fe9a310c19ec1e3d61",
+    "size": 4528114,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c5cf93edf8d5d5a79b419b0bae31ad3a0c42411c",
+    "size": 4500378,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ee0fb2b27ed5af5c97265f6fdd8f0f05cffeabcc",
+    "size": 4558550,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "88be1af96fd203236fd723b305bad73453323c5a",
+    "size": 4545310,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bece043aff38d8b5bd0436ebd7733f06f8228dcc",
+    "size": 4535662,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7271db9ae3ba4a56e5a70469a5b69eb0fd651bb8",
+    "size": 4402254,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ccc3a35bf53ef0385f92393dca6a96539588ce23",
+    "size": 4541065,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "66997a11dc75fa9eafeae75714737bdbb3d81075",
+    "size": 2663406,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2e70b9bf2d5a4ce2bd74b771ba3d3b94663748d9",
+    "size": 2661379,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "53e7e2dd05f997f2eadd8bc2cbbcce1ff111bd7d",
+    "size": 4541982,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "886b3b422376cb8cce1a28a3af1044672e6c76e3",
+    "size": 4537653,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d5b187061454e5044d71c9e2134bba96c5b5b8b6",
+    "size": 4537398,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9fdc64f4b5b7b9867ab02be64efc6fd065aa52a6",
+    "size": 4412768,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bb24031fd08bd6678d459e4eaab108840ab5452a",
+    "size": 4493616,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ab9606b5f06b895d697e1e1f237f2aa95202b8b2",
+    "size": 4380738,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f7424a7ed0e37cc1146d3635dbfb1e5f0ee9fae1",
+    "size": 2671050,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "536ed6fbf20741272aee2170e77d11d1d9498591",
+    "size": 2660793,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cf2e2179a16813d4b538919e228173ccd2c25472",
+    "size": 2694479,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d64af901d0815d505751e65dcc5730374bb98b2e",
+    "size": 2689980,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5d938ad3b1c53e9a0f09cd49fef3179837f4822e",
+    "size": 4534457,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ee0fb2b27ed5af5c97265f6fdd8f0f05cffeabcc",
+    "size": 4558550,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "88be1af96fd203236fd723b305bad73453323c5a",
+    "size": 4545310,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d4acd68081b096109194ac324913b49ad28c214e",
+    "size": 4536958,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b30a747d14c2e44d6a4ef12a59f52db39c00bee",
+    "size": 4538878,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ab6bb26c5b0b7cdf7be15e13a2f8c3354fce5ced",
+    "size": 4531065,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f7424a7ed0e37cc1146d3635dbfb1e5f0ee9fae1",
+    "size": 2671050,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "536ed6fbf20741272aee2170e77d11d1d9498591",
+    "size": 2660793,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cf2e2179a16813d4b538919e228173ccd2c25472",
+    "size": 2694479,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b19dd429185c33382665b2955a61fc4d6d653e4",
+    "size": 4543332,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "886b3b422376cb8cce1a28a3af1044672e6c76e3",
+    "size": 4537653,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ee0fb2b27ed5af5c97265f6fdd8f0f05cffeabcc",
+    "size": 4558550,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "223e93b7f3250beb11baf8f71b9b17bfd333303e",
+    "size": 4452354,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f7424a7ed0e37cc1146d3635dbfb1e5f0ee9fae1",
+    "size": 2671050,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "536ed6fbf20741272aee2170e77d11d1d9498591",
+    "size": 2660793,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cf2e2179a16813d4b538919e228173ccd2c25472",
+    "size": 2694479,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d64af901d0815d505751e65dcc5730374bb98b2e",
+    "size": 2689980,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "867918b05fe7087b51b54f4a5baf99c5a00d2676",
+    "size": 4537826,
+    "path": "general/ts_data/L1_T3_Interval_Discovery_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b19dd429185c33382665b2955a61fc4d6d653e4",
+    "size": 4543332,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "02779108181b970cb7f52e1f945e5986ebeda8fd",
+    "size": 4529600,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bece043aff38d8b5bd0436ebd7733f06f8228dcc",
+    "size": 4535662,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "88c16f1e648a426595eece9f09e8a47617634780",
+    "size": 4479161,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "254c20d7f86d6cb15a6d4ba390ca6dc9135f2a93",
+    "size": 4373410,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ab9606b5f06b895d697e1e1f237f2aa95202b8b2",
+    "size": 4380738,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5d938ad3b1c53e9a0f09cd49fef3179837f4822e",
+    "size": 4534457,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3fb7b0d42120a0ddeb0d76a178eca857f0f1f12d",
+    "size": 4561298,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b30a747d14c2e44d6a4ef12a59f52db39c00bee",
+    "size": 4538878,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "53e7e2dd05f997f2eadd8bc2cbbcce1ff111bd7d",
+    "size": 4541982,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ab6bb26c5b0b7cdf7be15e13a2f8c3354fce5ced",
+    "size": 4531065,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "254c20d7f86d6cb15a6d4ba390ca6dc9135f2a93",
+    "size": 4373410,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cc20abe0e3a6d1fb609b95af3b8d9d3b63420074",
+    "size": 4482174,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d3f5ad3b72b8cb82dc20fcc82deb0c304c795a6c",
+    "size": 4375808,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ccc3a35bf53ef0385f92393dca6a96539588ce23",
+    "size": 4541065,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cf2e2179a16813d4b538919e228173ccd2c25472",
+    "size": 2694479,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "66997a11dc75fa9eafeae75714737bdbb3d81075",
+    "size": 2663406,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d64af901d0815d505751e65dcc5730374bb98b2e",
+    "size": 2689980,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bb24031fd08bd6678d459e4eaab108840ab5452a",
+    "size": 4493616,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ab9606b5f06b895d697e1e1f237f2aa95202b8b2",
+    "size": 4380738,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ccc3a35bf53ef0385f92393dca6a96539588ce23",
+    "size": 4541065,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f7424a7ed0e37cc1146d3635dbfb1e5f0ee9fae1",
+    "size": 2671050,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a076c7fe6f1e3096ac5a757418d3f9ff6180ec4f",
+    "size": 2655669,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2e70b9bf2d5a4ce2bd74b771ba3d3b94663748d9",
+    "size": 2661379,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "17c682d8f5537184da0037e2682c7897220c761f",
+    "size": 4558688,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a3f3d3bea9686c83636a3c1fb65701a0df95d2b3",
+    "size": 4499711,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d3f5ad3b72b8cb82dc20fcc82deb0c304c795a6c",
+    "size": 4375808,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7b2ceeb26d94988a3cfc48547402afc791cc911b",
+    "size": 4555326,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f138194ba0279050c30cea8be5fd7a14ff06f21e",
+    "size": 4460811,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ecedddbf54b93f44834005fe9a310c19ec1e3d61",
+    "size": 4528114,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "113a3dfa8e070befee47b7a83ea6750ff4102443",
+    "size": 4451455,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d64af901d0815d505751e65dcc5730374bb98b2e",
+    "size": 2689980,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2e70b9bf2d5a4ce2bd74b771ba3d3b94663748d9",
+    "size": 2661379,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bece043aff38d8b5bd0436ebd7733f06f8228dcc",
+    "size": 4535662,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9fdc64f4b5b7b9867ab02be64efc6fd065aa52a6",
+    "size": 4412768,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a3f3d3bea9686c83636a3c1fb65701a0df95d2b3",
+    "size": 4499711,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b19dd429185c33382665b2955a61fc4d6d653e4",
+    "size": 4543332,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5d938ad3b1c53e9a0f09cd49fef3179837f4822e",
+    "size": 4534457,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b30a747d14c2e44d6a4ef12a59f52db39c00bee",
+    "size": 4538878,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9af2b32ea1ce7a4f18cc90cffd5e9cb1140b447a",
+    "size": 4420508,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d3f5ad3b72b8cb82dc20fcc82deb0c304c795a6c",
+    "size": 4375808,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f7424a7ed0e37cc1146d3635dbfb1e5f0ee9fae1",
+    "size": 2671050,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "536ed6fbf20741272aee2170e77d11d1d9498591",
+    "size": 2660793,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d64af901d0815d505751e65dcc5730374bb98b2e",
+    "size": 2689980,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e23348de2ed71deddd02d6260178a718ba5a0262",
+    "size": 4537747,
+    "path": "general/ts_data/L1_T4_Sliding_Window_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "10292760b53a9b478167dc9ce8963833fcef548e",
+    "size": 33998,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "03d836a732762037824b872ea25f0e01bccbbcfe",
+    "size": 22196,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8ee50c9b6f840cefd5ae2befcdbfc0368b08e8eb",
+    "size": 8223,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3962dc0ef8a1c0f5af92fb1ffe012c23cac838c8",
+    "size": 18457,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "16a365b8bef3fbda122ca33592775287d1de730a",
+    "size": 9366,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7879112e2164ba431e35dabe2ba87796369e5480",
+    "size": 4241,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "592cf721087379d8904157728828013ddc5f1f10",
+    "size": 8559,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "17aac21cdd5f4ade6dbae975c890c1ceef03dabb",
+    "size": 45719,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1bd2e0da7fce5e9ed0acd94d648efc6ce45b0532",
+    "size": 39526,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d772108a433abe29ae611d27c47fe80569d23742",
+    "size": 30746,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "657ef3cfa95f5f490ca2bd8a295fc02f25743343",
+    "size": 34759,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "77fa2913063a400e7658466d7f67055898bc2d2e",
+    "size": 13132,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "999eec3dedba20bcaa11b4e56382db22f71957b3",
+    "size": 20039,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f4abe7c1ddd986ecb242a33342b8a5ab377882a6",
+    "size": 12580,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9c6647757f41aaabbfae64815a3d554eae497345",
+    "size": 21151,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "afe46238cfc2a55ae535770c5f75f4bf8e57c4b4",
+    "size": 25418,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3b1ad9555f8ed9a902950471ec2149f2f7e312c1",
+    "size": 13290,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1cdef1413ec3cd17122197f07c88a682f04906a3",
+    "size": 33632,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7ede881b3ea5ad2eb9466b6085d8d171af412710",
+    "size": 35763,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0f0494dc6a6db1b7907018990f011bbacbd24fcc",
+    "size": 40405,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "85d03c894e9b1cd17b09e06ab49c78b8974c89b6",
+    "size": 23168,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "086216508784e766d236ec3b09dcf0889426f0f6",
+    "size": 18784,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "586bf1f8ff7550baab60e65df17723c05ba13684",
+    "size": 28831,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "aaa8003907261c5502a20368340119021108708d",
+    "size": 13301,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d99b1a8008cc70e599e0ee2551d7b837902f1fb3",
+    "size": 13206,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "04a9b11eee8d6942d2aac67fe896f57e4dced2d2",
+    "size": 34917,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ef5a6b79193319f14704a221d391122641afe66b",
+    "size": 16037,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "03c4622cae8c2445564c7f76e2d45a1725cd870b",
+    "size": 3267,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "092a67b4266751a150157b7e21dbd6afc3997655",
+    "size": 7240,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f359a66623d9013e3baf9e2088b38b05e54ba380",
+    "size": 25670,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "faff61f89a0e3febc55295bfcdaebe8a1e04131b",
+    "size": 12493,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7e44ef3867748432f030bc61baaac5c14d8f382a",
+    "size": 5162,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a508cace1e79f7b3eb76bd9a17b5d965ae503c6f",
+    "size": 2952,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cda6597657c77b467b309e77a80b63da0ecc2d74",
+    "size": 13373,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "fa82e2ca019a47e4107293b2c72eda72c1fe59eb",
+    "size": 20756,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8d64106565c10a175f51eccc48cabe930057a931",
+    "size": 10594,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4ba331a560f2e0a4de1ee29d2e1d52d6e349b055",
+    "size": 8873,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3d45bca6dd73dc8ddedae118fa8cd14e2ded3025",
+    "size": 24035,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f60d4685fe3d17fd41c0c3bc261a61b13e773642",
+    "size": 15278,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b05ce0e31aa75cf1f4e2efa3bbe4e648b44f040c",
+    "size": 31967,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "01a6953308749330d4baad4824905414e6103987",
+    "size": 22641,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "44c3fb2ee87816262f4f484cc2768612ddea9fab",
+    "size": 19971,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d0ffae36672c241c2e307d37177f1242eb06de4b",
+    "size": 14789,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7a6d647e8ac39831b55a71790e0c6958724f345b",
+    "size": 17495,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e7223ef96e0ace5bf34d78af41489f8f78a2d91c",
+    "size": 31295,
+    "path": "general/ts_data/L2_T1_Shape_Identification_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6170cc01c44d66cfa862e24a137491d553ec6b78",
+    "size": 15998,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "40afdf4e1ae749a2875bc44b842878df321c2bd5",
+    "size": 11434,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "28059659746c852107f58800cf0534967c1fe8c2",
+    "size": 23795,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a4d1c8942bbbe4d83a9072a0d9081a79ecb05bb6",
+    "size": 13147,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3656c17404bb4b2cebdc15b5fcac937f29a5c098",
+    "size": 19546,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8a812d1129eab3020506f8bfdfa1ee9ceccd4ae3",
+    "size": 8619,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f48dea49abc0eeea122c3718fb4ce0eba43e1e35",
+    "size": 24223,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b343bb0ee06be88228f34db4792c000cc0b793c",
+    "size": 45002,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9cf29ba85af4dcb22f9491866335fc380c020294",
+    "size": 48638,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0a5b4aa8faf4293566c14f8684afd5cf5de26703",
+    "size": 19369,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1a90790ba191de0e913836da3dedabd12df8c6cd",
+    "size": 23694,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b5ab10a69607f67d995748ae1e0fa4ceefea47d0",
+    "size": 7994,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "acf60f87c000f144b7401434fd232b73033b533b",
+    "size": 14539,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "94aea8a231bb8b2849a1c5fd87065ec2267e8060",
+    "size": 13407,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "873fa6a282f1bb1ada8a889d81e4c228d9d920f2",
+    "size": 31890,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a0da3dcb2e02742a81ab48053c6644fb3f0a441c",
+    "size": 26155,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "241c9e29eba7a75df7f96b3a81a7e4b80e86413c",
+    "size": 9110,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8f2ccf27263c5eb76ace432e182722ed8c5eccc2",
+    "size": 35124,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cacab74f9d4cf719d63b2260b97e439db24d1121",
+    "size": 34182,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "da3c6c49cf21944adf8662e2ed1468e1c998bf04",
+    "size": 20947,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f5224a936dd58b3761a74d2262b30b057e5e88ac",
+    "size": 25149,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "022a231da1dea4b04194c1366d6aa91f7bc0295a",
+    "size": 19919,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9afd90f09ede281ef5342e7ca0daea7b2be486dc",
+    "size": 31749,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5c50ca786ddc79cd5a59ac8bea4719773cdeecbb",
+    "size": 17217,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9b1dc2728e294df2b81fab628afefaffc6ed13d7",
+    "size": 47809,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e4269e6ec37ef3bef71e939dbbc4dfd3816c660d",
+    "size": 20398,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c8adde5cc28fb4a1d9f5094f2764a502337d6110",
+    "size": 48103,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f4b98cb04224cdac11dcc26aa7aac2b3fb8a479c",
+    "size": 26349,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "59244042c19b548358bf9524fb7c70713058d1a6",
+    "size": 25139,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "226e3e2b8647101a736e782dcd02b235ded0cbe4",
+    "size": 29803,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2eeaa066303a2a232a966092338d19df1887841c",
+    "size": 4273,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f3d6889426a75958750a288b88005e61030c1d06",
+    "size": 26037,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "57b173a778f6774c4b4755fc4a563d3e2350bfc4",
+    "size": 24373,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6c5ca71d1ecee146e55a793bef5a62eaa34ded4b",
+    "size": 25551,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ed426d182151047b3e99a55e98296839db997a46",
+    "size": 30785,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "58dd1375d70fb142411726603710f00308ec752d",
+    "size": 31498,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "376a34129e8c455d2c44dd4a2e6ddfc5a9f29d98",
+    "size": 13046,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6d6421cda142e3f85a91ccc2261867d1b29341b2",
+    "size": 9159,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dd8099248cc030182bdefdceb8cec3fdd9d9b66d",
+    "size": 48406,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "35d3a3e242d7316887e6a4d42bb812ae11b630e4",
+    "size": 33263,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "52c6fcd62c3feaee365b5e5b0bd595820a7db941",
+    "size": 28402,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "64233f7378093f055b945493410f59815698c6af",
+    "size": 37395,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d11c9b3b896d8669c3ea92d51027a4137195afc9",
+    "size": 22930,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6edeada9294c92d955c99b88a20d73ace72c0dc2",
+    "size": 13868,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b9f81644aa78a412229a3f33b2515d0fff7e291d",
+    "size": 43787,
+    "path": "general/ts_data/L2_T2_Periodicity_Detection_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cdafeb1eaf6607482e20666f346706dccdaaab66",
+    "size": 17455,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "974057d06a750aa9d1dc6c3f0503176f01cc3d6e",
+    "size": 27306,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "171263967949d8d09ac3f0955db252c3fa46267b",
+    "size": 28074,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "513bf428bd3a57ae61b80b25ef8df048d30cf653",
+    "size": 30923,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5bd7d2b63466fc10ae26db9c5b004353d90c2cd5",
+    "size": 31370,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "846fc6fc4593d778fc225aaf3c6d4528ae74cf9f",
+    "size": 16240,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5c3cf51724e01743e278315b9a328a1a9fe35949",
+    "size": 23165,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b51812de4768354f1d4cebe03ff5f7de7c33651",
+    "size": 16113,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "425f0feefcb719c70d0c4e2b76beebbd0a1e6340",
+    "size": 27840,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3a99d9792b254a6e821c4e3f321b03ff6945fb08",
+    "size": 19751,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "151685acdacb24447a29df0f87068a855c396d9f",
+    "size": 10869,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cece1364c6357ce15fa46f32e6b59a2c19ec408c",
+    "size": 24199,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "bc410174900bdcccc1a78a132ae5e6968c68c337",
+    "size": 36421,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e8ee3030a4b282748d9c62adf58f596f77ce1e54",
+    "size": 45871,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3854157c4ee3fecdd779be387e482813108d6deb",
+    "size": 16940,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0a7d652608b8f038f6f647a6ea121248565b9c55",
+    "size": 31804,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "488fb0cdfeaf4973437f417023cf73759f9cb2d9",
+    "size": 4405,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d9a52a8c837e073a23b3e5d5c5ade94cd5a3f985",
+    "size": 15679,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5553012f3168acdc5b5225dcb782e38934abdb32",
+    "size": 27590,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f3871d3a8c0549321ad7a6e764c3b53b21337592",
+    "size": 37147,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "619bc8c70bd5a809cd45c97df88977a8d793df23",
+    "size": 17887,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "228092b7e56c0f30b2f48546f5032b15307129bd",
+    "size": 24216,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "10f487e0a22c78fd22670766c6c1313019a45cb5",
+    "size": 12908,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5f4be00380ef84508a8274b9c8fe6cc43f67241e",
+    "size": 36632,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "807f11afcb0afcb2ffd5bffdaba8f89b5d4f517a",
+    "size": 24647,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0d06a54569d7bbdf5c6054f09c2c520425cbfea1",
+    "size": 33947,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "25686adc39ef787367fe926d1b29ef36ad2f83be",
+    "size": 13998,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8e86d24aa4134513314545c9a883cc08dffd1d76",
+    "size": 25568,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ba6f5746fab1f144f4e42d0049242dec88645f4d",
+    "size": 27278,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cd572ab616907d0c80dc9b025ddc8f7cbc17adf4",
+    "size": 23427,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a7ad8f60417bbc1dd4dcea7bab2dc403108b8e33",
+    "size": 12363,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b4148b8c2ed51188bdf81919e126a782a031c0bb",
+    "size": 23598,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "445a8c34ef64c29be67301935cb406016ffde23f",
+    "size": 17632,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "483e0142e956ce7e277dcb35112c378489f7d658",
+    "size": 12560,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b6e4b5ba3a035879ec5ab9e99df5a0f1dd72eb0",
+    "size": 25636,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d91372f406e12375b2ed1581ab306b276b3570d8",
+    "size": 6265,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "24e54f8384a0ef934acb8dd2fe299e0c1a0680f6",
+    "size": 6360,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "33501717fd7f1e7f23520025c080a9b00ddcc6f9",
+    "size": 29729,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f16eafed93818f8f145c608797bf60659b37de0e",
+    "size": 15672,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "145960d561092a6cc97451d88bb48e635f81373a",
+    "size": 19561,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f9c64892183e6a5affcef1cdcafab39cffa85d1b",
+    "size": 31437,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "aecfb32757dec20462e6e46e36c490004d5693e1",
+    "size": 10104,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "55b8ff59a37660727d8ac6485578dfe2eb23e7e7",
+    "size": 29723,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e8ba069740b8b4a466776a1db2b9c79e573ebf54",
+    "size": 26283,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f79b73ccb3f4ac42c77f4cb4d92bc7c4c088a569",
+    "size": 13370,
+    "path": "general/ts_data/L2_T3_Subsequence_Matching_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "251f606cbfd2309b36d7b796a3d10bcdc0184951",
+    "size": 1340728,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a2f8224958ce6a3e9d96c9833ee4ffb024932734",
+    "size": 1363334,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9b6af7212650e632c8dae64006c1e39b14e18af2",
+    "size": 1345891,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "aeb0c07283af6ea659b80e9dd62d62086e2d8009",
+    "size": 1400583,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e49e5e746f963a0677264cb21fb205ccc68564d5",
+    "size": 1369720,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "afc691285d2072aefe6cf03a6edac661c58848f3",
+    "size": 1366392,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "205486c1da888b0bb6efc5c6ca646f0e1b662b49",
+    "size": 1366956,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "160f05f871de53047d166ad7bb063a30c29bece7",
+    "size": 1358398,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "568ae865d50db79d41c36bafec53cb728bbefae2",
+    "size": 1349770,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "eba7e57f7a3e6823803c3270fb77c1f4e58271ec",
+    "size": 1365328,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S0_00010.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4843650ae1920163ebd3adb058e8c3240836726a",
+    "size": 1338889,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9018820a6287fed845aea7e03bf2fe825eb7e23a",
+    "size": 1359099,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "70177b32822453a47533158245aa687e31a52b3f",
+    "size": 1385322,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d7e75a95921dba163bcf8be437a5e3da242cf9bd",
+    "size": 1380590,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "65ec987e2eac63fe8389bb2db517e8630a539bec",
+    "size": 1405242,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "14304dd5a96b7f29b9883b422790c2502b54cf17",
+    "size": 1391303,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "46e591f9cb926287daefd253195729e187cbf40e",
+    "size": 1305431,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a5ac104e595acaaadea2a857286f437ddaf45959",
+    "size": 1338110,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "79c913e5c74cfea5871a6f336d41b5ea88c4d2a1",
+    "size": 1372051,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "43590f6946aade9321a4735a585ae8b7216a161f",
+    "size": 1347991,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S1_00010.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9affb62d2bc937e0d819132fda2eda8023f7da2d",
+    "size": 1372012,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "098773de581cfd4d2ab37a1738a802c640d1d78b",
+    "size": 1364862,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9820a3af3526292107551297f1bcbeda2f633f6a",
+    "size": 1370683,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a9862d03d45f05b8f175646ee2ffd07e41c9a210",
+    "size": 1366433,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f5a96bc370699495f4dce2322f77981b4e94383f",
+    "size": 1348942,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0776fe6fa2d026251208ce7614d5b6fc27d0b7c2",
+    "size": 1377427,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2ecb958229c2a453b5f9c1af6d8cb7f9bead58f9",
+    "size": 1349989,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8ad5a15583f4413179740b0acf77b3fe524b2e78",
+    "size": 1391747,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "82bf735946a4927bd9e59c760e8f9b3da1337129",
+    "size": 1381850,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b3088b971eb35a61fe55e598c87fce1972a737fe",
+    "size": 1398488,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S2_00010.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2febc7fa2fb9201366d6fec56516bbc6dd2f0eb5",
+    "size": 1337501,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ad48336397be6a566414fc68c408269e814293e1",
+    "size": 1395800,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "05f25865804c0c886ba94b30d59f7f22735248ac",
+    "size": 1378527,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a84849650d32706b1e2fd575176240c234220109",
+    "size": 1391717,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "72fb6ad86bcdc276dbea94bfe0153d03e0d3355c",
+    "size": 1365769,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f26c5a7c050a24014c2e6c00269fa90809b89850",
+    "size": 1365924,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6e8c36b001bb4844250bb97cc9626397fcb9224b",
+    "size": 1338724,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "97e0c687ed0e216d7fd9f057ee55cdc382f2ce01",
+    "size": 1334720,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "78fa85a1ee9b273647c70df973f21507a726518e",
+    "size": 1349392,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a1fee8b24e35c23909ecb18973f59bdc6b46ae6f",
+    "size": 1349250,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S3_00010.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4010cfc6b4e4a0643782764c59cdeeebc70498cc",
+    "size": 1398494,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e077a00fb1b39e73f89bdc01a01a5007b455d7cc",
+    "size": 1368984,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a75bd431d7b5af84128eddb692bdb2387eabf8ae",
+    "size": 1333165,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b271ee0a95366b6283ff8d8d6428115b9ed48623",
+    "size": 1365157,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3598a279620d4279b8045e535f6cc1f3a9a9d116",
+    "size": 1338253,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "250c0a820b5f1fcee183b2b931b193beed21cade",
+    "size": 1361261,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ef5d8e62f00649b0c8df621876dd8ed3c4e548f6",
+    "size": 1349503,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "5b89e64592e489b2e6c75820f90865820cbfbad1",
+    "size": 1381628,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "293b8fbb1c8cccbb86ad9cbb32f34a3de84c440a",
+    "size": 1351207,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ca67d0da1790aa04d7fe88d0eccc971f71d9ccdd",
+    "size": 1367735,
+    "path": "general/ts_data/L3_T1_Composite_Trend_S4_00010.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c446b14f1a7f165d64b7eeb7dbafcb857008b5ff",
+    "size": 1593837,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "cef0baa7d7cea2f74357f79f2d79fd4d1e1b5389",
+    "size": 1620026,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0aa6ef5a49d3178d4cc5421c3301361042293241",
+    "size": 1627798,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "83b473cfb30d0a8b08a02078d26e529286bbe533",
+    "size": 1592762,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7fc9b7a18e51b3b67fe92748103c2c96c6d21b02",
+    "size": 1596825,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "16248d227be6c03077c38ef77f55623d9db74fbc",
+    "size": 1582587,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6b6a801b4d8ab88249554e83129e562ea327b7b4",
+    "size": 1656058,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dae76ec677d8eb930ad48066077fd93135e54990",
+    "size": 1669932,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "51ca219f202916a9e655f39e041fd86a7ece444c",
+    "size": 1611914,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "efb176a6829dc2255ca6dfb08e9616f0a44d9819",
+    "size": 1611747,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "87a4f585108bab580ba793624fb999d75df119ed",
+    "size": 1614908,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4421b77f978c649ea6fda41d8f56b3ab386d2d70",
+    "size": 1576145,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "58a5e0e287da48ae685a8195d705ba27c9bb2c52",
+    "size": 1605252,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b78bd139cc6559f826d83ff1c11d99392217c389",
+    "size": 1626084,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "726acd763aba474c8d74f65fc43f134bd833459c",
+    "size": 1643388,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c329eb3aecc7f933f86eda46a940ef1ab81cdf56",
+    "size": 1622137,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "294515db6c7b4bea9cf7b878ceb9cb89ed2d4049",
+    "size": 1598575,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d18fbb76954a1135fbeade9f147b2aea025c1d0e",
+    "size": 1610552,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6dbf6179b765452c63d48bf72d4a82eb437b958e",
+    "size": 1615057,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7ce0f53c3ee67973fbaf44c29083afdf454a4495",
+    "size": 1585644,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e462a7b8a65f559e1a088fdcba90c1a03b69ba32",
+    "size": 1587997,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f4c95bae82166942ddad8714d40fa674336f05c4",
+    "size": 1574724,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "aded502a739e7cbbe3457592bea07a30b8856a96",
+    "size": 1655655,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f5ca4c63906c0a9bd7d25054f3c6ed2979f0e965",
+    "size": 1565280,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7fb00e66d0bad50a8aa63e49fa8d6fe6fa9eab50",
+    "size": 1577770,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9602eb53d40f2a2ac2b961bfcaf3c63fce6a6ca9",
+    "size": 1644872,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1c5af0d5f3972e8aa6fc53f2a6ea1285590ed9b1",
+    "size": 1662123,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f428a2886096ca98748c01a6b36269a168511d74",
+    "size": 1643652,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c9b5efad31297bf35e047bc6cfa7e89e6aaad335",
+    "size": 1596260,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9496ff3c91349d13c361abe242593374ac24a451",
+    "size": 1600869,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8a28abaf56ec79639f4d94b476e2c67996dd43dc",
+    "size": 1622441,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8071cbcae70ee6fcdde3163f4df0ba9a6b276f81",
+    "size": 1593610,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "685855df94c42e2f39f1b8162fbf549087f6e9c5",
+    "size": 1568890,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "50406700c87e5d8b13c1d53228584d98b1d4cac9",
+    "size": 1655395,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3cbf4139ff41155d7d71e4555ca6c9eba7d59d15",
+    "size": 1612523,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4d433a960e9003d4c4b3b51c9ba575b5e9f0ce92",
+    "size": 1601921,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c991d5311d3af85e121f931066ea9a65c0034410",
+    "size": 1643566,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "745058e56f465372ef4fe2ab828db698a8b14ac0",
+    "size": 1621642,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "efe1054799753047ad747f24bdff42cc3c10fecc",
+    "size": 1621752,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "37d121a46514b61a2ec7c7db66292a69f59e56cf",
+    "size": 1616054,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a7df3b71ee38e2101b659bc629f250477f51267a",
+    "size": 1637255,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b88bdcd1e6a56be3423e631d81208101e5c3cabb",
+    "size": 1551583,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "effcac01e59c2b8b1a77799b2ac89013969749c2",
+    "size": 1575934,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ea4728a5acbcfa080eda54a885cce7acf8f50864",
+    "size": 1581136,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "711cca919cc34ad894b74a8202cb27eaac141f11",
+    "size": 1576658,
+    "path": "general/ts_data/L3_T2_Contextual_Anomaly_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7568800c8e764cfdd5e8faf3891fb6cc392d1ef4",
+    "size": 1585265,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "50cc3116cff56875ab15f7555f8f8ddf9d519e98",
+    "size": 1543231,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0722c66d123ee70e535e98ad4dc3930a9372abb7",
+    "size": 1600340,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "db2831d050e96460dfaccb55d3281b7204c142ef",
+    "size": 1524485,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "1f02afae8e69d2620f190c8f9ed37b0ed77ca5cc",
+    "size": 1533517,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "473085ed0e86a68caaa2c4f582564db0cc9dc888",
+    "size": 1564453,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b31ac85ae63825cab8f6e7ff0a6cbb9b6f098e32",
+    "size": 1589142,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7767c658cb165bfec08f7a7f34ee29054ac73f91",
+    "size": 1556281,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "af71f98ea7b2a0fc75be696e425e7276c3419bd0",
+    "size": 1556917,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "80608329a67cab95add145d0562451b25c4d5645",
+    "size": 1558855,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "83a73f67beb90aea240832909b77c90e1725b5d0",
+    "size": 1574409,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d45168c381b48d558df4ca45905ae42976c18ea1",
+    "size": 1584984,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2e226a01a66129430a3e685e72fc7fb6fef31d42",
+    "size": 1532193,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "91db157028f09728c125f82f66dd3bb13c8b0ed6",
+    "size": 1607385,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "19fea2bf32dcebef2e1eecf5c1e4fa6ae17b15a2",
+    "size": 1603854,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f63fdba74a6afe9b82e818581ed8365e2a37a68c",
+    "size": 1581952,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7e6b81b277d68c36287b153728ea8fc367da0f7e",
+    "size": 1579213,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c42d719fdc08594e2a327ce8c8c6fa7a44cffc5c",
+    "size": 1558975,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dff76704ec9465a6639b8abb302de6b59d6e048b",
+    "size": 1557811,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6c7aa5b9b1100b7fa762f8bb485fe4f75cfe0da0",
+    "size": 1563335,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e9a818b6da1540aaf9a3a1459804a459be260d0b",
+    "size": 1535368,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "73494ab97094ff78cacaae0e9361e0c8e36a85f2",
+    "size": 1592618,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "085167902cda6c96c56fe54ad08fd961bfcc9bd9",
+    "size": 1558646,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2fe7735699b30be506a4e1e23ee9f050bbb837e1",
+    "size": 1573323,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "95a51312ce67d299b1fcbcc8dfa1a5842c6141ba",
+    "size": 1580592,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0c598d269e40f131f0ff5e9ed70fe995dc8e7748",
+    "size": 1541432,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3f9ddd7da1443917ce9aaa227cdbfed32062e1ee",
+    "size": 1524820,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f3069165d282c4e7dd5477856eed7b4ffd7fbe68",
+    "size": 1583490,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "fc4e13ba1a23788c7df69897202074f0bf4c94a5",
+    "size": 1552540,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "81c7ac86e4247ce07d4332bc49fdbede728cba6c",
+    "size": 1553221,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dd93cd56af341cedb87b717469e47f77002b828b",
+    "size": 1584867,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b12311ab06b1edcc48f82fbacba938bc9b5ebd71",
+    "size": 1553611,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ca893e041e2f836813e13f57d7907ca701a5636a",
+    "size": 1554920,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8f280ff07a4c64b39b3c537f89bb8bf7a56151a2",
+    "size": 1519229,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6bfadbd8b23199f79415e7ba0054ef926ac9da53",
+    "size": 1589892,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "887e371eeb0432dce088c7915c1029c5c3df8363",
+    "size": 1571875,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "0b1e0786f6744713d4a3eb9ddb8e9e5c8e774bc7",
+    "size": 1581715,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "712b4386e5fd0fa8c51715097aa78ce6be6e982a",
+    "size": 1589698,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f790b3e978de4f169835ae2590a0fa1958249e32",
+    "size": 1582859,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "87491bec1932096728ce8ced26121912b5ba8404",
+    "size": 1583341,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3de285293a737e724554641fbddf9e5f86432a81",
+    "size": 1603972,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ff2fbe0449a6d39f251b790f7387177dca3c42ca",
+    "size": 1561007,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "3e0b951a5daeee9ba516555c254005b5a28ce1e9",
+    "size": 1576417,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "8e45b69a0342e94c0871d07bf5dad6104fb82b01",
+    "size": 1560121,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "13ac394ea2430a46446f6411bf82f09d823a3cc9",
+    "size": 1595229,
+    "path": "general/ts_data/L3_T3_Causal_Anomaly_S4_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2510c03576a35354a56aa703d0a6ce4c52bdf866",
+    "size": 952748,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e83c364c21c09f8cb0c12320bcc66534d6a14c16",
+    "size": 941894,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ee81ffaaa4a294018be89af2917878d8b7f4ffbe",
+    "size": 947939,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a2837b11540ddbcb635efbd7c2736a08f7234c68",
+    "size": 950470,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ad1174630b0fd81e27bf672f23354fcc2e634312",
+    "size": 944235,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "681f4cb844e0180fb734f5ef34175609fecd6f06",
+    "size": 909173,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e3f8a8353c8dd313edf221e5213ce823539cfc7f",
+    "size": 1339470,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6965948bd07c933eb53bc02d59783ab64a65e1df",
+    "size": 655757,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "336582f14c1935aa66c98d44d4df0ed666ee46c0",
+    "size": 1352736,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S0_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e23402b0b018a6f07a4632bade8c592bcf334270",
+    "size": 947218,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7af6f252caebbd547be0a93280589d6e6ee9730e",
+    "size": 937352,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "c88ece8c8850871a7c464ab0681b9c4427582da2",
+    "size": 935674,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "fcbd8903536feb80b82fee292ede544b1d4d2858",
+    "size": 943257,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "eb47081ec4f1187ca64cedb2847b63079c0f5dae",
+    "size": 912919,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "933bd42f9f9d3173dda11707bbe0d1c7e9d78ea7",
+    "size": 648961,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4739a63673a0e2227f834f9906eded1c13561733",
+    "size": 942631,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2aa1a09b1a2b8a8893c72f671857bc09f2f20510",
+    "size": 939225,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d7e03eb7975d85965fc81b7ebc98ff84e1e6dd4d",
+    "size": 949967,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S1_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "6c2b6a5979525b11bcba6ccc08a42ce5c6890be1",
+    "size": 948710,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7cc5e3ccefce93aa886217ed070ff209d8fd50f4",
+    "size": 947437,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7caa08347fe7ec00686bec27779b2784d5b839b7",
+    "size": 911086,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "70a6cad1d191a0af194351bb790bae4adb929a12",
+    "size": 925293,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "68c84a7a74a06d9b3813bef7eb84fa9595673aed",
+    "size": 926883,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "d3cbe3d0b9dcd01032415afbb2902c9acd9244de",
+    "size": 946019,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "a1d67710e07d4166db1995344a66a338fda4f458",
+    "size": 926376,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "49c51f38cf2a578a1e4b7040904bc18b576fc341",
+    "size": 918789,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "7523ca9f097a22195ec17bd33a2798043efcf493",
+    "size": 950409,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S2_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "05e3be5d1d882b7ac4d00d6ef883da5ed6446366",
+    "size": 946062,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "f51c62ea5891701feb8d943744cc1c1946e0b9ab",
+    "size": 941289,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "eda3677e804b443586bd46f36943579f89fc415c",
+    "size": 947610,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "89e52adb09e46fed28d85a3672218a3786f1f5cb",
+    "size": 946379,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "43a8d3f21c8446298106f83326c010df019c8afc",
+    "size": 1341578,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "991c9b4a1cd60247952a20f62698299fec161d71",
+    "size": 683189,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dcac879ae59f6afb3b85aef8ed066b0ed47a9f82",
+    "size": 937403,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "52cfbf3fc92ebd57f168350a4a73a68fe6deaaec",
+    "size": 948176,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ae3ab31857d944166e2ef44d62e67c959f4c7990",
+    "size": 915983,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S3_00009.csv"
+  },
+  {
+    "type": "file",
+    "oid": "72633a4ebd63b6ea4bf667b8540a160e77e72320",
+    "size": 942426,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00001.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4ba803941daab1c695ffb7601bb5954e8212360c",
+    "size": 946303,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00002.csv"
+  },
+  {
+    "type": "file",
+    "oid": "38c58dba985b7b05fa5960ed35c05c82b871a312",
+    "size": 949737,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00003.csv"
+  },
+  {
+    "type": "file",
+    "oid": "9b711804ff8770ec95be744a913e081510f2408f",
+    "size": 932553,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00004.csv"
+  },
+  {
+    "type": "file",
+    "oid": "4b2d459b6df37156c118a0539043752954fce712",
+    "size": 938002,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00005.csv"
+  },
+  {
+    "type": "file",
+    "oid": "ee72b6a2796c462715484fec98032727cd3f54d9",
+    "size": 1344751,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00006.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dc09369c6e12e8820aea7013d1a28eba3c9b7d44",
+    "size": 944363,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00007.csv"
+  },
+  {
+    "type": "file",
+    "oid": "dad102c7561edfddcb19a052ba5814a7090a1e44",
+    "size": 946754,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00008.csv"
+  },
+  {
+    "type": "file",
+    "oid": "e6a8cdf83ba23c9da4d2b1de13103702bdff79aa",
+    "size": 915458,
+    "path": "general/ts_data/L4_T1_Insight_Synthesis_S4_00009.csv"
+  }
+]

@@ -29,7 +29,7 @@ class EncoderProbe(nn.Module):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--root", type=Path, default=Path("results/phase2"))
+    parser.add_argument("--root", type=Path, default=Path("results"))
     args = parser.parse_args()
     torch.set_num_threads(4)
     device = "cuda" if torch.cuda.is_available() else "cpu"

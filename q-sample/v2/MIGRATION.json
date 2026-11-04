@@ -1,0 +1,15 @@
+{
+  "from_commit": "19a46bc22495427711fb2c9c61422f11d9054fcf",
+  "versions": {
+    "v1": "第一阶段；独立恢复 d0918a9 的模型与测试",
+    "v2": "第二阶段；独立保留多类别模型与测试"
+  },
+  "path_mapping": {
+    "q-sample/results/phase2/": "q-sample/v2/results/",
+    "q-sample/results/": "q-sample/v1/results/"
+  },
+  "historical_metadata": "原始配置、日志与源码哈希保持原文；其中 results/phase2 路径按迁移映射解释",
+  "verified_result_files": 1078,
+  "all_result_bytes_preserved": true,
+  "changes": "目录和入口路径调整；未重新训练或修改实验指标"
+}

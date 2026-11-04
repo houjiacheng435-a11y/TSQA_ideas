@@ -1,6 +1,6 @@
-# Q-Sample 第二阶段：架构防捷径与 Query-Adaptive 能力验证
+# Q-Sample 第二版（v2）：架构防捷径与 Query-Adaptive 能力验证
 
-实验日期：2026-11-03。第一阶段原报告已命名为[第一版](REPORT_V1.md)，原实验目录与结果保留。本阶段未接入自然语言编码器或 LLM，未加入辅助重建 Loss。
+实验日期：2026-11-03。第一阶段原报告已命名为[第一版](../v1/REPORT.md)，原实验目录与结果保留。本阶段未接入自然语言编码器或 LLM，未加入辅助重建 Loss。
 
 ## 结论
 
@@ -22,7 +22,7 @@
 - 独立 `signal_time` 对照通过时间投影显式读取坐标，结果单独报告。
 - 本轮仅用答案 BCE：没有事件位置监督、密度监督或重建损失。事件元数据只进入评估与标注清楚的 Oracle/诊断程序。
 
-16 项测试覆盖原有采样梯度和数值稳定性，以及配对输入、标签平衡、反事实直方图保持、事件不重叠、强干扰、Signal-Only 隔离、Query Blind 网格不变、多类 QA 梯度、已知选择性指标和主模型忽略 Oracle 元数据。记录见 [data-and-architecture-validation.json](results/phase2/data-and-architecture-validation.json)。新增注释与文档字符串使用中文。
+16 项测试覆盖原有采样梯度和数值稳定性，以及配对输入、标签平衡、反事实直方图保持、事件不重叠、强干扰、Signal-Only 隔离、Query Blind 网格不变、多类 QA 梯度、已知选择性指标和主模型忽略 Oracle 元数据。记录见 [data-and-architecture-validation.json](results/data-and-architecture-validation.json)。新增注释与文档字符串使用中文。
 
 ## 2. 数据生成和 Query 定义
 
@@ -55,7 +55,7 @@
 
 开发阶段只使用模型种子 101、评估种子族 900001，与完整测试分开。宽度 384 时，Oracle 在 32 Tokens 下可学习，但 Adaptive 在 32 Tokens、粗分辨率 256/1024 上接近随机，延长到 1200 步仍失败。宽度只调整一次至 1024，使 512 Tokens 参考条件能看到更多形态细节；开发集 Adaptive 在 512 Tokens 下的无额外干扰准确率约为 82%，64 Tokens 下仍接近随机。
 
-随后固定完整矩阵，未根据完整测试继续调整数据、模型或训练长度。全部 7 项开发运行见 [development_runs.json](results/phase2/development_runs.json) 及 `results/phase2/smoke-*`，包含失败曲线和图像。宽度调整意味着本轮不是第一阶段宽度 50 的同一任务，也不能宣称已经解决微弱事件。
+随后固定完整矩阵，未根据完整测试继续调整数据、模型或训练长度。全部 7 项开发运行见 [development_runs.json](results/development_runs.json) 及 `results/smoke-*`，包含失败曲线和图像。宽度调整意味着本轮不是第一阶段宽度 50 的同一任务，也不能宣称已经解决微弱事件。
 
 ## 3. 冻结实验矩阵与公平性
 
@@ -77,11 +77,11 @@ Oracle 正负例都使用对应候选窗口，负例采样破碎形态，不通�
 
 七种方法 × 三种预算 × 三个种子为 63 项，再加 `signal_time` 的 32 Tokens 三种子和粗分辨率 1024 的 Adaptive 32 Tokens 三种子，共 69 项。适用配置的答案头、初始化、训练数据流和超参数尽量一致；时间编码诊断另有投影参数，不视为参数量完全匹配的主对照。
 
-所有方法/预算/种子的评估输入 SHA256 相同，每类标签平衡，运行源码哈希与冻结清单一致。见 [frozen_manifest.json](results/phase2/main/frozen_manifest.json) 和 [validation.json](results/phase2/analysis/validation.json)。± 是三个模型种子间的样本标准差，不是置信区间；CUDA 运算未要求逐位确定性。
+所有方法/预算/种子的评估输入 SHA256 相同，每类标签平衡，运行源码哈希与冻结清单一致。见 [frozen_manifest.json](results/main/frozen_manifest.json) 和 [validation.json](results/analysis/validation.json)。± 是三个模型种子间的样本标准差，不是置信区间；CUDA 运算未要求逐位确定性。
 
 ## 4. 全部主对照准确率
 
-单位为百分比。完整逐种子、逐难度指标见 [all_runs.csv](results/phase2/analysis/all_runs.csv)，聚合值及三个原始种子值见 [aggregate.json](results/phase2/analysis/aggregate.json)。下面未选择最佳运行。
+单位为百分比。完整逐种子、逐难度指标见 [all_runs.csv](results/analysis/all_runs.csv)，聚合值及三个原始种子值见 [aggregate.json](results/analysis/aggregate.json)。下面未选择最佳运行。
 
 | Tokens | 方法 | 无额外干扰 Acc | 少量干扰 Acc | 强干扰 Acc |
 |---:|---|---:|---:|---:|
@@ -107,7 +107,7 @@ Oracle 正负例都使用对应候选窗口，负例采样破碎形态，不通�
 | 32 | no_blur | 50.13 ± 0.45 | 50.65 ± 0.11 | 49.67 ± 1.58 |
 | 32 | oracle | 100.00 ± 0.00 | 99.54 ± 0.30 | 99.93 ± 0.11 |
 
-![所有预算和难度的准确率](results/phase2/analysis/accuracy.png)
+![所有预算和难度的准确率](results/analysis/accuracy.png)
 
 Adaptive 在 32 Tokens 强干扰下比 Query Blind 高约 2.02 个百分点，但两者均接近 50% 先验；目标命中率反而更低，不能据此声称条件选择成功。64 Tokens 的排名不一致。512 Tokens 下，无额外干扰时 Adaptive 为 71.29%，Query Blind 为 81.18%；强干扰下 Adaptive 为 58.46%，公平的 Uniform Blur 为 76.17%。
 
@@ -152,13 +152,13 @@ Adaptive 在 32 Tokens 强干扰下比 Query Blind 高约 2.02 个百分点，�
 
 32 Tokens 的点占比选择性仅为 +0.014 个百分点，密度质量选择性为约 +0.000049 ± 0.000715 个百分点，几乎为零。64 Tokens 的点占比选择性为 -0.030 个百分点；512 Tokens 为 +0.030 个百分点，幅度仍小，且没有带来优于公平 Uniform 的性能。
 
-![命中率、准确率与选择性](results/phase2/analysis/evidence-and-selectivity.png)
+![命中率、准确率与选择性](results/analysis/evidence-and-selectivity.png)
 
 下图固定使用强干扰测试流的第一条信号、seed7，不根据模型表现选样。Adaptive 的四个 Query 密度虽略有变化，但高峰主要仍落在同一批强干扰上；并没有随绿色目标窗口系统转移。
 
-![同一信号的四个 Query、密度和采样点](results/phase2/main/adaptive-t32-c256-s7/queries-strong.png)
+![同一信号的四个 Query、密度和采样点](results/main/adaptive-t32-c256-s7/queries-strong.png)
 
-![同一信号的配对占比矩阵](results/phase2/analysis/paired-query-occupancy.png)
+![同一信号的配对占比矩阵](results/analysis/paired-query-occupancy.png)
 
 ## 6. 架构捷径与干预
 
@@ -179,7 +179,7 @@ Adaptive 在 32 Tokens 强干扰下比 Query Blind 高约 2.02 个百分点，�
 
 对正例保留原网格、仅清除目标窗口内采样值时：Adaptive 512 Tokens 在无额外干扰下的 Yes 率从 63.41% 降至 4.95%，强干扰下从 59.11% 降至 44.27%；Uniform Blur 强干扰下从 65.76% 降至 6.77%。这些结果支持部分高预算模型使用了真实波形，但该干预也是分布外操作，且移除目标后语义标签已改变；这里报告的是 Yes 率，不是拿原标签计算的“干预准确率”。
 
-相反，在 32/64 Tokens 下，清除目标对 Yes 率影响很小，结合正常准确率约 50%，更符合未学会有效利用目标证据。第一批错误样本按测试序列顺序保存，未筛选最戏剧化案例，见 [failure_cases.json](results/phase2/analysis/failure_cases.json)；全部预测保存在各运行目录的 `predictions.json`。
+相反，在 32/64 Tokens 下，清除目标对 Yes 率影响很小，结合正常准确率约 50%，更符合未学会有效利用目标证据。第一批错误样本按测试序列顺序保存，未筛选最戏剧化案例，见 [failure_cases.json](results/analysis/failure_cases.json)；全部预测保存在各运行目录的 `predictions.json`。
 
 ## 7. 当前粗特征是否已经丢掉答案？
 
@@ -196,7 +196,7 @@ Adaptive 在 32 Tokens 强干扰下比 Query Blind 高约 2.02 个百分点，�
 
 这没有单独隔离逆 CDF 优化、稀疏梯度、时间形变后的形态失真或答案头训练各自的贡献。Signal-Only 下答案头不知真实采样间隔，也可能增加非均匀形态解码难度，不能只归咎于一个数学算子。
 
-![粗特征诊断训练曲线](results/phase2/analysis/encoder-probes.png)
+![粗特征诊断训练曲线](results/analysis/encoder-probes.png)
 
 ## 8. 小预算是否真的造成必须按 Query 选择的竞争？
 
@@ -204,7 +204,7 @@ Adaptive 在 32 Tokens 强干扰下比 Query Blind 高约 2.02 个百分点，�
 
 但这些事实**不足以证明查询盲策略不可能覆盖所有相关事件**。因此，在查看主矩阵之后增加了一个明确标记为事后诊断的对照：给查询盲 Oracle 同样的四个候选位置，将 Token 平均分到四个窗口，按真实时间排序；同一信号所有 Query 使用完全相同网格，答案头仍只读采样值和 Query。32 Tokens 即每窗口 8 点。它不读取标签，并且正负例的候选位置同样存在。
 
-此补充诊断不改变数据、测试集、主模型或冻结矩阵，也不用于选择新的超参数。规范见 [specification.json](results/phase2/budget-probes/specification.json)。
+此补充诊断不改变数据、测试集、主模型或冻结矩阵，也不用于选择新的超参数。规范见 [specification.json](results/budget-probes/specification.json)。
 
 | Tokens | 查询盲窗口 Oracle：无额外干扰 | 少量干扰 | 强干扰 | 查询感知窗口 Oracle：强干扰 |
 |---:|---:|---:|---:|---:|
@@ -212,7 +212,7 @@ Adaptive 在 32 Tokens 强干扰下比 Query Blind 高约 2.02 个百分点，�
 | 64 | 94.01 ± 2.26 | 93.75 ± 0.85 | 95.38 ± 0.60 | 99.87 ± 0.23 |
 | 512 | 94.34 ± 1.17 | 93.29 ± 1.52 | 93.95 ± 1.37 | 99.93 ± 0.11 |
 
-![查询盲窗口 Oracle 的共享网格](results/phase2/analysis/blind-oracle-grids.png)
+![查询盲窗口 Oracle 的共享网格](results/analysis/blind-oracle-grids.png)
 
 32 Tokens 查询盲窗口 Oracle 达到 94.53%，明显高于主学习方法；与查询感知 Oracle 的差距约 5.4 个百分点。这个差距没有在预算从 512 降至 32 时明显扩大，且两个 Oracle 的上下文组织也不同，不能把差距全归因于 Token 信息容量。
 
@@ -259,19 +259,21 @@ python summarize_phase2.py
 已有结果禁止覆盖。`run_phase2.py --resume` 仅接受完全相同的冻结清单。保留已归档结果并完整复跑时使用新的目录：
 
 ```bash
-python run_phase2.py --output results/phase2/reproduce/main
-python phase2_probe.py --root results/phase2/reproduce
-python phase2_budget_probe.py --root results/phase2/reproduce
-python summarize_phase2.py --root results/phase2/reproduce
+python run_phase2.py --output results/reproduce/main
+python phase2_probe.py --root results/reproduce
+python phase2_budget_probe.py --root results/reproduce
+python summarize_phase2.py --root results/reproduce
 ```
 
-与运行记录哈希匹配的开发版、主矩阵和诊断源码另存于 [source/](results/phase2/source/README.md)。实验后仅为运行程序补充输出路径和避免覆盖的保护；数值模型与数据规则没有随结果修改。
+与运行记录哈希匹配的开发版、主矩阵和诊断源码另存于 [source/](results/source/README.md)。实验后仅为运行程序补充输出路径和避免覆盖的保护；数值模型与数据规则没有随结果修改。
 
-- `results/phase2/main/`：69 项配置、完整逐步训练曲线、最终指标、四 Query 密度/坐标图、预测和本地 checkpoint；每个难度固定画第一条信号。
-- `results/phase2/probes/`：6 项粗特征诊断；`budget-probes/`：9 项补充预算诊断。
-- `results/phase2/smoke-*`：7 项开发运行，包括失败与一次宽度调整。
-- `results/phase2/analysis/`：207 行主矩阵指标、逐种子差值、聚合 JSON、表格、可视化和失败案例。
+- `results/main/`：69 项配置、完整逐步训练曲线、最终指标、四 Query 密度/坐标图、预测和本地 checkpoint；每个难度固定画第一条信号。
+- `results/probes/`：6 项粗特征诊断；`budget-probes/`：9 项补充预算诊断。
+- `results/smoke-*`：7 项开发运行，包括失败与一次宽度调整。
+- `results/analysis/`：207 行主矩阵指标、逐种子差值、聚合 JSON、表格、可视化和失败案例。
 
 本机为单张 RTX 4090 D、PyTorch 2.6.0+cu124。69 项矩阵含评估和绘图总耗时约 763 秒；不包括开发与额外诊断。主 checkpoint 保存在各目录的 `model.pt`，按仓库已有规则留在本地，配置、源码、JSON 与图表可在 GitHub 审查。
 
 限制：只有一个人工生成的数据家族、四个固定形态和固定事件宽度；目标仍是高信噪比，没有真实微弱异常、事件序数、持续时间或自然语言推理。负例匹配幅值直方图并没有匹配所有时间统计，不能宣称排除了所有数据捷径。训练难度混合、测试难度分层，600 步及本模型结构的失败也不能证明所有 Q-Sample 变体都不可行。所有结论限于这里实际执行的设置。
+
+版本归档说明：本报告及结果独立位于 `v2/`。原始记录的 `results/phase2/` 对应当前 `v2/results/`，迁移映射见 [MIGRATION.json](MIGRATION.json)。

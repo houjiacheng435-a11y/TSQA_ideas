@@ -271,7 +271,7 @@ def main():
     p.add_argument("--lr", type=float, default=.001)
     p.add_argument("--log-every", type=int, default=200)
     p.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
-    p.add_argument("--output", type=Path, default=Path("results/phase2/main"))
+    p.add_argument("--output", type=Path, default=Path("results/main"))
     args = p.parse_args()
     if min(args.steps, args.batch_size, args.eval_sequences, args.tokens, args.coarse) < 1 or args.batch_size % 2 or args.eval_sequences % 2:
         p.error("步数和预算须为正数，批次与评估序列数须为偶数")

@@ -1,0 +1,3612 @@
+[
+  {
+    "id": "L3_T1_Composite_Trend_C1_00095",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel OT during 2017 that exhibit the trend pattern 'rapid fall, then fall, then steady stable', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-02-18', '2017-07-31', '2017-01-17', '2017-08-13', '2017-01-24', '2017-08-21']",
+    "ground_truth": [
+      "2017-02-18",
+      "2017-07-31",
+      "2017-01-17",
+      "2017-08-13",
+      "2017-01-24",
+      "2017-08-21"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "OT",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00095.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00076",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 67 during 2022 that exhibit the trend pattern 'steady stable, then slow fall, then fall, then rapid fall', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-11-28', '2022-03-28', '2022-03-24', '2022-06-01', '2022-07-19', '2022-03-20']",
+    "ground_truth": [
+      "2022-11-28",
+      "2022-03-28",
+      "2022-03-24",
+      "2022-06-01",
+      "2022-07-19",
+      "2022-03-20"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "67",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00076.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00043",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 625 during 2019 that exhibit the trend pattern 'fluctuating stable, then slow rise', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-03-01', '2019-12-20', '2019-10-16', '2019-01-07', '2019-10-26', '2019-05-05']",
+    "ground_truth": [
+      "2019-03-01",
+      "2019-12-20",
+      "2019-10-16",
+      "2019-01-07",
+      "2019-10-26",
+      "2019-05-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "625",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00043.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00009",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 647 during 2022 that exhibit the trend pattern 'rise, then rapid rise, then slow fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-06-28', '2022-10-02', '2022-08-01', '2022-02-23']",
+    "ground_truth": [
+      "2022-06-28",
+      "2022-10-02",
+      "2022-08-01",
+      "2022-02-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "647",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00009.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00021",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 589 during 2021 that exhibit the trend pattern 'rise, then slow fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-10-08', '2021-04-06', '2021-12-29', '2021-03-10']",
+    "ground_truth": [
+      "2021-10-08",
+      "2021-04-06",
+      "2021-12-29",
+      "2021-03-10"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "589",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00021.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00010",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 578 during 2021 that exhibit the trend pattern 'slow fall, then fall, then steady stable', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-03-08', '2021-04-28', '2021-02-09', '2021-02-17', '2021-06-21', '2021-04-13']",
+    "ground_truth": [
+      "2021-03-08",
+      "2021-04-28",
+      "2021-02-09",
+      "2021-02-17",
+      "2021-06-21",
+      "2021-04-13"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "578",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00010.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00092",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 895 during 2021 that exhibit the trend pattern 'fluctuating stable, then slow fall, then steady stable, then slow fall', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-05-18', '2021-01-14', '2021-09-15', '2021-04-08', '2021-08-26', '2021-12-08']",
+    "ground_truth": [
+      "2021-05-18",
+      "2021-01-14",
+      "2021-09-15",
+      "2021-04-08",
+      "2021-08-26",
+      "2021-12-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "895",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00092.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00077",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 147 during 2021 that exhibit the trend pattern 'fall, then fluctuating stable, then steady stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-11-27', '2021-03-04', '2021-10-17', '2021-01-17']",
+    "ground_truth": [
+      "2021-11-27",
+      "2021-03-04",
+      "2021-10-17",
+      "2021-01-17"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "147",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00077.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00006",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 495 during 2023 that exhibit the trend pattern 'fall, then rapid fall, then steady stable', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-05-07', '2023-09-04', '2023-04-25', '2023-09-06']",
+    "ground_truth": [
+      "2023-05-07",
+      "2023-09-04",
+      "2023-04-25",
+      "2023-09-06"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "495",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00006.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00089",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 813 during 2019 that exhibit the trend pattern 'fluctuating stable, then fall', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-03-03', '2019-05-06', '2019-09-29', '2019-02-13']",
+    "ground_truth": [
+      "2019-03-03",
+      "2019-05-06",
+      "2019-09-29",
+      "2019-02-13"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "813",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00089.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00069",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 754 during 2020 that exhibit the trend pattern 'rapid rise, then fluctuating stable, then slow fall, then rapid fall', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-01-14', '2020-05-11', '2020-08-20', '2020-06-06', '2020-12-28', '2020-11-19']",
+    "ground_truth": [
+      "2020-01-14",
+      "2020-05-11",
+      "2020-08-20",
+      "2020-06-06",
+      "2020-12-28",
+      "2020-11-19"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "754",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00069.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00058",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 441 during 2023 that exhibit the trend pattern 'slow rise, then steady stable, then slow fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-12-07', '2023-03-07', '2023-01-27', '2023-06-02']",
+    "ground_truth": [
+      "2023-12-07",
+      "2023-03-07",
+      "2023-01-27",
+      "2023-06-02"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "441",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00058.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00062",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 627 during 2020 that exhibit the trend pattern 'fluctuating stable, then slow rise, then steady stable, then rise', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-10', '2020-04-13', '2020-09-13', '2020-03-17']",
+    "ground_truth": [
+      "2020-03-10",
+      "2020-04-13",
+      "2020-09-13",
+      "2020-03-17"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "627",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00062.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00056",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 237 during 2022 that exhibit the trend pattern 'rapid rise, then slow rise, then steady stable, then fall', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-11-08', '2022-05-31', '2022-08-10', '2022-04-26']",
+    "ground_truth": [
+      "2022-11-08",
+      "2022-05-31",
+      "2022-08-10",
+      "2022-04-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "237",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00056.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00088",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 754 during 2020 that exhibit the trend pattern 'rise, then rapid rise, then steady stable', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-12-04', '2020-02-14', '2020-10-18', '2020-11-29']",
+    "ground_truth": [
+      "2020-12-04",
+      "2020-02-14",
+      "2020-10-18",
+      "2020-11-29"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "754",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00088.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00039",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 580 during 2021 that exhibit the trend pattern 'slow fall, then rapid rise', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-12-10', '2021-03-08', '2021-09-14', '2021-06-27']",
+    "ground_truth": [
+      "2021-12-10",
+      "2021-03-08",
+      "2021-09-14",
+      "2021-06-27"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "580",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00039.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00044",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 762 during 2023 that exhibit the trend pattern 'fluctuating stable, then rapid rise, then rapid fall, then fall', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-02-08', '2023-04-13', '2023-10-05', '2023-03-18']",
+    "ground_truth": [
+      "2023-02-08",
+      "2023-04-13",
+      "2023-10-05",
+      "2023-03-18"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "762",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00044.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00086",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 626 during 2019 that exhibit the trend pattern 'rapid rise, then fluctuating stable, then rapid fall, then steady stable', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-08-07', '2019-05-28', '2019-09-20', '2019-10-01']",
+    "ground_truth": [
+      "2019-08-07",
+      "2019-05-28",
+      "2019-09-20",
+      "2019-10-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "626",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00086.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00003",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 147 during 2019 that exhibit the trend pattern 'rise, then rapid rise, then fluctuating stable, then steady stable', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-07-02', '2019-01-03', '2019-05-05', '2019-08-01']",
+    "ground_truth": [
+      "2019-07-02",
+      "2019-01-03",
+      "2019-05-05",
+      "2019-08-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "147",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00003.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00057",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 146 during 2023 that exhibit the trend pattern 'rise, then fluctuating stable, then slow fall, then slow rise', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-06-01', '2023-05-13', '2023-05-07', '2023-08-22', '2023-08-27', '2023-11-24']",
+    "ground_truth": [
+      "2023-06-01",
+      "2023-05-13",
+      "2023-05-07",
+      "2023-08-22",
+      "2023-08-27",
+      "2023-11-24"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "146",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00057.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00076",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 146 during 2021 that exhibit the trend pattern 'rapid fall, then fluctuating stable, then steady stable', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-11-02', '2021-05-12', '2021-12-06', '2021-12-24']",
+    "ground_truth": [
+      "2021-11-02",
+      "2021-05-12",
+      "2021-12-06",
+      "2021-12-24"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "146",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00076.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00028",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 865 during 2023 that exhibit the trend pattern 'fall, then steady stable, then rapid rise, then steady stable', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-03-18', '2023-03-24', '2023-06-12', '2023-10-22']",
+    "ground_truth": [
+      "2023-03-18",
+      "2023-03-24",
+      "2023-06-12",
+      "2023-10-22"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "865",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00028.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00093",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel HULL during 2017 that exhibit the trend pattern 'slow fall, then fluctuating stable, then slow fall', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-05-18', '2017-03-26', '2017-07-22', '2017-06-22', '2017-09-07', '2017-09-11']",
+    "ground_truth": [
+      "2017-05-18",
+      "2017-03-26",
+      "2017-07-22",
+      "2017-06-22",
+      "2017-09-07",
+      "2017-09-11"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "HULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00093.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00020",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LULL during 2017 that exhibit the trend pattern 'steady stable, then rise, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-05-25', '2017-05-05', '2017-12-23', '2017-03-21', '2017-11-16', '2017-05-12']",
+    "ground_truth": [
+      "2017-05-25",
+      "2017-05-05",
+      "2017-12-23",
+      "2017-03-21",
+      "2017-11-16",
+      "2017-05-12"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00020.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00017",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel HUFL during 2017 that exhibit the trend pattern 'slow fall, then rapid rise, then slow fall', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-05-19', '2017-07-13', '2017-04-19', '2017-04-24', '2017-03-07', '2017-10-01']",
+    "ground_truth": [
+      "2017-05-19",
+      "2017-07-13",
+      "2017-04-19",
+      "2017-04-24",
+      "2017-03-07",
+      "2017-10-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "HUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00017.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00014",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 811 during 2023 that exhibit the trend pattern 'rapid fall, then fluctuating stable', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-08-13', '2023-03-07', '2023-03-29', '2023-09-23', '2023-07-28', '2023-07-05']",
+    "ground_truth": [
+      "2023-08-13",
+      "2023-03-07",
+      "2023-03-29",
+      "2023-09-23",
+      "2023-07-28",
+      "2023-07-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "811",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00014.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00073",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 99 during 2021 that exhibit the trend pattern 'fluctuating stable, then rise, then slow fall', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-01-08', '2021-07-26', '2021-05-04', '2021-12-12']",
+    "ground_truth": [
+      "2021-01-08",
+      "2021-07-26",
+      "2021-05-04",
+      "2021-12-12"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "99",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00073.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00032",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 67 during 2019 that exhibit the trend pattern 'slow rise, then rapid fall, then steady stable', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-08-23', '2019-02-21', '2019-03-23', '2019-12-05']",
+    "ground_truth": [
+      "2019-08-23",
+      "2019-02-21",
+      "2019-03-23",
+      "2019-12-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "67",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00032.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00081",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 155 during 2020 that exhibit the trend pattern 'rapid rise, then steady stable, then fluctuating stable, then steady stable', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-07', '2020-02-09', '2020-01-07', '2020-12-06', '2020-01-02', '2020-08-13']",
+    "ground_truth": [
+      "2020-03-07",
+      "2020-02-09",
+      "2020-01-07",
+      "2020-12-06",
+      "2020-01-02",
+      "2020-08-13"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "155",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00081.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00073",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MULL during 2017 that exhibit the trend pattern 'slow fall, then rapid fall', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-10-17', '2017-06-22', '2017-11-24', '2017-05-09', '2017-05-04', '2017-11-07']",
+    "ground_truth": [
+      "2017-10-17",
+      "2017-06-22",
+      "2017-11-24",
+      "2017-05-09",
+      "2017-05-04",
+      "2017-11-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00073.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00067",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 813 during 2021 that exhibit the trend pattern 'fall, then rapid rise', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-04-19', '2021-03-02', '2021-05-30', '2021-02-21']",
+    "ground_truth": [
+      "2021-04-19",
+      "2021-03-02",
+      "2021-05-30",
+      "2021-02-21"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "813",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00067.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00013",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 727 during 2023 that exhibit the trend pattern 'slow rise, then steady stable, then rapid fall, then fall', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-02-08', '2023-09-20', '2023-11-06', '2023-11-27', '2023-04-03', '2023-05-17']",
+    "ground_truth": [
+      "2023-02-08",
+      "2023-09-20",
+      "2023-11-06",
+      "2023-11-27",
+      "2023-04-03",
+      "2023-05-17"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "727",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00013.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00039",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 495 during 2019 that exhibit the trend pattern 'steady stable, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-07-24', '2019-07-10', '2019-04-22', '2019-10-26', '2019-03-18', '2019-06-06']",
+    "ground_truth": [
+      "2019-07-24",
+      "2019-07-10",
+      "2019-04-22",
+      "2019-10-26",
+      "2019-03-18",
+      "2019-06-06"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "495",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00039.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00085",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 441 during 2019 that exhibit the trend pattern 'steady stable, then fall, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-09-15', '2019-05-23', '2019-12-02', '2019-07-22', '2019-07-02', '2019-01-17']",
+    "ground_truth": [
+      "2019-09-15",
+      "2019-05-23",
+      "2019-12-02",
+      "2019-07-22",
+      "2019-07-02",
+      "2019-01-17"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "441",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00085.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00037",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 155 during 2022 that exhibit the trend pattern 'slow rise, then steady stable, then rapid fall', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-01-13', '2022-07-28', '2022-04-30', '2022-01-26', '2022-10-21', '2022-07-13']",
+    "ground_truth": [
+      "2022-01-13",
+      "2022-07-28",
+      "2022-04-30",
+      "2022-01-26",
+      "2022-10-21",
+      "2022-07-13"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "155",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00037.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00015",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 813 during 2022 that exhibit the trend pattern 'fluctuating stable, then rapid fall, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-10-19', '2022-09-19', '2022-01-14', '2022-03-21', '2022-04-04', '2022-05-17']",
+    "ground_truth": [
+      "2022-10-19",
+      "2022-09-19",
+      "2022-01-14",
+      "2022-03-21",
+      "2022-04-04",
+      "2022-05-17"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "813",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00015.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00041",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 501 during 2023 that exhibit the trend pattern 'steady stable, then fall, then rapid fall', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-03-19', '2023-11-22', '2023-07-17', '2023-03-29', '2023-09-21', '2023-07-06']",
+    "ground_truth": [
+      "2023-03-19",
+      "2023-11-22",
+      "2023-07-17",
+      "2023-03-29",
+      "2023-09-21",
+      "2023-07-06"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "501",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00041.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00071",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LUFL during 2017 that exhibit the trend pattern 'rapid fall, then rise, then rapid rise, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-04-17', '2017-04-29', '2017-10-18', '2017-05-07']",
+    "ground_truth": [
+      "2017-04-17",
+      "2017-04-29",
+      "2017-10-18",
+      "2017-05-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00071.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00017",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 166 during 2020 that exhibit the trend pattern 'fluctuating stable, then steady stable, then rapid rise, then rise', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-05-31', '2020-03-30', '2020-07-08', '2020-07-27']",
+    "ground_truth": [
+      "2020-05-31",
+      "2020-03-30",
+      "2020-07-08",
+      "2020-07-27"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "166",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00017.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00092",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel HULL during 2017 that exhibit the trend pattern 'rapid rise, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-12-20', '2017-05-09', '2017-08-26', '2017-06-03']",
+    "ground_truth": [
+      "2017-12-20",
+      "2017-05-09",
+      "2017-08-26",
+      "2017-06-03"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "HULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00092.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00055",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel OT during 2017 that exhibit the trend pattern 'steady stable, then slow fall, then rapid rise, then fall', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-08-10', '2017-04-14', '2017-10-28', '2017-06-02', '2017-11-22', '2017-05-15']",
+    "ground_truth": [
+      "2017-08-10",
+      "2017-04-14",
+      "2017-10-28",
+      "2017-06-02",
+      "2017-11-22",
+      "2017-05-15"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "OT",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00055.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00001",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 67 during 2019 that exhibit the trend pattern 'steady stable, then slow fall, then fluctuating stable, then steady stable', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-09-08', '2019-03-10', '2019-04-19', '2019-01-27', '2019-05-01', '2019-11-22']",
+    "ground_truth": [
+      "2019-09-08",
+      "2019-03-10",
+      "2019-04-19",
+      "2019-01-27",
+      "2019-05-01",
+      "2019-11-22"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "67",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00001.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00069",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 894 during 2020 that exhibit the trend pattern 'rapid fall, then steady stable, then slow rise', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-02-12', '2020-11-22', '2020-10-08', '2020-08-16']",
+    "ground_truth": [
+      "2020-02-12",
+      "2020-11-22",
+      "2020-10-08",
+      "2020-08-16"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "894",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00069.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00077",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 71 during 2019 that exhibit the trend pattern 'slow fall, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-07-14', '2019-11-30', '2019-09-12', '2019-06-19', '2019-02-17', '2019-06-08']",
+    "ground_truth": [
+      "2019-07-14",
+      "2019-11-30",
+      "2019-09-12",
+      "2019-06-19",
+      "2019-02-17",
+      "2019-06-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "71",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00077.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00090",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 895 during 2022 that exhibit the trend pattern 'slow fall, then rise', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-04-29', '2022-01-17', '2022-02-02', '2022-01-01']",
+    "ground_truth": [
+      "2022-04-29",
+      "2022-01-17",
+      "2022-02-02",
+      "2022-01-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "895",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00090.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00041",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 683 during 2019 that exhibit the trend pattern 'fluctuating stable, then rapid fall, then slow rise', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-12-08', '2019-07-30', '2019-10-03', '2019-09-13']",
+    "ground_truth": [
+      "2019-12-08",
+      "2019-07-30",
+      "2019-10-03",
+      "2019-09-13"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "683",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00041.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00094",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MULL during 2017 that exhibit the trend pattern 'fluctuating stable, then rapid rise, then fluctuating stable, then fall', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-12-05', '2017-06-21', '2017-07-23', '2017-01-04']",
+    "ground_truth": [
+      "2017-12-05",
+      "2017-06-21",
+      "2017-07-23",
+      "2017-01-04"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00094.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00037",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 441 during 2022 that exhibit the trend pattern 'slow rise, then rapid fall, then rapid rise', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-08-21', '2022-12-18', '2022-11-13', '2022-01-12']",
+    "ground_truth": [
+      "2022-08-21",
+      "2022-12-18",
+      "2022-11-13",
+      "2022-01-12"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "441",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00037.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00040",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 647 during 2023 that exhibit the trend pattern 'rapid rise, then rise, then steady stable', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-08-01', '2023-07-29', '2023-07-08', '2023-11-08']",
+    "ground_truth": [
+      "2023-08-01",
+      "2023-07-29",
+      "2023-07-08",
+      "2023-11-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "647",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00040.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00042",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 591 during 2022 that exhibit the trend pattern 'rapid fall, then rapid rise, then rise, then fall', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-06-17', '2022-09-09', '2022-12-01', '2022-09-12', '2022-04-19', '2022-05-18']",
+    "ground_truth": [
+      "2022-06-17",
+      "2022-09-09",
+      "2022-12-01",
+      "2022-09-12",
+      "2022-04-19",
+      "2022-05-18"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "591",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00042.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00072",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MUFL during 2017 that exhibit the trend pattern 'rapid rise, then fall', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-01-11', '2017-02-09', '2017-02-01', '2017-02-13', '2017-10-11', '2017-08-23']",
+    "ground_truth": [
+      "2017-01-11",
+      "2017-02-09",
+      "2017-02-01",
+      "2017-02-13",
+      "2017-10-11",
+      "2017-08-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00072.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00078",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 99 during 2019 that exhibit the trend pattern 'slow rise, then steady stable, then fall, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-10-12', '2019-06-14', '2019-04-01', '2019-04-18', '2019-12-19', '2019-01-18']",
+    "ground_truth": [
+      "2019-10-12",
+      "2019-06-14",
+      "2019-04-01",
+      "2019-04-18",
+      "2019-12-19",
+      "2019-01-18"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "99",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00078.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00008",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 495 during 2020 that exhibit the trend pattern 'slow fall, then fluctuating stable, then slow fall', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-18', '2020-03-15', '2020-02-07', '2020-10-13', '2020-04-15', '2020-08-04']",
+    "ground_truth": [
+      "2020-03-18",
+      "2020-03-15",
+      "2020-02-07",
+      "2020-10-13",
+      "2020-04-15",
+      "2020-08-04"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "495",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00008.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00012",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 683 during 2020 that exhibit the trend pattern 'slow rise, then fluctuating stable', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-02-19', '2020-02-13', '2020-12-14', '2020-02-27', '2020-08-24', '2020-10-10']",
+    "ground_truth": [
+      "2020-02-19",
+      "2020-02-13",
+      "2020-12-14",
+      "2020-02-27",
+      "2020-08-24",
+      "2020-10-10"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "683",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00012.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00094",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LUFL during 2017 that exhibit the trend pattern 'steady stable, then slow rise, then fluctuating stable', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-06-05', '2017-07-15', '2017-03-29', '2017-09-04', '2017-07-03', '2017-03-25']",
+    "ground_truth": [
+      "2017-06-05",
+      "2017-07-15",
+      "2017-03-29",
+      "2017-09-04",
+      "2017-07-03",
+      "2017-03-25"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00094.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00064",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 683 during 2023 that exhibit the trend pattern 'slow fall, then steady stable, then fluctuating stable', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-08-29', '2023-08-13', '2023-09-15', '2023-09-12']",
+    "ground_truth": [
+      "2023-08-29",
+      "2023-08-13",
+      "2023-09-15",
+      "2023-09-12"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "683",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00064.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00047",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 865 during 2020 that exhibit the trend pattern 'rapid fall, then steady stable, then rapid rise, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-04-21', '2020-08-16', '2020-03-05', '2020-09-18', '2020-01-24', '2020-07-08']",
+    "ground_truth": [
+      "2020-04-21",
+      "2020-08-16",
+      "2020-03-05",
+      "2020-09-18",
+      "2020-01-24",
+      "2020-07-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "865",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00047.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00080",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 173 during 2023 that exhibit the trend pattern 'rapid fall, then rise, then slow fall', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-05-29', '2023-10-29', '2023-09-10', '2023-08-14']",
+    "ground_truth": [
+      "2023-05-29",
+      "2023-10-29",
+      "2023-09-10",
+      "2023-08-14"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "173",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00080.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00049",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 894 during 2021 that exhibit the trend pattern 'rapid fall, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-03-14', '2021-04-13', '2021-03-20', '2021-07-08', '2021-03-06', '2021-12-11']",
+    "ground_truth": [
+      "2021-03-14",
+      "2021-04-13",
+      "2021-03-20",
+      "2021-07-08",
+      "2021-03-06",
+      "2021-12-11"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "894",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00049.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00025",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 169 during 2021 that exhibit the trend pattern 'rapid rise, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-06-15', '2021-04-28', '2021-10-06', '2021-11-25', '2021-12-13', '2021-10-12']",
+    "ground_truth": [
+      "2021-06-15",
+      "2021-04-28",
+      "2021-10-06",
+      "2021-11-25",
+      "2021-12-13",
+      "2021-10-12"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "169",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00025.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00016",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 894 during 2019 that exhibit the trend pattern 'steady stable, then slow rise, then slow fall, then rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-07-22', '2019-04-15', '2019-03-09', '2019-01-25', '2019-05-01', '2019-08-07']",
+    "ground_truth": [
+      "2019-07-22",
+      "2019-04-15",
+      "2019-03-09",
+      "2019-01-25",
+      "2019-05-01",
+      "2019-08-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "894",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00016.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00054",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LULL during 2017 that exhibit the trend pattern 'fall, then rapid rise, then fluctuating stable', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-04-01', '2017-07-15', '2017-03-09', '2017-04-30', '2017-06-06', '2017-12-07']",
+    "ground_truth": [
+      "2017-04-01",
+      "2017-07-15",
+      "2017-03-09",
+      "2017-04-30",
+      "2017-06-06",
+      "2017-12-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00054.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00063",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 580 during 2021 that exhibit the trend pattern 'slow rise, then steady stable, then fluctuating stable, then slow rise', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-12-13', '2021-05-03', '2021-03-28', '2021-10-24', '2021-02-08', '2021-03-23']",
+    "ground_truth": [
+      "2021-12-13",
+      "2021-05-03",
+      "2021-03-28",
+      "2021-10-24",
+      "2021-02-08",
+      "2021-03-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "580",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00063.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00080",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 154 during 2022 that exhibit the trend pattern 'fluctuating stable, then steady stable, then slow fall, then rapid rise', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-04-14', '2022-12-14', '2022-01-22', '2022-07-31', '2022-12-24', '2022-07-25']",
+    "ground_truth": [
+      "2022-04-14",
+      "2022-12-14",
+      "2022-01-22",
+      "2022-07-31",
+      "2022-12-24",
+      "2022-07-25"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "154",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00080.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00079",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 124 during 2022 that exhibit the trend pattern 'rapid fall, then fall, then rapid rise, then slow fall', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-05-05', '2022-07-09', '2022-11-04', '2022-08-27', '2022-02-10', '2022-03-05']",
+    "ground_truth": [
+      "2022-05-05",
+      "2022-07-09",
+      "2022-11-04",
+      "2022-08-27",
+      "2022-02-10",
+      "2022-03-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "124",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00079.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00019",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LUFL during 2017 that exhibit the trend pattern 'slow rise, then fluctuating stable, then rapid fall, then slow fall', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-09-11', '2017-01-23', '2017-06-09', '2017-05-15', '2017-09-07', '2017-05-27']",
+    "ground_truth": [
+      "2017-09-11",
+      "2017-01-23",
+      "2017-06-09",
+      "2017-05-15",
+      "2017-09-07",
+      "2017-05-27"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00019.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00022",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 591 during 2019 that exhibit the trend pattern 'fall, then slow fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-07-10', '2019-10-07', '2019-06-22', '2019-03-19']",
+    "ground_truth": [
+      "2019-07-10",
+      "2019-10-07",
+      "2019-06-22",
+      "2019-03-19"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "591",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00022.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00058",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 147 during 2020 that exhibit the trend pattern 'fluctuating stable, then slow fall', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-09-11', '2020-01-14', '2020-06-20', '2020-08-31', '2020-11-20', '2020-11-06']",
+    "ground_truth": [
+      "2020-09-11",
+      "2020-01-14",
+      "2020-06-20",
+      "2020-08-31",
+      "2020-11-20",
+      "2020-11-06"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "147",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00058.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00004",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 169 during 2022 that exhibit the trend pattern 'fall, then rapid fall', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-02-25', '2022-04-04', '2022-10-30', '2022-06-07']",
+    "ground_truth": [
+      "2022-02-25",
+      "2022-04-04",
+      "2022-10-30",
+      "2022-06-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "169",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00004.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00085",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 625 during 2019 that exhibit the trend pattern 'fall, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-05-10', '2019-12-01', '2019-06-19', '2019-12-25']",
+    "ground_truth": [
+      "2019-05-10",
+      "2019-12-01",
+      "2019-06-19",
+      "2019-12-25"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "625",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00085.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00062",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 441 during 2021 that exhibit the trend pattern 'slow rise, then fall, then slow fall', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-06-01', '2021-09-02', '2021-04-25', '2021-11-18', '2021-06-14', '2021-03-26']",
+    "ground_truth": [
+      "2021-06-01",
+      "2021-09-02",
+      "2021-04-25",
+      "2021-11-18",
+      "2021-06-14",
+      "2021-03-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "441",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00062.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00047",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 897 during 2019 that exhibit the trend pattern 'steady stable, then rise, then slow rise, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-10-01', '2019-10-03', '2019-04-26', '2019-09-22']",
+    "ground_truth": [
+      "2019-10-01",
+      "2019-10-03",
+      "2019-04-26",
+      "2019-09-22"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "897",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00047.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00070",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 762 during 2021 that exhibit the trend pattern 'rapid fall, then rapid rise, then fluctuating stable', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-06-16', '2021-03-10', '2021-06-11', '2021-09-05', '2021-06-01', '2021-12-08']",
+    "ground_truth": [
+      "2021-06-16",
+      "2021-03-10",
+      "2021-06-11",
+      "2021-09-05",
+      "2021-06-01",
+      "2021-12-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "762",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00070.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00009",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 501 during 2023 that exhibit the trend pattern 'rise, then rapid fall, then steady stable', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-11-22', '2023-05-19', '2023-12-15', '2023-11-09', '2023-03-27', '2023-04-02']",
+    "ground_truth": [
+      "2023-11-22",
+      "2023-05-19",
+      "2023-12-15",
+      "2023-11-09",
+      "2023-03-27",
+      "2023-04-02"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "501",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00009.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00042",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 729 during 2019 that exhibit the trend pattern 'rise, then steady stable, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-03-05', '2019-09-29', '2019-05-13', '2019-12-21']",
+    "ground_truth": [
+      "2019-03-05",
+      "2019-09-29",
+      "2019-05-13",
+      "2019-12-21"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "729",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00042.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00031",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 813 during 2021 that exhibit the trend pattern 'steady stable, then rapid fall', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-01-10', '2021-03-29', '2021-05-15', '2021-05-31', '2021-06-15', '2021-05-08']",
+    "ground_truth": [
+      "2021-01-10",
+      "2021-03-29",
+      "2021-05-15",
+      "2021-05-31",
+      "2021-06-15",
+      "2021-05-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "813",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00031.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00024",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 683 during 2019 that exhibit the trend pattern 'rapid fall, then rapid rise, then fall', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-04-22', '2019-07-14', '2019-03-10', '2019-07-05']",
+    "ground_truth": [
+      "2019-04-22",
+      "2019-07-14",
+      "2019-03-10",
+      "2019-07-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "683",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00024.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00002",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 123 during 2021 that exhibit the trend pattern 'fall, then slow rise, then rapid rise', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-11-01', '2021-07-29', '2021-06-26', '2021-08-10', '2021-09-30', '2021-03-03']",
+    "ground_truth": [
+      "2021-11-01",
+      "2021-07-29",
+      "2021-06-26",
+      "2021-08-10",
+      "2021-09-30",
+      "2021-03-03"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "123",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00002.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00082",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 430 during 2022 that exhibit the trend pattern 'rise, then slow rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-01-22', '2022-10-23', '2022-11-27', '2022-02-17']",
+    "ground_truth": [
+      "2022-01-22",
+      "2022-10-23",
+      "2022-11-27",
+      "2022-02-17"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "430",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00082.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00016",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 147 during 2019 that exhibit the trend pattern 'rapid rise, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-12-17', '2019-08-07', '2019-12-06', '2019-05-29']",
+    "ground_truth": [
+      "2019-12-17",
+      "2019-08-07",
+      "2019-12-06",
+      "2019-05-29"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "147",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00016.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00019",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 495 during 2021 that exhibit the trend pattern 'fall, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-08-17', '2021-12-09', '2021-12-19', '2021-08-22']",
+    "ground_truth": [
+      "2021-08-17",
+      "2021-12-09",
+      "2021-12-19",
+      "2021-08-22"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "495",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00019.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00021",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel OT during 2017 that exhibit the trend pattern 'rapid rise, then steady stable', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-06-07', '2017-04-22', '2017-03-07', '2017-02-05', '2017-01-21', '2017-08-28']",
+    "ground_truth": [
+      "2017-06-07",
+      "2017-04-22",
+      "2017-03-07",
+      "2017-02-05",
+      "2017-01-21",
+      "2017-08-28"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "OT",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00021.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00011",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 580 during 2022 that exhibit the trend pattern 'fall, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-09-28', '2022-08-30', '2022-05-14', '2022-12-14', '2022-02-22', '2022-02-13']",
+    "ground_truth": [
+      "2022-09-28",
+      "2022-08-30",
+      "2022-05-14",
+      "2022-12-14",
+      "2022-02-22",
+      "2022-02-13"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "580",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00011.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00051",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel HULL during 2017 that exhibit the trend pattern 'rapid fall, then fluctuating stable', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-03-09', '2017-02-15', '2017-06-29', '2017-01-06', '2017-04-24', '2017-10-30']",
+    "ground_truth": [
+      "2017-03-09",
+      "2017-02-15",
+      "2017-06-29",
+      "2017-01-06",
+      "2017-04-24",
+      "2017-10-30"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "HULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00051.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00066",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 754 during 2021 that exhibit the trend pattern 'steady stable, then rapid fall, then rise, then rapid rise', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-06-04', '2021-04-13', '2021-03-16', '2021-07-06']",
+    "ground_truth": [
+      "2021-06-04",
+      "2021-04-13",
+      "2021-03-16",
+      "2021-07-06"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "754",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00066.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00004",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 172 during 2022 that exhibit the trend pattern 'rapid rise, then fall, then fluctuating stable, then rise', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-08-15', '2022-11-21', '2022-03-05', '2022-09-20', '2022-11-04', '2022-04-05']",
+    "ground_truth": [
+      "2022-08-15",
+      "2022-11-21",
+      "2022-03-05",
+      "2022-09-20",
+      "2022-11-04",
+      "2022-04-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "172",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00004.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00028",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 312 during 2019 that exhibit the trend pattern 'steady stable, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-02-12', '2019-08-06', '2019-07-22', '2019-09-11', '2019-12-04', '2019-05-24']",
+    "ground_truth": [
+      "2019-02-12",
+      "2019-08-06",
+      "2019-07-22",
+      "2019-09-11",
+      "2019-12-04",
+      "2019-05-24"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "312",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00028.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00035",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 146 during 2021 that exhibit the trend pattern 'rapid fall, then fall, then steady stable, then slow fall', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-01-09', '2021-02-27', '2021-08-28', '2021-05-02']",
+    "ground_truth": [
+      "2021-01-09",
+      "2021-02-27",
+      "2021-08-28",
+      "2021-05-02"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "146",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00035.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00025",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 727 during 2023 that exhibit the trend pattern 'rapid fall, then steady stable, then rapid rise', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-06-26', '2023-04-25', '2023-06-30', '2023-11-16']",
+    "ground_truth": [
+      "2023-06-26",
+      "2023-04-25",
+      "2023-06-30",
+      "2023-11-16"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "727",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00025.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00075",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel OT during 2017 that exhibit the trend pattern 'steady stable, then fluctuating stable, then steady stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-08-13', '2017-08-31', '2017-05-19', '2017-11-22', '2017-07-04', '2017-08-04']",
+    "ground_truth": [
+      "2017-08-13",
+      "2017-08-31",
+      "2017-05-19",
+      "2017-11-22",
+      "2017-07-04",
+      "2017-08-04"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "OT",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00075.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00079",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 172 during 2023 that exhibit the trend pattern 'slow rise, then rapid fall, then rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-12-24', '2023-08-08', '2023-03-10', '2023-01-22']",
+    "ground_truth": [
+      "2023-12-24",
+      "2023-08-08",
+      "2023-03-10",
+      "2023-01-22"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "172",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00079.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00038",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 177 during 2022 that exhibit the trend pattern 'rapid rise, then fluctuating stable, then rise', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-08-14', '2022-05-23', '2022-01-30', '2022-01-19', '2022-06-08', '2022-10-23']",
+    "ground_truth": [
+      "2022-08-14",
+      "2022-05-23",
+      "2022-01-30",
+      "2022-01-19",
+      "2022-06-08",
+      "2022-10-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "177",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00038.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00063",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 647 during 2019 that exhibit the trend pattern 'steady stable, then slow rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-02-01', '2019-11-22', '2019-10-23', '2019-01-13']",
+    "ground_truth": [
+      "2019-02-01",
+      "2019-11-22",
+      "2019-10-23",
+      "2019-01-13"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "647",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00063.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00032",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 865 during 2022 that exhibit the trend pattern 'fluctuating stable, then slow fall, then fluctuating stable', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-03-29', '2022-01-07', '2022-04-13', '2022-06-30', '2022-05-03', '2022-05-23']",
+    "ground_truth": [
+      "2022-03-29",
+      "2022-01-07",
+      "2022-04-13",
+      "2022-06-30",
+      "2022-05-03",
+      "2022-05-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "865",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00032.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00070",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 895 during 2023 that exhibit the trend pattern 'rapid fall, then steady stable, then slow fall, then steady stable', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-05-01', '2023-12-10', '2023-05-21', '2023-09-05']",
+    "ground_truth": [
+      "2023-05-01",
+      "2023-12-10",
+      "2023-05-21",
+      "2023-09-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "895",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00070.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00074",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LULL during 2017 that exhibit the trend pattern 'rapid fall, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-07-14', '2017-07-30', '2017-09-11', '2017-02-06', '2017-12-10', '2017-10-20']",
+    "ground_truth": [
+      "2017-07-14",
+      "2017-07-30",
+      "2017-09-11",
+      "2017-02-06",
+      "2017-12-10",
+      "2017-10-20"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00074.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00018",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 441 during 2020 that exhibit the trend pattern 'steady stable, then rapid rise', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-09-30', '2020-08-25', '2020-07-10', '2020-05-01']",
+    "ground_truth": [
+      "2020-09-30",
+      "2020-08-25",
+      "2020-07-10",
+      "2020-05-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "441",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00018.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00084",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 595 during 2023 that exhibit the trend pattern 'fall, then steady stable, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-06-26', '2023-02-02', '2023-07-28', '2023-04-05']",
+    "ground_truth": [
+      "2023-06-26",
+      "2023-02-02",
+      "2023-07-28",
+      "2023-04-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "595",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00084.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00090",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 729 during 2020 that exhibit the trend pattern 'rapid rise, then rise, then steady stable, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-08-20', '2020-03-28', '2020-10-30', '2020-01-26', '2020-01-20', '2020-09-04']",
+    "ground_truth": [
+      "2020-08-20",
+      "2020-03-28",
+      "2020-10-30",
+      "2020-01-26",
+      "2020-01-20",
+      "2020-09-04"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "729",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00090.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00064",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 591 during 2023 that exhibit the trend pattern 'fluctuating stable, then rapid fall, then fluctuating stable', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-09-04', '2023-12-29', '2023-12-03', '2023-06-28', '2023-05-12', '2023-05-09']",
+    "ground_truth": [
+      "2023-09-04",
+      "2023-12-29",
+      "2023-12-03",
+      "2023-06-28",
+      "2023-05-12",
+      "2023-05-09"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "591",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00064.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00068",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 728 during 2021 that exhibit the trend pattern 'slow fall, then rise', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-05-24', '2021-11-17', '2021-08-08', '2021-06-24', '2021-07-30', '2021-02-08']",
+    "ground_truth": [
+      "2021-05-24",
+      "2021-11-17",
+      "2021-08-08",
+      "2021-06-24",
+      "2021-07-30",
+      "2021-02-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "728",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00068.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00030",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 762 during 2019 that exhibit the trend pattern 'rise, then steady stable, then rapid fall, then steady stable', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-08-08', '2019-04-08', '2019-10-02', '2019-08-19', '2019-05-17', '2019-07-07']",
+    "ground_truth": [
+      "2019-08-08",
+      "2019-04-08",
+      "2019-10-02",
+      "2019-08-19",
+      "2019-05-17",
+      "2019-07-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "762",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00030.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00052",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MUFL during 2017 that exhibit the trend pattern 'fall, then steady stable, then fluctuating stable, then steady stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-03-05', '2017-01-21', '2017-10-07', '2017-07-20', '2017-12-28', '2017-06-08']",
+    "ground_truth": [
+      "2017-03-05",
+      "2017-01-21",
+      "2017-10-07",
+      "2017-07-20",
+      "2017-12-28",
+      "2017-06-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00052.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00054",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 124 during 2021 that exhibit the trend pattern 'rapid fall, then slow fall, then steady stable', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-01-12', '2021-03-20', '2021-08-03', '2021-02-17']",
+    "ground_truth": [
+      "2021-01-12",
+      "2021-03-20",
+      "2021-08-03",
+      "2021-02-17"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "124",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00054.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00052",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LULL during 2017 that exhibit the trend pattern 'rise, then slow rise, then steady stable', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-12-10', '2017-01-04', '2017-05-18', '2017-03-26']",
+    "ground_truth": [
+      "2017-12-10",
+      "2017-01-04",
+      "2017-05-18",
+      "2017-03-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00052.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00038",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 495 during 2023 that exhibit the trend pattern 'rapid fall, then fluctuating stable, then steady stable', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-08-14', '2023-11-19', '2023-04-16', '2023-08-30']",
+    "ground_truth": [
+      "2023-08-14",
+      "2023-11-19",
+      "2023-04-16",
+      "2023-08-30"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "495",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00038.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00087",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 591 during 2020 that exhibit the trend pattern 'rise, then slow fall, then rapid rise', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-09-14', '2020-07-08', '2020-08-24', '2020-09-26', '2020-06-08', '2020-05-14']",
+    "ground_truth": [
+      "2020-09-14",
+      "2020-07-08",
+      "2020-08-24",
+      "2020-09-26",
+      "2020-06-08",
+      "2020-05-14"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "591",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00087.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00066",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 680 during 2021 that exhibit the trend pattern 'rapid fall, then rise', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-01-17', '2021-07-14', '2021-03-26', '2021-05-08', '2021-06-01', '2021-06-15']",
+    "ground_truth": [
+      "2021-01-17",
+      "2021-07-14",
+      "2021-03-26",
+      "2021-05-08",
+      "2021-06-01",
+      "2021-06-15"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "680",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00066.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00026",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 170 during 2020 that exhibit the trend pattern 'rapid fall, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-09', '2020-03-04', '2020-09-23', '2020-07-29', '2020-11-05', '2020-05-27']",
+    "ground_truth": [
+      "2020-03-09",
+      "2020-03-04",
+      "2020-09-23",
+      "2020-07-29",
+      "2020-11-05",
+      "2020-05-27"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "170",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00026.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00083",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 177 during 2020 that exhibit the trend pattern 'fall, then rapid rise', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-09', '2020-12-20', '2020-06-27', '2020-05-04', '2020-06-04', '2020-08-24']",
+    "ground_truth": [
+      "2020-03-09",
+      "2020-12-20",
+      "2020-06-27",
+      "2020-05-04",
+      "2020-06-04",
+      "2020-08-24"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "177",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00083.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00095",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LUFL during 2017 that exhibit the trend pattern 'rise, then rapid fall, then rise', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-11-12', '2017-09-27', '2017-11-06', '2017-03-26']",
+    "ground_truth": [
+      "2017-11-12",
+      "2017-09-27",
+      "2017-11-06",
+      "2017-03-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00095.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00018",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel HULL during 2017 that exhibit the trend pattern 'slow rise, then rapid fall', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-01-24', '2017-04-21', '2017-02-23', '2017-03-27', '2017-06-20', '2017-07-20']",
+    "ground_truth": [
+      "2017-01-24",
+      "2017-04-21",
+      "2017-02-23",
+      "2017-03-27",
+      "2017-06-20",
+      "2017-07-20"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "HULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00018.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00024",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 151 during 2022 that exhibit the trend pattern 'rapid rise, then rise, then rapid fall, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-10-06', '2022-12-10', '2022-05-09', '2022-02-02', '2022-03-24', '2022-05-23']",
+    "ground_truth": [
+      "2022-10-06",
+      "2022-12-10",
+      "2022-05-09",
+      "2022-02-02",
+      "2022-03-24",
+      "2022-05-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "151",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00024.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00053",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 99 during 2020 that exhibit the trend pattern 'slow rise, then rapid rise, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-07-01', '2020-11-02', '2020-11-10', '2020-12-11']",
+    "ground_truth": [
+      "2020-07-01",
+      "2020-11-02",
+      "2020-11-10",
+      "2020-12-11"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "99",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00053.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00006",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 245 during 2022 that exhibit the trend pattern 'slow rise, then steady stable', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-02-03', '2022-01-03', '2022-02-11', '2022-07-19', '2022-07-26', '2022-05-20']",
+    "ground_truth": [
+      "2022-02-03",
+      "2022-01-03",
+      "2022-02-11",
+      "2022-07-19",
+      "2022-07-26",
+      "2022-05-20"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "245",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00006.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00008",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 627 during 2021 that exhibit the trend pattern 'slow rise, then fluctuating stable, then rise', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-02-20', '2021-01-23', '2021-01-08', '2021-09-16']",
+    "ground_truth": [
+      "2021-02-20",
+      "2021-01-23",
+      "2021-01-08",
+      "2021-09-16"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "627",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00008.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00078",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 151 during 2020 that exhibit the trend pattern 'slow fall, then slow rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-05', '2020-02-09', '2020-06-27', '2020-02-24']",
+    "ground_truth": [
+      "2020-03-05",
+      "2020-02-09",
+      "2020-06-27",
+      "2020-02-24"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "151",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00078.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00040",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 496 during 2022 that exhibit the trend pattern 'steady stable, then slow rise, then rapid fall', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-01-03', '2022-07-31', '2022-10-08', '2022-04-30', '2022-12-06', '2022-09-02']",
+    "ground_truth": [
+      "2022-01-03",
+      "2022-07-31",
+      "2022-10-08",
+      "2022-04-30",
+      "2022-12-06",
+      "2022-09-02"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "496",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00040.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00045",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 891 during 2022 that exhibit the trend pattern 'slow fall, then rapid rise, then fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-11-27', '2022-09-10', '2022-04-30', '2022-08-19']",
+    "ground_truth": [
+      "2022-11-27",
+      "2022-09-10",
+      "2022-04-30",
+      "2022-08-19"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "891",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00045.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00033",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 891 during 2019 that exhibit the trend pattern 'slow rise, then rapid rise', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-09-21', '2019-06-10', '2019-06-06', '2019-07-31', '2019-08-29', '2019-01-16']",
+    "ground_truth": [
+      "2019-09-21",
+      "2019-06-10",
+      "2019-06-06",
+      "2019-07-31",
+      "2019-08-29",
+      "2019-01-16"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "891",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00033.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00060",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 625 during 2023 that exhibit the trend pattern 'rapid rise, then rise', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-10-11', '2023-12-15', '2023-03-12', '2023-07-22']",
+    "ground_truth": [
+      "2023-10-11",
+      "2023-12-15",
+      "2023-03-12",
+      "2023-07-22"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "625",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00060.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00053",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MULL during 2017 that exhibit the trend pattern 'rise, then rapid rise, then steady stable', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-05-11', '2017-12-19', '2017-11-14', '2017-09-01', '2017-01-24', '2017-09-29']",
+    "ground_truth": [
+      "2017-05-11",
+      "2017-12-19",
+      "2017-11-14",
+      "2017-09-01",
+      "2017-01-24",
+      "2017-09-29"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00053.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00048",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 933 during 2021 that exhibit the trend pattern 'fluctuating stable, then rapid fall', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-02-16', '2021-02-02', '2021-11-15', '2021-12-28']",
+    "ground_truth": [
+      "2021-02-16",
+      "2021-02-02",
+      "2021-11-15",
+      "2021-12-28"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "933",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00048.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00071",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 811 during 2021 that exhibit the trend pattern 'rapid rise, then rapid fall, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-03-05', '2021-09-16', '2021-08-13', '2021-10-17', '2021-12-05', '2021-07-16']",
+    "ground_truth": [
+      "2021-03-05",
+      "2021-09-16",
+      "2021-08-13",
+      "2021-10-17",
+      "2021-12-05",
+      "2021-07-16"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "811",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00071.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00089",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 728 during 2022 that exhibit the trend pattern 'rise, then fluctuating stable, then fall, then rise', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-09-16', '2022-09-05', '2022-08-24', '2022-07-26', '2022-04-30', '2022-04-08']",
+    "ground_truth": [
+      "2022-09-16",
+      "2022-09-05",
+      "2022-08-24",
+      "2022-07-26",
+      "2022-04-30",
+      "2022-04-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "728",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00089.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00065",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 729 during 2022 that exhibit the trend pattern 'fluctuating stable, then rise', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-08-11', '2022-06-03', '2022-05-19', '2022-02-01']",
+    "ground_truth": [
+      "2022-08-11",
+      "2022-06-03",
+      "2022-05-19",
+      "2022-02-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "729",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00065.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00012",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 865 during 2020 that exhibit the trend pattern 'rapid rise, then slow rise, then steady stable', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-11', '2020-05-08', '2020-07-07', '2020-02-10']",
+    "ground_truth": [
+      "2020-03-11",
+      "2020-05-08",
+      "2020-07-07",
+      "2020-02-10"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "865",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00012.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00036",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 430 during 2021 that exhibit the trend pattern 'steady stable, then slow rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-06-09', '2021-04-21', '2021-10-19', '2021-03-02']",
+    "ground_truth": [
+      "2021-06-09",
+      "2021-04-21",
+      "2021-10-19",
+      "2021-03-02"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "430",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00036.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00005",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 173 during 2020 that exhibit the trend pattern 'steady stable, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-06-04', '2020-04-18', '2020-08-21', '2020-11-06', '2020-04-12', '2020-03-23']",
+    "ground_truth": [
+      "2020-06-04",
+      "2020-04-18",
+      "2020-08-21",
+      "2020-11-06",
+      "2020-04-12",
+      "2020-03-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "173",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00005.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00057",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 430 during 2022 that exhibit the trend pattern 'fluctuating stable, then slow fall, then fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-03-26', '2022-09-17', '2022-09-11', '2022-03-01']",
+    "ground_truth": [
+      "2022-03-26",
+      "2022-09-17",
+      "2022-09-11",
+      "2022-03-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "430",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00057.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00034",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 123 during 2023 that exhibit the trend pattern 'slow rise, then slow fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-04-14', '2023-11-12', '2023-07-09', '2023-09-21']",
+    "ground_truth": [
+      "2023-04-14",
+      "2023-11-12",
+      "2023-07-09",
+      "2023-09-21"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "123",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00034.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00007",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 430 during 2020 that exhibit the trend pattern 'rapid rise, then slow rise, then steady stable', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-01-09', '2020-03-19', '2020-02-19', '2020-08-17', '2020-05-03', '2020-06-26']",
+    "ground_truth": [
+      "2020-01-09",
+      "2020-03-19",
+      "2020-02-19",
+      "2020-08-17",
+      "2020-05-03",
+      "2020-06-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "430",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00007.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00084",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 237 during 2022 that exhibit the trend pattern 'fall, then rapid rise, then fluctuating stable, then rise', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-03-16', '2022-06-27', '2022-06-15', '2022-06-18', '2022-08-10', '2022-10-15']",
+    "ground_truth": [
+      "2022-03-16",
+      "2022-06-27",
+      "2022-06-15",
+      "2022-06-18",
+      "2022-08-10",
+      "2022-10-15"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "237",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00084.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00003",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 169 during 2023 that exhibit the trend pattern 'slow fall, then steady stable, then rise, then fall', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-09-21', '2023-01-07', '2023-12-07', '2023-01-18', '2023-12-01', '2023-08-31']",
+    "ground_truth": [
+      "2023-09-21",
+      "2023-01-07",
+      "2023-12-07",
+      "2023-01-18",
+      "2023-12-01",
+      "2023-08-31"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "169",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00003.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00035",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 99 during 2022 that exhibit the trend pattern 'slow fall, then rise', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-01-15', '2022-04-17', '2022-03-29', '2022-02-13', '2022-10-23', '2022-02-07']",
+    "ground_truth": [
+      "2022-01-15",
+      "2022-04-17",
+      "2022-03-29",
+      "2022-02-13",
+      "2022-10-23",
+      "2022-02-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "99",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00035.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00050",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MUFL during 2017 that exhibit the trend pattern 'rise, then rapid fall', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-02-14', '2017-10-17', '2017-02-26', '2017-06-26']",
+    "ground_truth": [
+      "2017-02-14",
+      "2017-10-17",
+      "2017-02-26",
+      "2017-06-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00050.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00023",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 146 during 2023 that exhibit the trend pattern 'fluctuating stable, then rapid fall, then fall, then rapid rise', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-03-24', '2023-06-15', '2023-04-05', '2023-06-01', '2023-05-26', '2023-07-24']",
+    "ground_truth": [
+      "2023-03-24",
+      "2023-06-15",
+      "2023-04-05",
+      "2023-06-01",
+      "2023-05-26",
+      "2023-07-24"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "146",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00023.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00046",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 728 during 2022 that exhibit the trend pattern 'fluctuating stable, then rapid rise, then rapid fall', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-01-05', '2022-04-09', '2022-06-09', '2022-09-16', '2022-03-02', '2022-09-03']",
+    "ground_truth": [
+      "2022-01-05",
+      "2022-04-09",
+      "2022-06-09",
+      "2022-09-16",
+      "2022-03-02",
+      "2022-09-03"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "728",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00046.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00014",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LUFL during 2017 that exhibit the trend pattern 'slow fall, then fall, then rapid rise', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-03-06', '2017-06-29', '2017-04-24', '2017-05-11']",
+    "ground_truth": [
+      "2017-03-06",
+      "2017-06-29",
+      "2017-04-24",
+      "2017-05-11"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00014.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00083",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 591 during 2021 that exhibit the trend pattern 'fluctuating stable, then rapid fall, then rapid rise, then rise', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-03-17', '2021-08-08', '2021-08-18', '2021-10-25']",
+    "ground_truth": [
+      "2021-03-17",
+      "2021-08-08",
+      "2021-08-18",
+      "2021-10-25"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "591",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00083.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00056",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 124 during 2019 that exhibit the trend pattern 'fluctuating stable, then steady stable, then fall', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-06-30', '2019-07-10', '2019-04-14', '2019-09-21', '2019-05-19', '2019-10-05']",
+    "ground_truth": [
+      "2019-06-30",
+      "2019-07-10",
+      "2019-04-14",
+      "2019-09-21",
+      "2019-05-19",
+      "2019-10-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "124",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00056.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00074",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 123 during 2022 that exhibit the trend pattern 'rise, then slow fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-07-16', '2022-07-30', '2022-05-31', '2022-12-27']",
+    "ground_truth": [
+      "2022-07-16",
+      "2022-07-30",
+      "2022-05-31",
+      "2022-12-27"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "123",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00074.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00030",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MULL during 2017 that exhibit the trend pattern 'slow rise, then fall, then steady stable', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-01-23', '2017-03-20', '2017-04-25', '2017-07-31']",
+    "ground_truth": [
+      "2017-01-23",
+      "2017-03-20",
+      "2017-04-25",
+      "2017-07-31"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00030.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00022",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 123 during 2020 that exhibit the trend pattern 'fluctuating stable, then fall, then steady stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-28', '2020-04-10', '2020-05-19', '2020-06-30', '2020-12-02', '2020-05-16']",
+    "ground_truth": [
+      "2020-03-28",
+      "2020-04-10",
+      "2020-05-19",
+      "2020-06-30",
+      "2020-12-02",
+      "2020-05-16"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "123",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00022.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00007",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 580 during 2022 that exhibit the trend pattern 'steady stable, then rise, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-08-22', '2022-05-06', '2022-08-16', '2022-06-19']",
+    "ground_truth": [
+      "2022-08-22",
+      "2022-05-06",
+      "2022-08-16",
+      "2022-06-19"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "580",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00007.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00036",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 154 during 2023 that exhibit the trend pattern 'steady stable, then fluctuating stable, then fall', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-04-15', '2023-04-26', '2023-12-23', '2023-02-11', '2023-02-26', '2023-12-26']",
+    "ground_truth": [
+      "2023-04-15",
+      "2023-04-26",
+      "2023-12-23",
+      "2023-02-11",
+      "2023-02-26",
+      "2023-12-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "154",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00036.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00010",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 680 during 2019 that exhibit the trend pattern 'slow fall, then fall, then fluctuating stable', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-06-15', '2019-04-08', '2019-01-16', '2019-03-21']",
+    "ground_truth": [
+      "2019-06-15",
+      "2019-04-08",
+      "2019-01-16",
+      "2019-03-21"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "680",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00010.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00005",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 177 during 2023 that exhibit the trend pattern 'fall, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-07-05', '2023-10-24', '2023-01-20', '2023-04-05']",
+    "ground_truth": [
+      "2023-07-05",
+      "2023-10-24",
+      "2023-01-20",
+      "2023-04-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "177",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00005.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00011",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 762 during 2020 that exhibit the trend pattern 'slow fall, then rapid fall, then steady stable', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-07-09', '2020-06-25', '2020-04-14', '2020-08-30']",
+    "ground_truth": [
+      "2020-07-09",
+      "2020-06-25",
+      "2020-04-14",
+      "2020-08-30"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "762",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00011.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00023",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 625 during 2020 that exhibit the trend pattern 'slow fall, then rapid fall, then fluctuating stable', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-09-28', '2020-11-26', '2020-04-20', '2020-08-20']",
+    "ground_truth": [
+      "2020-09-28",
+      "2020-11-26",
+      "2020-04-20",
+      "2020-08-20"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "625",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00023.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00060",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 172 during 2022 that exhibit the trend pattern 'rise, then rapid fall', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-10-08', '2022-10-01', '2022-04-13', '2022-09-08', '2022-02-05', '2022-08-18']",
+    "ground_truth": [
+      "2022-10-08",
+      "2022-10-01",
+      "2022-04-13",
+      "2022-09-08",
+      "2022-02-05",
+      "2022-08-18"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "172",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00060.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00015",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel LULL during 2017 that exhibit the trend pattern 'steady stable, then slow fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-06-30', '2017-03-18', '2017-09-22', '2017-08-22']",
+    "ground_truth": [
+      "2017-06-30",
+      "2017-03-18",
+      "2017-09-22",
+      "2017-08-22"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "LULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00015.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00091",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 754 during 2022 that exhibit the trend pattern 'rapid fall, then slow fall, then rise', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-05-28', '2022-04-26', '2022-09-03', '2022-10-28', '2022-09-15', '2022-09-30']",
+    "ground_truth": [
+      "2022-05-28",
+      "2022-04-26",
+      "2022-09-03",
+      "2022-10-28",
+      "2022-09-15",
+      "2022-09-30"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "754",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00091.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00055",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 151 during 2019 that exhibit the trend pattern 'rapid fall, then slow rise, then rise, then slow rise', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-12-02', '2019-09-12', '2019-10-09', '2019-08-07']",
+    "ground_truth": [
+      "2019-12-02",
+      "2019-09-12",
+      "2019-10-09",
+      "2019-08-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "151",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00055.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00013",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 895 during 2022 that exhibit the trend pattern 'slow rise, then fall', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-09-30', '2022-10-23', '2022-09-20', '2022-01-21']",
+    "ground_truth": [
+      "2022-09-30",
+      "2022-10-23",
+      "2022-09-20",
+      "2022-01-21"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "895",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00013.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00045",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 727 during 2019 that exhibit the trend pattern 'rise, then fluctuating stable, then slow fall', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-05-02', '2019-03-11', '2019-09-23', '2019-01-25', '2019-12-24', '2019-02-16']",
+    "ground_truth": [
+      "2019-05-02",
+      "2019-03-11",
+      "2019-09-23",
+      "2019-01-25",
+      "2019-12-24",
+      "2019-02-16"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "727",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00045.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00068",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 865 during 2020 that exhibit the trend pattern 'slow fall, then slow rise, then rise, then rapid rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-10-31', '2020-12-09', '2020-07-06', '2020-10-07']",
+    "ground_truth": [
+      "2020-10-31",
+      "2020-12-09",
+      "2020-07-06",
+      "2020-10-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "865",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00068.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00087",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 729 during 2022 that exhibit the trend pattern 'slow rise, then steady stable, then rapid fall', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-03-28', '2022-11-19', '2022-02-25', '2022-08-26']",
+    "ground_truth": [
+      "2022-03-28",
+      "2022-11-19",
+      "2022-02-25",
+      "2022-08-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "729",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00087.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00088",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 683 during 2023 that exhibit the trend pattern 'fall, then rapid fall, then fluctuating stable, then steady stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-08-28', '2023-04-01', '2023-04-19', '2023-11-06', '2023-01-20', '2023-12-19']",
+    "ground_truth": [
+      "2023-08-28",
+      "2023-04-01",
+      "2023-04-19",
+      "2023-11-06",
+      "2023-01-20",
+      "2023-12-19"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "683",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00088.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00001",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 71 during 2020 that exhibit the trend pattern 'slow fall, then fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-06-26', '2020-05-16', '2020-06-04', '2020-04-18']",
+    "ground_truth": [
+      "2020-06-26",
+      "2020-05-16",
+      "2020-06-04",
+      "2020-04-18"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "71",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00001.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00061",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 626 during 2023 that exhibit the trend pattern 'fall, then slow rise, then slow fall, then steady stable', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-01-02', '2023-12-04', '2023-11-13', '2023-03-08']",
+    "ground_truth": [
+      "2023-01-02",
+      "2023-12-04",
+      "2023-11-13",
+      "2023-03-08"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "626",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00061.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00029",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 683 during 2023 that exhibit the trend pattern 'slow fall, then fall, then slow rise, then fall', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-09-04', '2023-05-10', '2023-05-22', '2023-10-19', '2023-11-07', '2023-02-12']",
+    "ground_truth": [
+      "2023-09-04",
+      "2023-05-10",
+      "2023-05-22",
+      "2023-10-19",
+      "2023-11-07",
+      "2023-02-12"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "683",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00029.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00059",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 155 during 2022 that exhibit the trend pattern 'slow fall, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-10-13', '2022-09-17', '2022-10-19', '2022-07-22', '2022-02-16', '2022-10-29']",
+    "ground_truth": [
+      "2022-10-13",
+      "2022-09-17",
+      "2022-10-19",
+      "2022-07-22",
+      "2022-02-16",
+      "2022-10-29"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "155",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00059.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00093",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MUFL during 2017 that exhibit the trend pattern 'rapid fall, then steady stable, then rapid rise', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-02-27', '2017-11-25', '2017-02-23', '2017-11-01']",
+    "ground_truth": [
+      "2017-02-27",
+      "2017-11-25",
+      "2017-02-23",
+      "2017-11-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00093.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00051",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel MULL during 2017 that exhibit the trend pattern 'rapid rise, then rapid fall, then steady stable', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-01-16', '2017-10-27', '2017-04-12', '2017-02-15']",
+    "ground_truth": [
+      "2017-01-16",
+      "2017-10-27",
+      "2017-04-12",
+      "2017-02-15"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "MULL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00051.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00081",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 177 during 2020 that exhibit the trend pattern 'rapid fall, then slow fall, then steady stable', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-11-01', '2020-07-28', '2020-07-31', '2020-03-10']",
+    "ground_truth": [
+      "2020-11-01",
+      "2020-07-28",
+      "2020-07-31",
+      "2020-03-10"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "177",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00081.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00029",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 895 during 2021 that exhibit the trend pattern 'rapid fall, then steady stable', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-09-12', '2021-12-22', '2021-02-12', '2021-01-05']",
+    "ground_truth": [
+      "2021-09-12",
+      "2021-12-22",
+      "2021-02-12",
+      "2021-01-05"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "895",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00029.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00046",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 895 during 2022 that exhibit the trend pattern 'slow fall, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-03-27', '2022-12-12', '2022-02-21', '2022-03-07']",
+    "ground_truth": [
+      "2022-03-27",
+      "2022-12-12",
+      "2022-02-21",
+      "2022-03-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "895",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00046.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00043",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 754 during 2020 that exhibit the trend pattern 'rapid rise, then slow fall, then rise, then slow fall', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-08-14', '2020-10-29', '2020-03-02', '2020-09-03']",
+    "ground_truth": [
+      "2020-08-14",
+      "2020-10-29",
+      "2020-03-02",
+      "2020-09-03"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "754",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00043.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00044",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 627 during 2023 that exhibit the trend pattern 'steady stable, then fall, then rapid fall', identify the top-6 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-11-27', '2023-12-12', '2023-04-18', '2023-09-30', '2023-07-04', '2023-02-09']",
+    "ground_truth": [
+      "2023-11-27",
+      "2023-12-12",
+      "2023-04-18",
+      "2023-09-30",
+      "2023-07-04",
+      "2023-02-09"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "627",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00044.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00031",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel OT during 2017 that exhibit the trend pattern 'slow rise, then rise, then steady stable, then rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-10-17', '2017-12-25', '2017-10-05', '2017-11-17']",
+    "ground_truth": [
+      "2017-10-17",
+      "2017-12-25",
+      "2017-10-05",
+      "2017-11-17"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "OT",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00031.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00049",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel HUFL during 2017 that exhibit the trend pattern 'steady stable, then rapid rise, then fall', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-01-03', '2017-12-11', '2017-07-28', '2017-12-21']",
+    "ground_truth": [
+      "2017-01-03",
+      "2017-12-11",
+      "2017-07-28",
+      "2017-12-21"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "HUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00049.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00067",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 727 during 2022 that exhibit the trend pattern 'rapid fall, then rapid rise, then rise', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-07-18', '2022-12-25', '2022-02-20', '2022-10-09', '2022-10-17', '2022-01-25']",
+    "ground_truth": [
+      "2022-07-18",
+      "2022-12-25",
+      "2022-02-20",
+      "2022-10-09",
+      "2022-10-17",
+      "2022-01-25"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "727",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00067.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00002",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 123 during 2019 that exhibit the trend pattern 'steady stable, then rapid fall, then slow rise', identify the top-4 days where the rapid fall segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-02-27', '2019-01-31', '2019-02-12', '2019-03-11']",
+    "ground_truth": [
+      "2019-02-27",
+      "2019-01-31",
+      "2019-02-12",
+      "2019-03-11"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "123",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00002.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00027",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 173 during 2022 that exhibit the trend pattern 'slow fall, then fall, then rapid fall, then steady stable', identify the top-6 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-05-20', '2022-05-31', '2022-07-06', '2022-11-27', '2022-09-02', '2022-07-01']",
+    "ground_truth": [
+      "2022-05-20",
+      "2022-05-31",
+      "2022-07-06",
+      "2022-11-27",
+      "2022-09-02",
+      "2022-07-01"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "173",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00027.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00082",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 166 during 2021 that exhibit the trend pattern 'fall, then slow rise, then fluctuating stable, then rapid rise', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-12-13', '2021-12-18', '2021-02-14', '2021-11-11', '2021-03-15', '2021-07-24']",
+    "ground_truth": [
+      "2021-12-13",
+      "2021-12-18",
+      "2021-02-14",
+      "2021-11-11",
+      "2021-03-15",
+      "2021-07-24"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "166",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00082.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00027",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 811 during 2021 that exhibit the trend pattern 'steady stable, then fall, then rise, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-08-23', '2021-09-05', '2021-11-09', '2021-09-09']",
+    "ground_truth": [
+      "2021-08-23",
+      "2021-09-05",
+      "2021-11-09",
+      "2021-09-09"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "811",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00027.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00048",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 891 during 2020 that exhibit the trend pattern 'rapid rise, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-09-20', '2020-07-07', '2020-07-30', '2020-01-14', '2020-06-19', '2020-02-23']",
+    "ground_truth": [
+      "2020-09-20",
+      "2020-07-07",
+      "2020-07-30",
+      "2020-01-14",
+      "2020-06-19",
+      "2020-02-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "891",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00048.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00034",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 933 during 2020 that exhibit the trend pattern 'fall, then steady stable, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-03-18', '2020-08-09', '2020-12-02', '2020-06-19', '2020-07-12', '2020-12-15']",
+    "ground_truth": [
+      "2020-03-18",
+      "2020-08-09",
+      "2020-12-02",
+      "2020-06-19",
+      "2020-07-12",
+      "2020-12-15"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "933",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00034.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00033",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 71 during 2019 that exhibit the trend pattern 'rise, then rapid rise', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-07-15', '2019-09-09', '2019-07-26', '2019-09-24']",
+    "ground_truth": [
+      "2019-07-15",
+      "2019-09-09",
+      "2019-07-26",
+      "2019-09-24"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "71",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00033.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00072",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 67 during 2023 that exhibit the trend pattern 'slow rise, then rapid rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2023-11-17', '2023-10-14', '2023-10-29', '2023-04-23']",
+    "ground_truth": [
+      "2023-11-17",
+      "2023-10-14",
+      "2023-10-29",
+      "2023-04-23"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "67",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00072.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00026",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 754 during 2022 that exhibit the trend pattern 'slow fall, then steady stable, then slow fall, then slow rise', identify the top-4 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-10-18', '2022-10-21', '2022-02-04', '2022-11-16']",
+    "ground_truth": [
+      "2022-10-18",
+      "2022-10-21",
+      "2022-02-04",
+      "2022-11-16"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "754",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00026.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00050",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel HUFL during 2017 that exhibit the trend pattern 'fall, then rapid rise', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2017-07-03', '2017-06-30', '2017-10-31', '2017-12-03', '2017-11-28', '2017-06-21']",
+    "ground_truth": [
+      "2017-07-03",
+      "2017-06-30",
+      "2017-10-31",
+      "2017-12-03",
+      "2017-11-28",
+      "2017-06-21"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "HUFL",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00050.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00086",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 501 during 2020 that exhibit the trend pattern 'rapid fall, then rise, then rapid rise', identify the top-6 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2020-02-07', '2020-12-18', '2020-09-23', '2020-05-13', '2020-09-09', '2020-05-26']",
+    "ground_truth": [
+      "2020-02-07",
+      "2020-12-18",
+      "2020-09-23",
+      "2020-05-13",
+      "2020-09-09",
+      "2020-05-26"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "501",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00086.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00065",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 625 during 2022 that exhibit the trend pattern 'rise, then fluctuating stable', identify the top-6 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-04-08', '2022-11-18', '2022-01-25', '2022-12-30', '2022-06-21', '2022-12-02']",
+    "ground_truth": [
+      "2022-04-08",
+      "2022-11-18",
+      "2022-01-25",
+      "2022-12-30",
+      "2022-06-21",
+      "2022-12-02"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "625",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00065.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C1_00061",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 177 during 2021 that exhibit the trend pattern 'steady stable, then slow rise', identify the top-6 days where the slow rise segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-11-25', '2021-11-10', '2021-12-14', '2021-05-21', '2021-02-03', '2021-08-07']",
+    "ground_truth": [
+      "2021-11-25",
+      "2021-11-10",
+      "2021-12-14",
+      "2021-05-21",
+      "2021-02-03",
+      "2021-08-07"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "177",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C1_00061.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00075",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 124 during 2019 that exhibit the trend pattern 'steady stable, then fluctuating stable', identify the top-4 days where the fluctuating stable segment is the most fluctuating. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2019-03-29', '2019-10-14', '2019-10-16', '2019-11-09']",
+    "ground_truth": [
+      "2019-03-29",
+      "2019-10-14",
+      "2019-10-16",
+      "2019-11-09"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "124",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00075.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00020",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 578 during 2021 that exhibit the trend pattern 'fall, then slow rise, then slow fall, then fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-02-14', '2021-09-21', '2021-11-22', '2021-06-12']",
+    "ground_truth": [
+      "2021-02-14",
+      "2021-09-21",
+      "2021-11-22",
+      "2021-06-12"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "578",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00020.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00091",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 933 during 2022 that exhibit the trend pattern 'rapid rise, then fluctuating stable, then steady stable, then fluctuating stable', identify the top-4 days where the rapid rise segment is the fastest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2022-03-07', '2022-11-26', '2022-02-06', '2022-02-27']",
+    "ground_truth": [
+      "2022-03-07",
+      "2022-11-26",
+      "2022-02-06",
+      "2022-02-27"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "933",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00091.csv"
+  },
+  {
+    "id": "L3_T1_Composite_Trend_C0_00059",
+    "level": 3,
+    "level_name": "Semantic Reasoning",
+    "category": "Composite Trend",
+    "subtask": "Composite Trend",
+    "question": "Among days in channel 589 during 2021 that exhibit the trend pattern 'steady stable, then slow fall, then fall', identify the top-4 days where the slow fall segment is the slowest. (Output format: a ranked list of dates, e.g., ['YYYY-MM-DD', ...])",
+    "answer": "['2021-06-04', '2021-03-20', '2021-08-27', '2021-06-19']",
+    "ground_truth": [
+      "2021-06-04",
+      "2021-03-20",
+      "2021-08-27",
+      "2021-06-19"
+    ],
+    "eval_metric": "set_f1",
+    "channel": "589",
+    "ts_data_path": "ts_data/L3_T1_Composite_Trend_C0_00059.csv"
+  }
+]

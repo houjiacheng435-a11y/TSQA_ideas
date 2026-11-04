@@ -14,7 +14,7 @@ from phase2_experiment import source_metadata, train_run, write_json
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=Path("results/phase2/main"))
+    parser.add_argument("--output", type=Path, default=Path("results/main"))
     parser.add_argument("--resume", action="store_true")
     opts = parser.parse_args()
     torch.set_num_threads(4)

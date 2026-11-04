@@ -1,0 +1,24 @@
+{
+  "initial_filename_based_pass": {
+    "requests": 12,
+    "bytes": 36372284,
+    "selection": "每个训练版本、候选任务按 ID 排序取两题",
+    "note": "当时只按题号文件名复用，后续指纹审计发现以下已有内容别名；已修正入口，保留实际请求总量，不声称这些是独立新增信号",
+    "previous_content_aliases": [
+      {
+        "id": "L1_T2_Temporal_Localization_00179",
+        "previous_local_alias": "complementary-ts-retrieval/data/v020-evidence-fidelity/native/L1_T1_Global_Aggregation_00009.csv",
+        "bytes": 4529600
+      },
+      {
+        "id": "L1_T3_Interval_Discovery_00347",
+        "previous_local_alias": "complementary-ts-retrieval/data/v020-evidence-fidelity/native/L1_T1_Global_Aggregation_00009.csv",
+        "bytes": 4529600
+      }
+    ]
+  },
+  "content_hash_reuse_recheck": {
+    "network_requests": 0,
+    "all_twelve_reused": true
+  }
+}

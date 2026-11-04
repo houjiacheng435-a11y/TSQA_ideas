@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-ROOT = Path(__file__).parent / "results" / "phase2"
+ROOT = Path(__file__).parent / "results"
 MAIN = ROOT / "main"
 OUT = ROOT / "analysis"
 
