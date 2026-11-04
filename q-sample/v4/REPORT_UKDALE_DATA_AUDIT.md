@@ -237,13 +237,119 @@ Localization 有 1–3 个 target 和至多一个同 regime 插入干扰，Multi
 
 建议先用小型顺序编码器（少层 Transformer 或时序卷积）处理**采样值、明确声明的时间特征和 Query**。主答案头不能直接读 density、粗 encoder、原序列全局统计、事件标签或 source metadata。仅增加“必须经过信号投影”的门控无法从理论上阻断信息旁路，仍须干预验证。
 
-- Existence/Ordering：与原问句对应的 Boolean CE/BCE；Ordering 必须能识别两类事件并保留序列先后，不能只做交换不变的 mean/max。
-- Counting：0–5 的六类 CE 或有序计数分布，输出官方整数；并列 MAE。不能把非零改成 Yes。
-- Localization/Comparison/Multi-Hop：从观测波形 token 提取候选，再用 Query 选择 start/end 指针，必要时预测相邻点内偏移；映射为相对秒数并按原格式序列化。训练可用软指针/Huber/可微区间 IoU，评估仍用官方字符串评分。稀疏点可能遗漏边界，真实可识别性需由 Oracle 验证。
+- Existence：单 logit 的二分类答案，使用下文明确的 BCE；Ordering 同属 Boolean 输出，但必须能识别两类事件并保留序列先后，不能只做交换不变的 mean/max。
+- Counting：首轮固定为 0–5 的六类 CE，输出官方整数，并列 MAE；不把非零改成 Yes，不在首轮混用回归或有序计数目标。
+- Localization：首轮固定为从采样 token 表示预测有序连续起止点，使用下文的 Smooth L1 + 区间 IoU 损失；不把答案映射成“最近采样点”的硬标签。Comparison/Multi-Hop 同为区间输出，但候选识别与关系推理仍须分别验证。软指针属于后续独立消融，不与首轮定义混用。
 - Antecedent/State Query：十类设备 CE，输出规范官方类名；保留 Question-only 和类别先验对照。
 - 泛化自由文本/解释没有在这十类结构化任务上被要求，不能为了避开 LLM 更改答案语义。
 
-定位指针天然能从坐标输出答案，必须用 Coordinate-only 与波形替换检查它是否真的识别设备。共享头既要在 full-signal 和强盲网格上有能力，也不能只适配某个 Oracle 网格；训练头的所有额外监督与方法需公平匹配。
+定位答案头能从坐标输出答案，必须用 Coordinate-only 与波形替换检查它是否真的识别设备。共享头既要在 full-signal 和强盲网格上有能力，也不能只适配某个 Oracle 网格；训练头的所有额外监督与方法需公平匹配。
+
+#### 首轮答案损失的数学定义
+
+以下是**下一轮最小实现的明确规格，本轮仅补充文档，尚未实现或训练验证**。三种任务各使用原始官方答案；只有 Localization 的时间字符串被无损解析成数值端点，推理后再序列化回官方格式。不会为同一道题新增官方未提供的其他任务答案。
+
+设原始输入为 $X\in\mathbb R^{L\times C}$，间隔 $\Delta t=6$ 秒，窗口时长 $T=L\Delta t$。密度网络参数为 $\theta$，答案头参数为 $\phi$，冻结文本编码得到 $e_Q$。统一前向链路为
+
+$$
+p_\theta(X,Q)\in\Delta^{L-1},\qquad
+G_\theta=\operatorname{InvCDF}(p_\theta),\qquad
+Z_j=\operatorname{Interp}\!\left(X,(L-1)G_{\theta,j}\right),
+$$
+$$
+\tau_j=\Delta t\,(L-1)G_{\theta,j},\qquad
+H=R_\phi\!\left(Z,\mathcal T(G_\theta,T),e_Q\right).
+$$
+
+$\Delta^{L-1}$ 表示总和为 1 的概率质量向量；$G\in[0,1]^N$ 是固定 N 点网格，$H$ 是顺序答案编码器输出。$\mathcal T$ 是声明过的时间模式：Signal Only 时为空，时间模式可使用 $\tau/T$ 或相邻真实秒数差。**最后一个观测点是 $(L-1)\Delta t$，窗口右边界是 $L\Delta t$**，二者不能混用；事件区间采用半开区间，其结束点可以等于 T。
+
+Existence/Counting 的首轮主读出使用 Signal Only 加 token 顺序和 Query；Localization 使用 Signal + 窗口相对绝对时间，并保留 Signal Only、Signal + Δt 作为可识别性对照。每项采样方法使用相同读出协议。答案头没有从 $p_\theta$、粗特征或标签元数据直达输出的支路。
+
+**Existence：Bernoulli 负对数似然。** 将官方 Yes/No 映射为 $y\in\{1,0\}$。由答案头输出单个 logit $a=f^{\rm exist}_\phi(H,e_Q)$，$\hat p=\sigma(a)$：
+
+$$
+\mathcal L_{\rm exist}
+=-y\log\hat p-(1-y)\log(1-\hat p)
+=\operatorname{softplus}(a)-ya.
+$$
+
+实现用 `binary_cross_entropy_with_logits`，避免先 sigmoid 再取 log。首轮采用无类别权重的 BCE，$\hat p\ge0.5$ 输出 Yes，否则 No；阈值只在推理/评分时使用。类别先验基线另报，不能用验证或测试标签调整权重。
+
+**Counting：六类 categorical 负对数似然。** 保留官方计数 $c\in\{0,1,2,3,4,5\}$，答案头输出六维 logits $b=f^{\rm count}_\phi(H,e_Q)$，$\pi_k=\operatorname{softmax}(b)_k$：
+
+$$
+\mathcal L_{\rm count}
+=-\sum_{k=0}^{5}\mathbf{1}[c=k]\log\pi_k
+=-b_c+\log\sum_{k=0}^{5}\exp(b_k).
+$$
+
+实现用 `cross_entropy`；推理取 $\hat c=\arg\max_k\pi_k$，输出其整数字符串。MAE $|\hat c-c|$ 是附加评价指标，不通过不可微的 argmax 训练。未来超出 0–5 的任务须另行声明输出空间，不能把较大计数裁成 5。
+
+**Localization：有序连续端点 + Smooth L1 + 区间 IoU。** 将官方答案解析成相对秒数 $[s^*,e^*)$，满足 $0\le s^*<e^*\le T$，记归一化标签 $u^*=s^*/T$、$v^*=e^*/T$。答案头由采样表示输出两个无约束实数 $(a_s,a_e)=f^{\rm loc}_\phi(H,e_Q)$，使用
+
+$$
+\hat u=\sigma(a_s),\qquad
+\hat v=\hat u+(1-\hat u)\sigma(a_e),\qquad
+\hat s=T\hat u,\quad \hat e=T\hat v.
+$$
+
+该参数化在精确实数运算下保证 $0<\hat u<\hat v<1$，标签允许边界 0 和 1；实现需监测浮点饱和或区间退化。定义无量纲 Smooth L1（即 Huber 除以其转折宽度）为
+
+$$
+\ell_\delta(r)=
+\begin{cases}
+\dfrac{r^2}{2\delta},& |r|<\delta,\\
+|r|-\dfrac\delta2,& |r|\ge\delta,
+\end{cases}
+\qquad \delta=\frac{\Delta t}{T}=\frac1L.
+$$
+
+转折宽度对应一个原始采样间隔，而不是一个自适应 token 间距。对归一化区间定义
+
+$$
+I=\big[\min(\hat v,v^*)-\max(\hat u,u^*)\big]_+,\qquad
+U=(\hat v-\hat u)+(v^*-u^*)-I,
+$$
+$$
+\operatorname{IoU}=\frac{I}{\max(U,\varepsilon)},\qquad
+\mathcal L_{\rm loc}
+=\frac12\left[\ell_\delta(\hat u-u^*)+\ell_\delta(\hat v-v^*)\right]
++\gamma\bigl(1-\operatorname{IoU}\bigr).
+$$
+
+首轮规格固定 $\gamma=1$、$\varepsilon=10^{-8}$，二者写入配置而非按测试集选择。`min/max/ReLU` 使 IoU 项分段可微；预测区间与标签不相交时该项可能没有有效梯度，端点 Smooth L1 仍提供纠偏信号。损失前不做取整、硬指针选择或 IoU≥0.25 判定；这些操作不进入反向传播。原官方 IoU≥0.25 正确率、连续 IoU 和以秒为单位的端点 MAE 都须报告。
+
+这是**从采样证据预测答案端点**的 QA 回归，不是直接从粗 encoder 回归位置，也不是完整采样密度的监督。能够拟合端点仍不证明波形充分：时间通道可能承载答案，Coordinate-only/Zero-Signal 对照不可省略。该定义没有消除稀疏输入遗漏设备形态或边界的风险。
+
+**与密度分支的联合目标及梯度路径。** 对 batch 内实际存在的官方任务，取
+
+$$
+\mathcal L_{\rm QA}=\frac1B\sum_{i=1}^{B}
+\mathcal L_{\operatorname{task}(i)}(\hat y_i,y_i),\qquad
+\mathcal L_{\rm density}=\frac1B\sum_{i=1}^{B}\sum_{\ell=1}^{L_i}
+q_{i\ell}\log\frac{q_{i\ell}}{p_{\theta,i\ell}},
+$$
+$$
+\mathcal L_{\rm total}=\beta\,\mathcal L_{\rm QA}
++\lambda\,\mathcal L_{\rm density}.
+$$
+
+$q$ 只由合法训练标签构造，并与前向中**上采样后重新归一化**的概率质量 $p_\theta$ 使用同一分箱定义；$q=0$ 的项按 0 处理，$p_\theta>0$。没有适用位置代理的题令其 density 项为 0，并单独记录数量；不能读答案构造推理输入。单任务实验直接使用对应 $\mathcal L_{\rm QA}$，不需要额外任务权重。
+
+三个训练条件固定区分为：QA Only 为 $(\beta,\lambda)=(1,0)$；Density Warm-up 的阶段为 $(0,1)$、只更新采样器，随后切到 $(1,0)$ 联合训练答案头与采样器；QA+Density 为 $(1,\lambda_{\rm aux})$，其中正数 $\lambda_{\rm aux}$ 和 warm-up 步数须在训练前由开发协议声明，不能用测试选择。辅助项是否有效尚未验证。
+
+仅考虑 QA 项，其到密度网络的链式法则可写为（各导数按兼容的 Jacobian 方向排列）
+
+$$
+\frac{\partial\mathcal L_{\rm QA}}{\partial\theta}
+=\left(
+\frac{\partial\mathcal L_{\rm QA}}{\partial Z}\frac{\partial Z}{\partial G}
++\frac{\partial\mathcal L_{\rm QA}}{\partial\mathcal T}\frac{\partial\mathcal T}{\partial G}
+\right)
+\frac{\partial G}{\partial p_\theta}\frac{\partial p_\theta}{\partial\theta}.
+$$
+
+Signal Only 时第二项不存在；时间模式则显式保留它，分别诊断波形路径与坐标路径。辅助 KL 另外直接提供到 $p_\theta$ 的梯度。逆 CDF、插值及上述区间损失只保证分段/几乎处处可微，**不保证梯度足够强或采样器收敛**；冻结答案头参数做 QA 微调对照时，也不能用 `no_grad` 或 detach 切断其输入梯度。
 
 ## 10. 下一轮最小实验与进入训练的门槛
 
